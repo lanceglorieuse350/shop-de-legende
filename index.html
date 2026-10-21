@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
 <!-- ============================================================
@@ -1299,7 +1299,7 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
 <body>
 
 <!-- ============================================================
-     4.0 — MODE MAINTENANCE
+     4.0 — MODE MAINTENANCE (page cachée par défaut)
      ============================================================ -->
 <div id="maintenance-page">
     <div class="maintenance-wrap">
@@ -1312,7 +1312,12 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
             <a href="mailto:lanceglorieuse@gmail.com" class="maintenance-btn-gold">📧 Nous contacter</a>
             <a href="tel:0780204749" class="maintenance-btn-outline">📞 07.80.20.47.49</a>
         </div>
-        <p class="maintenance-copyright">© 2026 GUILLET IV — L'Ordre de l'Indépendance</p>
+        <p class="maintenance-copyright">
+            © 2026 GUILLET IV — L'Ordre de l'Indépendance
+            <a href="javascript:void(0)" onclick="desactiverMaintenance()"
+               style="opacity:0.25; margin-left:1rem; text-decoration:none; font-size:1rem; color:#888;"
+               title="Désactiver la maintenance (admin)">⚙️</a>
+        </p>
     </div>
 </div>
 
@@ -1647,7 +1652,6 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
                         <li>Laisser charger le panneau solaire</li>
                     </ul>
                 </div>
-                <!-- Lien de paiement corrigé en Base64 pour le projecteur -->
                 <a class="payment-btn" href="#" onclick="event.preventDefault(); payer('aHR0cHM6Ly9idXkuc3RyaXBlLmNvbS9kUm1mWjBOUUlkMXUxQno3YXAwWlcwMg==');">💳 Payer maintenant — 35 €</a>
             </div>
         </div>
@@ -2267,7 +2271,7 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
     <p>© 2026 GUILLET IV — L'Ordre de l'Indépendance</p>
     <a class="tiktok-footer" href="https://www.tiktok.com/@lanceglorieuse?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">🎵 Suivez-nous sur TikTok</a>
     <p style="margin-top:2rem;">
-        <a href="javascript:void(0)" onclick="(etatMaintenance().includes('ACTIVE') ? desactiverMaintenance() : activerMaintenance())" style="font-size:0.75rem; opacity:0.35; text-decoration:none;" title="Admin : basculer maintenance">⚙️</a>
+        <a href="javascript:void(0)" onclick="etatMaintenance() ? desactiverMaintenance() : activerMaintenance()" style="font-size:0.75rem; opacity:0.35; text-decoration:none;" title="Admin : basculer maintenance">⚙️</a>
     </p>
 </footer>
 
@@ -2307,16 +2311,16 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
 
 
 <!-- ============================================================
-     SECTION 5.5 : MODE MAINTENANCE — SCRIPT DE GESTION
+     SECTION 5.5 : MODE MAINTENANCE — SCRIPT DE GESTION (CORRIGÉ)
      ============================================================ -->
 <script>
 (function(){
     "use strict";
-    
+
     const CLE_STORAGE = "guillet_maintenance";
-    
+
     function getMaintenancePage() { return document.getElementById("maintenance-page"); }
-    
+
     function getContenuSite() {
         return [
             document.querySelector(".navbar"),
@@ -2330,78 +2334,118 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
             document.getElementById("top")
         ].filter(Boolean);
     }
-    
+
+    /**
+     * Applique ou retire le mode maintenance.
+     * - mémorise le display d'origine de chaque élément pour le restaurer proprement
+     * - recalcule ensuite les états métier (bouton #top, chatbot fermé, etc.)
+     */
     function appliquerEtat(actif) {
         const pageMaintenance = getMaintenancePage();
         const elements = getContenuSite();
-        
+
         if (!pageMaintenance) {
             console.warn("⚠️ Page maintenance introuvable.");
             return;
         }
-        
+
         if (actif) {
-            elements.forEach(el => { el.style.display = "none"; });
+            // On mémorise le style.display d'origine AVANT de masquer
+            elements.forEach(el => {
+                if (!el.dataset.maintDisplay) {
+                    el.dataset.maintDisplay = el.style.display || "__DEFAULT__";
+                }
+                el.style.display = "none";
+            });
             pageMaintenance.style.display = "block";
             document.title = "🔧 Maintenance — GUILLET IV";
             document.body.style.overflow = "auto";
         } else {
-            elements.forEach(el => { el.style.display = ""; });
+            // On restaure exactement le display d'origine
+            elements.forEach(el => {
+                const saved = el.dataset.maintDisplay;
+                el.style.display = (saved && saved !== "__DEFAULT__") ? saved : "";
+                delete el.dataset.maintDisplay;
+            });
             pageMaintenance.style.display = "none";
             document.title = "GUILLET IV — L'Ordre de l'Indépendance";
             document.body.style.overflow = "";
+
+            // Recalcul des états métier après restauration
+            if (typeof window.actualiserBoutonHaut === "function") {
+                setTimeout(window.actualiserBoutonHaut, 0);
+            }
+            const cw = document.getElementById("chatbot-window");
+            if (cw && !window.chatOuvert) cw.classList.remove("open");
         }
-        
+
         try {
             localStorage.setItem(CLE_STORAGE, actif ? "on" : "off");
         } catch(e) {}
-        
+
         console.log(
             "%c🔧 MODE MAINTENANCE : " + (actif ? "ACTIVÉ ✅" : "DÉSACTIVÉ ❌"),
             "color:" + (actif ? "#e10600" : "#00aa00") + "; font-size:16px; font-weight:bold;"
         );
     }
-    
+
+    /** Active la maintenance (bouton ou code) */
     window.activerMaintenance = function() {
         appliquerEtat(true);
-        try { history.replaceState(null, null, "?maintenance=on"); } catch(e){}
         return "✅ Maintenance ACTIVÉE. Le site est masqué.";
     };
-    
+
+    /** Désactive la maintenance (bouton ou code) */
     window.desactiverMaintenance = function() {
         appliquerEtat(false);
-        try { history.replaceState(null, null, "?maintenance=off"); } catch(e){}
         return "❌ Maintenance DÉSACTIVÉE. Le site est de nouveau visible.";
     };
-    
+
+    /** Renvoie un vrai booléen (plus de .includes('ACTIVE')) */
     window.etatMaintenance = function() {
-        const v = localStorage.getItem(CLE_STORAGE);
-        return v === "on" ? "🔧 Maintenance ACTIVE" : "✅ Site NORMAL";
+        try {
+            return localStorage.getItem(CLE_STORAGE) === "on";
+        } catch(e) {
+            return false;
+        }
     };
-    
+
+    /** Version texte, si tu veux l'afficher quelque part */
+    window.etatMaintenanceTexte = function() {
+        return window.etatMaintenance()
+            ? "🔧 Maintenance ACTIVE"
+            : "✅ Site NORMAL";
+    };
+
+    /* ----------------------------------------------------------
+       INITIALISATION
+       Priorité : 1) ?maintenance dans l'URL  2) localStorage  3) valeur par défaut
+       ---------------------------------------------------------- */
     document.addEventListener("DOMContentLoaded", function() {
         const params = new URLSearchParams(window.location.search);
-        const param = params.get("maintenance");
-        
-        // 👇 LIGNE CORRIGÉE : Le site est ouvert par défaut (null)
-        let etat = null;
-        
-        if (param === "on") {
-            etat = true;
-        } else if (param === "off") {
-            etat = false;
-        } else {
+        const param  = params.get("maintenance");
+
+        // 👇 VALEUR PAR DÉFAUT : false = site accessible
+        //    Mets true si tu veux démarrer en maintenance par défaut.
+        let etat = false;
+
+        // 1) Priorité au paramètre d'URL
+        if (param === "on")  etat = true;
+        else if (param === "off") etat = false;
+        // 2) Sinon on relit localStorage
+        else {
             try {
                 const saved = localStorage.getItem(CLE_STORAGE);
-                if (saved === "on") etat = true;
+                if (saved === "on")  etat = true;
                 else if (saved === "off") etat = false;
+                // sinon on garde la valeur par défaut (false)
             } catch(e) {}
         }
-        
-        if (etat !== null) {
-            appliquerEtat(etat);
-        }
-        
+
+        // On applique systématiquement l'état calculé
+        appliquerEtat(etat);
+
+        // On nettoie l'URL si un paramètre maintenance y était
         if (param) {
             try {
                 const url = new URL(window.location.href);
@@ -2938,115 +2982,7 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
             "Sommaire de la prévention harcèlement":"Harassment prevention summary","Sommaire de la prévention cybersécurité":"Cybersecurity prevention summary",
             "🎵 Suivez-nous sur TikTok":"🎵 Follow us on TikTok","📍 Ille-et-Vilaine · 🕒 9h – 20h":"📍 Ille-et-Vilaine · 🕒 9am – 8pm",
             "🔒 Paiement sécurisé — 🚚 Livraison rapide":"🔒 Secure payment — 🚚 Fast delivery",
-            "© 2026 GUILLET IV — L'Ordre de l'Indépendance":"© 2026 GUILLET IV — The Order of Independence",
-            "Dominez le ciel… ou il vous dominera. Soyez des yeux sans avoir besoin de voir.":"Dominate the sky… or it will dominate you. Be the eyes without needing to see.",
-            "Un drone conçu pour les créateurs, les explorateurs et les pilotes ambitieux. Capturez le monde avec une précision chirurgicale.":"A drone designed for creators, explorers and ambitious pilots. Capture the world with surgical precision.",
-            "Le KY108 n'est pas un simple drone : c'est un outil de vision, un instrument de maîtrise, un allié aérien qui transforme chaque vol en expérience futuriste.":"The KY108 is not just a drone: it is a tool of vision, an instrument of mastery, an aerial ally that turns every flight into a futuristic experience.",
-            "Grâce à sa double caméra HD, son zoom 90x, son évitement d'obstacles omnidirectionnel et ses moteurs brushless, il vous offre une stabilité et une puissance que peu de drones de sa catégorie peuvent atteindre.":"Thanks to its dual HD camera, 90x zoom, omnidirectional obstacle avoidance and brushless motors, it offers you stability and power that few drones in its category can achieve.",
-            "Pliable, compact, intelligent : le KY108 est prêt à vous suivre partout.":"Foldable, compact, smart: the KY108 is ready to follow you everywhere.",
-            "Double caméra HD avec zoom 90x":"Dual HD camera with 90x zoom",
-            "Évitement d'obstacles omnidirectionnel":"Omnidirectional obstacle avoidance",
-            "Moteur brushless puissant et durable":"Powerful and durable brushless motor",
-            "Télécommande avec écran FPV intégré":"Remote control with integrated FPV screen",
-            "Drone pliable, facile à transporter":"Foldable drone, easy to transport",
-            "Filmer des paysages en haute qualité":"Film landscapes in high quality",
-            "Créer du contenu pour TikTok et Instagram":"Create content for TikTok and Instagram",
-            "Surveiller une zone dans le respect de la vie privée":"Monitor an area while respecting privacy",
-            "Apprendre le pilotage de drone":"Learn drone piloting",
-            "Réaliser des photos aériennes professionnelles":"Take professional aerial photos",
-            "Déplier le drone et vérifier les hélices.":"Unfold the drone and check the propellers.",
-            "Allumer la télécommande.":"Turn on the remote control.",
-            "Connecter la caméra HD.":"Connect the HD camera.",
-            "Décoller en mode assisté.":"Take off in assisted mode.",
-            "Piloter via l'écran FPV intégré.":"Pilot via the integrated FPV screen.",
-            "Pensez à respecter les règles de vol applicables et la vie privée des personnes filmées.":"Remember to respect applicable flight rules and the privacy of the people filmed.",
-            "Projecteur LED rotatif solaire":"Rotating solar LED projector",
-            "Projecteur LED extérieur solaire avec détecteur PIR et panneaux rotatifs.":"Solar outdoor LED projector with PIR sensor and rotating panels.",
-            "Projecteur LED extérieur alimenté par panneau solaire, équipé d'un détecteur PIR et de panneaux rotatifs.":"Outdoor LED projector powered by a solar panel, equipped with a PIR sensor and rotating panels.",
-            "Sécuriser une entrée":"Secure an entrance",
-            "Éclairer une zone sombre":"Light up a dark area",
-            "Dissuader les intrusions":"Deter intrusions",
-            "Fonctionne sans électricité":"Works without electricity",
-            "Fixer le projecteur sur un mur":"Fix the projector on a wall",
-            "Orienter les panneaux LED":"Orient the LED panels",
-            "Régler le détecteur PIR":"Adjust the PIR sensor",
-            "Laisser charger le panneau solaire":"Let the solar panel charge",
-            "Winter Survival Pack – Édition Premium":"Winter Survival Pack – Premium Edition",
-            "Le pack ultime pour affronter l'hiver, rester au chaud, éclairé et autonome.":"The ultimate pack to face winter, stay warm, lit and autonomous.",
-            "🧤 1. Gants Chauffants Électriques Intelligents (USB)":"🧤 1. Smart Electric Heated Gloves (USB)",
-            "Gants d'hiver haute performance, conçus pour offrir une chaleur immédiate et contrôlée.":"High-performance winter gloves, designed to provide immediate and controlled heat.",
-            "Chauffage double face sur la paume":"Double-sided heating on the palm",
-            "Trois niveaux de température réglables":"Three adjustable temperature levels",
-            "Design tactile":"Touchscreen design",
-            "Fonctionnement via interface USB, compatible powerbank":"USB interface operation, powerbank compatible",
-            "🔦 2. Torches LED Puissantes – Rechargeables USB (x2)":"🔦 2. Powerful LED Torches – USB Rechargeable (x2)",
-            "Lampe tactique ultra lumineuse pour coupures de courant, déplacements nocturnes, voiture.":"Ultra-bright tactical flashlight for power outages, night travel, car.",
-            "7 modes de lumière":"7 light modes",
-            "Rechargeable par USB":"USB Rechargeable",
-            "Batterie intégrée":"Integrated battery",
-            "Résistante aux intempéries":"Weather resistant",
-            "🔋 3. Batterie Externe 12 000 mAh – Spéciale Chauffage USB":"🔋 3. 12,000 mAh Power Bank – Special USB Heating",
-            "Powerbank haute capacité compatible avec tous les appareils USB et vêtements chauffants.":"High-capacity powerbank compatible with all USB devices and heated clothing.",
-            "12 000 mAh → autonomie longue durée":"12,000 mAh → long-lasting battery life",
-            "Sortie 5V 2.4A":"5V 2.4A output",
-            "Compatible iPhone / Samsung / iPad":"Compatible with iPhone / Samsung / iPad",
-            "🛏️ 4. Sac de Couchage Momie Multi-Saison (210 × 75 cm)":"🛏️ 4. Multi-Season Mummy Sleeping Bag (210 × 75 cm)",
-            "Sac de couchage léger, compact et confortable, idéal pour le camping et les situations d'urgence.":"Lightweight, compact and comfortable sleeping bag, ideal for camping and emergency situations.",
-            "Capuche intégrée":"Integrated hood",
-            "Polyester 170T robuste":"Rugged 170T polyester",
-            "Pliable en couette / couverture":"Folds into a duvet / blanket",
-            "Sac de rangement inclus":"Storage bag included",
-            "Endoscope caméra d'inspection avec écran":"Endoscope Inspection Camera with Screen",
-            "Endoscope d'inspection 1080P avec écran intégré 4,3 pouces, câble semi-rigide de 10 mètres, caméra 2.0 MP, éclairage LED réglable et conception IP68 waterproof.":"1080P inspection endoscope with built-in 4.3-inch screen, 10-meter semi-rigid cable, 2.0 MP camera, adjustable LED lighting and IP68 waterproof design.",
-            "L'outil indispensable pour inspecter les zones difficiles d'accès : conduits, moteurs, tuyaux, gaines, installations techniques ou espaces étroits.":"The essential tool for inspecting hard-to-reach areas: ducts, engines, pipes, conduits, technical installations or tight spaces.",
-            "Inspection de moteurs, conduits et tuyaux":"Inspection of engines, ducts and pipes",
-            "Travaux domestiques : plomberie, ventilation, câblage":"Home repairs: plumbing, ventilation, wiring",
-            "Diagnostic mécanique rapide":"Fast mechanical diagnosis",
-            "Contrôle visuel dans les zones sombres":"Visual inspection in dark areas",
-            "Résolution Full HD 1080P":"Full HD 1080P Resolution",
-            "Caméra 2.0 MP avec éclairage LED réglable":"2.0 MP camera with adjustable LED lighting",
-            "Écran intégré 4,3 pouces":"Integrated 4.3-inch screen",
-            "Câble semi-rigide de 10 mètres":"10-meter semi-rigid cable",
-            "Certification IP68 waterproof":"IP68 waterproof certification",
-            "PACK HIVER":"WINTER PACK","NOUVEAU":"NEW",
-            "Vernis Gel UV Semi-Permanent":"Semi-Permanent UV Gel Polish",
-            "Tenue longue durée jusqu'à 21 jours, brillance miroir, 12 teintes disponibles.":"Long-lasting up to 21 days, mirror shine, 12 shades available.",
-            "Kit Manucure Professionnel 12 pièces":"Professional 12-Piece Manicure Kit",
-            "Limes, ciseaux, repousse-peaux, pince, cure-dents… tout pour des ongles parfaits à la maison.":"Files, scissors, cuticle pusher, tweezers, toothpicks… everything for perfect nails at home.",
-            "Huile de Cuticules Vitamine E":"Vitamin E Cuticle Oil",
-            "Nourrit, répare et fortifie les ongles et cuticules. Flacon pompe 15 ml, parfum délicat.":"Nourishes, repairs and strengthens nails and cuticles. 15 ml pump bottle, delicate fragrance.",
-            "Lampe UV LED 48W Professionnelle":"Professional 48W UV LED Lamp",
-            "Séchage rapide, minuterie 30/60/99s, compatible tous gels UV.":"Fast drying, 30/60/99s timer, compatible with all UV gels.",
-            "Kit Capsules &amp; Strass Nail Art":"Nail Art Capsules &amp; Rhinestones Kit",
-            "Plus de 500 capsules + strass autocollants pour créations illimitées.":"Over 500 capsules + self-adhesive rhinestones for unlimited creations.",
-            "Baume Réparateur Ongles Abîmés":"Repairing Balm for Damaged Nails",
-            "Répare les ongles cassants et striés, formule enrichie en kératine et calcium.":"Repairs brittle and ridged nails, formula enriched with keratin and calcium.",
-            "Hydratez vos cuticules chaque soir avec une huile végétale.":"Moisturize your cuticles every evening with vegetable oil.",
-            "Espacez les poses de gel pour laisser respirer vos ongles.":"Space out gel applications to let your nails breathe.",
-            "Protégez vos mains avec des gants pour les tâches ménagères.":"Protect your hands with gloves for household chores.",
-            "Utilisez une base protectrice avant chaque vernis coloré.":"Use a protective base coat before each colored polish.",
-            "Le harcèlement est un délit. Il détruit des vies.":"Harassment is an offense. It destroys lives.",
-            "Que ce soit <strong>physique</strong>, <strong>psychologique</strong> ou <strong>virtuel</strong>, la loi française punit sévèrement les auteurs.":"Whether it is <strong>physical</strong>, <strong>psychological</strong> or <strong>virtual</strong>, French law severely punishes the perpetrators.",
-            "Voici les peines encourues, <strong>seul ou en bande organisée</strong>.":"Here are the penalties incurred, <strong>alone or in an organized group</strong>.",
-            "Propos ou comportements répétés dégradant les conditions de vie, entraînant une altération de la santé physique ou mentale.":"Repeated remarks or behaviors degrading living conditions, leading to an alteration of physical or mental health.",
-            "<strong>Peine de base</strong> (ITT ≤ 8 jours ou aucune ITT)":"<strong>Basic penalty</strong> (ITT ≤ 8 days or no ITT)",
-            "<strong>Circonstance aggravante simple</strong> (ITT > 8 jours, mineur, personne vulnérable, <strong>en ligne</strong>)":"<strong>Simple aggravating circumstance</strong> (ITT > 8 days, minor, vulnerable person, <strong>online</strong>)",
-            "<strong>Deux circonstances aggravantes cumulées</strong>":"<strong>Two aggravated circumstances combined</strong>",
-            "<strong>En bande organisée</strong> (groupe de plusieurs personnes agissant ensemble)":"<strong>In an organized group</strong> (group of several people acting together)",
-            "<strong>⚠️ En bande organisée :</strong> chaque participant peut être poursuivi, même pour un seul message, si le caractère collectif du harcèlement est établi.":"<strong>⚠️ In an organized group:</strong> each participant can be prosecuted, even for a single message, if the collective nature of the harassment is established.",
-            "Harcèlement moral commis par un élève ou un membre du personnel contre un élève du même établissement.":"Moral harassment committed by a student or staff member against a student of the same establishment.",
-            "<strong>Si la victime se suicide ou tente de se suicider</strong>":"<strong>If the victim commits suicide or attempts suicide</strong>",
-            "<strong>En bande organisée</strong> (harcèlement de groupe, cyberharcèlement scolaire collectif)":"<strong>In an organized group</strong> (group harassment, collective school cyberbullying)",
-            "Les faits restent punissables même après la fin de la scolarité.":"The facts remain punishable even after the end of schooling.",
-            "Propos ou comportements à connotation sexuelle ou sexiste répétés, portant atteinte à la dignité ou créant une situation intimidante, hostile ou offensante.":"Repeated remarks or behaviors with sexual or sexist connotations, undermining dignity or creating an intimidating, hostile or offensive situation.",
-            "<strong>Circonstances aggravantes</strong> (abus d'autorité, mineur de 15 ans, personne vulnérable, <strong>en ligne</strong>, plusieurs personnes, etc.)":"<strong>Aggravating circumstances</strong> (abuse of authority, minor under 15, vulnerable person, <strong>online</strong>, several people, etc.)",
-            "<strong>En bande organisée</strong> (le fait que plusieurs personnes agissent ensemble est une circonstance aggravante explicite)":"<strong>In an organized group</strong> (the fact that several people act together is an explicit aggravating circumstance)",
-            "Le harcèlement en ligne ou en groupe est une <strong>circonstance aggravante</strong>. Même si tu n'as envoyé qu'un seul message, liké ou partagé un contenu harcelant, tu peux être poursuivi.":"Online or group harassment is an <strong>aggravating circumstance</strong>. Even if you sent only one message, liked or shared harassing content, you can be prosecuted.",
-            "<strong>Harcèlement moral en ligne</strong> (même sans répétition individuelle, si le groupe agit de manière concertée)":"<strong>Online moral harassment</strong> (even without individual repetition, if the group acts in concert)",
-            "<strong>Harcèlement sexuel à plusieurs</strong>":"<strong>Sexual harassment by several people</strong>",
-            "<strong>Harcèlement avec plusieurs circonstances aggravantes</strong> (mineur, en ligne, en groupe)":"<strong>Harassment with several aggravating circumstances</strong> (minor, online, in a group)",
-            "La loi punit <strong>chaque participant</strong>, pas seulement le meneur.":"The law punishes <strong>each participant</strong>, not just the leader.",
-            "Informations issues du Code pénal français (Légifrance). Dernière mise à jour : 2026.":"Information from the French Penal Code (Legifrance). Last update: 2026."
+            "© 2026 GUILLET IV — L'Ordre de l'Indépendance":"© 2026 GUILLET IV — The Order of Independence"
         },
         ru: {
             "🏠 Accueil":"🏠 Главная","📜 À propos":"📜 О нас","🛒 Boutique":"🛒 Магазин","👕 Vinted":"👕 Vinted",
