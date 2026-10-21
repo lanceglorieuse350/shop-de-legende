@@ -1192,6 +1192,92 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
     .beauty-grid{ gap:2.5rem; }
     .pillars{ gap:2rem; }
 }
+
+/* ------------------------------------------------------------
+   3.20 — MODE MAINTENANCE (page dédiée)
+   ------------------------------------------------------------ */
+#maintenance-page{
+    display:none;
+    position:fixed; inset:0; z-index:99999;
+    background:#050505;
+    overflow-y:auto;
+    background-image:radial-gradient(ellipse at 20% 0%, rgba(255,215,0,0.06), transparent 50%),
+                     radial-gradient(ellipse at 80% 100%, rgba(225,6,0,0.08), transparent 50%);
+}
+#maintenance-page .maintenance-wrap{
+    min-height:100vh;
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    padding:2rem; text-align:center;
+}
+#maintenance-page .maintenance-emblem{
+    width:110px; height:110px; border-radius:50%;
+    background:radial-gradient(circle at 30% 30%, #ff2a2a, #e10600 40%, #000 90%);
+    border:4px solid #ffd700;
+    display:flex; align-items:center; justify-content:center;
+    font-size:2.6rem; font-weight:bold; color:#ffd700;
+    font-family:'Cinzel',serif;
+    box-shadow:0 0 60px rgba(225,6,0,0.6);
+    margin-bottom:2rem;
+    animation:float 4s ease-in-out infinite;
+}
+#maintenance-page h1{
+    font-family:'Cinzel',serif;
+    font-size:clamp(2rem, 5vw, 3.5rem);
+    color:#ffd700; margin:0 0 1rem;
+    letter-spacing:0.08em;
+    text-shadow:0 0 40px rgba(255,215,0,0.4);
+}
+#maintenance-page .maintenance-motto{
+    font-family:'Playfair Display',serif;
+    font-size:clamp(1.1rem, 2vw, 1.5rem);
+    font-style:italic; color:#fff;
+    max-width:700px; margin:0 0 2rem;
+    line-height:1.8;
+}
+#maintenance-page .maintenance-divider{
+    width:80px; height:3px;
+    background:linear-gradient(90deg, transparent, #ffd700, transparent);
+    margin:0 auto 2rem;
+}
+#maintenance-page .maintenance-info{
+    font-family:'Inter',sans-serif;
+    font-size:1rem; color:#aaa;
+    margin:0 0 2rem;
+}
+#maintenance-page .maintenance-actions{
+    display:flex; gap:1rem; flex-wrap:wrap; justify-content:center;
+}
+#maintenance-page .maintenance-btn-gold{
+    display:inline-block; padding:1rem 2rem;
+    background:linear-gradient(135deg,#ffd700,#b8860b);
+    color:#000; font-family:'Cinzel',serif; font-weight:700;
+    border-radius:16px; text-decoration:none;
+    border:2px solid #ffd700;
+    transition:all .2s;
+    box-shadow:0 4px 20px rgba(0,0,0,0.4);
+}
+#maintenance-page .maintenance-btn-gold:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 30px rgba(255,215,0,0.3);
+}
+#maintenance-page .maintenance-btn-outline{
+    display:inline-block; padding:1rem 2rem;
+    background:transparent; color:#ffd700;
+    font-family:'Cinzel',serif; font-weight:700;
+    border-radius:16px; text-decoration:none;
+    border:2px solid #ffd700;
+    transition:all .2s;
+}
+#maintenance-page .maintenance-btn-outline:hover{
+    background:rgba(255,215,0,0.1);
+    transform:translateY(-3px);
+}
+#maintenance-page .maintenance-copyright{
+    margin-top:3rem;
+    font-size:0.85rem; color:#555;
+    font-family:'Inter',sans-serif;
+}
 </style>
 <!-- FIN SECTION 3 (CSS) -->
 
@@ -1211,6 +1297,38 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
      SECTION 4 : CORPS DE LA PAGE (BODY)
      ============================================================ -->
 <body>
+
+<!-- ============================================================
+     4.0 — MODE MAINTENANCE
+     ============================================================
+     
+     UTILISATION :
+     ✅ ACTIVER la maintenance : ajoutez ?maintenance=on à l'URL
+        Ex : https://votresite.com/?maintenance=on
+        Ou tapez dans la console : activerMaintenance()
+     
+     ✅ DÉSACTIVER la maintenance : ajoutez ?maintenance=off à l'URL
+        Ex : https://votresite.com/?maintenance=off
+        Ou tapez dans la console : desactiverMaintenance()
+     
+     ✅ VÉRIFIER l'état : tapez dans la console : etatMaintenance()
+     
+     L'état est mémorisé dans localStorage (persiste après fermeture).
+     ============================================================ -->
+<div id="maintenance-page">
+    <div class="maintenance-wrap">
+        <div class="maintenance-emblem">IV</div>
+        <h1>MAINTENANCE</h1>
+        <p class="maintenance-motto">« Le site GUILLET IV est actuellement en maintenance. Nous revenons très vite. »</p>
+        <div class="maintenance-divider"></div>
+        <p class="maintenance-info">⏳ Travaux en cours — Merci de votre patience</p>
+        <div class="maintenance-actions">
+            <a href="mailto:lanceglorieuse@gmail.com" class="maintenance-btn-gold">📧 Nous contacter</a>
+            <a href="tel:0780204749" class="maintenance-btn-outline">📞 07.80.20.47.49</a>
+        </div>
+        <p class="maintenance-copyright">© 2026 GUILLET IV — L'Ordre de l'Indépendance</p>
+    </div>
+</div>
 
 <!-- ------------------------------------------------------------
    4.1 — Message si JavaScript est désactivé
@@ -1401,7 +1519,7 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
         <option value="Bilar-Phénix.mp3">Bilar – Phénix</option>
         <option value="Cenza-inconnu.mp3">Cenza – Inconnu</option>
         <option value="ConFinement-n°2.mp3">Bilar – ConFinement n°2</option>
-        <option value="Dark Blues.Vol2.mp3">Dark Blues Vol.2</option>
+        <option value="Dark Blues.Vol.mp3">Dark Blues.Vol.mp3</option>
         <option value="IAM-la-fin-de-leur-monde.mp3">IAM – La fin de leur monde</option>
         <option value="Issaba-Tu-connais.mp3">Issaba – Tu connais</option>
         <option value="kery-James.mp3">Kery James – Post-Scriptum</option>
@@ -1474,10 +1592,10 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
                 <img src="photo2.png" class="product-image" alt="Drone KY108 — vue secondaire" onclick="ouvrirZoom(this.src,event)">
             </div>
             <div class="product-info">
-                <span class="badge">PROMO -21 €</span>
+                <span class="badge">        </span>
                 <h3 class="product-title">KY108 DRONE – L'ŒIL DU FUTUR EST ENTRE VOS MAINS</h3>
                 <p class="tagline">Dominez le ciel… ou il vous dominera. Soyez des yeux sans avoir besoin de voir.</p>
-                <div class="price"><span class="old">110 €</span><span class="promo">89 €</span><span class="off">(-21 €)</span></div>
+                <div class="price"><span class="old">             </span><span class="promo">89 €</span><span class="off">(-21 €)</span></div>
                 <p class="desc">Un drone conçu pour les créateurs, les explorateurs et les pilotes ambitieux. Capturez le monde avec une précision chirurgicale.</p>
                 <button type="button" class="more" onclick="toggleDetails(this)" aria-expanded="false" aria-controls="details-drone">Voir plus</button>
                 <div class="details" id="details-drone">
@@ -2161,6 +2279,9 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
     <p>🔒 Paiement sécurisé — 🚚 Livraison rapide</p>
     <p>© 2026 GUILLET IV — L'Ordre de l'Indépendance</p>
     <a class="tiktok-footer" href="https://www.tiktok.com/@lanceglorieuse?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">🎵 Suivez-nous sur TikTok</a>
+    <p style="margin-top:2rem;">
+        <a href="javascript:void(0)" onclick="(etatMaintenance().includes('ACTIVE') ? desactiverMaintenance() : activerMaintenance())" style="font-size:0.75rem; opacity:0.35; text-decoration:none;" title="Admin : basculer maintenance">⚙️</a>
+    </p>
 </footer>
 
 <!-- Bouton retour en haut -->
@@ -2196,6 +2317,128 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
     </div>
 </div>
 <!-- FIN SECTION 5 -->
+
+
+<!-- ============================================================
+     SECTION 5.5 : MODE MAINTENANCE — SCRIPT DE GESTION
+     ============================================================
+     
+     UTILISATION :
+     ✅ ACTIVER la maintenance : ajoutez ?maintenance=on à l'URL
+        Ex : https://votresite.com/?maintenance=on
+        Ou tapez dans la console : activerMaintenance()
+     
+     ✅ DÉSACTIVER la maintenance : ajoutez ?maintenance=off à l'URL
+        Ex : https://votresite.com/?maintenance=off
+        Ou tapez dans la console : desactiverMaintenance()
+     
+     ✅ VÉRIFIER l'état : tapez dans la console : etatMaintenance()
+     
+     L'état est mémorisé dans localStorage (persiste après fermeture).
+     ============================================================ -->
+<script>
+(function(){
+    "use strict";
+    
+    const CLE_STORAGE = "guillet_maintenance";
+    
+    function getMaintenancePage() { return document.getElementById("maintenance-page"); }
+    
+    function getContenuSite() {
+        return [
+            document.querySelector(".navbar"),
+            document.querySelector(".marquee-bar"),
+            document.querySelector(".audio-player"),
+            document.querySelector("main"),
+            document.querySelector("footer"),
+            document.querySelector(".music-widget"),
+            document.getElementById("chatbot-toggle"),
+            document.getElementById("chatbot-window"),
+            document.getElementById("top")
+        ].filter(Boolean);
+    }
+    
+    function appliquerEtat(actif) {
+        const pageMaintenance = getMaintenancePage();
+        const elements = getContenuSite();
+        
+        if (!pageMaintenance) {
+            console.warn("⚠️ Page maintenance introuvable.");
+            return;
+        }
+        
+        if (actif) {
+            elements.forEach(el => { el.style.display = "none"; });
+            pageMaintenance.style.display = "block";
+            document.title = "🔧 Maintenance — GUILLET IV";
+            document.body.style.overflow = "auto";
+        } else {
+            elements.forEach(el => { el.style.display = ""; });
+            pageMaintenance.style.display = "none";
+            document.title = "GUILLET IV — L'Ordre de l'Indépendance";
+            document.body.style.overflow = "";
+        }
+        
+        try {
+            localStorage.setItem(CLE_STORAGE, actif ? "on" : "off");
+        } catch(e) {}
+        
+        console.log(
+            "%c🔧 MODE MAINTENANCE : " + (actif ? "ACTIVÉ ✅" : "DÉSACTIVÉ ❌"),
+            "color:" + (actif ? "#e10600" : "#00aa00") + "; font-size:16px; font-weight:bold;"
+        );
+    }
+    
+    window.activerMaintenance = function() {
+        appliquerEtat(true);
+        try { history.replaceState(null, null, "?maintenance=on"); } catch(e){}
+        return "✅ Maintenance ACTIVÉE. Le site est masqué.";
+    };
+    
+    window.desactiverMaintenance = function() {
+        appliquerEtat(false);
+        try { history.replaceState(null, null, "?maintenance=off"); } catch(e){}
+        return "❌ Maintenance DÉSACTIVÉE. Le site est de nouveau visible.";
+    };
+    
+    window.etatMaintenance = function() {
+        const v = localStorage.getItem(CLE_STORAGE);
+        return v === "on" ? "🔧 Maintenance ACTIVE" : "✅ Site NORMAL";
+    };
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        const params = new URLSearchParams(window.location.search);
+        const param = params.get("maintenance");
+        
+        let etat =  true;
+        
+        if (param === "on") {
+            etat = true;
+        } else if (param === "off") {
+            etat = false;
+        } else {
+            try {
+                const saved = localStorage.getItem(CLE_STORAGE);
+                if (saved === "on") etat = true;
+                else if (saved === "off") etat = false;
+            } catch(e) {}
+        }
+        
+        if (etat !== null) {
+            appliquerEtat(etat);
+        }
+        
+        if (param) {
+            try {
+                const url = new URL(window.location.href);
+                url.searchParams.delete("maintenance");
+                history.replaceState(null, null, url.pathname + url.hash);
+            } catch(e){}
+        }
+    });
+})();
+</script>
+<!-- FIN SECTION 5.5 -->
 
 
 <!-- ============================================================
@@ -2659,7 +2902,7 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
     "use strict";
 
     /* --------------------------------------------------------
-       7.1 — Dictionnaire de traductions
+       7.1 — Dictionnaire de traductions COMPLET
        -------------------------------------------------------- */
     const TRANSLATIONS = {
         en: {
@@ -2723,7 +2966,79 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
             "🔒 Paiement sécurisé — 🚚 Livraison rapide":"🔒 Secure payment — 🚚 Fast delivery",
             "© 2026 GUILLET IV — L'Ordre de l'Indépendance":"© 2026 GUILLET IV — The Order of Independence"
         },
-        ru: {},
+        ru: {
+            "🏠 Accueil":"🏠 Главная","📜 À propos":"📜 О нас","🛒 Boutique":"🛒 Магазин","👕 Vinted":"👕 Vinted",
+            "💅 Ongles & Beauté":"💅 Ногти и Красота","💅 Ongles &amp; Beauté":"💅 Ногти и Красота",
+            "🛡️ Cybersécurité":"🛡️ Кибербезопасность","🛡️ Harcèlement":"🛡️ Буллинг","✉️ Contact":"✉️ Контакты",
+            "❓ FAQ":"❓ Часто задаваемые вопросы","📄 CGV":"📄 Условия продажи","⚖️ Mentions":"⚖️ Правовая информация","🎵 TikTok":"🎵 TikTok",
+            "« Créer sa voie. Défendre son autonomie. Bâtir l'avenir. »":"« Прокладывай свой путь. Защищай свою независимость. Строй будущее. »",
+            "Entreprise · Mouvement d'indépendance entrepreneuriale · Vision":"Предприятие · Движение предпринимательской независимости · Видение",
+            "Entreprise · Mouvement · Indépendance":"Предприятие · Движение · Независимость",
+            "⚔️ La Doctrine GUILLET IV":"⚔️ Доктрина GUILLET IV",
+            "GUILLET IV réunit la puissance de l'entreprise, la force d'une identité et la vision d'un mouvement. Notre principe fondateur : ne pas attendre sa place, mais la construire par l'action, la discipline et la création.":"GUILLET IV объединяет в себе силу бизнеса, мощь идентичности и дальновидность движения. Наш основополагающий принцип: не ждать готового места под солнцем, а созидать его собственными действиями, дисциплиной и творчеством.",
+            "🖤 Autorité":"🖤 Авторитет","❤️ Volonté":"❤️ Воля","👑 Légitimité":"👑 Легитимность","🚀 Vision":"🚀 Видение",
+            "Le noir incarne la maîtrise de soi, la rigueur et la solidité.":"Чёрный цвет олицетворяет самоконтроль, строгость и основательность.",
+            "Le rouge représente l'énergie, le courage et la détermination.":"Красный цвет символизирует энергию, смелость и решительность.",
+            "L'or symbolise la valeur créée, l'exigence et la reconnaissance.":"Золото символизирует созданную ценность, высокие стандарты и признание.",
+            "Le bleu ouvre la voie à l'innovation et à l'avenir.":"Синий цвет прокладывает путь к инновациям и будущему.",
+            "🌑 Authenticité":"🌑 Подлинность","✨ Révélation":"✨ Откровение","⚡ Vérité":"⚡ Истина","🧠 Conscience":"🧠 Осознанность",
+            "🜂 Puissance":"🜂 Мощь","🜁 Discipline":"🜁 Дисциплина","🜄 Création":"🜄 Созидание","🜃 Ascension":"🜃 Восхождение",
+            "👑 GUILLET IV":"👑 GUILLET IV","🏢 En savoir plus":"🏢 Узнать больше","✉️ Me contacter":"✉️ Связаться со мной","👕 Voir mon Vinted":"👕 Посмотреть мой Vinted",
+            "⬅ Retour à l'accueil":"⬅ Вернуться на главную","⬅ Retour à la boutique":"⬅ Вернуться в магазин",
+            "Boutique GUILLET IV":"Магазин GUILLET IV",
+            "Des produits choisis pour l'autonomie, la sécurité, l'extérieur et la vie pratique.":"Тщательно отобранные товары для независимости, безопасности, активного отдыха и повседневной жизни.",
+            "Aucun produit ne correspond à cette recherche.":"По вашему запросу ничего не найдено.",
+            "Voir plus":"Показать больше","Voir moins":"Свернуть",
+            "KY108 DRONE – L'ŒIL DU FUTUR EST ENTRE VOS MAINS":"ДРОН KY108 — ОКО БУДУЩЕГО В ВАШИХ РУКАХ",
+            "Description complète":"Полное описание","Détails":"Характеристики","Utilité":"Области применения","Utilisation":"Инструкция по эксплуатации","Caractéristiques":"Технические характеристики",
+            "Projecteur LED rotatif solaire":"Поворотный солнечный LED-прожектор",
+            "Projecteur LED extérieur solaire avec détecteur PIR et panneaux rotatifs.":"Уличный солнечный LED-прожектор с PIR-датчиком и поворотными панелями.",
+            "Winter Survival Pack – Édition Premium":"Зимний набор выживания — Premium Edition",
+            "Le pack ultime pour affronter l'hiver, rester au chaud, éclairé et autonome.":"Максимально продуманный набор, чтобы пережить зиму в тепле, со светом и полной автономией.",
+            "Endoscope caméra d'inspection avec écran":"Эндоскоп-камера с экраном",
+            "Endoscope d'inspection 1080P avec écran intégré 4,3 pouces, câble semi-rigide de 10 mètres, caméra 2.0 MP, éclairage LED réglable et conception IP68 waterproof.":"Инспекционный эндоскоп 1080P со встроенным 4,3-дюймовым экраном, полужестким 10-метровым кабелем, камерой 2.0 МП, регулируемой LED-подсветкой и водонепроницаемостью IP68.",
+            "PACK HIVER":"ЗИМНИЙ НАБОР","NOUVEAU":"НОВИНКА",
+            "🛡️ Garanties & Services":"🛡️ Гарантии и сервис","✔ Garantie : 24 mois":"✔ Гарантия: 24 месяца","✔ Paiement sécurisé":"✔ Безопасная оплата","✔ Livraison rapide":"✔ Быстрая доставка",
+            "⭐ Avis Clients (Vinted)":"⭐ Отзывы покупателей (Vinted)",
+            "🛒 Mon Vinted":"🛒 Мой Vinted","★★★★★ Avis Vinted Vérifiés":"★★★★★ Проверенные отзывы Vinted",
+            "👕 Voir mon profil Vinted":"👕 Открыть мой профиль Vinted",
+            "Élégance · Soin · Autonomie":"Элегантность · Забота · Независимость",
+            "✨ Tout voir":"✨ Показать всё","💅 Vernis & Couleurs":"💅 Лаки и оттенки","🧴 Soins":"🧴 Уход","💎 Accessoires":"💎 Аксессуары","🎁 Kits":"🎁 Наборы",
+            "BEST-SELLER":"ХИТ ПРОДАЖ","KIT COMPLET":"ПОЛНЫЙ КОМПЛЕКТ","-20%":"−20%",
+            "💡 Conseils Beauté GUILLET IV":"💡 Советы по красоте от GUILLET IV",
+            "🛡️ Prévention Cybersécurité":"🛡️ Профилактика кибербезопасности","Attaques informatiques en France":"Кибератаки во Франции",
+            "📋 Les thèmes de prévention":"📋 Темы профилактики",
+            "🔑 Étape 1 — Mots de passe enregistrés":"🔑 Шаг 1 — Сохранённые пароли","🎣 Étape 2 — Ingénierie sociale et phishing":"🎣 Шаг 2 — Социальная инженерия и фишинг",
+            "💻 Étape 3 — Attaques contre les mots de passe":"💻 Шаг 3 — Атаки на пароли","🗝️ Étape 4 — Photos de clés et sécurité physique":"🗝️ Шаг 4 — Фотографии ключей и физическая безопасность",
+            "👤 Étape 5 — Informations personnelles":"👤 Шаг 5 — Личные данные","⚖️ Étape 6 — Loi française et hacking":"⚖️ Шаг 6 — Французское законодательство и хакинг",
+            "📨 Étape 7 — Phishing, escroquerie et identité":"📨 Шаг 7 — Фишинг, мошенничество и кража личности","🗂️ Étape 8 — Données personnelles et RGPD":"🗂️ Шаг 8 — Персональные данные и GDPR",
+            "✅ Étape 9 — Tests de sécurité autorisés":"✅ Шаг 9 — Авторизованные тесты на проникновение","🚨 Étape 10 — Que faire en cas d'incident ?":"🚨 Шаг 10 — Что делать при инциденте?",
+            "🏁 Conclusion générale":"🏁 Общее заключение",
+            "🛡️ Prévention Harcèlement":"🛡️ Профилактика буллинга",
+            "Le harcèlement est un délit. Il détruit des vies.":"Буллинг — это преступление. Он разрушает жизни.",
+            "💻 Harcèlement moral":"💻 Психологическое преследование","🎓 Harcèlement scolaire":"🎓 Школьная травля","🤬 Harcèlement sexuel":"🤬 Сексуальное домогательство","🚨 En bande organisée":"🚨 В составе организованной группы",
+            "📞 Où trouver de l'aide ?":"📞 Куда обратиться за помощью?","⚠️ Ne reste pas seul(e). Parle.":"⚠️ Не оставайся один. Говори.",
+            "📞 Appeler le 3018":"📞 Позвонить на 3018","🚨 Signaler sur 17Cyber":"🚨 Сообщить через 17Cyber",
+            "Mentions légales":"Правовая информация","Conditions Générales de Vente":"Общие условия продажи",
+            "❓ Foire Aux Questions":"❓ Часто задаваемые вопросы","📦 Livraison":"📦 Доставка","🔒 Paiement sécurisé":"🔒 Безопасная оплата","❌ Remboursement & Retour":"❌ Возврат и возмещение","🛡️ Garantie":"🛡️ Гарантия",
+            "✉️ Contactez-nous":"✉️ Свяжитесь с нами","Une question ? Un projet ? N'hésitez pas à nous écrire.":"Есть вопрос или идея? Напишите нам — мы будем рады помочь.",
+            "📞 Téléphone :":"📞 Телефон:","📧 Email :":"📧 Эл. почта:","📍 Localisation :":"📍 Местоположение:","🕒 Horaires :":"🕒 Часы работы:",
+            "France, Ille-et-Vilaine":"Франция, Иль-э-Вилен","9h – 20h":"с 9:00 до 20:00",
+            "Votre nom":"Ваше имя","Votre adresse e-mail":"Ваш адрес эл. почты","Votre message...":"Ваше сообщение...","Envoyer le message":"Отправить сообщение","Envoyer":"Отправить",
+            "Accueil":"Главная","À propos":"О нас","Boutique":"Магазин","Contact":"Контакты","CGV":"Условия",
+            "Prévention Harcèlement":"Профилактика буллинга","Prévention Cybersécurité":"Профилактика кибербезопасности",
+            "📍 Ille-et-Vilaine · 🕒 9h – 20h":"📍 Иль-э-Вилен · 🕒 с 9:00 до 20:00",
+            "🔒 Paiement sécurisé — 🚚 Livraison rapide":"🔒 Безопасная оплата — 🚚 Быстрая доставка",
+            "© 2026 GUILLET IV — L'Ordre de l'Indépendance":"© 2026 GUILLET IV — Орден Независимости",
+            "🎵 Suivez-nous sur TikTok":"🎵 Подписывайтесь на нас в TikTok",
+            "🎵 Musique du site":"🎵 Музыка сайта","🔍 Rechercher un produit":"🔍 Поиск товара","Produits correspondants":"Найденные товары",
+            "Conseil GUILLET IV":"Советник GUILLET IV","Posez-moi une question...":"Задайте мне вопрос...",
+            "Rechercher un produit":"Поиск товара","Effacer la recherche":"Очистить поиск","Changer de mode clair ou sombre":"Переключить светлую / тёмную тему",
+            "Choisir une musique":"Выбрать трек","Ouvrir le chat de conseil":"Открыть чат с советником","Fermer le chat":"Закрыть чат",
+            "Agrandissement du produit":"Увеличение изображения товара","Fermer l'image":"Закрыть изображение","Fermer":"Закрыть","Retour en haut":"Наверх",
+            "Lecture / Pause":"Воспроизведение / Пауза","Volume de la musique":"Громкость музыки","Lecteur de musique":"Музыкальный проигрыватель","Lecteur musique persistant":"Плавающий музыкальный проигрыватель",
+            "Navigation principale":"Основная навигация","Navigation de pied de page":"Навигация в подвале сайта"
+        },
         uk: {}
     };
 
