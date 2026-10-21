@@ -1192,6 +1192,92 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
     .beauty-grid{ gap:2.5rem; }
     .pillars{ gap:2rem; }
 }
+
+/* ------------------------------------------------------------
+   3.20 — MODE MAINTENANCE (page dédiée)
+   ------------------------------------------------------------ */
+#maintenance-page{
+    display:none;
+    position:fixed; inset:0; z-index:99999;
+    background:#050505;
+    overflow-y:auto;
+    background-image:radial-gradient(ellipse at 20% 0%, rgba(255,215,0,0.06), transparent 50%),
+                     radial-gradient(ellipse at 80% 100%, rgba(225,6,0,0.08), transparent 50%);
+}
+#maintenance-page .maintenance-wrap{
+    min-height:100vh;
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    padding:2rem; text-align:center;
+}
+#maintenance-page .maintenance-emblem{
+    width:110px; height:110px; border-radius:50%;
+    background:radial-gradient(circle at 30% 30%, #ff2a2a, #e10600 40%, #000 90%);
+    border:4px solid #ffd700;
+    display:flex; align-items:center; justify-content:center;
+    font-size:2.6rem; font-weight:bold; color:#ffd700;
+    font-family:'Cinzel',serif;
+    box-shadow:0 0 60px rgba(225,6,0,0.6);
+    margin-bottom:2rem;
+    animation:float 4s ease-in-out infinite;
+}
+#maintenance-page h1{
+    font-family:'Cinzel',serif;
+    font-size:clamp(2rem, 5vw, 3.5rem);
+    color:#ffd700; margin:0 0 1rem;
+    letter-spacing:0.08em;
+    text-shadow:0 0 40px rgba(255,215,0,0.4);
+}
+#maintenance-page .maintenance-motto{
+    font-family:'Playfair Display',serif;
+    font-size:clamp(1.1rem, 2vw, 1.5rem);
+    font-style:italic; color:#fff;
+    max-width:700px; margin:0 0 2rem;
+    line-height:1.8;
+}
+#maintenance-page .maintenance-divider{
+    width:80px; height:3px;
+    background:linear-gradient(90deg, transparent, #ffd700, transparent);
+    margin:0 auto 2rem;
+}
+#maintenance-page .maintenance-info{
+    font-family:'Inter',sans-serif;
+    font-size:1rem; color:#aaa;
+    margin:0 0 2rem;
+}
+#maintenance-page .maintenance-actions{
+    display:flex; gap:1rem; flex-wrap:wrap; justify-content:center;
+}
+#maintenance-page .maintenance-btn-gold{
+    display:inline-block; padding:1rem 2rem;
+    background:linear-gradient(135deg,#ffd700,#b8860b);
+    color:#000; font-family:'Cinzel',serif; font-weight:700;
+    border-radius:16px; text-decoration:none;
+    border:2px solid #ffd700;
+    transition:all .2s;
+    box-shadow:0 4px 20px rgba(0,0,0,0.4);
+}
+#maintenance-page .maintenance-btn-gold:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 30px rgba(255,215,0,0.3);
+}
+#maintenance-page .maintenance-btn-outline{
+    display:inline-block; padding:1rem 2rem;
+    background:transparent; color:#ffd700;
+    font-family:'Cinzel',serif; font-weight:700;
+    border-radius:16px; text-decoration:none;
+    border:2px solid #ffd700;
+    transition:all .2s;
+}
+#maintenance-page .maintenance-btn-outline:hover{
+    background:rgba(255,215,0,0.1);
+    transform:translateY(-3px);
+}
+#maintenance-page .maintenance-copyright{
+    margin-top:3rem;
+    font-size:0.85rem; color:#555;
+    font-family:'Inter',sans-serif;
+}
 </style>
 <!-- FIN SECTION 3 (CSS) -->
 
@@ -1211,6 +1297,38 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
      SECTION 4 : CORPS DE LA PAGE (BODY)
      ============================================================ -->
 <body>
+
+<!-- ============================================================
+     4.0 — MODE MAINTENANCE
+     ============================================================
+     
+     UTILISATION :
+     ✅ ACTIVER la maintenance : ajoutez ?maintenance=on à l'URL
+        Ex : https://votresite.com/?maintenance=on
+        Ou tapez dans la console : activerMaintenance()
+     
+     ✅ DÉSACTIVER la maintenance : ajoutez ?maintenance=off à l'URL
+        Ex : https://votresite.com/?maintenance=off
+        Ou tapez dans la console : desactiverMaintenance()
+     
+     ✅ VÉRIFIER l'état : tapez dans la console : etatMaintenance()
+     
+     L'état est mémorisé dans localStorage (persiste après fermeture).
+     ============================================================ -->
+<div id="maintenance-page">
+    <div class="maintenance-wrap">
+        <div class="maintenance-emblem">IV</div>
+        <h1>MAINTENANCE</h1>
+        <p class="maintenance-motto">« Le site GUILLET IV est actuellement en maintenance. Nous revenons très vite. »</p>
+        <div class="maintenance-divider"></div>
+        <p class="maintenance-info">⏳ Travaux en cours — Merci de votre patience</p>
+        <div class="maintenance-actions">
+            <a href="mailto:lanceglorieuse@gmail.com" class="maintenance-btn-gold">📧 Nous contacter</a>
+            <a href="tel:0780204749" class="maintenance-btn-outline">📞 07.80.20.47.49</a>
+        </div>
+        <p class="maintenance-copyright">© 2026 GUILLET IV — L'Ordre de l'Indépendance</p>
+    </div>
+</div>
 
 <!-- ------------------------------------------------------------
    4.1 — Message si JavaScript est désactivé
@@ -2161,6 +2279,9 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
     <p>🔒 Paiement sécurisé — 🚚 Livraison rapide</p>
     <p>© 2026 GUILLET IV — L'Ordre de l'Indépendance</p>
     <a class="tiktok-footer" href="https://www.tiktok.com/@lanceglorieuse?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">🎵 Suivez-nous sur TikTok</a>
+    <p style="margin-top:2rem;">
+        <a href="javascript:void(0)" onclick="(etatMaintenance().includes('ACTIVE') ? desactiverMaintenance() : activerMaintenance())" style="font-size:0.75rem; opacity:0.35; text-decoration:none;" title="Admin : basculer maintenance">⚙️</a>
+    </p>
 </footer>
 
 <!-- Bouton retour en haut -->
@@ -2196,6 +2317,128 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
     </div>
 </div>
 <!-- FIN SECTION 5 -->
+
+
+<!-- ============================================================
+     SECTION 5.5 : MODE MAINTENANCE — SCRIPT DE GESTION
+     ============================================================
+     
+     UTILISATION :
+     ✅ ACTIVER la maintenance : ?maintenance=on dans l'URL
+        Ex : https://votresite.com/?maintenance=on
+        Ou tapez dans la console : activerMaintenance()
+     
+     ✅ DÉSACTIVER la maintenance : ?maintenance=off dans l'URL
+        Ex : https://votresite.com/?maintenance=off
+        Ou tapez dans la console : desactiverMaintenance()
+     
+     ✅ VÉRIFIER l'état : tapez dans la console : etatMaintenance()
+     
+     L'état est mémorisé dans localStorage (persiste après fermeture).
+     ============================================================ -->
+<script>
+(function(){
+    "use strict";
+    
+    const CLE_STORAGE = "guillet_maintenance";
+    
+    function getMaintenancePage() { return document.getElementById("maintenance-page"); }
+    
+    function getContenuSite() {
+        return [
+            document.querySelector(".navbar"),
+            document.querySelector(".marquee-bar"),
+            document.querySelector(".audio-player"),
+            document.querySelector("main"),
+            document.querySelector("footer"),
+            document.querySelector(".music-widget"),
+            document.getElementById("chatbot-toggle"),
+            document.getElementById("chatbot-window"),
+            document.getElementById("top")
+        ].filter(Boolean);
+    }
+    
+    function appliquerEtat(actif) {
+        const pageMaintenance = getMaintenancePage();
+        const elements = getContenuSite();
+        
+        if (!pageMaintenance) {
+            console.warn("⚠️ Page maintenance introuvable.");
+            return;
+        }
+        
+        if (actif) {
+            elements.forEach(el => { el.style.display = "none"; });
+            pageMaintenance.style.display = "block";
+            document.title = "🔧 Maintenance — GUILLET IV";
+            document.body.style.overflow = "auto";
+        } else {
+            elements.forEach(el => { el.style.display = ""; });
+            pageMaintenance.style.display = "none";
+            document.title = "GUILLET IV — L'Ordre de l'Indépendance";
+            document.body.style.overflow = "";
+        }
+        
+        try {
+            localStorage.setItem(CLE_STORAGE, actif ? "on" : "off");
+        } catch(e) {}
+        
+        console.log(
+            "%c🔧 MODE MAINTENANCE : " + (actif ? "ACTIVÉ ✅" : "DÉSACTIVÉ ❌"),
+            "color:" + (actif ? "#e10600" : "#00aa00") + "; font-size:16px; font-weight:bold;"
+        );
+    }
+    
+    window.activerMaintenance = function() {
+        appliquerEtat(true);
+        try { history.replaceState(null, null, "?maintenance=on"); } catch(e){}
+        return "✅ Maintenance ACTIVÉE. Le site est masqué.";
+    };
+    
+    window.desactiverMaintenance = function() {
+        appliquerEtat(false);
+        try { history.replaceState(null, null, "?maintenance=off"); } catch(e){}
+        return "❌ Maintenance DÉSACTIVÉE. Le site est de nouveau visible.";
+    };
+    
+    window.etatMaintenance = function() {
+        const v = localStorage.getItem(CLE_STORAGE);
+        return v === "on" ? "🔧 Maintenance ACTIVE" : "✅ Site NORMAL";
+    };
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        const params = new URLSearchParams(window.location.search);
+        const param = params.get("maintenance");
+        
+        let etat = null;
+        
+        if (param === "on") {
+            etat = true;
+        } else if (param === "off") {
+            etat = false;
+        } else {
+            try {
+                const saved = localStorage.getItem(CLE_STORAGE);
+                if (saved === "on") etat = true;
+                else if (saved === "off") etat = false;
+            } catch(e) {}
+        }
+        
+        if (etat !== null) {
+            appliquerEtat(etat);
+        }
+        
+        if (param) {
+            try {
+                const url = new URL(window.location.href);
+                url.searchParams.delete("maintenance");
+                history.replaceState(null, null, url.pathname + url.hash);
+            } catch(e){}
+        }
+    });
+})();
+</script>
+<!-- FIN SECTION 5.5 -->
 
 
 <!-- ============================================================
@@ -2663,7 +2906,6 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
        -------------------------------------------------------- */
     const TRANSLATIONS = {
         en: {
-            /* ... (Traduction anglaise complète comme dans le code précédent) ... */
             "🏠 Accueil":"🏠 Home","📜 À propos":"📜 About","🛒 Boutique":"🛒 Shop","👕 Vinted":"👕 Vinted",
             "💅 Ongles & Beauté":"💅 Nails & Beauty","💅 Ongles &amp; Beauté":"💅 Nails & Beauty",
             "🛡️ Cybersécurité":"🛡️ Cybersecurity","🛡️ Harcèlement":"🛡️ Harassment","✉️ Contact":"✉️ Contact",
@@ -2725,387 +2967,79 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
             "© 2026 GUILLET IV — L'Ordre de l'Indépendance":"© 2026 GUILLET IV — The Order of Independence"
         },
         ru: {
-            /* ============ NAVIGATION ============ */
-            "🏠 Accueil":"🏠 Главная",
-            "📜 À propos":"📜 О нас",
-            "🛒 Boutique":"🛒 Магазин",
-            "👕 Vinted":"👕 Vinted",
-            "💅 Ongles & Beauté":"💅 Ногти и Красота",
-            "💅 Ongles &amp; Beauté":"💅 Ногти и Красота",
-            "🛡️ Cybersécurité":"🛡️ Кибербезопасность",
-            "🛡️ Harcèlement":"🛡️ Буллинг",
-            "✉️ Contact":"✉️ Контакты",
-            "❓ FAQ":"❓ Часто задаваемые вопросы",
-            "📄 CGV":"📄 Условия продажи",
-            "⚖️ Mentions":"⚖️ Правовая информация",
-            "🎵 TikTok":"🎵 TikTok",
-
-            /* ============ ACCUEIL / HERO ============ */
+            "🏠 Accueil":"🏠 Главная","📜 À propos":"📜 О нас","🛒 Boutique":"🛒 Магазин","👕 Vinted":"👕 Vinted",
+            "💅 Ongles & Beauté":"💅 Ногти и Красота","💅 Ongles &amp; Beauté":"💅 Ногти и Красота",
+            "🛡️ Cybersécurité":"🛡️ Кибербезопасность","🛡️ Harcèlement":"🛡️ Буллинг","✉️ Contact":"✉️ Контакты",
+            "❓ FAQ":"❓ Часто задаваемые вопросы","📄 CGV":"📄 Условия продажи","⚖️ Mentions":"⚖️ Правовая информация","🎵 TikTok":"🎵 TikTok",
             "« Créer sa voie. Défendre son autonomie. Bâtir l'avenir. »":"« Прокладывай свой путь. Защищай свою независимость. Строй будущее. »",
             "Entreprise · Mouvement d'indépendance entrepreneuriale · Vision":"Предприятие · Движение предпринимательской независимости · Видение",
             "Entreprise · Mouvement · Indépendance":"Предприятие · Движение · Независимость",
             "⚔️ La Doctrine GUILLET IV":"⚔️ Доктрина GUILLET IV",
             "GUILLET IV réunit la puissance de l'entreprise, la force d'une identité et la vision d'un mouvement. Notre principe fondateur : ne pas attendre sa place, mais la construire par l'action, la discipline et la création.":"GUILLET IV объединяет в себе силу бизнеса, мощь идентичности и дальновидность движения. Наш основополагающий принцип: не ждать готового места под солнцем, а созидать его собственными действиями, дисциплиной и творчеством.",
-            "🖤 Autorité":"🖤 Авторитет",
-            "❤️ Volonté":"❤️ Воля",
-            "👑 Légitimité":"👑 Легитимность",
-            "🚀 Vision":"🚀 Видение",
+            "🖤 Autorité":"🖤 Авторитет","❤️ Volonté":"❤️ Воля","👑 Légitimité":"👑 Легитимность","🚀 Vision":"🚀 Видение",
             "Le noir incarne la maîtrise de soi, la rigueur et la solidité.":"Чёрный цвет олицетворяет самоконтроль, строгость и основательность.",
             "Le rouge représente l'énergie, le courage et la détermination.":"Красный цвет символизирует энергию, смелость и решительность.",
             "L'or symbolise la valeur créée, l'exigence et la reconnaissance.":"Золото символизирует созданную ценность, высокие стандарты и признание.",
             "Le bleu ouvre la voie à l'innovation et à l'avenir.":"Синий цвет прокладывает путь к инновациям и будущему.",
-            "🌑 Authenticité":"🌑 Подлинность",
-            "✨ Révélation":"✨ Откровение",
-            "⚡ Vérité":"⚡ Истина",
-            "🧠 Conscience":"🧠 Осознанность",
-            "🜂 Puissance":"🜂 Мощь",
-            "🜁 Discipline":"🜁 Дисциплина",
-            "🜄 Création":"🜄 Созидание",
-            "🜃 Ascension":"🜃 Восхождение",
-            "La vérité brute, l'identité réelle, ce que l'on est sans masque ni compromis.":"Неприкрытая правда, истинная сущность — то, чем мы являемся без масок и компромиссов.",
-            "La lumière qui dévoile ce qui était caché. L'éveil, la compréhension, la clarté.":"Свет, обнажающий сокрытое. Пробуждение, постижение, ясность.",
-            "La ligne droite, la parole juste, ce qui ne ment pas et ne tremble pas.":"Прямая линия, верное слово — то, что не лжёт и не дрогнет.",
-            "La lucidité, la hauteur, la capacité de voir au-delà de l'apparence.":"Прозорливость, масштабность мышления, способность видеть за гранью очевидного.",
-            "La capacité d'agir, d'imposer sa direction, de transformer son environnement.":"Способность действовать, задавать собственный вектор и преображать окружающую действительность.",
-            "L'ordre, la structure, la constance qui forge la réussite.":"Порядок, структура, постоянство — кузница успеха.",
-            "L'art de produire, d'innover, de bâtir ce qui n'existe pas encore.":"Искусство создавать, внедрять новое и возводить то, чего ещё не было.",
-            "La montée, l'évolution, le dépassement de soi et des limites.":"Восхождение, развитие, преодоление себя и собственных границ.",
-            "👑 GUILLET IV":"👑 GUILLET IV",
-            "🏢 En savoir plus":"🏢 Узнать больше",
-            "✉️ Me contacter":"✉️ Связаться со мной",
-            "👕 Voir mon Vinted":"👕 Посмотреть мой Vinted",
-            "⬅ Retour à l'accueil":"⬅ Вернуться на главную",
-            "⬅ Retour à la boutique":"⬅ Вернуться в магазин",
-
-            /* ============ BOUTIQUE / PRODUITS ============ */
+            "🌑 Authenticité":"🌑 Подлинность","✨ Révélation":"✨ Откровение","⚡ Vérité":"⚡ Истина","🧠 Conscience":"🧠 Осознанность",
+            "🜂 Puissance":"🜂 Мощь","🜁 Discipline":"🜁 Дисциплина","🜄 Création":"🜄 Созидание","🜃 Ascension":"🜃 Восхождение",
+            "👑 GUILLET IV":"👑 GUILLET IV","🏢 En savoir plus":"🏢 Узнать больше","✉️ Me contacter":"✉️ Связаться со мной","👕 Voir mon Vinted":"👕 Посмотреть мой Vinted",
+            "⬅ Retour à l'accueil":"⬅ Вернуться на главную","⬅ Retour à la boutique":"⬅ Вернуться в магазин",
             "Boutique GUILLET IV":"Магазин GUILLET IV",
             "Des produits choisis pour l'autonomie, la sécurité, l'extérieur et la vie pratique.":"Тщательно отобранные товары для независимости, безопасности, активного отдыха и повседневной жизни.",
             "Aucun produit ne correspond à cette recherche.":"По вашему запросу ничего не найдено.",
-            "Voir plus":"Показать больше",
-            "Voir moins":"Свернуть",
+            "Voir plus":"Показать больше","Voir moins":"Свернуть",
             "KY108 DRONE – L'ŒIL DU FUTUR EST ENTRE VOS MAINS":"ДРОН KY108 — ОКО БУДУЩЕГО В ВАШИХ РУКАХ",
-            "Dominez le ciel… ou il vous dominera. Soyez des yeux sans avoir besoin de voir.":"Покорите небо… или оно покорит вас. Будьте глазами, не нуждаясь в зрении.",
-            "Un drone conçu pour les créateurs, les explorateurs et les pilotes ambitieux. Capturez le monde avec une précision chirurgicale.":"Дрон, созданный для творцов, исследователей и амбициозных пилотов. Запечатлейте мир с хирургической точностью.",
-            "Description complète":"Полное описание",
-            "Détails":"Характеристики",
-            "Utilité":"Области применения",
-            "Utilisation":"Инструкция по эксплуатации",
-            "Caractéristiques":"Технические характеристики",
-            "Le KY108 n'est pas un simple drone : c'est un outil de vision, un instrument de maîtrise, un allié aérien qui transforme chaque vol en expérience futuriste.":"KY108 — это не просто дрон. Это инструмент видения, прибор мастерства, воздушный союзник, превращающий каждый полёт в футуристическое переживание.",
-            "Grâce à sa double caméra HD, son zoom 90x, son évitement d'obstacles omnidirectionnel et ses moteurs brushless, il vous offre une stabilité et une puissance que peu de drones de sa catégorie peuvent atteindre.":"Благодаря двойной HD-камере, 90-кратному зуму, всенаправленному обнаружению препятствий и бесколлекторным двигателям он обеспечивает стабильность и мощность, доступные немногим дронам в этой ценовой категории.",
-            "Pliable, compact, intelligent : le KY108 est prêt à vous suivre partout.":"Складной, компактный, умный — KY108 готов следовать за вами куда угодно.",
-            "Double caméra HD avec zoom 90x":"Двойная HD-камера с 90-кратным зумом",
-            "Évitement d'obstacles omnidirectionnel":"Всенаправленное обнаружение препятствий",
-            "Moteur brushless puissant et durable":"Мощный и долговечный бесколлекторный двигатель",
-            "Télécommande avec écran FPV intégré":"Пульт управления со встроенным FPV-экраном",
-            "Drone pliable, facile à transporter":"Складная конструкция — удобно транспортировать",
-            "Filmer des paysages en haute qualité":"Съёмка пейзажей в высоком качестве",
-            "Créer du contenu pour TikTok et Instagram":"Создание контента для TikTok и Instagram",
-            "Surveiller une zone dans le respect de la vie privée":"Наблюдение за территорией с соблюдением права на частную жизнь",
-            "Apprendre le pilotage de drone":"Обучение пилотированию дрона",
-            "Réaliser des photos aériennes professionnelles":"Профессиональная аэрофотосъёмка",
-            "Déplier le drone et vérifier les hélices.":"Разложите дрон и проверьте винты.",
-            "Allumer la télécommande.":"Включите пульт управления.",
-            "Connecter la caméra HD.":"Подключите HD-камеру.",
-            "Décoller en mode assisté.":"Выполните взлёт в ассистированном режиме.",
-            "Piloter via l'écran FPV intégré.":"Управляйте через встроенный FPV-экран.",
-            "Pensez à respecter les règles de vol applicables et la vie privée des personnes filmées.":"Не забывайте соблюдать действующие правила полётов и право снимаемых лиц на частную жизнь.",
+            "Description complète":"Полное описание","Détails":"Характеристики","Utilité":"Области применения","Utilisation":"Инструкция по эксплуатации","Caractéristiques":"Технические характеристики",
             "Projecteur LED rotatif solaire":"Поворотный солнечный LED-прожектор",
             "Projecteur LED extérieur solaire avec détecteur PIR et panneaux rotatifs.":"Уличный солнечный LED-прожектор с PIR-датчиком и поворотными панелями.",
-            "Projecteur LED extérieur alimenté par panneau solaire, équipé d'un détecteur PIR et de panneaux rotatifs.":"Уличный LED-прожектор с питанием от солнечной панели, оснащённый PIR-датчиком движения и поворотными панелями.",
-            "Sécuriser une entrée":"Охрана входной зоны",
-            "Éclairer une zone sombre":"Освещение тёмных участков",
-            "Dissuader les intrusions":"Отпугивание незваных гостей",
-            "Fonctionne sans électricité":"Работает без подключения к электросети",
-            "Fixer le projecteur sur un mur":"Закрепите прожектор на стене",
-            "Orienter les panneaux LED":"Отрегулируйте положение LED-панелей",
-            "Régler le détecteur PIR":"Настройте PIR-датчик",
-            "Laisser charger le panneau solaire":"Дайте солнечной панели зарядиться",
             "Winter Survival Pack – Édition Premium":"Зимний набор выживания — Premium Edition",
             "Le pack ultime pour affronter l'hiver, rester au chaud, éclairé et autonome.":"Максимально продуманный набор, чтобы пережить зиму в тепле, со светом и полной автономией.",
-            "🧤 1. Gants Chauffants Électriques Intelligents (USB)":"🧤 1. Умные электрические перчатки с подогревом (USB)",
-            "Gants d'hiver haute performance, conçus pour offrir une chaleur immédiate et контролируемое тепло.":"Высокоэффективные зимние перчатки, созданные для мгновенного и контролируемого тепла.",
-            "Chauffage double face sur la paume":"Двусторонний подогрев ладони",
-            "Trois niveaux de température réglables":"Три регулируемых уровня температуры",
-            "Design tactile":"Сенсорная совместимость",
-            "Fonctionnement via interface USB, compatible powerbank":"Питание через USB, совместимо с повербанком",
-            "🔦 2. Torches LED Puissantes – Rechargeables USB (x2)":"🔦 2. Мощные LED-фонари — перезаряжаемые по USB (2 шт.)",
-            "Lampe tactique ultra lumineuse pour coupures de courant, déplacements nocturnes, voiture.":"Ультраяркий тактический фонарь для отключений электроэнергии, ночных поездок и автомобиля.",
-            "7 modes de lumière":"7 режимов освещения",
-            "Rechargeable par USB":"Зарядка через USB",
-            "Batterie intégrée":"Встроенный аккумулятор",
-            "Résistante aux intempéries":"Устойчив к неблагоприятным погодным условиям",
-            "🔋 3. Batterie Externe 12 000 mAh – Spéciale Chauffage USB":"🔋 3. Внешний аккумулятор 12 000 мАч — для USB-обогрева",
-            "Powerbank haute capacité compatible avec tous les appareils USB et vêtements chauffants.":"Повербанк большой ёмкости, совместимый со всеми USB-устройствами и одеждой с подогревом.",
-            "12 000 mAh → autonomie longue durée":"12 000 мАч → длительная автономная работа",
-            "Sortie 5V 2.4A":"Выход 5В 2.4А",
-            "Compatible iPhone / Samsung / iPad":"Совместим с iPhone / Samsung / iPad",
-            "🛏️ 4. Sac de Couchage Momie Multi-Saison (210 × 75 cm)":"🛏️ 4. Многосезонный спальный мешок-кокон (210 × 75 см)",
-            "Sac de couchage léger, compact et confortable, idéal pour le camping et les situations d'urgence.":"Лёгкий, компактный и удобный спальник — идеальное решение для кемпинга и чрезвычайных ситуаций.",
-            "Capuche intégrée":"Встроенный капюшон",
-            "Polyester 170T robuste":"Прочный полиэстер 170T",
-            "Pliable en couette / couverture":"Складывается в одеяло / плед",
-            "Sac de rangement inclus":"Чехол для хранения в комплекте",
             "Endoscope caméra d'inspection avec écran":"Эндоскоп-камера с экраном",
             "Endoscope d'inspection 1080P avec écran intégré 4,3 pouces, câble semi-rigide de 10 mètres, caméra 2.0 MP, éclairage LED réglable et conception IP68 waterproof.":"Инспекционный эндоскоп 1080P со встроенным 4,3-дюймовым экраном, полужестким 10-метровым кабелем, камерой 2.0 МП, регулируемой LED-подсветкой и водонепроницаемостью IP68.",
-            "L'outil indispensable pour inspecter les zones difficiles d'accès : conduits, moteurs, tuyaux, gaines, installations techniques ou espaces étroits.":"Незаменимый инструмент для осмотра труднодоступных мест: воздуховодов, двигателей, труб, кабельных каналов, технических установок и узких полостей.",
-            "Inspection de moteurs, conduits et tuyaux":"Осмотр двигателей, воздуховодов и труб",
-            "Travaux domestiques : plomberie, ventilation, câblage":"Домашние работы: сантехника, вентиляция, электромонтаж",
-            "Diagnostic mécanique rapide":"Быстрая механическая диагностика",
-            "Contrôle visuel dans les zones sombres":"Визуальный контроль в затемнённых зонах",
-            "Résolution Full HD 1080P":"Разрешение Full HD 1080P",
-            "Caméra 2.0 MP avec éclairage LED réglable":"Камера 2.0 МП с регулируемой LED-подсветкой",
-            "Écran intégré 4,3 pouces":"Встроенный 4,3-дюймовый экран",
-            "Câble semi-rigide de 10 mètres":"Полужесткий кабель длиной 10 метров",
-            "Certification IP68 waterproof":"Сертификация IP68 — полная водонепроницаемость",
-            "PROMO -21 €":"СКИДКА −21 €",
-            "PACK HIVER":"ЗИМНИЙ НАБОР",
-            "NOUVEAU":"НОВИНКА",
-
-            /* ============ GARANTIES & AVIS ============ */
-            "🛡️ Garanties & Services":"🛡️ Гарантии и сервис",
-            "✔ Garantie : 24 mois":"✔ Гарантия: 24 месяца",
-            "✔ Paiement sécurisé":"✔ Безопасная оплата",
-            "✔ Livraison rapide":"✔ Быстрая доставка",
+            "PACK HIVER":"ЗИМНИЙ НАБОР","NOUVEAU":"НОВИНКА",
+            "🛡️ Garanties & Services":"🛡️ Гарантии и сервис","✔ Garantie : 24 mois":"✔ Гарантия: 24 месяца","✔ Paiement sécurisé":"✔ Безопасная оплата","✔ Livraison rapide":"✔ Быстрая доставка",
             "⭐ Avis Clients (Vinted)":"⭐ Отзывы покупателей (Vinted)",
-            "Ravi que tout soit parfait, GUILLET IV 🔥":"Рад, что всё идеально, GUILLET IV 🔥",
-            "Gratitude 🤲 merci":"Благодарю 🤲 спасибо",
-
-            /* ============ VINTED ============ */
-            "🛒 Mon Vinted":"🛒 Мой Vinted",
-            "Retrouve mes ventes vérifiées, mes évaluations 5★ et mes produits disponibles sur Vinted.":"Здесь вы найдёте мои проверенные лоты, отзывы на 5★ и товары, доступные на Vinted.",
-            "★★★★★ Avis Vinted Vérifiés":"★★★★★ Проверенные отзывы Vinted",
-            "Je suis <strong>limitless95</strong> sur Vinted. J'y propose des articles sérieux, bien présentés, avec un service client réactif. Que ce soit pour des équipements outdoor, high-tech ou des vêtements, vous trouverez des produits de qualité avec un suivi personnalisé.":"Меня зовут <strong>limitless95</strong> на Vinted. Здесь я предлагаю добротные товары с аккуратной подачей и отзывчивым клиентским сервисом. Будь то снаряжение для активного отдыха, хайтек или одежда — вы найдёте качественные продукты с персональным сопровождением.",
+            "🛒 Mon Vinted":"🛒 Мой Vinted","★★★★★ Avis Vinted Vérifiés":"★★★★★ Проверенные отзывы Vinted",
             "👕 Voir mon profil Vinted":"👕 Открыть мой профиль Vinted",
-
-            /* ============ BEAUTÉ ============ */
             "Élégance · Soin · Autonomie":"Элегантность · Забота · Независимость",
-            "Une sélection de produits beauté pour prendre soin de vos ongles et révéler votre style. Qualité vérifiée, prix justes, expérience boutique.":"Подборка средств по уходу за ногтями, созданная, чтобы подчеркнуть ваш стиль. Проверенное качество, честные цены, атмосфера настоящего бутика.",
-            "✨ Tout voir":"✨ Показать всё",
-            "💅 Vernis & Couleurs":"💅 Лаки и оттенки",
-            "🧴 Soins":"🧴 Уход",
-            "💎 Accessoires":"💎 Аксессуары",
-            "🎁 Kits":"🎁 Наборы",
-            "BEST-SELLER":"ХИТ ПРОДАЖ",
-            "KIT COMPLET":"ПОЛНЫЙ КОМПЛЕКТ",
-            "-20%":"−20%",
-            "Vernis Gel UV Semi-Permanent":"Полуперманентный UV-гель-лак",
-            "Tenue longue durée jusqu'à 21 jours, brillance miroir, 12 teintes disponibles.":"Стойкость до 21 дня, зеркальный блеск, 12 оттенков на выбор.",
-            "Kit Manucure Professionnel 12 pièces":"Профессиональный маникюрный набор — 12 предметов",
-            "Limes, ciseaux, repousse-peaux, pince, cure-dents… tout pour des ongles parfaits à la maison.":"Пилки, ножницы, кусачки для кутикулы, пинцет, зубочистки… всё для безупречного маникюра дома.",
-            "Huile de Cuticules Vitamine E":"Масло для кутикулы с витамином E",
-            "Nourrit, répare et fortifie les ongles et cuticules. Flacon pompe 15 ml, parfum délicat.":"Питает, восстанавливает и укрепляет ногти и кутикулу. Флакон с дозатором 15 мл, деликатный аромат.",
-            "Lampe UV LED 48W Professionnelle":"Профессиональная UV LED-лампа мощностью 48 Вт",
-            "Séchage rapide, minuterie 30/60/99s, compatible tous gels UV.":"Быстрая полимеризация, таймер 30/60/99 с, совместима со всеми UV-гелями.",
-            "Kit Capsules &amp; Strass Nail Art":"Набор капсул и страз для нейл-арта",
-            "Plus de 500 capsules + strass autocollants pour créations illimitées.":"Более 500 капсул и самоклеящихся страз — безграничные возможности для творчества.",
-            "Baume Réparateur Ongles Abîmés":"Восстанавливающий бальзам для повреждённых ногтей",
-            "Répare les ongles cassants et striés, formule enrichie en kératine et calcium.":"Восстанавливает ломкие и слоящиеся ногти. Формула обогащена кератином и кальцием.",
+            "✨ Tout voir":"✨ Показать всё","💅 Vernis & Couleurs":"💅 Лаки и оттенки","🧴 Soins":"🧴 Уход","💎 Accessoires":"💎 Аксессуары","🎁 Kits":"🎁 Наборы",
+            "BEST-SELLER":"ХИТ ПРОДАЖ","KIT COMPLET":"ПОЛНЫЙ КОМПЛЕКТ","-20%":"−20%",
             "💡 Conseils Beauté GUILLET IV":"💡 Советы по красоте от GUILLET IV",
-            "Hydratez vos cuticules chaque soir avec une huile végétale.":"Каждый вечер увлажняйте кутикулу растительным маслом.",
-            "Espacez les poses de gel pour laisser respirer vos ongles.":"Делайте перерывы между наращиванием, чтобы ногти могли отдохнуть.",
-            "Protégez vos mains avec des gants pour les tâches ménagères.":"Выполняйте домашние дела в защитных перчатках.",
-            "Utilisez une base protectrice avant chaque vernis coloré.":"Наносите защитную базу перед каждым цветным покрытием.",
-
-            /* ============ CYBERSÉCURITÉ ============ */
-            "🛡️ Prévention Cybersécurité":"🛡️ Профилактика кибербезопасности",
-            "Attaques informatiques en France":"Кибератаки во Франции",
-            "Phishing, vol de données, accès frauduleux et usurpation d'identité : comprendre les risques aide à mieux protéger ses comptes, ses appareils et ses informations personnelles.":"Фишинг, кража данных, мошеннический доступ и кража личности: понимание рисков помогает надёжнее защитить свои аккаунты, устройства и персональные данные.",
-            "La prévention associe des habitudes prudentes, des protections techniques adaptées et une réaction rapide lorsqu'un incident survient.":"Профилактика сочетает осознанные привычки, адекватные технические средства защиты и оперативную реакцию при инциденте.",
+            "🛡️ Prévention Cybersécurité":"🛡️ Профилактика кибербезопасности","Attaques informatiques en France":"Кибератаки во Франции",
             "📋 Les thèmes de prévention":"📋 Темы профилактики",
-            "🔑 Étape 1 — Mots de passe enregistrés":"🔑 Шаг 1 — Сохранённые пароли",
-            "🎣 Étape 2 — Ingénierie sociale et phishing":"🎣 Шаг 2 — Социальная инженерия и фишинг",
-            "💻 Étape 3 — Attaques contre les mots de passe":"💻 Шаг 3 — Атаки на пароли",
-            "🗝️ Étape 4 — Photos de clés et sécurité physique":"🗝️ Шаг 4 — Фотографии ключей и физическая безопасность",
-            "👤 Étape 5 — Informations personnelles":"👤 Шаг 5 — Личные данные",
-            "⚖️ Étape 6 — Loi française et hacking":"⚖️ Шаг 6 — Французское законодательство и хакинг",
-            "📨 Étape 7 — Phishing, escroquerie et identité":"📨 Шаг 7 — Фишинг, мошенничество и кража личности",
-            "🗂️ Étape 8 — Données personnelles et RGPD":"🗂️ Шаг 8 — Персональные данные и GDPR",
-            "✅ Étape 9 — Tests de sécurité autorisés":"✅ Шаг 9 — Авторизованные тесты на проникновение",
-            "🚨 Étape 10 — Que faire en cas d'incident ?":"🚨 Шаг 10 — Что делать при инциденте?",
+            "🔑 Étape 1 — Mots de passe enregistrés":"🔑 Шаг 1 — Сохранённые пароли","🎣 Étape 2 — Ingénierie sociale et phishing":"🎣 Шаг 2 — Социальная инженерия и фишинг",
+            "💻 Étape 3 — Attaques contre les mots de passe":"💻 Шаг 3 — Атаки на пароли","🗝️ Étape 4 — Photos de clés et sécurité physique":"🗝️ Шаг 4 — Фотографии ключей и физическая безопасность",
+            "👤 Étape 5 — Informations personnelles":"👤 Шаг 5 — Личные данные","⚖️ Étape 6 — Loi française et hacking":"⚖️ Шаг 6 — Французское законодательство и хакинг",
+            "📨 Étape 7 — Phishing, escroquerie et identité":"📨 Шаг 7 — Фишинг, мошенничество и кража личности","🗂️ Étape 8 — Données personnelles et RGPD":"🗂️ Шаг 8 — Персональные данные и GDPR",
+            "✅ Étape 9 — Tests de sécurité autorisés":"✅ Шаг 9 — Авторизованные тесты на проникновение","🚨 Étape 10 — Que faire en cas d'incident ?":"🚨 Шаг 10 — Что делать при инциденте?",
             "🏁 Conclusion générale":"🏁 Общее заключение",
-
-            /* ============ PRÉVENTION HARCÈLEMENT ============ */
             "🛡️ Prévention Harcèlement":"🛡️ Профилактика буллинга",
             "Le harcèlement est un délit. Il détruit des vies.":"Буллинг — это преступление. Он разрушает жизни.",
-            "Que ce soit <strong>physique</strong>, <strong>psychologique</strong> ou <strong>virtuel</strong>, la loi française punit sévèrement les auteurs.":"Будь то <strong>физическое</strong>, <strong>психологическое</strong> или <strong>виртуальное</strong> преследование, французское законодательство сурово наказывает виновных.",
-            "Voici les peines encourues, <strong>seul ou en bande organisée</strong>.":"Ниже перечислены предусмотренные наказания — <strong>для одиночных действий и в составе организованной группы</strong>.",
-            "📋 Les thèmes de prévention":"📋 Темы профилактики",
-            "💻 Harcèlement moral":"💻 Психологическое преследование",
-            "🎓 Harcèlement scolaire":"🎓 Школьная травля",
-            "🤬 Harcèlement sexuel":"🤬 Сексуальное домогательство",
-            "🚨 En bande organisée":"🚨 В составе организованной группы",
-            "📞 Où trouver de l'aide ?":"📞 Куда обратиться за помощью?",
-            "⚠️ Ne reste pas seul(e). Parle.":"⚠️ Не оставайся один. Говори.",
-            "📞 Appeler le 3018":"📞 Позвонить на 3018",
-            "🚨 Signaler sur 17Cyber":"🚨 Сообщить через 17Cyber",
-            "Ne reste pas seul(e). Parle.":"Не оставайся один. Говори.",
-
-            /* ============ PAGES LÉGALES ============ */
-            "Mentions légales":"Правовая информация",
-            "Conditions Générales de Vente":"Общие условия продажи",
-            "1. Objet":"1. Предмет договора",
-            "Les présentes conditions régissent les ventes réalisées sur la Boutique GUILLET IV.":"Настоящие условия регулируют продажи, осуществляемые в Магазине GUILLET IV.",
-            "2. Prix":"2. Цена",
-            "Les prix sont indiqués en euros, toutes taxes comprises.":"Цены указаны в евро, включая все налоги.",
-            "3. Livraison":"3. Доставка",
-            "Livraison rapide selon disponibilité.":"Быстрая доставка при наличии товара.",
-            "4. Retour / Remboursement":"4. Возврат и возмещение",
-            "Les retours et remboursements suivent les règles de Vinted et le droit de rétractation applicable (14 jours).":"Возвраты и возмещения осуществляются в соответствии с правилами Vinted и применимым правом отзыва (14 дней).",
-            "5. Paiement":"5. Оплата",
-            "Paiement sécurisé via Stripe.":"Безопасная оплата через Stripe.",
-            "6. Contact":"6. Контактная информация",
-            "1. Informations légales":"1. Правовая информация",
-            "Nom de l'entreprise :":"Название компании:",
-            "Statut :":"Правовой статус:",
-            "Micro-entreprise":"Микропредприятие",
-            "Entrepreneur :":"Предприниматель:",
-            "SIREN :":"SIREN:",
-            "À compléter":"Будет указано",
-            "Adresse :":"Адрес:",
-            "Ille-et-Vilaine, France":"Иль-э-Вилен, Франция",
-            "Email :":"Эл. почта:",
-            "Téléphone :":"Телефон:",
-            "2. Hébergement du site":"2. Хостинг сайта",
-            "Hébergeur :":"Хостинг-провайдер:",
-            "Site :":"Сайт:",
-            "3. Propriété intellectuelle":"3. Интеллектуальная собственность",
-            "Tout le contenu du site (textes, images, design, logo, structure) est la propriété exclusive de GUILLET IV.":"Весь контент сайта (тексты, изображения, дизайн, логотип, структура) является исключительной собственностью GUILLET IV.",
-            "Toute reproduction, distribution ou exploitation sans autorisation est strictement interdite.":"Любое воспроизведение, распространение или использование без разрешения строго запрещено.",
-            "4. Données personnelles":"4. Персональные данные",
-            "Les données collectées sont utilisées uniquement pour le traitement des commandes et le support client.":"Собранные данные используются исключительно для обработки заказов и поддержки клиентов.",
-            "Aucune donnée personnelle n'est transmise, vendue, partagée ou communiquée à des entreprises, plateformes, services tiers ou organismes étatiques.":"Никакие персональные данные не передаются, не продаются, не распространяются и не сообщаются компаниям, платформам, сторонним сервисам или государственным органам.",
-            "Conformément au RGPD, vous pouvez demander la suppression ou modification de vos données à tout moment via :":"В соответствии с GDPR вы можете в любой момент запросить удаление или изменение своих данных по адресу:",
-            "5. Cookies":"5. Cookies",
-            "Le site peut utiliser des cookies techniques pour améliorer l'expérience utilisateur. Aucun cookie publicitaire n'est utilisé.":"Сайт может использовать технические cookies для улучшения пользовательского опыта. Рекламные cookies не используются.",
-            "6. Responsabilité":"6. Ответственность",
-            "GUILLET IV ne peut être tenu responsable des dommages liés à l'utilisation du site ou des produits, sauf preuve d'une faute directe.":"GUILLET IV не несёт ответственности за ущерб, связанный с использованием сайта или товаров, кроме случаев доказанной прямой вины.",
-            "7. Litiges":"7. Разрешение споров",
-            "En cas de litige, une solution amiable sera recherchée en priorité. À défaut, les tribunaux français seront compétents.":"В случае спора приоритет отдаётся поиску мирного решения. При недостижении согласия спор подлежит рассмотрению во французских судах.",
-            "8. Sécurité &amp; Intrusions":"8. Безопасность и несанкционированный доступ",
-            "Le propriétaire du site exerce une activité de <strong>pentesteur</strong>. Toute tentative d'accès non autorisé, d'intrusion, de contournement de sécurité, d'exploitation de faille ou d'action malveillante sera immédiatement détectée, enregistrée et analysée.":"Владелец сайта профессионально занимается <strong>тестированием на проникновение</strong>. Любая попытка несанкционированного доступа, вторжения, обхода защиты, эксплуатации уязвимости или вредоносных действий будет незамедлительно обнаружена, зафиксирована и проанализирована.",
-            "Toute activité suspecte ou malveillante fera l'objet d'un signalement aux autorités compétentes.":"Любая подозрительная или вредоносная активность будет передана в компетентные органы.",
-
-            /* ============ FAQ ============ */
-            "❓ Foire Aux Questions":"❓ Часто задаваемые вопросы",
-            "📦 Livraison":"📦 Доставка",
-            "🔒 Paiement sécurisé":"🔒 Безопасная оплата",
-            "❌ Remboursement & Retour":"❌ Возврат и возмещение",
-            "🛡️ Garantie":"🛡️ Гарантия",
-            "Quel est le délai d'expédition ?":"Каков срок отправки?",
-            "Les articles sont expédiés rapidement selon leur disponibilité, généralement après validation de la commande sur Vinted.":"Товары отправляются оперативно при наличии, как правило, после подтверждения заказа на Vinted.",
-            "Quelles sont les zones livrées ?":"В какие регионы осуществляется доставка?",
-            "La livraison est assurée en France métropolitaine via les options proposées par Vinted.":"Доставка осуществляется по континентальной Франции через опции, предлагаемые Vinted.",
-            "Quels sont les frais de livraison ?":"Сколько стоит доставка?",
-            "Les frais de livraison dépendent du mode d'envoi choisi par l'acheteur lors de la commande sur Vinted.":"Стоимость доставки зависит от способа отправки, выбранного покупателем при оформлении заказа на Vinted.",
-            "Comment se passe le paiement ?":"Как проходит оплата?",
-            "Toutes les transactions sont sécurisées et effectuées directement via la plateforme Vinted ou Stripe. Aucune donnée bancaire n'est transmise au vendeur.":"Все транзакции защищены и проводятся напрямую через платформу Vinted или Stripe. Банковские данные продавцу не передаются.",
-            "Comment se passe le remboursement ?":"Как осуществляется возмещение?",
-            "Les demandes de remboursement sont traitées selon les règles de Vinted et le droit de rétractation applicable.":"Запросы на возмещение рассматриваются в соответствии с правилами Vinted и применимым правом отзыва.",
-            "Les retours sont-ils acceptés ?":"Принимаются ли возвраты?",
-            "Les retours sont acceptés uniquement dans le cadre des règles Vinted, du droit de rétractation (14 jours) ou en cas d'article non conforme.":"Возврат принимается исключительно в рамках правил Vinted, права отзыва (14 дней) или в случае несоответствия товара.",
-            "Que couvre la garantie de 24 mois ?":"Что покрывает 24-месячная гарантия?",
-            "La garantie commerciale de 24 mois couvre les défauts de fabrication et les pannes non imputables à l'utilisateur.":"Коммерческая гарантия сроком 24 месяца покрывает производственные дефекты и неисправности, возникшие не по вине пользователя.",
-            "Que ne couvre-t-elle pas ?":"Что не покрывается гарантией?",
-            "Les chutes, chocs et mauvaises utilisations":"Падения, удары и неправильная эксплуатация",
-            "Les infiltrations d'eau":"Попадание влаги",
-            "Les surtensions électriques":"Электрические перенапряжения",
-            "Les modifications ou réparations non autorisées":"Неавторизованные модификации и ремонт",
-            "L'usure normale du produit":"Естественный износ изделия",
-
-            /* ============ CONTACT ============ */
-            "✉️ Contactez-nous":"✉️ Свяжитесь с нами",
-            "Une question ? Un projet ? N'hésitez pas à nous écrire.":"Есть вопрос или идея? Напишите нам — мы будем рады помочь.",
-            "📞 Téléphone :":"📞 Телефон:",
-            "📧 Email :":"📧 Эл. почта:",
-            "📍 Localisation :":"📍 Местоположение:",
-            "🕒 Horaires :":"🕒 Часы работы:",
-            "France, Ille-et-Vilaine":"Франция, Иль-э-Вилен",
-            "9h – 20h":"с 9:00 до 20:00",
-            "Votre nom":"Ваше имя",
-            "Votre adresse e-mail":"Ваш адрес эл. почты",
-            "Votre message...":"Ваше сообщение...",
-            "Envoyer le message":"Отправить сообщение",
-            "Envoyer":"Отправить",
-            "Votre message a été préparé. Vous pouvez maintenant l'envoyer via votre application email.":"Ваше сообщение подготовлено. Теперь его можно отправить через почтовое приложение.",
-
-            /* ============ FOOTER ============ */
-            "Accueil":"Главная",
-            "À propos":"О нас",
-            "Boutique":"Магазин",
-            "Contact":"Контакты",
-            "CGV":"Условия",
-            "Prévention Harcèlement":"Профилактика буллинга",
-            "Prévention Cybersécurité":"Профилактика кибербезопасности",
-            "Mentions légales":"Правовая информация",
+            "💻 Harcèlement moral":"💻 Психологическое преследование","🎓 Harcèlement scolaire":"🎓 Школьная травля","🤬 Harcèlement sexuel":"🤬 Сексуальное домогательство","🚨 En bande organisée":"🚨 В составе организованной группы",
+            "📞 Où trouver de l'aide ?":"📞 Куда обратиться за помощью?","⚠️ Ne reste pas seul(e). Parle.":"⚠️ Не оставайся один. Говори.",
+            "📞 Appeler le 3018":"📞 Позвонить на 3018","🚨 Signaler sur 17Cyber":"🚨 Сообщить через 17Cyber",
+            "Mentions légales":"Правовая информация","Conditions Générales de Vente":"Общие условия продажи",
+            "❓ Foire Aux Questions":"❓ Часто задаваемые вопросы","📦 Livraison":"📦 Доставка","🔒 Paiement sécurisé":"🔒 Безопасная оплата","❌ Remboursement & Retour":"❌ Возврат и возмещение","🛡️ Garantie":"🛡️ Гарантия",
+            "✉️ Contactez-nous":"✉️ Свяжитесь с нами","Une question ? Un projet ? N'hésitez pas à nous écrire.":"Есть вопрос или идея? Напишите нам — мы будем рады помочь.",
+            "📞 Téléphone :":"📞 Телефон:","📧 Email :":"📧 Эл. почта:","📍 Localisation :":"📍 Местоположение:","🕒 Horaires :":"🕒 Часы работы:",
+            "France, Ille-et-Vilaine":"Франция, Иль-э-Вилен","9h – 20h":"с 9:00 до 20:00",
+            "Votre nom":"Ваше имя","Votre adresse e-mail":"Ваш адрес эл. почты","Votre message...":"Ваше сообщение...","Envoyer le message":"Отправить сообщение","Envoyer":"Отправить",
+            "Accueil":"Главная","À propos":"О нас","Boutique":"Магазин","Contact":"Контакты","CGV":"Условия",
+            "Prévention Harcèlement":"Профилактика буллинга","Prévention Cybersécurité":"Профилактика кибербезопасности",
             "📍 Ille-et-Vilaine · 🕒 9h – 20h":"📍 Иль-э-Вилен · 🕒 с 9:00 до 20:00",
             "🔒 Paiement sécurisé — 🚚 Livraison rapide":"🔒 Безопасная оплата — 🚚 Быстрая доставка",
             "© 2026 GUILLET IV — L'Ordre de l'Indépendance":"© 2026 GUILLET IV — Орден Независимости",
             "🎵 Suivez-nous sur TikTok":"🎵 Подписывайтесь на нас в TikTok",
-
-            /* ============ WIDGETS & ARIA ============ */
-            "🎵 Musique du site":"🎵 Музыка сайта",
-            "🔍 Rechercher un produit":"🔍 Поиск товара",
-            "Produits correspondants":"Найденные товары",
-            "Conseil GUILLET IV":"Советник GUILLET IV",
-            "Assistant Intelligent":"Умный помощник",
-            "Posez-moi une question...":"Задайте мне вопрос...",
-            "Rechercher un produit":"Поиск товара",
-            "Effacer la recherche":"Очистить поиск",
-            "Changer de mode clair ou sombre":"Переключить светлую / тёмную тему",
-            "Choisir une musique":"Выбрать трек",
-            "Ouvrir le chat de conseil":"Открыть чат с советником",
-            "Fermer le chat":"Закрыть чат",
-            "Agrandissement du produit":"Увеличение изображения товара",
-            "Fermer l'image":"Закрыть изображение",
-            "Fermer":"Закрыть",
-            "Retour en haut":"Наверх",
-            "Lecture / Pause":"Воспроизведение / Пауза",
-            "Volume de la musique":"Громкость музыки",
-            "Lecteur de musique":"Музыкальный проигрыватель",
-            "Lecteur musique persistant":"Плавающий музыкальный проигрыватель",
-            "Navigation principale":"Основная навигация",
-            "Navigation de pied de page":"Навигация в подвале сайта",
-            "Sommaire de la prévention harcèlement":"Сводка по профилактике буллинга",
-            "Sommaire de la prévention cybersécurité":"Сводка по профилактике кибербезопасности",
-            "Tableau des infractions et sanctions informatiques":"Таблица правонарушений и санкций в сфере ИТ",
-
-            /* ============ CHATBOT ============ */
-            "Voir toutes les pages":"Показать все страницы",
-            "Voir les prix":"Посмотреть цены",
-            "Vous contacter":"Связаться с вами",
-            "Livraison":"Доставка",
-            "Menu des pages":"Меню страниц",
-            "Les prix":"Цены",
-            "Je ne suis pas sûr de bien comprendre 🤔 Voici ce que je sais faire :":"Не уверен, что правильно понял 🤔 Вот что я умею:",
-            "Bonjour et bienvenue chez GUILLET IV ! Je suis votre assistant virtuel.":"Здравствуйте и добро пожаловать в GUILLET IV! Я — ваш виртуальный помощник.",
-            "Posez-moi une question ou choisissez un sujet ci-dessous :":"Задайте мне вопрос или выберите тему ниже:",
-            "Voici toutes les sections du site :":"Вот все разделы сайта:",
-            "Nous sommes disponibles de 9h à 20h au":"Мы на связи с 9:00 до 20:00 по телефону",
-            "Vous pouvez aussi nous écrire à":"Вы также можете написать нам на",
-            "La livraison est rapide et sécurisée.":"Доставка быстрая и безопасная.",
-            "Le Drone KY108 (89€) est équipé d'une double caméra HD, d'un zoom 90x.":"Дрон KY108 (89€) оснащён двойной HD-камерой и 90-кратным зумом.",
-            "Le Projecteur LED solaire (35€) fonctionne à l'énergie solaire.":"Солнечный LED-прожектор (35€) работает на солнечной энергии.",
-            "Le Winter Survival Pack (99,99€) contient gants chauffants, torches, batterie, sac de couchage.":"Зимний набор выживания (99,99€) включает перчатки с подогревом, фонари, аккумулятор и спальный мешок.",
-            "L'Endoscope (95€) : écran 4.3\", câble 10m, IP68.":"Эндоскоп (95€): экран 4.3\", кабель 10 м, IP68.",
-            "La section Ongles & Beauté propose vernis, kits manucure, huiles et accessoires.":"В разделе «Ногти и Красота» представлены лаки, маникюрные наборы, масла и аксессуары.",
-            "Drone: 89€ • Projecteur: 35€ • Pack Hiver: 99,99€ • Endoscope: 95€ • Beauté: à partir de 8,90€":"Дрон: 89€ • Прожектор: 35€ • Зимний набор: 99,99€ • Эндоскоп: 95€ • Красота: от 8,90€",
-            "Avec plaisir ! 🙏":"С удовольствием! 🙏",
-            "Voir":"Посмотреть",
-            "Acheter":"Купить",
-            "Voir la section":"Перейти в раздел",
-
-            /* ============ AUTRES ============ */
-            "⚠️ JavaScript est désactivé. Activez JavaScript pour une expérience complète.":"⚠️ JavaScript отключён. Включите JavaScript, чтобы пользоваться сайтом в полной мере.",
-            "Veuillez remplir tous les champs.":"Пожалуйста, заполните все поля.",
-            "Zoom produit":"Увеличение изображения товара",
-            "Informations issues du Code pénal français (Légifrance). Dernière mise à jour : 2026.":"Информация основана на Уголовном кодексе Франции (Légifrance). Последнее обновление: 2026.",
-            "Entreprise GUILLET IV":"Предприятие GUILLET IV",
-            "GRAND FOUGERAY":"ГРАН-ФУЖЕРЕ"
+            "🎵 Musique du site":"🎵 Музыка сайта","🔍 Rechercher un produit":"🔍 Поиск товара","Produits correspondants":"Найденные товары",
+            "Conseil GUILLET IV":"Советник GUILLET IV","Posez-moi une question...":"Задайте мне вопрос...",
+            "Rechercher un produit":"Поиск товара","Effacer la recherche":"Очистить поиск","Changer de mode clair ou sombre":"Переключить светлую / тёмную тему",
+            "Choisir une musique":"Выбрать трек","Ouvrir le chat de conseil":"Открыть чат с советником","Fermer le chat":"Закрыть чат",
+            "Agrandissement du produit":"Увеличение изображения товара","Fermer l'image":"Закрыть изображение","Fermer":"Закрыть","Retour en haut":"Наверх",
+            "Lecture / Pause":"Воспроизведение / Пауза","Volume de la musique":"Громкость музыки","Lecteur de musique":"Музыкальный проигрыватель","Lecteur musique persistant":"Плавающий музыкальный проигрыватель",
+            "Navigation principale":"Основная навигация","Navigation de pied de page":"Навигация в подвале сайта"
         },
-        uk: {
-            /* ... (traduction ukrainienne comme dans le code précédent) ... */
-        }
+        uk: {}
     };
 
     /* --------------------------------------------------------
