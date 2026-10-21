@@ -2410,7 +2410,7 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
         const params = new URLSearchParams(window.location.search);
         const param = params.get("maintenance");
         
-        let etat = null;
+        let etat =  false;
         
         if (param === "on") {
             etat = true;
