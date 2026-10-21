@@ -2427,10 +2427,10 @@ footer p{ margin:.5rem 0 0; font-size:var(--text-size); opacity:.85; line-height
 
         // 👇 VALEUR PAR DÉFAUT : false = site accessible
         //    Mets true si tu veux démarrer en maintenance par défaut.
-        let etat = null;
+        let etat =  false;
 
         // 1) Priorité au paramètre d'URL
-        if (param === "on")  etat = true;
+        if (param === "on")  etat = null;
         else if (param === "off") etat = false;
         // 2) Sinon on relit localStorage
         else {
