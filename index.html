@@ -221,20 +221,44 @@ body.light-mode .navbar{ background:rgba(255,255,255,.96); }
 }
 
 /* ------------------------------------------------------------
-   3.4 — Marquee
+   3.4 — Marquee (AMÉLIORÉ : plus grand, plus lisible)
    ------------------------------------------------------------ */
 .marquee-bar{
-    background:linear-gradient(90deg, #000 0%, #1a0000 50%, #000 100%);
-    border-bottom:1px solid var(--gold); padding:.5rem 0; overflow:hidden;
-    white-space:nowrap;
+    background: linear-gradient(90deg, #1a0000 0%, #000 25%, #0a0a0a 50%, #000 75%, #1a0000 100%);
+    border-top: 2px solid var(--gold);
+    border-bottom: 2px solid var(--gold);
+    padding: .8rem 0;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: inset 0 0 20px rgba(255,215,0,0.1), 0 4px 10px rgba(0,0,0,0.8);
+    position: relative;
 }
 .marquee-content{
-    display:inline-block; padding-left:100%;
-    animation:marquee 90s linear infinite;
-    font-family:var(--font-display); font-size:.75rem; font-weight:700; color:var(--gold);
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 60s linear infinite;
+    font-family: var(--font-display);
+    font-size: 1rem; /* Taille augmentée sur mobile */
+    font-weight: 700;
+    color: var(--gold-bright);
+    text-shadow: 0 0 10px rgba(255,215,0,0.4), 1px 1px 2px #000;
+    letter-spacing: 0.05em;
 }
-.marquee-content span{ margin:0 1rem; }
-.marquee-content .marquee-icon{ color:var(--red); }
+.marquee-content span{ margin: 0 1.5rem; display: inline-block; vertical-align: middle; }
+.marquee-content .marquee-icon{ 
+    color: var(--red); 
+    font-size: 1.2rem; 
+    text-shadow: 0 0 8px rgba(225,6,0,0.8); 
+}
+
+@media(min-width:600px){
+    .marquee-bar { padding: 1rem 0; }
+    .marquee-content { font-size: 1.25rem; }
+    .marquee-content span{ margin: 0 2.5rem; }
+}
+@media(min-width:900px){
+    .marquee-content { font-size: 1.4rem; }
+}
 
 /* ------------------------------------------------------------
    3.5 — Lecteur audio
@@ -1250,7 +1274,7 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
 </nav>
 
 <!-- ------------------------------------------------------------
-   4.5 — Marquee
+   4.5 — Marquee (AMÉLIORÉ)
    ------------------------------------------------------------ -->
 <div class="marquee-bar" translate="no" data-no-translate="true" lang="fr">
     <div class="marquee-content">
@@ -1279,11 +1303,11 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
 <div class="audio-player">
     <h2>🎵 Musique du site</h2>
     <select id="musicSelect" onchange="changerMusique(this.value)" aria-label="Choisir une musique">
-        <option value="Dark Blues.Vol.mp3">Dark Blues.Vol.mp3</option>
         <option value="quelques-notes.mp3">🎵 Quelques notes</option>
         <option value="Bilar-Phénix.mp3">Bilar – Phénix</option>
         <option value="Cenza-inconnu.mp3">Cenza – Inconnu</option>
         <option value="ConFinement-n°2.mp3">Bilar – ConFinement n°2</option>
+        <option value="Dark Blues.Vol.mp3">Dark Blues.Vol.mp3</option>
         <option value="IAM-la-fin-de-leur-monde.mp3">IAM – La fin de leur monde</option>
         <option value="Issaba-Tu-connais.mp3">Issaba – Tu connais</option>
         <option value="kery-James.mp3">Kery James – Post-Scriptum</option>
