@@ -1563,7 +1563,7 @@ body.light-mode .music-widget select{ background:#fff; }
     window.desactiverMaintenance = function(){ appliquer(false); return "❌ Maintenance DÉSACTIVÉE."; };
     window.etatMaintenance = function(){ try { return localStorage.getItem(CLE) === "on"; } catch(e){ return false; } };
     document.addEventListener("DOMContentLoaded", function(){
-        var params = new URLSearchParams(window.location.search); var param = params.get("maintenance"); var etat = false;
+        var params = new URLSearchParams(window.location.search); var param = params.get("maintenance"); var etat = true;
         if (param === "on") etat = true; else if (param === "off") etat = false;
         else { try { var saved = localStorage.getItem(CLE); if (saved === "on") etat = true; else if (saved === "off") etat = false; } catch(e){} }
         appliquer(etat);
