@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>GUILLET IV — L'Ordre de l'Indépendance</title>
-<meta name="description" content="GUILLET IV — Boutique, prévention cybersécurité, prévention harcèlement et conseils produits. Drones, projecteurs solaires, packs hiver, endoscopes et ongles & beauté.">
+<meta name="description" content="GUILLET IV — Boutique, prévention cybersécurité, prévention harcèlement, conseils produits et Voyageur Grand Fougeray / Bar Le Big Foug. Drones, projecteurs solaires, packs hiver, endoscopes et ongles & beauté.">
 <meta name="theme-color" content="#050505">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://vercel.live; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://upload.wikimedia.org; connect-src 'self' https://vitals.vercel-insights.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' mailto:;">
 <meta http-equiv="X-Content-Type-Options" content="nosniff">
@@ -24,7 +24,7 @@
 <meta property="og:locale" content="fr_FR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="GUILLET IV — L'Ordre de l'Indépendance">
-<meta name="twitter:description" content="Boutique · Prévention cyber · Prévention harcèlement · Ongles & Beauté">
+<meta name="twitter:description" content="Boutique · Prévention cyber · Prévention harcèlement · Ongles & Beauté · Voyageur Grand Fougeray">
 
 <!-- Favicon SVG inline -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23e10600' stroke='%23ffd700' stroke-width='4'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='serif' font-weight='bold' font-size='28' fill='%23ffd700'%3EIV%3C/text%3E%3C/svg%3E">
@@ -936,6 +936,122 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
     #maintenance-page .maintenance-btn-gold, #maintenance-page .maintenance-btn-outline{ padding:1rem 2rem; border-radius:16px; }
     #maintenance-page .maintenance-copyright{ margin-top:3rem; font-size:.85rem; }
 }
+
+/* ------------------------------------------------------------
+   3.22 — Voyageur Grand Fougeray / Bar Le Big Foug
+   ------------------------------------------------------------ */
+.traveler-hero{
+    text-align:center; padding:1.5rem 1rem 1.2rem;
+    background:linear-gradient(135deg, rgba(255,215,0,0.10), rgba(0,0,0,0.75) 60%);
+    border:1px solid var(--gold); border-radius:var(--radius-lg);
+    margin:1rem auto 1.5rem; max-width: 900px;
+}
+.traveler-hero .traveler-mascot{
+    width:100%; max-width:220px; margin:0 auto 1.2rem;
+    border:2px solid var(--gold); border-radius:var(--radius-lg);
+    overflow:hidden; cursor:zoom-in; background:#000;
+    box-shadow:var(--shadow-md);
+}
+.traveler-hero .traveler-mascot img{ width:100%; display:block; }
+.traveler-hero h1{
+    font-family:var(--font-display); font-size:1.5rem; color:var(--gold);
+    margin:0 0 .4rem; letter-spacing:.04em;
+}
+.traveler-hero .traveler-sub{
+    font-family:var(--font-display); font-size:.85rem; color:#ff9a9a;
+    letter-spacing:.1em; text-transform:uppercase; font-weight:700;
+    display:block; margin-bottom:1rem;
+}
+.traveler-hero p.traveler-intro{
+    max-width:95%; margin:0 auto 1rem; font-size:.95rem; line-height:1.7;
+    background: rgba(0,0,0,0.3); padding: 0.8rem; border-radius: var(--radius-md);
+    color: #eaeaea;
+}
+.traveler-address{
+    display:inline-flex; align-items:center; gap:.5rem; flex-wrap:wrap; justify-content:center;
+    background:linear-gradient(135deg,var(--gold),var(--gold-dark)); color:#000;
+    padding:.7rem 1.4rem; border-radius:40px; font-weight:700; font-size:.9rem;
+    margin:0.5rem auto; border:1px solid #fff; text-decoration:none;
+    box-shadow: var(--shadow-sm); transition: transform 0.2s;
+}
+.traveler-address:hover{ background:transparent; color:var(--gold); border-color:var(--gold); transform: scale(1.02); }
+
+/* --- Galerie photos ajustée --- */
+.traveler-gallery{
+    display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-start;
+    gap:1.5rem; width:calc(100% - 2rem); max-width: 1000px; margin:1.5rem auto 2rem;
+}
+.traveler-photo{
+    flex: 0 1 380px; /* Limite la largeur de l'image */
+    width: 100%; max-width: 380px;
+    border:1px solid var(--gold); border-radius:var(--radius-lg);
+    overflow:hidden; background:#000; cursor:zoom-in;
+    box-shadow:var(--shadow-md); transition: transform 0.3s;
+}
+.traveler-photo:hover { transform: translateY(-4px); }
+.traveler-photo img{
+    width:100%; aspect-ratio:4/3; object-fit:cover; display:block;
+    transition:transform .35s ease;
+}
+.traveler-photo:hover img{ transform:scale(1.03); }
+.traveler-photo figcaption{
+    padding:.8rem 1rem; font-size:.85rem; font-style:italic;
+    color:var(--gold); background:rgba(20,20,20,0.9); text-align:center;
+    border-top: 1px solid rgba(255,215,0,0.2);
+}
+
+/* --- Cartes info ajustées --- */
+.traveler-info-grid{
+    display:grid; grid-template-columns:1fr; gap:1rem;
+    width:calc(100% - 2rem); max-width: 900px; margin:0 auto 2rem;
+}
+.traveler-info-card{
+    background:var(--card-bg); border:1px solid rgba(255,215,0,0.4);
+    border-radius:var(--radius-md); padding:1.2rem 1.5rem;
+    font-size:.92rem; line-height:1.7;
+    box-shadow: var(--shadow-sm);
+}
+.traveler-info-card h3{
+    font-family:var(--font-display); color:var(--gold); font-size:1.05rem;
+    margin:0 0 .6rem; display:flex; align-items:center; gap:.5rem;
+    border-bottom: 1px solid rgba(255,215,0,0.15); padding-bottom: 0.5rem;
+}
+.traveler-info-card p{ margin:0; color: #ddd; }
+
+/* --- Highlight --- */
+.traveler-highlight{
+    width:calc(100% - 2rem); max-width: 900px; margin:0 auto 2rem; padding:1.5rem 1.5rem;
+    background:linear-gradient(135deg, rgba(225,6,0,0.15), rgba(0,0,0,0.9) 60%);
+    border:1px solid var(--gold); border-radius:var(--radius-lg);
+    text-align:center; box-shadow: var(--shadow-md);
+}
+.traveler-highlight h2{
+    font-family:var(--font-display); color:var(--gold);
+    font-size:1.3rem; margin:0 0 0.8rem;
+}
+.traveler-highlight p{ font-size:.95rem; line-height:1.7; margin:0 0 .8rem; color: #ddd; }
+.traveler-highlight p:last-child{ margin-bottom:0; }
+
+/* --- Responsive --- */
+@media(min-width:600px){
+    .traveler-hero h1{ font-size:1.8rem; }
+    .traveler-hero .traveler-mascot{ max-width:280px; }
+    .traveler-info-grid{ grid-template-columns:repeat(2,1fr); }
+}
+@media(min-width:900px){
+    .traveler-hero{ padding: 2rem 2rem 1.5rem; }
+    .traveler-hero h1{ font-size:var(--title-size); }
+    .traveler-hero .traveler-mascot{ max-width:320px; }
+    .traveler-hero p.traveler-intro{ font-size:var(--text-size); padding: 1.2rem; }
+    .traveler-address{ font-size:var(--text-size); padding:.8rem 1.8rem; }
+    .traveler-info-grid{ gap:1.5rem; }
+    .traveler-info-card{ font-size:var(--text-size); padding:1.5rem 2rem; }
+    .traveler-info-card h3{ font-size:var(--small-title-size); }
+    .traveler-highlight{ padding:2rem; }
+    .traveler-highlight h2{ font-size:var(--title-size); }
+    .traveler-highlight p{ font-size:var(--text-size); }
+    .traveler-photo figcaption{ font-size:var(--small-text-size); }
+}
 </style>
 <!-- FIN SECTION 3 (CSS) -->
 
@@ -1101,6 +1217,7 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
         <a href="#produits" class="nav-link" onclick="navigateTo('accueil', 'produits')">🛒 Boutique</a>
         <a href="#vinted" class="nav-link" onclick="navigateTo('vinted')">👕 Vinted</a>
         <a href="#ongles-beaute" class="nav-link" onclick="navigateTo('ongles-beaute')">💅 Ongles &amp; Beauté</a>
+        <a href="#voyageur-grand-fougeray" class="nav-link" onclick="navigateTo('voyageur-grand-fougeray')">🧭 Voyageur Grand Fougeray</a>
         <a href="#prevention-cyber" class="nav-link" onclick="navigateTo('prevention-cyber')">🛡️ Cybersécurité</a>
         <a href="javascript:void(0)" onclick="ouvrirPrevention()">🛡️ Harcèlement</a>
         <a href="#contact" class="nav-link" onclick="navigateTo('contact')">✉️ Contact</a>
@@ -1148,6 +1265,8 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
         <span>💎 Des produits choisis pour l'autonomie et la vie pratique</span>
         <span class="marquee-icon">★</span>
         <span>🛡️ Garantie 24 mois sur tous nos produits</span>
+        <span class="marquee-icon">★</span>
+        <span>🧭 Voyageur Grand Fougeray — Bar Le Big Foug</span>
         <span class="marquee-icon">★</span>
         <span>🎵 Découvrez notre sélection musicale exclusive</span>
         <span class="marquee-icon">★</span>
@@ -1546,7 +1665,78 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
 </div>
 
 <!-- ============================================================
-     PAGE 5 : PRÉVENTION CYBERSÉCURITÉ
+     PAGE 5 : VOYAGEUR GRAND FOUGERAY — BAR LE BIG FOUG
+     ============================================================ -->
+<div id="page-voyageur-grand-fougeray" class="page-section">
+    <div style="max-width: 900px; margin: 0 auto;">
+        <section class="traveler-hero" id="voyageur-grand-fougeray">
+            <div class="traveler-mascot" onclick="ouvrirZoom(this.querySelector('img').src, event)">
+                <img src="Mascotte.png" alt="Mascotte Voyageur Grand Fougeray — Bar Le Big Foug" loading="lazy">
+            </div>
+            <h1>🧭 Voyageur Grand Fougeray</h1>
+            <span class="traveler-sub">Bar Le Big Foug · Grand-Fougeray</span>
+            
+            <p class="traveler-intro">
+                Découvrez le <strong>Bar Le Big Foug</strong>, un lieu convivial au cœur de <strong>Grand-Fougeray</strong>, où l'on se retrouve entre amis, en famille ou après une journée de route. Ambiance chaleureuse, accueil souriant et produits de qualité : Le Big Foug est le point de rencontre incontournable du village.
+            </p>
+            
+            <a class="traveler-address" href="https://www.google.com/maps/search/?api=1&query=3+Pl.+de+l%27%C3%89glise,+35390+Grand-Fougeray" target="_blank" rel="noopener noreferrer">
+                📍 3 Pl. de l'Église, 35390 Grand-Fougeray
+            </a>
+        </section>
+    </div>
+
+    <div class="traveler-highlight">
+        <h2>🍻 Bienvenue au Big Foug</h2>
+        <p>Le Big Foug, c'est bien plus qu'un bar : c'est un lieu de vie où l'on partage un verre, une discussion et un bon moment. Que vous soyez de passage à Grand-Fougeray ou que vous veniez pour l'ambiance, vous serez toujours reçu avec le sourire.</p>
+        <p>Venez profiter d'un espace convivial, d'un service attentionné et de l'authenticité d'un bar de village qui a du caractère.</p>
+    </div>
+
+    <!-- Galerie d'images réduites et centrées -->
+    <div class="traveler-gallery">
+        <figure class="traveler-photo" onclick="ouvrirZoom(this.querySelector('img').src, event)">
+            <img src="BIGFOUG.png" alt="Bar Le Big Foug — vue intérieure" loading="lazy">
+            <figcaption>🍷 L'intérieur chaleureux et moderne du Bar Le Big Foug</figcaption>
+        </figure>
+        <figure class="traveler-photo" onclick="ouvrirZoom(this.querySelector('img').src, event)">
+            <img src="BIGFOUG1.png" alt="Bar Le Big Foug — terrasse couverte" loading="lazy">
+            <figcaption>🍻 La terrasse couverte et l'ambiance conviviale du Big Foug</figcaption>
+        </figure>
+    </div>
+
+    <div class="traveler-info-grid">
+        <div class="traveler-info-card">
+            <h3>📍 Adresse</h3>
+            <p>3 Pl. de l'Église<br>35390 Grand-Fougeray</p>
+        </div>
+        <div class="traveler-info-card">
+            <h3>🧭 Localisation</h3>
+            <p>Au cœur du centre-bourg de Grand-Fougeray, sur la place de l'Église — un point de rendez-vous idéal pour les voyageurs et les habitants.</p>
+        </div>
+        <div class="traveler-info-card">
+            <h3>🎯 L'esprit du lieu</h3>
+            <p>Convivialité, rencontres, authenticité. Un bar où l'on prend le temps de discuter, de partager et de profiter de l'instant.</p>
+        </div>
+        <div class="traveler-info-card">
+            <h3>🚗 Voyageur</h3>
+            <p>Une halte agréable pour les voyageurs de passage à Grand-Fougeray et ses environs, entre Ille-et-Vilaine et Loire-Atlantique.</p>
+        </div>
+    </div>
+
+    <section class="info" style="width:calc(100% - 2rem); max-width: 900px; margin:0 auto 2rem;">
+        <h2>📞 Informations pratiques</h2>
+        <p>📧 Pour toute question : <a href="mailto:lanceglorieuse@gmail.com">lanceglorieuse@gmail.com</a></p>
+        <p>📍 Retrouvez l'adresse du bar Le Big Foug sur la <a href="https://www.google.com/maps/search/?api=1&query=3+Pl.+de+l%27%C3%89glise,+35390+Grand-Fougeray" target="_blank" rel="noopener noreferrer">carte Google Maps</a>.</p>
+        <p>🧭 Voyageur Grand Fougeray — une escale qui a du caractère.</p>
+    </section>
+
+    <div style="text-align: center;">
+        <a href="javascript:void(0)" onclick="navigateTo('accueil')" class="return-btn" style="display: inline-block; width: auto; min-width: 250px;">⬅ Retour à l'accueil</a>
+    </div>
+</div>
+
+<!-- ============================================================
+     PAGE 6 : PRÉVENTION CYBERSÉCURITÉ
      ============================================================ -->
 <div id="page-prevention-cyber" class="page-section">
     <div class="page-container">
@@ -1756,7 +1946,7 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
 </div>
 
 <!-- ============================================================
-     PAGE 6 : MENTIONS LÉGALES
+     PAGE 7 : MENTIONS LÉGALES
      ============================================================ -->
 <div id="page-mentions" class="page-section">
     <div class="page-container">
@@ -1810,7 +2000,7 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
 </div>
 
 <!-- ============================================================
-     PAGE 7 : CGV
+     PAGE 8 : CGV
      ============================================================ -->
 <div id="page-cgv" class="page-section">
     <div class="page-container">
@@ -1844,7 +2034,7 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
 </div>
 
 <!-- ============================================================
-     PAGE 8 : FAQ
+     PAGE 9 : FAQ
      ============================================================ -->
 <div id="page-faq" class="page-section">
     <div class="page-container">
@@ -1874,7 +2064,7 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
 </div>
 
 <!-- ============================================================
-     PAGE 9 : CONTACT
+     PAGE 10 : CONTACT
      ============================================================ -->
 <div id="page-contact" class="page-section">
     <div class="page-container">
@@ -1910,6 +2100,7 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
         <a href="#produits" onclick="navigateTo('accueil', 'produits')">Boutique</a>
         <a href="#vinted" onclick="navigateTo('vinted')">Vinted</a>
         <a href="#ongles-beaute" onclick="navigateTo('ongles-beaute')">💅 Beauté</a>
+        <a href="#voyageur-grand-fougeray" onclick="navigateTo('voyageur-grand-fougeray')">🧭 Voyageur Grand Fougeray</a>
         <a href="#prevention-cyber" onclick="navigateTo('prevention-cyber')">🛡️ Cybersécurité</a>
         <a href="#contact" onclick="navigateTo('contact')">Contact</a>
         <a href="#faq" onclick="navigateTo('faq')">FAQ</a>
@@ -2416,6 +2607,7 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
             { label: "🛒 Boutique", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produits"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
             { label: "👕 Vinted", action: function(){ navigateTo("vinted"); toggleChatbot(); } },
             { label: "💅 Ongles & Beauté", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } },
+            { label: "🧭 Voyageur Grand Fougeray", action: function(){ navigateTo("voyageur-grand-fougeray"); toggleChatbot(); } },
             { label: "📜 À propos", action: function(){ navigateTo("apropos"); toggleChatbot(); } },
             { label: "✉️ Contact", action: function(){ navigateTo("contact"); toggleChatbot(); } },
             { label: "❓ FAQ", action: function(){ navigateTo("faq"); toggleChatbot(); } },
@@ -2424,6 +2616,9 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
         ]},
         { intention: "contact", motsCles: ["horaire","telephone","mail","contact","appeler","numero","joindre"], reponse: "📞 Nous sommes disponibles de 9h à 20h au <strong>07.80.20.47.49</strong>. Vous pouvez aussi nous écrire à <strong>lanceglorieuse@gmail.com</strong>." },
         { intention: "livraison", motsCles: ["livraison","envoi","delai","colis","recevoir","expedition"], reponse: "🚚 La livraison est <strong>rapide et sécurisée</strong>." },
+        { intention: "voyageur", motsCles: ["voyageur","grand fougeray","big foug","bar","foug"], reponse: "🧭 Découvrez le <strong>Bar Le Big Foug</strong> à Grand-Fougeray — 3 Pl. de l'Église, 35390. Une escale conviviale qui a du caractère !", options: [
+            { label: "Voir la page", action: function(){ navigateTo("voyageur-grand-fougeray"); toggleChatbot(); } }
+        ]},
         { intention: "drone", motsCles: ["drone","ky108","camera","filmer","video"], reponse: "🎥 Le <strong>Drone KY108</strong> (89€) est équipé d'une double caméra HD, d'un zoom 90x.", options: [
             { label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-drone"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
             { label: "Acheter", action: function(){ payer(pay["drone"]); } }
@@ -2474,7 +2669,7 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
 
     document.addEventListener("DOMContentLoaded", function(){
         var ih = window.location.hash.replace("#", "") || "accueil";
-        var cp = ["accueil","apropos","vinted","ongles-beaute","prevention-cyber","mentions","cgv","faq","contact"];
+        var cp = ["accueil","apropos","vinted","ongles-beaute","voyageur-grand-fougeray","prevention-cyber","mentions","cgv","faq","contact"];
         var ca = ["mots-de-passe","phishing","force-brute","photos-cles","vie-personnelle","loi-hacking","phishing-droit","donnees-personnelles","test-autorise","incident","conclusion-cyber"];
         var ha = ["prevention-moral","prevention-scolaire","prevention-sexuel","prevention-bande","prevention-aide"];
         if (ca.indexOf(ih) !== -1) activerPageCyberEtScroll(ih, false);
@@ -2562,6 +2757,7 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
         en: {
             "🏠 Accueil":"🏠 Home","📜 À propos":"📜 About","🛒 Boutique":"🛒 Shop","👕 Vinted":"👕 Vinted",
             "💅 Ongles & Beauté":"💅 Nails & Beauty","💅 Ongles &amp; Beauté":"💅 Nails & Beauty",
+            "🧭 Voyageur Grand Fougeray":"🧭 Grand Fougeray Traveler",
             "🛡️ Cybersécurité":"🛡️ Cybersecurity","🛡️ Harcèlement":"🛡️ Harassment","✉️ Contact":"✉️ Contact",
             "❓ FAQ":"❓ FAQ","📄 CGV":"📄 Terms","⚖️ Mentions":"⚖️ Legal","🎵 TikTok":"🎵 TikTok",
             "« Créer sa voie. Défendre son autonomie. Bâtir l'avenir. »":"« Forge your path. Defend your autonomy. Build the future. »",
@@ -2651,11 +2847,33 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
             "Hydratez":"Hydrate","vos cuticules chaque soir avec une huile végétale.":"your cuticles every evening with vegetable oil.",
             "Espacez":"Space out","les poses de gel pour laisser respirer vos ongles.":"gel applications to let your nails breathe.",
             "Protégez":"Protect","vos mains avec des gants pour les tâches ménagères.":"your hands with gloves for household chores.",
-            "Utilisez":"Use","une base protectrice avant chaque vernis coloré.":"a protective base before each colored polish."
+            "Utilisez":"Use","une base protectrice avant chaque vernis coloré.":"a protective base before each colored polish.",
+            "Bar Le Big Foug · Grand-Fougeray":"Bar Le Big Foug · Grand-Fougeray",
+            "Découvrez le Bar Le Big Foug, un lieu convivial au cœur de Grand-Fougeray, où l'on se retrouve entre amis, en famille ou après une journée de route. Ambiance chaleureuse, accueil souriant et produits de qualité : Le Big Foug est le point de rencontre incontournable du village.":"Discover Bar Le Big Foug, a friendly place in the heart of Grand-Fougeray, where people meet with friends, family or after a day on the road. Warm atmosphere, smiling welcome and quality products: Le Big Foug is the unmissable meeting point of the village.",
+            "📍 3 Pl. de l'Église, 35390 Grand-Fougeray":"📍 3 Pl. de l'Église, 35390 Grand-Fougeray",
+            "🍻 Bienvenue au Big Foug":"🍻 Welcome to the Big Foug",
+            "Le Big Foug, c'est bien plus qu'un bar : c'est un lieu de vie où l'on partage un verre, une discussion et un bon moment. Que vous soyez de passage à Grand-Fougeray ou que vous veniez pour l'ambiance, vous serez toujours reçu avec le sourire.":"Le Big Foug is much more than a bar: it is a living space where people share a drink, a conversation and a good time. Whether you are passing through Grand-Fougeray or coming for the atmosphere, you will always be welcomed with a smile.",
+            "Venez profiter d'un espace convivial, d'un service attentionné et de l'authenticité d'un bar de village qui a du caractère.":"Come and enjoy a friendly space, attentive service and the authenticity of a village bar with character.",
+            "🍷 L'intérieur chaleureux et moderne du Bar Le Big Foug":"🍷 The warm and modern interior of Bar Le Big Foug",
+            "🍻 La terrasse couverte et l'ambiance conviviale du Big Foug":"🍻 The covered terrace and friendly atmosphere of the Big Foug",
+            "📍 Adresse":"📍 Address","3 Pl. de l'Église<br>35390 Grand-Fougeray":"3 Pl. de l'Église<br>35390 Grand-Fougeray",
+            "🧭 Localisation":"🧭 Location",
+            "Au cœur du centre-bourg de Grand-Fougeray, sur la place de l'Église — un point de rendez-vous idéal pour les voyageurs et les habitants.":"In the heart of Grand-Fougeray village center, on the church square — an ideal meeting point for travelers and locals.",
+            "🎯 L'esprit du lieu":"🎯 The spirit of the place",
+            "Convivialité, rencontres, authenticité. Un bar où l'on prend le temps de discuter, de partager et de profiter de l'instant.":"Friendliness, encounters, authenticity. A bar where you take the time to chat, share and enjoy the moment.",
+            "🚗 Voyageur":"🚗 Traveler",
+            "Une halte agréable pour les voyageurs de passage à Grand-Fougeray et ses environs, entre Ille-et-Vilaine et Loire-Atlantique.":"A pleasant stop for travelers passing through Grand-Fougeray and its surroundings, between Ille-et-Vilaine and Loire-Atlantique.",
+            "📞 Informations pratiques":"📞 Practical information",
+            "📧 Pour toute question :":"📧 For any question:",
+            "📍 Retrouvez l'adresse du bar Le Big Foug sur la":"📍 Find the address of Bar Le Big Foug on",
+            "carte Google Maps":"Google Maps",
+            "🧭 Voyageur Grand Fougeray — une escale qui a du caractère.":"🧭 Grand Fougeray Traveler — a stopover with character.",
+            "🧭 Voyageur Grand Fougeray — Bar Le Big Foug":"🧭 Grand Fougeray Traveler — Bar Le Big Foug"
         },
         ru: {
             "🏠 Accueil":"🏠 Главная","📜 À propos":"📜 О нас","🛒 Boutique":"🛒 Магазин","👕 Vinted":"👕 Vinted",
             "💅 Ongles & Beauté":"💅 Ногти и Красота","💅 Ongles &amp; Beauté":"💅 Ногти и Красота",
+            "🧭 Voyageur Grand Fougeray":"🧭 Путешественник Гран-Фужере",
             "🛡️ Cybersécurité":"🛡️ Кибербезопасность","🛡️ Harcèlement":"🛡️ Буллинг","✉️ Contact":"✉️ Контакты",
             "❓ FAQ":"❓ Часто задаваемые вопросы","📄 CGV":"📄 Условия продажи","⚖️ Mentions":"⚖️ Правовая информация","🎵 TikTok":"🎵 TikTok",
             "« Créer sa voie. Défendre son autonomie. Bâtir l'avenir. »":"« Прокладывай свой путь. Защищай свою независимость. Строй будущее. »",
@@ -2724,11 +2942,21 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
             "Choisir une musique":"Выбрать трек","Ouvrir le chat de conseil":"Открыть чат с советником","Fermer le chat":"Закрыть чат",
             "Agrandissement du produit":"Увеличение изображения товара","Fermer l'image":"Закрыть изображение","Fermer":"Закрыть","Retour en haut":"Наверх",
             "Lecture / Pause":"Воспроизведение / Пауза","Volume de la musique":"Громкость музыки","Lecteur de musique":"Музыкальный проигрыватель","Lecteur musique persistant":"Плавающий музыкальный проигрыватель",
-            "Navigation principale":"Основная навигация","Navigation de pied de page":"Навигация в подвале сайта"
+            "Navigation principale":"Основная навигация","Navigation de pied de page":"Навигация в подвале сайта",
+            "Bar Le Big Foug · Grand-Fougeray":"Бар Le Big Foug · Гран-Фужере",
+            "📍 3 Pl. de l'Église, 35390 Grand-Fougeray":"📍 3 Pl. de l'Église, 35390 Гран-Фужере",
+            "🍻 Bienvenue au Big Foug":"🍻 Добро пожаловать в Big Foug",
+            "📍 Adresse":"📍 Адрес","🧭 Localisation":"🧭 Расположение",
+            "🎯 L'esprit du lieu":"🎯 Дух места","🚗 Voyageur":"🚗 Путешественник",
+            "📞 Informations pratiques":"📞 Практическая информация",
+            "🍷 L'intérieur chaleureux et moderne du Bar Le Big Foug":"🍷 Тёплый и современный интерьер бара Le Big Foug",
+            "🍻 La terrasse couverte et l'ambiance conviviale du Big Foug":"🍻 Крытая терраса и дружелюбная атмосфера Big Foug",
+            "🧭 Voyageur Grand Fougeray — Bar Le Big Foug":"🧭 Путешественник Гран-Фужере — Bar Le Big Foug"
         },
         uk: {
             "🏠 Accueil":"🏠 Головна","📜 À propos":"📜 Про нас","🛒 Boutique":"🛒 Магазин","👕 Vinted":"👕 Vinted",
             "💅 Ongles & Beauté":"💅 Нігті та Краса","💅 Ongles &amp; Beauté":"💅 Нігті та Краса",
+            "🧭 Voyageur Grand Fougeray":"🧭 Мандрівник Гран-Фужере",
             "🛡️ Cybersécurité":"🛡️ Кібербезпека","🛡️ Harcèlement":"🛡️ Булінг","✉️ Contact":"✉️ Контакти",
             "❓ FAQ":"❓ Часті запитання","📄 CGV":"📄 Умови продажу","⚖️ Mentions":"⚖️ Правова інформація","🎵 TikTok":"🎵 TikTok",
             "« Créer sa voie. Défendre son autonomie. Bâtir l'avenir. »":"« Прокладай свій шлях. Захищай свою незалежність. Будуй майбутнє. »",
@@ -2797,7 +3025,16 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
             "Choisir une musique":"Вибрати трек","Ouvrir le chat de conseil":"Відкрити чат з радником","Fermer le chat":"Закрити чат",
             "Agrandissement du produit":"Збільшення зображення товару","Fermer l'image":"Закрити зображення","Fermer":"Закрити","Retour en haut":"Нагору",
             "Lecture / Pause":"Відтворення / Пауза","Volume de la musique":"Гучність музики","Lecteur de musique":"Музичний програвач","Lecteur musique persistant":"Плаваючий музичний програвач",
-            "Navigation principale":"Основна навігація","Navigation de pied de page":"Навігація в підвалі сайту"
+            "Navigation principale":"Основна навігація","Navigation de pied de page":"Навігація в підвалі сайту",
+            "Bar Le Big Foug · Grand-Fougeray":"Бар Le Big Foug · Гран-Фужере",
+            "📍 3 Pl. de l'Église, 35390 Grand-Fougeray":"📍 3 Pl. de l'Église, 35390 Гран-Фужере",
+            "🍻 Bienvenue au Big Foug":"🍻 Ласкаво просимо до Big Foug",
+            "📍 Adresse":"📍 Адреса","🧭 Localisation":"🧭 Розташування",
+            "🎯 L'esprit du lieu":"🎯 Дух місця","🚗 Voyageur":"🚗 Мандрівник",
+            "📞 Informations pratiques":"📞 Практична інформація",
+            "🍷 L'intérieur chaleureux et moderne du Bar Le Big Foug":"🍷 Теплий та сучасний інтер'єр бару Le Big Foug",
+            "🍻 La terrasse couverte et l'ambiance conviviale du Big Foug":"🍻 Крита тераса та дружня атмосфера Big Foug",
+            "🧭 Voyageur Grand Fougeray — Bar Le Big Foug":"🧭 Мандрівник Гран-Фужере — Bar Le Big Foug"
         }
     };
 
