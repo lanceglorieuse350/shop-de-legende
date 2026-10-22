@@ -1566,7 +1566,7 @@ body.light-mode .music-widget select{ background:#fff; }
         var params = new URLSearchParams(window.location.search); var param = params.get("maintenance"); var etat = false;
         if (param === "on") etat = true; else if (param === "off") etat = false;
         else { try { var saved = localStorage.getItem(CLE); if (saved === "on") etat = true; else if (saved === "off") etat = false; } catch(e){} }
-        appliquer(true);
+        appliquer(false);
         if (param) { try { var url = new URL(window.location.href); url.searchParams.delete("maintenance"); history.replaceState(null, null, url.pathname + url.hash); } catch(e){} }
     });
 })();
