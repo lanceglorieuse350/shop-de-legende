@@ -1706,7 +1706,6 @@ body.light-mode .music-widget select{ background:#fff; }
     var cw = document.getElementById("chatbot-window"), cm = document.getElementById("chat-messages"), ci = document.getElementById("chat-input");
     window.toggleChatbot = function(){ window.chatOuvert = !window.chatOuvert; if (window.chatOuvert) { if (cw) cw.classList.add("open"); if (cm && cm.children.length === 0) initChat(); setTimeout(function(){ if (ci) ci.focus(); }, 300); } else { if (cw) cw.classList.remove("open"); } };
     
-    // Chatbot multilingue intelligent
     window.envoyerMessageChat = function(tF){
         if (tF === undefined) tF = null; var t = tF || (ci ? ci.value.trim() : ""); if (!t) return;
         if (!tF) addMsg(esc(t), "user"); if (ci) ci.value = "";
@@ -1964,7 +1963,7 @@ body.light-mode .music-widget select{ background:#fff; }
             "Utilisez":"Use","une base protectrice avant chaque vernis coloré.":"a protective base before each colored polish.",
             "📋 Voir toutes les pages":"📋 See all pages","💶 Voir les prix":"💶 See prices","📞 Vous contacter":"📞 Contact you","📋 Menu des pages":"📋 Page menu","💶 Les prix":"💶 Prices",
             
-            // Traductions des musiques
+            // Titres de musique (traductions/translittérations)
             "🎵 Quelques notes":"🎵 Some notes","Bilar – Phénix":"Bilar – Phoenix","Cenza – Inconnu":"Cenza – Unknown","Bilar – ConFinement n°2":"Bilar – ConFinement #2",
             "Dark Blues.Vol.mp3":"Dark Blues.Vol.mp3","IAM – La fin de leur monde":"IAM – The end of their world","Issaba – Tu connais":"Issaba – You know",
             "Kery James – Post-Scriptum":"Kery James – Post-Scriptum","L'EXI-T – Venom Zirko / HYPERTHYMÉSIE":"L'EXI-T – Venom Zirko / HYPERTHYMESIA",
@@ -1975,6 +1974,14 @@ body.light-mode .music-widget select{ background:#fff; }
             "Mysa – Piqûre de Rappel":"Mysa – Booster Shot","Mysa – Révolu":"Mysa – Bygone","Millésime K – République":"Millésime K – Republic",
             "Rockin'Squat – Aimer Sans Posséder":"Rockin'Squat – Love Without Owning","Rockin'Squat – Ils Ne Veulent Pas Aimer":"Rockin'Squat – They Don't Want to Love",
             "RCKNSQT – VOCAB":"RCKNSQT – VOCAB","MorganLuna – I Won't Cry For":"MorganLuna – I Won't Cry For",
+
+            // Noms des produits beauté
+            "Vernis Gel UV Semi-Permanent":"UV Semi-Permanent Gel Polish",
+            "Kit Manucure Professionnel 12 pièces":"Professional 12-Piece Manicure Kit",
+            "Huile de Cuticules Vitamine E":"Vitamin E Cuticle Oil",
+            "Lampe UV LED 48W Professionnelle":"Professional 48W UV LED Lamp",
+            "Kit Capsules & Strass Nail Art":"Nail Art Capsules & Rhinestones Kit",
+            "Baume Réparateur Ongles Abîmés":"Repair Balm for Damaged Nails",
 
             // Descriptions des produits
             "Un drone conçu pour les créateurs, les explorateurs et les pilotes ambitieux. Capturez le monde avec une précision chirurgicale.":"A drone designed for creators, explorers and ambitious pilots. Capture the world with surgical precision.",
@@ -2116,7 +2123,7 @@ body.light-mode .music-widget select{ background:#fff; }
             "Navigation principale":"Основная навигация","Navigation de pied de page":"Навигация в подвале сайта",
             "📋 Voir toutes les pages":"📋 Показать все страницы","💶 Voir les prix":"💶 Посмотреть цены","📞 Vous contacter":"📞 Связаться с вами","📋 Menu des pages":"📋 Меню страниц","💶 Les prix":"💶 Цены",
             
-            // Traductions des musiques
+            // Titres de musique (translittération en cyrillique)
             "🎵 Quelques notes":"🎵 Несколько нот","Bilar – Phénix":"Bilar – Феникс","Cenza – Inconnu":"Cenza – Неизвестный","Bilar – ConFinement n°2":"Bilar – ConFinement №2",
             "Dark Blues.Vol.mp3":"Dark Blues.Vol.mp3","IAM – La fin de leur monde":"IAM – Конец их мира","Issaba – Tu connais":"Issaba – Ты знаешь",
             "Kery James – Post-Scriptum":"Kery James – Post-Scriptum","L'EXI-T – Venom Zirko / HYPERTHYMÉSIE":"L'EXI-T – Venom Zirko / ГИПЕРТИМИЯ",
@@ -2127,6 +2134,14 @@ body.light-mode .music-widget select{ background:#fff; }
             "Mysa – Piqûre de Rappel":"Mysa – Повторная прививка","Mysa – Révolu":"Mysa – Ушедший","Millésime K – République":"Millésime K – Республика",
             "Rockin'Squat – Aimer Sans Posséder":"Rockin'Squat – Любить, не владея","Rockin'Squat – Ils Ne Veulent Pas Aimer":"Rockin'Squat – Они не хотят любить",
             "RCKNSQT – VOCAB":"RCKNSQT – СЛОВАРЬ","MorganLuna – I Won't Cry For":"MorganLuna – Я не буду плакать",
+
+            // Noms des produits beauté
+            "Vernis Gel UV Semi-Permanent":"УФ-гель-лак полуперманентный",
+            "Kit Manucure Professionnel 12 pièces":"Профессиональный маникюрный набор из 12 предметов",
+            "Huile de Cuticules Vitamine E":"Масло для кутикулы с витамином E",
+            "Lampe UV LED 48W Professionnelle":"Профессиональная УФ/LED-лампа 48 Вт",
+            "Kit Capsules & Strass Nail Art":"Набор для нейл-арта: капсулы и стразы",
+            "Baume Réparateur Ongles Abîmés":"Восстанавливающий бальзам для повреждённых ногтей",
 
             // Descriptions des produits
             "Un drone conçu pour les créateurs, les explorateurs et les pilotes ambitieux. Capturez le monde avec une précision chirurgicale.":"Дрон, созданный для творцов, исследователей и амбициозных пилотов. Запечатлейте мир с хирургической точностью.",
@@ -2268,7 +2283,7 @@ body.light-mode .music-widget select{ background:#fff; }
             "Navigation principale":"Основна навігація","Navigation de pied de page":"Навігація в підвалі сайту",
             "📋 Voir toutes les pages":"📋 Показати всі сторінки","💶 Voir les prix":"💶 Подивитися ціни","📞 Vous contacter":"📞 Зв'язатися з вами","📋 Menu des pages":"📋 Меню сторінок","💶 Les prix":"💶 Ціни",
             
-            // Traductions des musiques
+            // Titres de musique (translittération en cyrillique)
             "🎵 Quelques notes":"🎵 Кілька нот","Bilar – Phénix":"Bilar – Фенікс","Cenza – Inconnu":"Cenza – Невідомий","Bilar – ConFinement n°2":"Bilar – ConFinement №2",
             "Dark Blues.Vol.mp3":"Dark Blues.Vol.mp3","IAM – La fin de leur monde":"IAM – Кінець їхнього світу","Issaba – Tu connais":"Issaba – Ти знаєш",
             "Kery James – Post-Scriptum":"Kery James – Post-Scriptum","L'EXI-T – Venom Zirko / HYPERTHYMÉSIE":"L'EXI-T – Venom Zirko / ГІПЕРТИМІЯ",
@@ -2279,6 +2294,14 @@ body.light-mode .music-widget select{ background:#fff; }
             "Mysa – Piqûre de Rappel":"Mysa – Повторне щеплення","Mysa – Révolu":"Mysa – Минулий","Millésime K – République":"Millésime K – Республіка",
             "Rockin'Squat – Aimer Sans Posséder":"Rockin'Squat – Любити, не володіючи","Rockin'Squat – Ils Ne Veulent Pas Aimer":"Rockin'Squat – Вони не хочуть любити",
             "RCKNSQT – VOCAB":"RCKNSQT – СЛОВНИК","MorganLuna – I Won't Cry For":"MorganLuna – Я не буду плакати",
+
+            // Noms des produits beauté
+            "Vernis Gel UV Semi-Permanent":"УФ-гель-лак напівперманентний",
+            "Kit Manucure Professionnel 12 pièces":"Професійний манікюрний набір з 12 предметів",
+            "Huile de Cuticules Vitamine E":"Олія для кутикули з вітаміном E",
+            "Lampe UV LED 48W Professionnelle":"Професійна УФ/LED-лампа 48 Вт",
+            "Kit Capsules & Strass Nail Art":"Набір для нейл-арту: капсули та стразы",
+            "Baume Réparateur Ongles Abîmés":"Відновлювальний бальзам для пошкоджених нігтів",
 
             // Descriptions des produits
             "Un drone conçu pour les créateurs, les explorateurs et les pilotes ambitieux. Capturez le monde avec une précision chirurgicale.":"Дрон, створений для творців, дослідників та амбітних пілотів. Закарбуйте світ із хірургічною точністю.",
@@ -2402,7 +2425,22 @@ body.light-mode .music-widget select{ background:#fff; }
         });
     }
 
-    function applyAll(){ var dict = getDict(CURRENT_LANG); trTree(document.body, dict); trAttrs(document.body, dict); }
+    function applyAll(){
+        var dict = getDict(CURRENT_LANG);
+        trTree(document.body, dict);
+        trAttrs(document.body, dict);
+        // Traduction explicite des options du select musique (pour être sûr)
+        document.querySelectorAll('#musicSelect option, #miniMusicSelect option').forEach(function(opt){
+            if (isProtected(opt)) return;
+            if (!ORI_ATTR.has(opt)) ORI_ATTR.set(opt, { text: opt.textContent });
+            var o = ORI_ATTR.get(opt);
+            if (CURRENT_LANG === "fr") { opt.textContent = o.text; }
+            else if (dict) {
+                var t = dict[o.text.trim()];
+                if (t) opt.textContent = t;
+            }
+        });
+    }
     window.reapplyLanguage = function(){ if (CURRENT_LANG !== "fr") applyAll(); };
     window.applyLanguage = function(lang){
         if (lang === "ar" || lang === "es" || lang === "it") lang = "fr";
