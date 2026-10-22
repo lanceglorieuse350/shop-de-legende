@@ -261,23 +261,29 @@ body.light-mode .navbar{ background:rgba(255,255,255,.96); }
 }
 
 /* ------------------------------------------------------------
-   3.5 — Lecteur audio
+   3.5 — Lecteur audio (AMÉLIORÉ)
    ------------------------------------------------------------ */
 .audio-player{
-    width:calc(100% - 1rem); max-width:600px; margin:1.2rem auto;
-    padding:1rem; background:linear-gradient(135deg,var(--card-bg),var(--card-bg-2));
+    width:calc(100% - 2rem); max-width:600px; margin:1.5rem auto;
+    padding:1.2rem; background:linear-gradient(135deg,var(--card-bg),var(--card-bg-2));
     border:1px solid var(--gold); border-radius:var(--radius-md); text-align:center;
+    box-shadow: var(--shadow-md);
 }
 .audio-player h2{
-    margin:0 0 .8rem; color:var(--gold); font-family:var(--font-display);
-    font-size:.95rem;
+    margin:0 0 1rem; color:var(--gold); font-family:var(--font-display);
+    font-size:1.1rem; text-transform:uppercase; letter-spacing:0.05em;
 }
 #musicSelect{
-    width:100%; min-height:42px; margin:0 0 .8rem;
-    padding:.4rem .6rem; background:#000; color:#fff;
-    border:1px solid var(--gold); border-radius:var(--radius-sm); font-size:.8rem;
+    width:100%; min-height:42px; margin:0 0 1rem;
+    padding:.5rem .8rem; background:#000; color:#fff;
+    border:1px solid var(--gold); border-radius:var(--radius-sm); font-size:.9rem;
+    cursor:pointer;
 }
-#player{ width:100%; border-radius:var(--radius-sm); }
+#player{ 
+    width:100%; 
+    border-radius:var(--radius-sm); 
+    outline: none;
+}
 
 /* ------------------------------------------------------------
    3.6 — Widget musique flottant (compact mobile)
@@ -1298,7 +1304,7 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
 </div>
 
 <!-- ------------------------------------------------------------
-   4.6 — Lecteur audio principal
+   4.6 — Lecteur audio principal (AMÉLIORÉ AVEC BARRE)
    ------------------------------------------------------------ -->
 <div class="audio-player">
     <h2>🎵 Musique du site</h2>
@@ -1334,7 +1340,9 @@ footer p{ margin:.3rem 0 0; font-size:.78rem; opacity:.85; line-height:1.5; }
         <option value="RCKNSQT-VOCAB.mp3">RCKNSQT – VOCAB</option>
         <option value="MorganLuna- I Won’t Cry For .mp3">MorganLuna – I Won't Cry For</option>
     </select>
-    <audio id="player" src="Musique/quelques-notes.mp3" controls preload="metadata" aria-label="Lecteur de musique">
+    
+    <!-- LA BARRE DE LECTURE EST BIEN PRÉSENTE ICI -->
+    <audio id="player" src="Musique/quelques-notes.mp3" controls preload="metadata" aria-label="Lecteur de musique" style="width: 100%; border-radius: var(--radius-sm); margin-top: 0.5rem; display: block;">
         Votre navigateur ne prend pas en charge le lecteur audio.
     </audio>
 </div>
