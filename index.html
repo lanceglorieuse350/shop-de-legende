@@ -1178,8 +1178,7 @@ body.light-mode .music-widget select{background:#fff}
     </button>
 </div>
 
-<!-- INITIALISATION LECART (CORRIGÉE - clé publique Stripe ajoutée) -->
-<script>
+<!-- INITIALISATION LECART <script>
 document.addEventListener('DOMContentLoaded', function() {
   LeCart.init({
     lecartApiKey: 'lecart_UuKwW59mDlWqhxhlZIbz7eD8bTfpXmnrPXxDtVa0j1Ak',
@@ -1203,7 +1202,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // METTEZ true POUR ACTIVER LA MAINTENANCE
     // METTEZ false POUR DÉSACTIVER LA MAINTENANCE
     // ==========================================
-    var FORCER_MAINTENANCE = false; 
+    var FORCER_MAINTENANCE = true; 
     
     function getPage(){ return document.getElementById("maintenance-page"); }
     function getContenu(){ return [document.querySelector(".navbar"),document.querySelector(".marquee-bar"),document.querySelector(".audio-player"),document.querySelector("main"),document.querySelector("footer"),document.querySelector(".music-widget"),document.getElementById("chatbot-toggle"),document.getElementById("chatbot-window"),document.getElementById("top")].filter(Boolean); }
