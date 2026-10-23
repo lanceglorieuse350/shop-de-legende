@@ -1167,15 +1167,23 @@ body.light-mode .music-widget select{background:#fff}
     </div>
 </div>
 
-<!-- BOUTON PANIER FLOTTANT -->
-<div style="position:fixed; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;">
-    <button type="button" class="payment-btn" data-lecart-open style="padding: 10px 20px; border-radius: 40px; box-shadow: 0 4px 15px rgba(255,215,0,0.4); display: flex; align-items: center; justify-content: center; gap: 10px; border: none; background: var(--gold);">
-        <img src="panier.png" alt="Panier" style="height: 24px; width: auto;">
-        <span style="color: #000; font-weight: bold;">Voir le panier</span>
-    </button>
-</div>
+<!-- BOUTON PANIER FLOTTANT — HAUT DROITE -->
+<button type="button" id="panierFlottant" data-lecart-open aria-label="Voir le panier" style="position:fixed; top:14px; right:14px; z-index:9999; display:flex; align-items:center; justify-content:center; gap:.55rem; padding:.85rem 1.4rem; background:linear-gradient(135deg,var(--gold),var(--gold-dark)); color:#000; border:2px solid #fff; border-radius:40px; box-shadow:0 6px 22px rgba(255,215,0,0.5); font-family:var(--font-display); font-weight:700; font-size:.95rem; cursor:pointer; transition:transform .2s, box-shadow .2s;">
+    <img src="panier.png" alt="" style="height:22px; width:auto; display:block;">
+    <span style="color:#000;">Panier</span>
+    <span id="panierCount" style="display:none; background:#e10600; color:#fff; font-family:var(--font-ui); font-size:.7rem; font-weight:700; min-width:20px; height:20px; line-height:20px; border-radius:10px; padding:0 5px; text-align:center;">0</span>
+</button>
 
-<!-- INITIALISATION LECART <script>
+<style>
+#panierFlottant:hover{transform:scale(1.05); box-shadow:0 8px 28px rgba(255,215,0,0.7);}
+@media(max-width:600px){
+  #panierFlottant{top:auto; bottom:90px; right:14px; padding:.7rem 1.1rem; font-size:.85rem;}
+  #panierFlottant span:nth-child(2){display:none;}
+}
+</style>
+
+<!-- INITIALISATION LECART -->
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   LeCart.init({
     lecartApiKey: 'lecart_UuKwW59mDlWqhxhlZIbz7eD8bTfpXmnrPXxDtVa0j1Ak',
@@ -1188,6 +1196,31 @@ document.addEventListener('DOMContentLoaded', function() {
     collectPhoneNumber: true
   });
 });
+</script>
+
+<!-- COMPTEUR PANIER TEMPS RÉEL -->
+<script>
+(function(){
+  "use strict";
+  function majCompteur(){
+    var badge = document.getElementById("panierCount");
+    if (!badge) return;
+    try {
+      var cart = JSON.parse(localStorage.getItem("lecart_cart") || "[]");
+      var n = Array.isArray(cart) ? cart.length : 0;
+      if (n > 0) {
+        badge.style.display = "inline-block";
+        badge.textContent = n;
+      } else {
+        badge.style.display = "none";
+      }
+    } catch(e) { badge.style.display = "none"; }
+  }
+  document.addEventListener("DOMContentLoaded", majCompteur);
+  window.addEventListener("lecart:cart-updated", majCompteur);
+  window.addEventListener("storage", function(e){ if (e.key === "lecart_cart") majCompteur(); });
+  setInterval(majCompteur, 2000);
+})();
 </script>
 
 <!-- SCRIPT MAINTENANCE -->
