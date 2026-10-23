@@ -75,9 +75,11 @@ body.light-mode .navbar{background:rgba(255,255,255,.95)}
 #searchResults{list-style:none;padding:0;margin:0}
 .search-result{display:flex;justify-content:space-between;padding:.6rem 1rem;color:var(--text);text-decoration:none;border-bottom:1px solid var(--border-color);font-size:.85rem}
 .search-result:hover{background:rgba(255,215,0,0.05);color:var(--gold)}
-.mode-btn,.lang-select{padding:.5rem .8rem;border-radius:var(--radius-md);font-size:.8rem;font-weight:700;border:1px solid var(--border-color)}
-.mode-btn{background:var(--gold);color:#000}
+.mode-btn,.lang-select,.cart-btn{padding:.5rem .8rem;border-radius:var(--radius-md);font-size:.8rem;font-weight:700;border:1px solid var(--border-color);display:flex;align-items:center;justify-content:center;gap:6px;}
+.mode-btn,.cart-btn{background:var(--gold);color:#000; cursor:pointer; transition: all .2s}
+.mode-btn:hover,.cart-btn:hover{background:var(--gold-dark);color:#000}
 .lang-select{background:var(--card-bg);color:var(--text)}
+.cart-btn img{height:18px; width:auto;}
 .navbar-links{display:flex;gap:.5rem;overflow-x:auto;padding:.8rem 0 .3rem;scrollbar-width:none;border-top:1px solid rgba(255,255,255,0.05);margin-top:.5rem}
 .navbar-links::-webkit-scrollbar{display:none}
 .navbar-links a{flex:0 0 auto;font-family:var(--font-display);font-size:.75rem;font-weight:700;padding:.4rem .6rem;border-radius:var(--radius-sm);white-space:nowrap;transition:all .2s}
@@ -455,6 +457,11 @@ body.light-mode .music-widget select{background:#fff}
                 <option value="uk">🇺🇦 UK</option>
             </select>
             <button type="button" class="mode-btn" onclick="toggleMode()" aria-label="Changer de mode clair ou sombre" data-i18n-aria="toggle_mode">🌙 / ☀️</button>
+            <!-- NOUVEAU BOUTON PANIER DANS LA NAVBAR -->
+            <button type="button" class="cart-btn" data-lecart-open style="box-shadow: 0 0 10px rgba(255,215,0,0.3);">
+                <img src="panier.png" alt="Panier">
+                <span data-i18n="view_cart">Voir le panier</span>
+            </button>
         </div>
     </div>
     <div class="navbar-links">
@@ -1127,15 +1134,7 @@ body.light-mode .music-widget select{background:#fff}
     </div>
 </div>
 
-<!-- BOUTON PANIER FLOTTANT -->
-<div style="position:fixed; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;">
-    <button type="button" class="payment-btn" data-lecart-open style="padding: 10px 20px; border-radius: 40px; box-shadow: 0 4px 15px rgba(255,215,0,0.4); display: flex; align-items: center; justify-content: center; gap: 10px; border: none; background: var(--gold);">
-        <img src="panier.png" alt="Panier" style="height: 24px; width: auto;">
-        <span style="color: #000; font-weight: bold;" data-i18n="view_cart">Voir le panier</span>
-    </button>
-</div>
-
-<!-- INITIALISATION LECART - MODE CLOUD (RECOMMANDÉ) -->
+<!-- INITIALISATION LECART - MODE CLOUD -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   LeCart.init({
