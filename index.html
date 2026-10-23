@@ -6,7 +6,7 @@
 <title>GUILLET IV — L'Ordre de l'Indépendance</title>
 <meta name="description" content="GUILLET IV — Boutique, prévention cybersécurité, prévention harcèlement et conseils produits.">
 <meta name="theme-color" content="#050505">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://vercel.live; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://upload.wikimedia.org; connect-src 'self' https://vitals.vercel-insights.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' mailto:;">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://vercel.live https://unpkg.com https://api.getlecart.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://upload.wikimedia.org; connect-src 'self' https://vitals.vercel-insights.com https://api.getlecart.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' mailto:;">
 <meta http-equiv="X-Content-Type-Options" content="nosniff">
 <meta http-equiv="X-Frame-Options" content="DENY">
 <meta name="referrer" content="strict-origin-when-cross-origin">
@@ -15,6 +15,35 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- LECART CSS & JS AJOUTÉS ICI -->
+<link rel="stylesheet" href="https://unpkg.com/lecart/dist/lecart.css">
+<script src="https://unpkg.com/lecart/dist/lecart.min.js"></script>
+
+<!-- STYLE PERSONNALISÉ POUR LECART (DESIGN GUILLET IV) -->
+<style>
+  :root {
+    --lecart-primary-color: #ffd700; 
+    --lecart-accent-color: #e10600;  
+    --lecart-bg-color: #101010;      
+    --lecart-text-color: #ffffff;    
+    --lecart-border-color: rgba(255, 215, 0, 0.3); 
+  }
+  .lecart-checkout-btn {
+    background: linear-gradient(135deg, #ffd700, #b8860b) !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    border-radius: 12px !important;
+    border: 1px solid #ffd700 !important;
+    transition: all 0.3s ease !important;
+  }
+  .lecart-checkout-btn:hover {
+    background: transparent !important;
+    color: #ffd700 !important;
+    transform: scale(1.02);
+  }
+</style>
+
 <script>
 (function(){
     "use strict";
@@ -318,7 +347,6 @@ body.light-mode .music-widget select{background:#fff}
         </div>
         <p class="maintenance-copyright">
             © 2026 GUILLET IV — L'Ordre de l'Indépendance
-            <a href="javascript:void(0)" onclick="desactiverMaintenance()" style="opacity:0.25;margin-left:.6rem;text-decoration:none;font-size:.85rem;color:#888;" title="Désactiver la maintenance (admin)">⚙️</a>
         </p>
     </div>
 </div>
@@ -603,7 +631,8 @@ body.light-mode .music-widget select{background:#fff}
                     </ol>
                     <p data-i18n="drone_use_note">Pensez à respecter les règles de vol applicables et la vie privée des personnes filmées.</p>
                 </div>
-                <a class="payment-btn" href="#" onclick="event.preventDefault(); payer('aHR0cHM6Ly9idXkuc3RyaXBlLmNvbS8yOEU2b0phb3FkUmc2VlQwTTEwWlcwMQ==');" data-i18n="pay_now_89">💳 Payer maintenant — 89 €</a>
+                <!-- BOUTON PANIER DRONE -->
+                <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1URq5TRNu37iEZT9kBjY7X1G" data-product-name="KY108 Drone" data-product-price="89.00" data-product-image="photo1.png">💳 Ajouter au panier — 89 €</button>
             </div>
         </div>
 
@@ -636,7 +665,8 @@ body.light-mode .music-widget select{background:#fff}
                         <li data-i18n="proj_use_4">Laisser charger le panneau solaire</li>
                     </ul>
                 </div>
-                <a class="payment-btn" href="#" onclick="event.preventDefault(); payer('aHR0cHM6Ly9idXkuc3RyaXBlLmNvbS9kUm1mWjowTlExNHUxQno3YXAwWlcwMg==');" data-i18n="pay_now_35">💳 Payer maintenant — 35 €</a>
+                <!-- BOUTON PANIER PROJECTEUR -->
+                <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1URs5zRNu37iEZT9MkNDMhFW" data-product-name="Projecteur LED rotatif" data-product-price="35.00" data-product-image="produit.png">💳 Ajouter au panier — 35 €</button>
             </div>
         </div>
 
@@ -717,7 +747,8 @@ body.light-mode .music-widget select{background:#fff}
                         <li data-i18n="endo_feat_5">Certification IP68 waterproof</li>
                     </ul>
                 </div>
-                <a class="payment-btn" href="#" onclick="event.preventDefault(); payer('aHR0cHM6Ly9idXkuc3RyaXBlLmNvbS83c1llVmZjd3kwMHE2VlRkeU4wWlcwMw==');" data-i18n="pay_now_95">💳 Payer maintenant — 95 €</a>
+                <!-- BOUTON PANIER ENDOSCOPE -->
+                <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1US30aRNu37iEZT9EGBkxLCy" data-product-name="Endoscope caméra d'inspection" data-product-price="95.00" data-product-image="photo-endoscope.png">💳 Ajouter au panier — 95 €</button>
             </div>
         </div>
     </div>
@@ -901,7 +932,6 @@ body.light-mode .music-widget select{background:#fff}
                 <li><a href="#conclusion-cyber" data-i18n="cyber_conclusion">🏁 Conclusion générale</a></li>
             </ul>
         </nav>
-        <!-- Les sections cyber détaillées conservent leur contenu, elles peuvent être traduites via data-i18n si besoin -->
         <section class="cyber-section" id="mots-de-passe">
             <h2 data-i18n="cyber_s1_title">🔑 Étape 1 — Les mots de passe enregistrés : confort, protection et vigilance</h2>
             <p data-i18n="cyber_s1_p1">Enregistrer ses mots de passe dans un fichier texte, une note non protégée ou un document partagé expose les comptes si le fichier est volé ou si l'appareil est compromis.</p>
@@ -957,22 +987,62 @@ body.light-mode .music-widget select{background:#fff}
 <div id="page-mentions" class="page-section">
     <div class="page-container">
         <h1 data-i18n="legal_notice">Mentions légales</h1>
+
         <section>
             <h2 data-i18n="legal_info">1. Informations légales</h2>
-            <p data-i18n="legal_company"><strong>Nom de l'entreprise :</strong> GUILLET IV</p>
-            <p data-i18n="legal_status"><strong>Statut :</strong> Micro-entreprise</p>
-            <p data-i18n="legal_address"><strong>Adresse :</strong> Ille-et-Vilaine, France</p>
+            <p><strong>Nom de l’entreprise :</strong> GUILLET IV</p>
+            <p><strong>Statut :</strong> Micro‑entreprise</p>
+            <p><strong>Entrepreneur :</strong></p>
+            <p><strong>SIREN :</strong> À compléter</p>
+            <p><strong>Adresse :</strong> Ille‑et‑Vilaine, France</p>
             <p><strong>Email :</strong> lanceglorieuse@gmail.com</p>
             <p><strong>Téléphone :</strong> 07.80.20.47.49</p>
         </section>
+
         <section>
             <h2 data-i18n="legal_hosting">2. Hébergement du site</h2>
             <p><strong>Hébergeur :</strong> Netlify, Inc.</p>
+            <p>2325 3rd Street, Suite 215, San Francisco, CA 94107</p>
+            <p><strong>Site :</strong> netlify.com</p>
         </section>
+
         <section>
             <h2 data-i18n="legal_ip">3. Propriété intellectuelle</h2>
-            <p data-i18n="legal_ip_text">Tout le contenu du site est la propriété exclusive de GUILLET IV.</p>
+            <p>Tout le contenu du site (textes, images, design, logo, structure) est la propriété exclusive de GUILLET IV.</p>
+            <p>Toute reproduction, distribution ou exploitation sans autorisation est strictement interdite.</p>
         </section>
+
+        <section>
+            <h2>4. Données personnelles</h2>
+            <p>Les données collectées (nom, email, adresse, téléphone) sont utilisées uniquement pour le traitement des commandes et le support client.</p>
+            <p>Aucune donnée personnelle n’est transmise, vendue, partagée ou communiquée à des entreprises, plateformes, services tiers ou organismes étatiques, en France ou ailleurs. Je m’engage explicitement à ne divulguer aucune information à quiconque, sans exception.</p>
+            <p>Conformément au RGPD, vous pouvez demander la suppression ou modification de vos données à tout moment via : <strong>lanceglorieuse@gmail.com</strong>.</p>
+        </section>
+
+        <section>
+            <h2>5. Cookies</h2>
+            <p>Le site peut utiliser des cookies techniques pour améliorer l’expérience utilisateur (panier, préférences d’affichage).</p>
+            <p>Aucun cookie publicitaire n’est utilisé.</p>
+        </section>
+
+        <section>
+            <h2>6. Responsabilité</h2>
+            <p>GUILLET IV ne peut être tenu responsable des dommages liés à l’utilisation du site ou des produits, sauf preuve d’une faute directe.</p>
+        </section>
+
+        <section id="mentions-litiges">
+            <h2>7. Litiges</h2>
+            <p>En cas de litige, une solution amiable sera recherchée en priorité.</p>
+            <p>À défaut, les tribunaux français seront compétents.</p>
+        </section>
+
+        <section id="mentions-securite">
+            <h2>8. Sécurité &amp; Intrusions</h2>
+            <p><strong>Le propriétaire du site exerce une activité de pentesteur (testeur d’intrusion professionnel).</strong> Toute tentative d’accès non autorisé, d’intrusion, de contournement de sécurité, d’exploitation de faille ou d’action malveillante sera immédiatement détectée, enregistrée et analysée.</p>
+            <p>Toute activité suspecte ou malveillante fera l’objet d’un signalement aux autorités compétentes, notamment aux services de renseignement ou aux organismes spécialisés en cybersécurité, conformément aux lois françaises en vigueur.</p>
+            <p>Les systèmes de sécurité en place sont conçus pour protéger l’intégrité du site et de ses utilisateurs. Toute tentative d’intrusion expose son auteur à des poursuites pénales sévères.</p>
+        </section>
+
         <div style="text-align:center;margin-top:2rem;">
             <a href="javascript:void(0)" onclick="navigateTo('accueil')" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l'accueil</a>
         </div>
@@ -1074,9 +1144,6 @@ body.light-mode .music-widget select{background:#fff}
         </div>
         <p class="footer-copyright" data-i18n="copyright">© 2026 GUILLET IV — L'Ordre de l'Indépendance</p>
         <a class="footer-tiktok" href="https://www.tiktok.com/@lanceglorieuse?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" data-i18n="follow_tiktok">🎵 Suivez-nous sur TikTok</a>
-        <p style="margin-top:2rem;">
-            <a href="javascript:void(0)" onclick="etatMaintenance() ? desactiverMaintenance() : activerMaintenance()" style="font-size:.7rem;opacity:.35;text-decoration:none;" title="Admin : basculer maintenance">⚙️</a>
-        </p>
     </div>
 </footer>
 
@@ -1103,28 +1170,64 @@ body.light-mode .music-widget select{background:#fff}
     </div>
 </div>
 
+<!-- BOUTON PANIER FLOTTANT -->
+<div style="position:fixed; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;">
+    <button type="button" class="payment-btn" data-lecart-open style="padding: 10px 20px; border-radius: 40px; box-shadow: 0 4px 15px rgba(255,215,0,0.4); display: flex; align-items: center; justify-content: center; gap: 10px; border: none; background: var(--gold);">
+        <img src="panier.png" alt="Panier" style="height: 24px; width: auto;">
+        <span style="color: #000; font-weight: bold;">Voir le panier</span>
+    </button>
+</div>
+
+<!-- INITIALISATION LECART -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  LeCart.init({
+    lecartApiKey: 'lecart_UuKwW59mDlWqhxhlZIbz7eD8bTfpXmnrPXxDtVa0j1Ak',
+    checkoutEndpoint: 'https://api.getlecart.com/create-checkout',
+    currency: 'EUR',
+    language: 'fr',
+    theme: 'dark',
+    collectShippingAddress: true,
+    collectPhoneNumber: true
+  });
+});
+</script>
+
 <!-- SCRIPT MAINTENANCE -->
 <script>
 (function(){
     "use strict";
-    var CLE = "guillet_maintenance";
+    
+    // ==========================================
+    // METTEZ true POUR ACTIVER LA MAINTENANCE
+    // METTEZ false POUR DÉSACTIVER LA MAINTENANCE
+    // ==========================================
+    var FORCER_MAINTENANCE = false; 
+    
     function getPage(){ return document.getElementById("maintenance-page"); }
     function getContenu(){ return [document.querySelector(".navbar"),document.querySelector(".marquee-bar"),document.querySelector(".audio-player"),document.querySelector("main"),document.querySelector("footer"),document.querySelector(".music-widget"),document.getElementById("chatbot-toggle"),document.getElementById("chatbot-window"),document.getElementById("top")].filter(Boolean); }
+    
     function appliquer(actif){
         var page = getPage(); var els = getContenu(); if (!page) return;
-        if (actif) { els.forEach(function(el){ if (!el.dataset.maintDisplay) el.dataset.maintDisplay = el.style.display || "__DEFAULT__"; el.style.display = "none"; }); page.style.display = "block"; document.title = "🔧 Maintenance — GUILLET IV"; document.body.style.overflow = "auto"; }
-        else { els.forEach(function(el){ var saved = el.dataset.maintDisplay; el.style.display = (saved && saved !== "__DEFAULT__") ? saved : ""; delete el.dataset.maintDisplay; }); page.style.display = "none"; document.title = "GUILLET IV — L'Ordre de l'Indépendance"; document.body.style.overflow = ""; if (typeof window.actualiserBoutonHaut === "function") setTimeout(window.actualiserBoutonHaut, 0); var cw = document.getElementById("chatbot-window"); if (cw && !window.chatOuvert) cw.classList.remove("open"); }
-        try { localStorage.setItem(CLE, actif ? "on" : "off"); } catch(e){}
+        if (actif) { 
+            els.forEach(function(el){ if (!el.dataset.maintDisplay) el.dataset.maintDisplay = el.style.display || "__DEFAULT__"; el.style.display = "none"; }); 
+            page.style.display = "block"; 
+            document.title = "🔧 Maintenance — GUILLET IV"; 
+            document.body.style.overflow = "auto"; 
+        }
+        else { 
+            els.forEach(function(el){ var saved = el.dataset.maintDisplay; el.style.display = (saved && saved !== "__DEFAULT__") ? saved : ""; delete el.dataset.maintDisplay; }); 
+            page.style.display = "none"; 
+            document.title = "GUILLET IV — L'Ordre de l'Indépendance"; 
+            document.body.style.overflow = ""; 
+            if (typeof window.actualiserBoutonHaut === "function") setTimeout(window.actualiserBoutonHaut, 0); 
+            var cw = document.getElementById("chatbot-window"); 
+            if (cw && !window.chatOuvert) cw.classList.remove("open"); 
+        }
     }
-    window.activerMaintenance = function(){ appliquer(true); return "✅ Maintenance ACTIVÉE."; };
-    window.desactiverMaintenance = function(){ appliquer(false); return "❌ Maintenance DÉSACTIVÉE."; };
-    window.etatMaintenance = function(){ try { return localStorage.getItem(CLE) === "on"; } catch(e){ return false; } };
+
     document.addEventListener("DOMContentLoaded", function(){
-        var params = new URLSearchParams(window.location.search); var param = params.get("maintenance"); var etat = false;
-        if (param === "on") etat = true; else if (param === "off") etat = false;
-        else { try { var saved = localStorage.getItem(CLE); if (saved === "on") etat = true; else if (saved === "off") etat = false; } catch(e){} }
-        appliquer(false);
-        if (param) { try { var url = new URL(window.location.href); url.searchParams.delete("maintenance"); history.replaceState(null, null, url.pathname + url.hash); } catch(e){} }
+        appliquer(FORCER_MAINTENANCE);
     });
 })();
 </script>
@@ -1464,7 +1567,7 @@ body.light-mode .music-widget select{background:#fff}
             "pack_title":"Зимовий набір виживання — Premium Edition","pack_desc":"Максимально продуманий набір, щоб пережити зиму в теплі, зі світлом і повною автономією.",
             "pack_item_1":"🧤 1. Розумні електричні рукавички з підігрівом (USB)","pack_item_1_desc":"Високоефективні зимові рукавички, створені для негайного та контрольованого тепла.","pack_item_1_b1":"Двосторонній підігрів на долоні","pack_item_1_b2":"Три регульовані рівні температури","pack_item_1_b3":"Сенсорний дизайн","pack_item_1_b4":"Робота через USB-інтерфейс, сумісність з powerbank",
             "pack_item_2":"🔦 2. Потужні LED-ліхтарики – заряджаються по USB (x2)","pack_item_2_desc":"Над'яскравий тактичний ліхтар для відключень електрики, нічних поїздок, автомобіля.","pack_item_2_b1":"7 режимів освітлення","pack_item_2_b2":"Заряджання по USB","pack_item_2_b3":"Вбудований акумулятор","pack_item_2_b4":"Стійкість до погодних умов",
-            "pack_item_3":"🔋 3. Зовнішній акумулятор 12 000 мАг – для USB-обігріву","pack_item_3_desc":"Акумулятор високої ємності, сумісний з усіма USB-пристроями та одягом з підігрівом.","pack_item_3_b1":"12 000 мАг → тривала автономність","pack_item_3_b2":"Вихід 5V 2.4A","pack_item_3_b3":"Сумісність з iPhone / Samsung / iPad",
+            "pack_item_3":"🔋 3. Зовнішній акумулятор 12 000 мАг – для USB-обігріву","pack_item_3_desc":"Аккумулятор високої ємності, сумісний з усіма USB-пристроями та одягом з підігрівом.","pack_item_3_b1":"12 000 мАг → тривала автономність","pack_item_3_b2":"Вихід 5V 2.4A","pack_item_3_b3":"Сумісність з iPhone / Samsung / iPad",
             "pack_item_4":"🛏️ 4. Мультисезонний спальний мішок-кокон (210 × 75 см)","pack_item_4_desc":"Легкий, компактний і зручний спальний мішок, ідеальний для кемпінгу та надзвичайних ситуацій.","pack_item_4_b1":"Вбудований капюшон","pack_item_4_b2":"Міцний поліестер 170T","pack_item_4_b3":"Складається в ковдру / плед","pack_item_4_b4":"Сумка для зберігання в комплекті",
             "endo_title":"Ендоскоп-камера з екраном","endo_desc":"Інспекційний ендоскоп 1080P із вбудованим 4,3-дюймовим екраном, напівжорстким 10-метровим кабелем, камерою 2.0 МП, регульованим LED-підсвічуванням та водонепроникністю IP68.","endo_full_1":"Незамінний інструмент для огляду важкодоступних місць: повітроводів, двигунів, труб, кабельних каналів, технічних установок або вузьких просторів.",
             "endo_util_1":"Огляд двигунів, повітроводів і труб","endo_util_2":"Домашні роботи: сантехніка, вентиляція, електропроводка","endo_util_3":"Швидка механічна діагностика","endo_util_4":"Візуальний контроль у темних зонах",
@@ -1511,7 +1614,6 @@ body.light-mode .music-widget select{background:#fff}
         if (!ORI_TEXT.has(node)) ORI_TEXT.set(node, node.nodeValue);
         var original = ORI_TEXT.get(node); if (!original || !original.trim()) return;
         if (CURRENT_LANG === "fr") { node.nodeValue = original; return; }
-        // Essaie d'abord data-i18n sur le parent
         var p = node.parentElement;
         if (p && p.dataset && p.dataset.i18n && dict && dict[p.dataset.i18n]) {
             node.nodeValue = dict[p.dataset.i18n]; return;
@@ -1536,7 +1638,6 @@ body.light-mode .music-widget select{background:#fff}
 
     function applyAll(){
         var dict = getDict(CURRENT_LANG);
-        // Traduit les noeuds avec data-i18n
         document.querySelectorAll("[data-i18n]").forEach(function(el){
             var key = el.dataset.i18n;
             if (!ORI_TEXT.has(el)) ORI_TEXT.set(el, el.textContent);
@@ -1544,7 +1645,6 @@ body.light-mode .music-widget select{background:#fff}
             else if (dict && dict[key]) { el.textContent = dict[key]; }
             else { el.textContent = ORI_TEXT.get(el); }
         });
-        // Traduit les placeholders
         document.querySelectorAll("[data-i18n-placeholder]").forEach(function(el){
             var key = el.dataset.i18nPlaceholder;
             if (!ORI_ATTR.has(el)) ORI_ATTR.set(el, { ph: el.placeholder, aria: el.getAttribute("aria-label") });
@@ -1553,7 +1653,6 @@ body.light-mode .music-widget select{background:#fff}
             else if (dict && dict[key]) { el.placeholder = dict[key]; }
             else { el.placeholder = o.ph; }
         });
-        // Traduit les aria-labels
         document.querySelectorAll("[data-i18n-aria]").forEach(function(el){
             var key = el.dataset.i18nAria;
             if (!ORI_ATTR.has(el)) ORI_ATTR.set(el, { aria: el.getAttribute("aria-label") });
@@ -1562,9 +1661,7 @@ body.light-mode .music-widget select{background:#fff}
             else if (dict && dict[key]) { el.setAttribute("aria-label", dict[key]); }
             else { el.setAttribute("aria-label", o.aria); }
         });
-        // Traduit le reste du texte (fallback par clé texte)
         trTree(document.body, dict);
-        // Traduit les options de musique (mini-player)
         document.querySelectorAll('#miniMusicSelect option').forEach(function(opt){
             var srcOpt = document.querySelector('#musicSelect option[value="' + opt.value.replace(/"/g,'\\"') + '"]');
             if (srcOpt) opt.textContent = srcOpt.textContent;
