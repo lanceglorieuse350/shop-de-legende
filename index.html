@@ -1148,8 +1148,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   try {
     LeCart.init({
-      // La clé secrète est gérée par le serveur Vercel (/api/checkout), pas ici.
-      lecartApiKey: '', 
+      // La clé publique est nécessaire pour que la bibliothèque s'initialise
+      lecartApiKey: 'lecart_0-Bbby0TVjcRqMSvtHx0iZ-ELLmhAKUTFyJFYkIGwlY', 
       
       // On redirige le paiement vers notre proxy sécurisé
       checkoutEndpoint: '/api/checkout', 
