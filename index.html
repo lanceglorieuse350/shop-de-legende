@@ -20,7 +20,7 @@
 <link rel="preload" as="image" href="background.jpg" fetchpriority="high">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- LECART — recommander : héberger en local dans /vendor/ -->
+<!-- LECART -->
 <link rel="stylesheet" href="https://unpkg.com/lecart/dist/lecart.css">
 <script src="https://unpkg.com/lecart/dist/lecart.min.js" defer></script>
 
@@ -964,9 +964,9 @@ body.light-mode .music-widget select{background:#fff}
 
         <section>
             <h2 data-i18n="legal_hosting">2. Hébergement du site</h2>
-            <p><strong>Hébergeur :</strong> Netlify, Inc.</p>
-            <p>2325 3rd Street, Suite 215, San Francisco, CA 94107</p>
-            <p><strong>Site :</strong> netlify.com</p>
+            <p><strong>Hébergeur :</strong> Vercel Inc.</p>
+            <p>440 N Barranca Ave #4133, Covina, CA 91723, États-Unis</p>
+            <p><strong>Site :</strong> vercel.com</p>
         </section>
 
         <section>
@@ -1148,11 +1148,12 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   try {
     LeCart.init({
-      // ⚠️ NE JAMAIS METTRE DE CLÉ SECRÈTE ICI.
-      // Si LeCart fournit une clé PUBLIQUE (pk_...), mets-la ici.
-      // Sinon, laisse vide et proxyse via /api/checkout (voir README).
-      lecartApiKey: 'REMPLACER_PAR_CLE_PUBLIQUE_OU_VIDE',
-      checkoutEndpoint: '/api/checkout',
+      // La clé secrète est gérée par le serveur Vercel (/api/checkout), pas ici.
+      lecartApiKey: '', 
+      
+      // On redirige le paiement vers notre proxy sécurisé
+      checkoutEndpoint: '/api/checkout', 
+      
       stripePublicKey: 'pk_live_51UNkYQRNu37iEZT9IHDIDELHXsO4A5R2ppIQKlBEpev5Q4XX6qRjrTpVHRzcVgaKdykQEm8kVDLKkBXcdPIu33UV008Oeu1wN7',
       currency: 'EUR',
       language: 'fr',
