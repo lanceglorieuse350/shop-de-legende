@@ -6,7 +6,7 @@
 <title>GUILLET IV — L'Ordre de l'Indépendance</title>
 <meta name="description" content="GUILLET IV — Boutique, prévention cybersécurité, prévention harcèlement et conseils produits.">
 <meta name="theme-color" content="#050505">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://vercel.live https://unpkg.com https://api.getlecart.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://upload.wikimedia.org; connect-src 'self' https://vitals.vercel-insights.com https://api.getlecart.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' mailto:;">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://vercel.live https://unpkg.com https://api.getlecart.com https://js.stripe.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://upload.wikimedia.org https://*.stripe.com; connect-src 'self' https://vitals.vercel-insights.com https://api.getlecart.com https://api.stripe.com; frame-src https://js.stripe.com https://checkout.stripe.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' mailto:;">
 <meta http-equiv="X-Content-Type-Options" content="nosniff">
 <meta http-equiv="X-Frame-Options" content="DENY">
 <meta name="referrer" content="strict-origin-when-cross-origin">
@@ -1178,12 +1178,13 @@ body.light-mode .music-widget select{background:#fff}
     </button>
 </div>
 
-<!-- INITIALISATION LECART -->
+<!-- INITIALISATION LECART (CORRIGÉE - clé publique Stripe ajoutée) -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   LeCart.init({
     lecartApiKey: 'lecart_UuKwW59mDlWqhxhlZIbz7eD8bTfpXmnrPXxDtVa0j1Ak',
     checkoutEndpoint: 'https://api.getlecart.com/create-checkout',
+    stripePublicKey: 'pk_live_51UNkYQRNu37iEZT9IHDIDELHXsO4A5R2ppIQKlBEpev5Q4XX6qRjrTpVHRzcVgaKdykQEm8kVDLKkBXcdPIu33UV008Oeu1wN7',
     currency: 'EUR',
     language: 'fr',
     theme: 'dark',
@@ -1382,19 +1383,13 @@ document.addEventListener('DOMContentLoaded', function() {
     "use strict";
     var TRANSLATIONS = {
         en: {
-            // Navbar & marque
             "nav_home":"🏠 Home","nav_about":"📜 About","nav_shop":"🛒 Shop","nav_vinted":"👕 Vinted","nav_beauty":"💅 Nails & Beauty","nav_cyber":"🛡️ Cybersecurity","nav_harassment":"🛡️ Harassment","nav_contact":"✉️ Contact","nav_faq":"❓ FAQ","nav_cgv":"📄 Terms","nav_legal":"⚖️ Legal",
             "order_independence":"THE ORDER OF INDEPENDENCE",
             "brand_king":"👑 GUILLET IV","motto":"« Forge your path. Defend your autonomy. Build the future. »","baseline":"Company · Entrepreneurial independence movement · Vision",
-            // Maintenance
             "maintenance":"MAINTENANCE","maintenance_motto":"« The GUILLET IV site is currently under maintenance. We'll be back very soon. »","maintenance_info":"⏳ Work in progress — Thank you for your patience","contact_us":"📧 Contact us",
-            // Marquee
             "marquee_welcome":"✨ Welcome to GUILLET IV — The Order of Independence ✨","marquee_delivery":"🚚 Fast and secure delivery","marquee_payment":"🛡️ 100% secure payment","marquee_motto":"👑 Forge your path. Defend your autonomy. Build the future.","marquee_products":"💎 Products chosen for autonomy and practical life","marquee_warranty":"🛡️ 24-month warranty on all our products","marquee_music":"🎵 Discover our exclusive music selection",
-            // Audio player title
             "site_music":"🎵 Site music",
-            // Music tracks
             "track_polygone":"🔷 Polygone","track_genetiquement":"🧬 Genetically Modified","track_quelques_notes":"🎵 Some notes","track_bilar_phoenix":"🔥 Bilar – Phoenix","track_cenza":"🕶️ Cenza – Unknown","track_confinement":"🧪 Bilar – ConFinement #2","track_dark_blues":"🌑 Dark Blues.Vol","track_iam":"🌍 IAM – The end of their world","track_issaba":"⚡ Issaba – You know","track_kery":"📜 Kery James – Post-Scriptum","track_exit":"🧬 L'EXI-T – Venom Zirko / HYPERTHYMESIA","track_sakage":"🌒 Sakage – Premise","track_sks":"💥 SKS CREW","track_mysa_ralliement":"🚩 Mysa – The Rally","track_rockin_luta":"✊ Rockin'Squat – A Luta Continua","track_rockin_eternel":"📚 Rockin'Squat – Eternal Apprentice","track_rcknsqt_verlaine":"🖋️ RCKNSQT – VERLAINE","track_mysa_autopsy":"🩸 Mysa – Autopsy","track_fourmiliere":"🐜 The smiling anthill","track_shurikn":"🗡️ Shurikn – Samurai","track_proser":"🔥 Proser – La Rage (Monf x Poups)","track_rohff":"⚔️ Rohff – Fitna","track_mysa_fou":"🧠 Mysa – Like Crazy","track_mysa_dystopie":"🏙️ Mysa – Dystopia19","track_mysa_mortel":"💀 Mysa – Lethal","track_mysa_piqure":"💉 Mysa – Booster Shot","track_mysa_revolu":"🔁 Mysa – Bygone","track_millesime":"🏛️ Millésime K – Republic","track_rockin_aimer":"❤️ Rockin'Squat – Love Without Owning","track_rockin_ils":"💔 Rockin'Squat – They Don't Want to Love","track_rcknsqt_vocab":"🔤 RCKNSQT – VOCAB","track_miyagi_kosandra":"🌌 Miyagi & Andy Panda – Kosandra (RU)","track_miyagi_capitaine":"⚓ Miyagi – Capitaine (RU)","track_miyagi_tumani":"🎭 Miyagi – Tumani / YO / KADI / Bismarck (RU)",
-            // Hero & doctrine
             "doctrine_title":"⚔️ The GUILLET IV Doctrine","doctrine_desc":"GUILLET IV brings together the power of business, the strength of an identity and the vision of a movement. Our founding principle: do not wait for your place, but build it through action, discipline and creation.",
             "authority":"🖤 Authority","authority_desc":"Black embodies self-mastery, rigor and solidity.",
             "willpower":"❤️ Willpower","willpower_desc":"Red represents energy, courage and determination.",
@@ -1408,11 +1403,9 @@ document.addEventListener('DOMContentLoaded', function() {
             "discipline":"🜁 Discipline","discipline_desc":"Order, structure, constancy that forges success.",
             "creation":"🜄 Creation","creation_desc":"The art of producing, innovating, building what does not yet exist.",
             "ascension":"🜃 Ascension","ascension_desc":"The rise, evolution, self-transcendence and limits.",
-            // Shop
             "shop_title":"GUILLET IV Shop","shop_intro":"Products chosen for autonomy, safety, the outdoors and practical life.","no_products":"No product matches this search.","see_more":"See more","see_less":"See less",
             "full_desc":"Full description","details":"Details","utility":"Uses","how_to_use":"How to use","features":"Features",
             "badge_winter":"WINTER PACK","badge_new":"NEW",
-            // Drone
             "drone_title":"KY108 DRONE – THE EYE OF THE FUTURE IS IN YOUR HANDS","drone_tagline":"Dominate the sky… or it will dominate you. Be eyes without needing to see.","drone_desc":"A drone designed for creators, explorers and ambitious pilots. Capture the world with surgical precision.",
             "drone_full_1":"The KY108 is not just a drone: it is a vision tool, an instrument of mastery, an aerial ally that transforms every flight into a futuristic experience.",
             "drone_full_2":"Thanks to its dual HD camera, 90x zoom, omnidirectional obstacle avoidance and brushless motors, it offers stability and power that few drones in its category can match.",
@@ -1421,31 +1414,24 @@ document.addEventListener('DOMContentLoaded', function() {
             "drone_util_1":"Film landscapes in high quality","drone_util_2":"Create content for TikTok and Instagram","drone_util_3":"Monitor an area while respecting privacy","drone_util_4":"Learn drone piloting","drone_util_5":"Take professional aerial photos",
             "drone_use_1":"Unfold the drone and check the propellers.","drone_use_2":"Turn on the remote control.","drone_use_3":"Connect the HD camera.","drone_use_4":"Take off in assisted mode.","drone_use_5":"Pilot via the integrated FPV screen.","drone_use_note":"Remember to respect applicable flight rules and the privacy of the people filmed.",
             "pay_now_89":"💳 Pay now — €89","pay_now_35":"💳 Pay now — €35","pay_now_95":"💳 Pay now — €95",
-            // Projecteur
             "proj_title":"Rotating solar LED projector","proj_desc":"Outdoor solar LED projector with PIR sensor and rotating panels.","proj_full_1":"Outdoor LED projector powered by a solar panel, equipped with a PIR sensor and rotating panels.",
             "proj_util_1":"Secure an entrance","proj_util_2":"Light up a dark area","proj_util_3":"Deter intrusions","proj_util_4":"Works without electricity",
             "proj_use_1":"Attach the projector to a wall","proj_use_2":"Orient the LED panels","proj_use_3":"Adjust the PIR sensor","proj_use_4":"Leave the solar panel to charge",
-            // Pack hiver
             "pack_title":"Winter Survival Pack – Premium Edition","pack_desc":"The ultimate pack to face winter, stay warm, lit and self-sufficient.",
             "pack_item_1":"🧤 1. Smart Electric Heated Gloves (USB)","pack_item_1_desc":"High-performance winter gloves, designed to provide immediate and controlled warmth.","pack_item_1_b1":"Double-sided heating on the palm","pack_item_1_b2":"Three adjustable temperature levels","pack_item_1_b3":"Touchscreen design","pack_item_1_b4":"USB interface operation, powerbank compatible",
             "pack_item_2":"🔦 2. Powerful LED Flashlights – USB Rechargeable (x2)","pack_item_2_desc":"Ultra-bright tactical lamp for power outages, night travel, car.","pack_item_2_b1":"7 light modes","pack_item_2_b2":"USB rechargeable","pack_item_2_b3":"Built-in battery","pack_item_2_b4":"Weather resistant",
             "pack_item_3":"🔋 3. 12,000 mAh Power Bank – Special USB Heating","pack_item_3_desc":"High-capacity powerbank compatible with all USB devices and heated clothing.","pack_item_3_b1":"12,000 mAh → long battery life","pack_item_3_b2":"5V 2.4A output","pack_item_3_b3":"Compatible iPhone / Samsung / iPad",
             "pack_item_4":"🛏️ 4. Multi-Season Mummy Sleeping Bag (210 × 75 cm)","pack_item_4_desc":"Lightweight, compact and comfortable sleeping bag, ideal for camping and emergencies.","pack_item_4_b1":"Integrated hood","pack_item_4_b2":"Rugged 170T polyester","pack_item_4_b3":"Foldable into a duvet / blanket","pack_item_4_b4":"Storage bag included",
-            // Endoscope
             "endo_title":"Endoscope inspection camera with screen","endo_desc":"1080P inspection endoscope with 4.3-inch built-in screen, 10-meter semi-rigid cable, 2.0 MP camera, adjustable LED lighting and IP68 waterproof design.","endo_full_1":"The essential tool for inspecting hard-to-reach areas: ducts, engines, pipes, conduits, technical installations or narrow spaces.",
             "endo_util_1":"Inspection of engines, ducts and pipes","endo_util_2":"Home maintenance: plumbing, ventilation, wiring","endo_util_3":"Fast mechanical diagnosis","endo_util_4":"Visual inspection in dark areas",
             "endo_feat_1":"Full HD 1080P resolution","endo_feat_2":"2.0 MP camera with adjustable LED lighting","endo_feat_3":"4.3-inch integrated screen","endo_feat_4":"10-meter semi-rigid cable","endo_feat_5":"IP68 waterproof certification",
-            // Guarantees
             "guarantees":"🛡️ Guarantees & Services","warranty_24":"✔ Warranty: 24 months","secure_payment":"✔ Secure payment","fast_delivery":"✔ Fast delivery","reviews_title":"⭐ Customer Reviews (Vinted)",
-            // About
             "learn_more":"🏢 Learn more","company_movement":"Company · Movement · Independence",
             "about_intro":"GUILLET IV is a company and an entrepreneurial independence movement. It defends the idea that everyone can build their own path through work, creation and autonomy.",
             "about_service":"I sell on Vinted (profile: limitless95) with 5★ reviews, responsive customer service and a desire to offer serious, well-presented products with a real shop experience.",
             "about_contact":"For any question, contact me via the Contact page or directly on Vinted.",
             "contact_me":"✉️ Contact me","view_my_vinted":"👕 View my Vinted","back_home":"⬅ Back to home","back_shop":"⬅ Back to shop",
-            // Vinted
             "my_vinted":"🛒 My Vinted","vinted_intro":"Find my verified sales, 5★ ratings and products available on Vinted.","verified_reviews":"Verified Vinted Reviews","vinted_desc":"I am limitless95 on Vinted. I offer serious, well-presented items with responsive customer service.","view_vinted_profile":"👕 See my Vinted profile",
-            // Beauty
             "beauty_title":"💅 Nails & Beauty","beauty_sub":"Elegance · Care · Autonomy","beauty_intro":"A selection of beauty products to care for your nails and reveal your style.",
             "see_all":"✨ See all","polish_colors":"💅 Polish & Colors","care":"🧴 Care","accessories":"💎 Accessories","kits":"🎁 Kits",
             "best_seller":"BEST-SELLER","complete_kit":"COMPLETE KIT",
@@ -1457,11 +1443,9 @@ document.addEventListener('DOMContentLoaded', function() {
             "beauty_balm":"Repair Balm for Damaged Nails","beauty_balm_desc":"Repairs brittle and ridged nails, formula enriched with keratin and calcium.",
             "beauty_tips_title":"💡 GUILLET IV Beauty Tips","beauty_tip_1":"Hydrate your cuticles every evening with vegetable oil.","beauty_tip_2":"Space out gel applications to let your nails breathe.","beauty_tip_3":"Protect your hands with gloves for household chores.","beauty_tip_4":"Use a protective base before each colored polish.",
             "pay_1290":"💳 Pay — €12.90","pay_2490":"💳 Pay — €24.90","pay_890":"💳 Pay — €8.90","pay_2990":"💳 Pay — €29.90","pay_1490":"💳 Pay — €14.90","pay_1190":"💳 Pay — €11.90",
-            // Cyber
             "cyber_title":"🛡️ Cybersecurity Prevention","cyber_subtitle":"Cyber attacks in France","cyber_intro":"Phishing, data theft, fraudulent access and identity theft: understanding the risks helps you better protect your accounts, devices and personal information.","cyber_intro_2":"Prevention combines cautious habits, appropriate technical protections and a rapid response when an incident occurs.",
             "cyber_step1":"🔑 Step 1 — Saved passwords","cyber_step2":"🎣 Step 2 — Social engineering and phishing","cyber_step3":"💻 Step 3 — Password attacks","cyber_step4":"🗝️ Step 4 — Key photos and physical security","cyber_step5":"👤 Step 5 — Personal information","cyber_step6":"⚖️ Step 6 — French law and hacking","cyber_step7":"📨 Step 7 — Phishing, fraud and identity","cyber_step8":"🗂️ Step 8 — Personal data and GDPR","cyber_step9":"✅ Step 9 — Authorized security tests","cyber_step10":"🚨 Step 10 — What to do in case of incident?","cyber_conclusion":"🏁 General conclusion",
             "cyber_s1_title":"🔑 Step 1 — Saved passwords: convenience, protection and vigilance","cyber_s2_title":"🎣 Step 2 — Social engineering and phishing: you can be a target","cyber_s3_title":"💻 Step 3 — Password attacks","cyber_s4_title":"🗝️ Step 4 — Key photos and physical security","cyber_s5_title":"👤 Step 5 — Personal information and privacy","cyber_s6_title":"⚖️ Step 6 — French law: fraudulent access, hacking and sanctions","cyber_s7_title":"📨 Step 7 — Phishing, fraud and identity theft","cyber_s8_title":"🗂️ Step 8 — Personal data, GDPR and security obligations","cyber_s9_title":"✅ Step 9 — Audit and security testing: obtain clear authorization","cyber_s10_title":"🚨 Step 10 — What to do if an account or device is compromised?","cyber_conclusion_title":"🏁 General conclusion",
-            // Prévention harcèlement
             "prevention_harassment":"🛡️ Harassment Prevention","harassment_is_crime":"Harassment is an offense. It destroys lives.","harassment_intro_2":"Whether physical, psychological or virtual, French law severely punishes the perpetrators.","harassment_intro_3":"Here are the penalties incurred, alone or in an organized group.","prevention_themes":"📋 Prevention topics",
             "moral_harassment":"💻 Moral harassment","school_harassment":"🎓 School harassment","sexual_harassment":"🤬 Sexual harassment","organized_group":"🚨 In an organized group","where_help":"📞 Where to find help?",
             "basic_penalty":"Basic penalty","aggravating_simple":"Single aggravating circumstance","two_aggravating":"Two aggravating circumstances combined","up_to_10_years":"Up to 10 years + €300,000","organized_group_desc":"each participant can be prosecuted, even for a single message, if the collective nature of the harassment is established.",
@@ -1470,18 +1454,12 @@ document.addEventListener('DOMContentLoaded', function() {
             "organized_group_law":"🚨 In an organized group: what the law says","collective_responsibility":"⚖️ Collective responsibility",
             "collective_desc":"Online or group harassment is an aggravating circumstance. Even if you only sent one message, liked or shared harassing content, you can be prosecuted.","online_moral_harassment":"Online moral harassment","sexual_harassment_multiple":"Sexual harassment by several people","multiple_aggravating":"Harassment with several aggravating circumstances","law_punishes_each":"The law punishes each participant, not just the leader.",
             "dont_stay_alone":"⚠️ Don't stay alone. Talk.","call_3018":"📞 3018 — Free, anonymous, 7 days a week (9am-11pm)","report_17cyber":"🌐 17Cyber.gouv.fr — Online reporting","report_17cyber_btn":"🚨 Report on 17Cyber","call_3018_btn":"📞 Call 3018","prevention_footer_note":"Information from the French Penal Code (Légifrance). Last update: 2026.",
-            // Mentions
             "legal_notice":"Legal notice","legal_info":"1. Legal information","legal_company":"<strong>Company name:</strong> GUILLET IV","legal_status":"<strong>Status:</strong> Micro-enterprise","legal_address":"<strong>Address:</strong> Ille-et-Vilaine, France","legal_hosting":"2. Site hosting","legal_ip":"3. Intellectual property","legal_ip_text":"All site content is the exclusive property of GUILLET IV.",
-            // CGV
             "terms_sale":"Terms of Sale","cgv_object":"1. Purpose","cgv_object_text":"These conditions govern sales made on the GUILLET IV Shop.","cgv_price":"2. Price","cgv_price_text":"Prices are indicated in euros, all taxes included.","cgv_delivery":"3. Delivery","cgv_delivery_text":"Fast delivery depending on availability.","cgv_payment":"4. Payment","cgv_payment_text":"Secure payment via Stripe.",
-            // FAQ
             "faq_title":"❓ Frequently Asked Questions","faq_delivery":"📦 Delivery","faq_payment":"🔒 Secure payment","faq_refund":"❌ Refund & Return","faq_warranty":"🛡️ Warranty",
             "faq_ship_time":"What is the shipping time?","faq_ship_time_text":"Items are shipped quickly depending on availability.","faq_zones":"What areas are delivered?","faq_zones_text":"Delivery is ensured in mainland France via the options offered by Vinted.","faq_payment_q":"How does payment work?","faq_payment_text":"All transactions are secure and carried out directly via Vinted or Stripe.","faq_refund_q":"How does the refund work?","faq_refund_text":"Refund requests are processed according to Vinted rules and withdrawal rights.","faq_warranty_q":"What does the 24-month warranty cover?","faq_warranty_text":"The 24-month commercial warranty covers manufacturing defects and failures not attributable to the user.",
-            // Contact
             "contact_title":"✉️ Contact us","contact_intro":"A question? A project? Feel free to write to us.","phone":"Phone","location":"Location","france_ille":"France, Ille-et-Vilaine","hours":"Hours","your_name":"Your name","your_email":"Your email","your_message":"Your message...","send_message":"Send message","message_prepared":"Your message has been prepared. You can now send it via your email application.",
-            // Footer
             "footer_home":"Home","footer_about":"About","footer_harassment":"🛡️ Harassment","footer_shop":"Shop","footer_vinted":"Vinted","footer_beauty":"💅 Beauty","footer_cyber":"🛡️ Cybersecurity","footer_contact":"Contact","footer_faq":"FAQ","footer_cgv":"Terms","footer_legal":"Legal","footer_location":"📍 Ille-et-Vilaine · 🕒 9am – 8pm","footer_payment":"🔒 Secure payment — 🚚 Fast delivery","copyright":"© 2026 GUILLET IV — The Order of Independence","follow_tiktok":"🎵 Follow us on TikTok",
-            // Attributs
             "search_product":"Search a product","clear_search":"Clear search","toggle_mode":"Toggle light / dark mode","choose_music":"Choose a track","back_top":"Back to top","open_chat":"Open advice chat","advice_chat":"🤖 GUILLET IV Advice","ask_question":"Ask me a question..."
         },
         ru: {
