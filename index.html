@@ -50,7 +50,6 @@
 </style>
 
 <style>
-/* ---------- Variables ---------- */
 :root{
   --bg:#050505;--text:#fff;--card-bg:#101010;--card-bg-2:#181818;
   --gold:#ffd700;--gold-bright:#ffe97a;--gold-dark:#b8860b;
@@ -66,7 +65,6 @@ body.light-mode{
   --red:#a80000;--blue:#005f99;
   --border-color:rgba(0,0,0,0.1);
 }
-
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 [id]{scroll-margin-top:90px}
@@ -95,15 +93,12 @@ p,li,h1,h2,h3,h4{overflow-wrap:anywhere}
 ::-webkit-scrollbar-track{background:var(--card-bg)}
 ::-webkit-scrollbar-thumb{background:var(--gold);border-radius:4px}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-
 @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 @keyframes shimmer{0%{background-position:-200% 50%}100%{background-position:200% 50%}}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 @keyframes marquee{0%{transform:translate(0,0)}100%{transform:translate(-100%,0)}}
-
 .page-section{display:none;animation:fadeIn 0.3s ease}
 .page-section.active{display:block}
-
 .navbar{
   position:sticky;top:0;z-index:200;
   display:flex;flex-direction:column;align-items:stretch;
@@ -161,7 +156,6 @@ body.light-mode .navbar{background:rgba(255,255,255,.95)}
   padding:.4rem .6rem;border-radius:var(--radius-sm);white-space:nowrap;transition:all .2s;
 }
 .navbar-links a:hover,.navbar-links a.active-link{color:var(--gold);background:rgba(255,215,0,0.1)}
-
 .marquee-bar{
   background:linear-gradient(90deg,#1a0000 0%,#000 25%,#0a0a0a 50%,#000 75%,#1a0000 100%);
   border-top:2px solid var(--gold);border-bottom:2px solid var(--gold);
@@ -176,7 +170,6 @@ body.light-mode .navbar{background:rgba(255,255,255,.95)}
 }
 .marquee-content span{margin:0 2rem;display:inline-block;vertical-align:middle}
 .marquee-content .marquee-icon{color:var(--red);font-size:1.2rem}
-
 .audio-player{
   width:calc(100% - 2rem);max-width:600px;margin:2rem auto;padding:1.5rem;
   background:linear-gradient(135deg,var(--card-bg),var(--card-bg-2));
@@ -195,7 +188,6 @@ body.light-mode .navbar{background:rgba(255,255,255,.95)}
 #musicSelect::-webkit-scrollbar-track{background:#1a1a1a}
 #musicSelect::-webkit-scrollbar-thumb{background:var(--gold);border-radius:4px;border:2px solid #000}
 #player{width:100%;border-radius:var(--radius-sm);outline:none;display:block}
-
 .hero{text-align:center;padding:2.5rem 1rem 1.5rem;max-width:1000px;margin:0 auto}
 .hero-slider{width:100%;max-width:800px;margin:0 auto 2rem;border:2px solid var(--gold);border-radius:var(--radius-lg);overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.5)}
 .hero-slide{width:100%;display:none;cursor:zoom-in;max-height:350px;object-fit:cover}
@@ -217,10 +209,8 @@ body.light-mode .doctrine{background:linear-gradient(135deg,#fff,#fff3f3)}
 .pillar:hover{transform:translateY(-3px);border-color:var(--gold)}
 .pillar h3{font-family:var(--font-display);color:var(--gold);font-size:1.1rem;margin:0 0 .5rem}
 .pillar p{font-size:.9rem;margin:0;line-height:1.6;opacity:0.85}
-
 .section-title{text-align:center;font-family:var(--font-display);font-size:2rem;color:var(--gold);margin:3rem 0 1rem}
 .intro{text-align:center;max-width:80%;margin:0 auto 2.5rem;font-size:1rem;font-style:italic;opacity:.8}
-
 .products-grid{display:flex;flex-direction:column;gap:2rem;max-width:1000px;margin:0 auto 3rem;padding:0 1rem}
 .product-card{
   display:flex;flex-direction:column;gap:1.5rem;
@@ -254,7 +244,6 @@ body.light-mode .off{color:#007700}
   padding:.8rem 1rem;font-size:1rem;font-weight:700;margin-top:1rem;transition:all .2s;
 }
 .payment-btn:hover{background:transparent;color:var(--gold)}
-
 .beauty-hero{text-align:center;padding:2rem 1rem;background:linear-gradient(135deg,rgba(255,182,193,0.1),rgba(0,0,0,0.8) 60%);border-radius:var(--radius-lg);margin:2rem auto;max-width:900px;border:1px solid var(--border-color)}
 .beauty-hero h1{font-family:var(--font-display);font-size:2rem;color:var(--gold);margin:0 0 .5rem}
 .beauty-hero .beauty-sub{font-family:var(--font-display);font-size:.9rem;color:var(--pink);letter-spacing:.1em;text-transform:uppercase;font-weight:700}
@@ -262,7 +251,6 @@ body.light-mode .off{color:#007700}
 .beauty-clients-grid{display:grid;grid-template-columns:1fr;gap:1rem;width:calc(100% - 2rem);max-width:1000px;margin:0 auto}
 .beauty-client-img{width:100%;aspect-ratio:1/1;object-fit:cover;border:1px solid var(--border-color);border-radius:var(--radius-md);cursor:zoom-in;background:#000;transition:border-color .2s}
 .beauty-client-img:hover{border-color:var(--gold)}
-
 .about-section{width:calc(100% - 2rem);max-width:900px;margin:0 auto 3rem;padding:2.5rem 1.5rem;background:linear-gradient(135deg,rgba(225,6,0,0.15),rgba(0,0,0,0.95) 60%);border:1px solid var(--border-color);border-radius:var(--radius-lg);text-align:center}
 .about-section h2{font-family:var(--font-display);font-size:1.5rem;color:var(--gold);margin:0 0 .5rem}
 .about-section .about-sub{font-family:var(--font-display);font-size:.8rem;color:#ff9a9a;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin-bottom:1.5rem;display:block}
@@ -274,16 +262,13 @@ body.light-mode .off{color:#007700}
 .btn-about{display:inline-block;padding:.8rem 2rem;font-family:var(--font-display);font-weight:700;font-size:.9rem;text-decoration:none;border-radius:var(--radius-md);border:1px solid var(--border-color);text-align:center}
 .btn-about-primary{background:var(--gold);color:#000;border-color:var(--gold)}
 .btn-about-secondary{background:transparent;color:var(--gold);border-color:var(--gold)}
-
 .vinted-card{background:rgba(0,0,0,0.6);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:2rem 1rem;max-width:900px;margin:0 auto;text-align:center}
 .vinted-rating{display:inline-flex;align-items:center;gap:.5rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;padding:.6rem 1.2rem;border-radius:40px;font-weight:700;font-size:.9rem;margin-bottom:1.5rem}
 .vinted-rating span{color:var(--red);font-size:1rem}
 .vinted-btn{display:block;width:100%;background:linear-gradient(135deg,var(--gold),var(--red));color:#000;font-family:var(--font-display);font-weight:700;font-size:1rem;padding:1rem;border-radius:var(--radius-md);text-decoration:none;border:1px solid #fff;text-transform:uppercase;text-align:center}
-
 .info{width:calc(100% - 2rem);max-width:900px;margin:0 auto 1.5rem;padding:1.5rem;background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);font-size:.95rem}
 .info h2{text-align:center;font-family:var(--font-display);font-size:1.3rem;color:var(--gold);margin:0 0 1.2rem}
 .info p{margin:.4rem 0;line-height:1.6;text-align:center}
-
 .page-container{width:calc(100% - 2rem);max-width:1000px;margin:2.5rem auto;padding:2.5rem 1.5rem;background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg)}
 .page-container h1{font-family:var(--font-display);font-size:1.8rem;color:var(--gold);text-align:center;margin-bottom:2rem}
 .page-container h2{font-family:var(--font-display);font-size:1.2rem;color:var(--gold);margin-top:2rem;margin-bottom:1rem;border-bottom:1px solid var(--border-color);padding-bottom:.5rem}
@@ -292,21 +277,17 @@ body.light-mode .off{color:#007700}
 .page-container em{color:var(--red);font-style:italic}
 .return-btn{display:block;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;font-family:var(--font-display);font-weight:700;font-size:1rem;padding:1rem 2rem;border-radius:var(--radius-md);text-decoration:none;border:1px solid var(--gold);margin:2rem auto;text-align:center;max-width:300px;transition:all 0.2s}
 .return-btn:hover{background:transparent;color:var(--gold)}
-
 .faq-item{margin-bottom:1.2rem;background:rgba(255,255,255,0.02);border-left:3px solid var(--gold);padding:1.2rem;border-radius:0 var(--radius-sm) var(--radius-sm) 0}
 .faq-item h3{font-family:var(--font-display);color:var(--gold);margin-top:0;margin-bottom:.5rem;font-size:1rem}
 .faq-item p{margin:0;line-height:1.6;font-size:.9rem;opacity:0.9}
-
 .contact-form{display:flex;flex-direction:column;gap:1rem;max-width:600px;margin:0 auto}
 .contact-form input,.contact-form textarea{width:100%;padding:1rem;background:#000;border:1px solid var(--border-color);border-radius:var(--radius-md);color:#fff;font-size:16px;transition:border-color 0.2s}
 .contact-form input:focus,.contact-form textarea:focus{border-color:var(--gold);outline:none}
 body.light-mode .contact-form input,body.light-mode .contact-form textarea{background:#fff;color:#000}
 .contact-form button{background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;font-family:var(--font-display);font-weight:700;padding:1rem;border-radius:var(--radius-md);border:1px solid var(--gold);font-size:1rem}
-
 #zoomModal{display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.96);backdrop-filter:blur(8px);justify-content:center;align-items:center;padding:1rem}
 #zoomModal img{max-width:100%;max-height:85vh;object-fit:contain;border:2px solid var(--gold);border-radius:var(--radius-md)}
 .zoom-close{position:absolute;top:1rem;right:1rem;width:44px;height:44px;border:1px solid #fff;border-radius:50%;background:rgba(0,0,0,0.8);color:#fff;font-size:1.5rem;display:flex;align-items:center;justify-content:center;cursor:pointer}
-
 .prevention-page{display:none;position:fixed;inset:0;z-index:5000;background:#0a0a0a;overflow-y:auto;overscroll-behavior:contain}
 .prevention-page.open{display:block;animation:fadeIn .3s ease}
 .prevention-header{position:sticky;top:0;z-index:10;background:linear-gradient(135deg,#000 0%,#1a0000 50%,#000 100%);border-bottom:2px solid var(--gold);padding:1rem;display:flex;justify-content:space-between;align-items:center;gap:.6rem}
@@ -344,7 +325,6 @@ body.light-mode .contact-form input,body.light-mode .contact-form textarea{backg
 .prevention-btn-primary{background:var(--gold);color:#000;border:1px solid var(--gold)}
 .prevention-btn-danger{background:linear-gradient(135deg,var(--red),#a80000);color:#fff;border:1px solid var(--red)}
 .prevention-footer-note{text-align:center;color:#999;font-size:.8rem;margin-top:2rem;font-style:italic}
-
 .page-header-cyber{text-align:center;padding:1rem 0 2rem}
 .page-header-cyber h1{font-family:var(--font-display);font-size:1.8rem;color:var(--gold);margin:0 0 1rem}
 .page-header-cyber h2{font-family:var(--font-display);font-size:1.2rem;color:var(--gold);margin:0 0 1rem}
@@ -358,7 +338,6 @@ body.light-mode .contact-form input,body.light-mode .contact-form textarea{backg
 .cyber-section h2{font-family:var(--font-display);font-size:1.1rem;color:var(--gold);margin:0 0 1rem;padding-bottom:.5rem;border-bottom:1px solid var(--border-color)}
 .cyber-section p{font-size:.9rem;margin:0 0 1rem;line-height:1.6}
 .signature{text-align:right;font-family:var(--font-display);font-weight:700;color:var(--gold);margin-top:2rem;font-size:1rem;line-height:1.5}
-
 footer{background:linear-gradient(180deg,#000,var(--card-bg));padding:3rem 1rem 7rem;text-align:center;color:#fff;margin-top:4rem;border-top:2px solid var(--gold)}
 .footer-container{max-width:1000px;margin:0 auto}
 .footer-links{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:1rem 2rem;margin-bottom:2rem}
@@ -369,17 +348,14 @@ footer a:hover{color:#fff;background:rgba(255,215,0,0.1);border-radius:var(--rad
 .footer-tiktok{display:inline-block;margin-top:1rem;padding:1rem 2rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:1px solid var(--gold);border-radius:var(--radius-md);font-family:var(--font-display);font-weight:700;text-decoration:none;font-size:.95rem;transition:transform 0.2s}
 .footer-tiktok:hover{transform:scale(1.05)}
 .footer-copyright{font-size:.8rem;opacity:.6;margin-top:2rem}
-
 #top{position:fixed;right:1rem;bottom:12rem;width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-dark));border:2px solid #fff;display:none;justify-content:center;align-items:center;z-index:9998;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.4)}
 #top svg{width:24px;height:24px}
-
 .music-widget{position:fixed;bottom:1rem;left:1rem;z-index:350;display:flex;align-items:center;gap:.5rem;padding:.5rem .8rem;background:rgba(20,20,20,.95);backdrop-filter:blur(10px);border:1px solid var(--border-color);border-radius:40px;max-width:calc(100vw - 2rem);box-shadow:0 4px 12px rgba(0,0,0,0.5)}
 body.light-mode .music-widget{background:rgba(255,255,255,.95)}
 .music-play-btn{background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:1px solid #fff;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-size:.9rem}
 .music-widget select{background:#000;color:var(--gold);border:1px solid var(--gold);border-radius:20px;padding:.3rem .6rem;font-size:.75rem;max-width:140px;appearance:none;-webkit-appearance:none}
 body.light-mode .music-widget select{background:#fff}
 .music-widget input[type="range"]{width:60px;accent-color:var(--gold)}
-
 #chatbot-toggle{position:fixed;bottom:7rem;right:1rem;width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:2px solid #fff;font-size:1.5rem;z-index:400;animation:float 4s ease-in-out infinite;box-shadow:0 4px 12px rgba(0,0,0,0.4)}
 #chatbot-window{position:fixed;bottom:12.5rem;right:1rem;width:calc(100vw - 2rem);max-width:400px;height:60vh;max-height:500px;background:linear-gradient(180deg,#0d0d0d,#050505);border:1px solid var(--gold);border-radius:var(--radius-lg);display:none;flex-direction:column;z-index:450;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.6)}
 #chatbot-window.open{display:flex;animation:fadeIn .3s ease}
@@ -395,12 +371,10 @@ body.light-mode .music-widget select{background:#fff}
 .chat-input-zone{display:flex;gap:.4rem;padding:.8rem;background:#0a0a0a;border-top:1px solid var(--border-color)}
 #chat-input{flex:1;background:#111;color:var(--text);border:1px solid var(--border-color);border-radius:20px;padding:.5rem 1rem;font-size:16px}
 #chat-send{width:40px;height:40px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:1px solid #fff;border-radius:50%;font-size:1rem;display:flex;align-items:center;justify-content:center;cursor:pointer}
-
 #panierFlottant{position:fixed;top:14px;right:14px;z-index:9999;display:flex;align-items:center;justify-content:center;gap:.55rem;padding:.85rem 1.4rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:2px solid #fff;border-radius:40px;box-shadow:0 6px 22px rgba(255,215,0,0.5);font-family:var(--font-display);font-weight:700;font-size:.95rem;cursor:pointer;transition:transform .2s,box-shadow .2s}
 #panierFlottant:hover{transform:scale(1.05);box-shadow:0 8px 28px rgba(255,215,0,0.7)}
 #panierFlottant img{height:22px;width:auto;display:block}
 #panierCount{display:none;background:#e10600;color:#fff;font-family:var(--font-ui);font-size:.7rem;font-weight:700;min-width:20px;height:20px;line-height:20px;border-radius:10px;padding:0 5px;text-align:center}
-
 #maintenance-page{display:none;min-height:100vh;align-items:center;justify-content:center;text-align:center;padding:2rem 1rem;background:radial-gradient(ellipse at center,rgba(225,6,0,0.1),#050505 70%)}
 #maintenance-page .maintenance-emblem{width:80px;height:80px;margin:0 auto 2rem;border-radius:50%;background:radial-gradient(circle at 30% 30%,#ff2a2a,#e10600 40%,#000 90%);border:3px solid #ffd700;display:flex;align-items:center;justify-content:center;font-size:1.8rem;font-weight:bold;color:#ffd700;font-family:'Cinzel',serif;box-shadow:0 0 30px rgba(225,6,0,0.6)}
 #maintenance-page h1{font-family:'Cinzel',serif;font-size:clamp(2rem, 5vw, 3.5rem);color:#ffd700;margin:0 0 1rem;letter-spacing:.05em}
@@ -411,7 +385,6 @@ body.light-mode .music-widget select{background:#fff}
 #maintenance-page .maintenance-btn-gold{display:block;padding:1rem 2rem;background:linear-gradient(135deg,#ffd700,#b8860b);color:#000;font-family:'Cinzel',serif;font-weight:700;border-radius:16px;text-decoration:none;border:1px solid #ffd700;text-align:center}
 #maintenance-page .maintenance-btn-outline{display:block;padding:1rem 2rem;background:transparent;color:#ffd700;font-family:'Cinzel',serif;font-weight:700;border-radius:16px;text-decoration:none;border:1px solid #ffd700;text-align:center}
 #maintenance-page .maintenance-copyright{margin-top:3rem;font-size:.85rem;color:#555;font-family:'Inter',sans-serif}
-
 @media(min-width:600px){
   .navbar{padding:.8rem 1rem}
   .navbar-top{flex-wrap:nowrap}
@@ -1083,7 +1056,6 @@ body.light-mode .music-widget select{background:#fff}
 <div id="page-mentions" class="page-section">
   <div class="page-container">
     <h1 data-i18n="legal_notice">Mentions légales</h1>
-
     <section>
       <h2 data-i18n="legal_info">1. Informations légales</h2>
       <p><strong>Nom de l'entreprise :</strong> GUILLET IV</p>
@@ -1093,50 +1065,42 @@ body.light-mode .music-widget select{background:#fff}
       <p><strong>Email :</strong> lanceglorieuse@gmail.com</p>
       <p><strong>Téléphone :</strong> 07.80.20.47.49</p>
     </section>
-
     <section>
       <h2 data-i18n="legal_hosting">2. Hébergement du site</h2>
       <p><strong>Hébergeur :</strong> Vercel Inc.</p>
       <p>440 N Barranca Ave #4133, Covina, CA 91723, États-Unis</p>
       <p><strong>Site :</strong> vercel.com</p>
     </section>
-
     <section>
       <h2 data-i18n="legal_ip">3. Propriété intellectuelle</h2>
       <p>Tout le contenu du site (textes, images, design, logo, structure) est la propriété exclusive de GUILLET IV.</p>
       <p>Toute reproduction, distribution ou exploitation sans autorisation est strictement interdite.</p>
     </section>
-
     <section>
       <h2>4. Données personnelles</h2>
       <p>Les données collectées (nom, email, adresse, téléphone) sont utilisées uniquement pour le traitement des commandes et le support client.</p>
       <p>Aucune donnée personnelle n'est transmise, vendue, partagée ou communiquée à des entreprises, plateformes, services tiers ou organismes étatiques, en France ou ailleurs.</p>
       <p>Conformément au RGPD, vous pouvez demander la suppression ou modification de vos données à tout moment via : <strong>lanceglorieuse@gmail.com</strong>.</p>
     </section>
-
     <section>
       <h2>5. Cookies</h2>
       <p>Le site peut utiliser des cookies techniques pour améliorer l'expérience utilisateur (panier, préférences d'affichage).</p>
       <p>Aucun cookie publicitaire n'est utilisé.</p>
     </section>
-
     <section>
       <h2>6. Responsabilité</h2>
       <p>GUILLET IV ne peut être tenu responsable des dommages liés à l'utilisation du site ou des produits, sauf preuve d'une faute directe.</p>
     </section>
-
     <section id="mentions-litiges">
       <h2>7. Litiges</h2>
       <p>En cas de litige, une solution amiable sera recherchée en priorité.</p>
       <p>À défaut, les tribunaux français seront compétents.</p>
     </section>
-
     <section id="mentions-securite">
       <h2>8. Sécurité</h2>
       <p>Le site met en œuvre des mesures de sécurité conformes à l'état de l'art pour protéger l'intégrité du site et de ses utilisateurs.</p>
       <p>Conformément aux articles 323-1 et suivants du Code pénal, toute atteinte à un système de traitement automatisé de données est réprimée par la loi. Toute tentative d'accès non autorisé pourra faire l'objet d'un signalement aux autorités compétentes.</p>
     </section>
-
     <div style="text-align:center;margin-top:2rem;">
       <a href="javascript:void(0)" onclick="navigateTo('accueil')" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l'accueil</a>
     </div>
@@ -1559,44 +1523,59 @@ document.addEventListener('DOMContentLoaded', function() {
   if (sc) sc.addEventListener("click", function(){ si.value = ""; filter(false); si.focus(); });
   document.addEventListener("click", function(e){ if (sf && !sf.contains(e.target)) hide(); });
 
+  /* ============================================================
+     CHATBOT — Traduction instantanée
+     ============================================================ */
   var cw = document.getElementById("chatbot-window"), cm = document.getElementById("chat-messages"), ci = document.getElementById("chat-input");
+
   window.toggleChatbot = function(){
     window.chatOuvert = !window.chatOuvert;
-    if (window.chatOuvert) { if (cw) cw.classList.add("open"); if (cm && cm.children.length === 0) initChat(); setTimeout(function(){ if (ci) ci.focus(); }, 300); }
-    else { if (cw) cw.classList.remove("open"); }
+    if (window.chatOuvert) {
+      if (cw) cw.classList.add("open");
+      if (cm && cm.children.length === 0) initChat();
+      setTimeout(function(){ if (ci) ci.focus(); }, 300);
+    } else {
+      if (cw) cw.classList.remove("open");
+    }
   };
+
   window.envoyerMessageChat = function(tF){
     if (tF === undefined) tF = null;
     var t = tF || (ci ? ci.value.trim() : ""); if (!t) return;
     if (!tF) addMsgText(t, "user");
     if (ci) ci.value = "";
     var dict = window.__getDict ? window.__getDict() : null;
-    var lang = document.getElementById("langSelect").value;
     var m = match(t);
     if (m) {
       var txtKey = m.reponseKey;
       var txt = (dict && dict[txtKey]) ? dict[txtKey] : m.reponse;
       var opts = m.options ? m.options.map(function(o){
-        var lblKey = o.labelKey;
-        return { label: (dict && dict[lblKey]) ? dict[lblKey] : o.label, action: o.action };
+        return {
+          label: (dict && dict[o.labelKey]) ? dict[o.labelKey] : o.label,
+          labelKey: o.labelKey,
+          action: o.action
+        };
       }) : null;
-      reply(txt, opts);
+      reply(txt, opts, txtKey);
     } else {
-      var defaultMsg = (dict && dict["chat_unknown"]) ? dict["chat_unknown"] : "Je ne suis pas sûr de bien comprendre 🤔 Voici ce que je sais faire :";
+      var keyU = "chat_unknown";
+      var defaultMsg = (dict && dict[keyU]) ? dict[keyU] : "Je ne suis pas sûr de bien comprendre 🤔";
       reply(defaultMsg, [
-        { label: (dict && dict["chat_btn_all_pages"]) ? dict["chat_btn_all_pages"] : "📋 Voir toutes les pages", action: function(){ envoyerMessageChat("menu"); } },
-        { label: (dict && dict["chat_btn_prices"]) ? dict["chat_btn_prices"] : "💶 Voir les prix", action: function(){ envoyerMessageChat("prix"); } },
-        { label: (dict && dict["chat_btn_contact_me"]) ? dict["chat_btn_contact_me"] : "📞 Vous contacter", action: function(){ envoyerMessageChat("contact"); } },
-        { label: (dict && dict["chat_btn_delivery"]) ? dict["chat_btn_delivery"] : "🚚 Livraison", action: function(){ envoyerMessageChat("livraison"); } }
-      ]);
+        { labelKey: "chat_btn_all_pages", label: "📋 Voir toutes les pages", action: function(){ envoyerMessageChat("menu"); } },
+        { labelKey: "chat_btn_prices",    label: "💶 Voir les prix",         action: function(){ envoyerMessageChat("prix"); } },
+        { labelKey: "chat_btn_contact_me",label: "📞 Vous contacter",        action: function(){ envoyerMessageChat("contact"); } },
+        { labelKey: "chat_btn_delivery",  label: "🚚 Livraison",             action: function(){ envoyerMessageChat("livraison"); } }
+      ], keyU);
     }
   };
-  function addMsg(html, ty, o){
+
+  function addMsg(html, ty, o, key){
     if (ty === undefined) ty = "bot";
     if (o === undefined) o = null;
     if (!cm) return;
     var m = document.createElement("div");
     m.className = "chat-msg " + ty;
+    if (key) m.dataset.i18nKey = key;
     m.innerHTML = html;
     cm.appendChild(m);
     if (o && o.length) {
@@ -1604,6 +1583,7 @@ document.addEventListener('DOMContentLoaded', function() {
       o.forEach(function(opt){
         var b = document.createElement("button");
         b.type = "button"; b.className = "chat-option"; b.textContent = opt.label;
+        if (opt.labelKey) b.dataset.i18nKey = opt.labelKey;
         b.onclick = function(){ addMsgText(opt.label, "user"); opt.action(); };
         z.appendChild(b);
       });
@@ -1620,27 +1600,60 @@ document.addEventListener('DOMContentLoaded', function() {
     cm.appendChild(m);
     cm.scrollTop = cm.scrollHeight;
   }
-  function reply(t, o){
+  function reply(t, o, key){
     if (o === undefined) o = null;
     if (!cm) return;
-    var m = document.createElement("div"); m.className = "chat-msg bot"; m.innerHTML = '<span style="opacity:.6">…</span>';
+    var m = document.createElement("div"); m.className = "chat-msg bot";
+    m.innerHTML = '<span style="opacity:.6">…</span>';
     cm.appendChild(m); cm.scrollTop = cm.scrollHeight;
-    setTimeout(function(){ m.remove(); addMsg(t, "bot", o); }, 500);
+    setTimeout(function(){ m.remove(); addMsg(t, "bot", o, key); }, 500);
   }
   function initChat(){
-    var lang = document.getElementById("langSelect").value;
     var dict = window.__getDict ? window.__getDict() : null;
-    var hello = (dict && dict["chat_hello"]) ? dict["chat_hello"] : "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> ! Je suis votre assistant virtuel.";
-    setTimeout(function(){ addMsg(hello); }, 200);
+    var helloKey = "chat_hello";
+    var hello = (dict && dict[helloKey]) ? dict[helloKey] : "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> !";
+    setTimeout(function(){ addMsg(hello, "bot", null, helloKey); }, 200);
     setTimeout(function(){
-      var prompt = (dict && dict["chat_prompt"]) ? dict["chat_prompt"] : "Posez-moi une question ou choisissez un sujet ci-dessous :";
+      var promptKey = "chat_prompt";
+      var prompt = (dict && dict[promptKey]) ? dict[promptKey] : "Posez-moi une question :";
       reply(prompt, [
-        { label: (dict && dict["chat_btn_menu"]) ? dict["chat_btn_menu"] : "📋 Menu des pages", action: function(){ envoyerMessageChat("menu"); } },
-        { label: (dict && dict["chat_btn_prices"]) ? dict["chat_btn_prices"] : "💶 Les prix", action: function(){ envoyerMessageChat("prix"); } },
-        { label: (dict && dict["chat_btn_delivery"]) ? dict["chat_btn_delivery"] : "🚚 Livraison", action: function(){ envoyerMessageChat("livraison"); } }
-      ]);
+        { labelKey: "chat_btn_menu",     label: "📋 Menu des pages", action: function(){ envoyerMessageChat("menu"); } },
+        { labelKey: "chat_btn_prices",   label: "💶 Les prix",        action: function(){ envoyerMessageChat("prix"); } },
+        { labelKey: "chat_btn_delivery", label: "🚚 Livraison",       action: function(){ envoyerMessageChat("livraison"); } }
+      ], promptKey);
     }, 900);
   }
+
+  /* ---------- Traduction instantanée du chat ---------- */
+  window.retranslateChat = function(){
+    var dict = window.__getDict ? window.__getDict() : null;
+    var cm = document.getElementById("chat-messages");
+    if (!cm) return;
+    cm.querySelectorAll(".chat-msg.bot[data-i18n-key]").forEach(function(el){
+      var key = el.dataset.i18nKey;
+      if (dict && dict[key]) {
+        el.innerHTML = dict[key];
+      } else if (key === "chat_hello") {
+        el.innerHTML = "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> !";
+      } else if (key === "chat_prompt") {
+        el.innerHTML = "Posez-moi une question :";
+      } else if (key === "chat_unknown") {
+        el.innerHTML = "Je ne suis pas sûr de bien comprendre 🤔";
+      }
+    });
+    cm.querySelectorAll(".chat-option[data-i18n-key]").forEach(function(el){
+      var key = el.dataset.i18nKey;
+      if (dict && dict[key]) {
+        el.textContent = dict[key];
+      }
+    });
+    if (ci) {
+      var phKey = "ask_question";
+      if (dict && dict[phKey]) ci.placeholder = dict[phKey];
+      else ci.placeholder = "Posez-moi une question...";
+    }
+  };
+
   var pay = {
     drone: "aHR0cHM6Ly9idXkuc3RyaXBlLmNvbS8yOEU2b0phb3FkUmc2VlQwTTEwWlcwMQ==",
     projecteur: "aHR0cHM6Ly9idXkuc3RyaXBlLmNvbS9kUm1mWjowTlExNHUxQno3YXAwWlcwMg==",
@@ -1658,21 +1671,21 @@ document.addEventListener('DOMContentLoaded', function() {
       { labelKey: "chat_btn_cyber", label: "🛡️ Cybersécurité", action: function(){ navigateTo("prevention-cyber"); toggleChatbot(); } },
       { labelKey: "chat_btn_harass", label: "🛡️ Harcèlement", action: function(){ ouvrirPrevention(); toggleChatbot(); } }
     ] },
-    { intention: "contact", motsCles: ["horaire","telephone","mail","contact","appeler","numero","joindre"], reponseKey: "chat_contact_reply", reponse: "📞 Nous sommes disponibles de 9h à 20h au <strong>07.80.20.47.49</strong>. Vous pouvez aussi nous écrire à <strong>lanceglorieuse@gmail.com</strong>." },
+    { intention: "contact", motsCles: ["horaire","telephone","mail","contact","appeler","numero","joindre"], reponseKey: "chat_contact_reply", reponse: "📞 Nous sommes disponibles de 9h à 20h au <strong>07.80.20.47.49</strong>." },
     { intention: "livraison", motsCles: ["livraison","envoi","delai","colis","recevoir","expedition"], reponseKey: "chat_delivery_reply", reponse: "🚚 La livraison est <strong>rapide et sécurisée</strong>." },
-    { intention: "drone", motsCles: ["drone","ky108","camera","filmer","video"], reponseKey: "chat_drone_reply", reponse: "🎥 Le <strong>Drone KY108</strong> (89€) est équipé d'une double caméra HD, d'un zoom 90x.", options: [
+    { intention: "drone", motsCles: ["drone","ky108","camera","filmer","video"], reponseKey: "chat_drone_reply", reponse: "🎥 Le <strong>Drone KY108</strong> (89€).", options: [
       { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-drone"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
       { labelKey: "chat_btn_buy", label: "Acheter", action: function(){ payer(pay["drone"]); } }
     ] },
-    { intention: "projecteur", motsCles: ["projecteur","lampe","pir","solaire"], reponseKey: "chat_proj_reply", reponse: "💡 Le <strong>Projecteur LED solaire</strong> (35€) fonctionne à l'énergie solaire.", options: [
+    { intention: "projecteur", motsCles: ["projecteur","lampe","pir","solaire"], reponseKey: "chat_proj_reply", reponse: "💡 Le <strong>Projecteur LED solaire</strong> (35€).", options: [
       { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-projecteur"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
       { labelKey: "chat_btn_buy", label: "Acheter", action: function(){ payer(pay["projecteur"]); } }
     ] },
-    { intention: "endoscope", motsCles: ["endoscope","inspect","moteur","tuyau"], reponseKey: "chat_endo_reply", reponse: "🔍 L'<strong>Endoscope</strong> (95€) : écran 4.3\", câble 10m, IP68.", options: [
+    { intention: "endoscope", motsCles: ["endoscope","inspect","moteur","tuyau"], reponseKey: "chat_endo_reply", reponse: "🔍 L'<strong>Endoscope</strong> (95€).", options: [
       { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-endoscope"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
       { labelKey: "chat_btn_buy", label: "Acheter", action: function(){ payer(pay["endoscope"]); } }
     ] },
-    { intention: "beaute", motsCles: ["ongle","ongles","beaute","beauté","vernis","manucure","nail"], reponseKey: "chat_beauty_reply", reponse: "💅 La section <strong>Ongles & Beauté</strong> propose prestations en présentiel à Guignen.", options: [
+    { intention: "beaute", motsCles: ["ongle","ongles","beaute","beauté","vernis","manucure","nail"], reponseKey: "chat_beauty_reply", reponse: "💅 La section <strong>Ongles & Beauté</strong>.", options: [
       { labelKey: "chat_btn_see_section", label: "Voir la section", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } }
     ] },
     { intention: "prix", motsCles: ["prix","tarif","combien","cout"], reponseKey: "chat_price_reply", reponse: "💰 Drone: 89€ • Projecteur: 35€ • Pack Hiver: 99,99€ • Endoscope: 95€" },
@@ -1755,7 +1768,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <script>
-/* Dictionnaire de traductions (défini sur window pour usage global) */
+/* Dictionnaire de traductions */
 window.TRANSLATIONS = {
   en: {
     "nav_home":"🏠 Home","nav_about":"📜 About","nav_shop":"🛒 Shop","nav_vinted":"👕 Vinted","nav_beauty":"💅 Nails & Beauty","nav_cyber":"🛡️ Cybersecurity","nav_harassment":"🛡️ Harassment","nav_contact":"✉️ Contact","nav_faq":"❓ FAQ","nav_cgv":"📄 Terms","nav_legal":"⚖️ Legal",
@@ -1911,12 +1924,12 @@ window.TRANSLATIONS = {
     "chat_prompt":"Задайте мне вопрос или выберите тему ниже:",
     "chat_unknown":"Я не уверен, что понимаю 🤔 Вот что я умею:",
     "chat_menu_title":"Вот все разделы сайта:",
-    "chat_contact_reply":"📞 Мы доступны с 9:00 до 20:00 по телефону <strong>07.80.20.47.49</strong>. Вы также можете написать нам на <strong>lanceglorieuse@gmail.com</strong>.",
+    "chat_contact_reply":"📞 Мы доступны с 9:00 до 20:00 по телефону <strong>07.80.20.47.49</strong>.",
     "chat_delivery_reply":"🚚 Доставка <strong>быстрая и безопасная</strong>.",
-    "chat_drone_reply":"🎥 <strong>Дрон KY108</strong> (89 €) оснащён двойной HD-камерой и 90-кратным зумом.",
-    "chat_proj_reply":"💡 <strong>Солнечный LED-прожектор</strong> (35 €) работает на солнечной энергии.",
-    "chat_endo_reply":"🔍 <strong>Эндоскоп</strong> (95 €): экран 4.3\", кабель 10 м, IP68.",
-    "chat_beauty_reply":"💅 Раздел <strong>Ногти и Красота</strong> предлагает услуги очно в Гиньене.",
+    "chat_drone_reply":"🎥 <strong>Дрон KY108</strong> (89 €).",
+    "chat_proj_reply":"💡 <strong>Солнечный LED-прожектор</strong> (35 €).",
+    "chat_endo_reply":"🔍 <strong>Эндоскоп</strong> (95 €).",
+    "chat_beauty_reply":"💅 Раздел <strong>Ногти и Красота</strong>.",
     "chat_price_reply":"💰 Дрон: 89 € • Прожектор: 35 € • Зимний набор: 99,99 € • Эндоскоп: 95 €",
     "chat_thanks_reply":"Пожалуйста! 🙏",
     "chat_btn_home":"🏠 Главная","chat_btn_shop":"🛒 Магазин","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Ногти и Красота","chat_btn_about":"📜 О нас","chat_btn_contact":"✉️ Контакты","chat_btn_faq":"❓ ЧЗВ","chat_btn_cyber":"🛡️ Кибербезопасность","chat_btn_harass":"🛡️ Буллинг",
@@ -1984,12 +1997,12 @@ window.TRANSLATIONS = {
     "chat_prompt":"Задайте мені питання або виберіть тему нижче:",
     "chat_unknown":"Я не впевнений, що розумію 🤔 Ось що я вмію:",
     "chat_menu_title":"Ось усі розділи сайту:",
-    "chat_contact_reply":"📞 Ми доступні з 9:00 до 20:00 за телефоном <strong>07.80.20.47.49</strong>. Ви також можете написати нам на <strong>lanceglorieuse@gmail.com</strong>.",
+    "chat_contact_reply":"📞 Ми доступні з 9:00 до 20:00 за телефоном <strong>07.80.20.47.49</strong>.",
     "chat_delivery_reply":"🚚 Доставка <strong>швидка та безпечна</strong>.",
-    "chat_drone_reply":"🎥 <strong>Дрон KY108</strong> (89 €) оснащений подвійною HD-камерою та 90-кратним зумом.",
-    "chat_proj_reply":"💡 <strong>Сонячний LED-прожектор</strong> (35 €) працює на сонячній енергії.",
-    "chat_endo_reply":"🔍 <strong>Ендоскоп</strong> (95 €): екран 4.3\", кабель 10 м, IP68.",
-    "chat_beauty_reply":"💅 Розділ <strong>Нігті та Краса</strong> пропонує послуги очно в Гіньєні.",
+    "chat_drone_reply":"🎥 <strong>Дрон KY108</strong> (89 €).",
+    "chat_proj_reply":"💡 <strong>Сонячний LED-прожектор</strong> (35 €).",
+    "chat_endo_reply":"🔍 <strong>Ендоскоп</strong> (95 €).",
+    "chat_beauty_reply":"💅 Розділ <strong>Нігті та Краса</strong>.",
     "chat_price_reply":"💰 Дрон: 89 € • Прожектор: 35 € • Зимовий набір: 99,99 € • Ендоскоп: 95 €",
     "chat_thanks_reply":"Будь ласка! 🙏",
     "chat_btn_home":"🏠 Головна","chat_btn_shop":"🛒 Магазин","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Нігті та Краса","chat_btn_about":"📜 Про нас","chat_btn_contact":"✉️ Контакти","chat_btn_faq":"❓ ЧЗП","chat_btn_cyber":"🛡️ Кібербезпека","chat_btn_harass":"🛡️ Булінг",
@@ -2061,7 +2074,11 @@ window.TRANSLATIONS = {
   window.reapplyLanguage = function(){ applyAll(); };
   window.applyLanguage = function(lang){
     if (lang !== "fr" && !window.TRANSLATIONS[lang]) lang = "fr";
-    CURRENT_LANG = lang; document.documentElement.lang = lang; applyAll();
+    CURRENT_LANG = lang; document.documentElement.lang = lang;
+    if (typeof window.retranslateChat === "function") {
+      window.retranslateChat();
+    }
+    applyAll();
     var sel = document.getElementById("langSelect"); if (sel) sel.value = lang;
     try { localStorage.setItem("guillet_lang", lang); } catch(e){}
   };
