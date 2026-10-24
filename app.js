@@ -67,12 +67,14 @@
     window.ouvrirPrevention = function(){
         document.getElementById("prevention-page").classList.add("open");
         document.body.style.overflow = "hidden";
+        document.body.classList.add("modal-open");
         actualiserBoutonHaut();
         if (typeof window.reapplyLanguage === "function") setTimeout(window.reapplyLanguage, 120);
     };
     window.fermerPrevention = function(){
         document.getElementById("prevention-page").classList.remove("open");
         document.body.style.overflow = "";
+        document.body.classList.remove("modal-open");
         actualiserBoutonHaut();
     };
     window.retourEnHaut = function(){
@@ -364,7 +366,7 @@
 
     // --- 10. INITIALISATION AU CHARGEMENT ---
     document.addEventListener("DOMContentLoaded", function(){
-        // Attacher les événements de navigation (car on a enlevé les onclick)
+        // Attacher les événements de navigation
         var btnBrand = document.getElementById('btn-brand'); if(btnBrand) btnBrand.addEventListener('click', function(){ navigateTo('accueil'); });
         
         var navAccueil = document.getElementById('nav-accueil'); if(navAccueil) navAccueil.addEventListener('click', function(e){ e.preventDefault(); navigateTo('accueil'); });
