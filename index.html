@@ -7,33 +7,25 @@
 <meta name="description" content="GUILLET IV — Boutique, prévention cybersécurité, prévention harcèlement et conseils produits.">
 <meta name="theme-color" content="#050505">
 
-<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="GUILLET IV — L'Ordre de l'Indépendance">
 <meta property="og:description" content="Boutique, cybersécurité, prévention harcèlement et conseils produits.">
 <meta property="og:image" content="/background.jpg">
 <meta property="og:locale" content="fr_FR">
 
-<!-- Favicon SVG inline -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23e10600' stroke='%23ffd700' stroke-width='4'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='serif' font-weight='bold' font-size='28' fill='%23ffd700'%3EIV%3C/text%3E%3C/svg%3E">
 
-<!-- Polices -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="image" href="background.jpg" fetchpriority="high">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- LeCart (panier + checkout) -->
 <link rel="stylesheet" href="https://unpkg.com/lecart/dist/lecart.css">
 <script src="https://unpkg.com/lecart/dist/lecart.min.js" defer></script>
 
-<!-- Vercel Insights -->
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
 <script defer src="/_vercel/insights/script.js"></script>
 
-<!-- ============================================================
-     STYLES — Variables LeCart
-     ============================================================ -->
 <style>
 :root {
   --lecart-primary-color: #ffd700;
@@ -57,9 +49,6 @@
 }
 </style>
 
-<!-- ============================================================
-     STYLES — Thème principal
-     ============================================================ -->
 <style>
 /* ---------- Variables ---------- */
 :root{
@@ -78,7 +67,6 @@ body.light-mode{
   --border-color:rgba(0,0,0,0.1);
 }
 
-/* ---------- Reset / base ---------- */
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 [id]{scroll-margin-top:90px}
@@ -108,17 +96,14 @@ p,li,h1,h2,h3,h4{overflow-wrap:anywhere}
 ::-webkit-scrollbar-thumb{background:var(--gold);border-radius:4px}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
-/* ---------- Animations ---------- */
 @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 @keyframes shimmer{0%{background-position:-200% 50%}100%{background-position:200% 50%}}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 @keyframes marquee{0%{transform:translate(0,0)}100%{transform:translate(-100%,0)}}
 
-/* ---------- Pages ---------- */
 .page-section{display:none;animation:fadeIn 0.3s ease}
 .page-section.active{display:block}
 
-/* ---------- Navbar ---------- */
 .navbar{
   position:sticky;top:0;z-index:200;
   display:flex;flex-direction:column;align-items:stretch;
@@ -177,7 +162,6 @@ body.light-mode .navbar{background:rgba(255,255,255,.95)}
 }
 .navbar-links a:hover,.navbar-links a.active-link{color:var(--gold);background:rgba(255,215,0,0.1)}
 
-/* ---------- Marquee ---------- */
 .marquee-bar{
   background:linear-gradient(90deg,#1a0000 0%,#000 25%,#0a0a0a 50%,#000 75%,#1a0000 100%);
   border-top:2px solid var(--gold);border-bottom:2px solid var(--gold);
@@ -193,7 +177,6 @@ body.light-mode .navbar{background:rgba(255,255,255,.95)}
 .marquee-content span{margin:0 2rem;display:inline-block;vertical-align:middle}
 .marquee-content .marquee-icon{color:var(--red);font-size:1.2rem}
 
-/* ---------- Audio ---------- */
 .audio-player{
   width:calc(100% - 2rem);max-width:600px;margin:2rem auto;padding:1.5rem;
   background:linear-gradient(135deg,var(--card-bg),var(--card-bg-2));
@@ -213,7 +196,6 @@ body.light-mode .navbar{background:rgba(255,255,255,.95)}
 #musicSelect::-webkit-scrollbar-thumb{background:var(--gold);border-radius:4px;border:2px solid #000}
 #player{width:100%;border-radius:var(--radius-sm);outline:none;display:block}
 
-/* ---------- Hero / Doctrine ---------- */
 .hero{text-align:center;padding:2.5rem 1rem 1.5rem;max-width:1000px;margin:0 auto}
 .hero-slider{width:100%;max-width:800px;margin:0 auto 2rem;border:2px solid var(--gold);border-radius:var(--radius-lg);overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.5)}
 .hero-slide{width:100%;display:none;cursor:zoom-in;max-height:350px;object-fit:cover}
@@ -236,11 +218,9 @@ body.light-mode .doctrine{background:linear-gradient(135deg,#fff,#fff3f3)}
 .pillar h3{font-family:var(--font-display);color:var(--gold);font-size:1.1rem;margin:0 0 .5rem}
 .pillar p{font-size:.9rem;margin:0;line-height:1.6;opacity:0.85}
 
-/* ---------- Titres section ---------- */
 .section-title{text-align:center;font-family:var(--font-display);font-size:2rem;color:var(--gold);margin:3rem 0 1rem}
 .intro{text-align:center;max-width:80%;margin:0 auto 2.5rem;font-size:1rem;font-style:italic;opacity:.8}
 
-/* ---------- Produits ---------- */
 .products-grid{display:flex;flex-direction:column;gap:2rem;max-width:1000px;margin:0 auto 3rem;padding:0 1rem}
 .product-card{
   display:flex;flex-direction:column;gap:1.5rem;
@@ -275,7 +255,6 @@ body.light-mode .off{color:#007700}
 }
 .payment-btn:hover{background:transparent;color:var(--gold)}
 
-/* ---------- Beauté ---------- */
 .beauty-hero{text-align:center;padding:2rem 1rem;background:linear-gradient(135deg,rgba(255,182,193,0.1),rgba(0,0,0,0.8) 60%);border-radius:var(--radius-lg);margin:2rem auto;max-width:900px;border:1px solid var(--border-color)}
 .beauty-hero h1{font-family:var(--font-display);font-size:2rem;color:var(--gold);margin:0 0 .5rem}
 .beauty-hero .beauty-sub{font-family:var(--font-display);font-size:.9rem;color:var(--pink);letter-spacing:.1em;text-transform:uppercase;font-weight:700}
@@ -284,7 +263,6 @@ body.light-mode .off{color:#007700}
 .beauty-client-img{width:100%;aspect-ratio:1/1;object-fit:cover;border:1px solid var(--border-color);border-radius:var(--radius-md);cursor:zoom-in;background:#000;transition:border-color .2s}
 .beauty-client-img:hover{border-color:var(--gold)}
 
-/* ---------- À propos ---------- */
 .about-section{width:calc(100% - 2rem);max-width:900px;margin:0 auto 3rem;padding:2.5rem 1.5rem;background:linear-gradient(135deg,rgba(225,6,0,0.15),rgba(0,0,0,0.95) 60%);border:1px solid var(--border-color);border-radius:var(--radius-lg);text-align:center}
 .about-section h2{font-family:var(--font-display);font-size:1.5rem;color:var(--gold);margin:0 0 .5rem}
 .about-section .about-sub{font-family:var(--font-display);font-size:.8rem;color:#ff9a9a;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin-bottom:1.5rem;display:block}
@@ -297,18 +275,15 @@ body.light-mode .off{color:#007700}
 .btn-about-primary{background:var(--gold);color:#000;border-color:var(--gold)}
 .btn-about-secondary{background:transparent;color:var(--gold);border-color:var(--gold)}
 
-/* ---------- Vinted ---------- */
 .vinted-card{background:rgba(0,0,0,0.6);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:2rem 1rem;max-width:900px;margin:0 auto;text-align:center}
 .vinted-rating{display:inline-flex;align-items:center;gap:.5rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;padding:.6rem 1.2rem;border-radius:40px;font-weight:700;font-size:.9rem;margin-bottom:1.5rem}
 .vinted-rating span{color:var(--red);font-size:1rem}
 .vinted-btn{display:block;width:100%;background:linear-gradient(135deg,var(--gold),var(--red));color:#000;font-family:var(--font-display);font-weight:700;font-size:1rem;padding:1rem;border-radius:var(--radius-md);text-decoration:none;border:1px solid #fff;text-transform:uppercase;text-align:center}
 
-/* ---------- Info blocks ---------- */
 .info{width:calc(100% - 2rem);max-width:900px;margin:0 auto 1.5rem;padding:1.5rem;background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);font-size:.95rem}
 .info h2{text-align:center;font-family:var(--font-display);font-size:1.3rem;color:var(--gold);margin:0 0 1.2rem}
 .info p{margin:.4rem 0;line-height:1.6;text-align:center}
 
-/* ---------- Pages génériques ---------- */
 .page-container{width:calc(100% - 2rem);max-width:1000px;margin:2.5rem auto;padding:2.5rem 1.5rem;background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg)}
 .page-container h1{font-family:var(--font-display);font-size:1.8rem;color:var(--gold);text-align:center;margin-bottom:2rem}
 .page-container h2{font-family:var(--font-display);font-size:1.2rem;color:var(--gold);margin-top:2rem;margin-bottom:1rem;border-bottom:1px solid var(--border-color);padding-bottom:.5rem}
@@ -318,24 +293,20 @@ body.light-mode .off{color:#007700}
 .return-btn{display:block;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;font-family:var(--font-display);font-weight:700;font-size:1rem;padding:1rem 2rem;border-radius:var(--radius-md);text-decoration:none;border:1px solid var(--gold);margin:2rem auto;text-align:center;max-width:300px;transition:all 0.2s}
 .return-btn:hover{background:transparent;color:var(--gold)}
 
-/* ---------- FAQ ---------- */
 .faq-item{margin-bottom:1.2rem;background:rgba(255,255,255,0.02);border-left:3px solid var(--gold);padding:1.2rem;border-radius:0 var(--radius-sm) var(--radius-sm) 0}
 .faq-item h3{font-family:var(--font-display);color:var(--gold);margin-top:0;margin-bottom:.5rem;font-size:1rem}
 .faq-item p{margin:0;line-height:1.6;font-size:.9rem;opacity:0.9}
 
-/* ---------- Contact ---------- */
 .contact-form{display:flex;flex-direction:column;gap:1rem;max-width:600px;margin:0 auto}
 .contact-form input,.contact-form textarea{width:100%;padding:1rem;background:#000;border:1px solid var(--border-color);border-radius:var(--radius-md);color:#fff;font-size:16px;transition:border-color 0.2s}
 .contact-form input:focus,.contact-form textarea:focus{border-color:var(--gold);outline:none}
 body.light-mode .contact-form input,body.light-mode .contact-form textarea{background:#fff;color:#000}
 .contact-form button{background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;font-family:var(--font-display);font-weight:700;padding:1rem;border-radius:var(--radius-md);border:1px solid var(--gold);font-size:1rem}
 
-/* ---------- Zoom ---------- */
 #zoomModal{display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.96);backdrop-filter:blur(8px);justify-content:center;align-items:center;padding:1rem}
 #zoomModal img{max-width:100%;max-height:85vh;object-fit:contain;border:2px solid var(--gold);border-radius:var(--radius-md)}
 .zoom-close{position:absolute;top:1rem;right:1rem;width:44px;height:44px;border:1px solid #fff;border-radius:50%;background:rgba(0,0,0,0.8);color:#fff;font-size:1.5rem;display:flex;align-items:center;justify-content:center;cursor:pointer}
 
-/* ---------- Prévention harcèlement ---------- */
 .prevention-page{display:none;position:fixed;inset:0;z-index:5000;background:#0a0a0a;overflow-y:auto;overscroll-behavior:contain}
 .prevention-page.open{display:block;animation:fadeIn .3s ease}
 .prevention-header{position:sticky;top:0;z-index:10;background:linear-gradient(135deg,#000 0%,#1a0000 50%,#000 100%);border-bottom:2px solid var(--gold);padding:1rem;display:flex;justify-content:space-between;align-items:center;gap:.6rem}
@@ -374,7 +345,6 @@ body.light-mode .contact-form input,body.light-mode .contact-form textarea{backg
 .prevention-btn-danger{background:linear-gradient(135deg,var(--red),#a80000);color:#fff;border:1px solid var(--red)}
 .prevention-footer-note{text-align:center;color:#999;font-size:.8rem;margin-top:2rem;font-style:italic}
 
-/* ---------- Cybersécurité ---------- */
 .page-header-cyber{text-align:center;padding:1rem 0 2rem}
 .page-header-cyber h1{font-family:var(--font-display);font-size:1.8rem;color:var(--gold);margin:0 0 1rem}
 .page-header-cyber h2{font-family:var(--font-display);font-size:1.2rem;color:var(--gold);margin:0 0 1rem}
@@ -389,7 +359,6 @@ body.light-mode .contact-form input,body.light-mode .contact-form textarea{backg
 .cyber-section p{font-size:.9rem;margin:0 0 1rem;line-height:1.6}
 .signature{text-align:right;font-family:var(--font-display);font-weight:700;color:var(--gold);margin-top:2rem;font-size:1rem;line-height:1.5}
 
-/* ---------- Footer ---------- */
 footer{background:linear-gradient(180deg,#000,var(--card-bg));padding:3rem 1rem 7rem;text-align:center;color:#fff;margin-top:4rem;border-top:2px solid var(--gold)}
 .footer-container{max-width:1000px;margin:0 auto}
 .footer-links{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:1rem 2rem;margin-bottom:2rem}
@@ -401,7 +370,6 @@ footer a:hover{color:#fff;background:rgba(255,215,0,0.1);border-radius:var(--rad
 .footer-tiktok:hover{transform:scale(1.05)}
 .footer-copyright{font-size:.8rem;opacity:.6;margin-top:2rem}
 
-/* ---------- Boutons flottants ---------- */
 #top{position:fixed;right:1rem;bottom:12rem;width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-dark));border:2px solid #fff;display:none;justify-content:center;align-items:center;z-index:9998;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.4)}
 #top svg{width:24px;height:24px}
 
@@ -428,13 +396,11 @@ body.light-mode .music-widget select{background:#fff}
 #chat-input{flex:1;background:#111;color:var(--text);border:1px solid var(--border-color);border-radius:20px;padding:.5rem 1rem;font-size:16px}
 #chat-send{width:40px;height:40px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:1px solid #fff;border-radius:50%;font-size:1rem;display:flex;align-items:center;justify-content:center;cursor:pointer}
 
-/* ---------- Panier flottant ---------- */
 #panierFlottant{position:fixed;top:14px;right:14px;z-index:9999;display:flex;align-items:center;justify-content:center;gap:.55rem;padding:.85rem 1.4rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:2px solid #fff;border-radius:40px;box-shadow:0 6px 22px rgba(255,215,0,0.5);font-family:var(--font-display);font-weight:700;font-size:.95rem;cursor:pointer;transition:transform .2s,box-shadow .2s}
 #panierFlottant:hover{transform:scale(1.05);box-shadow:0 8px 28px rgba(255,215,0,0.7)}
 #panierFlottant img{height:22px;width:auto;display:block}
 #panierCount{display:none;background:#e10600;color:#fff;font-family:var(--font-ui);font-size:.7rem;font-weight:700;min-width:20px;height:20px;line-height:20px;border-radius:10px;padding:0 5px;text-align:center}
 
-/* ---------- Maintenance ---------- */
 #maintenance-page{display:none;min-height:100vh;align-items:center;justify-content:center;text-align:center;padding:2rem 1rem;background:radial-gradient(ellipse at center,rgba(225,6,0,0.1),#050505 70%)}
 #maintenance-page .maintenance-emblem{width:80px;height:80px;margin:0 auto 2rem;border-radius:50%;background:radial-gradient(circle at 30% 30%,#ff2a2a,#e10600 40%,#000 90%);border:3px solid #ffd700;display:flex;align-items:center;justify-content:center;font-size:1.8rem;font-weight:bold;color:#ffd700;font-family:'Cinzel',serif;box-shadow:0 0 30px rgba(225,6,0,0.6)}
 #maintenance-page h1{font-family:'Cinzel',serif;font-size:clamp(2rem, 5vw, 3.5rem);color:#ffd700;margin:0 0 1rem;letter-spacing:.05em}
@@ -446,7 +412,6 @@ body.light-mode .music-widget select{background:#fff}
 #maintenance-page .maintenance-btn-outline{display:block;padding:1rem 2rem;background:transparent;color:#ffd700;font-family:'Cinzel',serif;font-weight:700;border-radius:16px;text-decoration:none;border:1px solid #ffd700;text-align:center}
 #maintenance-page .maintenance-copyright{margin-top:3rem;font-size:.85rem;color:#555;font-family:'Inter',sans-serif}
 
-/* ---------- Responsive ---------- */
 @media(min-width:600px){
   .navbar{padding:.8rem 1rem}
   .navbar-top{flex-wrap:nowrap}
@@ -493,9 +458,6 @@ body.light-mode .music-widget select{background:#fff}
 </head>
 <body>
 
-<!-- ============================================================
-     PAGE MAINTENANCE
-     ============================================================ -->
 <div id="maintenance-page" aria-hidden="true">
   <div>
     <div class="maintenance-emblem">IV</div>
@@ -515,17 +477,11 @@ body.light-mode .music-widget select{background:#fff}
   <div style="background:#e10600;color:#fff;padding:1rem;text-align:center;font-family:sans-serif;font-weight:600;font-size:.95rem;">⚠️ JavaScript est désactivé. Activez JavaScript pour une expérience complète.</div>
 </noscript>
 
-<!-- ============================================================
-     MODALE ZOOM
-     ============================================================ -->
 <div id="zoomModal" role="dialog" aria-modal="true" aria-label="Agrandissement du produit" onclick="fermerZoom()">
   <button type="button" class="zoom-close" onclick="event.stopPropagation();fermerZoom()" aria-label="Fermer l'image">×</button>
   <img id="zoomImg" alt="Zoom produit" onclick="event.stopPropagation()">
 </div>
 
-<!-- ============================================================
-     MODALE PRÉVENTION HARCÈLEMENT
-     ============================================================ -->
 <div id="prevention-page" class="prevention-page" role="dialog" aria-modal="true" aria-label="Prévention Harcèlement">
   <div class="prevention-header">
     <h1 data-i18n="prevention_harassment">🛡️ Prévention Harcèlement</h1>
@@ -615,9 +571,6 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
-<!-- ============================================================
-     NAVBAR
-     ============================================================ -->
 <nav class="navbar" aria-label="Navigation principale">
   <div class="navbar-top">
     <div class="brand" onclick="navigateTo('accueil')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')navigateTo('accueil')">
@@ -663,9 +616,6 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </nav>
 
-<!-- ============================================================
-     MARQUEE
-     ============================================================ -->
 <div class="marquee-bar">
   <div class="marquee-content">
     <span data-i18n="marquee_welcome">✨ Bienvenue chez GUILLET IV — L'Ordre de l'Indépendance ✨</span>
@@ -685,9 +635,6 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
-<!-- ============================================================
-     AUDIO
-     ============================================================ -->
 <div class="audio-player">
   <h2 data-i18n="site_music">🎵 Musique du site</h2>
   <select id="musicSelect" onchange="changerMusique(this.value)" aria-label="Choisir une musique" data-i18n-aria="choose_music">
@@ -731,9 +678,6 @@ body.light-mode .music-widget select{background:#fff}
 
 <main>
 
-<!-- ============================================================
-     PAGE ACCUEIL
-     ============================================================ -->
 <div id="page-accueil" class="page-section active">
 
   <section class="hero" id="accueil">
@@ -762,7 +706,6 @@ body.light-mode .music-widget select{background:#fff}
 
   <div class="products-grid" id="productsGrid">
 
-    <!-- DRONE -->
     <div class="product-card" id="produit-drone" data-name="Drone Ky108" data-price="89" tabindex="-1">
       <div class="product-images">
         <img src="photo1.png" class="product-image" alt="Drone KY108 — vue principale" loading="lazy" decoding="async" onclick="ouvrirZoom(this.src,event)">
@@ -809,7 +752,6 @@ body.light-mode .music-widget select{background:#fff}
       </div>
     </div>
 
-    <!-- PROJECTEUR -->
     <div class="product-card" id="produit-projecteur" data-name="Projecteur LED rotatif solaire" data-price="35" tabindex="-1">
       <div class="product-images">
         <img src="produit.png" class="product-image" alt="Projecteur LED solaire rotatif" loading="lazy" decoding="async" onclick="ouvrirZoom(this.src,event)">
@@ -842,7 +784,6 @@ body.light-mode .music-widget select{background:#fff}
       </div>
     </div>
 
-    <!-- PACK HIVER -->
     <div class="product-card" id="produit-pack-hiver" data-name="Winter Survival Pack – Édition Premium" data-price="99.99" tabindex="-1">
       <div class="product-images">
         <img src="Winter-Survival.png" class="product-image" alt="Winter Survival Pack Édition Premium" loading="lazy" decoding="async" onclick="ouvrirZoom(this.src,event)">
@@ -889,7 +830,6 @@ body.light-mode .music-widget select{background:#fff}
       </div>
     </div>
 
-    <!-- ENDOSCOPE -->
     <div class="product-card" id="produit-endoscope" data-name="Endoscope caméra d'inspection avec écran" data-price="95" tabindex="-1">
       <div class="product-images">
         <img src="photo-endoscope.png" class="product-image" alt="Endoscope caméra d'inspection avec écran" loading="lazy" decoding="async" onclick="ouvrirZoom(this.src,event)">
@@ -945,9 +885,6 @@ body.light-mode .music-widget select{background:#fff}
   </section>
 </div>
 
-<!-- ============================================================
-     PAGE À PROPOS
-     ============================================================ -->
 <div id="page-apropos" class="page-section">
   <div class="page-container" style="max-width:var(--container-max);">
     <section class="hero" id="apropos" style="padding-top:0;">
@@ -990,9 +927,6 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
-<!-- ============================================================
-     PAGE VINTED
-     ============================================================ -->
 <div id="page-vinted" class="page-section">
   <div class="page-container" style="text-align:center;">
     <h1 data-i18n="my_vinted">🛒 Mon Vinted</h1>
@@ -1008,9 +942,6 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
-<!-- ============================================================
-     PAGE ONGLES & BEAUTÉ
-     ============================================================ -->
 <div id="page-ongles-beaute" class="page-section">
   <section class="beauty-hero" id="ongles-beaute">
     <h1 data-i18n="beauty_title">💅 Ongles & Beauté — SHAYNAILS</h1>
@@ -1074,9 +1005,6 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
-<!-- ============================================================
-     PAGE CYBERSÉCURITÉ
-     ============================================================ -->
 <div id="page-prevention-cyber" class="page-section">
   <div class="page-container">
     <header class="page-header-cyber">
@@ -1152,9 +1080,6 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
-<!-- ============================================================
-     PAGE MENTIONS LÉGALES
-     ============================================================ -->
 <div id="page-mentions" class="page-section">
   <div class="page-container">
     <h1 data-i18n="legal_notice">Mentions légales</h1>
@@ -1218,9 +1143,6 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
-<!-- ============================================================
-     PAGE CGV
-     ============================================================ -->
 <div id="page-cgv" class="page-section">
   <div class="page-container">
     <h1 data-i18n="terms_sale">Conditions Générales de Vente</h1>
@@ -1246,9 +1168,6 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
-<!-- ============================================================
-     PAGE FAQ
-     ============================================================ -->
 <div id="page-faq" class="page-section">
   <div class="page-container">
     <h1 data-i18n="faq_title">❓ Foire Aux Questions</h1>
@@ -1267,9 +1186,6 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
-<!-- ============================================================
-     PAGE CONTACT
-     ============================================================ -->
 <div id="page-contact" class="page-section">
   <div class="page-container">
     <h1 data-i18n="contact_title">✉️ Contactez-nous</h1>
@@ -1295,9 +1211,6 @@ body.light-mode .music-widget select{background:#fff}
 
 </main>
 
-<!-- ============================================================
-     FOOTER
-     ============================================================ -->
 <footer>
   <div class="footer-container">
     <nav class="footer-links" aria-label="Navigation de pied de page">
@@ -1324,9 +1237,6 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </footer>
 
-<!-- ============================================================
-     BOUTONS FLOTTANTS
-     ============================================================ -->
 <button type="button" id="top" onclick="retourEnHaut()" aria-label="Retour en haut" data-i18n-aria="back_top">
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="12" cy="5" r="1.8" fill="#000"/><line x1="12" y1="7" x2="12" y2="14" stroke="#000" stroke-width="1.8" stroke-linecap="round"/><line x1="12" y1="9" x2="7" y2="6" stroke="#000" stroke-width="1.8" stroke-linecap="round"/><line x1="12" y1="9" x2="17" y2="6" stroke="#000" stroke-width="1.8" stroke-linecap="round"/><line x1="12" y1="14" x2="8" y2="20" stroke="#000" stroke-width="1.8" stroke-linecap="round"/><line x1="12" y1="14" x2="16" y2="20" stroke="#000" stroke-width="1.8" stroke-linecap="round"/></svg>
 </button>
@@ -1356,9 +1266,6 @@ body.light-mode .music-widget select{background:#fff}
   <span id="panierCount" aria-live="polite">0</span>
 </button>
 
-<!-- ============================================================
-     SCRIPT — Initialisation LeCart (endpoint cloud corrigé)
-     ============================================================ -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   if (typeof LeCart === 'undefined' || typeof LeCart.init !== 'function') {
@@ -1382,9 +1289,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<!-- ============================================================
-     SCRIPT — Compteur panier
-     ============================================================ -->
 <script>
 (function(){
   "use strict";
@@ -1405,9 +1309,6 @@ document.addEventListener('DOMContentLoaded', function() {
 })();
 </script>
 
-<!-- ============================================================
-     SCRIPT — Maintenance
-     ============================================================ -->
 <script>
 (function(){
   "use strict";
@@ -1449,9 +1350,6 @@ document.addEventListener('DOMContentLoaded', function() {
 })();
 </script>
 
-<!-- ============================================================
-     SCRIPT PRINCIPAL — Navigation, musique, recherche, chatbot
-     ============================================================ -->
 <script>
 (function(){
   "use strict";
@@ -1676,16 +1574,20 @@ document.addEventListener('DOMContentLoaded', function() {
     var lang = document.getElementById("langSelect").value;
     var m = match(t);
     if (m) {
-      var txt = (dict && dict[m.reponse]) ? dict[m.reponse] : m.reponse;
-      var opts = m.options ? m.options.map(function(o){ return { label: (dict && dict[o.label]) ? dict[o.label] : o.label, action: o.action }; }) : null;
+      var txtKey = m.reponseKey;
+      var txt = (dict && dict[txtKey]) ? dict[txtKey] : m.reponse;
+      var opts = m.options ? m.options.map(function(o){
+        var lblKey = o.labelKey;
+        return { label: (dict && dict[lblKey]) ? dict[lblKey] : o.label, action: o.action };
+      }) : null;
       reply(txt, opts);
     } else {
-      var defaultMsg = lang === 'fr' ? "Je ne suis pas sûr de bien comprendre 🤔 Voici ce que je sais faire :" : (lang === 'en' ? "I'm not sure I understand 🤔 Here is what I can do:" : (lang === 'ru' ? "Я не уверен, что понимаю 🤔 Вот что я умею:" : "Я не впевнений, що розумію 🤔 Ось що я вмію:"));
+      var defaultMsg = (dict && dict["chat_unknown"]) ? dict["chat_unknown"] : "Je ne suis pas sûr de bien comprendre 🤔 Voici ce que je sais faire :";
       reply(defaultMsg, [
-        { label: dict ? dict["📋 Voir toutes les pages"] : "📋 Voir toutes les pages", action: function(){ envoyerMessageChat("menu"); } },
-        { label: dict ? dict["💶 Voir les prix"] : "💶 Voir les prix", action: function(){ envoyerMessageChat("prix"); } },
-        { label: dict ? dict["📞 Vous contacter"] : "📞 Vous contacter", action: function(){ envoyerMessageChat("contact"); } },
-        { label: dict ? dict["🚚 Livraison"] : "🚚 Livraison", action: function(){ envoyerMessageChat("livraison"); } }
+        { label: (dict && dict["chat_btn_all_pages"]) ? dict["chat_btn_all_pages"] : "📋 Voir toutes les pages", action: function(){ envoyerMessageChat("menu"); } },
+        { label: (dict && dict["chat_btn_prices"]) ? dict["chat_btn_prices"] : "💶 Voir les prix", action: function(){ envoyerMessageChat("prix"); } },
+        { label: (dict && dict["chat_btn_contact_me"]) ? dict["chat_btn_contact_me"] : "📞 Vous contacter", action: function(){ envoyerMessageChat("contact"); } },
+        { label: (dict && dict["chat_btn_delivery"]) ? dict["chat_btn_delivery"] : "🚚 Livraison", action: function(){ envoyerMessageChat("livraison"); } }
       ]);
     }
   };
@@ -1728,13 +1630,14 @@ document.addEventListener('DOMContentLoaded', function() {
   function initChat(){
     var lang = document.getElementById("langSelect").value;
     var dict = window.__getDict ? window.__getDict() : null;
-    var hello = lang === 'fr' ? "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> ! Je suis votre assistant virtuel." : (lang === 'en' ? "👋 Hello and welcome to <strong>GUILLET IV</strong>! I am your virtual assistant." : (lang === 'ru' ? "👋 Здравствуйте и добро пожаловать в <strong>GUILLET IV</strong>! Я ваш виртуальный помощник." : "👋 Вітаю та ласкаво просимо до <strong>GUILLET IV</strong>! Я ваш віртуальний помічник."));
+    var hello = (dict && dict["chat_hello"]) ? dict["chat_hello"] : "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> ! Je suis votre assistant virtuel.";
     setTimeout(function(){ addMsg(hello); }, 200);
     setTimeout(function(){
-      reply(lang === 'fr' ? "Posez-moi une question ou choisissez un sujet ci-dessous :" : (lang === 'en' ? "Ask me a question or choose a topic below:" : (lang === 'ru' ? "Задайте мне вопрос или выберите тему ниже:" : "Задайте мені питання або виберіть тему нижче:")), [
-        { label: dict ? dict["📋 Menu des pages"] : "📋 Menu des pages", action: function(){ envoyerMessageChat("menu"); } },
-        { label: dict ? dict["💶 Les prix"] : "💶 Les prix", action: function(){ envoyerMessageChat("prix"); } },
-        { label: dict ? dict["🚚 Livraison"] : "🚚 Livraison", action: function(){ envoyerMessageChat("livraison"); } }
+      var prompt = (dict && dict["chat_prompt"]) ? dict["chat_prompt"] : "Posez-moi une question ou choisissez un sujet ci-dessous :";
+      reply(prompt, [
+        { label: (dict && dict["chat_btn_menu"]) ? dict["chat_btn_menu"] : "📋 Menu des pages", action: function(){ envoyerMessageChat("menu"); } },
+        { label: (dict && dict["chat_btn_prices"]) ? dict["chat_btn_prices"] : "💶 Les prix", action: function(){ envoyerMessageChat("prix"); } },
+        { label: (dict && dict["chat_btn_delivery"]) ? dict["chat_btn_delivery"] : "🚚 Livraison", action: function(){ envoyerMessageChat("livraison"); } }
       ]);
     }, 900);
   }
@@ -1744,36 +1647,36 @@ document.addEventListener('DOMContentLoaded', function() {
     endoscope: "aHR0cHM6Ly9idXkuc3RyaXBlLmNvbS83c1llVmZjd3kwMHE2VlRkeU4wWlcwMw=="
   };
   var intents = [
-    { intention: "menu", motsCles: ["menu","sommaire","tout","liste","pages"], reponse: "Voici toutes les sections du site :", options: [
-      { label: "🏠 Accueil", action: function(){ navigateTo("accueil"); toggleChatbot(); } },
-      { label: "🛒 Boutique", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produits"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
-      { label: "👕 Vinted", action: function(){ navigateTo("vinted"); toggleChatbot(); } },
-      { label: "💅 Ongles & Beauté", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } },
-      { label: "📜 À propos", action: function(){ navigateTo("apropos"); toggleChatbot(); } },
-      { label: "✉️ Contact", action: function(){ navigateTo("contact"); toggleChatbot(); } },
-      { label: "❓ FAQ", action: function(){ navigateTo("faq"); toggleChatbot(); } },
-      { label: "🛡️ Cybersécurité", action: function(){ navigateTo("prevention-cyber"); toggleChatbot(); } },
-      { label: "🛡️ Harcèlement", action: function(){ ouvrirPrevention(); toggleChatbot(); } }
+    { intention: "menu", motsCles: ["menu","sommaire","tout","liste","pages"], reponseKey: "chat_menu_title", reponse: "Voici toutes les sections du site :", options: [
+      { labelKey: "chat_btn_home", label: "🏠 Accueil", action: function(){ navigateTo("accueil"); toggleChatbot(); } },
+      { labelKey: "chat_btn_shop", label: "🛒 Boutique", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produits"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
+      { labelKey: "chat_btn_vinted", label: "👕 Vinted", action: function(){ navigateTo("vinted"); toggleChatbot(); } },
+      { labelKey: "chat_btn_beauty", label: "💅 Ongles & Beauté", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } },
+      { labelKey: "chat_btn_about", label: "📜 À propos", action: function(){ navigateTo("apropos"); toggleChatbot(); } },
+      { labelKey: "chat_btn_contact", label: "✉️ Contact", action: function(){ navigateTo("contact"); toggleChatbot(); } },
+      { labelKey: "chat_btn_faq", label: "❓ FAQ", action: function(){ navigateTo("faq"); toggleChatbot(); } },
+      { labelKey: "chat_btn_cyber", label: "🛡️ Cybersécurité", action: function(){ navigateTo("prevention-cyber"); toggleChatbot(); } },
+      { labelKey: "chat_btn_harass", label: "🛡️ Harcèlement", action: function(){ ouvrirPrevention(); toggleChatbot(); } }
     ] },
-    { intention: "contact", motsCles: ["horaire","telephone","mail","contact","appeler","numero","joindre"], reponse: "📞 Nous sommes disponibles de 9h à 20h au <strong>07.80.20.47.49</strong>. Vous pouvez aussi nous écrire à <strong>lanceglorieuse@gmail.com</strong>." },
-    { intention: "livraison", motsCles: ["livraison","envoi","delai","colis","recevoir","expedition"], reponse: "🚚 La livraison est <strong>rapide et sécurisée</strong>." },
-    { intention: "drone", motsCles: ["drone","ky108","camera","filmer","video"], reponse: "🎥 Le <strong>Drone KY108</strong> (89€) est équipé d'une double caméra HD, d'un zoom 90x.", options: [
-      { label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-drone"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
-      { label: "Acheter", action: function(){ payer(pay["drone"]); } }
+    { intention: "contact", motsCles: ["horaire","telephone","mail","contact","appeler","numero","joindre"], reponseKey: "chat_contact_reply", reponse: "📞 Nous sommes disponibles de 9h à 20h au <strong>07.80.20.47.49</strong>. Vous pouvez aussi nous écrire à <strong>lanceglorieuse@gmail.com</strong>." },
+    { intention: "livraison", motsCles: ["livraison","envoi","delai","colis","recevoir","expedition"], reponseKey: "chat_delivery_reply", reponse: "🚚 La livraison est <strong>rapide et sécurisée</strong>." },
+    { intention: "drone", motsCles: ["drone","ky108","camera","filmer","video"], reponseKey: "chat_drone_reply", reponse: "🎥 Le <strong>Drone KY108</strong> (89€) est équipé d'une double caméra HD, d'un zoom 90x.", options: [
+      { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-drone"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
+      { labelKey: "chat_btn_buy", label: "Acheter", action: function(){ payer(pay["drone"]); } }
     ] },
-    { intention: "projecteur", motsCles: ["projecteur","lampe","pir","solaire"], reponse: "💡 Le <strong>Projecteur LED solaire</strong> (35€) fonctionne à l'énergie solaire.", options: [
-      { label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-projecteur"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
-      { label: "Acheter", action: function(){ payer(pay["projecteur"]); } }
+    { intention: "projecteur", motsCles: ["projecteur","lampe","pir","solaire"], reponseKey: "chat_proj_reply", reponse: "💡 Le <strong>Projecteur LED solaire</strong> (35€) fonctionne à l'énergie solaire.", options: [
+      { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-projecteur"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
+      { labelKey: "chat_btn_buy", label: "Acheter", action: function(){ payer(pay["projecteur"]); } }
     ] },
-    { intention: "endoscope", motsCles: ["endoscope","inspect","moteur","tuyau"], reponse: "🔍 L'<strong>Endoscope</strong> (95€) : écran 4.3\", câble 10m, IP68.", options: [
-      { label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-endoscope"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
-      { label: "Acheter", action: function(){ payer(pay["endoscope"]); } }
+    { intention: "endoscope", motsCles: ["endoscope","inspect","moteur","tuyau"], reponseKey: "chat_endo_reply", reponse: "🔍 L'<strong>Endoscope</strong> (95€) : écran 4.3\", câble 10m, IP68.", options: [
+      { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-endoscope"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
+      { labelKey: "chat_btn_buy", label: "Acheter", action: function(){ payer(pay["endoscope"]); } }
     ] },
-    { intention: "beaute", motsCles: ["ongle","ongles","beaute","beauté","vernis","manucure","nail"], reponse: "💅 La section <strong>Ongles & Beauté</strong> propose prestations en présentiel à Guignen.", options: [
-      { label: "Voir la section", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } }
+    { intention: "beaute", motsCles: ["ongle","ongles","beaute","beauté","vernis","manucure","nail"], reponseKey: "chat_beauty_reply", reponse: "💅 La section <strong>Ongles & Beauté</strong> propose prestations en présentiel à Guignen.", options: [
+      { labelKey: "chat_btn_see_section", label: "Voir la section", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } }
     ] },
-    { intention: "prix", motsCles: ["prix","tarif","combien","cout"], reponse: "💰 Drone: 89€ • Projecteur: 35€ • Pack Hiver: 99,99€ • Endoscope: 95€" },
-    { intention: "merci", motsCles: ["merci","super","parfait","top"], reponse: "Avec plaisir ! 🙏" }
+    { intention: "prix", motsCles: ["prix","tarif","combien","cout"], reponseKey: "chat_price_reply", reponse: "💰 Drone: 89€ • Projecteur: 35€ • Pack Hiver: 99,99€ • Endoscope: 95€" },
+    { intention: "merci", motsCles: ["merci","super","parfait","top"], reponseKey: "chat_thanks_reply", reponse: "Avec plaisir ! 🙏" }
   ];
   function match(t){
     var tx = t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\w\s]/gi, "");
@@ -1851,9 +1754,6 @@ document.addEventListener('DOMContentLoaded', function() {
 })();
 </script>
 
-<!-- ============================================================
-     SCRIPT — Traducteur FR / EN / RU / UK
-     ============================================================ -->
 <script>
 /* Dictionnaire de traductions (défini sur window pour usage global) */
 window.TRANSLATIONS = {
@@ -1873,7 +1773,7 @@ window.TRANSLATIONS = {
     "authenticity":"🌑 Authenticity","authenticity_desc":"Raw truth, real identity, what we are without mask or compromise.",
     "revelation":"✨ Revelation","revelation_desc":"The light that reveals what was hidden. Awakening, understanding, clarity.",
     "truth":"⚡ Truth","truth_desc":"The straight line, the right word, what does not lie and does not tremble.",
-    "awareness":"🧠 Awareness","awareness_desc":"Lucididness, height, the ability to see beyond appearances.",
+    "awareness":"🧠 Awareness","awareness_desc":"Lucidness, height, the ability to see beyond appearances.",
     "power":"🜂 Power","power_desc":"The ability to act, impose one's direction, transform one's environment.",
     "discipline":"🜁 Discipline","discipline_desc":"Order, structure, constancy that forges success.",
     "creation":"🜄 Creation","creation_desc":"The art of producing, innovating, building what does not yet exist.",
@@ -1933,7 +1833,22 @@ window.TRANSLATIONS = {
     "faq_ship_time":"What is the shipping time?","faq_ship_time_text":"Items are shipped quickly depending on availability.","faq_zones":"What areas are delivered?","faq_zones_text":"Delivery is ensured in mainland France via the options offered by Vinted.","faq_payment_q":"How does payment work?","faq_payment_text":"All transactions are secure and carried out directly via Vinted or Stripe.","faq_refund_q":"How does the refund work?","faq_refund_text":"Refund requests are processed according to Vinted rules and withdrawal rights.","faq_warranty_q":"What does the 24-month warranty cover?","faq_warranty_text":"The 24-month commercial warranty covers manufacturing defects and failures not attributable to the user.",
     "contact_title":"✉️ Contact us","contact_intro":"A question? A project? Feel free to write to us.","phone":"Phone","location":"Location","france_ille":"France, Ille-et-Vilaine","hours":"Hours","your_name":"Your name","your_email":"Your email","your_message":"Your message...","send_message":"Send message","message_prepared":"Your message has been prepared. You can now send it via your email application.",
     "footer_home":"Home","footer_about":"About","footer_harassment":"🛡️ Harassment","footer_shop":"Shop","footer_vinted":"Vinted","footer_beauty":"💅 Beauty","footer_cyber":"🛡️ Cybersecurity","footer_contact":"Contact","footer_faq":"FAQ","footer_cgv":"Terms","footer_legal":"Legal","footer_location":"📍 Ille-et-Vilaine · 🕒 9am – 8pm","footer_payment":"🔒 Secure payment — 🚚 Fast delivery","copyright":"© 2026 GUILLET IV — The Order of Independence","follow_tiktok":"🎵 Follow us on TikTok",
-    "search_product":"Search a product","clear_search":"Clear search","toggle_mode":"Toggle light / dark mode","choose_music":"Choose a track","back_top":"Back to top","open_chat":"Open advice chat","advice_chat":"🤖 GUILLET IV Advice","ask_question":"Ask me a question..."
+    "search_product":"Search a product","clear_search":"Clear search","toggle_mode":"Toggle light / dark mode","choose_music":"Choose a track","back_top":"Back to top","open_chat":"Open advice chat","advice_chat":"🤖 GUILLET IV Advice","ask_question":"Ask me a question...",
+    "chat_hello":"👋 Hello and welcome to <strong>GUILLET IV</strong>! I am your virtual assistant.",
+    "chat_prompt":"Ask me a question or pick a topic below:",
+    "chat_unknown":"I'm not sure I understand 🤔 Here is what I can do:",
+    "chat_menu_title":"Here are all the sections of the site:",
+    "chat_contact_reply":"📞 We are available from 9 am to 8 pm at <strong>07.80.20.47.49</strong>. You can also write to us at <strong>lanceglorieuse@gmail.com</strong>.",
+    "chat_delivery_reply":"🚚 Delivery is <strong>fast and secure</strong>.",
+    "chat_drone_reply":"🎥 The <strong>KY108 Drone</strong> (€89) features a dual HD camera and a 90x zoom.",
+    "chat_proj_reply":"💡 The <strong>Solar LED Projector</strong> (€35) runs on solar energy.",
+    "chat_endo_reply":"🔍 The <strong>Endoscope</strong> (€95): 4.3\" screen, 10 m cable, IP68.",
+    "chat_beauty_reply":"💅 The <strong>Nails & Beauty</strong> section offers in-person services in Guignen.",
+    "chat_price_reply":"💰 Drone: €89 • Projector: €35 • Winter Pack: €99.99 • Endoscope: €95",
+    "chat_thanks_reply":"You're welcome! 🙏",
+    "chat_btn_home":"🏠 Home","chat_btn_shop":"🛒 Shop","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Nails & Beauty","chat_btn_about":"📜 About","chat_btn_contact":"✉️ Contact","chat_btn_faq":"❓ FAQ","chat_btn_cyber":"🛡️ Cybersecurity","chat_btn_harass":"🛡️ Harassment",
+    "chat_btn_all_pages":"📋 All pages","chat_btn_prices":"💶 Prices","chat_btn_contact_me":"📞 Contact us","chat_btn_delivery":"🚚 Delivery","chat_btn_menu":"📋 Page menu",
+    "chat_btn_see":"View","chat_btn_buy":"Buy","chat_btn_see_section":"View section"
   },
   ru: {
     "nav_home":"🏠 Главная","nav_about":"📜 О нас","nav_shop":"🛒 Магазин","nav_vinted":"👕 Vinted","nav_beauty":"💅 Ногти и Красота","nav_cyber":"🛡️ Кибербезопасность","nav_harassment":"🛡️ Буллинг","nav_contact":"✉️ Контакты","nav_faq":"❓ Часто задаваемые вопросы","nav_cgv":"📄 Условия продажи","nav_legal":"⚖️ Правовая информация",
@@ -1991,7 +1906,22 @@ window.TRANSLATIONS = {
     "faq_ship_time":"Каково время доставки?","faq_ship_time_text":"Товары отправляются быстро в зависимости от наличия.","faq_zones":"В какие регионы осуществляется доставка?","faq_zones_text":"Доставка осуществляется в материковую Францию через опции, предлагаемые Vinted.","faq_payment_q":"Как происходит оплата?","faq_payment_text":"Все транзакции безопасны и осуществляются напрямую через Vinted или Stripe.","faq_refund_q":"Как происходит возврат средств?","faq_refund_text":"Запросы на возврат обрабатываются в соответствии с правилами Vinted и правом на отказ.","faq_warranty_q":"Что покрывает 24-месячная гарантия?","faq_warranty_text":"24-месячная коммерческая гарантия покрывает производственные дефекты и неисправности, не зависящие от пользователя.",
     "contact_title":"✉️ Свяжитесь с нами","contact_intro":"Есть вопрос или идея? Напишите нам — мы будем рады помочь.","phone":"Телефон","location":"Местоположение","france_ille":"Франция, Иль-э-Вилен","hours":"Часы работы","your_name":"Ваше имя","your_email":"Ваш адрес эл. почты","your_message":"Ваше сообщение...","send_message":"Отправить сообщение","message_prepared":"Ваше сообщение подготовлено. Теперь вы можете отправить его через приложение электронной почты.",
     "footer_home":"Главная","footer_about":"О нас","footer_harassment":"🛡️ Буллинг","footer_shop":"Магазин","footer_vinted":"Vinted","footer_beauty":"💅 Красота","footer_cyber":"🛡️ Кибербезопасность","footer_contact":"Контакты","footer_faq":"Часто задаваемые вопросы","footer_cgv":"Условия","footer_legal":"Правовая информация","footer_location":"📍 Иль-э-Вилен · 🕒 с 9:00 до 20:00","footer_payment":"🔒 Безопасная оплата — 🚚 Быстрая доставка","copyright":"© 2026 GUILLET IV — Орден Независимости","follow_tiktok":"🎵 Подписывайтесь на нас в TikTok",
-    "search_product":"Поиск товара","clear_search":"Очистить поиск","toggle_mode":"Переключить светлую / тёмную тему","choose_music":"Выбрать трек","back_top":"Наверх","open_chat":"Открыть чат с советником","advice_chat":"🤖 Советник GUILLET IV","ask_question":"Задайте мне вопрос..."
+    "search_product":"Поиск товара","clear_search":"Очистить поиск","toggle_mode":"Переключить светлую / тёмную тему","choose_music":"Выбрать трек","back_top":"Наверх","open_chat":"Открыть чат с советником","advice_chat":"🤖 Советник GUILLET IV","ask_question":"Задайте мне вопрос...",
+    "chat_hello":"👋 Здравствуйте и добро пожаловать в <strong>GUILLET IV</strong>! Я ваш виртуальный помощник.",
+    "chat_prompt":"Задайте мне вопрос или выберите тему ниже:",
+    "chat_unknown":"Я не уверен, что понимаю 🤔 Вот что я умею:",
+    "chat_menu_title":"Вот все разделы сайта:",
+    "chat_contact_reply":"📞 Мы доступны с 9:00 до 20:00 по телефону <strong>07.80.20.47.49</strong>. Вы также можете написать нам на <strong>lanceglorieuse@gmail.com</strong>.",
+    "chat_delivery_reply":"🚚 Доставка <strong>быстрая и безопасная</strong>.",
+    "chat_drone_reply":"🎥 <strong>Дрон KY108</strong> (89 €) оснащён двойной HD-камерой и 90-кратным зумом.",
+    "chat_proj_reply":"💡 <strong>Солнечный LED-прожектор</strong> (35 €) работает на солнечной энергии.",
+    "chat_endo_reply":"🔍 <strong>Эндоскоп</strong> (95 €): экран 4.3\", кабель 10 м, IP68.",
+    "chat_beauty_reply":"💅 Раздел <strong>Ногти и Красота</strong> предлагает услуги очно в Гиньене.",
+    "chat_price_reply":"💰 Дрон: 89 € • Прожектор: 35 € • Зимний набор: 99,99 € • Эндоскоп: 95 €",
+    "chat_thanks_reply":"Пожалуйста! 🙏",
+    "chat_btn_home":"🏠 Главная","chat_btn_shop":"🛒 Магазин","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Ногти и Красота","chat_btn_about":"📜 О нас","chat_btn_contact":"✉️ Контакты","chat_btn_faq":"❓ ЧЗВ","chat_btn_cyber":"🛡️ Кибербезопасность","chat_btn_harass":"🛡️ Буллинг",
+    "chat_btn_all_pages":"📋 Все страницы","chat_btn_prices":"💶 Цены","chat_btn_contact_me":"📞 Связаться с нами","chat_btn_delivery":"🚚 Доставка","chat_btn_menu":"📋 Меню страниц",
+    "chat_btn_see":"Смотреть","chat_btn_buy":"Купить","chat_btn_see_section":"Смотреть раздел"
   },
   uk: {
     "nav_home":"🏠 Головна","nav_about":"📜 Про нас","nav_shop":"🛒 Магазин","nav_vinted":"👕 Vinted","nav_beauty":"💅 Нігті та Краса","nav_cyber":"🛡️ Кібербезпека","nav_harassment":"🛡️ Булінг","nav_contact":"✉️ Контакти","nav_faq":"❓ Часті запитання","nav_cgv":"📄 Умови продажу","nav_legal":"⚖️ Правова інформація",
@@ -2049,7 +1979,22 @@ window.TRANSLATIONS = {
     "faq_ship_time":"Який час доставки?","faq_ship_time_text":"Товари відправляються швидко залежно від наявності.","faq_zones":"У які регіони здійснюється доставка?","faq_zones_text":"Доставка здійснюється до материкової Франції через опції, запропоновані Vinted.","faq_payment_q":"Як відбувається оплата?","faq_payment_text":"Усі транзакції безпечні та здійснюються безпосередньо через Vinted або Stripe.","faq_refund_q":"Як відбувається повернення коштів?","faq_refund_text":"Запити на повернення обробляються відповідно до правил Vinted та права на відмову.","faq_warranty_q":"Що покриває 24-місячна гарантія?","faq_warranty_text":"24-місячна комерційна гарантія покриває виробничі дефекти та несправності, що не залежать від користувача.",
     "contact_title":"✉️ Зв'яжіться з нами","contact_intro":"Є питання чи ідея? Напишіть нам — ми будемо раді допомогти.","phone":"Телефон","location":"Місцезнаходження","france_ille":"Франція, Іль-е-Вілен","hours":"Години роботи","your_name":"Ваше ім'я","your_email":"Ваша адреса ел. пошти","your_message":"Ваше повідомлення...","send_message":"Надіслати повідомлення","message_prepared":"Ваше повідомлення підготовлено. Тепер ви можете надіслати його через додаток електронної пошти.",
     "footer_home":"Головна","footer_about":"Про нас","footer_harassment":"🛡️ Булінг","footer_shop":"Магазин","footer_vinted":"Vinted","footer_beauty":"💅 Краса","footer_cyber":"🛡️ Кібербезпека","footer_contact":"Контакти","footer_faq":"Часті запитання","footer_cgv":"Умови","footer_legal":"Правова інформація","footer_location":"📍 Іль-е-Вілен · 🕒 з 9:00 до 20:00","footer_payment":"🔒 Безпечна оплата — 🚚 Швидка доставка","copyright":"© 2026 GUILLET IV — Орден Незалежності","follow_tiktok":"🎵 Підписуйтесь на нас у TikTok",
-    "search_product":"Пошук товару","clear_search":"Очистити пошук","toggle_mode":"Переключити світлу / темну тему","choose_music":"Вибрати трек","back_top":"Нагору","open_chat":"Відкрити чат з радником","advice_chat":"🤖 Радник GUILLET IV","ask_question":"Задайте мені питання..."
+    "search_product":"Пошук товару","clear_search":"Очистити пошук","toggle_mode":"Переключити світлу / темну тему","choose_music":"Вибрати трек","back_top":"Нагору","open_chat":"Відкрити чат з радником","advice_chat":"🤖 Радник GUILLET IV","ask_question":"Задайте мені питання...",
+    "chat_hello":"👋 Вітаю та ласкаво просимо до <strong>GUILLET IV</strong>! Я ваш віртуальний помічник.",
+    "chat_prompt":"Задайте мені питання або виберіть тему нижче:",
+    "chat_unknown":"Я не впевнений, що розумію 🤔 Ось що я вмію:",
+    "chat_menu_title":"Ось усі розділи сайту:",
+    "chat_contact_reply":"📞 Ми доступні з 9:00 до 20:00 за телефоном <strong>07.80.20.47.49</strong>. Ви також можете написати нам на <strong>lanceglorieuse@gmail.com</strong>.",
+    "chat_delivery_reply":"🚚 Доставка <strong>швидка та безпечна</strong>.",
+    "chat_drone_reply":"🎥 <strong>Дрон KY108</strong> (89 €) оснащений подвійною HD-камерою та 90-кратним зумом.",
+    "chat_proj_reply":"💡 <strong>Сонячний LED-прожектор</strong> (35 €) працює на сонячній енергії.",
+    "chat_endo_reply":"🔍 <strong>Ендоскоп</strong> (95 €): екран 4.3\", кабель 10 м, IP68.",
+    "chat_beauty_reply":"💅 Розділ <strong>Нігті та Краса</strong> пропонує послуги очно в Гіньєні.",
+    "chat_price_reply":"💰 Дрон: 89 € • Прожектор: 35 € • Зимовий набір: 99,99 € • Ендоскоп: 95 €",
+    "chat_thanks_reply":"Будь ласка! 🙏",
+    "chat_btn_home":"🏠 Головна","chat_btn_shop":"🛒 Магазин","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Нігті та Краса","chat_btn_about":"📜 Про нас","chat_btn_contact":"✉️ Контакти","chat_btn_faq":"❓ ЧЗП","chat_btn_cyber":"🛡️ Кібербезпека","chat_btn_harass":"🛡️ Булінг",
+    "chat_btn_all_pages":"📋 Усі сторінки","chat_btn_prices":"💶 Ціни","chat_btn_contact_me":"📞 Зв'язатися з нами","chat_btn_delivery":"🚚 Доставка","chat_btn_menu":"📋 Меню сторінок",
+    "chat_btn_see":"Переглянути","chat_btn_buy":"Купити","chat_btn_see_section":"Переглянути розділ"
   }
 };
 
