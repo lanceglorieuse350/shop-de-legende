@@ -1,32 +1,32 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "headers": [
+  "$schema" : "https://openapi.vercel.sh/vercel.json" , 
+  "en-têtes" : [ 
     {
-      "source": "/(.*)",
-      "headers": [
+      "source" : "/(.*)" , 
+      "en-têtes" : [ 
         {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' https://js.stripe.com https://api.getlecart.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https://*.stripe.com https://upload.wikimedia.org; connect-src 'self' https://api.getlecart.com https://api.stripe.com https://vitals.vercel-insights.com https://unpkg.com; frame-src https://js.stripe.com https://checkout.stripe.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests"
-        },
+          "clé" : "Content-Security-Policy" , 
+          "value" : "default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://api.getlecart.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https://*.stripe.com https://upload.wikimedia.org; connect-src 'self' https://api.getlecart.com https://api.stripe.com https://vitals.vercel-insights.com https://unpkg.com; frame-src https://js.stripe.com https://checkout.stripe.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' mailto:; "upgrade-insecure-requests" 
+        } ,
         {
-          "key": "X-Frame-Options",
-          "value": "DENY"
-        },
+          "clé" : "X-Frame-Options" , 
+          "valeur" : "REFUSER" 
+        } ,
         {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
+          "clé" : "X-Content-Type-Options" , 
+          "valeur" : "nosniff" 
+        } ,
         {
-          "key": "Referrer-Policy",
-          "value": "strict-origin-when-cross-origin"
-        },
+          "clé" : "Politique de référence" , 
+          "valeur" : "origine-stricte-lorsqu'il-y-origine-interne" 
+        } ,
         {
-          "key": "Permissions-Policy",
-          "value": "geolocation=(), microphone=(), camera=(), payment=(), usb=()"
-        },
+          "clé" : "Politique d'autorisations" , 
+          "valeur" : "géolocalisation=(), microphone=(), caméra=(), paiement=(), usb=()" 
+        } ,
         {
-          "key": "Strict-Transport-Security",
-          "value": "max-age=63072000; includeSubDomains; preload"
+          "clé" : "Sécurité stricte des transports" , 
+          "valeur" : "max-age=63072000; inclure les sous-domaines; précharger" 
         }
       ]
     }
