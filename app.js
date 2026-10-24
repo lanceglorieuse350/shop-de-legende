@@ -79,7 +79,7 @@
 
     // --- 12. SCRIPT MAINTENANCE (AJOUTÉ ICI) ---
     (function(){
-        var FORCER_MAINTENANCE = false; // <-- METTRE TRUE POUR ACTIVER LA MAINTENANCE
+        var FORCER_MAINTENANCE = true; // <-- METTRE TRUE POUR ACTIVER LA MAINTENANCE
         
         function getPage(){ return document.getElementById("maintenance-page"); }
         function getContenu(){
