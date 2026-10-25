@@ -395,7 +395,7 @@ body.light-mode .music-widget select{background:#fff}
 }
 
 /* ============================================================
-   LECART — STYLE FORCÉ (Réintégré pour que ce soit beau)
+   LECART — STYLE FORCÉ
    ============================================================ */
 [class*="lecart-drawer"], [class*="lecart-sidebar"], #lecart-drawer {
   width: 320px !important; max-width: 100vw !important; background: #0a0a0a !important;
@@ -407,14 +407,11 @@ body.light-mode .music-widget select{background:#fff}
 [class*="qty"] input, [class*="quantity"] input, [class*="qty"] span { background: transparent !important; border: none !important; color: #ffd700 !important; font-size: 1rem !important; font-weight: 900 !important; width: 32px !important; text-align: center !important; -webkit-text-fill-color: #ffd700 !important; }
 [class*="remove"], [class*="delete"] { background: rgba(225, 6, 0, 0.2) !important; color: #e10600 !important; border-radius: 50% !important; width: 24px !important; height: 24px !important; display: flex !important; align-items: center !important; justify-content: center !important; }
 [class*="checkout"], [class*="commander"] { background: linear-gradient(135deg, #ffd700, #b8860b) !important; color: #000 !important; font-family: 'Cinzel', serif !important; font-weight: 700 !important; font-size: 0.95rem !important; padding: 0.9rem !important; border-radius: 10px !important; border: 1px solid #ffd700 !important; text-transform: uppercase !important; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.25) !important; margin-bottom: 1rem !important; cursor: pointer !important; width: 100% !important; }
-
 </style>
 </head>
 <body>
 
-<!-- ============================================================
-     SECTION DÉDIÉE À LA MAINTENANCE
-     ============================================================ -->
+<!-- SECTION MAINTENANCE -->
 <div id="maintenance-page" aria-hidden="true">
   <div>
     <div class="maintenance-emblem">IV</div>
@@ -786,7 +783,7 @@ body.light-mode .music-widget select{background:#fff}
           </ol>
           <p data-i18n="drone_use_note">Pensez à respecter les règles de vol applicables et la vie privée des personnes filmées.</p>
         </div>
-        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1URq5TRNu37iEZT9kBjY7X1G" data-product-name="KY108 Drone" data-product-price="89.00" data-product-image="photo1.png">💳 Ajouter au panier — 89 €</button>
+        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1URq5TRNu37iEZT9kBjY7X1G" data-product-name="KY108 Drone" data-product-price="89.00" data-product-image="photo1.png" data-i18n="cart_89">💳 Ajouter au panier — 89 €</button>
       </div>
     </div>
 
@@ -818,7 +815,7 @@ body.light-mode .music-widget select{background:#fff}
             <li data-i18n="proj_use_4">Laisser charger le panneau solaire</li>
           </ul>
         </div>
-        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1URs5zRNu37iEZT9MkNDMhFW" data-product-name="Projecteur LED rotatif" data-product-price="35.00" data-product-image="produit.png">💳 Ajouter au panier — 35 €</button>
+        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1URs5zRNu37iEZT9MkNDMhFW" data-product-name="Projecteur LED rotatif" data-product-price="35.00" data-product-image="produit.png" data-i18n="cart_35">💳 Ajouter au panier — 35 €</button>
       </div>
     </div>
 
@@ -865,7 +862,7 @@ body.light-mode .music-widget select{background:#fff}
             <li data-i18n="pack_item_4_b4">Sac de rangement inclus</li>
           </ul>
         </div>
-        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1URsA0RNu37iEZT9Yq7pXGpL" data-product-name="Winter Survival Pack" data-product-price="99.99" data-product-image="Winter-Survival.png">💳 Ajouter au panier — 99,99 €</button>
+        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1URsA0RNu37iEZT9Yq7pXGpL" data-product-name="Winter Survival Pack" data-product-price="99.99" data-product-image="Winter-Survival.png" data-i18n="cart_9999">💳 Ajouter au panier — 99,99 €</button>
       </div>
     </div>
 
@@ -898,7 +895,7 @@ body.light-mode .music-widget select{background:#fff}
             <li data-i18n="endo_feat_5">Certification IP68 waterproof</li>
           </ul>
         </div>
-        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1US30aRNu37iEZT9EGBkxLCy" data-product-name="Endoscope caméra d'inspection" data-product-price="95.00" data-product-image="photo-endoscope.png">💳 Ajouter au panier — 95 €</button>
+        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1US30aRNu37iEZT9EGBkxLCy" data-product-name="Endoscope caméra d'inspection" data-product-price="95.00" data-product-image="photo-endoscope.png" data-i18n="cart_95">💳 Ajouter au panier — 95 €</button>
       </div>
     </div>
   </div>
@@ -913,12 +910,12 @@ body.light-mode .music-widget select{background:#fff}
   <section class="info">
     <h2 data-i18n="reviews_title">⭐ Avis Clients (Vinted)</h2>
     <div class="vinted-review" style="margin-bottom:1.5rem;">
-      <p>⭐⭐⭐⭐⭐ — <strong>zohra6466</strong> : "merci"</p>
-      <div style="margin-top:.5rem;color:var(--gold);font-size:.95rem;"><strong>limitless95</strong> : Ravi que tout soit parfait, GUILLET IV 🔥</div>
+      <p>⭐⭐⭐⭐⭐ — <strong>zohra6466</strong> : "<span data-i18n="review_zohra">merci</span>"</p>
+      <div style="margin-top:.5rem;color:var(--gold);font-size:.95rem;"><strong>limitless95</strong> : <span data-i18n="review_limitless_1">Ravi que tout soit parfait, GUILLET IV 🔥</span></div>
     </div>
     <div class="vinted-review">
-      <p>⭐⭐⭐⭐⭐ — <strong>zlatoff05</strong> : "Tout est ok merci"</p>
-      <div style="margin-top:.5rem;color:var(--gold);font-size:.95rem;"><strong>limitless95</strong> : Gratitude 🤲 merci</div>
+      <p>⭐⭐⭐⭐⭐ — <strong>zlatoff05</strong> : "<span data-i18n="review_zlatoff">Tout est ok merci</span>"</p>
+      <div style="margin-top:.5rem;color:var(--gold);font-size:.95rem;"><strong>limitless95</strong> : <span data-i18n="review_limitless_2">Gratitude 🤲 merci</span></div>
     </div>
   </section>
 </div>
@@ -1007,9 +1004,9 @@ body.light-mode .music-widget select{background:#fff}
     </div>
   </section>
   <section style="max-width:480px;margin:0 auto 3rem;padding:0 1rem;">
-    <h2 style="text-align:center;font-family:var(--font-display);color:var(--gold);font-size:1.4rem;margin-bottom:1.2rem;">🎬 En vidéo</h2>
+    <h2 style="text-align:center;font-family:var(--font-display);color:var(--gold);font-size:1.4rem;margin-bottom:1.2rem;" data-i18n="beauty_video_title">🎬 En vidéo</h2>
     <div style="text-align:center;border:2px solid var(--gold);border-radius:var(--radius-md);overflow:hidden;background:#000;box-shadow:0 6px 20px rgba(255,215,0,0.15);">
-      <video src="video.mp4" controls preload="none" playsinline style="width:100%;height:auto;display:block;" aria-label="Vidéo de présentation SHAYNAILS">Votre navigateur ne prend pas en charge la lecture vidéo.</video>
+      <video src="video.mp4" controls preload="none" playsinline style="width:100%;height:auto;display:block;" aria-label="Vidéo de présentation SHAYNAILS" data-i18n="video_fallback">Votre navigateur ne prend pas en charge la lecture vidéo.</video>
     </div>
   </section>
   <section style="max-width:800px;margin:0 auto 3rem;padding:3rem 1.5rem;background:linear-gradient(135deg,rgba(255,182,193,0.15),rgba(0,0,0,0.9));border:2px solid var(--gold);border-radius:var(--radius-lg);text-align:center;box-shadow:0 10px 30px rgba(0,0,0,0.4);">
@@ -1019,7 +1016,7 @@ body.light-mode .music-widget select{background:#fff}
       <a href="tel:0620675441" style="display:inline-flex;align-items:center;justify-content:center;gap:.7rem;padding:1.2rem 2.5rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:2px solid #fff;border-radius:var(--radius-lg);font-family:var(--font-display);font-weight:700;font-size:1.2rem;text-decoration:none;box-shadow:0 6px 20px rgba(255,215,0,0.4);min-width:280px;transition:transform .2s;">📞 06.20.67.54.41</a>
       <a href="https://www.instagram.com/shay_nails35/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;justify-content:center;gap:.7rem;padding:1.2rem 2.5rem;background:linear-gradient(135deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);color:#fff;border:2px solid #fff;border-radius:var(--radius-lg);font-family:var(--font-display);font-weight:700;font-size:1.15rem;text-decoration:none;box-shadow:0 6px 20px rgba(214,41,118,0.4);min-width:280px;transition:transform .2s;">📸 Instagram — @shay_nails35</a>
     </div>
-    <p style="margin:2.5rem 0 0;font-size:.9rem;opacity:.7;font-style:italic;">💡 Cliquez sur une photo pour l'agrandir</p>
+    <p style="margin:2.5rem 0 0;font-size:.9rem;opacity:.7;font-style:italic;" data-i18n="click_photo_zoom">💡 Cliquez sur une photo pour l'agrandir</p>
   </section>
   <div style="text-align:center;margin-top:3rem;">
     <a href="javascript:void(0)" onclick="navigateTo('accueil')" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l'accueil</a>
@@ -1124,32 +1121,32 @@ body.light-mode .music-widget select{background:#fff}
     
     <section>
       <h2 data-i18n="legal_ip">3. Propriété intellectuelle</h2>
-      <p>Tout le contenu du site (textes, images, design, logo, structure) est la propriété exclusive de GUILLET IV.</p>
-      <p>Toute reproduction, distribution ou exploitation sans autorisation est strictement interdite.</p>
+      <p data-i18n="legal_ip_p1">Tout le contenu du site (textes, images, design, logo, structure) est la propriété exclusive de GUILLET IV.</p>
+      <p data-i18n="legal_ip_p2">Toute reproduction, distribution ou exploitation sans autorisation est strictement interdite.</p>
     </section>
     
     <section>
-      <h2>4. Données personnelles</h2>
-      <p>Les données collectées (nom, email, adresse, téléphone) sont utilisées uniquement pour le traitement des commandes et le support client.</p>
-      <p>Aucune donnée personnelle n'est transmise, vendue, partagée ou communiquée à des entreprises, plateformes, services tiers ou organismes étatiques, en France ou ailleurs.</p>
-      <p>Conformément au RGPD, vous pouvez demander la suppression ou modification de vos données à tout moment via : <strong>lanceglorieuse@gmail.com</strong>.</p>
+      <h2 data-i18n="legal_data_title">4. Données personnelles</h2>
+      <p data-i18n="legal_data_p1">Les données collectées (nom, email, adresse, téléphone) sont utilisées uniquement pour le traitement des commandes et le support client.</p>
+      <p data-i18n="legal_data_p2">Aucune donnée personnelle n'est transmise, vendue, partagée ou communiquée à des entreprises, plateformes, services tiers ou organismes étatiques, en France ou ailleurs.</p>
+      <p data-i18n="legal_data_p3">Conformément au RGPD, vous pouvez demander la suppression ou modification de vos données à tout moment via : <strong>lanceglorieuse@gmail.com</strong>.</p>
     </section>
     
     <section>
-      <h2>5. Cookies</h2>
-      <p>Le site peut utiliser des cookies techniques pour améliorer l'expérience utilisateur (panier, préférences d'affichage).</p>
-      <p>Aucun cookie publicitaire n'est utilisé.</p>
+      <h2 data-i18n="legal_cookies_title">5. Cookies</h2>
+      <p data-i18n="legal_cookies_p1">Le site peut utiliser des cookies techniques pour améliorer l'expérience utilisateur (panier, préférences d'affichage).</p>
+      <p data-i18n="legal_cookies_p2">Aucun cookie publicitaire n'est utilisé.</p>
     </section>
     
     <section>
-      <h2>6. Responsabilité</h2>
-      <p>GUILLET IV ne peut être tenu responsable des dommages liés à l'utilisation du site ou des produits, sauf preuve d'une faute directe.</p>
+      <h2 data-i18n="legal_liability_title">6. Responsabilité</h2>
+      <p data-i18n="legal_liability_p1">GUILLET IV ne peut être tenu responsable des dommages liés à l'utilisation du site ou des produits, sauf preuve d'une faute directe.</p>
     </section>
     
     <section id="mentions-litiges">
-      <h2>7. Litiges</h2>
-      <p>En cas de litige, une solution amiable sera recherchée en priorité.</p>
-      <p>À défaut, les tribunaux français seront compétents.</p>
+      <h2 data-i18n="legal_disputes_title">7. Litiges</h2>
+      <p data-i18n="legal_disputes_p1">En cas de litige, une solution amiable sera recherchée en priorité.</p>
+      <p data-i18n="legal_disputes_p2">À défaut, les tribunaux français seront compétents.</p>
     </section>
 
     <section style="border-top: 2px solid var(--gold); padding-top: 2rem; margin-top: 3rem;">
@@ -1659,8 +1656,9 @@ document.addEventListener('DOMContentLoaded', function() {
     d.style.display = o ? "block" : "none";
     b.setAttribute("aria-expanded", String(o));
     var dict = window.__getDict ? window.__getDict() : null;
-    var key = o ? "Voir moins" : "Voir plus";
-    b.textContent = (dict && dict[key]) || key;
+    var key = o ? "see_less" : "see_more";
+    var fb = o ? "Voir moins" : "Voir plus";
+    b.textContent = (dict && dict[key]) || fb;
   };
 
   window.envoyerMail = function(e){
@@ -1668,8 +1666,9 @@ document.addEventListener('DOMContentLoaded', function() {
     var n = document.getElementById("nom"), em = document.getElementById("email"), m = document.getElementById("message");
     if (!n || !em || !m) return;
     var nv = n.value.trim(), ev = em.value.trim(), mv = m.value.trim();
-    if (!nv || !ev || !mv) { alert("Veuillez remplir tous les champs."); return; }
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(ev)) { alert("Adresse email invalide."); return; }
+    var dict = window.__getDict ? window.__getDict() : null;
+    if (!nv || !ev || !mv) { alert((dict && dict["fill_all_fields"]) || "Veuillez remplir tous les champs."); return; }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(ev)) { alert((dict && dict["invalid_email"]) || "Adresse email invalide."); return; }
     var mailto = "mailto:lanceglorieuse@gmail.com?subject=" + encodeURIComponent("Message de " + nv) + "&body=" + encodeURIComponent("Email : " + ev + "\n\n" + mv);
     var c = document.getElementById("confirmation");
     if (c) { c.hidden = false; c.style.display = "block"; }
@@ -1714,9 +1713,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (np) np.hidden = m.length === 0 || res.length > 0;
     if (sr) sr.replaceChildren();
     if (!m.length) { if (sst) sst.textContent = ""; hide(); return; }
-    if (sst) sst.textContent = res.length === 0 ? "Aucun produit trouvé." : res.length + " produit(s) trouvé(s).";
+    var dict = window.__getDict ? window.__getDict() : null;
+    if (sst) sst.textContent = res.length === 0 ? ((dict && dict["no_products_found"]) || "Aucun produit trouvé.") : res.length + " " + ((dict && dict["products_found"]) || "produit(s) trouvé(s).");
     if (!res.length) {
-      var li = document.createElement("li"); li.className = "search-empty"; li.textContent = "Aucun produit trouvé. Essaie un autre mot.";
+      var li = document.createElement("li"); li.className = "search-empty";
+      li.textContent = (dict && dict["no_products_try"]) || "Aucun produit trouvé. Essaie un autre mot.";
       if (sr) sr.appendChild(li);
     } else {
       res.forEach(function(p){
@@ -2014,466 +2015,10 @@ document.addEventListener('DOMContentLoaded', function() {
 })();
 </script>
 
-<script>
-window.TRANSLATIONS = {
-  en: {
-    "nav_home":"🏠 Home","nav_about":"📜 About","nav_shop":"🛒 Shop","nav_vinted":"👕 Vinted","nav_beauty":"💅 Nails & Beauty","nav_cyber":"🛡️ Cybersecurity","nav_harassment":"🚨 Harassment","nav_contact":"✉️ Contact","nav_faq":"❓ FAQ","nav_cgv":"📄 Terms","nav_legal":"⚖️ Legal & Security",
-    "order_independence":"THE ORDER OF INDEPENDENCE",
-    "brand_king":"👑 GUILLET IV","motto":"« Forge your path. Defend your autonomy. Build the future. »","baseline":"Company · Entrepreneurial independence movement · Vision",
-    "maintenance":"MAINTENANCE","maintenance_motto":"« The GUILLET IV site is currently under maintenance. We'll be back very soon. »","maintenance_info":"⏳ Work in progress — Thank you for your patience","contact_us":"📧 Contact us",
-    "marquee_welcome":"✨ Welcome to GUILLET IV — The Order of Independence ✨","marquee_delivery":"🚚 Fast and secure delivery","marquee_payment":"🛡️ 100% secure payment","marquee_motto":"👑 Forge your path. Defend your autonomy. Build the future.","marquee_products":"💎 Products chosen for autonomy and practical life","marquee_warranty":"🛡️ 24-month warranty on all our products","marquee_music":"🎵 Discover our exclusive music selection",
-    "site_music":"🎵 Site music",
-    "doctrine_title":"⚔️ The GUILLET IV Doctrine","doctrine_desc":"GUILLET IV brings together the power of business, the strength of an identity and the vision of a movement. Our founding principle: do not wait for your place, but build it through action, discipline and creation.",
-    "authority":"🖤 Authority","authority_desc":"Black embodies self-mastery, rigor and solidity.",
-    "willpower":"❤️ Willpower","willpower_desc":"Red represents energy, courage and determination.",
-    "legitimacy":"👑 Legitimacy","legitimacy_desc":"Gold symbolizes created value, excellence and recognition.",
-    "vision":"🚀 Vision","vision_desc":"Blue opens the way to innovation and the future.",
-    "shop_title":"🛒 GUILLET IV Shop","shop_intro":"Products chosen for autonomy, safety, the outdoors and practical life.","no_products":"No product matches this search.","see_more":"See more","see_less":"See less",
-    "full_desc":"Full description","details":"Details","utility":"Uses","how_to_use":"How to use","features":"Features",
-    "badge_winter":"WINTER PACK","badge_new":"NEW",
-    "drone_title":"KY108 DRONE – THE EYE OF THE FUTURE IS IN YOUR HANDS","drone_tagline":"Dominate the sky… or it will dominate you. Be eyes without needing to see.","drone_desc":"A drone designed for creators, explorers and ambitious pilots. Capture the world with surgical precision.",
-    "proj_title":"Rotating solar LED projector","proj_desc":"Outdoor solar LED projector with PIR sensor and rotating panels.",
-    "pack_title":"Winter Survival Pack – Premium Edition","pack_desc":"The ultimate pack to face winter, stay warm, lit and self-sufficient.",
-    "endo_title":"Endoscope inspection camera with screen","endo_desc":"1080P inspection endoscope with 4.3-inch built-in screen, 10-meter semi-rigid cable, 2.0 MP camera, adjustable LED lighting and IP68 waterproof design.",
-    "guarantees":"🛡️ Guarantees & Services","warranty_24":"✔ Warranty: 24 months","secure_payment":"✔ Secure payment","fast_delivery":"✔ Fast delivery","reviews_title":"⭐ Customer Reviews (Vinted)",
-    "learn_more":"🏢 Learn more","company_movement":"Company · Movement · Independence",
-    "about_intro":"GUILLET IV is a company and an entrepreneurial independence movement. It defends the idea that everyone can build their own path through work, creation and autonomy.",
-    "about_service":"I sell on Vinted (profile: limitless95) with 5★ reviews, responsive customer service and a desire to offer serious, well-presented products with a real shop experience.",
-    "about_contact":"For any question, contact me via the Contact page or directly on Vinted.",
-    "contact_me":"✉️ Contact me","view_my_vinted":"👕 View my Vinted","back_home":"⬅ Back to home","back_shop":"⬅ Back to shop",
-    "my_vinted":"👕 My Vinted","vinted_intro":"Find my verified sales, 5★ ratings and products available on Vinted.","verified_reviews":"Verified Vinted Reviews","vinted_desc":"I am limitless95 on Vinted. I offer serious, well-presented items with responsive customer service.","view_vinted_profile":"👕 See my Vinted profile",
-    "beauty_title":"💅 Nails & Beauty","beauty_sub":"Elegance · Care · Autonomy","beauty_intro":"A selection of beauty products to care for your nails and reveal your style.",
-    "cyber_title":"🛡️ Cybersecurity Prevention","cyber_subtitle":"Cyber attacks in France","cyber_intro":"Phishing, data theft, fraudulent access and identity theft: understanding the risks helps you better protect your accounts, devices and personal information.","cyber_intro_2":"Prevention combines cautious habits, appropriate technical protections and a rapid response when an incident occurs.",
-    "prevention_harassment":"🚨 Harassment Prevention","harassment_is_crime":"Harassment is an offense. It destroys lives.","harassment_intro_2":"Whether physical, psychological or virtual, French law severely punishes the perpetrators.","harassment_intro_3":"Here are the penalties incurred, alone or in an organized group.","prevention_themes":"📋 Prevention topics",
-    "moral_harassment":"💻 Moral harassment","school_harassment":"🎓 School harassment","sexual_harassment":"🤬 Sexual harassment","organized_group":"🚨 In an organized group","where_help":"📞 Where to find help?",
-    "legal_notice":"⚖️ Legal & Security",
-    "legal_company":"Company name:","legal_status":"Status:","legal_address":"Address:",
-    "legal_info":"1. Legal information","legal_hosting":"2. Site hosting","legal_ip":"3. Intellectual property",
-    "terms_sale":"📄 Terms of Sale","cgv_object":"1. Purpose","cgv_object_text":"These conditions govern sales made on the GUILLET IV Shop.","cgv_price":"2. Price","cgv_price_text":"Prices are indicated in euros, all taxes included.","cgv_delivery":"3. Delivery","cgv_delivery_text":"Fast delivery depending on availability.","cgv_payment":"4. Payment","cgv_payment_text":"Secure payment via Stripe.",
-    "faq_title":"❓ Frequently Asked Questions","faq_delivery":"📦 Delivery","faq_payment":"🔒 Secure payment","faq_refund":"❌ Refund & Return","faq_warranty":"🛡️ Warranty",
-    "contact_title":"✉️ Contact us","contact_intro":"A question? A project? Feel free to write to us.","phone":"Phone","location":"Location","france_ille":"France, Ille-et-Vilaine","hours":"Hours","your_name":"Your name","your_email":"Your email","your_message":"Your message...","send_message":"Send message","message_prepared":"Your message has been prepared. You can now send it via your email application.",
-    "footer_home":"🏠 Home","footer_about":"📜 About","footer_harassment":"🛡️ Harassment","footer_shop":"🛒 Shop","footer_vinted":"👕 Vinted","footer_beauty":"💅 Beauty","footer_cyber":"🛡️ Cybersecurity","footer_contact":"✉️ Contact","footer_faq":"❓ FAQ","footer_cgv":"📄 Terms","footer_legal":"⚖️ Legal & Security","footer_location":"📍 Ille-et-Vilaine · 🕒 9am – 8pm","footer_payment":"🔒 Secure payment — 🚚 Fast delivery","copyright":"© 2026 GUILLET IV — The Order of Independence","follow_tiktok":"🎵 Follow us on TikTok",
-    "search_product":"Search a product","clear_search":"Clear search","toggle_mode":"Toggle light / dark mode","choose_music":"Choose a track","back_top":"Back to top","open_chat":"Open advice chat","advice_chat":"🤖 GUILLET IV Advice","ask_question":"Ask me a question...",
-    "chat_hello":"👋 Hello and welcome to <strong>GUILLET IV</strong>! I am your virtual assistant.",
-    "chat_prompt":"Ask me a question or pick a topic below:",
-    "chat_unknown":"I'm not sure I understand 🤔 Here is what I can do:",
-    "chat_menu_title":"Here are all the sections of the site:",
-    "chat_contact_reply":"📞 We are available from 9 am to 8 pm at <strong>07.80.20.47.49</strong>. You can also write to us at <strong>lanceglorieuse@gmail.com</strong>.",
-    "chat_delivery_reply":"🚚 Delivery is <strong>fast and secure</strong>.",
-    "chat_drone_reply":"🎥 The <strong>KY108 Drone</strong> (€89) features a dual HD camera and a 90x zoom.",
-    "chat_proj_reply":"💡 The <strong>Solar LED Projector</strong> (€35) runs on solar energy.",
-    "chat_endo_reply":"🔍 The <strong>Endoscope</strong> (€95): 4.3\" screen, 10 m cable, IP68.",
-    "chat_beauty_reply":"💅 The <strong>Nails & Beauty</strong> section offers in-person services in Guignen.",
-    "chat_price_reply":"💰 Drone: €89 • Projector: €35 • Winter Pack: €99.99 • Endoscope: €95",
-    "chat_thanks_reply":"You're welcome! 🙏",
-    "chat_btn_home":"🏠 Home","chat_btn_shop":"🛒 Shop","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Nails & Beauty","chat_btn_about":"📜 About","chat_btn_contact":"✉️ Contact","chat_btn_faq":"❓ FAQ","chat_btn_cyber":"🛡️ Cybersecurity","chat_btn_harass":"🚨 Harassment",
-    "chat_btn_all_pages":"📋 All pages","chat_btn_prices":"💶 Prices","chat_btn_contact_me":"📞 Contact us","chat_btn_delivery":"🚚 Delivery","chat_btn_menu":"📋 Page menu",
-    "chat_btn_see":"View","chat_btn_buy":"Buy","chat_btn_see_section":"View section",
-    
-    "security_audit_title":"🛡️ Technical Security Audit (Nmap & curl)",
-    "security_audit_subtitle":"🔐 Shop de Légende Site Security",
-    "security_audit_p1":"The security of visitors and customers is strictly controlled on Shop de Légende. The site applies advanced, rigorous and non-bypassable protections to guarantee reliable navigation, secure payments and total confidentiality.",
-    "security_audit_p2":"In-depth technical analyses carried out with Nmap and curl confirm that the site has no flaws, no dangerous elements, no data exposure, and that all detected mechanisms are normal and expected protections.",
-    "security_audit_p3":"👉 No risk, no threat, no anomaly.",
-    "security_audit_1_title":"🔒 Secure connection (HTTPS / TLS 1.3)",
-    "security_audit_1_p1":"<strong>The site uses the strictest security standards:</strong>",
-    "security_audit_1_l1":"full data encryption",
-    "security_audit_1_l2":"protection against interception",
-    "security_audit_1_l3":"automatic redirection to HTTPS",
-    "security_audit_1_l4":"TLS 1.3 protocol, international banking standard",
-    "security_audit_1_footer":"👉 Nmap confirms that port 443 is open, secure and has no vulnerabilities.",
-    "security_audit_2_title":"🛡️ Advanced protection against attacks (CSP)",
-    "security_audit_2_p1":"<strong>The site's Content Security Policy blocks:</strong>",
-    "security_audit_2_l1":"malicious scripts",
-    "security_audit_2_l2":"code injections",
-    "security_audit_2_l3":"unauthorized resources",
-    "security_audit_2_l4":"hacking attempts",
-    "security_audit_2_footer":"👉 Nmap's http-headers scan confirms a complete, strict and locked-down CSP. No dangerous behavior detected.",
-    "security_audit_3_title":"🧱 Anti-fraud & Anti-clickjacking",
-    "security_audit_3_footer":"👉 Active protection, non-bypassable, preventing any interface hijacking attempt.",
-    "security_audit_4_title":"🔐 Secure payments with Stripe",
-    "security_audit_4_p1":"<strong>Payments are processed by Stripe, a certified banking solution:</strong>",
-    "security_audit_4_l1":"PCI-DSS compliance",
-    "security_audit_4_l2":"full encryption",
-    "security_audit_4_l3":"no storage of banking data",
-    "security_audit_4_l4":"cards never stored on the site",
-    "security_audit_4_footer":"👉 Nmap confirms that Stripe endpoints are secure, valid, and risk-free.",
-    "security_audit_5_title":"🧭 Enhanced confidentiality",
-    "security_audit_5_p1":"<strong>The site applies strict policies:</strong>",
-    "security_audit_5_l1":"Referrer Policy: <code>strict-origin-when-cross-origin</code>",
-    "security_audit_5_l2":"Permissions Policy: no camera, no microphone, no geolocation",
-    "security_audit_5_l3":"X-Content-Type-Options: <code>nosniff</code>",
-    "security_audit_5_l4":"Cross-Origin-Opener-Policy: <code>same-origin</code>",
-    "security_audit_5_l5":"Cross-Origin-Embedder-Policy: <code>credentialless</code>",
-    "security_audit_5_l6":"Cross-Origin-Resource-Policy: <code>cross-origin</code>",
-    "security_audit_5_footer":"👉 These protections are active, strict, and have no negative impact on visitors.",
-    "security_audit_6_title":"🌍 Protection against external sites (CORS)",
-    "security_audit_6_p1":"The site only authorizes its own domain:",
-    "security_audit_6_footer":"👉 No leaks, no unauthorized external access.",
-    "security_audit_7_title":"🧪 Secure hosting on Vercel",
-    "security_audit_7_p1":"<strong>The site benefits from Vercel protections:</strong>",
-    "security_audit_7_l1":"enhanced security",
-    "security_audit_7_l2":"automatic updates",
-    "security_audit_7_l3":"DDoS protection",
-    "security_audit_7_l4":"reliable global infrastructure",
-    "security_audit_7_l5":"active anti-bot system",
-    "security_audit_7_footer":"👉 Nmap detects: X-Vercel-Challenge-Token, X-Vercel-Mitigated: challenge, Vercel Security Checkpoint. These mechanisms are normal, automatic, and never concern human visitors.",
-    "security_audit_8_title":"🛠️ Continuous monitoring & maintenance",
-    "security_audit_8_p1":"<strong>The site undergoes:</strong>",
-    "security_audit_8_l1":"regular audits",
-    "security_audit_8_l2":"technical updates",
-    "security_audit_8_l3":"SSL checks",
-    "security_audit_8_l4":"anti-attack tests",
-    "security_audit_8_footer":"👉 Analyses confirm constant, active, flawless security.",
-    "security_audit_9_title":"📡 Technical verification (Nmap & curl)",
-    "security_audit_9_p1":"<strong>External analyses show:</strong>",
-    "security_audit_9_l1":"no flaws",
-    "security_audit_9_l2":"no dangerous methods",
-    "security_audit_9_l3":"no useless ports",
-    "security_audit_9_l4":"no information leaks",
-    "security_audit_9_l5":"no exposed services",
-    "security_audit_9_l6":"no abnormal behavior",
-    "security_audit_9_l7":"no risk for visitors",
-    "security_audit_9_nmap1_title":"✔️ Nmap — http-headers",
-    "security_audit_9_nmap1_text":"Headers detected: complete CSP, active HSTS, X-Frame-Options, Permissions-Policy, Referrer-Policy, X-Content-Type-Options, strict CORS, Vercel protections.",
-    "security_audit_9_nmap1_footer":"👉 All these elements are protections. No danger.",
-    "security_audit_9_nmap2_title":"✔️ Nmap — http-methods",
-    "security_audit_9_nmap2_text":"Allowed methods: <code>GET, HEAD, POST, OPTIONS</code>",
-    "security_audit_9_nmap2_footer":"👉 No dangerous method.",
-    "security_audit_9_nmap3_title":"✔️ Nmap — http-title",
-    "security_audit_9_nmap3_text":"Site doesn't have a title (text/plain)",
-    "security_audit_9_nmap3_footer":"👉 Normal technical response. No impact for visitors.",
-    "security_audit_9_nmap4_title":"✔️ Nmap — http-security-headers",
-    "security_audit_9_nmap4_text":"Nmap confirms: HSTS, strict CSP, X-Frame-Options, X-Content-Type-Options, secure Cache-Control.",
-    "security_audit_9_nmap4_footer":"👉 Security compliant with OWASP standards.",
-    "security_audit_9_nmap5_title":"✔️ Nmap — http-server-header",
-    "security_audit_9_nmap5_text":"<code>Server: Vercel</code>",
-    "security_audit_9_nmap5_footer":"👉 Normal and secure.",
-    "security_audit_9_nmap6_title":"✔️ Nmap — fingerprint",
-    "security_audit_9_nmap6_text":"Responses: 400 Bad Request, 404 Not Found, DEPLOYMENT_NOT_FOUND",
-    "security_audit_9_nmap6_footer":"👉 Vercel internal responses to unusual requests. No danger.",
-    "security_audit_9_nmap7_title":"✔️ Nmap — http-enum",
-    "security_audit_9_nmap7_text":"Result: 443/tcp open https",
-    "security_audit_9_nmap7_footer":"👉 No sensitive resources, no hidden pages, no exposed services.",
-    "security_audit_9_curl_title":"✔️ curl result",
-    "security_audit_9_curl_text":"Curl shows only: protections, security headers, anti-bot mechanisms.",
-    "security_audit_9_curl_footer":"👉 No anomaly, no flaw, no risk.",
-    "security_engagement_title":"👨‍💻 A security commitment",
-    "security_engagement_p1":"As a <strong>professional pentester</strong>, I master security flaws and attack mechanisms. This site was designed, developed and audited with the same requirements as a banking environment.",
-    "security_engagement_p2":"If you are a security researcher, developer or curious user and you detect an anomaly, a flaw or suspicious behavior, <strong>contact me immediately</strong>:",
-    "security_engagement_phone":"<strong>Phone:</strong> <a href='tel:0780204749' style='color: var(--gold); text-decoration: underline;'>07.80.20.47.49</a>",
-    "security_engagement_email":"<strong>Email:</strong> <a href='mailto:lanceglorieuse@gmail.com' style='color: var(--gold); text-decoration: underline;'>lanceglorieuse@gmail.com</a>",
-    "security_engagement_thanks":"Thank you in advance for your vigilance and your contribution to the security of this site. 🙏",
-    "security_conclusion_title":"🟢 Firm conclusion",
-    "security_conclusion_p1":"Nmap and curl analyses prove that:",
-    "security_conclusion_l1":"✅ the site is secure",
-    "security_conclusion_l2":"✅ protections are active",
-    "security_conclusion_l3":"✅ no flaw exists",
-    "security_conclusion_l4":"✅ no dangerous element was detected",
-    "security_conclusion_l5":"✅ nothing impacts visitors",
-    "security_conclusion_l6":"✅ the configuration is professional, strict and compliant",
-    "security_conclusion_final":"👉 Shop de Légende is a highly secure, reliable and protected site."
-  },
-  ru: {
-    "nav_home":"🏠 Главная","nav_about":"📜 О нас","nav_shop":"🛒 Магазин","nav_vinted":"👕 Vinted","nav_beauty":"💅 Ногти и Красота","nav_cyber":"🛡️ Кибербезопасность","nav_harassment":"🚨 Буллинг","nav_contact":"✉️ Контакты","nav_faq":"❓ Часто задаваемые вопросы","nav_cgv":"📄 Условия продажи","nav_legal":"⚖️ Правовая информация и Безопасность",
-    "order_independence":"ОРДЕН НЕЗАВИСИМОСТИ","brand_king":"👑 GUILLET IV","motto":"« Прокладывай свой путь. Защищай свою независимость. Строй будущее. »","baseline":"Предприятие · Движение предпринимательской независимости · Видение",
-    "maintenance":"ОБСЛУЖИВАНИЕ","maintenance_motto":"« Сайт GUILLET IV временно на обслуживании. Мы скоро вернёмся. »","maintenance_info":"⏳ Идут работы — Спасибо за терпение","contact_us":"📧 Связаться с нами",
-    "marquee_welcome":"✨ Добро пожаловать в GUILLET IV — Орден Независимости ✨","marquee_delivery":"🚚 Быстрая и безопасная доставка","marquee_payment":"🛡️ 100% безопасная оплата","marquee_motto":"👑 Прокладывай свой путь. Защищай свою независимость. Строй будущее.","marquee_products":"💎 Товары, отобранные для независимости и практичной жизни","marquee_warranty":"🛡️ Гарантия 24 месяца на все наши товары","marquee_music":"🎵 Откройте нашу эксклюзивную музыкальную подборку",
-    "site_music":"🎵 Музыка сайта",
-    "doctrine_title":"⚔️ Доктрина GUILLET IV","doctrine_desc":"GUILLET IV объединяет в себе силу бизнеса, мощь идентичности и дальновидность движения. Наш основополагающий принцип: не ждать готового места под солнцем, а созидать его собственными действиями, дисциплиной и творчеством.",
-    "authority":"🖤 Авторитет","authority_desc":"Чёрный цвет олицетворяет самоконтроль, строгость и основательность.","willpower":"❤️ Воля","willpower_desc":"Красный цвет символизирует энергию, смелость и решительность.","legitimacy":"👑 Легитимность","legitimacy_desc":"Золото символизирует созданную ценность, высокие стандарты и признание.","vision":"🚀 Видение","vision_desc":"Синий цвет прокладывает путь к инновациям и будущему.",
-    "shop_title":"🛒 Магазин GUILLET IV","shop_intro":"Товары, отобранные для независимости, безопасности, активного отдыха и повседневной жизни.","no_products":"По вашему запросу ничего не найдено.","see_more":"Показать больше","see_less":"Свернуть",
-    "full_desc":"Полное описание","details":"Характеристики","utility":"Области применения","how_to_use":"Инструкция по эксплуатации","features":"Технические характеристики","badge_winter":"ЗИМНИЙ НАБОР","badge_new":"НОВИНКА",
-    "drone_title":"ДРОН KY108 — ОКО БУДУЩЕГО В ВАШИХ РУКАХ","drone_tagline":"Господствуй в небе… или оно будет господствовать над тобой. Будь глазами, не видя.","drone_desc":"Дрон, созданный для творцов, исследователей и амбициозных пилотов. Запечатлейте мир с хирургической точностью.",
-    "proj_title":"Поворотный солнечный LED-прожектор","proj_desc":"Уличный солнечный LED-прожектор с PIR-датчиком и поворотными панелями.",
-    "pack_title":"Зимний набор выживания — Premium Edition","pack_desc":"Максимально продуманный набор, чтобы пережить зиму в тепле, со светом и полной автономией.",
-    "endo_title":"Эндоскоп-камера с экраном","endo_desc":"Инспекционный эндоскоп 1080P со встроенным 4,3-дюймовым экраном, полужестким 10-метровым кабелем, камерой 2.0 МП, регулируемой LED-подсветкой и водонепроницаемостью IP68.",
-    "guarantees":"🛡️ Гарантии и сервис","warranty_24":"✔ Гарантия: 24 месяца","secure_payment":"✔ Безопасная оплата","fast_delivery":"✔ Быстрая доставка","reviews_title":"⭐ Отзывы покупателей (Vinted)",
-    "learn_more":"🏢 Узнать больше","company_movement":"Предприятие · Движение · Независимость","about_intro":"GUILLET IV — это предприятие и движение предпринимательской независимости. Оно защищает идею, что каждый может построить свой собственный путь через труд, творчество и автономию.","about_service":"Я продаю на Vinted (профиль: limitless95) с отзывами 5★, отзывчивым клиентским сервисом и желанием предлагать серьёзные, хорошо представленные продукты с настоящим опытом магазина.","about_contact":"По любым вопросам свяжитесь со мной через страницу Контакты или напрямую на Vinted.","contact_me":"✉️ Связаться со мной","view_my_vinted":"👕 Посмотреть мой Vinted","back_home":"⬅ Вернуться на главную","back_shop":"⬅ Вернуться в магазин",
-    "my_vinted":"👕 Мой Vinted","vinted_intro":"Найдите мои проверенные продажи, оценки 5★ и товары, доступные на Vinted.","verified_reviews":"Проверенные отзывы Vinted","vinted_desc":"Я limitless95 на Vinted. Предлагаю серьёзные, хорошо представленные товары с отзывчивым клиентским сервисом.","view_vinted_profile":"👕 Открыть мой профиль Vinted",
-    "beauty_title":"💅 Ногти и Красота","beauty_sub":"Элегантность · Забота · Независимость","beauty_intro":"Подборка косметических средств для ухода за ногтями и раскрытия вашего стиля.",
-    "cyber_title":"🛡️ Профилактика кибербезопасности","cyber_subtitle":"Кибератаки во Франции","cyber_intro":"Фишинг, кража данных, мошеннический доступ и кража личности: понимание рисков помогает лучше защитить свои аккаунты, устройства и личные данные.","cyber_intro_2":"Профилактика сочетает осторожные привычки, адекватные технические защиты и быструю реакцию при инциденте.",
-    "prevention_harassment":"🚨 Профилактика буллинга","harassment_is_crime":"Буллинг — это преступление. Он разрушает жизни.","harassment_intro_2":"Будь то физический, психологический или виртуальный, французский закон сурово наказывает виновных.","harassment_intro_3":"Вот грозящие наказания, в одиночку или в составе организованной группы.","prevention_themes":"📋 Темы профилактики",
-    "moral_harassment":"💻 Психологическое преследование","school_harassment":"🎓 Школьная травля","sexual_harassment":"🤬 Сексуальное домогательство","organized_group":"🚨 В составе организованной группы","where_help":"📞 Куда обратиться за помощью?",
-    "legal_notice":"⚖️ Правовая информация и Безопасность",
-    "legal_company":"Название компании:","legal_status":"Статус:","legal_address":"Адрес:",
-    "legal_info":"1. Правовая информация","legal_hosting":"2. Хостинг сайта","legal_ip":"3. Интеллектуальная собственность",
-    "terms_sale":"📄 Общие условия продажи","cgv_object":"1. Предмет","cgv_object_text":"Настоящие условия регулируют продажи в магазине GUILLET IV.","cgv_price":"2. Цена","cgv_price_text":"Цены указаны в евро, с учётом всех налогов.","cgv_delivery":"3. Доставка","cgv_delivery_text":"Быстрая доставка в зависимости от наличия.","cgv_payment":"4. Оплата","cgv_payment_text":"Безопасная оплата через Stripe.",
-    "faq_title":"❓ Часто задаваемые вопросы","faq_delivery":"📦 Доставка","faq_payment":"🔒 Безопасная оплата","faq_refund":"❌ Возврат и возмещение","faq_warranty":"🛡️ Гарантия",
-    "contact_title":"✉️ Свяжитесь с нами","contact_intro":"Есть вопрос или идея? Напишите нам — мы будем рады помочь.","phone":"Телефон","location":"Местоположение","france_ille":"Франция, Иль-э-Вилен","hours":"Часы работы","your_name":"Ваше имя","your_email":"Ваш адрес эл. почты","your_message":"Ваше сообщение...","send_message":"Отправить сообщение","message_prepared":"Ваше сообщение подготовлено. Теперь вы можете отправить его через приложение электронной почты.",
-    "footer_home":"🏠 Главная","footer_about":"📜 О нас","footer_harassment":"🛡️ Буллинг","footer_shop":"🛒 Магазин","footer_vinted":"👕 Vinted","footer_beauty":"💅 Красота","footer_cyber":"🛡️ Кибербезопасность","footer_contact":"✉️ Контакты","footer_faq":"❓ Часто задаваемые вопросы","footer_cgv":"📄 Условия","footer_legal":"⚖️ Правовая информация и Безопасность","footer_location":"📍 Иль-э-Вилен · 🕒 с 9:00 до 20:00","footer_payment":"🔒 Безопасная оплата — 🚚 Быстрая доставка","copyright":"© 2026 GUILLET IV — Орден Независимости","follow_tiktok":"🎵 Подписывайтесь на нас в TikTok",
-    "search_product":"Поиск товара","clear_search":"Очистить поиск","toggle_mode":"Переключить светлую / тёмную тему","choose_music":"Выбрать трек","back_top":"Наверх","open_chat":"Открыть чат с советником","advice_chat":"🤖 Советник GUILLET IV","ask_question":"Задайте мне вопрос...",
-    "chat_hello":"👋 Здравствуйте и добро пожаловать в <strong>GUILLET IV</strong>! Я ваш виртуальный помощник.",
-    "chat_prompt":"Задайте мне вопрос или выберите тему ниже:",
-    "chat_unknown":"Я не уверен, что понимаю 🤔 Вот что я умею:",
-    "chat_menu_title":"Вот все разделы сайта:",
-    "chat_contact_reply":"📞 Мы доступны с 9:00 до 20:00 по телефону <strong>07.80.20.47.49</strong>.",
-    "chat_delivery_reply":"🚚 Доставка <strong>быстрая и безопасная</strong>.",
-    "chat_drone_reply":"🎥 <strong>Дрон KY108</strong> (89 €).",
-    "chat_proj_reply":"💡 <strong>Солнечный LED-прожектор</strong> (35 €).",
-    "chat_endo_reply":"🔍 <strong>Эндоскоп</strong> (95 €).",
-    "chat_beauty_reply":"💅 Раздел <strong>Ногти и Красота</strong>.",
-    "chat_price_reply":"💰 Дрон: 89 € • Прожектор: 35 € • Зимний набор: 99,99 € • Эндоскоп: 95 €",
-    "chat_thanks_reply":"Пожалуйста! 🙏",
-    "chat_btn_home":"🏠 Главная","chat_btn_shop":"🛒 Магазин","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Ногти и Красота","chat_btn_about":"📜 О нас","chat_btn_contact":"✉️ Контакты","chat_btn_faq":"❓ ЧЗВ","chat_btn_cyber":"🛡️ Кибербезопасность","chat_btn_harass":"🚨 Буллинг",
-    "chat_btn_all_pages":"📋 Все страницы","chat_btn_prices":"💶 Цены","chat_btn_contact_me":"📞 Связаться с нами","chat_btn_delivery":"🚚 Доставка","chat_btn_menu":"📋 Меню страниц",
-    "chat_btn_see":"Смотреть","chat_btn_buy":"Купить","chat_btn_see_section":"Смотреть раздел",
-    
-    "security_audit_title":"🛡️ Аудит технической безопасности (Nmap & curl)",
-    "security_audit_subtitle":"🔐 Безопасность сайта Shop de Légende",
-    "security_audit_p1":"Безопасность посетителей и клиентов строго контролируется на Shop de Légende. Сайт применяет передовые, строгие и необходные защиты для гарантии надежной навигации, безопасных платежей и полной конфиденциальности.",
-    "security_audit_p2":"Глубокие технические анализы, проведенные с помощью Nmap и curl, подтверждают, что сайт не имеет уязвимостей, опасных элементов, утечек данных, и что все обнаруженные механизмы являются нормальными и ожидаемыми защитами.",
-    "security_audit_p3":"👉 Никакого риска, никакой угрозы, никаких аномалий.",
-    "security_audit_1_title":"🔒 Безопасное соединение (HTTPS / TLS 1.3)",
-    "security_audit_1_p1":"<strong>Сайт использует самые строгие стандарты безопасности:</strong>",
-    "security_audit_1_l1":"полное шифрование данных",
-    "security_audit_1_l2":"защита от перехвата",
-    "security_audit_1_l3":"автоматическое перенаправление на HTTPS",
-    "security_audit_1_l4":"протокол TLS 1.3, международный банковский стандарт",
-    "security_audit_1_footer":"👉 Nmap подтверждает, что порт 443 открыт, защищен и не имеет уязвимостей.",
-    "security_audit_2_title":"🛡️ Расширенная защита от атак (CSP)",
-    "security_audit_2_p1":"<strong>Политика безопасности контента (CSP) сайта блокирует:</strong>",
-    "security_audit_2_l1":"вредоносные скрипты",
-    "security_audit_2_l2":"внедрение кода",
-    "security_audit_2_l3":"несанкционированные ресурсы",
-    "security_audit_2_l4":"попытки взлома",
-    "security_audit_2_footer":"👉 Сканирование http-headers Nmap подтверждает полную, строгую и заблокированную CSP. Опасного поведения не обнаружено.",
-    "security_audit_3_title":"🧱 Анти-мошенничество и анти-кликджекинг",
-    "security_audit_3_footer":"👉 Активная защита, не подлежащая обходу, предотвращающая любые попытки перехвата интерфейса.",
-    "security_audit_4_title":"🔐 Безопасные платежи через Stripe",
-    "security_audit_4_p1":"<strong>Платежи обрабатываются Stripe, сертифицированным банковским решением:</strong>",
-    "security_audit_4_l1":"соответствие PCI-DSS",
-    "security_audit_4_l2":"полное шифрование",
-    "security_audit_4_l3":"отсутствие хранения банковских данных",
-    "security_audit_4_l4":"карты никогда не хранятся на сайте",
-    "security_audit_4_footer":"👉 Nmap подтверждает, что конечные точки Stripe безопасны, действительны и не представляют риска.",
-    "security_audit_5_title":"🧭 Усиленная конфиденциальность",
-    "security_audit_5_p1":"<strong>Сайт применяет строгие политики:</strong>",
-    "security_audit_5_l1":"Referrer Policy: <code>strict-origin-when-cross-origin</code>",
-    "security_audit_5_l2":"Permissions Policy: без камеры, без микрофона, без геолокации",
-    "security_audit_5_l3":"X-Content-Type-Options: <code>nosniff</code>",
-    "security_audit_5_l4":"Cross-Origin-Opener-Policy: <code>same-origin</code>",
-    "security_audit_5_l5":"Cross-Origin-Embedder-Policy: <code>credentialless</code>",
-    "security_audit_5_l6":"Cross-Origin-Resource-Policy: <code>cross-origin</code>",
-    "security_audit_5_footer":"👉 Эти защиты активны, строги и не оказывают негативного влияния на посетителей.",
-    "security_audit_6_title":"🌍 Защита от внешних сайтов (CORS)",
-    "security_audit_6_p1":"Сайт разрешает только свой собственный домен:",
-    "security_audit_6_footer":"👉 Никаких утечек, никакого несанкционированного внешнего доступа.",
-    "security_audit_7_title":"🧪 Безопасный хостинг на Vercel",
-    "security_audit_7_p1":"<strong>Сайт пользуется защитой Vercel:</strong>",
-    "security_audit_7_l1":"усиленная безопасность",
-    "security_audit_7_l2":"автоматические обновления",
-    "security_audit_7_l3":"защита от DDoS",
-    "security_audit_7_l4":"надежная глобальная инфраструктура",
-    "security_audit_7_l5":"активная анти-бот система",
-    "security_audit_7_footer":"👉 Nmap обнаруживает: X-Vercel-Challenge-Token, X-Vercel-Mitigated: challenge, Vercel Security Checkpoint. Эти механизмы нормальны, автоматичны и никогда не касаются людей-посетителей.",
-    "security_audit_8_title":"🛠️ Непрерывный мониторинг и обслуживание",
-    "security_audit_8_p1":"<strong>Сайт подвергается:</strong>",
-    "security_audit_8_l1":"регулярным аудитам",
-    "security_audit_8_l2":"техническим обновлениям",
-    "security_audit_8_l3":"проверкам SSL",
-    "security_audit_8_l4":"анти-атака тестам",
-    "security_audit_8_footer":"👉 Анализы подтверждают постоянную, активную, безупречную безопасность.",
-    "security_audit_9_title":"📡 Техническая проверка (Nmap & curl)",
-    "security_audit_9_p1":"<strong>Внешние анализы показывают:</strong>",
-    "security_audit_9_l1":"никаких уязвимостей",
-    "security_audit_9_l2":"никаких опасных методов",
-    "security_audit_9_l3":"никаких бесполезных портов",
-    "security_audit_9_l4":"никаких утечек информации",
-    "security_audit_9_l5":"никаких открытых служб",
-    "security_audit_9_l6":"никакого аномального поведения",
-    "security_audit_9_l7":"никакого риска для посетителей",
-    "security_audit_9_nmap1_title":"✔️ Nmap — http-headers",
-    "security_audit_9_nmap1_text":"Обнаруженные заголовки: полная CSP, активный HSTS, X-Frame-Options, Permissions-Policy, Referrer-Policy, X-Content-Type-Options, строгий CORS, защиты Vercel.",
-    "security_audit_9_nmap1_footer":"👉 Все эти элементы являются защитами. Никакой опасности.",
-    "security_audit_9_nmap2_title":"✔️ Nmap — http-methods",
-    "security_audit_9_nmap2_text":"Разрешенные методы: <code>GET, HEAD, POST, OPTIONS</code>",
-    "security_audit_9_nmap2_footer":"👉 Никаких опасных методов.",
-    "security_audit_9_nmap3_title":"✔️ Nmap — http-title",
-    "security_audit_9_nmap3_text":"Site doesn't have a title (text/plain)",
-    "security_audit_9_nmap3_footer":"👉 Нормальный технический ответ. Никакого влияния на посетителей.",
-    "security_audit_9_nmap4_title":"✔️ Nmap — http-security-headers",
-    "security_audit_9_nmap4_text":"Nmap подтверждает: HSTS, строгая CSP, X-Frame-Options, X-Content-Type-Options, безопасный Cache-Control.",
-    "security_audit_9_nmap4_footer":"👉 Безопасность соответствует стандартам OWASP.",
-    "security_audit_9_nmap5_title":"✔️ Nmap — http-server-header",
-    "security_audit_9_nmap5_text":"<code>Server: Vercel</code>",
-    "security_audit_9_nmap5_footer":"👉 Нормально и безопасно.",
-    "security_audit_9_nmap6_title":"✔️ Nmap — fingerprint",
-    "security_audit_9_nmap6_text":"Ответы: 400 Bad Request, 404 Not Found, DEPLOYMENT_NOT_FOUND",
-    "security_audit_9_nmap6_footer":"👉 Внутренние ответы Vercel на необычные запросы. Никакой опасности.",
-    "security_audit_9_nmap7_title":"✔️ Nmap — http-enum",
-    "security_audit_9_nmap7_text":"Результат: 443/tcp open https",
-    "security_audit_9_nmap7_footer":"👉 Никаких конфиденциальных ресурсов, никаких скрытых страниц, никаких открытых служб.",
-    "security_audit_9_curl_title":"✔️ Результат curl",
-    "security_audit_9_curl_text":"Curl показывает только: защиты, заголовки безопасности, анти-бот механизмы.",
-    "security_audit_9_curl_footer":"👉 Никаких аномалий, никаких уязвимостей, никакого риска.",
-    "security_engagement_title":"👨‍💻 Обязательство по безопасности",
-    "security_engagement_p1":"Как <strong>профессиональный пентестер</strong>, я владею знаниями об уязвимостях безопасности и механизмах атак. Этот сайт был спроектирован, разработан и проверен с теми же требованиями, что и банковская среда.",
-    "security_engagement_p2":"Если вы исследователь безопасности, разработчик или любопытный пользователь и обнаружили аномалию, уязвимость или подозрительное поведение, <strong>немедленно свяжитесь со мной</strong>:",
-    "security_engagement_phone":"<strong>Телефон:</strong> <a href='tel:0780204749' style='color: var(--gold); text-decoration: underline;'>07.80.20.47.49</a>",
-    "security_engagement_email":"<strong>Email:</strong> <a href='mailto:lanceglorieuse@gmail.com' style='color: var(--gold); text-decoration: underline;'>lanceglorieuse@gmail.com</a>",
-    "security_engagement_thanks":"Заранее благодарю за вашу бдительность и вклад в безопасность этого сайта. 🙏",
-    "security_conclusion_title":"🟢 Твердое заключение",
-    "security_conclusion_p1":"Анализы Nmap и curl доказывают, что:",
-    "security_conclusion_l1":"✅ сайт безопасен",
-    "security_conclusion_l2":"✅ защиты активны",
-    "security_conclusion_l3":"✅ уязвимостей не существует",
-    "security_conclusion_l4":"✅ опасных элементов не обнаружено",
-    "security_conclusion_l5":"✅ ничто не влияет на посетителей",
-    "security_conclusion_l6":"✅ конфигурация профессиональна, строга и соответствует требованиям",
-    "security_conclusion_final":"👉 Shop de Légende — это высокобезопасный, надежный и защищенный сайт."
-  },
-  uk: {
-    "nav_home":"🏠 Головна","nav_about":"📜 Про нас","nav_shop":"🛒 Магазин","nav_vinted":"👕 Vinted","nav_beauty":"💅 Нігті та Краса","nav_cyber":"🛡️ Кібербезпека","nav_harassment":"🚨 Булінг","nav_contact":"✉️ Контакти","nav_faq":"❓ Часті запитання","nav_cgv":"📄 Умови продажу","nav_legal":"⚖️ Правова інформація та Безпека",
-    "order_independence":"ОРДЕН НЕЗАЛЕЖНОСТІ","brand_king":"👑 GUILLET IV","motto":"« Прокладай свій шлях. Захищай свою незалежність. Будуй майбутнє. »","baseline":"Підприємство · Рух підприємницької незалежності · Бачення",
-    "maintenance":"ОБСЛУГОВУВАННЯ","maintenance_motto":"« Сайт GUILLET IV тимчасово на обслуговуванні. Ми скоро повернемося. »","maintenance_info":"⏳ Тривають роботи — Дякуємо за терпіння","contact_us":"📧 Зв'язатися з нами",
-    "marquee_welcome":"✨ Ласкаво просимо до GUILLET IV — Орден Незалежності ✨","marquee_delivery":"🚚 Швидка та безпечна доставка","marquee_payment":"🛡️ 100% безпечна оплата","marquee_motto":"👑 Прокладай свій шлях. Захищай свою незалежність. Будуй майбутнє.","marquee_products":"💎 Товари, відібрані для незалежності та практичного життя","marquee_warranty":"🛡️ Гарантія 24 місяці на всі наші товари","marquee_music":"🎵 Відкрийте нашу ексклюзивну музичну добірку",
-    "site_music":"🎵 Музика сайту",
-    "doctrine_title":"⚔️ Доктрина GUILLET IV","doctrine_desc":"GUILLET IV поєднує в собі силу бізнесу, міць ідентичності та далекоглядність руху. Наш основоположний принцип: не чекати готового місця під сонцем, а творити його власними діями, дисципліною та творчістю.",
-    "authority":"🖤 Авторитет","authority_desc":"Чорний колір уособлює самоконтроль, суворість та ґрунтовність.","willpower":"❤️ Воля","willpower_desc":"Червоний колір символізує енергію, сміливість та рішучість.","legitimacy":"👑 Легітимність","legitimacy_desc":"Золото символізує створену цінність, високі стандарти та визнання.","vision":"🚀 Бачення","vision_desc":"Синій колір прокладає шлях до інновацій та майбутнього.",
-    "shop_title":"🛒 Магазин GUILLET IV","shop_intro":"Товари, відібрані для незалежності, безпеки, активного відпочинку та повсякденного життя.","no_products":"За вашим запитом нічого не знайдено.","see_more":"Показати більше","see_less":"Згорнути",
-    "full_desc":"Повний опис","details":"Характеристики","utility":"Сфери застосування","how_to_use":"Інструкція з експлуатації","features":"Технічні характеристики","badge_winter":"ЗИМОВИЙ НАБІР","badge_new":"НОВИНКА",
-    "drone_title":"ДРОН KY108 — ОКО МАЙБУТНЬОГО У ВАШИХ РУКАХ","drone_tagline":"Пануй у небі… або воно пануватиме над тобою. Будь очима, не бачачи.","drone_desc":"Дрон, створений для творців, дослідників та амбітних пілотів. Закарбуйте світ із хірургічною точністю.",
-    "proj_title":"Поворотний сонячний LED-прожектор","proj_desc":"Вуличний сонячний LED-прожектор з PIR-датчиком і поворотними панелями.",
-    "pack_title":"Зимовий набір виживання — Premium Edition","pack_desc":"Максимально продуманий набір, щоб пережити зиму в теплі, зі світлом і повною автономією.",
-    "endo_title":"Ендоскоп-камера з екраном","endo_desc":"Інспекційний ендоскоп 1080P із вбудованим 4,3-дюймовим екраном, напівжорстким 10-метровим кабелем, камерою 2.0 МП, регульованим LED-підсвічуванням та водонепроникністю IP68.",
-    "guarantees":"🛡️ Гарантії та сервіс","warranty_24":"✔ Гарантія: 24 місяці","secure_payment":"✔ Безпечна оплата","fast_delivery":"✔ Швидка доставка","reviews_title":"⭐ Відгуки покупців (Vinted)",
-    "learn_more":"🏢 Дізнатися більше","company_movement":"Підприємство · Рух · Незалежність","about_intro":"GUILLET IV — це підприємство та рух підприємницької незалежності. Він захищає ідею, що кожен може побудувати свій власний шлях через працю, творчість та автономію.","about_service":"Я продаю на Vinted (профіль: limitless95) з відгуками 5★, чуйним клієнтським сервісом і бажанням пропонувати серйозні, добре представлені товари зі справжнім досвідом магазину.","about_contact":"З будь-яких питань зв'яжіться зі мною через сторінку Контакти або безпосередньо на Vinted.","contact_me":"✉️ Зв'язатися зі мною","view_my_vinted":"👕 Переглянути мій Vinted","back_home":"⬅ Повернутися на головну","back_shop":"⬅ Повернутися до магазину",
-    "my_vinted":"👕 Мій Vinted","vinted_intro":"Знайдіть мої перевірені продажі, оцінки 5★ та товари, доступні на Vinted.","verified_reviews":"Перевірені відгуки Vinted","vinted_desc":"Я limitless95 на Vinted. Пропоную серйозні, добре представлені товари з чуйним клієнтським сервісом.","view_vinted_profile":"👕 Відкрити мій профіль Vinted",
-    "beauty_title":"💅 Нігті та Краса","beauty_sub":"Елегантність · Турбота · Незалежність","beauty_intro":"Добірка косметичних засобів для догляду за нігтями та розкриття вашого стилю.",
-    "cyber_title":"🛡️ Профілактика кібербезпеки","cyber_subtitle":"Кібератаки у Франції","cyber_intro":"Фішинг, крадіжка даних, шахрайський доступ і крадіжка особистих даних: розуміння ризиків допомагає краще захистити свої акаунти, пристрої та особисту інформацію.","cyber_intro_2":"Профілактика поєднує обережні звички, адекватні технічні засоби захисту та швидку реакцію у разі інциденту.",
-    "prevention_harassment":"🚨 Профілактика булінгу","harassment_is_crime":"Булінг — це злочин. Він руйнує життя.","harassment_intro_2":"Чи то фізичний, психологічний чи віртуальний, французький закон суворо карає винних.","harassment_intro_3":"Ось загрозливі покарання, наодинці або у складі організованої групи.","prevention_themes":"📋 Теми профілактики",
-    "moral_harassment":"💻 Психологічне переслідування","school_harassment":"🎓 Шкільне цькування","sexual_harassment":"🤬 Сексуальне домагання","organized_group":"🚨 У складі організованої групи","where_help":"📞 Куди звернутися за допомогою?",
-    "legal_notice":"⚖️ Правова інформація та Безпека",
-    "legal_company":"Назва компанії:","legal_status":"Статус:","legal_address":"Адреса:",
-    "legal_info":"1. Правова інформація","legal_hosting":"2. Хостинг сайту","legal_ip":"3. Інтелектуальна власність",
-    "terms_sale":"📄 Загальні умови продажу","cgv_object":"1. Предмет","cgv_object_text":"Ці умови регулюють продажі в магазині GUILLET IV.","cgv_price":"2. Ціна","cgv_price_text":"Ціни вказані в євро, з урахуванням усіх податків.","cgv_delivery":"3. Доставка","cgv_delivery_text":"Швидка доставка залежно від наявності.","cgv_payment":"4. Оплата","cgv_payment_text":"Безпечна оплата через Stripe.",
-    "faq_title":"❓ Часті запитання","faq_delivery":"📦 Доставка","faq_payment":"🔒 Безпечна оплата","faq_refund":"❌ Повернення та відшкодування","faq_warranty":"🛡️ Гарантія",
-    "contact_title":"✉️ Зв'яжіться з нами","contact_intro":"Є питання чи ідея? Напишіть нам — ми будемо раді допомогти.","phone":"Телефон","location":"Місцезнаходження","france_ille":"Франція, Іль-е-Вілен","hours":"Години роботи","your_name":"Ваше ім'я","your_email":"Ваша адреса ел. пошти","your_message":"Ваше повідомлення...","send_message":"Надіслати повідомлення","message_prepared":"Ваше повідомлення підготовлено. Тепер ви можете надіслати його через додаток електронної пошти.",
-    "footer_home":"🏠 Головна","footer_about":"📜 Про нас","footer_harassment":"🛡️ Булінг","footer_shop":"🛒 Магазин","footer_vinted":"👕 Vinted","footer_beauty":"💅 Краса","footer_cyber":"🛡️ Кібербезпека","footer_contact":"✉️ Контакти","footer_faq":"❓ Часті запитання","footer_cgv":"📄 Умови","footer_legal":"⚖️ Правова інформація та Безпека","footer_location":"📍 Іль-е-Вілен · 🕒 з 9:00 до 20:00","footer_payment":"🔒 Безпечна оплата — 🚚 Швидка доставка","copyright":"© 2026 GUILLET IV — Орден Незалежності","follow_tiktok":"🎵 Підписуйтесь на нас у TikTok",
-    "search_product":"Пошук товару","clear_search":"Очистити пошук","toggle_mode":"Переключити світлу / темну тему","choose_music":"Вибрати трек","back_top":"Нагору","open_chat":"Відкрити чат з радником","advice_chat":"🤖 Радник GUILLET IV","ask_question":"Задайте мені питання...",
-    "chat_hello":"👋 Вітаю та ласкаво просимо до <strong>GUILLET IV</strong>! Я ваш віртуальний помічник.",
-    "chat_prompt":"Задайте мені питання або виберіть тему нижче:",
-    "chat_unknown":"Я не впевнений, що розумію 🤔 Ось що я вмію:",
-    "chat_menu_title":"Ось усі розділи сайту:",
-    "chat_contact_reply":"📞 Ми доступні з 9:00 до 20:00 за телефоном <strong>07.80.20.47.49</strong>.",
-    "chat_delivery_reply":"🚚 Доставка <strong>швидка та безпечна</strong>.",
-    "chat_drone_reply":"🎥 <strong>Дрон KY108</strong> (89 €).",
-    "chat_proj_reply":"💡 <strong>Сонячний LED-прожектор</strong> (35 €).",
-    "chat_endo_reply":"🔍 <strong>Ендоскоп</strong> (95 €).",
-    "chat_beauty_reply":"💅 Розділ <strong>Нігті та Краса</strong>.",
-    "chat_price_reply":"💰 Дрон: 89 € • Прожектор: 35 € • Зимовий набір: 99,99 € • Ендоскоп: 95 €",
-    "chat_thanks_reply":"Будь ласка! 🙏",
-    "chat_btn_home":"🏠 Головна","chat_btn_shop":"🛒 Магазин","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Нігті та Краса","chat_btn_about":"📜 Про нас","chat_btn_contact":"✉️ Контакти","chat_btn_faq":"❓ ЧЗП","chat_btn_cyber":"🛡️ Кібербезпека","chat_btn_harass":"🚨 Булінг",
-    "chat_btn_all_pages":"📋 Усі сторінки","chat_btn_prices":"💶 Ціни","chat_btn_contact_me":"📞 Зв'язатися з нами","chat_btn_delivery":"🚚 Доставка","chat_btn_menu":"📋 Меню сторінок",
-    "chat_btn_see":"Переглянути","chat_btn_buy":"Купити","chat_btn_see_section":"Переглянути розділ",
-    
-    "security_audit_title":"🛡️ Аудит технічної безпеки (Nmap & curl)",
-    "security_audit_subtitle":"🔐 Безпека сайту Shop de Légende",
-    "security_audit_p1":"Безпека відвідувачів і клієнтів суворо контролюється на Shop de Légende. Сайт застосовує передові, суворі та необхідні захисти для гарантії надійної навігації, безпечних платежів і повної конфіденційності.",
-    "security_audit_p2":"Глибокі технічні аналізи, проведені за допомогою Nmap і curl, підтверджують, що сайт не має вразливостей, небезпечних елементів, витоків даних, і що всі виявлені механізми є нормальними та очікуваними захистами.",
-    "security_audit_p3":"👉 Жодного ризику, жодної загрози, жодних аномалій.",
-    "security_audit_1_title":"🔒 Безпечне з'єднання (HTTPS / TLS 1.3)",
-    "security_audit_1_p1":"<strong>Сайт використовує найсуворіші стандарти безпеки:</strong>",
-    "security_audit_1_l1":"повне шифрування даних",
-    "security_audit_1_l2":"захист від перехоплення",
-    "security_audit_1_l3":"автоматичне перенаправлення на HTTPS",
-    "security_audit_1_l4":"протокол TLS 1.3, міжнародний банківський стандарт",
-    "security_audit_1_footer":"👉 Nmap підтверджує, що порт 443 відкритий, захищений і не має вразливостей.",
-    "security_audit_2_title":"🛡️ Розширений захист від атак (CSP)",
-    "security_audit_2_p1":"<strong>Політика безпеки вмісту (CSP) сайту блокує:</strong>",
-    "security_audit_2_l1":"шкідливі скрипти",
-    "security_audit_2_l2":"впровадження коду",
-    "security_audit_2_l3":"несанкціоновані ресурси",
-    "security_audit_2_l4":"спроби злому",
-    "security_audit_2_footer":"👉 Сканування http-headers Nmap підтверджує повну, сувору та заблоковану CSP. Небезпечної поведінки не виявлено.",
-    "security_audit_3_title":"🧱 Анти-шахрайство та анти-клікджекинг",
-    "security_audit_3_footer":"👉 Активний захист, що не підлягає обходу, запобігає будь-яким спробам перехоплення інтерфейсу.",
-    "security_audit_4_title":"🔐 Безпечні платежі через Stripe",
-    "security_audit_4_p1":"<strong>Платежі обробляються Stripe, сертифікованим банківським рішенням:</strong>",
-    "security_audit_4_l1":"відповідність PCI-DSS",
-    "security_audit_4_l2":"повне шифрування",
-    "security_audit_4_l3":"відсутність зберігання банківських даних",
-    "security_audit_4_l4":"картки ніколи не зберігаються на сайті",
-    "security_audit_4_footer":"👉 Nmap підтверджує, що кінцеві точки Stripe безпечні, дійсні та не становлять ризику.",
-    "security_audit_5_title":"🧭 Посилена конфіденційність",
-    "security_audit_5_p1":"<strong>Сайт застосовує суворі політики:</strong>",
-    "security_audit_5_l1":"Referrer Policy: <code>strict-origin-when-cross-origin</code>",
-    "security_audit_5_l2":"Permissions Policy: без камери, без мікрофона, без геолокації",
-    "security_audit_5_l3":"X-Content-Type-Options: <code>nosniff</code>",
-    "security_audit_5_l4":"Cross-Origin-Opener-Policy: <code>same-origin</code>",
-    "security_audit_5_l5":"Cross-Origin-Embedder-Policy: <code>credentialless</code>",
-    "security_audit_5_l6":"Cross-Origin-Resource-Policy: <code>cross-origin</code>",
-    "security_audit_5_footer":"👉 Ці захисти активні, суворі та не мають негативного впливу на відвідувачів.",
-    "security_audit_6_title":"🌍 Захист від зовнішніх сайтів (CORS)",
-    "security_audit_6_p1":"Сайт дозволяє лише свій власний домен:",
-    "security_audit_6_footer":"👉 Жодних витоків, жодного несанкціонованого зовнішнього доступу.",
-    "security_audit_7_title":"🧪 Безпечний хостинг на Vercel",
-    "security_audit_7_p1":"<strong>Сайт користується захистом Vercel:</strong>",
-    "security_audit_7_l1":"посилена безпека",
-    "security_audit_7_l2":"автоматичні оновлення",
-    "security_audit_7_l3":"захист від DDoS",
-    "security_audit_7_l4":"надійна глобальна інфраструктура",
-    "security_audit_7_l5":"активна анти-бот система",
-    "security_audit_7_footer":"👉 Nmap виявляє: X-Vercel-Challenge-Token, X-Vercel-Mitigated: challenge, Vercel Security Checkpoint. Ці механізми нормальні, автоматичні та ніколи не стосуються людей-відвідувачів.",
-    "security_audit_8_title":"🛠️ Безперервний моніторинг та обслуговування",
-    "security_audit_8_p1":"<strong>Сайт піддається:</strong>",
-    "security_audit_8_l1":"регулярним аудитам",
-    "security_audit_8_l2":"технічним оновленням",
-    "security_audit_8_l3":"перевіркам SSL",
-    "security_audit_8_l4":"анти-атака тестам",
-    "security_audit_8_footer":"👉 Аналізи підтверджують постійну, активну, бездоганну безпеку.",
-    "security_audit_9_title":"📡 Технічна перевірка (Nmap & curl)",
-    "security_audit_9_p1":"<strong>Зовнішні аналізи показують:</strong>",
-    "security_audit_9_l1":"жодних вразливостей",
-    "security_audit_9_l2":"жодних небезпечних методів",
-    "security_audit_9_l3":"жодних непотрібних портів",
-    "security_audit_9_l4":"жодних витоків інформації",
-    "security_audit_9_l5":"жодних відкритих служб",
-    "security_audit_9_l6":"жодної аномальної поведінки",
-    "security_audit_9_l7":"жодного ризику для відвідувачів",
-    "security_audit_9_nmap1_title":"✔️ Nmap — http-headers",
-    "security_audit_9_nmap1_text":"Виявлені заголовки: повна CSP, активний HSTS, X-Frame-Options, Permissions-Policy, Referrer-Policy, X-Content-Type-Options, суворий CORS, захисти Vercel.",
-    "security_audit_9_nmap1_footer":"👉 Усі ці елементи є захистами. Жодної небезпеки.",
-    "security_audit_9_nmap2_title":"✔️ Nmap — http-methods",
-    "security_audit_9_nmap2_text":"Дозволені методи: <code>GET, HEAD, POST, OPTIONS</code>",
-    "security_audit_9_nmap2_footer":"👉 Жодних небезпечних методів.",
-    "security_audit_9_nmap3_title":"✔️ Nmap — http-title",
-    "security_audit_9_nmap3_text":"Site doesn't have a title (text/plain)",
-    "security_audit_9_nmap3_footer":"👉 Нормальна технічна відповідь. Жодного впливу на відвідувачів.",
-    "security_audit_9_nmap4_title":"✔️ Nmap — http-security-headers",
-    "security_audit_9_nmap4_text":"Nmap підтверджує: HSTS, сувора CSP, X-Frame-Options, X-Content-Type-Options, безпечний Cache-Control.",
-    "security_audit_9_nmap4_footer":"👉 Безпека відповідає стандартам OWASP.",
-    "security_audit_9_nmap5_title":"✔️ Nmap — http-server-header",
-    "security_audit_9_nmap5_text":"<code>Server: Vercel</code>",
-    "security_audit_9_nmap5_footer":"👉 Нормально та безпечно.",
-    "security_audit_9_nmap6_title":"✔️ Nmap — fingerprint",
-    "security_audit_9_nmap6_text":"Відповіді: 400 Bad Request, 404 Not Found, DEPLOYMENT_NOT_FOUND",
-    "security_audit_9_nmap6_footer":"👉 Внутрішні відповіді Vercel на незвичайні запити. Жодної небезпеки.",
-    "security_audit_9_nmap7_title":"✔️ Nmap — http-enum",
-    "security_audit_9_nmap7_text":"Результат: 443/tcp open https",
-    "security_audit_9_nmap7_footer":"👉 Жодних конфіденційних ресурсів, жодних прихованих сторінок, жодних відкритих служб.",
-    "security_audit_9_curl_title":"✔️ Результат curl",
-    "security_audit_9_curl_text":"Curl показує лише: захисти, заголовки безпеки, анти-бот механізми.",
-    "security_audit_9_curl_footer":"👉 Жодних аномалій, жодних вразливостей, жодного ризику.",
-    "security_engagement_title":"👨‍💻 Зобов'язання щодо безпеки",
-    "security_engagement_p1":"Як <strong>професійний пентестер</strong>, я володію знаннями про вразливості безпеки та механізми атак. Цей сайт був спроектований, розроблений та перевірений з тими ж вимогами, що й банківське середовище.",
-    "security_engagement_p2":"Якщо ви дослідник безпеки, розробник або допитливий користувач і виявили аномалію, вразливість або підозрілу поведінку, <strong>негайно зв'яжіться зі мною</strong>:",
-    "security_engagement_phone":"<strong>Телефон:</strong> <a href='tel:0780204749' style='color: var(--gold); text-decoration: underline;'>07.80.20.47.49</a>",
-    "security_engagement_email":"<strong>Email:</strong> <a href='mailto:lanceglorieuse@gmail.com' style='color: var(--gold); text-decoration: underline;'>lanceglorieuse@gmail.com</a>",
-    "security_engagement_thanks":"Заздалегідь дякую за вашу пильність і внесок у безпеку цього сайту. 🙏",
-    "security_conclusion_title":"🟢 Твердий висновок",
-    "security_conclusion_p1":"Аналізи Nmap і curl доводять, що:",
-    "security_conclusion_l1":"✅ сайт безпечний",
-    "security_conclusion_l2":"✅ захисти активні",
-    "security_conclusion_l3":"✅ вразливостей не існує",
-    "security_conclusion_l4":"✅ небезпечних елементів не виявлено",
-    "security_conclusion_l5":"✅ ніщо не впливає на відвідувачів",
-    "security_conclusion_l6":"✅ конфігурація професійна, сувора та відповідає вимогам",
-    "security_conclusion_final":"👉 Shop de Légende — це високобезпечний, надійний та захищений сайт."
-  }
-};
+<!-- TRADUCTIONS (fichier externe) -->
+<script src="translations.js"></script>
 
+<script>
 (function(){
   "use strict";
 
