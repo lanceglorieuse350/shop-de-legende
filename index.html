@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://www.googletagmanager.com https://va.vercel-scripts.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; media-src 'self'; connect-src 'self' https://api.getlecart.com https://vitals.vercel-insights.com; frame-src 'self' https://js.stripe.com https://buy.stripe.com; frame-ancestors 'self'; base-uri 'self'; object-src 'none'; form-action 'self' mailto:;">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>GUILLET IV — L'Ordre de l'Indépendance</title>
 <meta name="description" content="GUILLET IV — Boutique, prévention cybersécurité, prévention harcèlement et conseils produits.">
@@ -26,143 +27,127 @@
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
 <script defer src="/_vercel/insights/script.js"></script>
 
+<!-- ============================================================
+     CSS — CORRECTION DU PANIER LECART
+     ============================================================ -->
 <style>
-/* ============================================================
-   LECART (PANIER) - SURCHARGE POUR PLUS DE VISIBILITÉ
-   ============================================================ */
-:root {
-  --lecart-primary-color: #ffd700;
-  --lecart-accent-color: #e10600;
-  --lecart-bg-color: #0f0f0f;
-  --lecart-text-color: #ffffff;
-  --lecart-border-color: rgba(255, 215, 0, 0.4);
+/* 1. ON CACHE LE WIDGET FLOTTANT PAR DÉFAUT DE LECART QUI CASSE LA PAGE */
+.lecart-container, 
+.lecart-widget, 
+.lecart-cart-widget,
+.lecart-floating-cart,
+.lecart-mini-cart {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+  z-index: -9999 !important;
 }
 
-.lecart-cart-drawer, .lecart-drawer {
+/* 2. ON GARDE LE TIROIR (DRAWER) CACHÉ À DROITE PAR DÉFAUT */
+.lecart-drawer, 
+.lecart-cart-drawer,
+.lecart-sidebar,
+.lecart-panel {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: auto !important;
+  width: 400px !important;
+  max-width: 100vw !important;
+  height: 100vh !important;
   background: #111 !important;
   box-shadow: -10px 0 30px rgba(0,0,0,0.8) !important;
   border-left: 1px solid rgba(255,215,0,0.2) !important;
+  transform: translateX(100%) !important; 
+  transition: transform 0.3s ease !important;
+  z-index: 99999 !important;
 }
 
-.lecart-cart-title {
-  font-family: 'Cinzel', serif !important;
-  color: #ffd700 !important;
-  font-size: 1.2rem !important;
-  letter-spacing: 0.05em !important;
+/* QUAND ON AJOUTE LA CLASSE OPEN, LE TIROIR S'AFFICHE */
+.lecart-container.open,
+.lecart-drawer.open, 
+.lecart-cart-drawer.open,
+.lecart-sidebar.open,
+.lecart-panel.open {
+  transform: translateX(0) !important;
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  top: 0 !important;
+  left: auto !important;
+  z-index: 99999 !important;
 }
 
-.lecart-item-title {
-  font-family: 'Playfair Display', serif !important;
-  font-size: 1rem !important;
-  color: #fff !important;
+/* FOND SOMBRE DERRIÈRE LE TIROIR */
+.lecart-backdrop {
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(0,0,0,0.8) !important;
+  backdrop-filter: blur(4px) !important;
+  z-index: 99998 !important;
+  display: none;
+}
+.lecart-container.open .lecart-backdrop {
+  display: block !important;
 }
 
-.lecart-item-price {
-  color: #ffd700 !important;
-  font-weight: 700 !important;
-}
+/* 3. STYLES INTERNES DU TIROIR */
+.lecart-cart-title { font-family: 'Cinzel', serif !important; color: #ffd700 !important; font-size: 1.2rem !important; letter-spacing: 0.05em !important; }
+.lecart-item-title { font-family: 'Playfair Display', serif !important; font-size: 1rem !important; color: #fff !important; }
+.lecart-item-price { color: #ffd700 !important; font-weight: 700 !important; }
 
-/* --- CORRECTION DU SÉLECTEUR DE QUANTITÉ (le fameux - 1 +) --- */
 .lecart-qty-selector, .lecart-quantity {
-  display: inline-flex !important;
-  align-items: center !important;
-  background: #000 !important;
-  border: 1px solid rgba(255, 215, 0, 0.4) !important;
-  border-radius: 8px !important;
-  padding: 2px !important;
-  margin-top: 10px !important;
+  display: inline-flex !important; align-items: center !important;
+  background: #000 !important; border: 1px solid rgba(255, 215, 0, 0.4) !important;
+  border-radius: 8px !important; padding: 2px !important; margin-top: 10px !important;
 }
-
 .lecart-qty-selector button, .lecart-quantity button {
-  background: #1a1a1a !important;
-  color: #ffd700 !important;
-  border: none !important;
-  width: 32px !important;
-  height: 32px !important;
-  border-radius: 6px !important;
-  font-size: 1.2rem !important;
-  font-weight: bold !important;
-  cursor: pointer !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+  background: #1a1a1a !important; color: #ffd700 !important; border: none !important;
+  width: 32px !important; height: 32px !important; border-radius: 6px !important;
+  font-size: 1.2rem !important; font-weight: bold !important; cursor: pointer !important;
+  display: flex !important; align-items: center !important; justify-content: center !important;
   transition: background 0.2s !important;
 }
-
-.lecart-qty-selector button:hover, .lecart-quantity button:hover {
-  background: #333 !important;
-}
-
+.lecart-qty-selector button:hover, .lecart-quantity button:hover { background: #333 !important; }
 .lecart-qty-selector input, .lecart-quantity input {
-  background: transparent !important;
-  border: none !important;
-  color: #fff !important;
-  font-size: 1rem !important;
-  font-weight: bold !important;
-  width: 40px !important;
-  text-align: center !important;
-  pointer-events: none !important;
+  background: transparent !important; border: none !important; color: #fff !important;
+  font-size: 1rem !important; font-weight: bold !important; width: 40px !important;
+  text-align: center !important; pointer-events: none !important;
 }
-
 .lecart-item-remove {
-  background: rgba(225, 6, 0, 0.15) !important;
-  color: #e10600 !important;
-  border-radius: 50% !important;
-  width: 28px !important;
-  height: 28px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  border: none !important;
-  transition: background 0.2s !important;
+  background: rgba(225, 6, 0, 0.15) !important; color: #e10600 !important;
+  border-radius: 50% !important; width: 28px !important; height: 28px !important;
+  display: flex !important; align-items: center !important; justify-content: center !important;
+  border: none !important; transition: background 0.2s !important;
 }
-.lecart-item-remove:hover {
-  background: rgba(225, 6, 0, 0.3) !important;
-}
-
-.lecart-summary {
-  border-top: 1px solid rgba(255,215,0,0.2) !important;
-  padding-top: 1.5rem !important;
-}
-.lecart-subtotal-label {
-  font-family: 'Inter', sans-serif !important;
-  color: #aaa !important;
-  font-size: 1rem !important;
-}
-.lecart-subtotal-value {
-  font-family: 'Cinzel', serif !important;
-  color: #ffd700 !important;
-  font-size: 1.4rem !important;
-  font-weight: bold !important;
-}
-
+.lecart-item-remove:hover { background: rgba(225, 6, 0, 0.3) !important; }
+.lecart-summary { border-top: 1px solid rgba(255,215,0,0.2) !important; padding-top: 1.5rem !important; }
+.lecart-subtotal-label { font-family: 'Inter', sans-serif !important; color: #aaa !important; font-size: 1rem !important; }
+.lecart-subtotal-value { font-family: 'Cinzel', serif !important; color: #ffd700 !important; font-size: 1.4rem !important; font-weight: bold !important; }
 .lecart-checkout-btn {
-  background: linear-gradient(135deg, #ffd700, #b8860b) !important;
-  color: #000 !important;
-  font-family: 'Cinzel', serif !important;
-  font-weight: 700 !important;
-  font-size: 1.1rem !important;
-  padding: 1.2rem !important;
-  border-radius: 12px !important;
-  border: 1px solid #ffd700 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.05em !important;
+  background: linear-gradient(135deg, #ffd700, #b8860b) !important; color: #000 !important;
+  font-family: 'Cinzel', serif !important; font-weight: 700 !important; font-size: 1.1rem !important;
+  padding: 1.2rem !important; border-radius: 12px !important; border: 1px solid #ffd700 !important;
+  text-transform: uppercase !important; letter-spacing: 0.05em !important;
   box-shadow: 0 4px 15px rgba(255, 215, 0, 0.2) !important;
-  transition: all 0.3s ease !important;
-  margin-bottom: 1rem !important;
+  transition: all 0.3s ease !important; margin-bottom: 1rem !important;
 }
 .lecart-checkout-btn:hover {
-  background: transparent !important;
-  color: #ffd700 !important;
-  transform: translateY(-2px) !important;
-  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4) !important;
+  background: transparent !important; color: #ffd700 !important;
+  transform: translateY(-2px) !important; box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4) !important;
 }
 </style>
 
+<!-- ============================================================
+     CSS — VARIABLES & BASES GLOBALES
+     ============================================================ -->
 <style>
-/* ============================================================
-   VARIABLES ET BASES GLOBALES
-   ============================================================ */
 :root{
   --bg:#050505;--text:#fff;--card-bg:#101010;--card-bg-2:#181818;
   --gold:#ffd700;--gold-bright:#ffe97a;--gold-dark:#b8860b;
@@ -181,12 +166,9 @@ body.light-mode{
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 [id]{scroll-margin-top:90px}
-
 body{
   margin:0;background:var(--bg);color:var(--text);
-  font-family:var(--font-body);
-  font-size:1.05rem;
-  line-height:1.75;
+  font-family:var(--font-body);font-size:1.05rem;line-height:1.75;
   -webkit-font-smoothing:antialiased;overflow-x:hidden;
   background-image:
     radial-gradient(ellipse at 20% 0%,rgba(255,215,0,0.03),transparent 50%),
@@ -208,9 +190,7 @@ p,li,h1,h2,h3,h4{overflow-wrap:anywhere}
 ::-webkit-scrollbar{width:10px;height:10px}
 ::-webkit-scrollbar-track{background:var(--card-bg)}
 ::-webkit-scrollbar-thumb{background:var(--gold);border-radius:5px;border:2px solid var(--card-bg)}
-
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-
 @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 @keyframes shimmer{0%{background-position:-200% 50%}100%{background-position:200% 50%}}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
@@ -220,13 +200,10 @@ p,li,h1,h2,h3,h4{overflow-wrap:anywhere}
 @keyframes badgeBounce{0%,100%{transform:translateY(0);}50%{transform:translateY(-5px);}}
 @keyframes chatOpen{from{opacity:0;transform:scale(.85) translateY(12px);}to{opacity:1;transform:scale(1) translateY(0);}}
 @keyframes cartBump{0%{transform:scale(1);}35%{transform:scale(1.5);}70%{transform:scale(.9);}100%{transform:scale(1);}}
-
 .page-section{display:none;animation:fadeIn 0.3s ease}
 .page-section.active{display:block}
 
-/* ============================================================
-   NAVBAR ET MENU AVEC ÉMOJIS
-   ============================================================ */
+/* NAVBAR */
 .navbar{
   position:sticky;top:0;z-index:200;
   display:flex;flex-direction:column;align-items:stretch;
@@ -253,20 +230,9 @@ body.light-mode .navbar{background:rgba(255,255,255,.95)}
 .brand-sub{font-size:.6rem;color:var(--text);font-weight:600;letter-spacing:.08em;opacity:.85}
 .navbar-tools{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;justify-content:center}
 .search-container{position:relative;width:100%;max-width:300px}
-#searchInput{
-  width:100%;padding:.6rem 2.5rem .6rem 1rem;
-  border:1px solid var(--border-color);border-radius:var(--radius-md);
-  background:var(--card-bg);font-size:.9rem;
-}
-#clearSearch{
-  position:absolute;right:4px;top:50%;transform:translateY(-50%);
-  background:transparent;border:0;font-size:1.2rem;color:var(--text);
-}
-.search-suggestions{
-  position:absolute;top:calc(100% + 6px);left:0;right:0;z-index:500;
-  background:var(--card-bg);border:1px solid var(--gold);border-radius:var(--radius-md);
-  box-shadow:0 10px 30px rgba(0,0,0,0.5);max-height:300px;overflow-y:auto;
-}
+#searchInput{width:100%;padding:.6rem 2.5rem .6rem 1rem;border:1px solid var(--border-color);border-radius:var(--radius-md);background:var(--card-bg);font-size:.9rem}
+#clearSearch{position:absolute;right:4px;top:50%;transform:translateY(-50%);background:transparent;border:0;font-size:1.2rem;color:var(--text)}
+.search-suggestions{position:absolute;top:calc(100% + 6px);left:0;right:0;z-index:500;background:var(--card-bg);border:1px solid var(--gold);border-radius:var(--radius-md);box-shadow:0 10px 30px rgba(0,0,0,0.5);max-height:300px;overflow-y:auto}
 .search-heading{margin:0;padding:.6rem 1rem;color:var(--gold);font-size:.75rem;font-weight:700;border-bottom:1px solid var(--border-color)}
 #searchResults{list-style:none;padding:0;margin:0}
 .search-result{display:flex;justify-content:space-between;padding:.6rem 1rem;color:var(--text);text-decoration:none;border-bottom:1px solid var(--border-color);font-size:.85rem}
@@ -274,72 +240,28 @@ body.light-mode .navbar{background:rgba(255,255,255,.95)}
 .mode-btn,.lang-select{padding:.5rem .8rem;border-radius:var(--radius-md);font-size:.8rem;font-weight:700;border:1px solid var(--border-color)}
 .mode-btn{background:var(--gold);color:#000}
 .lang-select{background:var(--card-bg);color:var(--text)}
-
-/* Liens du menu avec Émojis */
-.navbar-links{
-  display:flex;gap:.5rem;overflow-x:auto;padding:.8rem 0 .3rem;
-  scrollbar-width:none;border-top:1px solid rgba(255,255,255,0.05);margin-top:.5rem;
-}
+.navbar-links{display:flex;gap:.5rem;overflow-x:auto;padding:.8rem 0 .3rem;scrollbar-width:none;border-top:1px solid rgba(255,255,255,0.05);margin-top:.5rem}
 .navbar-links::-webkit-scrollbar{display:none}
-.navbar-links a{
-  display:flex;
-  align-items:center;
-  gap:0.4rem;
-  flex:0 0 auto;
-  font-family:var(--font-display);
-  font-size:.75rem;
-  font-weight:700;
-  padding:.4rem .6rem;
-  border-radius:var(--radius-sm);
-  white-space:nowrap;
-  transition:all .2s;
-}
+.navbar-links a{display:flex;align-items:center;gap:0.4rem;flex:0 0 auto;font-family:var(--font-display);font-size:.75rem;font-weight:700;padding:.4rem .6rem;border-radius:var(--radius-sm);white-space:nowrap;transition:all .2s}
 .navbar-links a:hover,.navbar-links a.active-link{color:var(--gold);background:rgba(255,215,0,0.1)}
 
-/* ============================================================
-   BANDEAU DÉFILANT
-   ============================================================ */
-.marquee-bar{
-  background:linear-gradient(90deg,#1a0000 0%,#000 25%,#0a0a0a 50%,#000 75%,#1a0000 100%);
-  border-top:2px solid var(--gold);border-bottom:2px solid var(--gold);
-  padding:.8rem 0;overflow:hidden;white-space:nowrap;
-  box-shadow:inset 0 0 20px rgba(255,215,0,0.1);
-}
-.marquee-content{
-  display:inline-block;padding-left:100%;
-  animation:marquee 60s linear infinite;
-  font-family:var(--font-display);font-size:1.1rem;font-weight:700;
-  color:var(--gold-bright);text-shadow:0 0 10px rgba(255,215,0,0.4);
-}
+/* MARQUEE */
+.marquee-bar{background:linear-gradient(90deg,#1a0000 0%,#000 25%,#0a0a0a 50%,#000 75%,#1a0000 100%);border-top:2px solid var(--gold);border-bottom:2px solid var(--gold);padding:.8rem 0;overflow:hidden;white-space:nowrap;box-shadow:inset 0 0 20px rgba(255,215,0,0.1)}
+.marquee-content{display:inline-block;padding-left:100%;animation:marquee 60s linear infinite;font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:var(--gold-bright);text-shadow:0 0 10px rgba(255,215,0,0.4)}
 .marquee-content span{margin:0 2rem;display:inline-block;vertical-align:middle}
 .marquee-content .marquee-icon{color:var(--red);font-size:1.2rem}
 
-/* ============================================================
-   LECTEUR AUDIO
-   ============================================================ */
-.audio-player{
-  width:calc(100% - 2rem);max-width:600px;margin:2.5rem auto;padding:1.5rem;
-  background:linear-gradient(135deg,var(--card-bg),var(--card-bg-2));
-  border:1px solid var(--border-color);border-radius:var(--radius-lg);
-  text-align:center;box-shadow:0 8px 24px rgba(0,0,0,0.4);
-}
+/* AUDIO */
+.audio-player{width:calc(100% - 2rem);max-width:600px;margin:2.5rem auto;padding:1.5rem;background:linear-gradient(135deg,var(--card-bg),var(--card-bg-2));border:1px solid var(--border-color);border-radius:var(--radius-lg);text-align:center;box-shadow:0 8px 24px rgba(0,0,0,0.4)}
 .audio-player h2{margin:0 0 1rem;color:var(--gold);font-family:var(--font-display);font-size:1.1rem;text-transform:uppercase;letter-spacing:0.05em}
-#musicSelect{
-  width:100%;margin:0 0 1.2rem;padding:.8rem 1rem;
-  background:#000;color:#fff;border:2px solid var(--gold);border-radius:var(--radius-md);
-  font-size:.95rem;cursor:pointer;appearance:none;
-  background-image:url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23ffd700%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
-  background-repeat:no-repeat;background-position:right 1rem top 50%;background-size:0.65rem auto;
-}
+#musicSelect{width:100%;margin:0 0 1.2rem;padding:.8rem 1rem;background:#000;color:#fff;border:2px solid var(--gold);border-radius:var(--radius-md);font-size:.95rem;cursor:pointer;appearance:none;background-image:url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23ffd700%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");background-repeat:no-repeat;background-position:right 1rem top 50%;background-size:0.65rem auto}
 #musicSelect::-webkit-scrollbar{width:14px}
 #musicSelect::-webkit-scrollbar-track{background:#1a1a1a}
 #musicSelect::-webkit-scrollbar-thumb{background:var(--gold);border-radius:4px;border:2px solid #000}
 #player{width:100%;border-radius:var(--radius-sm);outline:none;display:block}
-.audio-lang-note{font-size:.8rem;color:#999;font-style:italic;margin-top:.8rem;text-align:center;}
+.audio-lang-note{font-size:.8rem;color:#999;font-style:italic;margin-top:.8rem;text-align:center}
 
-/* ============================================================
-   HERO, DOCTRINE ET TITRES
-   ============================================================ */
+/* HERO & DOCTRINE */
 .hero{text-align:center;padding:3rem 1rem 2rem;max-width:1000px;margin:0 auto}
 .hero-slider{width:100%;max-width:800px;margin:0 auto 2rem;border:2px solid var(--gold);border-radius:var(--radius-lg);overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.5)}
 .hero-slide{width:100%;display:none;cursor:zoom-in;max-height:350px;object-fit:cover}
@@ -347,13 +269,7 @@ body.light-mode .navbar{background:rgba(255,255,255,.95)}
 .hero h1{margin:.5rem 0;color:var(--gold);font-family:var(--font-display);font-size:2.2rem;letter-spacing:.05em;text-shadow:0 0 20px rgba(255,215,0,0.4)}
 .hero .motto{font-size:1.3rem;font-weight:700;max-width:90%;margin:1.2rem auto;font-style:italic;color:#eaeaea;line-height:1.6}
 .hero .baseline{font-size:.85rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-dark)}
-
-.doctrine{
-  width:calc(100% - 2rem);max-width:900px;margin:0 auto 3rem;padding:3rem 2rem;
-  background:linear-gradient(135deg,var(--card-bg),#0a0a0a 70%,var(--card-bg));
-  border:1px solid var(--border-color);border-radius:var(--radius-lg);
-  text-align:center;box-shadow:0 10px 30px rgba(0,0,0,0.4);
-}
+.doctrine{width:calc(100% - 2rem);max-width:900px;margin:0 auto 3rem;padding:3rem 2rem;background:linear-gradient(135deg,var(--card-bg),#0a0a0a 70%,var(--card-bg));border:1px solid var(--border-color);border-radius:var(--radius-lg);text-align:center;box-shadow:0 10px 30px rgba(0,0,0,0.4)}
 body.light-mode .doctrine{background:linear-gradient(135deg,#fff,#fff3f3)}
 .doctrine h2{font-family:var(--font-display);font-size:1.6rem;color:var(--gold);margin:0 0 1.2rem}
 .doctrine p{font-size:1.05rem;font-weight:500;line-height:1.8;max-width:800px;margin:0 auto 2.5rem}
@@ -362,20 +278,12 @@ body.light-mode .doctrine{background:linear-gradient(135deg,#fff,#fff3f3)}
 .pillar:hover{transform:translateY(-4px);border-color:var(--gold);box-shadow:0 6px 15px rgba(255,215,0,0.1)}
 .pillar h3{font-family:var(--font-display);color:var(--gold);font-size:1.2rem;margin:0 0 .6rem}
 .pillar p{font-size:.95rem;margin:0;line-height:1.7;opacity:0.85}
-
 .section-title{text-align:center;font-family:var(--font-display);font-size:2.2rem;color:var(--gold);margin:4rem 0 1rem}
 .intro{text-align:center;max-width:80%;margin:0 auto 3rem;font-size:1.1rem;font-style:italic;opacity:.8}
 
-/* ============================================================
-   PRODUITS
-   ============================================================ */
+/* PRODUITS */
 .products-grid{display:flex;flex-direction:column;gap:2.5rem;max-width:1000px;margin:0 auto 4rem;padding:0 1rem}
-.product-card{
-  display:flex;flex-direction:column;gap:1.5rem;
-  background:linear-gradient(135deg,var(--card-bg),#0a0a0a);
-  border:1px solid var(--border-color);border-radius:var(--radius-lg);
-  padding:1.5rem;transition:border-color 0.3s, box-shadow 0.3s;
-}
+.product-card{display:flex;flex-direction:column;gap:1.5rem;background:linear-gradient(135deg,var(--card-bg),#0a0a0a);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:1.5rem;transition:border-color 0.3s, box-shadow 0.3s}
 .product-card:hover{border-color:var(--gold);box-shadow:0 8px 25px rgba(255,215,0,0.08)}
 .product-images{display:flex;flex-direction:row;gap:.8rem;flex-wrap:wrap;justify-content:center}
 .product-image{width:100%;max-width:100%;border:1px solid var(--border-color);border-radius:var(--radius-md);cursor:zoom-in;aspect-ratio:4/3;object-fit:cover;background:#000}
@@ -395,26 +303,17 @@ body.light-mode .off{color:#007700}
 .details h4{color:var(--gold);font-size:1.1rem;margin:1.2rem 0 .6rem}
 .details ul,.details ol{padding-left:1.4rem;margin:.4rem 0}
 .details li{margin-bottom:.5rem;line-height:1.6}
-.payment-btn{
-  display:block;width:100%;text-align:center;
-  background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;
-  border:1px solid var(--gold);border-radius:var(--radius-md);
-  padding:1rem;font-size:1.05rem;font-weight:700;margin-top:1rem;transition:all .2s;
-}
+.payment-btn{display:block;width:100%;text-align:center;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:1px solid var(--gold);border-radius:var(--radius-md);padding:1rem;font-size:1.05rem;font-weight:700;margin-top:1rem;transition:all .2s}
 .payment-btn:hover{background:transparent;color:var(--gold)}
 
-/* ============================================================
-   SECTIONS INFOS, ABOUT & AUTRES
-   ============================================================ */
+/* SECTIONS DIVERSES */
 .beauty-hero{text-align:center;padding:2.5rem 1.5rem;background:linear-gradient(135deg,rgba(255,182,193,0.1),rgba(0,0,0,0.8) 60%);border-radius:var(--radius-lg);margin:2.5rem auto;max-width:900px;border:1px solid var(--border-color)}
 .beauty-hero h1{font-family:var(--font-display);font-size:2.2rem;color:var(--gold);margin:0 0 .8rem}
 .beauty-hero .beauty-sub{font-family:var(--font-display);font-size:.95rem;color:var(--pink);letter-spacing:.1em;text-transform:uppercase;font-weight:700}
 .beauty-hero p.beauty-intro{max-width:80%;margin:1.5rem auto 1rem;font-size:1.05rem;line-height:1.7}
-
 .beauty-clients-grid{display:grid;grid-template-columns:1fr;gap:1.2rem;width:calc(100% - 2rem);max-width:1000px;margin:0 auto}
 .beauty-client-img{width:100%;aspect-ratio:1/1;object-fit:cover;border:1px solid var(--border-color);border-radius:var(--radius-md);cursor:zoom-in;background:#000;transition:border-color .2s, transform .2s}
 .beauty-client-img:hover{border-color:var(--gold);transform:scale(1.02)}
-
 .about-section{width:calc(100% - 2rem);max-width:900px;margin:0 auto 4rem;padding:3rem 2rem;background:linear-gradient(135deg,rgba(225,6,0,0.15),rgba(0,0,0,0.95) 60%);border:1px solid var(--border-color);border-radius:var(--radius-lg);text-align:center}
 .about-section h2{font-family:var(--font-display);font-size:1.7rem;color:var(--gold);margin:0 0 .8rem}
 .about-section .about-sub{font-family:var(--font-display);font-size:.85rem;color:#ff9a9a;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin-bottom:2rem;display:block}
@@ -428,31 +327,25 @@ body.light-mode .off{color:#007700}
 .btn-about-primary:hover{background:transparent;color:var(--gold)}
 .btn-about-secondary{background:transparent;color:var(--gold);border-color:var(--gold)}
 .btn-about-secondary:hover{background:var(--gold);color:#000}
-
 .vinted-card{background:rgba(0,0,0,0.6);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:2.5rem 1.5rem;max-width:900px;margin:0 auto;text-align:center}
 .vinted-rating{display:inline-flex;align-items:center;gap:.6rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;padding:.7rem 1.5rem;border-radius:40px;font-weight:700;font-size:1rem;margin-bottom:1.8rem;box-shadow:0 4px 15px rgba(255,215,0,0.2)}
 .vinted-rating span{color:var(--red);font-size:1.1rem}
 .vinted-btn{display:block;width:100%;background:linear-gradient(135deg,var(--gold),var(--red));color:#000;font-family:var(--font-display);font-weight:700;font-size:1.1rem;padding:1.2rem;border-radius:var(--radius-md);text-decoration:none;border:1px solid #fff;text-transform:uppercase;text-align:center;transition:transform 0.2s}
 .vinted-btn:hover{transform:scale(1.02)}
-
 .info{width:calc(100% - 2rem);max-width:900px;margin:0 auto 2rem;padding:2rem 1.5rem;background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);font-size:1rem}
 .info h2{text-align:center;font-family:var(--font-display);font-size:1.4rem;color:var(--gold);margin:0 0 1.5rem}
 .info p{margin:.6rem 0;line-height:1.7;text-align:center}
-
 .page-container{width:calc(100% - 2rem);max-width:1000px;margin:3rem auto;padding:3rem 2rem;background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg)}
 .page-container h1{font-family:var(--font-display);font-size:2rem;color:var(--gold);text-align:center;margin-bottom:2.5rem}
 .page-container h2{font-family:var(--font-display);font-size:1.3rem;color:var(--gold);margin-top:2.5rem;margin-bottom:1.2rem;border-bottom:1px solid var(--border-color);padding-bottom:.6rem}
 .page-container p,.page-container li{font-size:1rem;margin-bottom:1rem;line-height:1.7}
 .page-container section{margin-bottom:2.5rem;padding-bottom:1rem}
 .page-container em{color:var(--red);font-style:italic}
-
 .return-btn{display:block;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;font-family:var(--font-display);font-weight:700;font-size:1rem;padding:1rem 2.5rem;border-radius:var(--radius-md);text-decoration:none;border:1px solid var(--gold);margin:2.5rem auto 0;text-align:center;max-width:300px;transition:all 0.2s}
 .return-btn:hover{background:transparent;color:var(--gold)}
-
 .faq-item{margin-bottom:1.5rem;background:rgba(255,255,255,0.02);border-left:4px solid var(--gold);padding:1.5rem;border-radius:0 var(--radius-md) var(--radius-md) 0}
 .faq-item h3{font-family:var(--font-display);color:var(--gold);margin-top:0;margin-bottom:.6rem;font-size:1.1rem}
 .faq-item p{margin:0;line-height:1.7;font-size:1rem;opacity:0.9}
-
 .contact-form{display:flex;flex-direction:column;gap:1.2rem;max-width:600px;margin:0 auto}
 .contact-form input,.contact-form textarea{width:100%;padding:1rem 1.2rem;background:#000;border:1px solid var(--border-color);border-radius:var(--radius-md);color:#fff;font-size:1rem;transition:border-color 0.2s}
 .contact-form input:focus,.contact-form textarea:focus{border-color:var(--gold);outline:none}
@@ -460,157 +353,56 @@ body.light-mode .contact-form input,body.light-mode .contact-form textarea{backg
 .contact-form button{background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;font-family:var(--font-display);font-weight:700;padding:1.2rem;border-radius:var(--radius-md);border:1px solid var(--gold);font-size:1.05rem;transition:all .2s}
 .contact-form button:hover{background:transparent;color:var(--gold)}
 
-/* ============================================================
-   MODAL ZOOM
-   ============================================================ */
+/* ZOOM */
 #zoomModal{display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.96);backdrop-filter:blur(8px);justify-content:center;align-items:center;padding:1rem}
 #zoomModal img{max-width:100%;max-height:85vh;object-fit:contain;border:2px solid var(--gold);border-radius:var(--radius-md)}
 .zoom-close{position:absolute;top:1.5rem;right:1.5rem;width:48px;height:48px;border:1px solid #fff;border-radius:50%;background:rgba(0,0,0,0.8);color:#fff;font-size:1.6rem;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:background 0.2s}
 .zoom-close:hover{background:rgba(225,6,0,0.8)}
 
-/* ============================================================
-   PRÉVENTION HARCELEMENT (DESIGN PREMIUM)
-   ============================================================ */
+/* PRÉVENTION HARCELEMENT */
 .prevention-page{display:none;position:fixed;inset:0;z-index:5000;background:#0a0a0a;overflow-y:auto;overscroll-behavior:contain}
 .prevention-page.open{display:block;animation:fadeIn .3s ease}
-
-.prevention-header{
-  position:sticky;top:0;z-index:10;
-  background:linear-gradient(135deg,#000 0%,#1a0000 50%,#000 100%);
-  border-bottom:2px solid var(--gold);
-  padding:1.2rem;
-  display:flex;justify-content:space-between;align-items:center;gap:.6rem;
-  box-shadow:0 4px 15px rgba(0,0,0,0.5);
-}
-.prevention-header h1{font-family:var(--font-display);font-size:1.4rem;color:var(--gold);margin:0;display:flex;align-items:center;gap:.6rem;}
-
-.prevention-close{
-  background:rgba(225,6,0,0.2);
-  border:2px solid var(--red);
-  color:#fff;
-  width:48px;height:48px;
-  border-radius:50%;
-  font-size:1.5rem;font-weight:bold;
-  display:flex;align-items:center;justify-content:center;
-  transition:all 0.2s;
-  cursor:pointer;
-}
-.prevention-close:hover{background:var(--red);transform:scale(1.1);}
-
+.prevention-header{position:sticky;top:0;z-index:10;background:linear-gradient(135deg,#000 0%,#1a0000 50%,#000 100%);border-bottom:2px solid var(--gold);padding:1.2rem;display:flex;justify-content:space-between;align-items:center;gap:.6rem;box-shadow:0 4px 15px rgba(0,0,0,0.5)}
+.prevention-header h1{font-family:var(--font-display);font-size:1.4rem;color:var(--gold);margin:0;display:flex;align-items:center;gap:.6rem}
+.prevention-close{background:rgba(225,6,0,0.2);border:2px solid var(--red);color:#fff;width:48px;height:48px;border-radius:50%;font-size:1.5rem;font-weight:bold;display:flex;align-items:center;justify-content:center;transition:all 0.2s;cursor:pointer}
+.prevention-close:hover{background:var(--red);transform:scale(1.1)}
 .prevention-content{max-width:var(--container-max);margin:0 auto;padding:2.5rem 1.5rem}
-
-.prevention-intro-box{
-  background:linear-gradient(135deg, rgba(46,168,255,0.1), rgba(0,0,0,0.5));
-  border:1px solid var(--blue);
-  border-radius:var(--radius-md);
-  padding:2.5rem;
-  margin-bottom:2.5rem;
-  text-align:center;
-  box-shadow:0 8px 25px rgba(46,168,255,0.1);
-}
+.prevention-intro-box{background:linear-gradient(135deg, rgba(46,168,255,0.1), rgba(0,0,0,0.5));border:1px solid var(--blue);border-radius:var(--radius-md);padding:2.5rem;margin-bottom:2.5rem;text-align:center;box-shadow:0 8px 25px rgba(46,168,255,0.1)}
 .prevention-intro-box p{color:#fff;margin:0 0 1rem;font-size:1.1rem;line-height:1.7}
 .prevention-intro-box p:last-child{margin-bottom:0}
-.prevention-intro-box strong{color:var(--blue);font-size:1.2rem;}
-
-/* Sommaire restylé */
-.prevention-summary{
-  background:rgba(255,215,0,0.02);
-  border:1px solid var(--border-color);
-  border-radius:var(--radius-md);
-  padding:2.5rem;
-  margin-bottom:3rem;
-  box-shadow:0 4px 20px rgba(0,0,0,0.3);
-}
-.prevention-summary h2{font-family:var(--font-display);font-size:1.3rem;color:var(--gold);margin:0 0 1.5rem;text-align:center;display:flex;align-items:center;justify-content:center;gap:.6rem;}
+.prevention-intro-box strong{color:var(--blue);font-size:1.2rem}
+.prevention-summary{background:rgba(255,215,0,0.02);border:1px solid var(--border-color);border-radius:var(--radius-md);padding:2.5rem;margin-bottom:3rem;box-shadow:0 4px 20px rgba(0,0,0,0.3)}
+.prevention-summary h2{font-family:var(--font-display);font-size:1.3rem;color:var(--gold);margin:0 0 1.5rem;text-align:center;display:flex;align-items:center;justify-content:center;gap:.6rem}
 .prevention-summary ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr;gap:1rem}
-.prevention-summary li{background:rgba(0,0,0,0.5);border-left:4px solid var(--red);border-radius:0 var(--radius-sm) var(--radius-sm) 0;transition:transform 0.2s, background 0.2s;}
-.prevention-summary li:hover{transform:translateX(5px);background:rgba(0,0,0,0.8);}
-.prevention-summary a{color:#fff;font-weight:600;display:flex;align-items:center;gap:.8rem;font-size:1.05rem;padding:1.2rem 1.5rem;transition:color 0.2s;}
-.prevention-summary a:hover{color:var(--gold);}
-
-/* Sections de prévention */
+.prevention-summary li{background:rgba(0,0,0,0.5);border-left:4px solid var(--red);border-radius:0 var(--radius-sm) var(--radius-sm) 0;transition:transform 0.2s, background 0.2s}
+.prevention-summary li:hover{transform:translateX(5px);background:rgba(0,0,0,0.8)}
+.prevention-summary a{color:#fff;font-weight:600;display:flex;align-items:center;gap:.8rem;font-size:1.05rem;padding:1.2rem 1.5rem;transition:color 0.2s}
+.prevention-summary a:hover{color:var(--gold)}
 .prevention-section-block{margin-bottom:4rem;padding-top:.5rem}
-.prevention-title-blue,.prevention-title-white,.prevention-title-red{
-  font-family:var(--font-display);
-  font-size:1.5rem;
-  margin:0 0 1.5rem;
-  border-bottom:2px solid;
-  padding-bottom:.8rem;
-  display:flex;align-items:center;gap:.8rem;
-}
+.prevention-title-blue,.prevention-title-white,.prevention-title-red{font-family:var(--font-display);font-size:1.5rem;margin:0 0 1.5rem;border-bottom:2px solid;padding-bottom:.8rem;display:flex;align-items:center;gap:.8rem}
 .prevention-title-blue{color:var(--blue);border-color:rgba(46,168,255,0.4)}
 .prevention-title-white{color:#fff;border-color:rgba(255,255,255,0.3)}
 .prevention-title-red{color:var(--red);border-color:rgba(225,6,0,0.4)}
-
-.prevention-card-full{
-  background:linear-gradient(135deg, rgba(20,20,20,0.9), rgba(5,5,5,0.9));
-  border:1px solid rgba(255,255,255,0.05);
-  border-radius:var(--radius-md);
-  padding:2.5rem;
-  margin-bottom:1.5rem;
-  box-shadow:0 10px 30px rgba(0,0,0,0.5);
-}
-.prevention-card-full h3{font-family:var(--font-display);font-size:1.15rem;margin-bottom:1.5rem;color:var(--gold);display:flex;align-items:center;gap:.6rem;}
+.prevention-card-full{background:linear-gradient(135deg, rgba(20,20,20,0.9), rgba(5,5,5,0.9));border:1px solid rgba(255,255,255,0.05);border-radius:var(--radius-md);padding:2.5rem;margin-bottom:1.5rem;box-shadow:0 10px 30px rgba(0,0,0,0.5)}
+.prevention-card-full h3{font-family:var(--font-display);font-size:1.15rem;margin-bottom:1.5rem;color:var(--gold);display:flex;align-items:center;gap:.6rem}
 .prevention-card-full p{color:#ccc;font-size:1.05rem;margin-bottom:1.5rem;line-height:1.8}
-
 .prevention-list{list-style:none;padding:0;margin:0 0 1.5rem}
-.prevention-list li{
-  padding:1.2rem 0;
-  border-bottom:1px solid rgba(255,255,255,0.08);
-  color:#fff;
-  font-size:1.05rem;
-  line-height:1.6;
-  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.8rem;
-}
+.prevention-list li{padding:1.2rem 0;border-bottom:1px solid rgba(255,255,255,0.08);color:#fff;font-size:1.05rem;line-height:1.6;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.8rem}
 .prevention-list li:last-child{border-bottom:none}
-.prevention-list li strong{color:#fff;font-size:1.05rem;}
-.prevention-list li .peine{
-  display:inline-block;
-  background:linear-gradient(135deg,var(--red),#a80000);
-  color:#fff;
-  padding:.5rem 1rem;
-  border-radius:var(--radius-sm);
-  font-weight:700;
-  font-size:.95rem;
-  box-shadow:0 4px 10px rgba(225,6,0,0.4);
-  border:1px solid rgba(255,255,255,0.2);
-}
-
-.prevention-warning-box{
-  background:linear-gradient(135deg, rgba(225,6,0,0.15), rgba(0,0,0,0.8));
-  border:2px solid var(--red);
-  border-radius:var(--radius-md);
-  padding:2.5rem;
-  margin:3rem 0;
-  text-align:center;
-  box-shadow:0 10px 30px rgba(225,6,0,0.2);
-}
+.prevention-list li strong{color:#fff;font-size:1.05rem}
+.prevention-list li .peine{display:inline-block;background:linear-gradient(135deg,var(--red),#a80000);color:#fff;padding:.5rem 1rem;border-radius:var(--radius-sm);font-weight:700;font-size:.95rem;box-shadow:0 4px 10px rgba(225,6,0,0.4);border:1px solid rgba(255,255,255,0.2)}
+.prevention-warning-box{background:linear-gradient(135deg, rgba(225,6,0,0.15), rgba(0,0,0,0.8));border:2px solid var(--red);border-radius:var(--radius-md);padding:2.5rem;margin:3rem 0;text-align:center;box-shadow:0 10px 30px rgba(225,6,0,0.2)}
 .prevention-warning-box p{color:#fff;font-size:1.15rem;font-weight:600;margin:0 0 1rem;line-height:1.7}
 .prevention-warning-box p:last-child{margin-bottom:0}
-.prevention-warning-box strong{color:var(--red);font-size:1.3rem;}
-
+.prevention-warning-box strong{color:var(--red);font-size:1.3rem}
 .prevention-actions{display:flex;flex-direction:column;gap:1.5rem;margin:3rem 0;align-items:center}
-.prevention-btn{
-  display:block;
-  padding:1.2rem 2.5rem;
-  font-family:var(--font-display);
-  font-weight:700;
-  font-size:1.1rem;
-  text-decoration:none;
-  border-radius:var(--radius-md);
-  text-align:center;
-  width:100%;
-  max-width:400px;
-  transition:transform 0.2s, box-shadow 0.2s;
-}
-.prevention-btn:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(0,0,0,0.4);}
+.prevention-btn{display:block;padding:1.2rem 2.5rem;font-family:var(--font-display);font-weight:700;font-size:1.1rem;text-decoration:none;border-radius:var(--radius-md);text-align:center;width:100%;max-width:400px;transition:transform 0.2s, box-shadow 0.2s}
+.prevention-btn:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(0,0,0,0.4)}
 .prevention-btn-primary{background:var(--gold);color:#000;border:1px solid var(--gold)}
 .prevention-btn-danger{background:linear-gradient(135deg,var(--red),#a80000);color:#fff;border:1px solid var(--red)}
-.prevention-footer-note{text-align:center;color:#888;font-size:.95rem;margin-top:3rem;font-style:italic;}
+.prevention-footer-note{text-align:center;color:#888;font-size:.95rem;margin-top:3rem;font-style:italic}
 
-/* ============================================================
-   CYBERSÉCURITÉ
-   ============================================================ */
+/* CYBERSÉCURITÉ */
 .page-header-cyber{text-align:center;padding:2rem 0 3rem}
 .page-header-cyber h1{font-family:var(--font-display);font-size:2rem;color:var(--gold);margin:0 0 1rem}
 .page-header-cyber h2{font-family:var(--font-display);font-size:1.3rem;color:var(--gold);margin:0 0 1.2rem}
@@ -626,9 +418,7 @@ body.light-mode .contact-form input,body.light-mode .contact-form textarea{backg
 .cyber-section p{font-size:1rem;margin:0 0 1.2rem;line-height:1.7}
 .signature{text-align:right;font-family:var(--font-display);font-weight:700;color:var(--gold);margin-top:2.5rem;font-size:1.1rem;line-height:1.6}
 
-/* ============================================================
-   FOOTER
-   ============================================================ */
+/* FOOTER */
 footer{background:linear-gradient(180deg,#000,var(--card-bg));padding:4rem 1rem 8rem;text-align:center;color:#fff;margin-top:5rem;border-top:2px solid var(--gold)}
 .footer-container{max-width:1000px;margin:0 auto}
 .footer-links{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:1rem 2rem;margin-bottom:2.5rem}
@@ -638,87 +428,38 @@ footer a:hover{color:#fff;background:rgba(255,215,0,0.1);border-radius:var(--rad
 .footer-info p{margin:0;line-height:1.6}
 .footer-tiktok{display:inline-block;margin-top:1.5rem;padding:1rem 2.5rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:1px solid var(--gold);border-radius:var(--radius-md);font-family:var(--font-display);font-weight:700;text-decoration:none;font-size:1rem;transition:transform 0.2s}
 .footer-tiktok:hover{transform:scale(1.05)}
-
 .footer-copyright{font-size:.85rem;opacity:.6;margin-top:1rem}
 
-/* ============================================================
-   BOUTONS FLOTTANTS (TOP, MUSIQUE, CHAT, PANIER)
-   ============================================================ */
-#top{
-  position:fixed;right:1rem;bottom:12rem;width:48px;height:48px;border-radius:50%;
-  background:linear-gradient(135deg,var(--gold),var(--gold-dark));
-  border:2px solid #fff;display:flex;justify-content:center;align-items:center;
-  z-index:9998;cursor:pointer;
-  opacity:0;pointer-events:none;
-  transition:opacity .3s ease, transform .25s ease, box-shadow .3s ease;
-  box-shadow:0 4px 12px rgba(0,0,0,0.4);
-}
-#top.visible{opacity:1;pointer-events:auto;}
-#top:hover{transform:translateY(-4px) scale(1.08);box-shadow:0 10px 26px rgba(255,215,0,0.45);}
-#top svg{width:24px;height:24px;transition:transform .25s ease;}
-#top:hover svg{transform:translateY(-3px);}
-
-.music-widget{
-  position:fixed;bottom:1rem;left:1rem;z-index:350;
-  display:flex;align-items:center;gap:.5rem;padding:.5rem .8rem;
-  background:rgba(20,20,20,.95);backdrop-filter:blur(10px);
-  border:1px solid var(--border-color);border-radius:40px;
-  max-width:calc(100vw - 2rem);box-shadow:0 4px 12px rgba(0,0,0,0.5);
-  transition:box-shadow .3s ease;
-}
-.music-widget:hover{box-shadow:0 6px 22px rgba(255,215,0,0.35);}
+/* BOUTONS FLOTTANTS */
+#top{position:fixed;right:1rem;bottom:12rem;width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-dark));border:2px solid #fff;display:flex;justify-content:center;align-items:center;z-index:9998;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s ease, transform .25s ease, box-shadow .3s ease;box-shadow:0 4px 12px rgba(0,0,0,0.4)}
+#top.visible{opacity:1;pointer-events:auto}
+#top:hover{transform:translateY(-4px) scale(1.08);box-shadow:0 10px 26px rgba(255,215,0,0.45)}
+#top svg{width:24px;height:24px;transition:transform .25s ease}
+#top:hover svg{transform:translateY(-3px)}
+.music-widget{position:fixed;bottom:1rem;left:1rem;z-index:350;display:flex;align-items:center;gap:.5rem;padding:.5rem .8rem;background:rgba(20,20,20,.95);backdrop-filter:blur(10px);border:1px solid var(--border-color);border-radius:40px;max-width:calc(100vw - 2rem);box-shadow:0 4px 12px rgba(0,0,0,0.5);transition:box-shadow .3s ease}
+.music-widget:hover{box-shadow:0 6px 22px rgba(255,215,0,0.35)}
 body.light-mode .music-widget{background:rgba(255,255,255,.95)}
-.music-play-btn{
-  position:relative;
-  background:linear-gradient(135deg,var(--gold),var(--gold-dark));
-  color:#000;border:1px solid #fff;border-radius:50%;
-  width:36px;height:36px;display:flex;align-items:center;justify-content:center;
-  font-size:.9rem;transition:transform .2s ease;
-}
-.music-play-btn:hover{transform:scale(1.08);}
-.music-play-btn.playing::after{
-  content:"";position:absolute;inset:-4px;border-radius:50%;
-  border:2px solid var(--gold);opacity:.8;
-  animation:ringPulse 1.4s ease-out infinite;
-}
-.music-eq{display:none;align-items:flex-end;gap:2px;height:18px;width:20px;}
-.music-eq.visible{display:flex;}
-.music-eq span{display:block;width:3px;background:var(--gold);border-radius:2px;animation:eqBounce 1s ease-in-out infinite;}
-.music-eq span:nth-child(1){animation-delay:0s;height:60%;}
-.music-eq span:nth-child(2){animation-delay:.15s;height:100%;}
-.music-eq span:nth-child(3){animation-delay:.3s;height:45%;}
-.music-eq span:nth-child(4){animation-delay:.45s;height:80%;}
+.music-play-btn{position:relative;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:1px solid #fff;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-size:.9rem;transition:transform .2s ease}
+.music-play-btn:hover{transform:scale(1.08)}
+.music-play-btn.playing::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:2px solid var(--gold);opacity:.8;animation:ringPulse 1.4s ease-out infinite}
+.music-eq{display:none;align-items:flex-end;gap:2px;height:18px;width:20px}
+.music-eq.visible{display:flex}
+.music-eq span{display:block;width:3px;background:var(--gold);border-radius:2px;animation:eqBounce 1s ease-in-out infinite}
+.music-eq span:nth-child(1){animation-delay:0s;height:60%}
+.music-eq span:nth-child(2){animation-delay:.15s;height:100%}
+.music-eq span:nth-child(3){animation-delay:.3s;height:45%}
+.music-eq span:nth-child(4){animation-delay:.45s;height:80%}
 .music-widget select{background:#000;color:var(--gold);border:1px solid var(--gold);border-radius:20px;padding:.3rem .6rem;font-size:.75rem;max-width:140px;appearance:none;-webkit-appearance:none}
 body.light-mode .music-widget select{background:#fff}
-.music-widget .volume-icon{font-size:.9rem;opacity:.85;user-select:none;}
+.music-widget .volume-icon{font-size:.9rem;opacity:.85;user-select:none}
 .music-widget input[type="range"]{width:60px;accent-color:var(--gold)}
-
-/* CHATBOT */
-#chatbot-toggle{
-  position:fixed;bottom:7rem;right:1rem;width:56px;height:56px;border-radius:50%;
-  background:linear-gradient(135deg,var(--gold),var(--gold-dark));
-  color:#000;border:2px solid #fff;z-index:400;
-  display:flex;align-items:center;justify-content:center;
-  animation:float 4s ease-in-out infinite;
-  box-shadow:0 4px 12px rgba(0,0,0,0.4);
-  transition:transform .25s ease, box-shadow .25s ease;
-}
-#chatbot-toggle:hover{transform:scale(1.08) rotate(6deg);box-shadow:0 8px 22px rgba(255,215,0,0.5);}
-#chatbot-toggle svg{width:26px;height:26px;fill:#000;transition:transform .25s ease;}
-#chatbot-toggle:hover svg{transform:scale(1.08);}
-#chatbot-badge{
-  position:absolute;top:-4px;right:-4px;min-width:20px;height:20px;line-height:20px;
-  background:var(--red);color:#fff;border:2px solid #fff;border-radius:12px;
-  font-family:var(--font-ui);font-size:.7rem;font-weight:700;text-align:center;
-  padding:0 5px;display:none;animation:badgeBounce 1.2s ease-in-out infinite;
-}
-#chatbot-window{
-  position:fixed;bottom:12.5rem;right:1rem;width:calc(100vw - 2rem);max-width:400px;height:65vh;max-height:550px;
-  background:linear-gradient(180deg,#141414,#050505);border:1px solid var(--gold);border-radius:var(--radius-lg);
-  display:none;flex-direction:column;z-index:450;overflow:hidden;box-shadow:0 15px 40px rgba(0,0,0,0.8);
-  transform-origin:bottom right;
-}
-#chatbot-window.open{display:flex;animation:chatOpen .3s cubic-bezier(.2,.9,.3,1);}
+#chatbot-toggle{position:fixed;bottom:7rem;right:1rem;width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:2px solid #fff;z-index:400;display:flex;align-items:center;justify-content:center;animation:float 4s ease-in-out infinite;box-shadow:0 4px 12px rgba(0,0,0,0.4);transition:transform .25s ease, box-shadow .25s ease}
+#chatbot-toggle:hover{transform:scale(1.08) rotate(6deg);box-shadow:0 8px 22px rgba(255,215,0,0.5)}
+#chatbot-toggle svg{width:26px;height:26px;fill:#000;transition:transform .25s ease}
+#chatbot-toggle:hover svg{transform:scale(1.08)}
+#chatbot-badge{position:absolute;top:-4px;right:-4px;min-width:20px;height:20px;line-height:20px;background:var(--red);color:#fff;border:2px solid #fff;border-radius:12px;font-family:var(--font-ui);font-size:.7rem;font-weight:700;text-align:center;padding:0 5px;display:none;animation:badgeBounce 1.2s ease-in-out infinite}
+#chatbot-window{position:fixed;bottom:12.5rem;right:1rem;width:calc(100vw - 2rem);max-width:400px;height:65vh;max-height:550px;background:linear-gradient(180deg,#141414,#050505);border:1px solid var(--gold);border-radius:var(--radius-lg);display:none;flex-direction:column;z-index:450;overflow:hidden;box-shadow:0 15px 40px rgba(0,0,0,0.8);transform-origin:bottom right}
+#chatbot-window.open{display:flex;animation:chatOpen .3s cubic-bezier(.2,.9,.3,1)}
 .chat-header{background:linear-gradient(135deg,rgba(255,215,0,0.15),rgba(0,0,0,0.8));color:var(--gold);padding:1.2rem;font-family:var(--font-display);font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:.5rem;border-bottom:1px solid rgba(255,215,0,0.3);backdrop-filter:blur(10px)}
 .chat-header .chat-title{display:flex;align-items:center;gap:.6rem;font-size:1.05rem;letter-spacing:0.05em}
 .chat-close{background:rgba(255,255,255,0.1);border:none;color:#fff;font-size:1.2rem;cursor:pointer;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;transition:background 0.2s}
@@ -735,161 +476,38 @@ body.light-mode .music-widget select{background:#fff}
 #chat-input:focus{outline:none;border-color:var(--gold)}
 #chat-send{width:44px;height:44px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:1px solid #fff;border-radius:50%;font-size:1.1rem;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:transform 0.2s}
 #chat-send:hover{transform:scale(1.05)}
+#panierFlottant{position:fixed;top:14px;right:14px;z-index:9999;display:flex;align-items:center;justify-content:center;gap:.55rem;padding:.85rem 1.4rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:2px solid #fff;box-shadow:0 6px 22px rgba(255,215,0,0.5);font-family:var(--font-display);font-weight:700;font-size:.95rem;cursor:pointer;transition:transform .2s,box-shadow .2s}
+#panierFlottant:hover{transform:translateY(-2px) scale(1.05);box-shadow:0 8px 28px rgba(255,215,0,0.7)}
+#panierFlottant img{height:22px;width:auto;display:block;transition:transform .35s ease}
+#panierFlottant:hover img{transform:rotate(-12deg) scale(1.1)}
+#panierCount{display:none;background:#e10600;color:#fff;font-family:var(--font-ui);font-size:.7rem;font-weight:700;min-width:20px;height:20px;line-height:20px;border-radius:10px;padding:0 5px;text-align:center}
+#panierCount.bump{animation:cartBump .45s ease}
+#panierFlottant::after{content:"Voir le panier";position:absolute;top:calc(100% + 8px);right:0;background:rgba(0,0,0,.95);color:var(--gold);border:1px solid var(--gold);border-radius:8px;padding:.4rem .8rem;font-family:var(--font-ui);font-size:.75rem;font-weight:600;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s ease, transform .2s ease;transform:translateY(-4px)}
+#panierFlottant:hover::after{opacity:1;transform:translateY(0)}
 
-/* PANIER FLOTTANT */
-#panierFlottant{
-  position:fixed;top:14px;right:14px;z-index:9999;
-  display:flex;align-items:center;justify-content:center;gap:.55rem;
-  padding:.85rem 1.4rem;
-  background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;
-  border:2px solid #fff;
-  box-shadow:0 6px 22px rgba(255,215,0,0.5);
-  font-family:var(--font-display);font-weight:700;font-size:.95rem;
-  cursor:pointer;transition:transform .2s,box-shadow .2s;
-}
-#panierFlottant:hover{transform:translateY(-2px) scale(1.05);box-shadow:0 8px 28px rgba(255,215,0,0.7);}
-#panierFlottant img{height:22px;width:auto;display:block;transition:transform .35s ease;}
-#panierFlottant:hover img{transform:rotate(-12deg) scale(1.1);}
-#panierCount{
-  display:none;background:#e10600;color:#fff;
-  font-family:var(--font-ui);font-size:.7rem;font-weight:700;
-  min-width:20px;height:20px;line-height:20px;border-radius:10px;padding:0 5px;text-align:center;
-}
-#panierCount.bump{animation:cartBump .45s ease;}
-#panierFlottant::after{
-  content:"Voir le panier";
-  position:absolute;top:calc(100% + 8px);right:0;
-  background:rgba(0,0,0,.95);color:var(--gold);
-  border:1px solid var(--gold);border-radius:8px;
-  padding:.4rem .8rem;font-family:var(--font-ui);font-size:.75rem;font-weight:600;
-  white-space:nowrap;opacity:0;pointer-events:none;
-  transition:opacity .2s ease, transform .2s ease;transform:translateY(-4px);
-}
-#panierFlottant:hover::after{opacity:1;transform:translateY(0);}
+/* MAINTENANCE (réactivable manuellement via FORCER_MAINTENANCE=true) */
+#maintenance-page{display:none;min-height:100vh;align-items:center;justify-content:center;text-align:center;padding:2rem 1rem;background:radial-gradient(ellipse at center,rgba(225,6,0,0.1),#050505 70%);flex-direction:column}
+#maintenance-page .maintenance-emblem{width:120px;height:120px;margin:0 auto 1.5rem;border-radius:50%;border:3px solid var(--gold);display:flex;align-items:center;justify-content:center;box-shadow:0 0 30px rgba(255,215,0,0.3);background:#000;font-size:2.5rem;font-weight:bold;color:var(--gold);font-family:'Cinzel',serif}
+#maintenance-page h1{font-family:'Cinzel',serif;font-size:clamp(2rem, 5vw, 3.5rem);color:var(--gold);margin:0 0 1rem;letter-spacing:.05em;text-shadow:0 0 15px rgba(255,215,0,0.4)}
+#maintenance-page .maintenance-motto{font-family:'Playfair Display',serif;font-size:clamp(1.1rem, 2vw, 1.5rem);font-style:italic;color:#fff;max-width:90%;margin:0 0 2rem;line-height:1.6}
+#maintenance-page .maintenance-divider{width:80px;height:3px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:0 auto 2rem}
+#maintenance-page .maintenance-info{font-family:'Inter',sans-serif;font-size:1rem;color:#aaa;margin:0 0 2rem}
+.maintenance-stats-box{background:rgba(255,255,255,0.03);border:1px solid rgba(255,215,0,0.2);border-radius:12px;padding:1.5rem;max-width:450px;margin:0 auto 2rem;box-shadow:0 4px 20px rgba(0,0,0,0.5);width:100%}
+.maintenance-stats-box h3{font-family:'Inter',sans-serif;font-size:0.85rem;color:var(--gold);text-transform:uppercase;letter-spacing:0.1em;margin:0 0 1rem;display:flex;align-items:center;justify-content:center;gap:0.5rem}
+.stats-table{width:100%;border-collapse:collapse;font-family:'Inter',sans-serif;font-size:0.9rem}
+.stats-table th{text-align:left;color:#888;font-weight:600;font-size:0.75rem;padding:0.5rem 0;border-bottom:1px solid rgba(255,255,255,0.1)}
+.stats-table th:not(:first-child){text-align:right}
+.stats-table td{padding:0.5rem 0;border-bottom:1px solid rgba(255,255,255,0.05);color:#ddd}
+.stats-table td:not(:first-child){text-align:right}
+.stats-table tr:last-child td{border-bottom:none}
+.stats-flag{margin-right:6px}
+#maintenance-page .maintenance-actions{display:flex;flex-direction:column;gap:1rem;width:100%;max-width:280px;margin:0 auto}
+#maintenance-page .maintenance-btn-gold{display:block;padding:1rem 2rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;font-family:'Cinzel',serif;font-weight:700;border-radius:16px;text-decoration:none;border:1px solid var(--gold);text-align:center;transition:transform 0.2s}
+#maintenance-page .maintenance-btn-gold:hover{transform:scale(1.05)}
+#maintenance-page .maintenance-btn-outline{display:block;padding:1rem 2rem;background:transparent;color:var(--gold);font-family:'Cinzel',serif;font-weight:700;border-radius:16px;text-decoration:none;border:1px solid var(--gold);text-align:center}
+#maintenance-page .maintenance-copyright{margin-top:3rem;font-size:.85rem;color:#555;font-family:'Inter',sans-serif}
 
-/* ============================================================
-   MAINTENANCE - NOUVELLE VERSION AVEC LES STATS RÉELLES
-   ============================================================ */
-#maintenance-page{
-  display:none;
-  min-height:100vh;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-  padding:2rem 1rem;
-  background:radial-gradient(ellipse at center,rgba(225,6,0,0.1),#050505 70%);
-  flex-direction:column;
-}
-#maintenance-page .maintenance-emblem {
-  width: 120px; height: 120px;
-  margin: 0 auto 1.5rem;
-  border-radius: 50%;
-  border:3px solid var(--gold);
-  display:flex;align-items:center;justify-content:center;
-  box-shadow:0 0 30px rgba(255,215,0,0.3);
-  background: #000;
-  font-size: 2.5rem; font-weight: bold; color: var(--gold); font-family: 'Cinzel', serif;
-}
-#maintenance-page h1{
-  font-family:'Cinzel',serif;
-  font-size:clamp(2rem, 5vw, 3.5rem);
-  color:var(--gold);
-  margin:0 0 1rem;
-  letter-spacing:.05em;
-  text-shadow: 0 0 15px rgba(255,215,0,0.4);
-}
-#maintenance-page .maintenance-motto{
-  font-family:'Playfair Display',serif;
-  font-size:clamp(1.1rem, 2vw, 1.5rem);
-  font-style:italic;
-  color:#fff;
-  max-width:90%;
-  margin:0 0 2rem;
-  line-height:1.6;
-}
-#maintenance-page .maintenance-divider{
-  width:80px;height:3px;
-  background:linear-gradient(90deg,transparent,var(--gold),transparent);
-  margin:0 auto 2rem;
-}
-#maintenance-page .maintenance-info{
-  font-family:'Inter',sans-serif;
-  font-size:1rem;
-  color:#aaa;
-  margin:0 0 2rem;
-}
-
-/* Nouveaux styles pour les stats réelles */
-.maintenance-stats-box {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,215,0,0.2);
-  border-radius: 12px;
-  padding: 1.5rem;
-  max-width: 450px;
-  margin: 0 auto 2rem;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-  width: 100%;
-}
-.maintenance-stats-box h3 {
-  font-family: 'Inter', sans-serif;
-  font-size: 0.85rem;
-  color: var(--gold);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin: 0 0 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
-.stats-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
-}
-.stats-table th {
-  text-align: left;
-  color: #888;
-  font-weight: 600;
-  font-size: 0.75rem;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-}
-.stats-table th:not(:first-child) { text-align: right; }
-.stats-table td {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-  color: #ddd;
-}
-.stats-table td:not(:first-child) { text-align: right; }
-.stats-table tr:last-child td { border-bottom: none; }
-.stats-flag { margin-right: 6px; }
-
-#maintenance-page .maintenance-actions{
-  display:flex;flex-direction:column;gap:1rem;
-  width:100%;max-width:280px;margin:0 auto;
-}
-#maintenance-page .maintenance-btn-gold{
-  display:block;padding:1rem 2rem;
-  background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;
-  font-family:'Cinzel',serif;font-weight:700;border-radius:16px;
-  text-decoration:none;border:1px solid var(--gold);text-align:center;
-  transition: transform 0.2s;
-}
-#maintenance-page .maintenance-btn-gold:hover{transform: scale(1.05);}
-#maintenance-page .maintenance-btn-outline{
-  display:block;padding:1rem 2rem;background:transparent;color:var(--gold);
-  font-family:'Cinzel',serif;font-weight:700;border-radius:16px;
-  text-decoration:none;border:1px solid var(--gold);text-align:center;
-}
-#maintenance-page .maintenance-copyright{
-  margin-top:3rem;font-size:.85rem;color:#555;font-family:'Inter',sans-serif;
-}
-
-/* ============================================================
-   MEDIA QUERIES (RESPONSIVE)
-   ============================================================ */
+/* MEDIA QUERIES */
 @media(min-width:600px){
   .navbar{padding:.8rem 1rem}
   .navbar-top{flex-wrap:nowrap}
@@ -926,101 +544,58 @@ body.light-mode .music-widget select{background:#fff}
   .beauty-clients-grid{grid-template-columns:repeat(3,1fr)}
 }
 @media(max-width:600px){
-  #panierFlottant{top:auto;bottom:90px;right:14px;padding:.7rem 1.1rem;font-size:.85rem;}
-  #panierFlottant .panier-label{display:none;}
-  #panierFlottant::after{display:none;}
-
-  #chatbot-toggle{width:46px;height:46px;bottom:6.5rem;right:14px;font-size:1.2rem;}
-  #chatbot-toggle svg{width:22px;height:22px;}
-  #chatbot-badge{top:-3px;right:-3px;min-width:18px;height:18px;line-height:18px;font-size:.65rem;}
-  #chatbot-window{bottom:11.5rem;right:14px;width:calc(100vw - 28px);}
-
-  #top{width:42px;height:42px;bottom:10.5rem;right:14px;}
-  #top svg{width:20px;height:20px;}
-
-  .music-widget{bottom:.6rem;left:.6rem;padding:.35rem .55rem;gap:.35rem;border-radius:30px;}
-  .music-play-btn{width:30px;height:30px;font-size:.75rem;}
-  .music-eq{display:none !important;}
-  .music-widget select{max-width:95px;font-size:.65rem;padding:.2rem .4rem;}
-  .music-widget .volume-icon{display:none;}
-  .music-widget input[type="range"]{width:40px;}
+  #panierFlottant{top:auto;bottom:90px;right:14px;padding:.7rem 1.1rem;font-size:.85rem}
+  #panierFlottant .panier-label{display:none}
+  #panierFlottant::after{display:none}
+  #chatbot-toggle{width:46px;height:46px;bottom:6.5rem;right:14px;font-size:1.2rem}
+  #chatbot-toggle svg{width:22px;height:22px}
+  #chatbot-badge{top:-3px;right:-3px;min-width:18px;height:18px;line-height:18px;font-size:.65rem}
+  #chatbot-window{bottom:11.5rem;right:14px;width:calc(100vw - 28px)}
+  #top{width:42px;height:42px;bottom:10.5rem;right:14px}
+  #top svg{width:20px;height:20px}
+  .music-widget{bottom:.6rem;left:.6rem;padding:.35rem .55rem;gap:.35rem;border-radius:30px}
+  .music-play-btn{width:30px;height:30px;font-size:.75rem}
+  .music-eq{display:none !important}
+  .music-widget select{max-width:95px;font-size:.65rem;padding:.2rem .4rem}
+  .music-widget .volume-icon{display:none}
+  .music-widget input[type="range"]{width:40px}
 }
 @media(min-width:601px) and (max-width:1024px){
-  #panierFlottant{top:80px;}
+  #panierFlottant{top:80px}
 }
 </style>
 </head>
 <body>
 
-<!-- PAGE DE MAINTENANCE MISE À JOUR -->
+<!-- ============================================================
+     PAGE DE MAINTENANCE (masquée par défaut — réactiver via FORCER_MAINTENANCE=true)
+     ============================================================ -->
 <div id="maintenance-page" aria-hidden="true">
   <div>
-    <!-- Logo "IV" classique -->
     <div class="maintenance-emblem">IV</div>
-    
     <h1 data-i18n="maintenance">MAINTENANCE</h1>
     <p class="maintenance-motto" data-i18n="maintenance_motto">« Le site GUILLET IV est actuellement en maintenance. Nous revenons très vite. »</p>
-    
     <div class="maintenance-divider"></div>
-    
     <p class="maintenance-info" data-i18n="maintenance_info">⏳ Travaux en cours — Merci de votre patience</p>
-    
-    <!-- Statistiques des visites internationales (Chiffres réels) -->
     <div class="maintenance-stats-box">
       <h3>🌍 Statistiques Internationales</h3>
       <table class="stats-table">
-        <thead>
-          <tr>
-            <th>Pays</th>
-            <th>Visiteurs</th>
-            <th>Vues</th>
-          </tr>
-        </thead>
+        <thead><tr><th>Pays</th><th>Visiteurs</th><th>Vues</th></tr></thead>
         <tbody>
-          <tr>
-            <td><span class="stats-flag">🇫🇷</span> France</td>
-            <td>77% (34)</td>
-            <td>719</td>
-          </tr>
-          <tr>
-            <td><span class="stats-flag">🇺🇸</span> États-Unis</td>
-            <td>9% (4)</td>
-            <td>4</td>
-          </tr>
-          <tr>
-            <td><span class="stats-flag">🇳🇱</span> Pays-Bas</td>
-            <td>5% (2)</td>
-            <td>43</td>
-          </tr>
-          <tr>
-            <td><span class="stats-flag">🇭🇰</span> Hong Kong</td>
-            <td>2% (1)</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td><span class="stats-flag">🇳🇴</span> Norvège</td>
-            <td>2% (1)</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td><span class="stats-flag">🇵🇱</span> Pologne</td>
-            <td>2% (1)</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td><span class="stats-flag">🇸🇪</span> Suède</td>
-            <td>2% (1)</td>
-            <td>3</td>
-          </tr>
+          <tr><td><span class="stats-flag">🇫🇷</span> France</td><td>77% (34)</td><td>719</td></tr>
+          <tr><td><span class="stats-flag">🇺🇸</span> États-Unis</td><td>9% (4)</td><td>4</td></tr>
+          <tr><td><span class="stats-flag">🇳🇱</span> Pays-Bas</td><td>5% (2)</td><td>43</td></tr>
+          <tr><td><span class="stats-flag">🇭🇰</span> Hong Kong</td><td>2% (1)</td><td>1</td></tr>
+          <tr><td><span class="stats-flag">🇳🇴</span> Norvège</td><td>2% (1)</td><td>1</td></tr>
+          <tr><td><span class="stats-flag">🇵🇱</span> Pologne</td><td>2% (1)</td><td>1</td></tr>
+          <tr><td><span class="stats-flag">🇸🇪</span> Suède</td><td>2% (1)</td><td>3</td></tr>
         </tbody>
       </table>
     </div>
-
     <div class="maintenance-actions">
       <a href="mailto:lanceglorieuse@gmail.com" class="maintenance-btn-gold" data-i18n="contact_us">📧 Nous contacter</a>
       <a href="tel:0780204749" class="maintenance-btn-outline">📞 07.80.20.47.49</a>
     </div>
-    
     <p class="maintenance-copyright">© 2026 GUILLET IV — L'Ordre de l'Indépendance</p>
   </div>
 </div>
@@ -1029,11 +604,13 @@ body.light-mode .music-widget select{background:#fff}
   <div style="background:#e10600;color:#fff;padding:1rem;text-align:center;font-family:sans-serif;font-weight:600;font-size:.95rem;">⚠️ JavaScript est désactivé. Activez JavaScript pour une expérience complète.</div>
 </noscript>
 
+<!-- MODAL ZOOM -->
 <div id="zoomModal" role="dialog" aria-modal="true" aria-label="Agrandissement du produit" onclick="fermerZoom()">
   <button type="button" class="zoom-close" onclick="event.stopPropagation();fermerZoom()" aria-label="Fermer l'image">×</button>
   <img id="zoomImg" alt="Zoom produit" onclick="event.stopPropagation()">
 </div>
 
+<!-- PRÉVENTION HARCELEMENT -->
 <div id="prevention-page" class="prevention-page" role="dialog" aria-modal="true" aria-label="Prévention Harcèlement">
   <div class="prevention-header">
     <h1 data-i18n="prevention_harassment">🛡️ Prévention Harcèlement</h1>
@@ -1045,7 +622,6 @@ body.light-mode .music-widget select{background:#fff}
       <p data-i18n="harassment_intro_2">Que ce soit physique, psychologique ou virtuel, la loi française punit sévèrement les auteurs.</p>
       <p data-i18n="harassment_intro_3">Voici les peines encourues, seul ou en bande organisée.</p>
     </div>
-    
     <nav class="prevention-summary" aria-label="Sommaire de la prévention harcèlement">
       <h2 data-i18n="prevention_themes">📋 Les thèmes de prévention</h2>
       <ul>
@@ -1056,7 +632,6 @@ body.light-mode .music-widget select{background:#fff}
         <li><a href="#prevention-aide" data-i18n="where_help">📞 Où trouver de l'aide ?</a></li>
       </ul>
     </nav>
-
     <section class="prevention-section-block" id="prevention-moral">
       <h2 class="prevention-title-blue" data-i18n="moral_harassment">💻 Harcèlement moral</h2>
       <div class="prevention-card-full">
@@ -1071,7 +646,6 @@ body.light-mode .music-widget select{background:#fff}
         <p style="margin-top:.6rem;"><strong>⚠️ <span data-i18n="organized_group">En bande organisée</span> :</strong> <span data-i18n="organized_group_desc">chaque participant peut être poursuivi, même pour un seul message, si le caractère collectif du harcèlement est établi.</span></p>
       </div>
     </section>
-
     <section class="prevention-section-block" id="prevention-scolaire">
       <h2 class="prevention-title-white" data-i18n="school_harassment">🎓 Harcèlement scolaire</h2>
       <div class="prevention-card-full">
@@ -1086,7 +660,6 @@ body.light-mode .music-widget select{background:#fff}
         <p style="margin-top:.6rem;" data-i18n="school_harassment_note">Les faits restent punissables même après la fin de la scolarité.</p>
       </div>
     </section>
-
     <section class="prevention-section-block" id="prevention-sexuel">
       <h2 class="prevention-title-red" data-i18n="sexual_harassment">🤬 Harcèlement sexuel</h2>
       <div class="prevention-card-full">
@@ -1099,7 +672,6 @@ body.light-mode .music-widget select{background:#fff}
         </ul>
       </div>
     </section>
-
     <section class="prevention-section-block" id="prevention-bande">
       <h2 class="prevention-title-red" data-i18n="organized_group_law">🚨 En bande organisée : ce que dit la loi</h2>
       <div class="prevention-card-full">
@@ -1113,7 +685,6 @@ body.light-mode .music-widget select{background:#fff}
         <p style="margin-top:.6rem;" data-i18n="law_punishes_each">La loi punit chaque participant, pas seulement le meneur.</p>
       </div>
     </section>
-
     <section class="prevention-section-block" id="prevention-aide">
       <div class="prevention-warning-box">
         <p><strong data-i18n="dont_stay_alone">⚠️ Ne reste pas seul(e). Parle.</strong></p>
@@ -1121,20 +692,18 @@ body.light-mode .music-widget select{background:#fff}
         <p data-i18n="report_17cyber">🌐 17Cyber.gouv.fr — Signalement en ligne</p>
       </div>
     </section>
-
     <div class="prevention-actions">
       <a href="https://17cyber.gouv.fr/" target="_blank" rel="noopener noreferrer" class="prevention-btn prevention-btn-primary" data-i18n="report_17cyber_btn">🚨 Signaler sur 17Cyber</a>
       <a href="tel:3018" class="prevention-btn prevention-btn-danger" data-i18n="call_3018_btn">📞 Appeler le 3018</a>
     </div>
     <p class="prevention-footer-note" data-i18n="prevention_footer_note">Informations issues du Code pénal français (Légifrance). Dernière mise à jour : 2026.</p>
-
-    <!-- BOUTON RETOUR AJOUTÉ ICI -->
     <div style="text-align:center; margin-top: 3rem;">
       <a href="javascript:void(0)" onclick="fermerPrevention()" class="return-btn" style="display:inline-block;width:auto;min-width:250px; background:var(--gold); color:#000; border:none; padding:1.2rem 2.5rem; font-weight:bold; border-radius:12px; text-decoration:none; font-family:var(--font-display); transition:transform 0.2s;">⬅ Retour à l'accueil</a>
     </div>
   </div>
 </div>
 
+<!-- NAVBAR -->
 <nav class="navbar" aria-label="Navigation principale">
   <div class="navbar-top">
     <div class="brand" onclick="navigateTo('accueil')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')navigateTo('accueil')">
@@ -1180,6 +749,7 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </nav>
 
+<!-- MARQUEE -->
 <div class="marquee-bar">
   <div class="marquee-content">
     <span data-i18n="marquee_welcome">✨ Bienvenue chez GUILLET IV — L'Ordre de l'Indépendance ✨</span>
@@ -1199,6 +769,7 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
+<!-- AUDIO PLAYER -->
 <div class="audio-player">
   <h2 data-i18n="site_music">🎵 Musique du site</h2>
   <select id="musicSelect" onchange="changerMusique(this.value)" aria-label="Choisir une musique" data-i18n-aria="choose_music">
@@ -1242,9 +813,8 @@ body.light-mode .music-widget select{background:#fff}
 </div>
 
 <main>
-
+<!-- ===== PAGE ACCUEIL ===== -->
 <div id="page-accueil" class="page-section active">
-
   <section class="hero" id="accueil">
     <div class="hero-slider">
       <img src="background.jpg" class="hero-slide active" alt="Image principale GUILLET IV" onclick="ouvrirZoom(this.src,event)" role="button" tabindex="0" onkeydown="if(event.key==='Enter')ouvrirZoom(this.src,event)">
@@ -1270,7 +840,7 @@ body.light-mode .music-widget select{background:#fff}
   <p id="noProducts" hidden data-i18n="no_products">Aucun produit ne correspond à cette recherche.</p>
 
   <div class="products-grid" id="productsGrid">
-
+    <!-- Produit 1 : Drone -->
     <div class="product-card" id="produit-drone" data-name="Drone Ky108" data-price="89" tabindex="-1">
       <div class="product-images">
         <img src="photo1.png" class="product-image" alt="Drone KY108 — vue principale" loading="lazy" decoding="async" onclick="ouvrirZoom(this.src,event)">
@@ -1317,6 +887,7 @@ body.light-mode .music-widget select{background:#fff}
       </div>
     </div>
 
+    <!-- Produit 2 : Projecteur -->
     <div class="product-card" id="produit-projecteur" data-name="Projecteur LED rotatif solaire" data-price="35" tabindex="-1">
       <div class="product-images">
         <img src="produit.png" class="product-image" alt="Projecteur LED solaire rotatif" loading="lazy" decoding="async" onclick="ouvrirZoom(this.src,event)">
@@ -1349,6 +920,7 @@ body.light-mode .music-widget select{background:#fff}
       </div>
     </div>
 
+    <!-- Produit 3 : Pack Hiver -->
     <div class="product-card" id="produit-pack-hiver" data-name="Winter Survival Pack – Édition Premium" data-price="99.99" tabindex="-1">
       <div class="product-images">
         <img src="Winter-Survival.png" class="product-image" alt="Winter Survival Pack Édition Premium" loading="lazy" decoding="async" onclick="ouvrirZoom(this.src,event)">
@@ -1395,6 +967,7 @@ body.light-mode .music-widget select{background:#fff}
       </div>
     </div>
 
+    <!-- Produit 4 : Endoscope -->
     <div class="product-card" id="produit-endoscope" data-name="Endoscope caméra d'inspection avec écran" data-price="95" tabindex="-1">
       <div class="product-images">
         <img src="photo-endoscope.png" class="product-image" alt="Endoscope caméra d'inspection avec écran" loading="lazy" decoding="async" onclick="ouvrirZoom(this.src,event)">
@@ -1427,7 +1000,6 @@ body.light-mode .music-widget select{background:#fff}
         <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1US30aRNu37iEZT9EGBkxLCy" data-product-name="Endoscope caméra d'inspection" data-product-price="95.00" data-product-image="photo-endoscope.png">💳 Ajouter au panier — 95 €</button>
       </div>
     </div>
-
   </div>
 
   <section class="info">
@@ -1450,6 +1022,7 @@ body.light-mode .music-widget select{background:#fff}
   </section>
 </div>
 
+<!-- ===== PAGE À PROPOS ===== -->
 <div id="page-apropos" class="page-section">
   <div class="page-container" style="max-width:var(--container-max);">
     <section class="hero" id="apropos" style="padding-top:0;">
@@ -1492,6 +1065,7 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
+<!-- ===== PAGE VINTED ===== -->
 <div id="page-vinted" class="page-section">
   <div class="page-container" style="text-align:center;">
     <h1 data-i18n="my_vinted">👕 Mon Vinted</h1>
@@ -1507,17 +1081,16 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
+<!-- ===== PAGE ONGLES & BEAUTÉ ===== -->
 <div id="page-ongles-beaute" class="page-section">
   <section class="beauty-hero" id="ongles-beaute">
     <h1 data-i18n="beauty_title">💅 Ongles & Beauté — SHAYNAILS</h1>
     <span class="beauty-sub" data-i18n="beauty_sub">Élégance · Soin · Présentiel à Guignen</span>
     <p class="beauty-intro" data-i18n="beauty_intro">Prestations en présentiel uniquement à Guignen. Réservation par téléphone ou Instagram.</p>
   </section>
-
   <div style="max-width:700px;margin:0 auto 3rem;padding:0 1rem;">
     <img src="carte.png" alt="SHAYNAILS — présentation" loading="lazy" decoding="async" onclick="ouvrirZoom(this.src,event)" style="width:100%;border:2px solid var(--gold);border-radius:var(--radius-lg);cursor:zoom-in;background:#000;box-shadow:0 10px 30px rgba(255,215,0,0.15);">
   </div>
-
   <section style="max-width:700px;margin:0 auto 3rem;padding:0 1rem;">
     <h2 style="text-align:center;font-family:var(--font-display);color:var(--gold);font-size:1.6rem;margin-bottom:1.5rem;" data-i18n="beauty_prices_title">💶 Carte des tarifs</h2>
     <div style="text-align:center;">
@@ -1525,7 +1098,6 @@ body.light-mode .music-widget select{background:#fff}
     </div>
     <p style="text-align:center;font-size:.9rem;opacity:.75;margin-top:1rem;font-style:italic;" data-i18n="beauty_presentiel_note">⚠️ Prestations uniquement en présentiel à Guignen — pas de vente en ligne.</p>
   </section>
-
   <section style="max-width:900px;margin:0 auto 3rem;padding:0 1rem;">
     <h2 style="text-align:center;font-family:var(--font-display);color:var(--gold);font-size:1.6rem;margin-bottom:1.5rem;" data-i18n="beauty_gallery_title">✨ Réalisations clientes</h2>
     <div class="beauty-clients-grid">
@@ -1536,7 +1108,6 @@ body.light-mode .music-widget select{background:#fff}
       <img src="cliente7.png" alt="Réalisation cliente 5" loading="lazy" decoding="async" onclick="ouvrirZoom(this.src,event)" class="beauty-client-img">
     </div>
   </section>
-
   <section style="max-width:480px;margin:0 auto 3rem;padding:0 1rem;">
     <h2 style="text-align:center;font-family:var(--font-display);color:var(--gold);font-size:1.4rem;margin-bottom:1.2rem;">🎬 En vidéo</h2>
     <div style="text-align:center;border:2px solid var(--gold);border-radius:var(--radius-md);overflow:hidden;background:#000;box-shadow:0 6px 20px rgba(255,215,0,0.15);">
@@ -1545,31 +1116,25 @@ body.light-mode .music-widget select{background:#fff}
       </video>
     </div>
   </section>
-
   <section style="max-width:800px;margin:0 auto 3rem;padding:3rem 1.5rem;background:linear-gradient(135deg,rgba(255,182,193,0.15),rgba(0,0,0,0.9));border:2px solid var(--gold);border-radius:var(--radius-lg);text-align:center;box-shadow:0 10px 30px rgba(0,0,0,0.4);">
     <h2 style="font-family:var(--font-display);color:var(--gold);font-size:1.7rem;margin:0 0 .8rem;" data-i18n="beauty_book_title">📅 Réserver une prestation</h2>
     <p style="font-size:1.05rem;line-height:1.7;margin:0 0 2.5rem;opacity:.9;" data-i18n="beauty_book_text">Toutes les prestations ont lieu en présentiel à Guignen.<br>Réservation par téléphone ou Instagram.</p>
-
     <div style="display:flex;flex-direction:column;gap:1.5rem;align-items:center;">
       <a href="tel:0620675441" style="display:inline-flex;align-items:center;justify-content:center;gap:.7rem;padding:1.2rem 2.5rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:2px solid #fff;border-radius:var(--radius-lg);font-family:var(--font-display);font-weight:700;font-size:1.2rem;text-decoration:none;box-shadow:0 6px 20px rgba(255,215,0,0.4);min-width:280px;transition:transform .2s;">
         📞 06.20.67.54.41
       </a>
-
       <a href="https://www.instagram.com/shay_nails35/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;justify-content:center;gap:.7rem;padding:1.2rem 2.5rem;background:linear-gradient(135deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);color:#fff;border:2px solid #fff;border-radius:var(--radius-lg);font-family:var(--font-display);font-weight:700;font-size:1.15rem;text-decoration:none;box-shadow:0 6px 20px rgba(214,41,118,0.4);min-width:280px;transition:transform .2s;">
         📸 Instagram — @shay_nails35
       </a>
     </div>
-
-    <p style="margin:2.5rem 0 0;font-size:.9rem;opacity:.7;font-style:italic;">
-      💡 Cliquez sur une photo pour l'agrandir
-    </p>
+    <p style="margin:2.5rem 0 0;font-size:.9rem;opacity:.7;font-style:italic;">💡 Cliquez sur une photo pour l'agrandir</p>
   </section>
-
   <div style="text-align:center;margin-top:3rem;">
     <a href="javascript:void(0)" onclick="navigateTo('accueil')" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l'accueil</a>
   </div>
 </div>
 
+<!-- ===== PAGE CYBERSÉCURITÉ ===== -->
 <div id="page-prevention-cyber" class="page-section">
   <div class="page-container">
     <header class="page-header-cyber">
@@ -1645,6 +1210,7 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
+<!-- ===== PAGE MENTIONS LÉGALES ===== -->
 <div id="page-mentions" class="page-section">
   <div class="page-container">
     <h1 data-i18n="legal_notice">⚖️ Mentions légales</h1>
@@ -1699,6 +1265,7 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
+<!-- ===== PAGE CGV ===== -->
 <div id="page-cgv" class="page-section">
   <div class="page-container">
     <h1 data-i18n="terms_sale">📄 Conditions Générales de Vente</h1>
@@ -1724,6 +1291,7 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
+<!-- ===== PAGE FAQ ===== -->
 <div id="page-faq" class="page-section">
   <div class="page-container">
     <h1 data-i18n="faq_title">❓ Foire Aux Questions</h1>
@@ -1742,6 +1310,7 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
+<!-- ===== PAGE CONTACT ===== -->
 <div id="page-contact" class="page-section">
   <div class="page-container">
     <h1 data-i18n="contact_title">✉️ Contactez-nous</h1>
@@ -1767,6 +1336,7 @@ body.light-mode .music-widget select{background:#fff}
 
 </main>
 
+<!-- FOOTER -->
 <footer>
   <div class="footer-container">
     <nav class="footer-links" aria-label="Navigation de pied de page">
@@ -1793,6 +1363,9 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </footer>
 
+<!-- ============================================================
+     BOUTONS FLOTTANTS
+     ============================================================ -->
 <button type="button" id="top" onclick="retourEnHaut()" aria-label="Retour en haut" data-i18n-aria="back_top">
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1818,6 +1391,7 @@ body.light-mode .music-widget select{background:#fff}
   </svg>
   <span id="chatbot-badge">1</span>
 </button>
+
 <div id="chatbot-window" role="dialog" aria-label="Chat conseil GUILLET IV">
   <div class="chat-header">
     <div class="chat-title"><span data-i18n="advice_chat">🤖 Conseil GUILLET IV</span></div>
@@ -1836,6 +1410,9 @@ body.light-mode .music-widget select{background:#fff}
   <span id="panierCount" aria-live="polite">0</span>
 </button>
 
+<!-- ============================================================
+     JS — INITIALISATION LECART
+     ============================================================ -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   if (typeof LeCart === 'undefined' || typeof LeCart.init !== 'function') {
@@ -1856,9 +1433,44 @@ document.addEventListener('DOMContentLoaded', function() {
   } catch(e) {
     console.error('[LeCart] Erreur d\'initialisation :', e);
   }
+
+  // Correction : forcer l'ouverture du panier LeCart quand on clique sur ton bouton flottant
+  var btnPanier = document.getElementById('panierFlottant');
+  if (btnPanier) {
+    btnPanier.addEventListener('click', function(e) {
+      e.preventDefault();
+      // On cherche les éléments de LeCart et on leur ajoute la classe "open"
+      var drawer = document.querySelector('.lecart-drawer, .lecart-panel, .lecart-container');
+      if (drawer) {
+        drawer.classList.add('open');
+        document.body.style.overflow = 'hidden'; // Empêche de scroller derrière
+      } else {
+        // Si LeCart n'a pas encore créé le tiroir, on déclenche un événement ou on force l'ouverture
+        var container = document.querySelector('.lecart-container');
+        if (container) {
+          container.classList.add('open');
+          document.body.style.overflow = 'hidden';
+        }
+      }
+    });
+  }
+
+  // Fermer le panier quand on clique sur le fond noir
+  document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('lecart-backdrop')) {
+      var drawer = document.querySelector('.lecart-drawer, .lecart-panel, .lecart-container');
+      if (drawer) {
+        drawer.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+    }
+  });
 });
 </script>
 
+<!-- ============================================================
+     JS — COMPTEUR PANIER
+     ============================================================ -->
 <script>
 (function(){
   "use strict";
@@ -1892,55 +1504,16 @@ document.addEventListener('DOMContentLoaded', function() {
 })();
 </script>
 
+<!-- ============================================================
+     JS — NAVIGATION / UI / AUDIO / CHATBOT
+     ============================================================ -->
 <script>
 (function(){
   "use strict";
-  var FORCER_MAINTENANCE = false;
-  function getPage(){ return document.getElementById("maintenance-page"); }
-  function getContenu(){
-    return [
-      document.querySelector(".navbar"),
-      document.querySelector(".marquee-bar"),
-      document.querySelector(".audio-player"),
-      document.querySelector("main"),
-      document.querySelector("footer"),
-      document.querySelector(".music-widget"),
-      document.getElementById("chatbot-toggle"),
-      document.getElementById("chatbot-window"),
-      document.getElementById("top"),
-      document.getElementById("panierFlottant")
-    ].filter(Boolean);
-  }
-  function appliquer(actif){
-    var page = getPage(); var els = getContenu(); if (!page) return;
-    if (actif) {
-      els.forEach(function(el){ if (!el.dataset.maintDisplay) el.dataset.maintDisplay = el.style.display || "__DEFAULT__"; el.style.display = "none"; });
-      page.style.display = "flex";
-      document.title = "🔧 Maintenance — GUILLET IV";
-      document.body.style.overflow = "auto";
-    } else {
-      els.forEach(function(el){ var saved = el.dataset.maintDisplay; el.style.display = (saved && saved !== "__DEFAULT__") ? saved : ""; delete el.dataset.maintDisplay; });
-      page.style.display = "none";
-      document.title = "GUILLET IV — L'Ordre de l'Indépendance";
-      document.body.style.overflow = "";
-      if (typeof window.actualiserBoutonHaut === "function") setTimeout(window.actualiserBoutonHaut, 0);
-      var cw = document.getElementById("chatbot-window");
-      if (cw && !window.chatOuvert) cw.classList.remove("open");
-    }
-  }
-  document.addEventListener("DOMContentLoaded", function(){ appliquer(FORCER_MAINTENANCE); });
-  window.__setMaintenance = appliquer;
-})();
-</script>
-
-<script>
-(function(){
-  "use strict";
-
-  window.payer = function(b64){ try { window.open(atob(b64), "_blank", "noopener,noreferrer"); } catch(e){ console.error("Erreur de paiement."); } };
 
   function esc(str){ return String(str).replace(/[&<>'"]/g, function(t){ return {"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[t]; }); }
 
+  /* ---------- Navigation ---------- */
   window.navigateTo = function(p, a){
     if (a === undefined) a = null;
     document.querySelectorAll(".page-section").forEach(function(s){ s.classList.remove("active"); });
@@ -2002,6 +1575,7 @@ document.addEventListener('DOMContentLoaded', function() {
     else b.classList.remove("visible");
   };
 
+  /* ---------- Audio ---------- */
   var pl = document.getElementById("player"), ms = document.getElementById("musicSelect"), mms = document.getElementById("miniMusicSelect"), mpb = document.getElementById("miniPlayBtn"), vol = document.getElementById("volumeSlider");
   var eq = document.getElementById("musicEq");
   var v = (function(){ try { var v0 = parseFloat(localStorage.getItem("guillet_volume")); return (!isNaN(v0) && v0 >= 0 && v0 <= 1) ? v0 : 1; } catch(e){ return 1; } })();
@@ -2047,6 +1621,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   updBtn();
 
+  /* ---------- Détails produits / Formulaire / Zoom / Mode ---------- */
   window.toggleDetails = function(b){
     var d = b.nextElementSibling;
     var o = b.getAttribute("aria-expanded") !== "true";
@@ -2087,6 +1662,7 @@ document.addEventListener('DOMContentLoaded', function() {
     try { localStorage.setItem("guillet_mode", document.body.classList.contains("light-mode") ? "light" : "dark"); } catch(e){}
   };
 
+  /* ---------- Recherche ---------- */
   var sf = document.getElementById("searchForm"), si = document.getElementById("searchInput"), sc = document.getElementById("clearSearch"), ss = document.getElementById("searchSuggestions"), sr = document.getElementById("searchResults"), sst = document.getElementById("searchStatus"), np = document.getElementById("noProducts");
   var fmt = new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" });
   function norm(t){ return String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("fr").replace(/[’']/g, " ").replace(/[^\p{L}\p{N}]+/gu, " ").trim(); }
@@ -2156,18 +1732,17 @@ document.addEventListener('DOMContentLoaded', function() {
   if (sc) sc.addEventListener("click", function(){ si.value = ""; filter(false); si.focus(); });
   document.addEventListener("click", function(e){ if (sf && !sf.contains(e.target)) hide(); });
 
-  /* ============================================================
-     CHATBOT
-     ============================================================ */
+  /* ---------- CHATBOT ---------- */
   var cw = document.getElementById("chatbot-window"), cm = document.getElementById("chat-messages"), ci = document.getElementById("chat-input");
 
   window.toggleChatbot = function(){
     window.chatOuvert = !window.chatOuvert;
+    var badge = document.getElementById("chatbot-badge");
     if (window.chatOuvert) {
       if (cw) cw.classList.add("open");
       if (cm && cm.children.length === 0) initChat();
-      var badge = document.getElementById("chatbot-badge");
       if (badge) badge.style.display = "none";
+      try { localStorage.setItem("guillet_chat_opened", "1"); } catch(e){}
       setTimeout(function(){ if (ci) ci.focus(); }, 300);
     } else {
       if (cw) cw.classList.remove("open");
@@ -2211,7 +1786,11 @@ document.addEventListener('DOMContentLoaded', function() {
     var m = document.createElement("div");
     m.className = "chat-msg " + ty;
     if (key) m.dataset.i18nKey = key;
-    m.innerHTML = html;
+    if (key || (typeof html === "string" && /<(strong|br|em|b|i)\b/i.test(html) && html.indexOf("<script") === -1 && html.indexOf("onerror") === -1 && html.indexOf("onclick") === -1)) {
+      m.innerHTML = html;
+    } else {
+      m.textContent = html;
+    }
     cm.appendChild(m);
     if (o && o.length) {
       var z = document.createElement("div"); z.className = "chat-options";
@@ -2265,14 +1844,19 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!cm2) return;
     cm2.querySelectorAll(".chat-msg.bot[data-i18n-key]").forEach(function(el){
       var key = el.dataset.i18nKey;
-      if (dict && dict[key]) {
+      var safeKeys = ["chat_hello", "chat_prompt", "chat_unknown", "chat_menu_title",
+                      "chat_contact_reply", "chat_delivery_reply", "chat_drone_reply",
+                      "chat_proj_reply", "chat_endo_reply", "chat_beauty_reply",
+                      "chat_price_reply", "chat_thanks_reply"];
+      var isSafe = (dict && dict[key]) || safeKeys.indexOf(key) !== -1;
+      if (isSafe && dict && dict[key]) {
         el.innerHTML = dict[key];
-      } else if (key === "chat_hello") {
-        el.innerHTML = "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> !";
-      } else if (key === "chat_prompt") {
-        el.innerHTML = "Posez-moi une question :";
-      } else if (key === "chat_unknown") {
-        el.innerHTML = "Je ne suis pas sûr de bien comprendre 🤔";
+      } else if (isSafe) {
+        if (key === "chat_hello") el.innerHTML = "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> !";
+        else if (key === "chat_prompt") el.innerHTML = "Posez-moi une question :";
+        else if (key === "chat_unknown") el.innerHTML = "Je ne suis pas sûr de bien comprendre 🤔";
+      } else {
+        el.textContent = el.textContent;
       }
     });
     cm2.querySelectorAll(".chat-option[data-i18n-key]").forEach(function(el){
@@ -2288,11 +1872,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   };
 
-  var pay = {
-    drone: "aHR0cHM6Ly9idXkuc3RyaXBlLmNvbS8yOEU2b0phb3FkUmc2VlQwTTEwWlcwMQ==",
-    projecteur: "aHR0cHM6Ly9idXkuc3RyaXBlLmNvbS9kUm1mWjowTlExNHUxQno3YXAwWlcwMg==",
-    endoscope: "aHR0cHM6Ly9idXkuc3RyaXBlLmNvbS83c1llVmZjd3kwMHE2VlRkeU4wWlcwMw=="
-  };
   var intents = [
     { intention: "menu", motsCles: ["menu","sommaire","tout","liste","pages"], reponseKey: "chat_menu_title", reponse: "Voici toutes les sections du site :", options: [
       { labelKey: "chat_btn_home", label: "🏠 Accueil", action: function(){ navigateTo("accueil"); toggleChatbot(); } },
@@ -2308,16 +1887,13 @@ document.addEventListener('DOMContentLoaded', function() {
     { intention: "contact", motsCles: ["horaire","telephone","mail","contact","appeler","numero","joindre"], reponseKey: "chat_contact_reply", reponse: "📞 Nous sommes disponibles de 9h à 20h au <strong>07.80.20.47.49</strong>." },
     { intention: "livraison", motsCles: ["livraison","envoi","delai","colis","recevoir","expedition"], reponseKey: "chat_delivery_reply", reponse: "🚚 La livraison est <strong>rapide et sécurisée</strong>." },
     { intention: "drone", motsCles: ["drone","ky108","camera","filmer","video"], reponseKey: "chat_drone_reply", reponse: "🎥 Le <strong>Drone KY108</strong> (89€).", options: [
-      { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-drone"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
-      { labelKey: "chat_btn_buy", label: "Acheter", action: function(){ payer(pay["drone"]); } }
+      { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-drone"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } }
     ] },
     { intention: "projecteur", motsCles: ["projecteur","lampe","pir","solaire"], reponseKey: "chat_proj_reply", reponse: "💡 Le <strong>Projecteur LED solaire</strong> (35€).", options: [
-      { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-projecteur"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
-      { labelKey: "chat_btn_buy", label: "Acheter", action: function(){ payer(pay["projecteur"]); } }
+      { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-projecteur"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } }
     ] },
     { intention: "endoscope", motsCles: ["endoscope","inspect","moteur","tuyau"], reponseKey: "chat_endo_reply", reponse: "🔍 L'<strong>Endoscope</strong> (95€).", options: [
-      { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-endoscope"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
-      { labelKey: "chat_btn_buy", label: "Acheter", action: function(){ payer(pay["endoscope"]); } }
+      { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-endoscope"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } }
     ] },
     { intention: "beaute", motsCles: ["ongle","ongles","beaute","beauté","vernis","manucure","nail"], reponseKey: "chat_beauty_reply", reponse: "💅 La section <strong>Ongles & Beauté</strong>.", options: [
       { labelKey: "chat_btn_see_section", label: "Voir la section", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } }
@@ -2336,6 +1912,7 @@ document.addEventListener('DOMContentLoaded', function() {
     return ms2 > 0 ? mm : null;
   }
 
+  /* ---------- Initialisation au chargement ---------- */
   document.addEventListener("DOMContentLoaded", function(){
     var ih = window.location.hash.replace("#", "") || "accueil";
     var cp = ["accueil","apropos","vinted","ongles-beaute","prevention-cyber","mentions","cgv","faq","contact"];
@@ -2406,21 +1983,13 @@ document.addEventListener('DOMContentLoaded', function() {
       } catch(e) { chatBadge.style.display = "block"; }
     }
   });
-
-  var _origToggleChatbot = window.toggleChatbot;
-  window.toggleChatbot = function(){
-    var badge = document.getElementById("chatbot-badge");
-    if (badge) {
-      badge.style.display = "none";
-      try { localStorage.setItem("guillet_chat_opened", "1"); } catch(e){}
-    }
-    _origToggleChatbot();
-  };
 })();
 </script>
 
+<!-- ============================================================
+     JS — I18N (traductions)
+     ============================================================ -->
 <script>
-/* Dictionnaire de traductions */
 window.TRANSLATIONS = {
   en: {
     "nav_home":"🏠 Home","nav_about":"📜 About","nav_shop":"🛒 Shop","nav_vinted":"👕 Vinted","nav_beauty":"💅 Nails & Beauty","nav_cyber":"🛡️ Cybersecurity","nav_harassment":"🚨 Harassment","nav_contact":"✉️ Contact","nav_faq":"❓ FAQ","nav_cgv":"📄 Terms","nav_legal":"⚖️ Legal",
@@ -2431,25 +2000,11 @@ window.TRANSLATIONS = {
     "site_music":"🎵 Site music",
     "track_polygone":"[FR] 🔷 Polygone","track_genetiquement":"[FR] 🧬 Genetically Modified","track_quelques_notes":"[FR] 🎵 Some notes","track_bilar_phoenix":"[FR] 🔥 Bilar – Phoenix","track_cenza":"[FR] 🕶️ Cenza – Unknown","track_confinement":"[FR] 🧪 Bilar – ConFinement #2","track_dark_blues":"[EN] 🌑 Dark Blues.Vol","track_iam":"[FR] 🌍 IAM – The end of their world","track_issaba":"[FR] ⚡ Issaba – You know","track_kery":"[FR] 📜 Kery James – Post-Scriptum","track_exit":"[FR] 🧬 L'EXI-T – Venom Zirko / HYPERTHYMESIA","track_sakage":"[FR] 🌒 Sakage – Premise","track_sks":"[FR] 💥 SKS CREW","track_mysa_ralliement":"[FR] 🚩 Mysa – The Rally","track_rockin_luta":"[FR] ✊ Rockin'Squat – A Luta Continua","track_rockin_eternel":"[FR] 📚 Rockin'Squat – Eternal Apprentice","track_rcknsqt_verlaine":"[FR] 🖋️ RCKNSQT – VERLAINE","track_mysa_autopsy":"[FR] 🩸 Mysa – Autopsy","track_fourmiliere":"[FR] 🐜 The smiling anthill","track_shurikn":"[FR] 🗡️ Shurikn – Samurai","track_proser":"[FR] 🔥 Proser – La Rage (Monf x Poups)","track_rohff":"[FR] ⚔️ Rohff – Fitna","track_mysa_fou":"[FR] 🧠 Mysa – Like Crazy","track_mysa_dystopie":"[FR] 🏙️ Mysa – Dystopia19","track_mysa_mortel":"[FR] 💀 Mysa – Lethal","track_mysa_piqure":"[FR] 💉 Mysa – Booster Shot","track_mysa_revolu":"[FR] 🔁 Mysa – Bygone","track_millesime":"[FR] 🏛️ Millésime K – Republic","track_rockin_aimer":"[FR] ❤️ Rockin'Squat – Love Without Owning","track_rockin_ils":"[FR] 💔 Rockin'Squat – They Don't Want to Love","track_rcknsqt_vocab":"[FR] 🔤 RCKNSQT – VOCAB","track_miyagi_kosandra":"[RU] 🌌 Miyagi & Andy Panda – Kosandra","track_miyagi_capitaine":"[RU] ⚓ Miyagi – Capitaine","track_miyagi_tumani":"[RU] 🎭 Miyagi – Tumani / YO / KADI / Bismarck",
     "doctrine_title":"⚔️ The GUILLET IV Doctrine","doctrine_desc":"GUILLET IV brings together the power of business, the strength of an identity and the vision of a movement. Our founding principle: do not wait for your place, but build it through action, discipline and creation.",
-    "authority":"🖤 Authority","authority_desc":"Black embodies self-mastery, rigor and solidity.",
-    "willpower":"❤️ Willpower","willpower_desc":"Red represents energy, courage and determination.",
-    "legitimacy":"👑 Legitimacy","legitimacy_desc":"Gold symbolizes created value, excellence and recognition.",
-    "vision":"🚀 Vision","vision_desc":"Blue opens the way to innovation and the future.",
-    "authenticity":"🌑 Authenticity","authenticity_desc":"Raw truth, real identity, what we are without mask or compromise.",
-    "revelation":"✨ Revelation","revelation_desc":"The light that reveals what was hidden. Awakening, understanding, clarity.",
-    "truth":"⚡ Truth","truth_desc":"The straight line, the right word, what does not lie and does not tremble.",
-    "awareness":"🧠 Awareness","awareness_desc":"Lucidness, height, the ability to see beyond appearances.",
-    "power":"🜂 Power","power_desc":"The ability to act, impose one's direction, transform one's environment.",
-    "discipline":"🜁 Discipline","discipline_desc":"Order, structure, constancy that forges success.",
-    "creation":"🜄 Creation","creation_desc":"The art of producing, innovating, building what does not yet exist.",
-    "ascension":"🜃 Ascension","ascension_desc":"The rise, evolution, self-transcendence and limits.",
+    "authority":"🖤 Authority","authority_desc":"Black embodies self-mastery, rigor and solidity.","willpower":"❤️ Willpower","willpower_desc":"Red represents energy, courage and determination.","legitimacy":"👑 Legitimacy","legitimacy_desc":"Gold symbolizes created value, excellence and recognition.","vision":"🚀 Vision","vision_desc":"Blue opens the way to innovation and the future.","authenticity":"🌑 Authenticity","authenticity_desc":"Raw truth, real identity, what we are without mask or compromise.","revelation":"✨ Revelation","revelation_desc":"The light that reveals what was hidden. Awakening, understanding, clarity.","truth":"⚡ Truth","truth_desc":"The straight line, the right word, what does not lie and does not tremble.","awareness":"🧠 Awareness","awareness_desc":"Lucidness, height, the ability to see beyond appearances.","power":"🜂 Power","power_desc":"The ability to act, impose one's direction, transform one's environment.","discipline":"🜁 Discipline","discipline_desc":"Order, structure, constancy that forges success.","creation":"🜄 Creation","creation_desc":"The art of producing, innovating, building what does not yet exist.","ascension":"🜃 Ascension","ascension_desc":"The rise, evolution, self-transcendence and limits.",
     "shop_title":"🛒 GUILLET IV Shop","shop_intro":"Products chosen for autonomy, safety, the outdoors and practical life.","no_products":"No product matches this search.","see_more":"See more","see_less":"See less",
-    "full_desc":"Full description","details":"Details","utility":"Uses","how_to_use":"How to use","features":"Features",
-    "badge_winter":"WINTER PACK","badge_new":"NEW",
+    "full_desc":"Full description","details":"Details","utility":"Uses","how_to_use":"How to use","features":"Features","badge_winter":"WINTER PACK","badge_new":"NEW",
     "drone_title":"KY108 DRONE – THE EYE OF THE FUTURE IS IN YOUR HANDS","drone_tagline":"Dominate the sky… or it will dominate you. Be eyes without needing to see.","drone_desc":"A drone designed for creators, explorers and ambitious pilots. Capture the world with surgical precision.",
-    "drone_full_1":"The KY108 is not just a drone: it is a vision tool, an instrument of mastery, an aerial ally that transforms every flight into a futuristic experience.",
-    "drone_full_2":"Thanks to its dual HD camera, 90x zoom, omnidirectional obstacle avoidance and brushless motors, it offers stability and power that few drones in its category can match.",
-    "drone_full_3":"Foldable, compact, smart: the KY108 is ready to follow you everywhere.",
+    "drone_full_1":"The KY108 is not just a drone: it is a vision tool, an instrument of mastery, an aerial ally that transforms every flight into a futuristic experience.","drone_full_2":"Thanks to its dual HD camera, 90x zoom, omnidirectional obstacle avoidance and brushless motors, it offers stability and power that few drones in its category can match.","drone_full_3":"Foldable, compact, smart: the KY108 is ready to follow you everywhere.",
     "drone_detail_1":"Dual HD camera with 90x zoom","drone_detail_2":"Omnidirectional obstacle avoidance","drone_detail_3":"Powerful and durable brushless motor","drone_detail_4":"Remote control with integrated FPV screen","drone_detail_5":"Foldable drone, easy to transport",
     "drone_util_1":"Film landscapes in high quality","drone_util_2":"Create content for TikTok and Instagram","drone_util_3":"Monitor an area while respecting privacy","drone_util_4":"Learn drone piloting","drone_util_5":"Take professional aerial photos",
     "drone_use_1":"Unfold the drone and check the propellers.","drone_use_2":"Turn on the remote control.","drone_use_3":"Connect the HD camera.","drone_use_4":"Take off in assisted mode.","drone_use_5":"Pilot via the integrated FPV screen.","drone_use_note":"Remember to respect applicable flight rules and the privacy of the people filmed.",
@@ -2466,28 +2021,17 @@ window.TRANSLATIONS = {
     "endo_feat_1":"Full HD 1080P resolution","endo_feat_2":"2.0 MP camera with adjustable LED lighting","endo_feat_3":"4.3-inch integrated screen","endo_feat_4":"10-meter semi-rigid cable","endo_feat_5":"IP68 waterproof certification",
     "guarantees":"🛡️ Guarantees & Services","warranty_24":"✔ Warranty: 24 months","secure_payment":"✔ Secure payment","fast_delivery":"✔ Fast delivery","reviews_title":"⭐ Customer Reviews (Vinted)",
     "learn_more":"🏢 Learn more","company_movement":"Company · Movement · Independence",
-    "about_intro":"GUILLET IV is a company and an entrepreneurial independence movement. It defends the idea that everyone can build their own path through work, creation and autonomy.",
-    "about_service":"I sell on Vinted (profile: limitless95) with 5★ reviews, responsive customer service and a desire to offer serious, well-presented products with a real shop experience.",
-    "about_contact":"For any question, contact me via the Contact page or directly on Vinted.",
-    "contact_me":"✉️ Contact me","view_my_vinted":"👕 View my Vinted","back_home":"⬅ Back to home","back_shop":"⬅ Back to shop",
+    "about_intro":"GUILLET IV is a company and an entrepreneurial independence movement. It defends the idea that everyone can build their own path through work, creation and autonomy.","about_service":"I sell on Vinted (profile: limitless95) with 5★ reviews, responsive customer service and a desire to offer serious, well-presented products with a real shop experience.","about_contact":"For any question, contact me via the Contact page or directly on Vinted.","contact_me":"✉️ Contact me","view_my_vinted":"👕 View my Vinted","back_home":"⬅ Back to home","back_shop":"⬅ Back to shop",
     "my_vinted":"👕 My Vinted","vinted_intro":"Find my verified sales, 5★ ratings and products available on Vinted.","verified_reviews":"Verified Vinted Reviews","vinted_desc":"I am limitless95 on Vinted. I offer serious, well-presented items with responsive customer service.","view_vinted_profile":"👕 See my Vinted profile",
     "beauty_title":"💅 Nails & Beauty","beauty_sub":"Elegance · Care · Autonomy","beauty_intro":"A selection of beauty products to care for your nails and reveal your style.",
-    "see_all":"✨ See all","polish_colors":"💅 Polish & Colors","care":"🧴 Care","accessories":"💎 Accessories","kits":"🎁 Kits",
-    "best_seller":"BEST-SELLER","complete_kit":"COMPLETE KIT",
-    "beauty_vernis":"UV Semi-Permanent Gel Polish","beauty_vernis_desc":"Long-lasting up to 21 days, mirror shine, 12 shades available.",
-    "beauty_kit":"Professional 12-Piece Manicure Kit","beauty_kit_desc":"Files, scissors, cuticle pusher, tweezers, toothpicks… everything for perfect nails at home.",
-    "beauty_oil":"Vitamin E Cuticle Oil","beauty_oil_desc":"Nourishes, repairs and strengthens nails and cuticles. 15 ml pump bottle, delicate fragrance.",
-    "beauty_lamp":"Professional 48W UV LED Lamp","beauty_lamp_desc":"Fast drying, 30/60/99s timer, compatible with all UV gels.",
-    "beauty_capsules":"Nail Art Capsules & Rhinestones Kit","beauty_capsules_desc":"Over 500 capsules + self-adhesive rhinestones for unlimited creations.",
-    "beauty_balm":"Repair Balm for Damaged Nails","beauty_balm_desc":"Repairs brittle and ridged nails, formula enriched with keratin and calcium.",
-    "beauty_tips_title":"💡 GUILLET IV Beauty Tips","beauty_tip_1":"Hydrate your cuticles every evening with vegetable oil.","beauty_tip_2":"Space out gel applications to let your nails breathe.","beauty_tip_3":"Protect your hands with gloves for household chores.","beauty_tip_4":"Use a protective base before each colored polish.",
+    "see_all":"✨ See all","polish_colors":"💅 Polish & Colors","care":"🧴 Care","accessories":"💎 Accessories","kits":"🎁 Kits","best_seller":"BEST-SELLER","complete_kit":"COMPLETE KIT",
+    "beauty_vernis":"UV Semi-Permanent Gel Polish","beauty_vernis_desc":"Long-lasting up to 21 days, mirror shine, 12 shades available.","beauty_kit":"Professional 12-Piece Manicure Kit","beauty_kit_desc":"Files, scissors, cuticle pusher, tweezers, toothpicks… everything for perfect nails at home.","beauty_oil":"Vitamin E Cuticle Oil","beauty_oil_desc":"Nourishes, repairs and strengthens nails and cuticles. 15 ml pump bottle, delicate fragrance.","beauty_lamp":"Professional 48W UV LED Lamp","beauty_lamp_desc":"Fast drying, 30/60/99s timer, compatible with all UV gels.","beauty_capsules":"Nail Art Capsules & Rhinestones Kit","beauty_capsules_desc":"Over 500 capsules + self-adhesive rhinestones for unlimited creations.","beauty_balm":"Repair Balm for Damaged Nails","beauty_balm_desc":"Repairs brittle and ridged nails, formula enriched with keratin and calcium.","beauty_tips_title":"💡 GUILLET IV Beauty Tips","beauty_tip_1":"Hydrate your cuticles every evening with vegetable oil.","beauty_tip_2":"Space out gel applications to let your nails breathe.","beauty_tip_3":"Protect your hands with gloves for household chores.","beauty_tip_4":"Use a protective base before each colored polish.",
     "cyber_title":"🛡️ Cybersecurity Prevention","cyber_subtitle":"Cyber attacks in France","cyber_intro":"Phishing, data theft, fraudulent access and identity theft: understanding the risks helps you better protect your accounts, devices and personal information.","cyber_intro_2":"Prevention combines cautious habits, appropriate technical protections and a rapid response when an incident occurs.",
     "cyber_step1":"🔑 Step 1 — Saved passwords","cyber_step2":"🎣 Step 2 — Social engineering and phishing","cyber_step3":"💻 Step 3 — Password attacks","cyber_step4":"🗝️ Step 4 — Key photos and physical security","cyber_step5":"👤 Step 5 — Personal information","cyber_step6":"⚖️ Step 6 — French law and hacking","cyber_step7":"📨 Step 7 — Phishing, fraud and identity","cyber_step8":"🗂️ Step 8 — Personal data and GDPR","cyber_step9":"✅ Step 9 — Authorized security tests","cyber_step10":"🚨 Step 10 — What to do in case of incident?","cyber_conclusion":"🏁 General conclusion",
     "cyber_s1_title":"🔑 Step 1 — Saved passwords: convenience, protection and vigilance","cyber_s2_title":"🎣 Step 2 — Social engineering and phishing: you can be a target","cyber_s3_title":"💻 Step 3 — Password attacks","cyber_s4_title":"🗝️ Step 4 — Key photos and physical security","cyber_s5_title":"👤 Step 5 — Personal information and privacy","cyber_s6_title":"⚖️ Step 6 — French law: fraudulent access, hacking and sanctions","cyber_s7_title":"📨 Step 7 — Phishing, fraud and identity theft","cyber_s8_title":"🗂️ Step 8 — Personal data, GDPR and security obligations","cyber_s9_title":"✅ Step 9 — Audit and security testing: obtain clear authorization","cyber_s10_title":"🚨 Step 10 — What to do if an account or device is compromised?","cyber_conclusion_title":"🏁 General conclusion",
     "prevention_harassment":"🚨 Harassment Prevention","harassment_is_crime":"Harassment is an offense. It destroys lives.","harassment_intro_2":"Whether physical, psychological or virtual, French law severely punishes the perpetrators.","harassment_intro_3":"Here are the penalties incurred, alone or in an organized group.","prevention_themes":"📋 Prevention topics",
     "moral_harassment":"💻 Moral harassment","school_harassment":"🎓 School harassment","sexual_harassment":"🤬 Sexual harassment","organized_group":"🚨 In an organized group","where_help":"📞 Where to find help?",
-    "basic_penalty":"Basic penalty","aggravating_simple":"Single aggravating circumstance","two_aggravating":"Two aggravating circumstances combined","up_to_10_years":"Up to 10 years + €300,000","organized_group_desc":"each participant can be prosecuted, even for a single message, if the collective nature of the harassment is established.",
-    "itt_over_8":"ITT > 8 days","victim_suicide":"If the victim commits suicide or attempts suicide","school_harassment_note":"The facts remain punishable even after the end of schooling.",
+    "basic_penalty":"Basic penalty","aggravating_simple":"Single aggravating circumstance","two_aggravating":"Two aggravating circumstances combined","up_to_10_years":"Up to 10 years + €300,000","organized_group_desc":"each participant can be prosecuted, even for a single message, if the collective nature of the harassment is established.","itt_over_8":"ITT > 8 days","victim_suicide":"If the victim commits suicide or attempts suicide","school_harassment_note":"The facts remain punishable even after the end of schooling.",
     "sexual_harassment_desc":"Repeated remarks or behaviors of a sexual or sexist nature, undermining dignity or creating an intimidating, hostile or offensive situation.",
     "organized_group_law":"🚨 In an organized group: what the law says","collective_responsibility":"⚖️ Collective responsibility",
     "collective_desc":"Online or group harassment is an aggravating circumstance. Even if you only sent one message, liked or shared harassing content, you can be prosecuted.","online_moral_harassment":"Online moral harassment","sexual_harassment_multiple":"Sexual harassment by several people","multiple_aggravating":"Harassment with several aggravating circumstances","law_punishes_each":"The law punishes each participant, not just the leader.",
@@ -2499,21 +2043,9 @@ window.TRANSLATIONS = {
     "contact_title":"✉️ Contact us","contact_intro":"A question? A project? Feel free to write to us.","phone":"Phone","location":"Location","france_ille":"France, Ille-et-Vilaine","hours":"Hours","your_name":"Your name","your_email":"Your email","your_message":"Your message...","send_message":"Send message","message_prepared":"Your message has been prepared. You can now send it via your email application.",
     "footer_home":"🏠 Home","footer_about":"📜 About","footer_harassment":"🛡️ Harassment","footer_shop":"🛒 Shop","footer_vinted":"👕 Vinted","footer_beauty":"💅 Beauty","footer_cyber":"🛡️ Cybersecurity","footer_contact":"✉️ Contact","footer_faq":"❓ FAQ","footer_cgv":"📄 Terms","footer_legal":"⚖️ Legal","footer_location":"📍 Ille-et-Vilaine · 🕒 9am – 8pm","footer_payment":"🔒 Secure payment — 🚚 Fast delivery","copyright":"© 2026 GUILLET IV — The Order of Independence","follow_tiktok":"🎵 Follow us on TikTok",
     "search_product":"Search a product","clear_search":"Clear search","toggle_mode":"Toggle light / dark mode","choose_music":"Choose a track","back_top":"Back to top","open_chat":"Open advice chat","advice_chat":"🤖 GUILLET IV Advice","ask_question":"Ask me a question...",
-    "chat_hello":"👋 Hello and welcome to <strong>GUILLET IV</strong>! I am your virtual assistant.",
-    "chat_prompt":"Ask me a question or pick a topic below:",
-    "chat_unknown":"I'm not sure I understand 🤔 Here is what I can do:",
-    "chat_menu_title":"Here are all the sections of the site:",
-    "chat_contact_reply":"📞 We are available from 9 am to 8 pm at <strong>07.80.20.47.49</strong>. You can also write to us at <strong>lanceglorieuse@gmail.com</strong>.",
-    "chat_delivery_reply":"🚚 Delivery is <strong>fast and secure</strong>.",
-    "chat_drone_reply":"🎥 The <strong>KY108 Drone</strong> (€89) features a dual HD camera and a 90x zoom.",
-    "chat_proj_reply":"💡 The <strong>Solar LED Projector</strong> (€35) runs on solar energy.",
-    "chat_endo_reply":"🔍 The <strong>Endoscope</strong> (€95): 4.3\" screen, 10 m cable, IP68.",
-    "chat_beauty_reply":"💅 The <strong>Nails & Beauty</strong> section offers in-person services in Guignen.",
-    "chat_price_reply":"💰 Drone: €89 • Projector: €35 • Winter Pack: €99.99 • Endoscope: €95",
-    "chat_thanks_reply":"You're welcome! 🙏",
-    "chat_btn_home":"🏠 Home","chat_btn_shop":"🛒 Shop","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Nails & Beauty","chat_btn_about":"📜 About","chat_btn_contact":"✉️ Contact","chat_btn_faq":"❓ FAQ","chat_btn_cyber":"🛡️ Cybersecurity","chat_btn_harass":"🚨 Harassment",
-    "chat_btn_all_pages":"📋 All pages","chat_btn_prices":"💶 Prices","chat_btn_contact_me":"📞 Contact us","chat_btn_delivery":"🚚 Delivery","chat_btn_menu":"📋 Page menu",
-    "chat_btn_see":"View","chat_btn_buy":"Buy","chat_btn_see_section":"View section"
+    "chat_hello":"👋 Hello and welcome to <strong>GUILLET IV</strong>! I am your virtual assistant.","chat_prompt":"Ask me a question or pick a topic below:","chat_unknown":"I'm not sure I understand 🤔 Here is what I can do:","chat_menu_title":"Here are all the sections of the site:",
+    "chat_contact_reply":"📞 We are available from 9 am to 8 pm at <strong>07.80.20.47.49</strong>. You can also write to us at <strong>lanceglorieuse@gmail.com</strong>.","chat_delivery_reply":"🚚 Delivery is <strong>fast and secure</strong>.","chat_drone_reply":"🎥 The <strong>KY108 Drone</strong> (€89) features a dual HD camera and a 90x zoom.","chat_proj_reply":"💡 The <strong>Solar LED Projector</strong> (€35) runs on solar energy.","chat_endo_reply":"🔍 The <strong>Endoscope</strong> (€95): 4.3\" screen, 10 m cable, IP68.","chat_beauty_reply":"💅 The <strong>Nails & Beauty</strong> section offers in-person services in Guignen.","chat_price_reply":"💰 Drone: €89 • Projector: €35 • Winter Pack: €99.99 • Endoscope: €95","chat_thanks_reply":"You're welcome! 🙏",
+    "chat_btn_home":"🏠 Home","chat_btn_shop":"🛒 Shop","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Nails & Beauty","chat_btn_about":"📜 About","chat_btn_contact":"✉️ Contact","chat_btn_faq":"❓ FAQ","chat_btn_cyber":"🛡️ Cybersecurity","chat_btn_harass":"🚨 Harassment","chat_btn_all_pages":"📋 All pages","chat_btn_prices":"💶 Prices","chat_btn_contact_me":"📞 Contact us","chat_btn_delivery":"🚚 Delivery","chat_btn_menu":"📋 Page menu","chat_btn_see":"View","chat_btn_buy":"Buy","chat_btn_see_section":"View section"
   },
   ru: {
     "nav_home":"🏠 Главная","nav_about":"📜 О нас","nav_shop":"🛒 Магазин","nav_vinted":"👕 Vinted","nav_beauty":"💅 Ногти и Красота","nav_cyber":"🛡️ Кибербезопасность","nav_harassment":"🚨 Буллинг","nav_contact":"✉️ Контакты","nav_faq":"❓ Часто задаваемые вопросы","nav_cgv":"📄 Условия продажи","nav_legal":"⚖️ Правовая информация",
@@ -2547,20 +2079,13 @@ window.TRANSLATIONS = {
     "my_vinted":"👕 Мой Vinted","vinted_intro":"Найдите мои проверенные продажи, оценки 5★ и товары, доступные на Vinted.","verified_reviews":"Проверенные отзывы Vinted","vinted_desc":"Я limitless95 на Vinted. Предлагаю серьёзные, хорошо представленные товары с отзывчивым клиентским сервисом.","view_vinted_profile":"👕 Открыть мой профиль Vinted",
     "beauty_title":"💅 Ногти и Красота","beauty_sub":"Элегантность · Забота · Независимость","beauty_intro":"Подборка косметических средств для ухода за ногтями и раскрытия вашего стиля.",
     "see_all":"✨ Показать всё","polish_colors":"💅 Лаки и оттенки","care":"🧴 Уход","accessories":"💎 Аксессуары","kits":"🎁 Наборы","best_seller":"ХИТ ПРОДАЖ","complete_kit":"ПОЛНЫЙ КОМПЛЕКТ",
-    "beauty_vernis":"УФ-гель-лак полуперманентный","beauty_vernis_desc":"Долговременное покрытие до 21 дня, зеркальный блеск, 12 оттенков.",
-    "beauty_kit":"Профессиональный маникюрный набор из 12 предметов","beauty_kit_desc":"Пилки, ножницы, палочка для кутикулы, пинцет, зубочистки… всё для идеальных ногтей дома.",
-    "beauty_oil":"Масло для кутикулы с витамином E","beauty_oil_desc":"Питает, восстанавливает и укрепляет ногти и кутикулу. Флакон с помпой 15 мл, нежный аромат.",
-    "beauty_lamp":"Профессиональная УФ/LED-лампа 48 Вт","beauty_lamp_desc":"Быстрая сушка, таймер 30/60/99 с, совместимость со всеми УФ-гелями.",
-    "beauty_capsules":"Набор для нейл-арта: капсулы и стразы","beauty_capsules_desc":"Более 500 капсул + самоклеящиеся стразы для безграничного творчества.",
-    "beauty_balm":"Восстанавливающий бальзам для повреждённых ногтей","beauty_balm_desc":"Восстанавливает ломкие и ребристые ногти, формула обогащена кератином и кальцием.",
-    "beauty_tips_title":"💡 Советы по красоте от GUILLET IV","beauty_tip_1":"Увлажняйте кутикулу каждый вечер растительным маслом.","beauty_tip_2":"Делайте перерывы между нанесением геля, чтобы ногти дышали.","beauty_tip_3":"Защищайте руки перчатками при домашних делах.","beauty_tip_4":"Используйте защитную основу перед каждым цветным лаком.",
+    "beauty_vernis":"УФ-гель-лак полуперманентный","beauty_vernis_desc":"Долговременное покрытие до 21 дня, зеркальный блеск, 12 оттенков.","beauty_kit":"Профессиональный маникюрный набор из 12 предметов","beauty_kit_desc":"Пилки, ножницы, палочка для кутикулы, пинцет, зубочистки… всё для идеальных ногтей дома.","beauty_oil":"Масло для кутикулы с витамином E","beauty_oil_desc":"Питает, восстанавливает и укрепляет ногти и кутикулу. Флакон с помпой 15 мл, нежный аромат.","beauty_lamp":"Профессиональная УФ/LED-лампа 48 Вт","beauty_lamp_desc":"Быстрая сушка, таймер 30/60/99 с, совместимость со всеми УФ-гелями.","beauty_capsules":"Набор для нейл-арта: капсулы и стразы","beauty_capsules_desc":"Более 500 капсул + самоклеящиеся стразы для безграничного творчества.","beauty_balm":"Восстанавливающий бальзам для повреждённых ногтей","beauty_balm_desc":"Восстанавливает ломкие и ребристые ногти, формула обогащена кератином и кальцием.","beauty_tips_title":"💡 Советы по красоте от GUILLET IV","beauty_tip_1":"Увлажняйте кутикулу каждый вечер растительным маслом.","beauty_tip_2":"Делайте перерывы между нанесением геля, чтобы ногти дышали.","beauty_tip_3":"Защищайте руки перчатками при домашних делах.","beauty_tip_4":"Используйте защитную основу перед каждым цветным лаком.",
     "cyber_title":"🛡️ Профилактика кибербезопасности","cyber_subtitle":"Кибератаки во Франции","cyber_intro":"Фишинг, кража данных, мошеннический доступ и кража личности: понимание рисков помогает лучше защитить свои аккаунты, устройства и личные данные.","cyber_intro_2":"Профилактика сочетает осторожные привычки, адекватные технические защиты и быструю реакцию при инциденте.",
     "cyber_step1":"🔑 Шаг 1 — Сохранённые пароли","cyber_step2":"🎣 Шаг 2 — Социальная инженерия и фишинг","cyber_step3":"💻 Шаг 3 — Атаки на пароли","cyber_step4":"🗝️ Шаг 4 — Фотографии ключей и физическая безопасность","cyber_step5":"👤 Шаг 5 — Личные данные","cyber_step6":"⚖️ Шаг 6 — Французское законодательство и хакинг","cyber_step7":"📨 Шаг 7 — Фишинг, мошенничество и кража личности","cyber_step8":"🗂️ Шаг 8 — Персональные данные и GDPR","cyber_step9":"✅ Шаг 9 — Авторизованные тесты на проникновение","cyber_step10":"🚨 Шаг 10 — Что делать при инциденте?","cyber_conclusion":"🏁 Общее заключение",
     "cyber_s1_title":"🔑 Шаг 1 — Сохранённые пароли: удобство, защита и бдительность","cyber_s2_title":"🎣 Шаг 2 — Социальная инженерия и фишинг: вы можете стать целью","cyber_s3_title":"💻 Шаг 3 — Атаки на пароли","cyber_s4_title":"🗝️ Шаг 4 — Фотографии ключей и физическая безопасность","cyber_s5_title":"👤 Шаг 5 — Личные данные и приватность","cyber_s6_title":"⚖️ Шаг 6 — Французское законодательство: мошеннический доступ, хакинг и санкции","cyber_s7_title":"📨 Шаг 7 — Фишинг, мошенничество и кража личности","cyber_s8_title":"🗂️ Шаг 8 — Персональные данные, GDPR и обязательства по безопасности","cyber_s9_title":"✅ Шаг 9 — Аудит и тестирование безопасности: получить чёткое разрешение","cyber_s10_title":"🚨 Шаг 10 — Что делать, если аккаунт или устройство скомпрометированы?","cyber_conclusion_title":"🏁 Общее заключение",
     "prevention_harassment":"🚨 Профилактика буллинга","harassment_is_crime":"Буллинг — это преступление. Он разрушает жизни.","harassment_intro_2":"Будь то физический, психологический или виртуальный, французский закон сурово наказывает виновных.","harassment_intro_3":"Вот грозящие наказания, в одиночку или в составе организованной группы.","prevention_themes":"📋 Темы профилактики",
     "moral_harassment":"💻 Психологическое преследование","school_harassment":"🎓 Школьная травля","sexual_harassment":"🤬 Сексуальное домогательство","organized_group":"🚨 В составе организованной группы","where_help":"📞 Куда обратиться за помощью?",
-    "basic_penalty":"Базовое наказание","aggravating_simple":"Одно отягчающее обстоятельство","two_aggravating":"Два отягчающих обстоятельства","up_to_10_years":"До 10 лет + 300 000 €","organized_group_desc":"каждый участник может быть привлечён к ответственности, даже за одно сообщение, если установлен коллективный характер преследования.",
-    "itt_over_8":"Нетрудоспособность > 8 дней","victim_suicide":"Если жертва покончила с собой или попыталась","school_harassment_note":"Факты остаются наказуемыми даже после окончания учёбы.",
+    "basic_penalty":"Базовое наказание","aggravating_simple":"Одно отягчающее обстоятельство","two_aggravating":"Два отягчающих обстоятельства","up_to_10_years":"До 10 лет + 300 000 €","organized_group_desc":"каждый участник может быть привлечён к ответственности, даже за одно сообщение, если установлен коллективный характер преследования.","itt_over_8":"Нетрудоспособность > 8 дней","victim_suicide":"Если жертва покончила с собой или попыталась","school_harassment_note":"Факты остаются наказуемыми даже после окончания учёбы.",
     "sexual_harassment_desc":"Повторяющиеся высказывания или поведение сексуального или сексистского характера, унижающие достоинство или создающие запугивающую, враждебную или оскорбительную ситуацию.",
     "organized_group_law":"🚨 В составе организованной группы: что говорит закон","collective_responsibility":"⚖️ Коллективная ответственность",
     "collective_desc":"Преследование в сети или группой является отягчающим обстоятельством. Даже если вы отправили только одно сообщение, лайкнули или поделились травящим контентом, вы можете быть привлечены к ответственности.","online_moral_harassment":"Психологическое преследование в сети","sexual_harassment_multiple":"Сексуальное домогательство несколькими лицами","multiple_aggravating":"Преследование с несколькими отягчающими обстоятельствами","law_punishes_each":"Закон наказывает каждого участника, а не только зачинщика.",
@@ -2572,21 +2097,9 @@ window.TRANSLATIONS = {
     "contact_title":"✉️ Свяжитесь с нами","contact_intro":"Есть вопрос или идея? Напишите нам — мы будем рады помочь.","phone":"Телефон","location":"Местоположение","france_ille":"Франция, Иль-э-Вилен","hours":"Часы работы","your_name":"Ваше имя","your_email":"Ваш адрес эл. почты","your_message":"Ваше сообщение...","send_message":"Отправить сообщение","message_prepared":"Ваше сообщение подготовлено. Теперь вы можете отправить его через приложение электронной почты.",
     "footer_home":"🏠 Главная","footer_about":"📜 О нас","footer_harassment":"🛡️ Буллинг","footer_shop":"🛒 Магазин","footer_vinted":"👕 Vinted","footer_beauty":"💅 Красота","footer_cyber":"🛡️ Кибербезопасность","footer_contact":"✉️ Контакты","footer_faq":"❓ Часто задаваемые вопросы","footer_cgv":"📄 Условия","footer_legal":"⚖️ Правовая информация","footer_location":"📍 Иль-э-Вилен · 🕒 с 9:00 до 20:00","footer_payment":"🔒 Безопасная оплата — 🚚 Быстрая доставка","copyright":"© 2026 GUILLET IV — Орден Независимости","follow_tiktok":"🎵 Подписывайтесь на нас в TikTok",
     "search_product":"Поиск товара","clear_search":"Очистить поиск","toggle_mode":"Переключить светлую / тёмную тему","choose_music":"Выбрать трек","back_top":"Наверх","open_chat":"Открыть чат с советником","advice_chat":"🤖 Советник GUILLET IV","ask_question":"Задайте мне вопрос...",
-    "chat_hello":"👋 Здравствуйте и добро пожаловать в <strong>GUILLET IV</strong>! Я ваш виртуальный помощник.",
-    "chat_prompt":"Задайте мне вопрос или выберите тему ниже:",
-    "chat_unknown":"Я не уверен, что понимаю 🤔 Вот что я умею:",
-    "chat_menu_title":"Вот все разделы сайта:",
-    "chat_contact_reply":"📞 Мы доступны с 9:00 до 20:00 по телефону <strong>07.80.20.47.49</strong>.",
-    "chat_delivery_reply":"🚚 Доставка <strong>быстрая и безопасная</strong>.",
-    "chat_drone_reply":"🎥 <strong>Дрон KY108</strong> (89 €).",
-    "chat_proj_reply":"💡 <strong>Солнечный LED-прожектор</strong> (35 €).",
-    "chat_endo_reply":"🔍 <strong>Эндоскоп</strong> (95 €).",
-    "chat_beauty_reply":"💅 Раздел <strong>Ногти и Красота</strong>.",
-    "chat_price_reply":"💰 Дрон: 89 € • Прожектор: 35 € • Зимний набор: 99,99 € • Эндоскоп: 95 €",
-    "chat_thanks_reply":"Пожалуйста! 🙏",
-    "chat_btn_home":"🏠 Главная","chat_btn_shop":"🛒 Магазин","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Ногти и Красота","chat_btn_about":"📜 О нас","chat_btn_contact":"✉️ Контакты","chat_btn_faq":"❓ ЧЗВ","chat_btn_cyber":"🛡️ Кибербезопасность","chat_btn_harass":"🚨 Буллинг",
-    "chat_btn_all_pages":"📋 Все страницы","chat_btn_prices":"💶 Цены","chat_btn_contact_me":"📞 Связаться с нами","chat_btn_delivery":"🚚 Доставка","chat_btn_menu":"📋 Меню страниц",
-    "chat_btn_see":"Смотреть","chat_btn_buy":"Купить","chat_btn_see_section":"Смотреть раздел"
+    "chat_hello":"👋 Здравствуйте и добро пожаловать в <strong>GUILLET IV</strong>! Я ваш виртуальный помощник.","chat_prompt":"Задайте мне вопрос или выберите тему ниже:","chat_unknown":"Я не уверен, что понимаю 🤔 Вот что я умею:","chat_menu_title":"Вот все разделы сайта:",
+    "chat_contact_reply":"📞 Мы доступны с 9:00 до 20:00 по телефону <strong>07.80.20.47.49</strong>.","chat_delivery_reply":"🚚 Доставка <strong>быстрая и безопасная</strong>.","chat_drone_reply":"🎥 <strong>Дрон KY108</strong> (89 €).","chat_proj_reply":"💡 <strong>Солнечный LED-прожектор</strong> (35 €).","chat_endo_reply":"🔍 <strong>Эндоскоп</strong> (95 €).","chat_beauty_reply":"💅 Раздел <strong>Ногти и Красота</strong>.","chat_price_reply":"💰 Дрон: 89 € • Прожектор: 35 € • Зимний набор: 99,99 € • Эндоскоп: 95 €","chat_thanks_reply":"Пожалуйста! 🙏",
+    "chat_btn_home":"🏠 Главная","chat_btn_shop":"🛒 Магазин","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Ногти и Красота","chat_btn_about":"📜 О нас","chat_btn_contact":"✉️ Контакты","chat_btn_faq":"❓ ЧЗВ","chat_btn_cyber":"🛡️ Кибербезопасность","chat_btn_harass":"🚨 Буллинг","chat_btn_all_pages":"📋 Все страницы","chat_btn_prices":"💶 Цены","chat_btn_contact_me":"📞 Связаться с нами","chat_btn_delivery":"🚚 Доставка","chat_btn_menu":"📋 Меню страниц","chat_btn_see":"Смотреть","chat_btn_buy":"Купить","chat_btn_see_section":"Смотреть раздел"
   },
   uk: {
     "nav_home":"🏠 Головна","nav_about":"📜 Про нас","nav_shop":"🛒 Магазин","nav_vinted":"👕 Vinted","nav_beauty":"💅 Нігті та Краса","nav_cyber":"🛡️ Кібербезпека","nav_harassment":"🚨 Булінг","nav_contact":"✉️ Контакти","nav_faq":"❓ Часті запитання","nav_cgv":"📄 Умови продажу","nav_legal":"⚖️ Правова інформація",
@@ -2620,20 +2133,13 @@ window.TRANSLATIONS = {
     "my_vinted":"👕 Мій Vinted","vinted_intro":"Знайдіть мої перевірені продажі, оцінки 5★ та товари, доступні на Vinted.","verified_reviews":"Перевірені відгуки Vinted","vinted_desc":"Я limitless95 на Vinted. Пропоную серйозні, добре представлені товари з чуйним клієнтським сервісом.","view_vinted_profile":"👕 Відкрити мій профіль Vinted",
     "beauty_title":"💅 Нігті та Краса","beauty_sub":"Елегантність · Турбота · Незалежність","beauty_intro":"Добірка косметичних засобів для догляду за нігтями та розкриття вашого стилю.",
     "see_all":"✨ Показати все","polish_colors":"💅 Лаки та відтінки","care":"🧴 Догляд","accessories":"💎 Аксесуари","kits":"🎁 Набори","best_seller":"ХІТ ПРОДАЖІВ","complete_kit":"ПОВНИЙ КОМПЛЕКТ",
-    "beauty_vernis":"УФ-гель-лак напівперманентний","beauty_vernis_desc":"Довготривале покриття до 21 дня, дзеркальний блиск, 12 відтінків.",
-    "beauty_kit":"Професійний манікюрний набір з 12 предметів","beauty_kit_desc":"Пилочки, ножиці, паличка для кутикули, пінцет, зубочистки… все для ідеальних нігтів вдома.",
-    "beauty_oil":"Олія для кутикули з вітаміном E","beauty_oil_desc":"Живить, відновлює та зміцнює нігті й кутикулу. Флакон з помпою 15 мл, ніжний аромат.",
-    "beauty_lamp":"Професійна УФ/LED-лампа 48 Вт","beauty_lamp_desc":"Швидка сушка, таймер 30/60/99 с, сумісність з усіма УФ-гелями.",
-    "beauty_capsules":"Набір для нейл-арту: капсули та стразы","beauty_capsules_desc":"Понад 500 капсул + самоклеючі стразы для безмежної творчості.",
-    "beauty_balm":"Відновлювальний бальзам для пошкоджених нігтів","beauty_balm_desc":"Відновлює ламкі та ребристі нігті, формула збагачена кератином і кальцієм.",
-    "beauty_tips_title":"💡 Поради з краси від GUILLET IV","beauty_tip_1":"Зволожуйте кутикулу щоразу ввечері рослинною олією.","beauty_tip_2":"Робіть перерви між нанесенням гелю, щоб нігті дихали.","beauty_tip_3":"Захищайте руки рукавичками під час домашніх справ.","beauty_tip_4":"Використовуйте захисну основу перед кожним кольоровим лаком.",
+    "beauty_vernis":"УФ-гель-лак напівперманентний","beauty_vernis_desc":"Довготривале покриття до 21 дня, дзеркальний блиск, 12 відтінків.","beauty_kit":"Професійний манікюрний набір з 12 предметів","beauty_kit_desc":"Пилочки, ножиці, паличка для кутикули, пінцет, зубочистки… все для ідеальних нігтів вдома.","beauty_oil":"Олія для кутикули з вітаміном E","beauty_oil_desc":"Живить, відновлює та зміцнює нігті й кутикулу. Флакон з помпою 15 мл, ніжний аромат.","beauty_lamp":"Професійна УФ/LED-лампа 48 Вт","beauty_lamp_desc":"Швидка сушка, таймер 30/60/99 с, сумісність з усіма УФ-гелями.","beauty_capsules":"Набір для нейл-арту: капсули та стразы","beauty_capsules_desc":"Понад 500 капсул + самоклеючі стразы для безмежної творчості.","beauty_balm":"Відновлювальний бальзам для пошкоджених нігтів","beauty_balm_desc":"Відновлює ламкі та ребристі нігті, формула збагачена кератином і кальцієм.","beauty_tips_title":"💡 Поради з краси від GUILLET IV","beauty_tip_1":"Зволожуйте кутикулу щоразу ввечері рослинною олією.","beauty_tip_2":"Робіть перерви між нанесенням гелю, щоб нігті дихали.","beauty_tip_3":"Захищайте руки рукавичками під час домашніх справ.","beauty_tip_4":"Використовуйте захисну основу перед кожним кольоровим лаком.",
     "cyber_title":"🛡️ Профілактика кібербезпеки","cyber_subtitle":"Кібератаки у Франції","cyber_intro":"Фішинг, крадіжка даних, шахрайський доступ і крадіжка особистих даних: розуміння ризиків допомагає краще захистити свої акаунти, пристрої та особисту інформацію.","cyber_intro_2":"Профілактика поєднує обережні звички, адекватні технічні засоби захисту та швидку реакцію у разі інциденту.",
     "cyber_step1":"🔑 Крок 1 — Збережені паролі","cyber_step2":"🎣 Крок 2 — Соціальна інженерія та фішинг","cyber_step3":"💻 Крок 3 — Атаки на паролі","cyber_step4":"🗝️ Крок 4 — Фотографії ключів та фізична безпека","cyber_step5":"👤 Крок 5 — Особисті дані","cyber_step6":"⚖️ Крок 6 — Французьке законодавство та хакінг","cyber_step7":"📨 Крок 7 — Фішинг, шахрайство та крадіжка особистих даних","cyber_step8":"🗂️ Крок 8 — Персональні дані та GDPR","cyber_step9":"✅ Крок 9 — Авторизовані тести на проникнення","cyber_step10":"🚨 Крок 10 — Що робити в разі інциденту?","cyber_conclusion":"🏁 Загальний висновок",
     "cyber_s1_title":"🔑 Крок 1 — Збережені паролі: зручність, захист і пильність","cyber_s2_title":"🎣 Крок 2 — Соціальна інженерія та фішинг: ви можете стати ціллю","cyber_s3_title":"💻 Крок 3 — Атаки на паролі","cyber_s4_title":"🗝️ Крок 4 — Фотографії ключів та фізична безпека","cyber_s5_title":"👤 Крок 5 — Особисті дані та приватність","cyber_s6_title":"⚖️ Крок 6 — Французьке законодавство: шахрайський доступ, хакінг і санкції","cyber_s7_title":"📨 Крок 7 — Фішинг, шахрайство та крадіжка особистих даних","cyber_s8_title":"🗂️ Крок 8 — Персональні дані, GDPR і зобов'язання щодо безпеки","cyber_s9_title":"✅ Крок 9 — Аудит і тестування безпеки: отримати чіткий дозвіл","cyber_s10_title":"🚨 Крок 10 — Що робити, якщо акаунт або пристрій скомпрометовано?","cyber_conclusion_title":"🏁 Загальний висновок",
     "prevention_harassment":"🚨 Профілактика булінгу","harassment_is_crime":"Булінг — це злочин. Він руйнує життя.","harassment_intro_2":"Чи то фізичний, психологічний чи віртуальний, французький закон суворо карає винних.","harassment_intro_3":"Ось загрозливі покарання, наодинці або у складі організованої групи.","prevention_themes":"📋 Теми профілактики",
     "moral_harassment":"💻 Психологічне переслідування","school_harassment":"🎓 Шкільне цькування","sexual_harassment":"🤬 Сексуальне домагання","organized_group":"🚨 У складі організованої групи","where_help":"📞 Куди звернутися за допомогою?",
-    "basic_penalty":"Базове покарання","aggravating_simple":"Одна обтяжуюча обставина","two_aggravating":"Дві обтяжуючі обставини","up_to_10_years":"До 10 років + 300 000 €","organized_group_desc":"кожен учасник може бути притягнутий до відповідальності, навіть за одне повідомлення, якщо встановлено колективний характер переслідування.",
-    "itt_over_8":"Непрацездатність > 8 днів","victim_suicide":"Якщо жертва скоїла самогубство або спробу","school_harassment_note":"Факти залишаються караними навіть після закінчення навчання.",
+    "basic_penalty":"Базове покарання","aggravating_simple":"Одна обтяжуюча обставина","two_aggravating":"Дві обтяжуючі обставини","up_to_10_years":"До 10 років + 300 000 €","organized_group_desc":"кожен учасник може бути притягнутий до відповідальності, навіть за одне повідомлення, якщо встановлено колективний характер переслідування.","itt_over_8":"Непрацездатність > 8 днів","victim_suicide":"Якщо жертва скоїла самогубство або спробу","school_harassment_note":"Факти залишаються караними навіть після закінчення навчання.",
     "sexual_harassment_desc":"Повторювані висловлювання або поведінка сексуального чи сексистського характеру, що принижують гідність або створюють залякуючу, ворожу чи образливу ситуацію.",
     "organized_group_law":"🚨 У складі організованої групи: що говорить закон","collective_responsibility":"⚖️ Колективна відповідальність",
     "collective_desc":"Переслідування в мережі або групою є обтяжуючою обставиною. Навіть якщо ви надіслали лише одне повідомлення, лайкнули або поділилися контентом, що цькує, ви можете бути притягнуті до відповідальності.","online_moral_harassment":"Психологічне переслідування в мережі","sexual_harassment_multiple":"Сексуальне домагання кількома особами","multiple_aggravating":"Переслідування з кількома обтяжуючими обставинами","law_punishes_each":"Закон карає кожного учасника, а не лише організатора.",
@@ -2645,21 +2151,9 @@ window.TRANSLATIONS = {
     "contact_title":"✉️ Зв'яжіться з нами","contact_intro":"Є питання чи ідея? Напишіть нам — ми будемо раді допомогти.","phone":"Телефон","location":"Місцезнаходження","france_ille":"Франція, Іль-е-Вілен","hours":"Години роботи","your_name":"Ваше ім'я","your_email":"Ваша адреса ел. пошти","your_message":"Ваше повідомлення...","send_message":"Надіслати повідомлення","message_prepared":"Ваше повідомлення підготовлено. Тепер ви можете надіслати його через додаток електронної пошти.",
     "footer_home":"🏠 Головна","footer_about":"📜 Про нас","footer_harassment":"🛡️ Булінг","footer_shop":"🛒 Магазин","footer_vinted":"👕 Vinted","footer_beauty":"💅 Краса","footer_cyber":"🛡️ Кібербезпека","footer_contact":"✉️ Контакти","footer_faq":"❓ Часті запитання","footer_cgv":"📄 Умови","footer_legal":"⚖️ Правова інформація","footer_location":"📍 Іль-е-Вілен · 🕒 з 9:00 до 20:00","footer_payment":"🔒 Безпечна оплата — 🚚 Швидка доставка","copyright":"© 2026 GUILLET IV — Орден Незалежності","follow_tiktok":"🎵 Підписуйтесь на нас у TikTok",
     "search_product":"Пошук товару","clear_search":"Очистити пошук","toggle_mode":"Переключити світлу / темну тему","choose_music":"Вибрати трек","back_top":"Нагору","open_chat":"Відкрити чат з радником","advice_chat":"🤖 Радник GUILLET IV","ask_question":"Задайте мені питання...",
-    "chat_hello":"👋 Вітаю та ласкаво просимо до <strong>GUILLET IV</strong>! Я ваш віртуальний помічник.",
-    "chat_prompt":"Задайте мені питання або виберіть тему нижче:",
-    "chat_unknown":"Я не впевнений, що розумію 🤔 Ось що я вмію:",
-    "chat_menu_title":"Ось усі розділи сайту:",
-    "chat_contact_reply":"📞 Ми доступні з 9:00 до 20:00 за телефоном <strong>07.80.20.47.49</strong>.",
-    "chat_delivery_reply":"🚚 Доставка <strong>швидка та безпечна</strong>.",
-    "chat_drone_reply":"🎥 <strong>Дрон KY108</strong> (89 €).",
-    "chat_proj_reply":"💡 <strong>Сонячний LED-прожектор</strong> (35 €).",
-    "chat_endo_reply":"🔍 <strong>Ендоскоп</strong> (95 €).",
-    "chat_beauty_reply":"💅 Розділ <strong>Нігті та Краса</strong>.",
-    "chat_price_reply":"💰 Дрон: 89 € • Прожектор: 35 € • Зимовий набір: 99,99 € • Ендоскоп: 95 €",
-    "chat_thanks_reply":"Будь ласка! 🙏",
-    "chat_btn_home":"🏠 Головна","chat_btn_shop":"🛒 Магазин","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Нігті та Краса","chat_btn_about":"📜 Про нас","chat_btn_contact":"✉️ Контакти","chat_btn_faq":"❓ ЧЗП","chat_btn_cyber":"🛡️ Кібербезпека","chat_btn_harass":"🚨 Булінг",
-    "chat_btn_all_pages":"📋 Усі сторінки","chat_btn_prices":"💶 Ціни","chat_btn_contact_me":"📞 Зв'язатися з нами","chat_btn_delivery":"🚚 Доставка","chat_btn_menu":"📋 Меню сторінок",
-    "chat_btn_see":"Переглянути","chat_btn_buy":"Купити","chat_btn_see_section":"Переглянути розділ"
+    "chat_hello":"👋 Вітаю та ласкаво просимо до <strong>GUILLET IV</strong>! Я ваш віртуальний помічник.","chat_prompt":"Задайте мені питання або виберіть тему нижче:","chat_unknown":"Я не впевнений, що розумію 🤔 Ось що я вмію:","chat_menu_title":"Ось усі розділи сайту:",
+    "chat_contact_reply":"📞 Ми доступні з 9:00 до 20:00 за телефоном <strong>07.80.20.47.49</strong>.","chat_delivery_reply":"🚚 Доставка <strong>швидка та безпечна</strong>.","chat_drone_reply":"🎥 <strong>Дрон KY108</strong> (89 €).","chat_proj_reply":"💡 <strong>Сонячний LED-прожектор</strong> (35 €).","chat_endo_reply":"🔍 <strong>Ендоскоп</strong> (95 €).","chat_beauty_reply":"💅 Розділ <strong>Нігті та Краса</strong>.","chat_price_reply":"💰 Дрон: 89 € • Прожектор: 35 € • Зимовий набір: 99,99 € • Ендоскоп: 95 €","chat_thanks_reply":"Будь ласка! 🙏",
+    "chat_btn_home":"🏠 Головна","chat_btn_shop":"🛒 Магазин","chat_btn_vinted":"👕 Vinted","chat_btn_beauty":"💅 Нігті та Краса","chat_btn_about":"📜 Про нас","chat_btn_contact":"✉️ Контакти","chat_btn_faq":"❓ ЧЗП","chat_btn_cyber":"🛡️ Кібербезпека","chat_btn_harass":"🚨 Булінг","chat_btn_all_pages":"📋 Усі сторінки","chat_btn_prices":"💶 Ціни","chat_btn_contact_me":"📞 Зв'язатися з нами","chat_btn_delivery":"🚚 Доставка","chat_btn_menu":"📋 Меню сторінок","chat_btn_see":"Переглянути","chat_btn_buy":"Купити","chat_btn_see_section":"Переглянути розділ"
   }
 };
 
@@ -2669,32 +2163,6 @@ window.TRANSLATIONS = {
   var ORI_TEXT = new WeakMap(); var ORI_ATTR = new WeakMap(); var CURRENT_LANG = "fr";
   function getDict(lang){ return lang === "fr" ? null : (window.TRANSLATIONS[lang] || null); }
   window.__getDict = function(){ return getDict(CURRENT_LANG); };
-
-  function trNode(node, dict){
-    if (!ORI_TEXT.has(node)) ORI_TEXT.set(node, node.nodeValue);
-    var original = ORI_TEXT.get(node); if (!original || !original.trim()) return;
-    if (CURRENT_LANG === "fr") { node.nodeValue = original; return; }
-    var p = node.parentElement;
-    if (p && p.dataset && p.dataset.i18n && dict && dict[p.dataset.i18n]) { node.nodeValue = dict[p.dataset.i18n]; return; }
-    var t = original.trim();
-    if (dict && Object.prototype.hasOwnProperty.call(dict, t)) {
-      var lead = original.match(/^\s*/)[0], trail = original.match(/\s*$/)[0];
-      node.nodeValue = lead + dict[t] + trail;
-    } else node.nodeValue = original;
-  }
-
-  function trTree(root, dict){
-    if (!root) return;
-    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
-      acceptNode: function(node){
-        var p = node.parentElement; if (!p) return NodeFilter.FILTER_REJECT;
-        var tag = p.tagName; if (["SCRIPT","STYLE","NOSCRIPT","CODE","TEXTAREA"].indexOf(tag) !== -1) return NodeFilter.FILTER_REJECT;
-        return NodeFilter.FILTER_ACCEPT;
-      }
-    });
-    var nodes = [], n; while ((n = walker.nextNode())) nodes.push(n);
-    nodes.forEach(function(node){ trNode(node, dict); });
-  }
 
   function applyAll(){
     var dict = getDict(CURRENT_LANG);
@@ -2721,7 +2189,6 @@ window.TRANSLATIONS = {
       else if (dict && dict[key]) { el.setAttribute("aria-label", dict[key]); }
       else { el.setAttribute("aria-label", o.aria); }
     });
-    trTree(document.body, dict);
   }
   window.reapplyLanguage = function(){ applyAll(); };
   window.applyLanguage = function(lang){
