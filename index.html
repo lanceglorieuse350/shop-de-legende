@@ -20,12 +20,16 @@
 <link rel="preload" as="image" href="background.jpg" fetchpriority="high">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+<!-- LECART : La librairie qui gère le panier multi-articles -->
+<link rel="stylesheet" href="https://unpkg.com/lecart/dist/lecart.css">
+<script src="https://unpkg.com/lecart/dist/lecart.min.js" defer></script>
+
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
 <script defer src="/_vercel/insights/script.js"></script>
 
 <style>
 /* ============================================================
-   VARIABLES GLOBALES
+   CSS GLOBAL & VARIABLES
    ============================================================ */
 :root{
   --bg:#050505;--text:#fff;--card-bg:#101010;--card-bg-2:#181818;
@@ -67,9 +71,6 @@ p,li,h1,h2,h3,h4{overflow-wrap:anywhere}
 @keyframes badgeBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 @keyframes chatOpen{from{opacity:0;transform:scale(.85) translateY(12px)}to{opacity:1;transform:scale(1) translateY(0)}}
 @keyframes cartBump{0%{transform:scale(1)}35%{transform:scale(1.5)}70%{transform:scale(.9)}100%{transform:scale(1)}}
-@keyframes cartSlideIn{from{transform:translateX(100%)}to{transform:translateX(0)}}
-@keyframes cartSlideOut{from{transform:translateX(0)}to{transform:translateX(100%)}}
-@keyframes cartFadeIn{from{opacity:0}to{opacity:1}}
 
 .page-section{display:none;animation:fadeIn 0.3s ease}
 .page-section.active{display:block}
@@ -394,36 +395,19 @@ body.light-mode .music-widget select{background:#fff}
 }
 
 /* ============================================================
-   PANIER CUSTOM (100% fait maison, design parfait)
+   LECART — STYLE FORCÉ (Réintégré pour que ce soit beau)
    ============================================================ */
-.cart-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.7);backdrop-filter:blur(4px);z-index:9998;display:none;opacity:0;transition:opacity 0.3s}
-.cart-overlay.show{display:block;opacity:1}
-.cart-drawer{position:fixed;top:0;right:0;bottom:0;width:380px;max-width:100vw;background:#0a0a0a;border-left:1px solid var(--border-color);z-index:9999;display:none;flex-direction:column;box-shadow:-15px 0 50px rgba(0,0,0,0.9);transform:translateX(100%)}
-.cart-drawer.open{display:flex;animation:cartSlideIn 0.3s ease forwards}
-.cart-drawer.closing{animation:cartSlideOut 0.3s ease forwards}
-.cart-header{display:flex;justify-content:space-between;align-items:center;padding:20px;border-bottom:1px solid var(--border-color);background:linear-gradient(135deg,#111,#000)}
-.cart-header h2{font-family:var(--font-display);color:var(--gold);font-size:1.1rem;letter-spacing:0.1em;text-transform:uppercase;margin:0}
-.cart-close-btn{background:rgba(225,6,0,0.15);border:1px solid var(--red);color:var(--red);width:32px;height:32px;border-radius:50%;font-size:1.1rem;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all 0.2s}
-.cart-close-btn:hover{background:var(--red);color:#fff}
-.cart-body{flex:1;overflow-y:auto;padding:15px}
-.cart-empty{text-align:center;color:var(--text);opacity:0.6;padding:3rem 1rem;font-style:italic}
-.cart-item{display:flex;gap:12px;background:#141414;border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:12px;margin-bottom:12px;position:relative;transition:border-color 0.2s}
-.cart-item:hover{border-color:rgba(255,215,0,0.4)}
-.cart-item-img{width:70px;height:70px;object-fit:cover;border-radius:8px;border:1px solid rgba(255,215,0,0.2);background:#000;flex-shrink:0}
-.cart-item-info{display:flex;flex-direction:column;flex:1;gap:4px;min-width:0}
-.cart-item-title{color:#fff;font-size:0.9rem;font-weight:600;line-height:1.2;margin:0;padding-right:24px}
-.cart-item-price{color:var(--gold);font-weight:700;font-size:0.95rem}
-.cart-qty{display:inline-flex;align-items:center;background:#000;border:1px solid rgba(255,215,0,0.3);border-radius:20px;padding:2px;margin-top:5px;width:fit-content}
-.cart-qty button{background:transparent;color:var(--gold);border:none;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1rem;cursor:pointer;transition:background 0.2s}
-.cart-qty button:hover{background:rgba(255,215,0,0.2)}
-.cart-qty span{color:var(--gold);width:28px;text-align:center;font-weight:700;font-size:0.9rem;-webkit-text-fill-color:var(--gold)}
-.cart-item-remove{position:absolute;top:8px;right:8px;background:rgba(225,6,0,0.1);color:var(--red);border:none;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.8rem;cursor:pointer;transition:all 0.2s}
-.cart-item-remove:hover{background:var(--red);color:#fff}
-.cart-footer{padding:20px;border-top:1px solid var(--border-color);background:#050505}
-.cart-subtotal{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;font-size:1rem;color:#fff}
-.cart-subtotal strong{color:var(--gold);font-weight:700;font-size:1.2rem;font-family:var(--font-display)}
-.cart-checkout-btn{width:100%;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;font-family:var(--font-display);font-weight:700;font-size:1rem;padding:15px;border-radius:10px;border:none;text-transform:uppercase;letter-spacing:0.05em;cursor:pointer;box-shadow:0 4px 15px rgba(255,215,0,0.2);transition:all 0.3s ease;text-align:center}
-.cart-checkout-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(255,215,0,0.4)}
+[class*="lecart-drawer"], [class*="lecart-sidebar"], #lecart-drawer {
+  width: 320px !important; max-width: 100vw !important; background: #0a0a0a !important;
+  border-left: 1px solid rgba(255,215,0,0.35) !important; box-shadow: -10px 0 40px rgba(0,0,0,0.95) !important;
+}
+[class*="lecart-title"], [class*="cart-title"] { font-family: 'Cinzel', serif !important; color: #ffd700 !important; font-size: 1rem !important; }
+[class*="qty"], [class*="quantity"], [class*="lecart-qty"] { display: inline-flex !important; align-items: center !important; background: #1a1a1a !important; border: 1px solid rgba(255, 215, 0, 0.4) !important; border-radius: 20px !important; padding: 3px !important; }
+[class*="qty"] button, [class*="quantity"] button { background: transparent !important; color: #ffd700 !important; border: none !important; width: 26px !important; height: 26px !important; border-radius: 50% !important; font-size: 1rem !important; font-weight: 700 !important; cursor: pointer !important; }
+[class*="qty"] input, [class*="quantity"] input, [class*="qty"] span { background: transparent !important; border: none !important; color: #ffd700 !important; font-size: 1rem !important; font-weight: 900 !important; width: 32px !important; text-align: center !important; -webkit-text-fill-color: #ffd700 !important; }
+[class*="remove"], [class*="delete"] { background: rgba(225, 6, 0, 0.2) !important; color: #e10600 !important; border-radius: 50% !important; width: 24px !important; height: 24px !important; display: flex !important; align-items: center !important; justify-content: center !important; }
+[class*="checkout"], [class*="commander"] { background: linear-gradient(135deg, #ffd700, #b8860b) !important; color: #000 !important; font-family: 'Cinzel', serif !important; font-weight: 700 !important; font-size: 0.95rem !important; padding: 0.9rem !important; border-radius: 10px !important; border: 1px solid #ffd700 !important; text-transform: uppercase !important; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.25) !important; margin-bottom: 1rem !important; cursor: pointer !important; width: 100% !important; }
+
 </style>
 </head>
 <body>
@@ -802,7 +786,7 @@ body.light-mode .music-widget select{background:#fff}
           </ol>
           <p data-i18n="drone_use_note">Pensez à respecter les règles de vol applicables et la vie privée des personnes filmées.</p>
         </div>
-        <button type="button" class="payment-btn" onclick="ajouterAuPanier('produit-drone', 'Drone KY108', 89, 'photo1.png')">💳 Ajouter au panier — 89 €</button>
+        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1URq5TRNu37iEZT9kBjY7X1G" data-product-name="KY108 Drone" data-product-price="89.00" data-product-image="photo1.png">💳 Ajouter au panier — 89 €</button>
       </div>
     </div>
 
@@ -834,7 +818,7 @@ body.light-mode .music-widget select{background:#fff}
             <li data-i18n="proj_use_4">Laisser charger le panneau solaire</li>
           </ul>
         </div>
-        <button type="button" class="payment-btn" onclick="ajouterAuPanier('produit-projecteur', 'Projecteur LED rotatif', 35, 'produit.png')">💳 Ajouter au panier — 35 €</button>
+        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1URs5zRNu37iEZT9MkNDMhFW" data-product-name="Projecteur LED rotatif" data-product-price="35.00" data-product-image="produit.png">💳 Ajouter au panier — 35 €</button>
       </div>
     </div>
 
@@ -881,7 +865,7 @@ body.light-mode .music-widget select{background:#fff}
             <li data-i18n="pack_item_4_b4">Sac de rangement inclus</li>
           </ul>
         </div>
-        <button type="button" class="payment-btn" onclick="ajouterAuPanier('produit-pack-hiver', 'Winter Survival Pack', 99.99, 'Winter-Survival.png')">💳 Ajouter au panier — 99,99 €</button>
+        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1URsA0RNu37iEZT9Yq7pXGpL" data-product-name="Winter Survival Pack" data-product-price="99.99" data-product-image="Winter-Survival.png">💳 Ajouter au panier — 99,99 €</button>
       </div>
     </div>
 
@@ -914,7 +898,7 @@ body.light-mode .music-widget select{background:#fff}
             <li data-i18n="endo_feat_5">Certification IP68 waterproof</li>
           </ul>
         </div>
-        <button type="button" class="payment-btn" onclick="ajouterAuPanier('produit-endoscope', 'Endoscope caméra', 95, 'photo-endoscope.png')">💳 Ajouter au panier — 95 €</button>
+        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1US30aRNu37iEZT9EGBkxLCy" data-product-name="Endoscope caméra d'inspection" data-product-price="95.00" data-product-image="photo-endoscope.png">💳 Ajouter au panier — 95 €</button>
       </div>
     </div>
   </div>
@@ -1302,194 +1286,87 @@ body.light-mode .music-widget select{background:#fff}
   </div>
 </div>
 
-<!-- BOUTON PANIER FLOTTANT -->
-<button type="button" id="panierFlottant" onclick="ouvrirPanier()" aria-label="Voir le panier">
+<button type="button" id="panierFlottant" data-lecart-open aria-label="Voir le panier">
   <img src="panier.png" alt="">
   <span class="panier-label">Panier</span>
   <span id="panierCount" aria-live="polite">0</span>
 </button>
 
-<!-- TIROIR DU PANIER CUSTOM -->
-<div class="cart-overlay" id="cartOverlay" onclick="fermerPanier()"></div>
-<div class="cart-drawer" id="cartDrawer" role="dialog" aria-label="Panier">
-  <div class="cart-header">
-    <h2>Votre Panier</h2>
-    <button type="button" class="cart-close-btn" onclick="fermerPanier()" aria-label="Fermer">✕</button>
-  </div>
-  <div class="cart-body" id="cartBody">
-    <p class="cart-empty">Votre panier est vide.</p>
-  </div>
-  <div class="cart-footer">
-    <div class="cart-subtotal">
-      <span>Sous-total</span>
-      <strong id="cartTotal">0,00 €</strong>
-    </div>
-    <button type="button" class="cart-checkout-btn" onclick="validerCommande()">Passer à la caisse</button>
-  </div>
-</div>
+<!-- INITIALISATION DE LECART -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof LeCart === 'undefined' || typeof LeCart.init !== 'function') {
+    console.warn('[LeCart] Bibliothèque non chargée.');
+    return;
+  }
+  try {
+    LeCart.init({
+      lecartApiKey: 'lecart_0-Bbby0TVjcRqMSvtHx0iZ-ELLmhAKUTFyJFYkIGwlY',
+      checkoutEndpoint: 'https://api.getlecart.com/create-checkout',
+      stripePublicKey: 'pk_live_51UNkYQRNu37iEZT9IHDIDELHXsO4A5R2ppIQKlBEpev5Q4XX6qRjrTpVHRzcVgaKdykQEm8kVDLKkBXcdPIu33UV008Oeu1wN7',
+      currency: 'EUR',
+      language: 'fr',
+      theme: 'dark',
+      collectShippingAddress: true,
+      collectPhoneNumber: true
+    });
+  } catch(e) {
+    console.error('[LeCart] Erreur :', e);
+  }
+});
+</script>
 
-<!-- ============================================================
-     SCRIPT PANIER CUSTOM (100% fait maison)
-     ============================================================ -->
+<!-- COMPTEUR PANIER -->
 <script>
 (function(){
   "use strict";
-
-  var cart = [];
-  try {
-    var saved = localStorage.getItem("guillet_cart");
-    if (saved) cart = JSON.parse(saved);
-    if (!Array.isArray(cart)) cart = [];
-  } catch(e) { cart = []; }
-
-  window.ouvrirPanier = function(){
-    document.getElementById("cartOverlay").classList.add("show");
-    var d = document.getElementById("cartDrawer");
-    d.classList.remove("closing");
-    d.classList.add("open");
-    document.body.style.overflow = "hidden";
-  };
-  window.fermerPanier = function(){
-    document.getElementById("cartOverlay").classList.remove("show");
-    var d = document.getElementById("cartDrawer");
-    d.classList.add("closing");
-    setTimeout(function(){
-      d.classList.remove("open");
-      d.classList.remove("closing");
-      document.body.style.overflow = "";
-    }, 300);
-  };
-
-  function saveCart(){
-    try { localStorage.setItem("guillet_cart", JSON.stringify(cart)); } catch(e){}
-  }
-
-  function renderCart(){
-    var body = document.getElementById("cartBody");
-    var totalEl = document.getElementById("cartTotal");
-    var countEl = document.getElementById("panierCount");
-    if (!body) return;
-
-    if (cart.length === 0) {
-      body.innerHTML = '<p class="cart-empty">Votre panier est vide.</p>';
-      totalEl.textContent = "0,00 €";
-      if (countEl) { countEl.style.display = "none"; countEl.textContent = "0"; }
-      return;
-    }
-
-    var html = "";
-    var total = 0;
-    cart.forEach(function(item, idx){
-      total += item.price * item.qty;
-      html += '<div class="cart-item">' +
-        '<img src="' + item.image + '" alt="" class="cart-item-img" onerror="this.style.display=\'none\'">' +
-        '<div class="cart-item-info">' +
-          '<p class="cart-item-title">' + item.name + '</p>' +
-          '<span class="cart-item-price">' + item.price.toFixed(2).replace(".", ",") + ' €</span>' +
-          '<div class="cart-qty">' +
-            '<button type="button" onclick="changerQte(' + idx + ', -1)">−</button>' +
-            '<span>' + item.qty + '</span>' +
-            '<button type="button" onclick="changerQte(' + idx + ', 1)">+</button>' +
-          '</div>' +
-        '</div>' +
-        '<button type="button" class="cart-item-remove" onclick="supprimerItem(' + idx + ')" aria-label="Supprimer">×</button>' +
-      '</div>';
-    });
-
-    body.innerHTML = html;
-    totalEl.textContent = total.toFixed(2).replace(".", ",") + " €";
-
-    var count = cart.reduce(function(s, i){ return s + i.qty; }, 0);
-    if (countEl) {
-      if (count > 0) {
-        countEl.style.display = "inline-block";
-        countEl.textContent = count;
-      } else {
-        countEl.style.display = "none";
-      }
-    }
-  }
-
-  window.ajouterAuPanier = function(id, name, price, image){
-    var existing = cart.find(function(i){ return i.id === id; });
-    if (existing) {
-      existing.qty += 1;
-    } else {
-      cart.push({ id: id, name: name, price: price, image: image, qty: 1 });
-    }
-    saveCart();
-    renderCart();
-
+  function majCompteur() {
     var badge = document.getElementById("panierCount");
-    if (badge) {
-      badge.classList.remove("bump");
-      void badge.offsetWidth;
-      badge.classList.add("bump");
+    if (!badge) return;
+    var count = 0;
+    try {
+      var cart = JSON.parse(localStorage.getItem("lecart_cart") || "[]");
+      if (Array.isArray(cart)) count = cart.length;
+      if (count === 0) {
+        var cart2 = JSON.parse(localStorage.getItem("lecart-cart") || "[]");
+        if (Array.isArray(cart2)) count = cart2.length;
+      }
+    } catch(e) { count = 0; }
+    if (typeof LeCart !== 'undefined' && typeof LeCart.getCart === 'function') {
+      try {
+        var c = LeCart.getCart();
+        if (Array.isArray(c)) count = c.length;
+      } catch(e) {}
     }
-    ouvrirPanier();
-  };
-
-  window.changerQte = function(idx, delta){
-    if (!cart[idx]) return;
-    cart[idx].qty += delta;
-    if (cart[idx].qty <= 0) {
-      cart.splice(idx, 1);
-    }
-    saveCart();
-    renderCart();
-  };
-
-  window.supprimerItem = function(idx){
-    cart.splice(idx, 1);
-    saveCart();
-    renderCart();
-  };
-
-  window.validerCommande = function(){
-    if (cart.length === 0) {
-      alert("Votre panier est vide.");
-      return;
-    }
-    
-    // On récupère le premier produit du panier pour trouver son lien Stripe
-    var premierProduit = cart[0];
-    var stripeUrl = "";
-
-    // Vos liens de paiement Stripe
-    switch (premierProduit.id) {
-      case 'produit-drone':
-        stripeUrl = "https://buy.stripe.com/28E6oJaoqdRg6VT0M10ZW01";
-        break;
-      case 'produit-projecteur':
-        stripeUrl = "https://buy.stripe.com/dRmfZ:0NQ14u1Bz7ap0ZW02"; 
-        break;
-      case 'produit-endoscope':
-        stripeUrl = "https://buy.stripe.com/7sYeVfcwy00q6VTdyN0ZW03";
-        break;
-      default:
-        stripeUrl = "https://buy.stripe.com/28E6oJaoqdRg6VT0M10ZW01"; 
-    }
-
-    // Redirection vers Stripe
-    window.open(stripeUrl, "_blank");
-  };
-
-  // Init
-  document.addEventListener("DOMContentLoaded", renderCart);
-
-  // Fermer le panier avec Escape
-  document.addEventListener("keydown", function(e){
-    if (e.key === "Escape") {
-      var d = document.getElementById("cartDrawer");
-      if (d && d.classList.contains("open")) fermerPanier();
+    if (count > 0) { badge.style.display = "inline-block"; badge.textContent = count; }
+    else { badge.style.display = "none"; }
+  }
+  document.addEventListener("DOMContentLoaded", majCompteur);
+  window.addEventListener("lecart:cart-updated", majCompteur);
+  window.addEventListener("lecart:updated", majCompteur);
+  window.addEventListener("lecart:item-added", majCompteur);
+  window.addEventListener("lecart:item-removed", majCompteur);
+  window.addEventListener("lecart:quantity-changed", majCompteur);
+  window.addEventListener("storage", function(e) { if (e.key && (e.key.includes("lecart") || e.key.includes("cart"))) majCompteur(); });
+  setInterval(majCompteur, 1500);
+  document.addEventListener("click", function(e){
+    var btn = e.target.closest("[data-lecart-add]");
+    if (btn) {
+      var badge = document.getElementById("panierCount");
+      if (badge) {
+        badge.classList.remove("bump");
+        void badge.offsetWidth;
+        badge.classList.add("bump");
+        setTimeout(function(){ badge.classList.remove("bump"); }, 500);
+      }
+      setTimeout(majCompteur, 300);
+      setTimeout(majCompteur, 800);
     }
   });
 })();
 </script>
 
-<!-- ============================================================
-     SCRIPTS PRINCIPAUX
-     ============================================================ -->
+<!-- SCRIPTS PRINCIPAUX -->
 <script>
 (function(){
   "use strict";
