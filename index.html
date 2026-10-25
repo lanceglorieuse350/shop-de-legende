@@ -218,7 +218,7 @@ body.light-mode .contact-form input,body.light-mode .contact-form textarea{backg
 /* --- PRÉVENTION HARCELEMENT --- */
 .prevention-page{display:none;position:fixed;inset:0;z-index:5000;background:#0a0a0a;overflow-y:auto;overscroll-behavior:contain}
 .prevention-page.open{display:block;animation:fadeIn .3s ease}
-.prevention-header{position:sticky;top:0;z-index:10;background:linear-gradient(135deg,#000 0%,#1a0000 50%,#000 100%);border-bottom:2px solid var(--gold);padding:1.2rem;display:flex;justify-content:space-between;align-items:center;gap:.6rem;box-shadow:0 4px 15px rgba(0,0,0,0.5)}
+.prevention-header{position:sticky;top:0;z-index:10;background:linear-gradient(135deg,#000 0%,#1a0000 50%,#000 100%);border-bottom:2px solid var(--gold);padding:1.2rem;display:flex;justify-content:space-between;align-items:center;gap:.6rem;box-shadow:0 4px 15px rgba(0,0,0,0.5);flex-wrap:wrap}
 .prevention-header h1{font-family:var(--font-display);font-size:1.4rem;color:var(--gold);margin:0;display:flex;align-items:center;gap:.6rem}
 .prevention-close{background:rgba(225,6,0,0.2);border:2px solid var(--red);color:#fff;width:48px;height:48px;border-radius:50%;font-size:1.5rem;font-weight:bold;display:flex;align-items:center;justify-content:center;transition:all 0.2s;cursor:pointer}
 .prevention-close:hover{background:var(--red);transform:scale(1.1)}
@@ -515,17 +515,37 @@ body.light-mode .music-widget select{background:#fff}
   <img id="zoomImg" alt="Zoom produit" onclick="event.stopPropagation()">
 </div>
 
+<!-- PRÉVENTION HARCELEMENT AVEC NAVIGATION INTÉGRÉE -->
 <div id="prevention-page" class="prevention-page" role="dialog" aria-modal="true" aria-label="Prévention Harcèlement">
-  <div class="prevention-header">
-    <h1 data-i18n="prevention_harassment">🛡️ Prévention Harcèlement</h1>
-    <button type="button" class="prevention-close" onclick="fermerPrevention()" aria-label="Fermer">✕</button>
+  <div class="prevention-header" style="flex-direction:column; align-items:stretch; padding: 0;">
+    <div style="display:flex; justify-content:space-between; align-items:center; padding:1.2rem;">
+      <h1 data-i18n="prevention_harassment" style="margin:0;">🛡️ Prévention Harcèlement</h1>
+      <button type="button" class="prevention-close" onclick="fermerPrevention()" aria-label="Fermer">✕</button>
+    </div>
+    <!-- NAVIGATION AJOUTÉE ICI -->
+    <div class="navbar-links" style="background:#000; padding: 0.8rem 1rem; border-top: 1px solid rgba(255,215,0,0.3); margin:0; justify-content:center;">
+      <a href="#accueil" onclick="fermerPrevention(); navigateTo('accueil')" class="nav-link">🏠 Accueil</a>
+      <a href="#apropos" onclick="fermerPrevention(); navigateTo('apropos')" class="nav-link">📜 À propos</a>
+      <a href="#produits" onclick="fermerPrevention(); navigateTo('accueil', 'produits')" class="nav-link">🛒 Boutique</a>
+      <a href="#vinted" onclick="fermerPrevention(); navigateTo('vinted')" class="nav-link">👕 Vinted</a>
+      <a href="#ongles-beaute" onclick="fermerPrevention(); navigateTo('ongles-beaute')" class="nav-link">💅 Ongles & Beauté</a>
+      <a href="#prevention-cyber" onclick="fermerPrevention(); navigateTo('prevention-cyber')" class="nav-link">🛡️ Cybersécurité</a>
+      <a href="javascript:void(0)" class="nav-link active-link" style="pointer-events:none;">🚨 Harcèlement</a>
+      <a href="#contact" onclick="fermerPrevention(); navigateTo('contact')" class="nav-link">✉️ Contact</a>
+      <a href="#faq" onclick="fermerPrevention(); navigateTo('faq')" class="nav-link">❓ FAQ</a>
+      <a href="#cgv" onclick="fermerPrevention(); navigateTo('cgv')" class="nav-link">📄 CGV</a>
+      <a href="#mentions" onclick="fermerPrevention(); navigateTo('mentions')" class="nav-link">⚖️ Mentions légales & Sécurité</a>
+      <a href="https://www.tiktok.com/@lanceglorieuse" target="_blank" rel="noopener noreferrer">🎵 TikTok</a>
+    </div>
   </div>
+  
   <div class="prevention-content">
     <div class="prevention-intro-box">
       <p><strong data-i18n="harassment_is_crime">Le harcèlement est un délit. Il détruit des vies.</strong></p>
       <p data-i18n="harassment_intro_2">Que ce soit physique, psychologique ou virtuel, la loi française punit sévèrement les auteurs.</p>
       <p data-i18n="harassment_intro_3">Voici les peines encourues, seul ou en bande organisée.</p>
     </div>
+    
     <nav class="prevention-summary" aria-label="Sommaire de la prévention harcèlement">
       <h2 data-i18n="prevention_themes">📋 Les thèmes de prévention</h2>
       <ul>
@@ -536,6 +556,7 @@ body.light-mode .music-widget select{background:#fff}
         <li><a href="#prevention-aide" data-i18n="where_help">📞 Où trouver de l'aide ?</a></li>
       </ul>
     </nav>
+    
     <section class="prevention-section-block" id="prevention-moral">
       <h2 class="prevention-title-blue" data-i18n="moral_harassment">💻 Harcèlement moral</h2>
       <div class="prevention-card-full">
@@ -550,6 +571,7 @@ body.light-mode .music-widget select{background:#fff}
         <p style="margin-top:.6rem;"><strong>⚠️ <span data-i18n="organized_group">En bande organisée</span> :</strong> <span data-i18n="organized_group_desc">chaque participant peut être poursuivi, même pour un seul message, si le caractère collectif du harcèlement est établi.</span></p>
       </div>
     </section>
+    
     <section class="prevention-section-block" id="prevention-scolaire">
       <h2 class="prevention-title-white" data-i18n="school_harassment">🎓 Harcèlement scolaire</h2>
       <div class="prevention-card-full">
@@ -564,6 +586,7 @@ body.light-mode .music-widget select{background:#fff}
         <p style="margin-top:.6rem;" data-i18n="school_harassment_note">Les faits restent punissables même après la fin de la scolarité.</p>
       </div>
     </section>
+    
     <section class="prevention-section-block" id="prevention-sexuel">
       <h2 class="prevention-title-red" data-i18n="sexual_harassment">🤬 Harcèlement sexuel</h2>
       <div class="prevention-card-full">
@@ -571,11 +594,12 @@ body.light-mode .music-widget select{background:#fff}
         <p data-i18n="sexual_harassment_desc">Propos ou comportements à connotation sexuelle ou sexiste répétés, portant atteinte à la dignité ou créant une situation intimidante, hostile ou offensante.</p>
         <ul class="prevention-list">
           <li><strong data-i18n="basic_penalty">Peine de base</strong> <span class="peine">2 ans + 30 000 €</span></li>
-          <li><strong data-i18n="aggravating_circumstances">Circonstances aggravantes</strong> <span class="peine">3 ans + 45 000 €</span></li>
+          <li><strong data-i18n="aggravating_simple">Circonstances aggravantes</strong> <span class="peine">3 ans + 45 000 €</span></li>
           <li><strong data-i18n="organized_group">En bande organisée</strong> <span class="peine">7 ans + 100 000 €</span></li>
         </ul>
       </div>
     </section>
+    
     <section class="prevention-section-block" id="prevention-bande">
       <h2 class="prevention-title-red" data-i18n="organized_group_law">🚨 En bande organisée : ce que dit la loi</h2>
       <div class="prevention-card-full">
@@ -589,6 +613,7 @@ body.light-mode .music-widget select{background:#fff}
         <p style="margin-top:.6rem;" data-i18n="law_punishes_each">La loi punit chaque participant, pas seulement le meneur.</p>
       </div>
     </section>
+    
     <section class="prevention-section-block" id="prevention-aide">
       <div class="prevention-warning-box">
         <p><strong data-i18n="dont_stay_alone">⚠️ Ne reste pas seul(e). Parle.</strong></p>
@@ -596,11 +621,14 @@ body.light-mode .music-widget select{background:#fff}
         <p data-i18n="report_17cyber">🌐 17Cyber.gouv.fr — Signalement en ligne</p>
       </div>
     </section>
+    
     <div class="prevention-actions">
       <a href="https://17cyber.gouv.fr/" target="_blank" rel="noopener noreferrer" class="prevention-btn prevention-btn-primary" data-i18n="report_17cyber_btn">🚨 Signaler sur 17Cyber</a>
       <a href="tel:3018" class="prevention-btn prevention-btn-danger" data-i18n="call_3018_btn">📞 Appeler le 3018</a>
     </div>
+    
     <p class="prevention-footer-note" data-i18n="prevention_footer_note">Informations issues du Code pénal français (Légifrance). Dernière mise à jour : 2026.</p>
+    
     <div style="text-align:center; margin-top: 3rem;">
       <a href="javascript:void(0)" onclick="fermerPrevention()" class="return-btn" style="display:inline-block;width:auto;min-width:250px; background:var(--gold); color:#000; border:none; padding:1.2rem 2.5rem; font-weight:bold; border-radius:12px; text-decoration:none; font-family:var(--font-display); transition:transform 0.2s;">⬅ Retour à l'accueil</a>
     </div>
