@@ -1450,18 +1450,28 @@ body.light-mode .music-widget select{background:#fff}
       alert("Votre panier est vide.");
       return;
     }
-    var total = cart.reduce(function(s, i){ return s + i.price * i.qty; }, 0);
-    var msg = "🛒 Récapitulatif de votre commande :\n\n";
-    cart.forEach(function(i){
-      msg += "• " + i.name + " × " + i.qty + " = " + (i.price * i.qty).toFixed(2) + " €\n";
-    });
-    msg += "\nTotal : " + total.toFixed(2) + " €\n\n";
-    msg += "→ Vous allez être redirigé vers le paiement Stripe.\n(Configurez votre lien Stripe dans le script)";
+    
+    // On récupère le premier produit du panier pour trouver son lien Stripe
+    var premierProduit = cart[0];
+    var stripeUrl = "";
 
-    alert(msg);
+    // Vos liens de paiement Stripe
+    switch (premierProduit.id) {
+      case 'produit-drone':
+        stripeUrl = "https://buy.stripe.com/28E6oJaoqdRg6VT0M10ZW01";
+        break;
+      case 'produit-projecteur':
+        stripeUrl = "https://buy.stripe.com/dRmfZ:0NQ14u1Bz7ap0ZW02"; 
+        break;
+      case 'produit-endoscope':
+        stripeUrl = "https://buy.stripe.com/7sYeVfcwy00q6VTdyN0ZW03";
+        break;
+      default:
+        stripeUrl = "https://buy.stripe.com/28E6oJaoqdRg6VT0M10ZW01"; 
+    }
 
-    // REMPLACEZ CE LIEN PAR VOTRE LIEN STRIPE CHECKOUT
-    // window.location.href = "https://buy.stripe.com/votre_lien";
+    // Redirection vers Stripe
+    window.open(stripeUrl, "_blank");
   };
 
   // Init
