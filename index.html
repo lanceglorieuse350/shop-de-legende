@@ -742,7 +742,7 @@ body.light-mode .music-widget select{background:#fff}
   display:flex;align-items:center;justify-content:center;gap:.55rem;
   padding:.85rem 1.4rem;
   background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;
-  border:2px solid #fff;border-radius:40px;
+  border:2px solid #fff;
   box-shadow:0 6px 22px rgba(255,215,0,0.5);
   font-family:var(--font-display);font-weight:700;font-size:.95rem;
   cursor:pointer;transition:transform .2s,box-shadow .2s;
@@ -767,17 +767,125 @@ body.light-mode .music-widget select{background:#fff}
 }
 #panierFlottant:hover::after{opacity:1;transform:translateY(0);}
 
-/* MAINTENANCE */
-#maintenance-page{display:none;min-height:100vh;align-items:center;justify-content:center;text-align:center;padding:2rem 1rem;background:radial-gradient(ellipse at center,rgba(225,6,0,0.1),#050505 70%)}
-#maintenance-page .maintenance-emblem{width:80px;height:80px;margin:0 auto 2rem;border-radius:50%;background:radial-gradient(circle at 30% 30%,#ff2a2a,#e10600 40%,#000 90%);border:3px solid #ffd700;display:flex;align-items:center;justify-content:center;font-size:1.8rem;font-weight:bold;color:#ffd700;font-family:'Cinzel',serif;box-shadow:0 0 30px rgba(225,6,0,0.6)}
-#maintenance-page h1{font-family:'Cinzel',serif;font-size:clamp(2rem, 5vw, 3.5rem);color:#ffd700;margin:0 0 1rem;letter-spacing:.05em}
-#maintenance-page .maintenance-motto{font-family:'Playfair Display',serif;font-size:clamp(1.1rem, 2vw, 1.5rem);font-style:italic;color:#fff;max-width:90%;margin:0 0 2rem;line-height:1.6}
-#maintenance-page .maintenance-divider{width:80px;height:3px;background:linear-gradient(90deg,transparent,#ffd700,transparent);margin:0 auto 2rem}
-#maintenance-page .maintenance-info{font-family:'Inter',sans-serif;font-size:1rem;color:#aaa;margin:0 0 2rem}
-#maintenance-page .maintenance-actions{display:flex;flex-direction:column;gap:1rem;width:100%;max-width:280px;margin:0 auto}
-#maintenance-page .maintenance-btn-gold{display:block;padding:1rem 2rem;background:linear-gradient(135deg,#ffd700,#b8860b);color:#000;font-family:'Cinzel',serif;font-weight:700;border-radius:16px;text-decoration:none;border:1px solid #ffd700;text-align:center}
-#maintenance-page .maintenance-btn-outline{display:block;padding:1rem 2rem;background:transparent;color:#ffd700;font-family:'Cinzel',serif;font-weight:700;border-radius:16px;text-decoration:none;border:1px solid #ffd700;text-align:center}
-#maintenance-page .maintenance-copyright{margin-top:3rem;font-size:.85rem;color:#555;font-family:'Inter',sans-serif}
+/* ============================================================
+   MAINTENANCE - NOUVELLE VERSION AVEC LES STATS RÉELLES
+   ============================================================ */
+#maintenance-page{
+  display:none;
+  min-height:100vh;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:2rem 1rem;
+  background:radial-gradient(ellipse at center,rgba(225,6,0,0.1),#050505 70%);
+  flex-direction:column;
+}
+#maintenance-page .maintenance-emblem {
+  width: 120px; height: 120px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  border:3px solid var(--gold);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 0 30px rgba(255,215,0,0.3);
+  background: #000;
+  font-size: 2.5rem; font-weight: bold; color: var(--gold); font-family: 'Cinzel', serif;
+}
+#maintenance-page h1{
+  font-family:'Cinzel',serif;
+  font-size:clamp(2rem, 5vw, 3.5rem);
+  color:var(--gold);
+  margin:0 0 1rem;
+  letter-spacing:.05em;
+  text-shadow: 0 0 15px rgba(255,215,0,0.4);
+}
+#maintenance-page .maintenance-motto{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(1.1rem, 2vw, 1.5rem);
+  font-style:italic;
+  color:#fff;
+  max-width:90%;
+  margin:0 0 2rem;
+  line-height:1.6;
+}
+#maintenance-page .maintenance-divider{
+  width:80px;height:3px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+  margin:0 auto 2rem;
+}
+#maintenance-page .maintenance-info{
+  font-family:'Inter',sans-serif;
+  font-size:1rem;
+  color:#aaa;
+  margin:0 0 2rem;
+}
+
+/* Nouveaux styles pour les stats réelles */
+.maintenance-stats-box {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,215,0,0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 450px;
+  margin: 0 auto 2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  width: 100%;
+}
+.maintenance-stats-box h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+}
+.stats-table th {
+  text-align: left;
+  color: #888;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.stats-table th:not(:first-child) { text-align: right; }
+.stats-table td {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  color: #ddd;
+}
+.stats-table td:not(:first-child) { text-align: right; }
+.stats-table tr:last-child td { border-bottom: none; }
+.stats-flag { margin-right: 6px; }
+
+#maintenance-page .maintenance-actions{
+  display:flex;flex-direction:column;gap:1rem;
+  width:100%;max-width:280px;margin:0 auto;
+}
+#maintenance-page .maintenance-btn-gold{
+  display:block;padding:1rem 2rem;
+  background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;
+  font-family:'Cinzel',serif;font-weight:700;border-radius:16px;
+  text-decoration:none;border:1px solid var(--gold);text-align:center;
+  transition: transform 0.2s;
+}
+#maintenance-page .maintenance-btn-gold:hover{transform: scale(1.05);}
+#maintenance-page .maintenance-btn-outline{
+  display:block;padding:1rem 2rem;background:transparent;color:var(--gold);
+  font-family:'Cinzel',serif;font-weight:700;border-radius:16px;
+  text-decoration:none;border:1px solid var(--gold);text-align:center;
+}
+#maintenance-page .maintenance-copyright{
+  margin-top:3rem;font-size:.85rem;color:#555;font-family:'Inter',sans-serif;
+}
 
 /* ============================================================
    MEDIA QUERIES (RESPONSIVE)
@@ -844,17 +952,75 @@ body.light-mode .music-widget select{background:#fff}
 </head>
 <body>
 
+<!-- PAGE DE MAINTENANCE MISE À JOUR -->
 <div id="maintenance-page" aria-hidden="true">
   <div>
+    <!-- Logo "IV" classique -->
     <div class="maintenance-emblem">IV</div>
+    
     <h1 data-i18n="maintenance">MAINTENANCE</h1>
     <p class="maintenance-motto" data-i18n="maintenance_motto">« Le site GUILLET IV est actuellement en maintenance. Nous revenons très vite. »</p>
+    
     <div class="maintenance-divider"></div>
+    
     <p class="maintenance-info" data-i18n="maintenance_info">⏳ Travaux en cours — Merci de votre patience</p>
+    
+    <!-- Statistiques des visites internationales (Chiffres réels) -->
+    <div class="maintenance-stats-box">
+      <h3>🌍 Statistiques Internationales</h3>
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th>Pays</th>
+            <th>Visiteurs</th>
+            <th>Vues</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="stats-flag">🇫🇷</span> France</td>
+            <td>77% (34)</td>
+            <td>719</td>
+          </tr>
+          <tr>
+            <td><span class="stats-flag">🇺🇸</span> États-Unis</td>
+            <td>9% (4)</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td><span class="stats-flag">🇳🇱</span> Pays-Bas</td>
+            <td>5% (2)</td>
+            <td>43</td>
+          </tr>
+          <tr>
+            <td><span class="stats-flag">🇭🇰</span> Hong Kong</td>
+            <td>2% (1)</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td><span class="stats-flag">🇳🇴</span> Norvège</td>
+            <td>2% (1)</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td><span class="stats-flag">🇵🇱</span> Pologne</td>
+            <td>2% (1)</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td><span class="stats-flag">🇸🇪</span> Suède</td>
+            <td>2% (1)</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
     <div class="maintenance-actions">
       <a href="mailto:lanceglorieuse@gmail.com" class="maintenance-btn-gold" data-i18n="contact_us">📧 Nous contacter</a>
       <a href="tel:0780204749" class="maintenance-btn-outline">📞 07.80.20.47.49</a>
     </div>
+    
     <p class="maintenance-copyright">© 2026 GUILLET IV — L'Ordre de l'Indépendance</p>
   </div>
 </div>
@@ -1113,7 +1279,7 @@ body.light-mode .music-widget select{background:#fff}
       <div class="product-info">
         <h3 class="product-title" data-i18n="drone_title">KY108 DRONE – L'ŒIL DU FUTUR EST ENTRE VOS MAINS</h3>
         <p class="tagline" data-i18n="drone_tagline">Dominez le ciel… ou il vous dominera. Soyez des yeux sans avoir besoin de voir.</p>
-        <div class="price"><span class="promo">89 €</span><span class="off">(-21 €)</span></div>
+        <div class="price"><span class="promo">89 €</span><span class="off">(   )</span></div>
         <p class="desc" data-i18n="drone_desc">Un drone conçu pour les créateurs, les explorateurs et les pilotes ambitieux. Capturez le monde avec une précision chirurgicale.</p>
         <button type="button" class="more" onclick="toggleDetails(this)" aria-expanded="false" aria-controls="details-drone" data-i18n="see_more">Voir plus</button>
         <div class="details" id="details-drone">
