@@ -28,7 +28,7 @@
 <script defer src="/_vercel/insights/script.js"></script>
 
 <!-- ============================================================
-     CSS — SURCHARGE LECART (PANIER)
+     CSS — SURCHARGE LECART (PANIER) - CORRIGÉ
      ============================================================ -->
 <style>
 :root {
@@ -38,14 +38,36 @@
   --lecart-text-color: #ffffff;
   --lecart-border-color: rgba(255, 215, 0, 0.4);
 }
-.lecart-cart-drawer, .lecart-drawer {
+
+/* 1. Cacher le panier par défaut (tiroir à droite) */
+.lecart-cart-drawer, .lecart-drawer, .lecart-cart-container, .lecart-widget, #lecart-cart {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: auto !important;
+  width: 400px !important;
+  max-width: 100vw !important;
+  height: 100vh !important;
   background: #111 !important;
   box-shadow: -10px 0 30px rgba(0,0,0,0.8) !important;
   border-left: 1px solid rgba(255,215,0,0.2) !important;
+  transform: translateX(100%) !important; /* Caché à droite */
+  transition: transform 0.3s ease !important;
+  z-index: 99999 !important;
 }
+
+/* 2. Afficher le panier quand il est ouvert */
+.lecart-cart-drawer.open, .lecart-drawer.open, .lecart-cart-container.open, .lecart-widget.open, #lecart-cart.open,
+.lecart-cart-drawer.active, .lecart-drawer.active, .lecart-cart-container.active, .lecart-widget.active, #lecart-cart.active {
+  transform: translateX(0) !important;
+}
+
+/* 3. Styles internes LeCart */
 .lecart-cart-title { font-family: 'Cinzel', serif !important; color: #ffd700 !important; font-size: 1.2rem !important; letter-spacing: 0.05em !important; }
 .lecart-item-title { font-family: 'Playfair Display', serif !important; font-size: 1rem !important; color: #fff !important; }
 .lecart-item-price { color: #ffd700 !important; font-weight: 700 !important; }
+
 .lecart-qty-selector, .lecart-quantity {
   display: inline-flex !important; align-items: center !important;
   background: #000 !important; border: 1px solid rgba(255, 215, 0, 0.4) !important;
