@@ -968,7 +968,7 @@ body.light-mode .music-widget select{background:#fff}
       </div>
     </div>
 
-    <!-- Produit 4 : Endoscope -->
+    <!-- Produit 4 : Endoscope (CORRIGÉ) -->
     <div class="product-card" id="produit-endoscope" data-name="Endoscope caméra d'inspection avec écran" data-price="95" tabindex="-1">
       <div class="product-images">
         <img src="photo-endoscope.png" class="product-image" alt="Endoscope caméra d'inspection avec écran" loading="lazy" decoding="async" onclick="ouvrirZoom(this.src,event)">
@@ -1475,7 +1475,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <!-- ============================================================
      JS — NAVIGATION / UI / AUDIO / CHATBOT
-     (le système de maintenance mort a été retiré)
      ============================================================ -->
 <script>
 (function(){
@@ -1756,8 +1755,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var m = document.createElement("div");
     m.className = "chat-msg " + ty;
     if (key) m.dataset.i18nKey = key;
-    // Sécurité : si le message vient d'une source contrôlée (clé i18n ou message statique),
-    // on autorise le HTML (pour les <strong>). Sinon, on force textContent (anti-XSS).
     if (key || (typeof html === "string" && /<(strong|br|em|b|i)\b/i.test(html) && html.indexOf("<script") === -1 && html.indexOf("onerror") === -1 && html.indexOf("onclick") === -1)) {
       m.innerHTML = html;
     } else {
@@ -1816,8 +1813,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!cm2) return;
     cm2.querySelectorAll(".chat-msg.bot[data-i18n-key]").forEach(function(el){
       var key = el.dataset.i18nKey;
-      // Sécurité : on n'accepte le HTML QUE depuis le dictionnaire de traductions
-      // (contrôlé par toi) ou depuis les clés connues. Jamais depuis une entrée utilisateur.
       var safeKeys = ["chat_hello", "chat_prompt", "chat_unknown", "chat_menu_title",
                       "chat_contact_reply", "chat_delivery_reply", "chat_drone_reply",
                       "chat_proj_reply", "chat_endo_reply", "chat_beauty_reply",
@@ -1830,7 +1825,6 @@ document.addEventListener('DOMContentLoaded', function() {
         else if (key === "chat_prompt") el.innerHTML = "Posez-moi une question :";
         else if (key === "chat_unknown") el.innerHTML = "Je ne suis pas sûr de bien comprendre 🤔";
       } else {
-        // Fallback : texte brut, pas de HTML
         el.textContent = el.textContent;
       }
     });
@@ -1847,8 +1841,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   };
 
-  // NOTE : les anciens liens Stripe base64 (pay/payer) ont été SUPPRIMÉS.
-  // Le chatbot affiche désormais le produit via scrollIntoView — le vrai achat passe par LeCart.
   var intents = [
     { intention: "menu", motsCles: ["menu","sommaire","tout","liste","pages"], reponseKey: "chat_menu_title", reponse: "Voici toutes les sections du site :", options: [
       { labelKey: "chat_btn_home", label: "🏠 Accueil", action: function(){ navigateTo("accueil"); toggleChatbot(); } },
@@ -2166,8 +2158,6 @@ window.TRANSLATIONS = {
       else if (dict && dict[key]) { el.setAttribute("aria-label", dict[key]); }
       else { el.setAttribute("aria-label", o.aria); }
     });
-    /* NOTE : trTree() (traduction de tous les nœuds texte du body) a été SUPPRIMÉE.
-       Le système data-i18n suffit et évite de traduire du texte qui ne devrait pas l'être. */
   }
   window.reapplyLanguage = function(){ applyAll(); };
   window.applyLanguage = function(lang){
