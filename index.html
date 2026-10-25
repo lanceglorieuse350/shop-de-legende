@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://www.googletagmanager.com https://va.vercel-scripts.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; media-src 'self'; connect-src 'self' https://api.getlecart.com https://vitals.vercel-insights.com; frame-src 'self' https://js.stripe.com https://buy.stripe.com; frame-ancestors 'self'; base-uri 'self'; object-src 'none'; form-action 'self' mailto:;">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>GUILLET IV — L'Ordre de l'Indépendance</title>
 <meta name="description" content="GUILLET IV — Boutique, prévention cybersécurité, prévention harcèlement et conseils produits.">
@@ -1698,7 +1699,13 @@ document.addEventListener('DOMContentLoaded', function() {
     var m = document.createElement("div");
     m.className = "chat-msg " + ty;
     if (key) m.dataset.i18nKey = key;
-    m.innerHTML = html;
+    // Sécurité : si le message vient d'une source contrôlée (clé i18n ou message statique),
+    // on autorise le HTML (pour les <strong>). Sinon, on force textContent (anti-XSS).
+    if (key || (typeof html === "string" && /<(strong|br|em|b|i)\b/i.test(html) && html.indexOf("<script") === -1 && html.indexOf("onerror") === -1 && html.indexOf("onclick") === -1)) {
+      m.innerHTML = html;
+    } else {
+      m.textContent = html;
+    }
     cm.appendChild(m);
     if (o && o.length) {
       var z = document.createElement("div"); z.className = "chat-options";
@@ -1752,14 +1759,22 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!cm2) return;
     cm2.querySelectorAll(".chat-msg.bot[data-i18n-key]").forEach(function(el){
       var key = el.dataset.i18nKey;
-      if (dict && dict[key]) {
+      // Sécurité : on n'accepte le HTML QUE depuis le dictionnaire de traductions
+      // (contrôlé par toi) ou depuis les clés connues. Jamais depuis une entrée utilisateur.
+      var safeKeys = ["chat_hello", "chat_prompt", "chat_unknown", "chat_menu_title",
+                      "chat_contact_reply", "chat_delivery_reply", "chat_drone_reply",
+                      "chat_proj_reply", "chat_endo_reply", "chat_beauty_reply",
+                      "chat_price_reply", "chat_thanks_reply"];
+      var isSafe = (dict && dict[key]) || safeKeys.indexOf(key) !== -1;
+      if (isSafe && dict && dict[key]) {
         el.innerHTML = dict[key];
-      } else if (key === "chat_hello") {
-        el.innerHTML = "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> !";
-      } else if (key === "chat_prompt") {
-        el.innerHTML = "Posez-moi une question :";
-      } else if (key === "chat_unknown") {
-        el.innerHTML = "Je ne suis pas sûr de bien comprendre 🤔";
+      } else if (isSafe) {
+        if (key === "chat_hello") el.innerHTML = "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> !";
+        else if (key === "chat_prompt") el.innerHTML = "Posez-moi une question :";
+        else if (key === "chat_unknown") el.innerHTML = "Je ne suis pas sûr de bien comprendre 🤔";
+      } else {
+        // Fallback : texte brut, pas de HTML
+        el.textContent = el.textContent;
       }
     });
     cm2.querySelectorAll(".chat-option[data-i18n-key]").forEach(function(el){
