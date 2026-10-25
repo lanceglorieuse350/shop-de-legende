@@ -28,7 +28,7 @@
 <script defer src="/_vercel/insights/script.js"></script>
 
 <!-- ============================================================
-     CSS — SURCHARGE LECART (PANIER) - CORRIGÉ
+     CSS — CORRECTION FINALE DU PANIER LECART
      ============================================================ -->
 <style>
 :root {
@@ -39,8 +39,35 @@
   --lecart-border-color: rgba(255, 215, 0, 0.4);
 }
 
-/* 1. Cacher le panier par défaut (tiroir à droite) */
-.lecart-cart-drawer, .lecart-drawer, .lecart-cart-container, .lecart-widget, #lecart-cart {
+/* 
+  1. MASQUER LE PANIER QUI S'AFFICHE EN BAS (le widget intrus)
+  On cible tous les conteneurs possibles de LeCart.
+  On le cache avec display: none et position absolute hors écran.
+*/
+.lecart-cart-widget, 
+.lecart-widget, 
+.lecart-cart-container, 
+.lecart-floating-cart,
+.lecart-mini-cart,
+#lecart-cart-widget,
+#lecart-cart-container {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  position: absolute !important;
+  bottom: -9999px !important;
+  left: -9999px !important;
+  z-index: -1 !important;
+}
+
+/* 
+  2. LE VRAI TIROIR (DRAWER) DOIT S'OUVRIR DE DROITE À GAUCHE
+  On force le tiroir à être caché par défaut, puis on l'affiche quand il a la classe "open" ou "active".
+*/
+.lecart-drawer, 
+.lecart-cart-drawer,
+.lecart-sidebar,
+#lecart-drawer {
   position: fixed !important;
   top: 0 !important;
   right: 0 !important;
@@ -57,13 +84,21 @@
   z-index: 99999 !important;
 }
 
-/* 2. Afficher le panier quand il est ouvert */
-.lecart-cart-drawer.open, .lecart-drawer.open, .lecart-cart-container.open, .lecart-widget.open, #lecart-cart.open,
-.lecart-cart-drawer.active, .lecart-drawer.active, .lecart-cart-container.active, .lecart-widget.active, #lecart-cart.active {
+/* Quand le tiroir est ouvert (LeCart ajoute la classe "open" ou "active") */
+.lecart-drawer.open, 
+.lecart-cart-drawer.open,
+.lecart-sidebar.open,
+#lecart-drawer.open,
+.lecart-drawer.active, 
+.lecart-cart-drawer.active,
+.lecart-sidebar.active,
+#lecart-drawer.active {
   transform: translateX(0) !important;
 }
 
-/* 3. Styles internes LeCart */
+/* 
+  3. STYLES INTERNES DU TIROIR (pour qu'il soit beau)
+*/
 .lecart-cart-title { font-family: 'Cinzel', serif !important; color: #ffd700 !important; font-size: 1.2rem !important; letter-spacing: 0.05em !important; }
 .lecart-item-title { font-family: 'Playfair Display', serif !important; font-size: 1rem !important; color: #fff !important; }
 .lecart-item-price { color: #ffd700 !important; font-weight: 700 !important; }
