@@ -8,7 +8,6 @@
   "installCommand": null,
   "cleanUrls": true,
   "trailingSlash": false,
-  "public": false,
   "regions": ["cdg1"],
   "headers": [
     {
