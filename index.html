@@ -71,6 +71,7 @@ p,li,h1,h2,h3,h4{overflow-wrap:anywhere}
 @keyframes badgeBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 @keyframes chatOpen{from{opacity:0;transform:scale(.85) translateY(12px)}to{opacity:1;transform:scale(1) translateY(0)}}
 @keyframes cartBump{0%{transform:scale(1)}35%{transform:scale(1.5)}70%{transform:scale(.9)}100%{transform:scale(1)}}
+@keyframes mapPulse{0%{transform:scale(.6);opacity:.75}70%{transform:scale(1.8);opacity:0}100%{transform:scale(1.8);opacity:0}}
 
 .page-section{display:none;animation:fadeIn 0.3s ease}
 .page-section.active{display:block}
@@ -342,6 +343,47 @@ body.light-mode .music-widget select{background:#fff}
 #panierFlottant:hover::after{opacity:1;transform:translateY(0)}
 
 /* ============================================================
+   PAGE MAINTENANCE + CARTE DU MONDE
+   ============================================================ */
+#maintenance-page{display:none;min-height:100vh;align-items:center;justify-content:center;text-align:center;padding:2rem 1rem;background:radial-gradient(ellipse at center,rgba(225,6,0,0.1),#050505 70%);flex-direction:column}
+#maintenance-page .maintenance-wrapper{width:100%;max-width:700px;margin:0 auto}
+#maintenance-page .maintenance-emblem{width:120px;height:120px;margin:0 auto 1.5rem;border-radius:50%;border:3px solid var(--gold);display:flex;align-items:center;justify-content:center;box-shadow:0 0 30px rgba(255,215,0,0.3);background:#e10600;font-size:2.5rem;font-weight:bold;color:var(--gold);font-family:'Cinzel',serif}
+#maintenance-page h1{font-family:'Cinzel',serif;font-size:clamp(2rem,5vw,3.5rem);color:var(--gold);margin:0 0 1rem;letter-spacing:.05em;text-shadow:0 0 15px rgba(255,215,0,0.4)}
+#maintenance-page .maintenance-motto{font-family:'Playfair Display',serif;font-size:clamp(1.1rem,2vw,1.5rem);font-style:italic;color:#fff;max-width:90%;margin:0 auto 2rem;line-height:1.6}
+#maintenance-page .maintenance-divider{width:80px;height:3px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:0 auto 2rem}
+#maintenance-page .maintenance-info{font-family:'Inter',sans-serif;font-size:1rem;color:#aaa;margin:0 0 2rem}
+.maintenance-stats-box{background:rgba(255,255,255,0.03);border:1px solid rgba(255,215,0,0.2);border-radius:12px;padding:1.5rem;max-width:100%;margin:0 auto 2rem;box-shadow:0 4px 20px rgba(0,0,0,0.5);width:100%}
+.maintenance-stats-box h3{font-family:'Inter',sans-serif;font-size:0.85rem;color:var(--gold);text-transform:uppercase;letter-spacing:0.1em;margin:0 0 1rem;display:flex;align-items:center;justify-content:center;gap:0.5rem}
+
+/* Carte du monde */
+.world-map-container{margin:0 auto 1.5rem;padding:.8rem;background:rgba(0,0,0,0.4);border:1px solid rgba(255,215,0,0.25);border-radius:12px;box-shadow:inset 0 0 30px rgba(0,0,0,0.6);overflow:hidden}
+.world-map{width:100%;height:auto;display:block;filter:drop-shadow(0 0 8px rgba(255,215,0,0.15))}
+.visitor-dot .dot-core{fill:#e10600;stroke:#fff;stroke-width:1.5;filter:drop-shadow(0 0 6px rgba(225,6,0,0.9))}
+.visitor-dot .dot-pulse{fill:#e10600;opacity:.55;transform-origin:center;transform-box:fill-box;animation:mapPulse 2s ease-out infinite}
+.visitor-dot .dot-label{fill:#ffd700;font-family:'Inter',sans-serif;font-size:14px;font-weight:700;text-anchor:middle;paint-order:stroke;stroke:#000;stroke-width:3px;stroke-linejoin:round;letter-spacing:.05em}
+.visitor-dot:nth-child(2) .dot-pulse{animation-delay:.2s}
+.visitor-dot:nth-child(3) .dot-pulse{animation-delay:.4s}
+.visitor-dot:nth-child(4) .dot-pulse{animation-delay:.6s}
+.visitor-dot:nth-child(5) .dot-pulse{animation-delay:.8s}
+.visitor-dot:nth-child(6) .dot-pulse{animation-delay:1s}
+.visitor-dot:nth-child(7) .dot-pulse{animation-delay:1.2s}
+.visitor-dot:nth-child(8) .dot-pulse{animation-delay:1.4s}
+@media(prefers-reduced-motion:reduce){.visitor-dot .dot-pulse{animation:none;opacity:.3}}
+
+.stats-table{width:100%;border-collapse:collapse;font-family:'Inter',sans-serif;font-size:0.9rem}
+.stats-table th{text-align:left;color:#888;font-weight:600;font-size:0.75rem;padding:0.5rem 0;border-bottom:1px solid rgba(255,255,255,0.1)}
+.stats-table th:not(:first-child){text-align:right}
+.stats-table td{padding:0.5rem 0;border-bottom:1px solid rgba(255,255,255,0.05);color:#ddd}
+.stats-table td:not(:first-child){text-align:right}
+.stats-table tr:last-child td{border-bottom:none}
+.stats-flag-img{display:inline-block;vertical-align:middle;margin-right:8px;border-radius:2px;box-shadow:0 0 3px rgba(255,255,255,0.2);object-fit:cover}
+#maintenance-page .maintenance-actions{display:flex;flex-direction:column;gap:1rem;width:100%;max-width:280px;margin:0 auto}
+#maintenance-page .maintenance-btn-gold{display:block;padding:1rem 2rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;font-family:'Cinzel',serif;font-weight:700;border-radius:16px;text-decoration:none;border:1px solid var(--gold);text-align:center;transition:transform 0.2s}
+#maintenance-page .maintenance-btn-gold:hover{transform:scale(1.05)}
+#maintenance-page .maintenance-btn-outline{display:block;padding:1rem 2rem;background:transparent;color:var(--gold);font-family:'Cinzel',serif;font-weight:700;border-radius:16px;text-decoration:none;border:1px solid var(--gold);text-align:center}
+#maintenance-page .maintenance-copyright{margin-top:3rem;font-size:.85rem;color:#555;font-family:'Inter',sans-serif}
+
+/* ============================================================
    TABLETTE ≥ 600px
    ============================================================ */
 @media(min-width:600px){
@@ -388,7 +430,6 @@ body.light-mode .music-widget select{background:#fff}
    ============================================================ */
 @media(max-width:600px){
 
-  /* Inputs 16px = pas de zoom auto iOS */
   input, select, textarea{font-size:16px}
 
   /* --- NAVBAR --- */
@@ -405,15 +446,8 @@ body.light-mode .music-widget select{background:#fff}
   .navbar-links{padding:.6rem .3rem .3rem;gap:.35rem;-webkit-overflow-scrolling:touch}
   .navbar-links a{font-size:.7rem;padding:.45rem .6rem}
 
-  /* --- BOUTONS FLOTTANTS : empilés proprement --- */
-  #panierFlottant{
-    top:auto;
-    bottom:170px;
-    right:12px;
-    padding:.6rem .9rem;
-    font-size:.8rem;
-    border-radius:30px;
-  }
+  /* --- BOUTONS FLOTTANTS --- */
+  #panierFlottant{top:auto;bottom:170px;right:12px;padding:.6rem .9rem;font-size:.8rem;border-radius:30px}
   #panierFlottant .panier-label{display:none}
   #panierFlottant img{height:20px}
   #panierFlottant::after{display:none}
@@ -423,15 +457,7 @@ body.light-mode .music-widget select{background:#fff}
   #chatbot-toggle svg{width:22px;height:22px}
   #chatbot-badge{top:-3px;right:-3px;min-width:18px;height:18px;line-height:18px;font-size:.65rem}
 
-  #chatbot-window{
-    bottom:160px;
-    right:8px;
-    left:8px;
-    width:auto;
-    max-width:none;
-    height:70vh;
-    max-height:520px;
-  }
+  #chatbot-window{bottom:160px;right:8px;left:8px;width:auto;max-width:none;height:70vh;max-height:520px}
   .chat-header{padding:.9rem}
   .chat-header .chat-title{font-size:.9rem}
   .chat-msg{font-size:.88rem;padding:.75rem 1rem;max-width:92%}
@@ -442,22 +468,10 @@ body.light-mode .music-widget select{background:#fff}
   #top svg{width:20px;height:20px}
 
   /* --- WIDGET MUSIQUE --- */
-  .music-widget{
-    bottom:.5rem;left:.5rem;right:.5rem;
-    max-width:none;
-    padding:.4rem .6rem;
-    border-radius:30px;
-    gap:.4rem;
-  }
+  .music-widget{bottom:.5rem;left:.5rem;right:.5rem;max-width:none;padding:.4rem .6rem;border-radius:30px;gap:.4rem}
   .music-play-btn{width:32px;height:32px;font-size:.8rem;flex:0 0 32px}
   .music-eq{display:none !important}
-  .music-widget select{
-    flex:1;
-    max-width:none;
-    font-size:.72rem;
-    padding:.25rem .4rem;
-    min-width:0;
-  }
+  .music-widget select{flex:1;max-width:none;font-size:.72rem;padding:.25rem .4rem;min-width:0}
   .music-widget .volume-icon{display:none}
   .music-widget input[type="range"]{width:50px;flex:0 0 50px}
 
@@ -529,12 +543,7 @@ body.light-mode .music-widget select{background:#fff}
 
   /* --- PRÉVENTION HARCELEMENT --- */
   .prevention-header h1{font-size:1rem}
-  .prevention-header .navbar-links{
-    padding:.6rem .4rem;
-    overflow-x:auto;
-    flex-wrap:nowrap;
-    justify-content:flex-start;
-  }
+  .prevention-header .navbar-links{padding:.6rem .4rem;overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start}
   .prevention-header .navbar-links a{font-size:.68rem;padding:.4rem .55rem;flex:0 0 auto}
   .prevention-close{width:40px;height:40px;font-size:1.3rem}
   .prevention-content{padding:1.5rem .8rem}
@@ -567,10 +576,14 @@ body.light-mode .music-widget select{background:#fff}
   .footer-copyright{font-size:.75rem}
 
   /* --- MAINTENANCE --- */
+  .world-map-container{padding:.5rem;margin-bottom:1rem}
+  .visitor-dot .dot-label{font-size:16px}
+  .visitor-dot .dot-core{stroke-width:2}
   .maintenance-stats-box{padding:1rem;margin-bottom:1.5rem}
   .stats-table{font-size:.8rem}
   .stats-table th,.stats-table td{padding:.4rem 0}
   .stats-flag-img{margin-right:6px;width:16px;height:12px}
+  #maintenance-page .maintenance-emblem{width:90px;height:90px;font-size:2rem}
 
   /* --- ZOOM --- */
   .zoom-close{width:40px;height:40px;font-size:1.4rem;top:1rem;right:1rem}
@@ -633,30 +646,119 @@ body.light-mode .music-widget select{background:#fff}
 
 <!-- SECTION MAINTENANCE -->
 <div id="maintenance-page" aria-hidden="true">
-  <div>
+  <div class="maintenance-wrapper">
     <div class="maintenance-emblem">IV</div>
     <h1 data-i18n="maintenance">MAINTENANCE</h1>
     <p class="maintenance-motto" data-i18n="maintenance_motto">« Le site GUILLET IV est actuellement en maintenance. Nous revenons très vite. »</p>
     <div class="maintenance-divider"></div>
     <p class="maintenance-info" data-i18n="maintenance_info">⏳ Travaux en cours — Merci de votre patience</p>
+
+    <!-- CARTE DU MONDE + STATS -->
     <div class="maintenance-stats-box">
       <h3>🌍 Statistiques Internationales</h3>
+
+      <!-- CARTE DU MONDE SVG -->
+      <div class="world-map-container" role="img" aria-label="Carte du monde des visiteurs du site">
+        <svg class="world-map" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+          <!-- Fond océan -->
+          <rect width="1000" height="500" fill="rgba(255,215,0,0.02)"/>
+
+          <!-- Continents (silhouettes simplifiées) -->
+          <g class="continents" fill="rgba(255,255,255,0.08)" stroke="rgba(255,215,0,0.25)" stroke-width="0.8">
+            <!-- Amérique du Nord -->
+            <path d="M120,90 L200,70 L260,80 L290,110 L280,150 L260,170 L240,200 L220,220 L200,230 L180,220 L160,200 L140,180 L120,160 L100,140 Z"/>
+            <!-- Amérique centrale -->
+            <path d="M200,230 L240,240 L260,270 L250,290 L230,290 L210,270 Z"/>
+            <!-- Amérique du Sud -->
+            <path d="M250,290 L290,300 L310,340 L300,400 L280,440 L260,450 L240,430 L230,390 L240,340 Z"/>
+            <!-- Europe -->
+            <path d="M460,110 L520,100 L560,110 L580,130 L570,160 L540,170 L500,175 L470,165 L455,140 Z"/>
+            <!-- Afrique -->
+            <path d="M480,180 L540,175 L580,190 L600,220 L590,280 L570,340 L540,380 L510,390 L490,370 L470,330 L460,280 L465,230 Z"/>
+            <!-- Asie -->
+            <path d="M590,90 L700,80 L800,90 L870,110 L900,140 L890,170 L850,180 L800,175 L740,185 L690,175 L640,165 L600,150 L585,125 Z"/>
+            <!-- Inde -->
+            <path d="M680,175 L720,180 L740,220 L720,260 L690,250 L675,220 Z"/>
+            <!-- Asie du Sud-Est -->
+            <path d="M780,200 L820,210 L840,240 L820,260 L790,250 L775,225 Z"/>
+            <!-- Océanie / Australie -->
+            <path d="M820,320 L890,315 L930,340 L920,380 L880,400 L840,390 L815,360 Z"/>
+            <!-- Groenland -->
+            <path d="M300,40 L360,35 L380,60 L360,90 L320,95 L295,75 Z"/>
+          </g>
+
+          <!-- POINTS ROUGES : pays visiteurs (correspond au tableau) -->
+          <g class="visitor-dots">
+            <!-- France -->
+            <g class="visitor-dot" data-country="France">
+              <circle cx="495" cy="145" r="16" class="dot-pulse"/>
+              <circle cx="495" cy="145" r="6" class="dot-core"/>
+              <text x="495" y="128" class="dot-label">FR</text>
+            </g>
+            <!-- États-Unis -->
+            <g class="visitor-dot" data-country="USA">
+              <circle cx="210" cy="140" r="16" class="dot-pulse"/>
+              <circle cx="210" cy="140" r="6" class="dot-core"/>
+              <text x="210" y="123" class="dot-label">US</text>
+            </g>
+            <!-- Pays-Bas -->
+            <g class="visitor-dot" data-country="Netherlands">
+              <circle cx="505" cy="125" r="14" class="dot-pulse"/>
+              <circle cx="505" cy="125" r="5" class="dot-core"/>
+              <text x="505" y="110" class="dot-label">NL</text>
+            </g>
+            <!-- Hong Kong -->
+            <g class="visitor-dot" data-country="HongKong">
+              <circle cx="800" cy="200" r="13" class="dot-pulse"/>
+              <circle cx="800" cy="200" r="5" class="dot-core"/>
+              <text x="800" y="187" class="dot-label">HK</text>
+            </g>
+            <!-- Norvège -->
+            <g class="visitor-dot" data-country="Norway">
+              <circle cx="510" cy="95" r="13" class="dot-pulse"/>
+              <circle cx="510" cy="95" r="5" class="dot-core"/>
+              <text x="510" y="82" class="dot-label">NO</text>
+            </g>
+            <!-- Pologne -->
+            <g class="visitor-dot" data-country="Poland">
+              <circle cx="535" cy="130" r="13" class="dot-pulse"/>
+              <circle cx="535" cy="130" r="5" class="dot-core"/>
+              <text x="535" y="117" class="dot-label">PL</text>
+            </g>
+            <!-- Suède -->
+            <g class="visitor-dot" data-country="Sweden">
+              <circle cx="525" cy="100" r="13" class="dot-pulse"/>
+              <circle cx="525" cy="100" r="5" class="dot-core"/>
+              <text x="525" y="87" class="dot-label">SE</text>
+            </g>
+            <!-- Italie -->
+            <g class="visitor-dot" data-country="Italy">
+              <circle cx="510" cy="160" r="13" class="dot-pulse"/>
+              <circle cx="510" cy="160" r="5" class="dot-core"/>
+              <text x="510" y="147" class="dot-label">IT</text>
+            </g>
+          </g>
+        </svg>
+      </div>
+
+      <!-- TABLEAU -->
       <table class="stats-table">
         <thead>
           <tr><th>Pays</th><th>Visiteurs</th><th>Vues</th></tr>
         </thead>
         <tbody>
-          <tr><td><img src="https://flagcdn.com/w20/fr.png" alt="Drapeau France" class="stats-flag-img" width="20" height="15"> France</td><td>100% (250)</td><td>900</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/us.png" alt="Drapeau États-Unis" class="stats-flag-img" width="20" height="15"> États-Unis</td><td>22% (4)</td><td>4</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/fr.png" alt="Drapeau France" class="stats-flag-img" width="20" height="15"> France</td><td>100% (50)</td><td>719</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/us.png" alt="Drapeau États-Unis" class="stats-flag-img" width="20" height="15"> États-Unis</td><td>9% (4)</td><td>4</td></tr>
           <tr><td><img src="https://flagcdn.com/w20/nl.png" alt="Drapeau Pays-Bas" class="stats-flag-img" width="20" height="15"> Pays-Bas</td><td>5% (2)</td><td>43</td></tr>
           <tr><td><img src="https://flagcdn.com/w20/hk.png" alt="Drapeau Hong Kong" class="stats-flag-img" width="20" height="15"> Hong Kong</td><td>2% (1)</td><td>1</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/no.png" alt="Drapeau Norvège" class="stats-flag-img" width="20" height="15"> Norvège</td><td>2% (5)</td><td>1</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/pl.png" alt="Drapeau Pologne" class="stats-flag-img" width="20" height="15"> Pologne</td><td>20% (25)</td><td>1</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/no.png" alt="Drapeau Norvège" class="stats-flag-img" width="20" height="15"> Norvège</td><td>2% (1)</td><td>1</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/pl.png" alt="Drapeau Pologne" class="stats-flag-img" width="20" height="15"> Pologne</td><td>2% (1)</td><td>1</td></tr>
           <tr><td><img src="https://flagcdn.com/w20/se.png" alt="Drapeau Suède" class="stats-flag-img" width="20" height="15"> Suède</td><td>2% (1)</td><td>3</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/it.png" alt="Drapeau Italie" class="stats-flag-img" width="20" height="15"> Italie</td><td>2% (5)</td><td>4</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/it.png" alt="Drapeau Italie" class="stats-flag-img" width="20" height="15"> Italie</td><td>2% (1)</td><td>3</td></tr>
         </tbody>
       </table>
     </div>
+
     <div class="maintenance-actions">
       <a href="mailto:lanceglorieuse@gmail.com" class="maintenance-btn-gold" data-i18n="contact_us">📧 Nous contacter</a>
       <a href="tel:0780204749" class="maintenance-btn-outline">📞 07.80.20.47.49</a>
@@ -668,7 +770,7 @@ body.light-mode .music-widget select{background:#fff}
 <script>
 (function(){
   "use strict";
-  /*       : "else"  */
+  /* */
   var FORCER_MAINTENANCE = true;
   function getPage(){ return document.getElementById("maintenance-page"); }
   function getContenu(){
@@ -707,37 +809,6 @@ body.light-mode .music-widget select{background:#fff}
 })();
 </script>
 
-<style>
-#maintenance-page{display:none;min-height:100vh;align-items:center;justify-content:center;text-align:center;padding:2rem 1rem;background:radial-gradient(ellipse at center,rgba(225,6,0,0.1),#050505 70%);flex-direction:column}
-#maintenance-page .maintenance-emblem{width:120px;height:120px;margin:0 auto 1.5rem;border-radius:50%;border:3px solid var(--gold);display:flex;align-items:center;justify-content:center;box-shadow:0 0 30px rgba(255,215,0,0.3);background:#e10600;font-size:2.5rem;font-weight:bold;color:var(--gold);font-family:'Cinzel',serif}
-#maintenance-page h1{font-family:'Cinzel',serif;font-size:clamp(2rem,5vw,3.5rem);color:var(--gold);margin:0 0 1rem;letter-spacing:.05em;text-shadow:0 0 15px rgba(255,215,0,0.4)}
-#maintenance-page .maintenance-motto{font-family:'Playfair Display',serif;font-size:clamp(1.1rem,2vw,1.5rem);font-style:italic;color:#fff;max-width:90%;margin:0 0 2rem;line-height:1.6}
-#maintenance-page .maintenance-divider{width:80px;height:3px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:0 auto 2rem}
-#maintenance-page .maintenance-info{font-family:'Inter',sans-serif;font-size:1rem;color:#aaa;margin:0 0 2rem}
-.maintenance-stats-box{background:rgba(255,255,255,0.03);border:1px solid rgba(255,215,0,0.2);border-radius:12px;padding:1.5rem;max-width:450px;margin:0 auto 2rem;box-shadow:0 4px 20px rgba(0,0,0,0.5);width:100%}
-.maintenance-stats-box h3{font-family:'Inter',sans-serif;font-size:0.85rem;color:var(--gold);text-transform:uppercase;letter-spacing:0.1em;margin:0 0 1rem;display:flex;align-items:center;justify-content:center;gap:0.5rem}
-.stats-table{width:100%;border-collapse:collapse;font-family:'Inter',sans-serif;font-size:0.9rem}
-.stats-table th{text-align:left;color:#888;font-weight:600;font-size:0.75rem;padding:0.5rem 0;border-bottom:1px solid rgba(255,255,255,0.1)}
-.stats-table th:not(:first-child){text-align:right}
-.stats-table td{padding:0.5rem 0;border-bottom:1px solid rgba(255,255,255,0.05);color:#ddd}
-.stats-table td:not(:first-child){text-align:right}
-.stats-table tr:last-child td{border-bottom:none}
-.stats-flag-img {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 8px;
-  border-radius: 2px;
-  box-shadow: 0 0 3px rgba(255,255,255,0.2);
-  object-fit: cover;
-}
-.stats-flag { display: none; }
-#maintenance-page .maintenance-actions{display:flex;flex-direction:column;gap:1rem;width:100%;max-width:280px;margin:0 auto}
-#maintenance-page .maintenance-btn-gold{display:block;padding:1rem 2rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;font-family:'Cinzel',serif;font-weight:700;border-radius:16px;text-decoration:none;border:1px solid var(--gold);text-align:center;transition:transform 0.2s}
-#maintenance-page .maintenance-btn-gold:hover{transform:scale(1.05)}
-#maintenance-page .maintenance-btn-outline{display:block;padding:1rem 2rem;background:transparent;color:var(--gold);font-family:'Cinzel',serif;font-weight:700;border-radius:16px;text-decoration:none;border:1px solid var(--gold);text-align:center}
-#maintenance-page .maintenance-copyright{margin-top:3rem;font-size:.85rem;color:#555;font-family:'Inter',sans-serif}
-</style>
-
 <noscript>
   <div style="background:#e10600;color:#fff;padding:1rem;text-align:center;font-family:sans-serif;font-weight:600;font-size:.95rem;">⚠️ JavaScript est désactivé. Activez JavaScript pour une expérience complète.</div>
 </noscript>
@@ -754,7 +825,6 @@ body.light-mode .music-widget select{background:#fff}
       <h1 data-i18n="prevention_harassment" style="margin:0;">🛡️ Prévention Harcèlement</h1>
       <button type="button" class="prevention-close" onclick="fermerPrevention()" aria-label="Fermer">✕</button>
     </div>
-    <!-- NAVIGATION AJOUTÉE ICI -->
     <div class="navbar-links" style="background:#000; padding: 0.8rem 1rem; border-top: 1px solid rgba(255,215,0,0.3); margin:0; justify-content:center;">
       <a href="#accueil" onclick="fermerPrevention(); navigateTo('accueil')" class="nav-link">🏠 Accueil</a>
       <a href="#apropos" onclick="fermerPrevention(); navigateTo('apropos')" class="nav-link">📜 À propos</a>
@@ -1367,7 +1437,7 @@ body.light-mode .music-widget select{background:#fff}
       <h2 data-i18n="legal_info">1. Informations légales</h2>
       <p><strong data-i18n="legal_company">Nom de l'entreprise :</strong> GUILLET IV</p>
       <p><strong data-i18n="legal_status">Statut :</strong> Micro-entreprise</p>
-      <p><strong>SIREN :</strong> Confidentiel — Affiché sur la facture</p>
+      <p><strong>SIREN :</strong> À compléter</p>
       <p><strong data-i18n="legal_address">Adresse :</strong> Ille-et-Vilaine, France</p>
       <p><strong>Email :</strong> lanceglorieuse@gmail.com</p>
       <p><strong>Téléphone :</strong> 07.80.20.47.49</p>
