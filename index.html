@@ -421,19 +421,21 @@ body.light-mode .music-widget select{background:#fff}
     <p class="maintenance-info" data-i18n="maintenance_info">⏳ Travaux en cours — Merci de votre patience</p>
     <div class="maintenance-stats-box">
       <h3>🌍 Statistiques Internationales</h3>
-      <table class="stats-table">
-        <thead><tr><th>Pays</th><th>Visiteurs</th><th>Vues</th></tr></thead>
-        <tbody>
-          <tr><td><span class="stats-flag">🇫🇷</span> France</td><td>77% (34)</td><td>719</td></tr>
+<table class="stats-table">
+  <thead>
+    <tr><th>Pays</th><th>Visiteurs</th><th>Vues</th></tr>
+  </thead>
+  <tbody>
+          <tr><td><span class="stats-flag">🇫🇷</span> France</td><td>100% (50)</td><td>719</td></tr>
           <tr><td><span class="stats-flag">🇺🇸</span> États-Unis</td><td>9% (4)</td><td>4</td></tr>
           <tr><td><span class="stats-flag">🇳🇱</span> Pays-Bas</td><td>5% (2)</td><td>43</td></tr>
           <tr><td><span class="stats-flag">🇭🇰</span> Hong Kong</td><td>2% (1)</td><td>1</td></tr>
           <tr><td><span class="stats-flag">🇳🇴</span> Norvège</td><td>2% (1)</td><td>1</td></tr>
           <tr><td><span class="stats-flag">🇵🇱</span> Pologne</td><td>2% (1)</td><td>1</td></tr>
           <tr><td><span class="stats-flag">🇸🇪</span> Suède</td><td>2% (1)</td><td>3</td></tr>
-        </tbody>
-      </table>
-    </div>
+          <tr><td><span class="stats-flag">🇮🇹</span> Italie</td><td>2% (1)</td><td>3</td></tr>
+  </tbody>
+</table>
     <div class="maintenance-actions">
       <a href="mailto:lanceglorieuse@gmail.com" class="maintenance-btn-gold" data-i18n="contact_us">📧 Nous contacter</a>
       <a href="tel:0780204749" class="maintenance-btn-outline">📞 07.80.20.47.49</a>
@@ -445,7 +447,7 @@ body.light-mode .music-widget select{background:#fff}
 <script>
 (function(){
   "use strict";
-  var FORCER_MAINTENANCE = false;
+  var FORCER_MAINTENANCE = true;
   function getPage(){ return document.getElementById("maintenance-page"); }
   function getContenu(){
     return [
@@ -1927,7 +1929,7 @@ document.addEventListener('DOMContentLoaded', function() {
       { labelKey: "chat_btn_shop", label: "🛒 Boutique", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produits"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
       { labelKey: "chat_btn_vinted", label: "👕 Vinted", action: function(){ navigateTo("vinted"); toggleChatbot(); } },
       { labelKey: "chat_btn_beauty", label: "💅 Ongles & Beauté", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } },
-      { labelKey: "chat_btn_about", label: "📜 À propos", action: function(){ navigateTo("apropos"); toggleChatbot(); } },
+      { labelKey: "chat_btn_about", label: "📜 !!À propos", action: function(){ navigateTo("apropos"); toggleChatbot(); } },
       { labelKey: "chat_btn_contact", label: "✉️ Contact", action: function(){ navigateTo("contact"); toggleChatbot(); } },
       { labelKey: "chat_btn_faq", label: "❓ FAQ", action: function(){ navigateTo("faq"); toggleChatbot(); } },
       { labelKey: "chat_btn_cyber", label: "🛡️ Cybersécurité", action: function(){ navigateTo("prevention-cyber"); toggleChatbot(); } },
