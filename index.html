@@ -341,7 +341,9 @@ body.light-mode .music-widget select{background:#fff}
 #panierFlottant::after{content:"Voir le panier";position:absolute;top:calc(100% + 8px);right:0;background:rgba(0,0,0,.95);color:var(--gold);border:1px solid var(--gold);border-radius:8px;padding:.4rem .8rem;font-family:var(--font-ui);font-size:.75rem;font-weight:600;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s ease,transform .2s ease;transform:translateY(-4px)}
 #panierFlottant:hover::after{opacity:1;transform:translateY(0)}
 
-/* --- MEDIA QUERIES --- */
+/* ============================================================
+   TABLETTE ≥ 600px
+   ============================================================ */
 @media(min-width:600px){
   .navbar{padding:.8rem 1rem}
   .navbar-top{flex-wrap:nowrap}
@@ -362,6 +364,10 @@ body.light-mode .music-widget select{background:#fff}
   .section-title{font-size:2.4rem}
   .beauty-clients-grid{grid-template-columns:repeat(2,1fr)}
 }
+
+/* ============================================================
+   DESKTOP ≥ 900px
+   ============================================================ */
 @media(min-width:900px){
   .navbar{flex-direction:column;padding:1rem max(1.5rem, calc((100% - 1200px) / 2));gap:.5rem}
   .navbar-top{margin-bottom:0.5rem}
@@ -376,22 +382,236 @@ body.light-mode .music-widget select{background:#fff}
   .hero-slide{max-height:500px}
   .beauty-clients-grid{grid-template-columns:repeat(3,1fr)}
 }
+
+/* ============================================================
+   MOBILE ≤ 600px — REFONTE COMPLÈTE
+   ============================================================ */
 @media(max-width:600px){
-  #panierFlottant{top:auto;bottom:90px;right:14px;padding:.7rem 1.1rem;font-size:.85rem}
+
+  /* Inputs 16px = pas de zoom auto iOS */
+  input, select, textarea{font-size:16px}
+
+  /* --- NAVBAR --- */
+  .navbar{padding:.4rem .5rem}
+  .navbar-top{gap:.5rem}
+  .brand{gap:.4rem}
+  .emblem{width:36px;height:36px;flex:0 0 36px;font-size:.8rem}
+  .brand-name{font-size:.9rem}
+  .brand-sub{font-size:.5rem;letter-spacing:.05em}
+  .navbar-tools{gap:.3rem;width:100%}
+  .search-container{max-width:100%;flex:1 1 100%}
+  #searchInput{padding:.55rem 2.2rem .55rem .8rem}
+  .mode-btn,.lang-select{padding:.45rem .6rem;font-size:.75rem}
+  .navbar-links{padding:.6rem .3rem .3rem;gap:.35rem;-webkit-overflow-scrolling:touch}
+  .navbar-links a{font-size:.7rem;padding:.45rem .6rem}
+
+  /* --- BOUTONS FLOTTANTS : empilés proprement --- */
+  #panierFlottant{
+    top:auto;
+    bottom:170px;
+    right:12px;
+    padding:.6rem .9rem;
+    font-size:.8rem;
+    border-radius:30px;
+  }
   #panierFlottant .panier-label{display:none}
+  #panierFlottant img{height:20px}
   #panierFlottant::after{display:none}
-  #chatbot-toggle{width:46px;height:46px;bottom:6.5rem;right:14px;font-size:1.2rem}
+  #panierCount{min-width:20px;height:20px;line-height:20px;font-size:.7rem}
+
+  #chatbot-toggle{width:48px;height:48px;bottom:100px;right:12px}
   #chatbot-toggle svg{width:22px;height:22px}
   #chatbot-badge{top:-3px;right:-3px;min-width:18px;height:18px;line-height:18px;font-size:.65rem}
-  #chatbot-window{bottom:11.5rem;right:14px;width:calc(100vw - 28px)}
-  #top{width:42px;height:42px;bottom:10.5rem;right:14px}
+
+  #chatbot-window{
+    bottom:160px;
+    right:8px;
+    left:8px;
+    width:auto;
+    max-width:none;
+    height:70vh;
+    max-height:520px;
+  }
+  .chat-header{padding:.9rem}
+  .chat-header .chat-title{font-size:.9rem}
+  .chat-msg{font-size:.88rem;padding:.75rem 1rem;max-width:92%}
+  .chat-option{font-size:.8rem;padding:.45rem .85rem}
+  .chat-input-zone{padding:.7rem}
+
+  #top{width:42px;height:42px;bottom:230px;right:12px}
   #top svg{width:20px;height:20px}
-  .music-widget{bottom:.6rem;left:.6rem;padding:.35rem .55rem;gap:.35rem;border-radius:30px}
-  .music-play-btn{width:30px;height:30px;font-size:.75rem}
+
+  /* --- WIDGET MUSIQUE --- */
+  .music-widget{
+    bottom:.5rem;left:.5rem;right:.5rem;
+    max-width:none;
+    padding:.4rem .6rem;
+    border-radius:30px;
+    gap:.4rem;
+  }
+  .music-play-btn{width:32px;height:32px;font-size:.8rem;flex:0 0 32px}
   .music-eq{display:none !important}
-  .music-widget select{max-width:95px;font-size:.65rem;padding:.2rem .4rem}
+  .music-widget select{
+    flex:1;
+    max-width:none;
+    font-size:.72rem;
+    padding:.25rem .4rem;
+    min-width:0;
+  }
   .music-widget .volume-icon{display:none}
+  .music-widget input[type="range"]{width:50px;flex:0 0 50px}
+
+  /* --- AUDIO PLAYER --- */
+  .audio-player{padding:1rem;margin:1.5rem auto}
+  .audio-player h2{font-size:.95rem}
+  #musicSelect{padding:.7rem .9rem}
+
+  /* --- HERO --- */
+  .hero{padding:1.5rem .8rem 1rem}
+  .hero h1{font-size:1.6rem}
+  .hero .motto{font-size:1rem;max-width:100%}
+  .hero-slide{max-height:220px}
+  .hero-slider{margin-bottom:1.2rem}
+  .section-title{font-size:1.6rem;margin:2.5rem 0 .8rem}
+  .intro{max-width:92%;font-size:.95rem;margin-bottom:2rem}
+
+  /* --- DOCTRINE & PILLARS --- */
+  .doctrine{padding:2rem 1rem}
+  .doctrine h2{font-size:1.3rem}
+  .doctrine p{font-size:.95rem}
+  .pillar{padding:1rem}
+  .pillar h3{font-size:1.05rem}
+  .pillar p{font-size:.88rem}
+
+  /* --- PRODUITS --- */
+  .products-grid{gap:1.5rem;padding:0 .6rem;margin-bottom:2.5rem}
+  .product-card{padding:1rem;gap:1rem;border-radius:14px}
+  .product-images{gap:.5rem}
+  .product-image{aspect-ratio:16/10}
+  .badge{font-size:.65rem;padding:4px 9px}
+  .product-title{font-size:1.05rem}
+  .tagline{font-size:.9rem;padding-left:.7rem;border-left-width:3px}
+  .price{font-size:1.3rem}
+  .old{font-size:.95rem}
+  .off{font-size:.85rem}
+  .desc{font-size:.92rem}
+  .more{padding:.75rem 1.4rem;font-size:.9rem;width:100%;text-align:center}
+  .payment-btn{padding:1.1rem;font-size:1rem}
+  .details{font-size:.9rem}
+  .details h4{font-size:1rem}
+
+  /* --- INFO / ABOUT / VINTED --- */
+  .info{padding:1.5rem 1rem;margin-bottom:1.5rem}
+  .info h2{font-size:1.15rem}
+  .info p{font-size:.92rem}
+  .about-section{padding:2rem 1rem;margin-bottom:2rem}
+  .about-section h2{font-size:1.35rem}
+  .about-block{padding:1rem 1.1rem;font-size:.92rem}
+  .vinted-card{padding:1.8rem 1rem}
+  .vinted-rating{font-size:.9rem;padding:.6rem 1.2rem}
+  .vinted-btn{font-size:1rem;padding:1rem}
+
+  /* --- PAGE CONTAINER --- */
+  .page-container{padding:1.5rem 1rem;margin:1.5rem auto}
+  .page-container h1{font-size:1.45rem;margin-bottom:1.5rem}
+  .page-container h2{font-size:1.15rem;margin-top:1.8rem}
+  .page-container p,.page-container li{font-size:.92rem}
+
+  /* --- CONTACT --- */
+  .contact-form input,.contact-form textarea{padding:.85rem 1rem}
+  .contact-form button{font-size:1rem;padding:1rem}
+
+  /* --- BEAUTY --- */
+  .beauty-hero{padding:1.8rem 1rem;margin:1.5rem auto}
+  .beauty-hero h1{font-size:1.5rem}
+  .beauty-hero p.beauty-intro{max-width:95%;font-size:.95rem}
+  .beauty-clients-grid{grid-template-columns:repeat(2,1fr);gap:.8rem;width:calc(100% - 1.2rem)}
+
+  /* --- PRÉVENTION HARCELEMENT --- */
+  .prevention-header h1{font-size:1rem}
+  .prevention-header .navbar-links{
+    padding:.6rem .4rem;
+    overflow-x:auto;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+  }
+  .prevention-header .navbar-links a{font-size:.68rem;padding:.4rem .55rem;flex:0 0 auto}
+  .prevention-close{width:40px;height:40px;font-size:1.3rem}
+  .prevention-content{padding:1.5rem .8rem}
+  .prevention-intro-box{padding:1.5rem 1rem}
+  .prevention-intro-box p{font-size:.95rem}
+  .prevention-summary,.prevention-card-full{padding:1.2rem 1rem}
+  .prevention-title-blue,.prevention-title-white,.prevention-title-red{font-size:1.1rem}
+  .prevention-list li{font-size:.9rem;flex-direction:column;align-items:flex-start;padding:.9rem 0}
+  .prevention-list li .peine{font-size:.85rem;padding:.4rem .8rem}
+  .prevention-warning-box{padding:1.5rem 1rem}
+  .prevention-warning-box p{font-size:.95rem}
+  .prevention-actions{gap:1rem}
+  .prevention-btn{font-size:.95rem;padding:1rem 1.5rem;max-width:none}
+
+  /* --- CYBER --- */
+  .page-header-cyber h1{font-size:1.5rem}
+  .page-header-cyber h2{font-size:1.1rem}
+  .page-header-cyber p{max-width:100%;font-size:.95rem}
+  .summary-cyber,.cyber-section{padding:1.2rem 1rem}
+  .summary-cyber h2,.cyber-section h2{font-size:1.05rem}
+  .cyber-section p{font-size:.92rem}
+  .signature{font-size:.95rem}
+
+  /* --- FOOTER --- */
+  footer{padding:2.5rem 1rem 9rem;margin-top:3rem}
+  .footer-links{gap:.6rem 1rem;margin-bottom:1.8rem}
+  footer a{font-size:.85rem;padding:.35rem .5rem}
+  .footer-info{font-size:.88rem}
+  .footer-tiktok{padding:.9rem 1.5rem;font-size:.9rem}
+  .footer-copyright{font-size:.75rem}
+
+  /* --- MAINTENANCE --- */
+  .maintenance-stats-box{padding:1rem;margin-bottom:1.5rem}
+  .stats-table{font-size:.8rem}
+  .stats-table th,.stats-table td{padding:.4rem 0}
+  .stats-flag-img{margin-right:6px;width:16px;height:12px}
+
+  /* --- ZOOM --- */
+  .zoom-close{width:40px;height:40px;font-size:1.4rem;top:1rem;right:1rem}
+
+  /* --- LECART PANIER --- */
+  [class*="lecart-drawer"], [class*="lecart-sidebar"], #lecart-drawer{
+    width:100vw !important;
+    max-width:100vw !important;
+    border-left:none !important;
+  }
+
+  /* --- ESPACE SOUS WIDGET MUSIQUE --- */
+  body{padding-bottom:70px}
+}
+
+/* ============================================================
+   TRÈS PETITS ÉCRANS ≤ 380px
+   ============================================================ */
+@media(max-width:380px){
+  #panierFlottant{bottom:160px;right:8px;padding:.5rem .75rem}
+  #chatbot-toggle{width:44px;height:44px;bottom:95px;right:8px}
+  #top{width:38px;height:38px;bottom:215px;right:8px}
+  #chatbot-window{bottom:150px;right:6px;left:6px}
   .music-widget input[type="range"]{width:40px}
+  .product-title{font-size:.98rem}
+  .price{font-size:1.15rem}
+  .beauty-clients-grid{grid-template-columns:1fr}
+}
+
+/* ============================================================
+   TACTILE : désactive les hover sur mobile
+   ============================================================ */
+@media(hover:none){
+  .product-card:hover,
+  .pillar:hover,
+  #top:hover,
+  .chat-option:hover,
+  .beauty-client-img:hover,
+  .music-play-btn:hover,
+  .music-widget:hover,
+  #panierFlottant:hover{transform:none;box-shadow:inherit}
 }
 
 /* ============================================================
@@ -448,7 +668,8 @@ body.light-mode .music-widget select{background:#fff}
 <script>
 (function(){
   "use strict";
-  var FORCER_MAINTENANCE = else;
+  /* CORRIGÉ : "else" n'est pas une valeur valide */
+  var FORCER_MAINTENANCE = false;
   function getPage(){ return document.getElementById("maintenance-page"); }
   function getContenu(){
     return [
