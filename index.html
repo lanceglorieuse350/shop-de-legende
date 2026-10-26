@@ -355,26 +355,28 @@ body.light-mode .music-widget select{background:#fff}
 .maintenance-stats-box{background:rgba(255,255,255,0.03);border:1px solid rgba(255,215,0,0.2);border-radius:12px;padding:1.5rem;max-width:100%;margin:0 auto 2rem;box-shadow:0 4px 20px rgba(0,0,0,0.5);width:100%}
 .maintenance-stats-box h3{font-family:'Inter',sans-serif;font-size:0.85rem;color:var(--gold);text-transform:uppercase;letter-spacing:0.1em;margin:0 0 1rem;display:flex;align-items:center;justify-content:center;gap:0.5rem}
 
-/* CARTE DU MONDE - VERSION ÉCLAIRCIE */
+/* CARTE DU MONDE - VERSION CORRIGÉE */
 .world-map-container{
   margin:0 auto 1.5rem;
-  padding:.8rem;
-  background:rgba(255,215,0,0.03);
-  border:1px solid rgba(255,215,0,0.4);
+  padding:.5rem;
+  background:rgba(0,0,0,0.2);
+  border:2px solid rgba(255,215,0,0.5);
   border-radius:12px;
-  box-shadow:inset 0 0 20px rgba(255,215,0,0.1), 0 4px 20px rgba(0,0,0,0.5);
+  box-shadow:inset 0 0 20px rgba(0,0,0,0.8), 0 4px 20px rgba(0,0,0,0.6);
   overflow:hidden;
   position:relative;
 }
-.world-map{
+/* Transforme le fond blanc en fond sombre et garde les couleurs */
+.world-map-img {
   width:100%;
   height:auto;
   display:block;
-  filter:brightness(1.6) contrast(1.15) drop-shadow(0 0 10px rgba(255,215,0,0.2));
+  filter: invert(0.88) hue-rotate(180deg) brightness(1.1) contrast(1.1);
+  border-radius:8px;
 }
-.visitor-dot .dot-core{fill:#e10600;stroke:#fff;stroke-width:1.5;filter:drop-shadow(0 0 6px rgba(225,6,0,0.9))}
-.visitor-dot .dot-pulse{fill:#e10600;opacity:.55;transform-origin:center;transform-box:fill-box;animation:mapPulse 2s ease-out infinite}
-.visitor-dot .dot-label{fill:#fff;font-family:'Inter',sans-serif;font-size:14px;font-weight:700;text-anchor:middle;paint-order:stroke;stroke:#000;stroke-width:3px;stroke-linejoin:round;letter-spacing:.05em}
+.visitor-dot .dot-core{fill:#e10600;stroke:#fff;stroke-width:2;filter:drop-shadow(0 0 8px rgba(225,6,0,1))}
+.visitor-dot .dot-pulse{fill:#e10600;opacity:.65;transform-origin:center;transform-box:fill-box;animation:mapPulse 2s ease-out infinite}
+.visitor-dot .dot-label{fill:#ffd700;font-family:'Inter',sans-serif;font-size:16px;font-weight:900;text-anchor:middle;paint-order:stroke;stroke:#000;stroke-width:4px;stroke-linejoin:round;letter-spacing:.05em}
 .visitor-dot:nth-child(2) .dot-pulse{animation-delay:.2s}
 .visitor-dot:nth-child(3) .dot-pulse{animation-delay:.4s}
 .visitor-dot:nth-child(4) .dot-pulse{animation-delay:.6s}
@@ -590,9 +592,9 @@ body.light-mode .music-widget select{background:#fff}
   .footer-copyright{font-size:.75rem}
 
   /* --- MAINTENANCE --- */
-  .world-map-container{padding:.5rem;margin-bottom:1rem}
-  .visitor-dot .dot-label{font-size:16px}
-  .visitor-dot .dot-core{stroke-width:2}
+  .world-map-container{padding:.3rem;margin-bottom:1rem}
+  .visitor-dot .dot-label{font-size:20px}
+  .visitor-dot .dot-core{stroke-width:2.5}
   .maintenance-stats-box{padding:1rem;margin-bottom:1.5rem}
   .stats-table{font-size:.8rem}
   .stats-table th,.stats-table td{padding:.4rem 0}
@@ -671,65 +673,62 @@ body.light-mode .music-widget select{background:#fff}
     <div class="maintenance-stats-box">
       <h3>🌍 Statistiques Internationales</h3>
 
-      <!-- CARTE DU MONDE (avec l'image carte-monde.jpg éclaircie) -->
+      <!-- CARTE DU MONDE (avec l'image carte-monde.jpg) -->
       <div class="world-map-container" role="img" aria-label="Carte du monde des visiteurs du site">
-        <svg class="world-map" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+        <svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" style="width:100%;display:block;">
           
-          <!-- 1. Image de fond : votre fichier local -->
-          <image href="carte-monde.jpg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"/>
+          <!-- 1. Image de fond avec filtre CSS -->
+          <image href="carte-monde.jpg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" class="world-map-img"/>
 
-          <!-- 2. Voile blanc semi-transparent pour éclaircir la carte -->
-          <rect width="100%" height="100%" fill="rgba(255, 255, 255, 0.15)" style="pointer-events:none;" />
-
-          <!-- 3. POINTS ROUGES : pays visiteurs -->
+          <!-- 2. POINTS ROUGES : pays visiteurs (coordonnées ajustées) -->
           <g class="visitor-dots">
             <!-- France -->
             <g class="visitor-dot" data-country="France">
-              <circle cx="485" cy="185" r="14" class="dot-pulse"/>
-              <circle cx="485" cy="185" r="5" class="dot-core"/>
-              <text x="485" y="170" class="dot-label">FR</text>
+              <circle cx="480" cy="170" r="16" class="dot-pulse"/>
+              <circle cx="480" cy="170" r="7" class="dot-core"/>
+              <text x="480" y="152" class="dot-label">FR</text>
             </g>
             <!-- États-Unis -->
             <g class="visitor-dot" data-country="USA">
-              <circle cx="210" cy="195" r="14" class="dot-pulse"/>
-              <circle cx="210" cy="195" r="5" class="dot-core"/>
-              <text x="210" y="180" class="dot-label">US</text>
+              <circle cx="180" cy="195" r="16" class="dot-pulse"/>
+              <circle cx="180" cy="195" r="7" class="dot-core"/>
+              <text x="180" y="177" class="dot-label">US</text>
             </g>
             <!-- Pays-Bas -->
             <g class="visitor-dot" data-country="Netherlands">
-              <circle cx="495" cy="175" r="12" class="dot-pulse"/>
-              <circle cx="495" cy="175" r="4.5" class="dot-core"/>
-              <text x="495" y="162" class="dot-label">NL</text>
+              <circle cx="490" cy="160" r="14" class="dot-pulse"/>
+              <circle cx="490" cy="160" r="6" class="dot-core"/>
+              <text x="490" y="144" class="dot-label">NL</text>
             </g>
             <!-- Hong Kong -->
             <g class="visitor-dot" data-country="HongKong">
-              <circle cx="790" cy="235" r="12" class="dot-pulse"/>
-              <circle cx="790" cy="235" r="4.5" class="dot-core"/>
-              <text x="790" y="222" class="dot-label">HK</text>
+              <circle cx="775" cy="230" r="14" class="dot-pulse"/>
+              <circle cx="775" cy="230" r="6" class="dot-core"/>
+              <text x="775" y="214" class="dot-label">HK</text>
             </g>
             <!-- Norvège -->
             <g class="visitor-dot" data-country="Norway">
-              <circle cx="505" cy="135" r="12" class="dot-pulse"/>
-              <circle cx="505" cy="135" r="4.5" class="dot-core"/>
-              <text x="505" y="122" class="dot-label">NO</text>
+              <circle cx="500" cy="120" r="14" class="dot-pulse"/>
+              <circle cx="500" cy="120" r="6" class="dot-core"/>
+              <text x="500" y="104" class="dot-label">NO</text>
             </g>
             <!-- Pologne -->
             <g class="visitor-dot" data-country="Poland">
-              <circle cx="530" cy="175" r="12" class="dot-pulse"/>
-              <circle cx="530" cy="175" r="4.5" class="dot-core"/>
-              <text x="530" y="162" class="dot-label">PL</text>
+              <circle cx="525" cy="160" r="14" class="dot-pulse"/>
+              <circle cx="525" cy="160" r="6" class="dot-core"/>
+              <text x="525" y="144" class="dot-label">PL</text>
             </g>
             <!-- Suède -->
             <g class="visitor-dot" data-country="Sweden">
-              <circle cx="525" cy="140" r="12" class="dot-pulse"/>
-              <circle cx="525" cy="140" r="4.5" class="dot-core"/>
-              <text x="525" y="127" class="dot-label">SE</text>
+              <circle cx="515" cy="125" r="14" class="dot-pulse"/>
+              <circle cx="515" cy="125" r="6" class="dot-core"/>
+              <text x="515" y="109" class="dot-label">SE</text>
             </g>
             <!-- Italie -->
             <g class="visitor-dot" data-country="Italy">
-              <circle cx="505" cy="205" r="12" class="dot-pulse"/>
-              <circle cx="505" cy="205" r="4.5" class="dot-core"/>
-              <text x="505" y="192" class="dot-label">IT</text>
+              <circle cx="495" cy="190" r="14" class="dot-pulse"/>
+              <circle cx="495" cy="190" r="6" class="dot-core"/>
+              <text x="495" y="174" class="dot-label">IT</text>
             </g>
           </g>
         </svg>
@@ -765,7 +764,7 @@ body.light-mode .music-widget select{background:#fff}
 (function(){
   "use strict";
   /* CORRIGÉ : "else" n'est pas une valeur valide */
-  var FORCER_MAINTENANCE = true;
+  var FORCER_MAINTENANCE = false;
   function getPage(){ return document.getElementById("maintenance-page"); }
   function getContenu(){
     return [
