@@ -421,21 +421,22 @@ body.light-mode .music-widget select{background:#fff}
     <p class="maintenance-info" data-i18n="maintenance_info">⏳ Travaux en cours — Merci de votre patience</p>
     <div class="maintenance-stats-box">
       <h3>🌍 Statistiques Internationales</h3>
-<table class="stats-table">
-  <thead>
-    <tr><th>Pays</th><th>Visiteurs</th><th>Vues</th></tr>
-  </thead>
-  <tbody>
-          <tr><td><span class="stats-flag">🇫🇷</span> France</td><td>100% (50)</td><td>719</td></tr>
-          <tr><td><span class="stats-flag">🇺🇸</span> États-Unis</td><td>9% (4)</td><td>4</td></tr>
-          <tr><td><span class="stats-flag">🇳🇱</span> Pays-Bas</td><td>5% (2)</td><td>43</td></tr>
-          <tr><td><span class="stats-flag">🇭🇰</span> Hong Kong</td><td>2% (1)</td><td>1</td></tr>
-          <tr><td><span class="stats-flag">🇳🇴</span> Norvège</td><td>2% (1)</td><td>1</td></tr>
-          <tr><td><span class="stats-flag">🇵🇱</span> Pologne</td><td>2% (1)</td><td>1</td></tr>
-          <tr><td><span class="stats-flag">🇸🇪</span> Suède</td><td>2% (1)</td><td>3</td></tr>
-          <tr><td><span class="stats-flag">🇮🇹</span> Italie</td><td>17% (2)</td><td>3</td></tr>
-  </tbody>
-</table>
+      <table class="stats-table">
+        <thead>
+          <tr><th>Pays</th><th>Visiteurs</th><th>Vues</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><img src="https://flagcdn.com/w20/fr.png" alt="Drapeau France" class="stats-flag-img" width="20" height="15"> France</td><td>100% (50)</td><td>719</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/us.png" alt="Drapeau États-Unis" class="stats-flag-img" width="20" height="15"> États-Unis</td><td>9% (4)</td><td>4</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/nl.png" alt="Drapeau Pays-Bas" class="stats-flag-img" width="20" height="15"> Pays-Bas</td><td>5% (2)</td><td>43</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/hk.png" alt="Drapeau Hong Kong" class="stats-flag-img" width="20" height="15"> Hong Kong</td><td>2% (1)</td><td>1</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/no.png" alt="Drapeau Norvège" class="stats-flag-img" width="20" height="15"> Norvège</td><td>2% (1)</td><td>1</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/pl.png" alt="Drapeau Pologne" class="stats-flag-img" width="20" height="15"> Pologne</td><td>2% (1)</td><td>1</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/se.png" alt="Drapeau Suède" class="stats-flag-img" width="20" height="15"> Suède</td><td>2% (1)</td><td>3</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/it.png" alt="Drapeau Italie" class="stats-flag-img" width="20" height="15"> Italie</td><td>2% (1)</td><td>3</td></tr>
+        </tbody>
+      </table>
+    </div>
     <div class="maintenance-actions">
       <a href="mailto:lanceglorieuse@gmail.com" class="maintenance-btn-gold" data-i18n="contact_us">📧 Nous contacter</a>
       <a href="tel:0780204749" class="maintenance-btn-outline">📞 07.80.20.47.49</a>
@@ -500,7 +501,15 @@ body.light-mode .music-widget select{background:#fff}
 .stats-table td{padding:0.5rem 0;border-bottom:1px solid rgba(255,255,255,0.05);color:#ddd}
 .stats-table td:not(:first-child){text-align:right}
 .stats-table tr:last-child td{border-bottom:none}
-.stats-flag{margin-right:6px}
+.stats-flag-img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  border-radius: 2px;
+  box-shadow: 0 0 3px rgba(255,255,255,0.2);
+  object-fit: cover;
+}
+.stats-flag { display: none; }
 #maintenance-page .maintenance-actions{display:flex;flex-direction:column;gap:1rem;width:100%;max-width:280px;margin:0 auto}
 #maintenance-page .maintenance-btn-gold{display:block;padding:1rem 2rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;font-family:'Cinzel',serif;font-weight:700;border-radius:16px;text-decoration:none;border:1px solid var(--gold);text-align:center;transition:transform 0.2s}
 #maintenance-page .maintenance-btn-gold:hover{transform:scale(1.05)}
