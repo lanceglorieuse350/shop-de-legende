@@ -71,7 +71,7 @@ p,li,h1,h2,h3,h4{overflow-wrap:anywhere}
 @keyframes badgeBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 @keyframes chatOpen{from{opacity:0;transform:scale(.85) translateY(12px)}to{opacity:1;transform:scale(1) translateY(0)}}
 @keyframes cartBump{0%{transform:scale(1)}35%{transform:scale(1.5)}70%{transform:scale(.9)}100%{transform:scale(1)}}
-@keyframes mapPulse{0%{transform:scale(.6);opacity:.75}70%{transform:scale(1.8);opacity:0}100%{transform:scale(1.8);opacity:0}}
+@keyframes mapPulse{0%{transform:scale(.6);opacity:.8}70%{transform:scale(1.8);opacity:0}100%{transform:scale(1.8);opacity:0}}
 
 .page-section{display:none;animation:fadeIn 0.3s ease}
 .page-section.active{display:block}
@@ -360,7 +360,7 @@ body.light-mode .music-widget select{background:#fff}
 .world-map{width:100%;height:auto;display:block;filter:drop-shadow(0 0 8px rgba(255,215,0,0.15))}
 .visitor-dot .dot-core{fill:#e10600;stroke:#fff;stroke-width:1.5;filter:drop-shadow(0 0 6px rgba(225,6,0,0.9))}
 .visitor-dot .dot-pulse{fill:#e10600;opacity:.55;transform-origin:center;transform-box:fill-box;animation:mapPulse 2s ease-out infinite}
-.visitor-dot .dot-label{fill:#ffd700;font-family:'Inter',sans-serif;font-size:14px;font-weight:700;text-anchor:middle;paint-order:stroke;stroke:#000;stroke-width:3px;stroke-linejoin:round;letter-spacing:.05em}
+.visitor-dot .dot-label{fill:#fff;font-family:'Inter',sans-serif;font-size:14px;font-weight:700;text-anchor:middle;paint-order:stroke;stroke:#000;stroke-width:3px;stroke-linejoin:round;letter-spacing:.05em}
 .visitor-dot:nth-child(2) .dot-pulse{animation-delay:.2s}
 .visitor-dot:nth-child(3) .dot-pulse{animation-delay:.4s}
 .visitor-dot:nth-child(4) .dot-pulse{animation-delay:.6s}
@@ -657,85 +657,62 @@ body.light-mode .music-widget select{background:#fff}
     <div class="maintenance-stats-box">
       <h3>🌍 Statistiques Internationales</h3>
 
-      <!-- CARTE DU MONDE SVG -->
+      <!-- CARTE DU MONDE (avec l'image fournie en fond) -->
       <div class="world-map-container" role="img" aria-label="Carte du monde des visiteurs du site">
         <svg class="world-map" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-          <!-- Fond océan -->
-          <rect width="1000" height="500" fill="rgba(255,215,0,0.02)"/>
+          <!-- Image de fond : la carte du monde fournie -->
+          <!-- Remplacez l'URL par "carte.jpg" si vous hébergez l'image localement -->
+          <image href="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"/>
 
-          <!-- Continents (silhouettes simplifiées) -->
-          <g class="continents" fill="rgba(255,255,255,0.08)" stroke="rgba(255,215,0,0.25)" stroke-width="0.8">
-            <!-- Amérique du Nord -->
-            <path d="M120,90 L200,70 L260,80 L290,110 L280,150 L260,170 L240,200 L220,220 L200,230 L180,220 L160,200 L140,180 L120,160 L100,140 Z"/>
-            <!-- Amérique centrale -->
-            <path d="M200,230 L240,240 L260,270 L250,290 L230,290 L210,270 Z"/>
-            <!-- Amérique du Sud -->
-            <path d="M250,290 L290,300 L310,340 L300,400 L280,440 L260,450 L240,430 L230,390 L240,340 Z"/>
-            <!-- Europe -->
-            <path d="M460,110 L520,100 L560,110 L580,130 L570,160 L540,170 L500,175 L470,165 L455,140 Z"/>
-            <!-- Afrique -->
-            <path d="M480,180 L540,175 L580,190 L600,220 L590,280 L570,340 L540,380 L510,390 L490,370 L470,330 L460,280 L465,230 Z"/>
-            <!-- Asie -->
-            <path d="M590,90 L700,80 L800,90 L870,110 L900,140 L890,170 L850,180 L800,175 L740,185 L690,175 L640,165 L600,150 L585,125 Z"/>
-            <!-- Inde -->
-            <path d="M680,175 L720,180 L740,220 L720,260 L690,250 L675,220 Z"/>
-            <!-- Asie du Sud-Est -->
-            <path d="M780,200 L820,210 L840,240 L820,260 L790,250 L775,225 Z"/>
-            <!-- Océanie / Australie -->
-            <path d="M820,320 L890,315 L930,340 L920,380 L880,400 L840,390 L815,360 Z"/>
-            <!-- Groenland -->
-            <path d="M300,40 L360,35 L380,60 L360,90 L320,95 L295,75 Z"/>
-          </g>
-
-          <!-- POINTS ROUGES : pays visiteurs (correspond au tableau) -->
+          <!-- POINTS ROUGES : pays visiteurs (coordonnées ajustées sur la carte) -->
           <g class="visitor-dots">
-            <!-- France -->
+            <!-- France (Europe de l'Ouest) -->
             <g class="visitor-dot" data-country="France">
-              <circle cx="495" cy="145" r="16" class="dot-pulse"/>
-              <circle cx="495" cy="145" r="6" class="dot-core"/>
-              <text x="495" y="128" class="dot-label">FR</text>
+              <circle cx="485" cy="185" r="14" class="dot-pulse"/>
+              <circle cx="485" cy="185" r="5" class="dot-core"/>
+              <text x="485" y="170" class="dot-label">FR</text>
             </g>
-            <!-- États-Unis -->
+            <!-- États-Unis (Amérique du Nord) -->
             <g class="visitor-dot" data-country="USA">
-              <circle cx="210" cy="140" r="16" class="dot-pulse"/>
-              <circle cx="210" cy="140" r="6" class="dot-core"/>
-              <text x="210" y="123" class="dot-label">US</text>
+              <circle cx="210" cy="195" r="14" class="dot-pulse"/>
+              <circle cx="210" cy="195" r="5" class="dot-core"/>
+              <text x="210" y="180" class="dot-label">US</text>
             </g>
-            <!-- Pays-Bas -->
+            <!-- Pays-Bas (Europe du Nord-Ouest) -->
             <g class="visitor-dot" data-country="Netherlands">
-              <circle cx="505" cy="125" r="14" class="dot-pulse"/>
-              <circle cx="505" cy="125" r="5" class="dot-core"/>
-              <text x="505" y="110" class="dot-label">NL</text>
+              <circle cx="495" cy="175" r="12" class="dot-pulse"/>
+              <circle cx="495" cy="175" r="4.5" class="dot-core"/>
+              <text x="495" y="162" class="dot-label">NL</text>
             </g>
-            <!-- Hong Kong -->
+            <!-- Hong Kong (Asie de l'Est) -->
             <g class="visitor-dot" data-country="HongKong">
-              <circle cx="800" cy="200" r="13" class="dot-pulse"/>
-              <circle cx="800" cy="200" r="5" class="dot-core"/>
-              <text x="800" y="187" class="dot-label">HK</text>
+              <circle cx="790" cy="235" r="12" class="dot-pulse"/>
+              <circle cx="790" cy="235" r="4.5" class="dot-core"/>
+              <text x="790" y="222" class="dot-label">HK</text>
             </g>
-            <!-- Norvège -->
+            <!-- Norvège (Scandinavie) -->
             <g class="visitor-dot" data-country="Norway">
-              <circle cx="510" cy="95" r="13" class="dot-pulse"/>
-              <circle cx="510" cy="95" r="5" class="dot-core"/>
-              <text x="510" y="82" class="dot-label">NO</text>
+              <circle cx="505" cy="135" r="12" class="dot-pulse"/>
+              <circle cx="505" cy="135" r="4.5" class="dot-core"/>
+              <text x="505" y="122" class="dot-label">NO</text>
             </g>
-            <!-- Pologne -->
+            <!-- Pologne (Europe centrale) -->
             <g class="visitor-dot" data-country="Poland">
-              <circle cx="535" cy="130" r="13" class="dot-pulse"/>
-              <circle cx="535" cy="130" r="5" class="dot-core"/>
-              <text x="535" y="117" class="dot-label">PL</text>
+              <circle cx="530" cy="175" r="12" class="dot-pulse"/>
+              <circle cx="530" cy="175" r="4.5" class="dot-core"/>
+              <text x="530" y="162" class="dot-label">PL</text>
             </g>
-            <!-- Suède -->
+            <!-- Suède (Scandinavie) -->
             <g class="visitor-dot" data-country="Sweden">
-              <circle cx="525" cy="100" r="13" class="dot-pulse"/>
-              <circle cx="525" cy="100" r="5" class="dot-core"/>
-              <text x="525" y="87" class="dot-label">SE</text>
+              <circle cx="525" cy="140" r="12" class="dot-pulse"/>
+              <circle cx="525" cy="140" r="4.5" class="dot-core"/>
+              <text x="525" y="127" class="dot-label">SE</text>
             </g>
-            <!-- Italie -->
+            <!-- Italie (Europe du Sud) -->
             <g class="visitor-dot" data-country="Italy">
-              <circle cx="510" cy="160" r="13" class="dot-pulse"/>
-              <circle cx="510" cy="160" r="5" class="dot-core"/>
-              <text x="510" y="147" class="dot-label">IT</text>
+              <circle cx="505" cy="205" r="12" class="dot-pulse"/>
+              <circle cx="505" cy="205" r="4.5" class="dot-core"/>
+              <text x="505" y="192" class="dot-label">IT</text>
             </g>
           </g>
         </svg>
@@ -770,7 +747,6 @@ body.light-mode .music-widget select{background:#fff}
 <script>
 (function(){
   "use strict";
-  /* */
   var FORCER_MAINTENANCE = true;
   function getPage(){ return document.getElementById("maintenance-page"); }
   function getContenu(){
@@ -2229,7 +2205,7 @@ document.addEventListener('DOMContentLoaded', function() {
       { labelKey: "chat_btn_shop", label: "🛒 Boutique", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produits"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
       { labelKey: "chat_btn_vinted", label: "👕 Vinted", action: function(){ navigateTo("vinted"); toggleChatbot(); } },
       { labelKey: "chat_btn_beauty", label: "💅 Ongles & Beauté", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } },
-      { labelKey: "chat_btn_about", label: "📜 !!À propos", action: function(){ navigateTo("apropos"); toggleChatbot(); } },
+      { labelKey: "chat_btn_about", label: "📜 À propos", action: function(){ navigateTo("apropos"); toggleChatbot(); } },
       { labelKey: "chat_btn_contact", label: "✉️ Contact", action: function(){ navigateTo("contact"); toggleChatbot(); } },
       { labelKey: "chat_btn_faq", label: "❓ FAQ", action: function(){ navigateTo("faq"); toggleChatbot(); } },
       { labelKey: "chat_btn_cyber", label: "🛡️ Cybersécurité", action: function(){ navigateTo("prevention-cyber"); toggleChatbot(); } },
