@@ -764,7 +764,7 @@ body.light-mode .music-widget select{background:#fff}
 (function(){
   "use strict";
   /* CORRIGÉ : "else" n'est pas une valeur valide */
-  var FORCER_MAINTENANCE = true;
+  var FORCER_MAINTENANCE = false;
   function getPage(){ return document.getElementById("maintenance-page"); }
   function getContenu(){
     return [
@@ -1222,6 +1222,83 @@ body.light-mode .music-widget select{background:#fff}
         <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1US30aRNu37iEZT9EGBkxLCy" data-product-name="Endoscope caméra d'inspection" data-product-price="95.00" data-product-image="photo-endoscope.png" data-i18n="cart_95">💳 Ajouter au panier — 95 €</button>
       </div>
     </div>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         NOUVEAU PRODUIT : PACK SÉCURITÉ PREMIUM
+         ═══════════════════════════════════════════════════════════ -->
+    <div class="product-card" id="produit-pack-securite" data-name="Pack Sécurité Premium" data-price="350" tabindex="-1">
+      <div class="product-images">
+        <img src="Pack-Sécu.png" class="product-image" alt="Pack Sécurité Premium — Alarme Tiiwee + Caméra Tapo C245D + 4 capteurs SONOFF" loading="lazy" decoding="async" onclick="ouvrirZoom(this.src,event)">
+      </div>
+      <div class="product-info">
+        <span class="badge" data-i18n="badge_security">🛡️ PACK SÉCURITÉ</span>
+        <h3 class="product-title" data-i18n="pack_secu_title">Pack Sécurité Premium</h3>
+        <p class="tagline" data-i18n="pack_secu_tagline">Protection complète. Installation en 10 minutes. Clé en main.</p>
+        <div class="price">
+          <span class="old">399 €</span>
+          <span class="promo">350 €</span>
+          <span class="off" data-i18n="pack_secu_promo">Promo limitée</span>
+        </div>
+        <p class="desc" data-i18n="pack_secu_desc">Protégez toute votre habitation avec une caméra IA, une alarme complète, 4 capteurs et un système prêt à l'emploi. Idéal pour particuliers et petits commerces.</p>
+        <button type="button" class="more" onclick="toggleDetails(this)" aria-expanded="false" aria-controls="details-pack-secu" data-i18n="see_more">Voir plus</button>
+        <div class="details" id="details-pack-secu">
+          <h4 data-i18n="full_desc">Description complète</h4>
+          <p data-i18n="pack_secu_full_1">Le Pack Sécurité Premium réunit tout ce qu'il faut pour sécuriser une maison, un appartement, un commerce, un garage, une cave ou un bureau — sans compétence technique, sans câblage complexe. Tout est déjà configuré : vous installez, vous connectez, c'est prêt en 10 minutes.</p>
+
+          <h4 data-i18n="pack_secu_contents">📦 Contenu du pack (exact)</h4>
+          <ul>
+            <li data-i18n="pack_secu_c1">1 Alarme Tiiwee (sirène + télécommandes)</li>
+            <li data-i18n="pack_secu_c2">1 Caméra IA TP-Link Tapo C245D (vision nocturne + détection)</li>
+            <li data-i18n="pack_secu_c3">4 Capteurs d'ouverture SONOFF (portes / fenêtres / garage / balcon)</li>
+            <li data-i18n="pack_secu_c4">Notice d'installation</li>
+            <li data-i18n="pack_secu_c5">Assistance 30 jours</li>
+          </ul>
+
+          <h4 data-i18n="features">Fonctionnalités</h4>
+          <ul>
+            <li data-i18n="pack_secu_f1">Alertes instantanées sur smartphone</li>
+            <li data-i18n="pack_secu_f2">Détection intelligente (IA)</li>
+            <li data-i18n="pack_secu_f3">Sirène puissante</li>
+            <li data-i18n="pack_secu_f4">Vision nocturne HD</li>
+            <li data-i18n="pack_secu_f5">Surveillance en direct</li>
+            <li data-i18n="pack_secu_f6">Capteurs haute précision</li>
+          </ul>
+
+          <h4 data-i18n="pack_secu_secure_for">Sécurise</h4>
+          <ul>
+            <li data-i18n="pack_secu_s1">🏠 Maison</li>
+            <li data-i18n="pack_secu_s2">🏢 Appartement</li>
+            <li data-i18n="pack_secu_s3">🏪 Commerce</li>
+            <li data-i18n="pack_secu_s4">🚗 Garage</li>
+            <li data-i18n="pack_secu_s5">🕳️ Cave</li>
+            <li data-i18n="pack_secu_s6">💼 Bureau</li>
+          </ul>
+
+          <h4 data-i18n="how_to_use">Installation</h4>
+          <ol>
+            <li data-i18n="pack_secu_use_1">Brancher l'alarme Tiiwee et la caméra Tapo.</li>
+            <li data-i18n="pack_secu_use_2">Coller les 4 capteurs SONOFF sur portes / fenêtres / garage / balcon.</li>
+            <li data-i18n="pack_secu_use_3">Connecter les appareils à l'application (Tapo + SONOFF).</li>
+            <li data-i18n="pack_secu_use_4">Configurer les alertes smartphone.</li>
+            <li data-i18n="pack_secu_use_5">Tester sirène et détection. C'est prêt en 10 minutes.</li>
+          </ol>
+
+          <h4 data-i18n="pack_secu_warranty_support">Garantie & Support</h4>
+          <ul>
+            <li data-i18n="pack_secu_ws1">Garantie 24 mois</li>
+            <li data-i18n="pack_secu_ws2">Support client 30 jours</li>
+            <li data-i18n="pack_secu_ws3">Assistance installation si besoin</li>
+          </ul>
+
+          <h4 data-i18n="pack_secu_why">Pourquoi ce pack ?</h4>
+          <p data-i18n="pack_secu_why_text">Parce qu'il protège toute votre habitation avec une caméra IA, une alarme complète, 4 capteurs et un système prêt à l'emploi. Pack clé en main — idéal pour particuliers et petits commerces.</p>
+        </div>
+        <button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="price_1UV4VuRNu37iEZT9QXBQFhLp" data-product-name="Pack Sécurité Premium" data-product-price="350.00" data-product-image="Pack-Sécu.png" data-i18n="cart_pack_secu">💳 Ajouter au panier — 350 €</button>
+      </div>
+    </div>
+    <!-- ═══════════════════════════════════════════════════════════
+         FIN PACK SÉCURITÉ PREMIUM
+         ═══════════════════════════════════════════════════════════ -->
   </div>
 
   <section class="info">
@@ -2242,7 +2319,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { intention: "beaute", motsCles: ["ongle","ongles","beaute","beauté","vernis","manucure","nail"], reponseKey: "chat_beauty_reply", reponse: "💅 La section <strong>Ongles & Beauté</strong>.", options: [
       { labelKey: "chat_btn_see_section", label: "Voir la section", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } }
     ] },
-    { intention: "prix", motsCles: ["prix","tarif","combien","cout"], reponseKey: "chat_price_reply", reponse: "💰 Drone: 89€ • Projecteur: 35€ • Pack Hiver: 99,99€ • Endoscope: 95€" },
+    { intention: "prix", motsCles: ["prix","tarif","combien","cout"], reponseKey: "chat_price_reply", reponse: "💰 Drone: 89€ • Projecteur: 35€ • Pack Hiver: 99,99€ • Endoscope: 95€ • Pack Sécurité Premium: 350€" },
     { intention: "merci", motsCles: ["merci","super","parfait","top"], reponseKey: "chat_thanks_reply", reponse: "Avec plaisir ! 🙏" }
   ];
   function match(t){
