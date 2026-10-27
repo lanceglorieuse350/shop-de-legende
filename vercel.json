@@ -1,6 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "name": "guillet-iv",
   "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
@@ -18,9 +17,9 @@
         { "key": "Cross-Origin-Embedder-Policy", "value": "credentialless" },
         { "key": "Cross-Origin-Resource-Policy", "value": "cross-origin" },
         { "key": "Access-Control-Allow-Origin", "value": "https://shop-de-legende.vercel.app" },
-        { 
-          "key": "Content-Security-Policy", 
-          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://www.googletagmanager.com https://va.vercel-scripts.com https://js.stripe.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; media-src 'self' https:; connect-src 'self' https://api.getlecart.com https://vitals.vercel-insights.com https://api.stripe.com; frame-src 'self' https://js.stripe.com https://buy.stripe.com; frame-ancestors 'self'; base-uri 'self'; object-src 'none'; form-action 'self' mailto:"
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://www.googletagmanager.com https://va.vercel-scripts.com https://js.stripe.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; media-src 'self' https:; connect-src 'self' https://api.getlecart.com https://vitals.vercel-insights.com https://api.stripe.com; frame-src 'self' https://js.stripe.com https://buy.stripe.com; frame-ancestors 'self'; base-uri 'self'; object-src 'none'; form-action 'self'"
         }
       ]
     },
@@ -38,6 +37,12 @@
     },
     {
       "source": "/index.html",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/translations.js",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
       ]
