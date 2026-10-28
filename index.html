@@ -163,6 +163,11 @@ body.light-mode .off{color:#007700}
 .payment-btn{display:block;width:100%;text-align:center;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:1px solid var(--gold);border-radius:var(--radius-md);padding:1rem;font-size:1.05rem;font-weight:700;margin-top:1rem;transition:all .2s}
 .payment-btn:hover{background:transparent;color:var(--gold)}
 
+/* --- VIDÉOS PUB DRONE --- */
+.drone-videos{display:flex;flex-direction:column;gap:1rem;margin:1rem 0}
+.drone-video-wrapper{border:2px solid var(--gold);border-radius:var(--radius-md);overflow:hidden;background:#000;box-shadow:0 6px 20px rgba(255,215,0,0.15)}
+.drone-video-wrapper video{width:100%;height:auto;display:block;border-radius:0}
+
 /* --- AUTRES SECTIONS --- */
 .beauty-hero{text-align:center;padding:2.5rem 1.5rem;background:linear-gradient(135deg,rgba(255,182,193,0.1),rgba(0,0,0,0.8) 60%);border-radius:var(--radius-lg);margin:2.5rem auto;max-width:900px;border:1px solid var(--border-color)}
 .beauty-hero h1{font-family:var(--font-display);font-size:2.2rem;color:var(--gold);margin:0 0 .8rem}
@@ -529,6 +534,9 @@ body.light-mode .music-widget select{background:#fff}
   .payment-btn{padding:1.1rem;font-size:1rem}
   .details{font-size:.9rem}
   .details h4{font-size:1rem}
+
+  /* --- VIDÉOS DRONE --- */
+  .drone-videos{gap:.8rem}
 
   /* --- INFO / ABOUT / VINTED --- */
   .info{padding:1.5rem 1rem;margin-bottom:1.5rem}
@@ -1077,6 +1085,21 @@ body.light-mode .music-widget select{background:#fff}
         <p class="tagline" data-i18n="drone_tagline">Dominez le ciel… ou il vous dominera. Soyez des yeux sans avoir besoin de voir.</p>
         <div class="price"><span class="promo">89 €</span><span class="off">(   )</span></div>
         <p class="desc" data-i18n="drone_desc">Un drone conçu pour les créateurs, les explorateurs et les pilotes ambitieux. Capturez le monde avec une précision chirurgicale.</p>
+
+        <!-- 🎬 VIDÉOS PUB DRONE -->
+        <div class="drone-videos">
+          <div class="drone-video-wrapper">
+            <video src="publicite_drone.mp4" controls preload="metadata" playsinline style="width:100%;height:auto;display:block;border-radius:0;" aria-label="Publicité du drone KY108">
+              Votre navigateur ne prend pas en charge la lecture vidéo.
+            </video>
+          </div>
+          <div class="drone-video-wrapper">
+            <video src="drone2.mp4" controls preload="metadata" playsinline style="width:100%;height:auto;display:block;border-radius:0;" aria-label="Deuxième publicité du drone KY108">
+              Votre navigateur ne prend pas en charge la lecture vidéo.
+            </video>
+          </div>
+        </div>
+
         <button type="button" class="more" onclick="toggleDetails(this)" aria-expanded="false" aria-controls="details-drone" data-i18n="see_more">Voir plus</button>
         <div class="details" id="details-drone">
           <h4 data-i18n="full_desc">Description complète</h4>
