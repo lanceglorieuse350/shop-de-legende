@@ -167,6 +167,46 @@ body.light-mode .off{color:#007700}
 .drone-video-wrapper{border:2px solid var(--gold);border-radius:var(--radius-md);overflow:hidden;background:#000;box-shadow:0 6px 20px rgba(255,215,0,0.15);margin:1rem 0}
 .drone-video-wrapper video{width:100%;height:auto;display:block}
 
+/* --- PARRAINAGE --- */
+.parrainage-hero{text-align:center;padding:2.5rem 1.5rem;background:linear-gradient(135deg,rgba(255,215,0,0.12),rgba(0,0,0,0.9) 60%);border-radius:var(--radius-lg);margin:2.5rem auto;max-width:900px;border:1px solid var(--gold);box-shadow:0 10px 30px rgba(255,215,0,0.15)}
+.parrainage-hero h1{font-family:var(--font-display);font-size:2.2rem;color:var(--gold);margin:0 0 .8rem}
+.parrainage-hero .parrainage-sub{font-family:var(--font-display);font-size:.95rem;color:var(--gold-bright);letter-spacing:.1em;text-transform:uppercase;font-weight:700}
+.parrainage-hero p.parrainage-intro{max-width:85%;margin:1.5rem auto 1rem;font-size:1.05rem;line-height:1.7}
+.parrainage-card{background:rgba(0,0,0,0.6);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:2.5rem 1.5rem;max-width:900px;margin:0 auto 3rem;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,0.4)}
+.parrainage-card h2{font-family:var(--font-display);font-size:1.6rem;color:var(--gold);margin:0 0 1rem}
+.parrainage-card p{font-size:1.05rem;line-height:1.7;margin:0 0 1.2rem;opacity:.9}
+.parrainage-card .parrainage-benefits{list-style:none;padding:0;margin:0 0 2rem;display:inline-block;text-align:left;font-size:.98rem;line-height:1.8}
+.parrainage-card .parrainage-benefits li{position:relative;padding-left:1.6rem;margin-bottom:.4rem}
+.parrainage-card .parrainage-benefits li::before{content:"✔";position:absolute;left:0;color:var(--gold);font-weight:700}
+.parrainage-card.starlink{border-color:var(--blue);box-shadow:0 10px 30px rgba(46,168,255,0.15)}
+.parrainage-card.starlink h2{color:var(--blue)}
+.parrainage-card.vinted{border-color:#09b1ba;box-shadow:0 10px 30px rgba(9,177,186,0.15)}
+.parrainage-card.vinted h2{color:#09b1ba}
+.parrainage-card.credit-agricole{border-color:#0066b3;box-shadow:0 10px 30px rgba(0,102,179,0.15)}
+.parrainage-card.credit-agricole h2{color:#0066b3}
+.parrainage-card.octopus{border-color:#7b2d8e;box-shadow:0 10px 30px rgba(123,45,142,0.15)}
+.parrainage-card.octopus h2{color:#b06ed1}
+.parrainage-card .parrainage-code{display:inline-block;background:rgba(255,215,0,0.1);border:1px dashed var(--gold);border-radius:var(--radius-sm);padding:.6rem 1.2rem;font-family:var(--font-ui);font-weight:700;font-size:1.1rem;letter-spacing:.15em;margin:0 0 1.5rem;color:var(--gold)}
+.parrainage-btn{display:inline-flex;align-items:center;justify-content:center;gap:.7rem;padding:1.3rem 2.8rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:2px solid #fff;border-radius:var(--radius-lg);font-family:var(--font-display);font-weight:700;font-size:1.2rem;text-decoration:none;box-shadow:0 8px 25px rgba(255,215,0,0.4);transition:transform .2s,box-shadow .2s;max-width:100%}
+.parrainage-btn:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 12px 30px rgba(255,215,0,0.6);color:#000}
+.parrainage-btn.starlink-btn{background:linear-gradient(135deg,#2ea8ff,#005f99);color:#fff;box-shadow:0 8px 25px rgba(46,168,255,0.4)}
+.parrainage-btn.starlink-btn:hover{box-shadow:0 12px 30px rgba(46,168,255,0.6);color:#fff}
+.parrainage-btn.vinted-btn{background:linear-gradient(135deg,#09b1ba,#067a80);color:#fff;box-shadow:0 8px 25px rgba(9,177,186,0.4)}
+.parrainage-btn.vinted-btn:hover{box-shadow:0 12px 30px rgba(9,177,186,0.6);color:#fff}
+.parrainage-btn.credit-agricole-btn{background:linear-gradient(135deg,#0066b3,#003d6b);color:#fff;box-shadow:0 8px 25px rgba(0,102,179,0.4)}
+.parrainage-btn.credit-agricole-btn:hover{box-shadow:0 12px 30px rgba(0,102,179,0.6);color:#fff}
+.parrainage-btn.octopus-btn{background:linear-gradient(135deg,#7b2d8e,#4a1a56);color:#fff;box-shadow:0 8px 25px rgba(123,45,142,0.4)}
+.parrainage-btn.octopus-btn:hover{box-shadow:0 12px 30px rgba(123,45,142,0.6);color:#fff}
+.parrainage-steps{display:flex;flex-direction:column;gap:1.5rem;max-width:900px;margin:0 auto 3rem;padding:0 1rem}
+.parrainage-step{display:flex;align-items:flex-start;gap:1.2rem;background:rgba(255,255,255,0.03);border:1px solid var(--border-color);border-radius:var(--radius-md);padding:1.5rem;transition:border-color .2s,transform .2s}
+.parrainage-step:hover{border-color:var(--gold);transform:translateX(5px)}
+.parrainage-step-num{flex:0 0 48px;width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700;font-size:1.3rem;box-shadow:0 4px 12px rgba(255,215,0,0.3)}
+.parrainage-step-content h3{font-family:var(--font-display);color:var(--gold);font-size:1.15rem;margin:0 0 .5rem}
+.parrainage-step-content p{margin:0;font-size:.98rem;line-height:1.7;opacity:.9}
+.parrainage-note{max-width:900px;margin:0 auto 3rem;padding:1.5rem;background:rgba(46,168,255,0.05);border-left:4px solid var(--blue);border-radius:0 var(--radius-md) var(--radius-md) 0;font-size:.95rem;line-height:1.7}
+.parrainage-note strong{color:var(--blue)}
+.parrainage-separator{max-width:900px;margin:2.5rem auto;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);border:none}
+
 /* --- AUTRES SECTIONS --- */
 .beauty-hero{text-align:center;padding:2.5rem 1.5rem;background:linear-gradient(135deg,rgba(255,182,193,0.1),rgba(0,0,0,0.8) 60%);border-radius:var(--radius-lg);margin:2.5rem auto;max-width:900px;border:1px solid var(--border-color)}
 .beauty-hero h1{font-family:var(--font-display);font-size:2.2rem;color:var(--gold);margin:0 0 .8rem}
@@ -370,7 +410,6 @@ body.light-mode .music-widget select{background:#fff}
   overflow:hidden;
   position:relative;
 }
-/* Transforme le fond blanc en fond sombre et garde les couleurs */
 .world-map-img {
   width:100%;
   height:auto;
@@ -443,6 +482,7 @@ body.light-mode .music-widget select{background:#fff}
   .section-title{font-size:2.8rem}
   .hero-slide{max-height:500px}
   .beauty-clients-grid{grid-template-columns:repeat(3,1fr)}
+  .parrainage-steps{display:grid;grid-template-columns:repeat(2,1fr)}
 }
 
 /* ============================================================
@@ -533,6 +573,22 @@ body.light-mode .music-widget select{background:#fff}
   .payment-btn{padding:1.1rem;font-size:1rem}
   .details{font-size:.9rem}
   .details h4{font-size:1rem}
+
+  /* --- PARRAINAGE --- */
+  .parrainage-hero{padding:1.8rem 1rem;margin:1.5rem auto}
+  .parrainage-hero h1{font-size:1.5rem}
+  .parrainage-hero p.parrainage-intro{max-width:95%;font-size:.95rem}
+  .parrainage-card{padding:1.8rem 1rem}
+  .parrainage-card h2{font-size:1.3rem}
+  .parrainage-card .parrainage-benefits{font-size:.92rem}
+  .parrainage-card .parrainage-code{font-size:.95rem;padding:.5rem 1rem;letter-spacing:.1em}
+  .parrainage-btn{font-size:1rem;padding:1.1rem 1.8rem;width:100%}
+  .parrainage-steps{padding:0 .5rem;gap:1rem}
+  .parrainage-step{padding:1.1rem;gap:.8rem}
+  .parrainage-step-num{flex:0 0 40px;width:40px;height:40px;font-size:1.1rem}
+  .parrainage-step-content h3{font-size:1.05rem}
+  .parrainage-step-content p{font-size:.9rem}
+  .parrainage-note{padding:1.1rem;font-size:.9rem}
 
   /* --- INFO / ABOUT / VINTED --- */
   .info{padding:1.5rem 1rem;margin-bottom:1.5rem}
@@ -644,7 +700,8 @@ body.light-mode .music-widget select{background:#fff}
   .beauty-client-img:hover,
   .music-play-btn:hover,
   .music-widget:hover,
-  #panierFlottant:hover{transform:none;box-shadow:inherit}
+  #panierFlottant:hover,
+  .parrainage-step:hover{transform:none;box-shadow:inherit}
 }
 
 /* ============================================================
@@ -769,7 +826,6 @@ body.light-mode .music-widget select{background:#fff}
 <script>
 (function(){
   "use strict";
-  /* CORRIGÉ : "else" n'est pas une valeur valide */
   var FORCER_MAINTENANCE = false
   function getPage(){ return document.getElementById("maintenance-page"); }
   function getContenu(){
@@ -830,6 +886,7 @@ body.light-mode .music-widget select{background:#fff}
       <a href="#produits" onclick="fermerPrevention(); navigateTo('accueil', 'produits')" class="nav-link">🛒 Boutique</a>
       <a href="#vinted" onclick="fermerPrevention(); navigateTo('vinted')" class="nav-link">👕 Vinted</a>
       <a href="#ongles-beaute" onclick="fermerPrevention(); navigateTo('ongles-beaute')" class="nav-link">💅 Ongles & Beauté</a>
+      <a href="#parrainage" onclick="fermerPrevention(); navigateTo('parrainage')" class="nav-link">🤝 Parrainage</a>
       <a href="#prevention-cyber" onclick="fermerPrevention(); navigateTo('prevention-cyber')" class="nav-link">🛡️ Cybersécurité</a>
       <a href="javascript:void(0)" class="nav-link active-link" style="pointer-events:none;">🚨 Harcèlement</a>
       <a href="#contact" onclick="fermerPrevention(); navigateTo('contact')" class="nav-link">✉️ Contact</a>
@@ -972,6 +1029,7 @@ body.light-mode .music-widget select{background:#fff}
     <a href="#produits" class="nav-link" onclick="navigateTo('accueil', 'produits')" data-i18n="nav_shop">🛒 Boutique</a>
     <a href="#vinted" class="nav-link" onclick="navigateTo('vinted')" data-i18n="nav_vinted">👕 Vinted</a>
     <a href="#ongles-beaute" class="nav-link" onclick="navigateTo('ongles-beaute')" data-i18n="nav_beauty">💅 Ongles & Beauté</a>
+    <a href="#parrainage" class="nav-link" onclick="navigateTo('parrainage')" data-i18n="nav_parrainage">🤝 Parrainage</a>
     <a href="#prevention-cyber" class="nav-link" onclick="navigateTo('prevention-cyber')" data-i18n="nav_cyber">🛡️ Cybersécurité</a>
     <a href="javascript:void(0)" onclick="ouvrirPrevention()" data-i18n="nav_harassment">🚨 Harcèlement</a>
     <a href="#contact" class="nav-link" onclick="navigateTo('contact')" data-i18n="nav_contact">✉️ Contact</a>
@@ -1376,6 +1434,140 @@ body.light-mode .music-widget select{background:#fff}
     </div>
   </div>
 </div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     PAGE PARRAINAGE BOURSORAMA + STARLINK + VINTED + CRÉDIT AGRICOLE + OCTOPUS ENERGY
+     ═══════════════════════════════════════════════════════════ -->
+<div id="page-parrainage" class="page-section">
+  <section class="parrainage-hero" id="parrainage">
+    <h1 data-i18n="parrainage_title">🤝 Parrainage</h1>
+    <span class="parrainage-sub" data-i18n="parrainage_sub">Boursorama · Starlink · Vinted · Crédit Agricole · Octopus Energy</span>
+    <p class="parrainage-intro" data-i18n="parrainage_intro">Ouvre un compte, souscris à un service ou inscris-toi sur Vinted avec mes liens de parrainage. Les informations sont pré-remplies automatiquement, et tu profites des avantages !</p>
+  </section>
+
+  <!-- PARRAINAGE BOURSORAMA -->
+  <div class="parrainage-card">
+    <h2 data-i18n="parrainage_boursorama_title">🏦 Parrainage Boursorama</h2>
+    <p data-i18n="parrainage_boursorama_text">Ouvre ton compte Boursorama avec mon lien de parrainage : mes informations seront remplies automatiquement, tu n'as rien à ressaisir. Et tu profites des primes de bienvenue !</p>
+    <ul class="parrainage-benefits">
+      <li data-i18n="boursorama_b1">Prime de bienvenue offerte à l'ouverture</li>
+      <li data-i18n="boursorama_b2">Zéro frais de tenue de compte</li>
+      <li data-i18n="boursorama_b3">Inscription 100% en ligne, en quelques minutes</li>
+    </ul>
+    <a href="https://bour.so/p/IBffRk5RYc4" target="_blank" rel="noopener noreferrer" class="parrainage-btn">
+      🔗 Ouvrir mon compte Boursorama
+    </a>
+  </div>
+
+  <hr class="parrainage-separator">
+
+  <!-- PARRAINAGE STARLINK -->
+  <div class="parrainage-card starlink">
+    <h2 data-i18n="parrainage_starlink_title">🛰️ Parrainage Starlink</h2>
+    <p data-i18n="parrainage_starlink_text">Souscris à Starlink avec mon lien de parrainage et profite d'un mois offert sur ton abonnement. Internet haut débit par satellite, partout, même dans les zones isolées.</p>
+    <ul class="parrainage-benefits">
+      <li data-i18n="starlink_b1">Un mois offert sur ton abonnement</li>
+      <li data-i18n="starlink_b2">Internet haut débit partout, même en zone isolée</li>
+      <li data-i18n="starlink_b3">Installation simple et rapide</li>
+    </ul>
+    <a href="https://starlink.com?referral=RC-DF-9799938-39549-82" target="_blank" rel="noopener noreferrer" class="parrainage-btn starlink-btn">
+      🛰️ Souscrire à Starlink
+    </a>
+  </div>
+
+  <hr class="parrainage-separator">
+
+  <!-- PARRAINAGE VINTED -->
+  <div class="parrainage-card vinted">
+    <h2 data-i18n="parrainage_vinted_title">👕 Parrainage Vinted</h2>
+    <p data-i18n="parrainage_vinted_text">Inscris-toi sur Vinted avec mon lien d'invitation et rejoins la communauté. Achète, vends et donne une seconde vie à tes vêtements tout en profitant des avantages de bienvenue.</p>
+    <ul class="parrainage-benefits">
+      <li data-i18n="vinted_b1">Avantage de bienvenue pour ta première commande</li>
+      <li data-i18n="vinted_b2">Vends tes vêtements en quelques clics</li>
+      <li data-i18n="vinted_b3">Livraison et paiement sécurisés</li>
+    </ul>
+    <a href="https://www.vinted.fr/invite/limitless95/kr2YVFrbjdOkB2m1y2eicrsoqbe3vks4f" target="_blank" rel="noopener noreferrer" class="parrainage-btn vinted-btn">
+      👕 Rejoindre Vinted
+    </a>
+  </div>
+
+  <hr class="parrainage-separator">
+
+  <!-- PARRAINAGE CRÉDIT AGRICOLE -->
+  <div class="parrainage-card credit-agricole">
+    <h2 data-i18n="parrainage_credit_agricole_title">🏛️ Parrainage Crédit Agricole</h2>
+    <p data-i18n="parrainage_credit_agricole_text">Tu souhaites ouvrir un compte au Crédit Agricole ? Utilise mon code de parrainage à usage unique et clique sur le lien pour découvrir tes avantages.</p>
+    <ul class="parrainage-benefits">
+      <li data-i18n="credit_agricole_b1">Avantages de bienvenue à l'ouverture de compte</li>
+      <li data-i18n="credit_agricole_b2">Une banque de proximité, présente partout en France</li>
+      <li data-i18n="credit_agricole_b3">Code de parrainage à usage unique EGYYLFH</li>
+    </ul>
+    <div class="parrainage-code">CODE : EGYYLFH</div>
+    <br>
+    <a href="https://www.credit-agricole.fr/ca-tourainepoitou/particulier/campagnes/parrainage.html?code-parrainage=EGYYLFH&offre=parrainagenatio" target="_blank" rel="noopener noreferrer" class="parrainage-btn credit-agricole-btn">
+      🏛️ Ouvrir mon compte Crédit Agricole
+    </a>
+  </div>
+
+  <hr class="parrainage-separator">
+
+  <!-- PARRAINAGE OCTOPUS ENERGY -->
+  <div class="parrainage-card octopus">
+    <h2 data-i18n="parrainage_octopus_title">🐙 Parrainage Octopus Energy</h2>
+    <p data-i18n="parrainage_octopus_text">Rejoins Octopus Energy avec mon lien de parrainage et profite d'un avantage sur ta facture d'électricité. Une énergie plus verte, plus simple et moins chère.</p>
+    <ul class="parrainage-benefits">
+      <li data-i18n="octopus_b1">Avantage de bienvenue sur ta facture d'électricité</li>
+      <li data-i18n="octopus_b2">Énergie 100% renouvelable et prix justes</li>
+      <li data-i18n="octopus_b3">Service client réactif et sans engagement</li>
+    </ul>
+    <a href="https://share.octopusenergy.fr/codeparrainage/calm-pillow-242" target="_blank" rel="noopener noreferrer" class="parrainage-btn octopus-btn">
+      🐙 Rejoindre Octopus Energy
+    </a>
+  </div>
+
+  <div class="parrainage-steps">
+    <div class="parrainage-step">
+      <div class="parrainage-step-num">1</div>
+      <div class="parrainage-step-content">
+        <h3 data-i18n="parrainage_step1_title">Clique sur le lien</h3>
+        <p data-i18n="parrainage_step1_text">Tu es redirigé vers la page d'inscription officielle (Boursorama, Starlink, Vinted, Crédit Agricole ou Octopus Energy) avec mon code parrain déjà intégré.</p>
+      </div>
+    </div>
+    <div class="parrainage-step">
+      <div class="parrainage-step-num">2</div>
+      <div class="parrainage-step-content">
+        <h3 data-i18n="parrainage_step2_title">Tes infos sont pré-remplies</h3>
+        <p data-i18n="parrainage_step2_text">Mes informations de parrainage sont automatiquement renseignées. Tu n'as plus qu'à compléter les tiennes.</p>
+      </div>
+    </div>
+    <div class="parrainage-step">
+      <div class="parrainage-step-num">3</div>
+      <div class="parrainage-step-content">
+        <h3 data-i18n="parrainage_step3_title">Valide ton inscription</h3>
+        <p data-i18n="parrainage_step3_text">Finalise ton ouverture de compte, ta souscription ou ton inscription en quelques minutes et profite des avantages.</p>
+      </div>
+    </div>
+    <div class="parrainage-step">
+      <div class="parrainage-step-num">4</div>
+      <div class="parrainage-step-content">
+        <h3 data-i18n="parrainage_step4_title">Tout le monde y gagne</h3>
+        <p data-i18n="parrainage_step4_text">Tu reçois ton avantage de bienvenue, et moi aussi. Un vrai gagnant-gagnant.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="parrainage-note">
+    <strong data-i18n="parrainage_note_title">ℹ️ À savoir :</strong>
+    <span data-i18n="parrainage_note_text">Les liens de parrainage sont des liens officiels Boursorama, Starlink, Vinted, Crédit Agricole et Octopus Energy. L'ouverture de compte Boursorama est gratuite et sans engagement. Les primes et avantages sont soumis aux conditions de chaque service. Le code Crédit Agricole EGYYLFH est à usage unique.</span>
+  </div>
+
+  <div style="text-align:center;margin-top:1rem;">
+    <a href="javascript:void(0)" onclick="navigateTo('accueil')" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l'accueil</a>
+  </div>
+</div>
+<!-- ═══════════════════════════════════════════════════════════
+     FIN PAGE PARRAINAGE
+     ═══════════════════════════════════════════════════════════ -->
 
 <div id="page-vinted" class="page-section">
   <div class="page-container" style="text-align:center;">
@@ -1820,6 +2012,7 @@ body.light-mode .music-widget select{background:#fff}
       <a href="#produits" onclick="navigateTo('accueil', 'produits')" data-i18n="footer_shop">🛒 Boutique</a>
       <a href="#vinted" onclick="navigateTo('vinted')" data-i18n="footer_vinted">👕 Vinted</a>
       <a href="#ongles-beaute" onclick="navigateTo('ongles-beaute')" data-i18n="footer_beauty">💅 Beauté</a>
+      <a href="#parrainage" onclick="navigateTo('parrainage')" data-i18n="footer_parrainage">🤝 Parrainage</a>
       <a href="#prevention-cyber" onclick="navigateTo('prevention-cyber')" data-i18n="footer_cyber">🛡️ Cybersécurité</a>
       <a href="#contact" onclick="navigateTo('contact')" data-i18n="footer_contact">✉️ Contact</a>
       <a href="#faq" onclick="navigateTo('faq')" data-i18n="footer_faq">❓ FAQ</a>
@@ -2313,11 +2506,15 @@ document.addEventListener('DOMContentLoaded', function() {
       { labelKey: "chat_btn_shop", label: "🛒 Boutique", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produits"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
       { labelKey: "chat_btn_vinted", label: "👕 Vinted", action: function(){ navigateTo("vinted"); toggleChatbot(); } },
       { labelKey: "chat_btn_beauty", label: "💅 Ongles & Beauté", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } },
-      { labelKey: "chat_btn_about", label: "📜 !!À propos", action: function(){ navigateTo("apropos"); toggleChatbot(); } },
+      { labelKey: "chat_btn_parrainage", label: "🤝 Parrainage", action: function(){ navigateTo("parrainage"); toggleChatbot(); } },
+      { labelKey: "chat_btn_about", label: "📜 À propos", action: function(){ navigateTo("apropos"); toggleChatbot(); } },
       { labelKey: "chat_btn_contact", label: "✉️ Contact", action: function(){ navigateTo("contact"); toggleChatbot(); } },
       { labelKey: "chat_btn_faq", label: "❓ FAQ", action: function(){ navigateTo("faq"); toggleChatbot(); } },
       { labelKey: "chat_btn_cyber", label: "🛡️ Cybersécurité", action: function(){ navigateTo("prevention-cyber"); toggleChatbot(); } },
       { labelKey: "chat_btn_harass", label: "🚨 Harcèlement", action: function(){ ouvrirPrevention(); toggleChatbot(); } }
+    ] },
+    { intention: "parrainage", motsCles: ["parrainage","boursorama","starlink","vinted","credit","agricole","banque","compte","prime","parrain","internet","satellite","invitation","octopus","energie","électricité"], reponseKey: "chat_parrainage_reply", reponse: "🤝 Ouvre un compte Boursorama, souscris à Starlink, inscris-toi sur Vinted, au Crédit Agricole ou chez Octopus Energy avec mes liens de parrainage : les infos sont pré-remplies automatiquement !", options: [
+      { labelKey: "chat_btn_parrainage", label: "🤝 Voir la page Parrainage", action: function(){ navigateTo("parrainage"); toggleChatbot(); } }
     ] },
     { intention: "contact", motsCles: ["horaire","telephone","mail","contact","appeler","numero","joindre"], reponseKey: "chat_contact_reply", reponse: "📞 Nous sommes disponibles de 9h à 20h au <strong>07.80.20.47.49</strong>." },
     { intention: "livraison", motsCles: ["livraison","envoi","delai","colis","recevoir","expedition"], reponseKey: "chat_delivery_reply", reponse: "🚚 La livraison est <strong>rapide et sécurisée</strong>." },
@@ -2349,7 +2546,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   document.addEventListener("DOMContentLoaded", function(){
     var ih = window.location.hash.replace("#", "") || "accueil";
-    var cp = ["accueil","apropos","vinted","ongles-beaute","prevention-cyber","mentions","cgv","faq","contact"];
+    var cp = ["accueil","apropos","vinted","ongles-beaute","parrainage","prevention-cyber","mentions","cgv","faq","contact"];
     var ca = ["mots-de-passe","phishing","force-brute","photos-cles","vie-personnelle","loi-hacking","phishing-droit","donnees-personnelles","test-autorise","incident","conclusion-cyber"];
     var ha = ["prevention-moral","prevention-scolaire","prevention-sexuel","prevention-bande","prevention-aide"];
     if (ca.indexOf(ih) !== -1) activerPageCyberEtScroll(ih, false);
