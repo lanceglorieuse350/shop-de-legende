@@ -427,6 +427,10 @@ body.light-mode .music-widget select{background:#fff}
 .visitor-dot:nth-child(6) .dot-pulse{animation-delay:1s}
 .visitor-dot:nth-child(7) .dot-pulse{animation-delay:1.2s}
 .visitor-dot:nth-child(8) .dot-pulse{animation-delay:1.4s}
+.visitor-dot:nth-child(9) .dot-pulse{animation-delay:1.6s}
+.visitor-dot:nth-child(10) .dot-pulse{animation-delay:1.8s}
+.visitor-dot:nth-child(11) .dot-pulse{animation-delay:2s}
+.visitor-dot:nth-child(12) .dot-pulse{animation-delay:2.2s}
 @media(prefers-reduced-motion:reduce){.visitor-dot .dot-pulse{animation:none;opacity:.3}}
 
 .stats-table{width:100%;border-collapse:collapse;font-family:'Inter',sans-serif;font-size:0.9rem}
@@ -741,7 +745,7 @@ body.light-mode .music-widget select{background:#fff}
           <!-- 1. Image de fond avec filtre CSS -->
           <image href="carte-monde.jpg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" class="world-map-img"/>
 
-          <!-- 2. POINTS ROUGES : pays visiteurs (coordonnées ajustées) -->
+          <!-- 2. POINTS ROUGES CLIGNOTANTS : pays visiteurs (coordonnées ajustées) -->
           <g class="visitor-dots">
             <!-- France -->
             <g class="visitor-dot" data-country="France">
@@ -761,11 +765,47 @@ body.light-mode .music-widget select{background:#fff}
               <circle cx="490" cy="160" r="6" class="dot-core"/>
               <text x="490" y="144" class="dot-label">NL</text>
             </g>
+            <!-- Suède -->
+            <g class="visitor-dot" data-country="Sweden">
+              <circle cx="515" cy="125" r="14" class="dot-pulse"/>
+              <circle cx="515" cy="125" r="6" class="dot-core"/>
+              <text x="515" y="109" class="dot-label">SE</text>
+            </g>
             <!-- Hong Kong -->
             <g class="visitor-dot" data-country="HongKong">
               <circle cx="775" cy="230" r="14" class="dot-pulse"/>
               <circle cx="775" cy="230" r="6" class="dot-core"/>
               <text x="775" y="214" class="dot-label">HK</text>
+            </g>
+            <!-- Irlande -->
+            <g class="visitor-dot" data-country="Ireland">
+              <circle cx="460" cy="160" r="14" class="dot-pulse"/>
+              <circle cx="460" cy="160" r="6" class="dot-core"/>
+              <text x="460" y="144" class="dot-label">IE</text>
+            </g>
+            <!-- Italie -->
+            <g class="visitor-dot" data-country="Italy">
+              <circle cx="495" cy="190" r="14" class="dot-pulse"/>
+              <circle cx="495" cy="190" r="6" class="dot-core"/>
+              <text x="495" y="174" class="dot-label">IT</text>
+            </g>
+            <!-- Singapour -->
+            <g class="visitor-dot" data-country="Singapore">
+              <circle cx="760" cy="280" r="14" class="dot-pulse"/>
+              <circle cx="760" cy="280" r="6" class="dot-core"/>
+              <text x="760" y="264" class="dot-label">SG</text>
+            </g>
+            <!-- Côte d'Ivoire -->
+            <g class="visitor-dot" data-country="IvoryCoast">
+              <circle cx="430" cy="245" r="14" class="dot-pulse"/>
+              <circle cx="430" cy="245" r="6" class="dot-core"/>
+              <text x="430" y="229" class="dot-label">CI</text>
+            </g>
+            <!-- Royaume-Uni -->
+            <g class="visitor-dot" data-country="UK">
+              <circle cx="470" cy="150" r="14" class="dot-pulse"/>
+              <circle cx="470" cy="150" r="6" class="dot-core"/>
+              <text x="470" y="134" class="dot-label">UK</text>
             </g>
             <!-- Norvège -->
             <g class="visitor-dot" data-country="Norway">
@@ -779,38 +819,28 @@ body.light-mode .music-widget select{background:#fff}
               <circle cx="525" cy="160" r="6" class="dot-core"/>
               <text x="525" y="144" class="dot-label">PL</text>
             </g>
-            <!-- Suède -->
-            <g class="visitor-dot" data-country="Sweden">
-              <circle cx="515" cy="125" r="14" class="dot-pulse"/>
-              <circle cx="515" cy="125" r="6" class="dot-core"/>
-              <text x="515" y="109" class="dot-label">SE</text>
-            </g>
-            <!-- Italie -->
-            <g class="visitor-dot" data-country="Italy">
-              <circle cx="495" cy="190" r="14" class="dot-pulse"/>
-              <circle cx="495" cy="190" r="6" class="dot-core"/>
-              <text x="495" y="174" class="dot-label">IT</text>
-            </g>
           </g>
         </svg>
       </div>
 
-      <!-- TABLEAU -->
+      <!-- TABLEAU (Données mises à jour selon l'image) -->
       <table class="stats-table">
         <thead>
           <tr><th>Pays</th><th>Visiteurs</th><th>Vues</th></tr>
         </thead>
         <tbody>
-          <tr><td><img src="https://flagcdn.com/w20/fr.png" alt="Drapeau France" class="stats-flag-img" width="20" height="15"> France</td><td>100% (50)</td><td>719</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/us.png" alt="Drapeau États-Unis" class="stats-flag-img" width="20" height="15"> États-Unis</td><td>9% (4)</td><td>4</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/nl.png" alt="Drapeau Pays-Bas" class="stats-flag-img" width="20" height="15"> Pays-Bas</td><td>5% (2)</td><td>43</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/hk.png" alt="Drapeau Hong Kong" class="stats-flag-img" width="20" height="15"> Hong Kong</td><td>2% (1)</td><td>1</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/no.png" alt="Drapeau Norvège" class="stats-flag-img" width="20" height="15"> Norvège</td><td>2% (1)</td><td>1</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/pl.png" alt="Drapeau Pologne" class="stats-flag-img" width="20" height="15"> Pologne</td><td>2% (1)</td><td>1</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/se.png" alt="Drapeau Suède" class="stats-flag-img" width="20" height="15"> Suède</td><td>2% (1)</td><td>3</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/it.png" alt="Drapeau Italie" class="stats-flag-img" width="20" height="15"> Italie</td><td>2% (1)</td><td>3</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/gb.png" alt="Drapeau Royaume-Uni" class="stats-flag-img" width="20" height="15"> United Kingdom</td><td>9% (1)</td><td>1</td></tr>
-          <tr><td><img src="https://flagcdn.com/w20/sg.png" alt="Drapeau Singapour" class="stats-flag-img" width="20" height="15"> Singapore</td><td>9% (1)</td><td>1</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/fr.png" alt="Drapeau France" class="stats-flag-img" width="20" height="15"> France</td><td>58% (44)</td><td>674</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/us.png" alt="Drapeau États-Unis" class="stats-flag-img" width="20" height="15"> États-Unis</td><td>13% (10)</td><td>10</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/nl.png" alt="Drapeau Pays-Bas" class="stats-flag-img" width="20" height="15"> Pays-Bas</td><td>5% (4)</td><td>64</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/se.png" alt="Drapeau Suède" class="stats-flag-img" width="20" height="15"> Suède</td><td>5% (4)</td><td>6</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/hk.png" alt="Drapeau Hong Kong" class="stats-flag-img" width="20" height="15"> Hong Kong</td><td>4% (3)</td><td>3</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/ie.png" alt="Drapeau Irlande" class="stats-flag-img" width="20" height="15"> Irlande</td><td>4% (3)</td><td>3</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/it.png" alt="Drapeau Italie" class="stats-flag-img" width="20" height="15"> Italie</td><td>3% (2)</td><td>3</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/sg.png" alt="Drapeau Singapour" class="stats-flag-img" width="20" height="15"> Singapour</td><td>3% (2)</td><td>2</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/ci.png" alt="Drapeau Côte d'Ivoire" class="stats-flag-img" width="20" height="15"> Côte d'Ivoire</td><td>1% (1)</td><td>5</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/gb.png" alt="Drapeau Royaume-Uni" class="stats-flag-img" width="20" height="15"> Royaume-Uni</td><td>1% (1)</td><td>1</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/no.png" alt="Drapeau Norvège" class="stats-flag-img" width="20" height="15"> Norvège</td><td>1% (1)</td><td>1</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/pl.png" alt="Drapeau Pologne" class="stats-flag-img" width="20" height="15"> Pologne</td><td>1% (1)</td><td>1</td></tr>
         </tbody>
       </table>
     </div>
@@ -826,7 +856,7 @@ body.light-mode .music-widget select{background:#fff}
 <script>
 (function(){
   "use strict";
-  var FORCER_MAINTENANCE = false
+  var FORCER_MAINTENANCE = true
   function getPage(){ return document.getElementById("maintenance-page"); }
   function getContenu(){
     return [
