@@ -141,6 +141,7 @@
 
       if (error) {
         if (error.message.includes("Invalid login credentials")) {
+          // Tentative d'inscription
           const { data: signUpData, error: signUpError } = await supabaseClient.auth.signUp({
             email,
             password
@@ -148,16 +149,36 @@
 
           if (signUpError) {
             showMessage("Erreur : " + signUpError.message, "var(--red)");
-          } else if (signUpData.session) {
-            showMessage("✅ Inscription réussie !", "var(--accent-safe)");
-            authForm.reset();
-            setTimeout(closeModal, 1500);
           } else {
-            showMessage(
-              "✅ Inscription réussie ! Vérifie tes e-mails pour confirmer ton compte.",
-              "var(--accent-safe)"
-            );
-            authForm.reset();
+            // ✅ NOUVEAU : Enregistrement dans la table `clients`
+            if (signUpData.user) {
+              const { error: dbError } = await supabaseClient
+                .from('clients')
+                .insert([
+                  { 
+                    id: signUpData.user.id, 
+                    email: signUpData.user.email 
+                  }
+                ]);
+
+              if (dbError) {
+                // On log l'erreur en console mais on ne bloque pas l'utilisateur
+                console.error("[AUTH] Erreur lors de l'ajout dans la table clients :", dbError);
+              }
+            }
+
+            // Suite du processus d'inscription
+            if (signUpData.session) {
+              showMessage("✅ Inscription réussie !", "var(--accent-safe)");
+              authForm.reset();
+              setTimeout(closeModal, 1500);
+            } else {
+              showMessage(
+                "✅ Inscription réussie ! Vérifie tes e-mails pour confirmer ton compte.",
+                "var(--accent-safe)"
+              );
+              authForm.reset();
+            }
           }
         } else if (error.message.includes("Email not confirmed")) {
           showMessage(
@@ -168,6 +189,7 @@
           showMessage("Erreur : " + error.message, "var(--red)");
         }
       } else {
+        // Connexion réussie
         showMessage("✅ Connexion réussie !", "var(--accent-safe)");
         authForm.reset();
         setTimeout(closeModal, 1500);
