@@ -1,135 +1,246 @@
-(function(){
+(function () {
   "use strict";
 
   // ==========================================
-  // CONFIGURATION SUPABASE (Prêt à l'emploi)
+  // 1. CONFIGURATION SUPABASE
   // ==========================================
   const SUPABASE_URL = "https://wrhokeajimupnxpfucc.supabase.co";
   const SUPABASE_ANON_KEY = "sb_publishable_0mmEGRZ_GKmgKSMKE83S8A_huJaAdL9";
 
-  // Initialisation du client Supabase
-  const { createClient } = supabase;
-  const supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  // Vérification que le SDK Supabase est bien chargé
+  if (typeof supabase === "undefined" || typeof supabase.createClient !== "function") {
+    console.error("[AUTH] Le SDK Supabase n'est pas chargé. Vérifie le CDN dans le <head>.");
+    return;
+  }
 
-  // Récupération des éléments HTML
-  const authModal = document.getElementById("authModal");
-  const authBtn = document.getElementById("authBtn");
+  const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+  // ==========================================
+  // 2. RÉCUPÉRATION DES ÉLÉMENTS HTML
+  // ==========================================
+  const authModal     = document.getElementById("authModal");
+  const authBtn       = document.getElementById("authBtn");
   const closeAuthModal = document.getElementById("closeAuthModal");
-  const authForm = document.getElementById("authForm");
-  const authEmail = document.getElementById("authEmail");
-  const authPassword = document.getElementById("authPassword");
-  const authMessage = document.getElementById("authMessage");
+  const authForm      = document.getElementById("authForm");
+  const authEmail     = document.getElementById("authEmail");
+  const authPassword  = document.getElementById("authPassword");
+  const authMessage   = document.getElementById("authMessage");
   const googleAuthBtn = document.getElementById("googleAuthBtn");
+  const authSubmitBtn = document.getElementById("authSubmitBtn");
 
-  // ==========================================
-  // GESTION DE LA FENÊTRE MODALE
-  // ==========================================
-  if (authBtn) {
-    authBtn.addEventListener("click", () => {
-      // Si l'utilisateur est connecté, le bouton sert à se déconnecter
-      if (authBtn.textContent.includes("Compte")) {
-        if(confirm("Voulez-vous vous déconnecter ?")) {
-          supabaseClient.auth.signOut();
-        }
-      } else {
-        // Sinon, on ouvre la modale
-        authModal.style.display = "flex";
-        authMessage.textContent = "";
-      }
-    });
-  }
-
-  if (closeAuthModal) {
-    closeAuthModal.addEventListener("click", () => {
-      authModal.style.display = "none";
-    });
+  if (!authModal || !authBtn || !authForm) {
+    console.warn("[AUTH] Éléments HTML essentiels manquants (modal / bouton / formulaire).");
+    return;
   }
 
   // ==========================================
-  // INSCRIPTION & CONNEXION (EMAIL / MOT DE PASSE)
+  // 3. ÉTAT
   // ==========================================
-  if (authForm) {
-    authForm.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      const email = authEmail.value.trim();
-      const password = authPassword.value;
+  let currentUser = null;
+  let isLoading   = false;
 
-      authMessage.textContent = "Vérification en cours...";
-      authMessage.style.color = "#fff";
+  // ==========================================
+  // 4. HELPERS
+  // ==========================================
+  function showMessage(text, color) {
+    if (!authMessage) return;
+    authMessage.textContent = text || "";
+    authMessage.style.color = color || "#fff";
+  }
 
-      // Étape 1 : On tente de connecter l'utilisateur
-      const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
+  function setLoading(loading) {
+    isLoading = !!loading;
+    if (!authSubmitBtn) return;
+    authSubmitBtn.disabled     = loading;
+    authSubmitBtn.style.opacity = loading ? "0.6" : "1";
+    authSubmitBtn.style.cursor  = loading ? "wait" : "pointer";
+    authSubmitBtn.textContent   = loading
+      ? "⏳ Chargement..."
+      : "Se connecter / S'inscrire";
+  }
 
-      if (error) {
-        // Étape 2 : Si la connexion échoue, c'est peut-être un nouvel utilisateur, on tente l'inscription
-        if (error.message.includes("Invalid login credentials")) {
-          const { data: signUpData, error: signUpError } = await supabaseClient.auth.signUp({ email, password });
-          
-          if (signUpError) {
-            authMessage.textContent = "Erreur : " + signUpError.message;
-            authMessage.style.color = "var(--red)";
-          } else {
-            authMessage.textContent = "Inscription réussie ! Vérifiez vos e-mails pour confirmer.";
-            authMessage.style.color = "var(--accent-safe)";
-            authForm.reset();
-          }
-        } else {
-          authMessage.textContent = "Erreur : " + error.message;
-          authMessage.style.color = "var(--red)";
-        }
-      } else {
-        // Connexion réussie
-        authMessage.textContent = "Connexion réussie !";
-        authMessage.style.color = "var(--accent-safe)";
-        authForm.reset();
-        setTimeout(() => { authModal.style.display = "none"; }, 1500);
-      }
-    });
+  function openModal() {
+    if (!authModal) return;
+    authModal.style.display = "flex";
+    showMessage("");
+    if (currentUser && authEmail) authEmail.value = currentUser.email || "";
+  }
+
+  function closeModal() {
+    if (!authModal) return;
+    authModal.style.display = "none";
+    showMessage("");
+    if (authForm) authForm.reset();
+  }
+
+  // Met à jour le bouton en se basant sur un attribut data (fiable, non traduisible)
+  function updateButton(user) {
+    if (!authBtn) return;
+    currentUser = user || null;
+
+    if (user) {
+      const label = user.email ? user.email.split("@")[0] : "Mon Compte";
+      authBtn.textContent = "👤 " + label;
+      authBtn.style.background = "var(--gold)";
+      authBtn.style.color      = "#000";
+      authBtn.style.border     = "none";
+      authBtn.setAttribute("data-logged-in", "true");
+    } else {
+      authBtn.textContent = "🔐 Connexion";
+      authBtn.style.background = "transparent";
+      authBtn.style.color      = "var(--gold)";
+      authBtn.style.border     = "1px solid var(--gold)";
+      authBtn.setAttribute("data-logged-in", "false");
+    }
   }
 
   // ==========================================
-  // CONNEXION VIA GOOGLE
+  // 5. ÉVÉNEMENTS UI
   // ==========================================
-  if (googleAuthBtn) {
-    googleAuthBtn.addEventListener("click", async () => {
-      authMessage.textContent = "Redirection vers Google...";
-      authMessage.style.color = "#fff";
-
-      const { data, error } = await supabaseClient.auth.signInWithOAuth({
-        provider: 'google',
-        options: {
-          redirectTo: window.location.origin // Redirige vers ton site une fois connecté
-        }
-      });
-
-      if (error) {
-        authMessage.textContent = "Erreur Google : " + error.message;
-        authMessage.style.color = "var(--red)";
-      }
-    });
-  }
-
-  // ==========================================
-  // MISE À JOUR DE L'INTERFACE (BOUTON)
-  // ==========================================
-  supabaseClient.auth.onAuthStateChange((event, session) => {
-    if (session) {
-      // L'utilisateur est connecté
-      if (authBtn) {
-        authBtn.textContent = "👤 Mon Compte";
-        authBtn.style.background = "var(--gold)";
-        authBtn.style.color = "#000";
-        authBtn.style.border = "none";
+  authBtn.addEventListener("click", () => {
+    // On se base sur data-logged-in, PAS sur le texte
+    if (authBtn.getAttribute("data-logged-in") === "true") {
+      if (confirm("Voulez-vous vous déconnecter ?")) {
+        supabaseClient.auth.signOut();
       }
     } else {
-      // L'utilisateur est déconnecté
-      if (authBtn) {
-        authBtn.textContent = "🔐 Connexion";
-        authBtn.style.background = "transparent";
-        authBtn.style.color = "var(--gold)";
-        authBtn.style.border = "1px solid var(--gold)";
-      }
+      openModal();
     }
   });
 
+  if (closeAuthModal) closeAuthModal.addEventListener("click", closeModal);
+
+  // Fermeture au clic sur le fond de la modale
+  authModal.addEventListener("click", (e) => {
+    if (e.target === authModal) closeModal();
+  });
+
+  // Fermeture avec la touche Échap
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && authModal.style.display === "flex") closeModal();
+  });
+
+  // ==========================================
+  // 6. CONNEXION / INSCRIPTION
+  // ==========================================
+  authForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    if (isLoading) return;
+
+    const email    = (authEmail.value || "").trim();
+    const password = authPassword.value || "";
+
+    if (!email || !password) {
+      showMessage("Veuillez remplir tous les champs.", "var(--red)");
+      return;
+    }
+    if (password.length < 6) {
+      showMessage("Le mot de passe doit contenir au moins 6 caractères.", "var(--red)");
+      return;
+    }
+
+    setLoading(true);
+    showMessage("Vérification en cours...", "#fff");
+
+    try {
+      // --- Tentative de connexion ---
+      const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
+
+      if (error) {
+        // Cas 1 : mauvais identifiants → on tente l'inscription
+        if (error.message.includes("Invalid login credentials")) {
+          const { data: signUpData, error: signUpError } = await supabaseClient.auth.signUp({
+            email,
+            password
+          });
+
+          if (signUpError) {
+            showMessage("Erreur : " + signUpError.message, "var(--red)");
+          } else if (signUpData.session) {
+            // Confirmation email désactivée → connexion immédiate
+            showMessage("✅ Inscription réussie !", "var(--accent-safe)");
+            authForm.reset();
+            setTimeout(closeModal, 1500);
+          } else {
+            // Confirmation email requise
+            showMessage(
+              "✅ Inscription réussie ! Vérifie tes e-mails pour confirmer ton compte.",
+              "var(--accent-safe)"
+            );
+            authForm.reset();
+          }
+        }
+        // Cas 2 : email non confirmé
+        else if (error.message.includes("Email not confirmed")) {
+          showMessage(
+            "📧 Ton e-mail n'est pas encore confirmé. Vérifie ta boîte de réception.",
+            "var(--neon-gold)"
+          );
+        }
+        // Cas 3 : autre erreur
+        else {
+          showMessage("Erreur : " + error.message, "var(--red)");
+        }
+      } else {
+        // Connexion réussie
+        showMessage("✅ Connexion réussie !", "var(--accent-safe)");
+        authForm.reset();
+        setTimeout(closeModal, 1500);
+      }
+    } catch (err) {
+      console.error("[AUTH] Erreur inattendue :", err);
+      showMessage("Erreur inattendue. Réessaie dans un instant.", "var(--red)");
+    } finally {
+      setLoading(false);
+    }
+  });
+
+  // ==========================================
+  // 7. CONNEXION GOOGLE
+  // ==========================================
+  if (googleAuthBtn) {
+    googleAuthBtn.addEventListener("click", async () => {
+      showMessage("Redirection vers Google...", "#fff");
+
+      // Sur Vercel : https://ton-domaine.vercel.app/
+      // Sur file:// : échoue — il faut un vrai serveur
+      const redirectUrl = window.location.origin + window.location.pathname;
+
+      const { error } = await supabaseClient.auth.signInWithOAuth({
+        provider: "google",
+        options: { redirectTo: redirectUrl }
+      });
+
+      if (error) {
+        showMessage("Erreur Google : " + error.message, "var(--red)");
+      }
+    });
+  }
+
+  // ==========================================
+  // 8. ÉCOUTE DES CHANGEMENTS D'AUTH
+  // ==========================================
+  supabaseClient.auth.onAuthStateChange((event, session) => {
+    console.log("[AUTH] Événement :", event);
+    const user = session ? session.user : null;
+    updateButton(user);
+
+    // Retour de OAuth : on ferme la modale si elle est ouverte
+    if (event === "SIGNED_IN" && authModal.style.display === "flex") {
+      setTimeout(closeModal, 800);
+    }
+  });
+
+  // ==========================================
+  // 9. INITIALISATION (restaure la session existante)
+  // ==========================================
+  (async () => {
+    try {
+      const { data: { session } } = await supabaseClient.auth.getSession();
+      updateButton(session ? session.user : null);
+    } catch (err) {
+      console.error("[AUTH] Erreur d'initialisation :", err);
+      updateButton(null);
+    }
+  })();
 })();
