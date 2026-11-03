@@ -631,3 +631,62 @@ body.light-mode .music-widget select{background:#fff}
 [class*="qty"] input, [class*="quantity"] input, [class*="qty"] span { background: transparent !important; border: none !important; color: #ffd700 !important; font-size: 1rem !important; font-weight: 900 !important; width: 32px !important; text-align: center !important; -webkit-text-fill-color: #ffd700 !important; }
 [class*="remove"], [class*="delete"] { background: rgba(225, 6, 0, 0.2) !important; color: #e10600 !important; border-radius: 50% !important; width: 24px !important; height: 24px !important; display: flex !important; align-items: center !important; justify-content: center !important; }
 [class*="checkout"], [class*="commander"] { background: linear-gradient(135deg, #ffd700, #b8860b) !important; color: #000 !important; font-family: 'Cinzel', serif !important; font-weight: 700 !important; font-size: 0.95rem !important; padding: 0.9rem !important; border-radius: 10px !important; border: 1px solid #ffd700 !important; text-transform: uppercase !important; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.25) !important; margin-bottom: 1rem !important; cursor: pointer !important; width: 100% !important; }
+
+/* ============================================================
+   CLASSES UTILITAIRES (Remplacement des anciens styles inline)
+   ============================================================ */
+.svg-full { width: 100%; display: block; }
+.noscript-warning { background:#e10600; color:#fff; padding:1rem; text-align:center; font-family:sans-serif; font-weight:600; font-size:.95rem; }
+.prevention-header-custom { flex-direction: column; align-items: stretch; padding: 0; }
+.prevention-header-top { display: flex; justify-content: space-between; align-items: center; padding: 1.2rem; }
+.prevention-nav-links { background: #000; padding: 0.8rem 1rem; border-top: 1px solid rgba(255,215,0,0.3); margin: 0; justify-content: center; }
+.m-0 { margin: 0 !important; }
+.mt-06 { margin-top: .6rem; }
+.mt-1 { margin-top: 1rem; }
+.mt-3 { margin-top: 3rem; }
+.mb-0 { margin-bottom: 0 !important; }
+.pt-0 { padding-top: 0 !important; }
+.text-center { text-align: center; }
+.max-width-full { max-width: var(--container-max); }
+.no-shadow { box-shadow: none; border-color: rgba(255,215,0,0.3); }
+.link-gold { color: var(--gold); font-weight: 700; text-decoration: none; }
+.link-gold-underline { color: var(--gold); font-weight: 700; text-decoration: underline; }
+.return-btn-custom { display: inline-block; width: auto; min-width: 250px; }
+.neon-mint-text { color: var(--neon-mint); }
+.audio-player-element { width: 100%; border-radius: var(--radius-sm); margin-top: 0.5rem; display: block; }
+.video-full { width: 100%; height: auto; display: block; }
+
+/* Classes pour les images beauté */
+.max-w-700 { max-width: 700px; margin: 0 auto 3rem; padding: 0 1rem; }
+.max-w-900 { max-width: 900px; margin: 0 auto 3rem; padding: 0 1rem; }
+.max-w-480 { max-width: 480px; margin: 0 auto 3rem; padding: 0 1rem; }
+.beauty-presentation-img { width: 100%; border: 2px solid var(--gold); border-radius: var(--radius-lg); cursor: zoom-in; background: #000; box-shadow: 0 10px 30px rgba(255,215,0,0.15); }
+.beauty-section-title { text-align: center; font-family: var(--font-display); color: var(--gold); font-size: 1.6rem; margin-bottom: 1.5rem; }
+.beauty-tarifs-img { width: 100%; border: 1px solid var(--border-color); border-radius: var(--radius-md); cursor: zoom-in; background: #000; }
+.beauty-note { text-align: center; font-size: .9rem; opacity: .75; margin-top: 1rem; font-style: italic; }
+.video-wrapper { text-align: center; border: 2px solid var(--gold); border-radius: var(--radius-md); overflow: hidden; background: #000; box-shadow: 0 6px 20px rgba(255,215,0,0.15); }
+.beauty-booking-section { max-width: 800px; margin: 0 auto 3rem; padding: 3rem 1.5rem; background: linear-gradient(135deg, rgba(255,182,193,0.15), rgba(0,0,0,0.9)); border: 2px solid var(--gold); border-radius: var(--radius-lg); text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.4); }
+.beauty-book-title { font-family: var(--font-display); color: var(--gold); font-size: 1.7rem; margin: 0 0 .8rem; }
+.beauty-book-text { font-size: 1.05rem; line-height: 1.7; margin: 0 0 2.5rem; opacity: .9; }
+.beauty-buttons { display: flex; flex-direction: column; gap: 1.5rem; align-items: center; }
+.beauty-btn-phone { display: inline-flex; align-items: center; justify-content: center; gap: .7rem; padding: 1.2rem 2.5rem; background: linear-gradient(135deg, var(--gold), var(--gold-dark)); color: #000; border: 2px solid #fff; border-radius: var(--radius-lg); font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; text-decoration: none; box-shadow: 0 6px 20px rgba(255,215,0,0.4); min-width: 280px; transition: transform .2s; }
+.beauty-btn-insta { display: inline-flex; align-items: center; justify-content: center; gap: .7rem; padding: 1.2rem 2.5rem; background: linear-gradient(135deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5); color: #fff; border: 2px solid #fff; border-radius: var(--radius-lg); font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; text-decoration: none; box-shadow: 0 6px 20px rgba(214,41,118,0.4); min-width: 280px; transition: transform .2s; }
+.beauty-click-note { margin: 2.5rem 0 0; font-size: .9rem; opacity: .7; font-style: italic; }
+
+/* Classes pour l'audit de sécurité */
+.security-audit-section { border-top: 2px solid var(--gold); padding-top: 3rem; margin-top: 3rem; }
+.security-audit-title { text-align: center; font-size: 1.8rem; margin-bottom: 2rem; }
+.security-intro { background: rgba(46, 168, 255, 0.08); border-left: 5px solid var(--blue); padding: 2rem; border-radius: var(--radius-md); margin-bottom: 2.5rem; }
+.security-intro-title { color: var(--blue); font-weight: 700; font-size: 1.15rem; margin-bottom: 0.8rem; }
+.security-intro-text { margin-bottom: 1rem; line-height: 1.8; }
+.security-intro-highlight { margin-bottom: 0; color: var(--gold); font-weight: 700; font-size: 1.05rem; }
+.security-table-desc { margin-bottom: 0.9rem; font-size: 0.93rem; line-height: 1.7; }
+.security-table-footer { margin-top: 1rem; margin-bottom: 0; font-size: 0.88rem; color: var(--text-muted); }
+
+/* Divers contact et vinted */
+.contact-intro { text-align: center; margin-bottom: 2.5rem; font-size: 1.05rem; }
+.contact-info { text-align: center; margin-bottom: 2.5rem; font-size: 1rem; line-height: 1.9; }
+.confirmation-msg { text-align: center; color: var(--gold); font-weight: bold; margin-top: 1.5rem; font-size: 1rem; }
+.vinted-intro { font-style: italic; margin-bottom: 3rem; font-size: 1.05rem; }
+.vinted-desc { margin-bottom: 2.5rem; font-size: 1.05rem; line-height: 1.7; }
+.privacy-intro { text-align: center; font-style: italic; margin-bottom: 2.5rem; opacity: .85; }

@@ -24,11 +24,12 @@
 <link rel="stylesheet" href="https://unpkg.com/lecart/dist/lecart.css" crossorigin="anonymous">
 <script src="https://unpkg.com/lecart/dist/lecart.min.js" crossorigin="anonymous" defer></script>
 
-<!-- ✅ CORRECTION ICI : Les chemins vers le dossier css/ -->
+<!-- FICHIERS CSS EXTERNES -->
 <link rel="stylesheet" href="css/cssmain.css">
 <link rel="stylesheet" href="css/csssecurity-dashboard.css">
 
-<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<!-- Script Analytics externe (plus d'inline) -->
+<script src="js/vercel-analytics.js" defer></script>
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
@@ -45,7 +46,7 @@
     <div class="maintenance-stats-box">
       <h3>🌍 Statistiques Internationales</h3>
       <div class="world-map-container" role="img" aria-label="Carte du monde des visiteurs du site">
-        <svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" style="width:100%;display:block;">
+        <svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" class="svg-full">
           <image href="carte-monde.jpg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" class="world-map-img"/>
           <g class="visitor-dots">
             <g class="visitor-dot" data-country="France"><circle cx="480" cy="170" r="16" class="dot-pulse"/><circle cx="480" cy="170" r="7" class="dot-core"/><text x="480" y="152" class="dot-label">FR</text></g>
@@ -91,7 +92,7 @@
 </div>
 
 <noscript>
-  <div style="background:#e10600;color:#fff;padding:1rem;text-align:center;font-family:sans-serif;font-weight:600;font-size:.95rem;">⚠️ JavaScript est désactivé. Activez JavaScript pour une expérience complète.</div>
+  <div class="noscript-warning">⚠️ JavaScript est désactivé. Activez JavaScript pour une expérience complète.</div>
 </noscript>
 
 <div id="zoomModal" role="dialog" aria-modal="true" aria-label="Agrandissement du produit">
@@ -101,12 +102,12 @@
 
 <!-- PRÉVENTION HARCELEMENT -->
 <div id="prevention-page" class="prevention-page" role="dialog" aria-modal="true" aria-label="Prévention Harcèlement">
-  <div class="prevention-header" style="flex-direction:column; align-items:stretch; padding: 0;">
-    <div style="display:flex; justify-content:space-between; align-items:center; padding:1.2rem;">
-      <h1 data-i18n="prevention_harassment" style="margin:0;">🛡️ Prévention Harcèlement</h1>
+  <div class="prevention-header prevention-header-custom">
+    <div class="prevention-header-top">
+      <h1 data-i18n="prevention_harassment" class="m-0">🛡️ Prévention Harcèlement</h1>
       <button type="button" class="prevention-close" data-close-prevention aria-label="Fermer">✕</button>
     </div>
-    <div class="navbar-links" style="background:#000; padding: 0.8rem 1rem; border-top: 1px solid rgba(255,215,0,0.3); margin:0; justify-content:center;">
+    <div class="navbar-links prevention-nav-links">
       <a href="#accueil" data-nav="accueil" class="nav-link">🏠 Accueil</a>
       <a href="#apropos" data-nav="apropos" class="nav-link">📜 À propos</a>
       <a href="#produits" data-nav="accueil" data-section="produits" class="nav-link">🛒 Boutique</a>
@@ -145,7 +146,7 @@
     <section class="prevention-section-block" id="prevention-moral">
       <h2 class="prevention-title-blue" data-i18n="moral_harassment">💻 Harcèlement moral</h2>
       <div class="prevention-card-full">
-        <h3>📜 <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047052788" target="_blank" rel="noopener noreferrer" style="color:#ffd700;">Article 222-33-2-2 du Code pénal (Légifrance)</a></h3>
+        <h3>📜 <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047052788" target="_blank" rel="noopener noreferrer" class="link-gold">Article 222-33-2-2 du Code pénal (Légifrance)</a></h3>
         <p data-i18n="moral_harassment_desc">Propos ou comportements répétés dégradant les conditions de vie, entraînant une altération de la santé physique ou mentale.</p>
         <ul class="prevention-list">
           <li><strong data-i18n="basic_penalty">Peine de base</strong> <span class="peine">1 an + 15 000 €</span></li>
@@ -153,14 +154,14 @@
           <li><strong data-i18n="two_aggravating">Deux circonstances aggravantes cumulées</strong> <span class="peine">3 ans + 45 000 €</span></li>
           <li><strong data-i18n="organized_group">En bande organisée</strong> <span class="peine" data-i18n="up_to_10_years">Jusqu'à 10 ans + 300 000 €</span></li>
         </ul>
-        <p style="margin-top:.6rem;"><strong>⚠️ <span data-i18n="organized_group">En bande organisée</span> :</strong> <span data-i18n="organized_group_desc">chaque participant peut être poursuivi, même pour un seul message, si le caractère collectif du harcèlement est établi.</span></p>
+        <p class="mt-06"><strong>⚠️ <span data-i18n="organized_group">En bande organisée</span> :</strong> <span data-i18n="organized_group_desc">chaque participant peut être poursuivi, même pour un seul message, si le caractère collectif du harcèlement est établi.</span></p>
       </div>
     </section>
 
     <section class="prevention-section-block" id="prevention-scolaire">
       <h2 class="prevention-title-white" data-i18n="school_harassment">🎓 Harcèlement scolaire</h2>
       <div class="prevention-card-full">
-        <h3>📜 <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048015195" target="_blank" rel="noopener noreferrer" style="color:#ffd700;">Article 222-33-2-3 du Code pénal (Légifrance)</a></h3>
+        <h3>📜 <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048015195" target="_blank" rel="noopener noreferrer" class="link-gold">Article 222-33-2-3 du Code pénal (Légifrance)</a></h3>
         <p data-i18n="school_harassment_desc">Harcèlement moral commis par un élève ou un membre du personnel contre un élève du même établissement.</p>
         <ul class="prevention-list">
           <li><strong data-i18n="basic_penalty">Peine de base</strong> <span class="peine">3 ans + 45 000 €</span></li>
@@ -168,14 +169,14 @@
           <li><strong data-i18n="victim_suicide">Si la victime se suicide ou tente de se suicider</strong> <span class="peine">10 ans + 150 000 €</span></li>
           <li><strong data-i18n="organized_group">En bande organisée</strong> <span class="peine">10 ans + 150 000 €</span></li>
         </ul>
-        <p style="margin-top:.6rem;" data-i18n="school_harassment_note">Les faits restent punissables même après la fin de la scolarité.</p>
+        <p class="mt-06" data-i18n="school_harassment_note">Les faits restent punissables même après la fin de la scolarité.</p>
       </div>
     </section>
 
     <section class="prevention-section-block" id="prevention-sexuel">
       <h2 class="prevention-title-red" data-i18n="sexual_harassment">🤬 Harcèlement sexuel</h2>
       <div class="prevention-card-full">
-        <h3>📜 <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047052831" target="_blank" rel="noopener noreferrer" style="color:#ffd700;">Article 222-33 du Code pénal (Légifrance)</a></h3>
+        <h3>📜 <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047052831" target="_blank" rel="noopener noreferrer" class="link-gold">Article 222-33 du Code pénal (Légifrance)</a></h3>
         <p data-i18n="sexual_harassment_desc">Propos ou comportements à connotation sexuelle ou sexiste répétés, portant atteinte à la dignité ou créant une situation intimidante, hostile ou offensante.</p>
         <ul class="prevention-list">
           <li><strong data-i18n="basic_penalty">Peine de base</strong> <span class="peine">2 ans + 30 000 €</span></li>
@@ -195,7 +196,7 @@
           <li><strong data-i18n="sexual_harassment_multiple">Harcèlement sexuel à plusieurs</strong> <span class="peine">3 ans + 45 000 €</span></li>
           <li><strong data-i18n="multiple_aggravating">Harcèlement avec plusieurs circonstances aggravantes</strong> <span class="peine" data-i18n="up_to_10_years">Jusqu'à 10 ans + 300 000 €</span></li>
         </ul>
-        <p style="margin-top:.6rem;" data-i18n="law_punishes_each">La loi punit chaque participant, pas seulement le meneur.</p>
+        <p class="mt-06" data-i18n="law_punishes_each">La loi punit chaque participant, pas seulement le meneur.</p>
       </div>
     </section>
 
@@ -214,8 +215,8 @@
 
     <p class="prevention-footer-note" data-i18n="prevention_footer_note">Informations issues du Code pénal français (Légifrance). Dernière mise à jour : 2026.</p>
 
-    <div style="text-align:center; margin-top: 3rem;">
-      <a href="#" data-close-prevention class="return-btn" style="display:inline-block;width:auto;min-width:250px; background:var(--gold); color:#000; border:none; padding:1.2rem 2.5rem; font-weight:bold; border-radius:12px; text-decoration:none; font-family:var(--font-display); transition:transform 0.2s;">⬅ Retour à l'accueil</a>
+    <div class="text-center mt-3">
+      <a href="#" data-close-prevention class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
     </div>
   </div>
 </div>
@@ -327,7 +328,7 @@
     <option value="Miyagi - Capitaine RU.mp3" data-i18n="track_miyagi_capitaine">[RU] ⚓ Miyagi – Capitaine</option>
     <option value="Miyagi-Tumani-YO-KADI-Bismarck.mp3" data-i18n="track_miyagi_tumani">[RU] 🎭 Miyagi – Tumani / YO / KADI / Bismarck</option>
   </select>
-  <audio id="player" src="Musique/Génétiquement-Modifier.mp3" controls preload="metadata" aria-label="Lecteur de musique" style="width:100%;border-radius:var(--radius-sm);margin-top:0.5rem;display:block;">Votre navigateur ne prend pas en charge le lecteur audio.</audio>
+  <audio id="player" src="Musique/Génétiquement-Modifier.mp3" controls preload="metadata" aria-label="Lecteur de musique" class="audio-player-element">Votre navigateur ne prend pas en charge le lecteur audio.</audio>
   <p class="audio-lang-note">🌍 La langue des paroles est indiquée par les préfixes [FR], [EN], [RU] et [UK] devant chaque titre.</p>
 </div>
 
@@ -371,7 +372,7 @@
         <div class="price"><span class="promo">89 €</span><span class="off">(   )</span></div>
         <p class="desc" data-i18n="drone_desc">Un drone conçu pour les créateurs, les explorateurs et les pilotes ambitieux. Capturez le monde avec une précision chirurgicale.</p>
         <div class="drone-video-wrapper">
-          <video src="publicite_drone.mp4" controls preload="metadata" playsinline style="width:100%;height:auto;display:block;" aria-label="Publicité du drone KY108">
+          <video src="publicite_drone.mp4" controls preload="metadata" playsinline class="video-full" aria-label="Publicité du drone KY108">
             Votre navigateur ne prend pas en charge la lecture vidéo.
           </video>
         </div>
@@ -598,26 +599,26 @@
 
   <section class="info">
     <h2 data-i18n="reviews_title">⭐ Avis Clients (Vinted)</h2>
-    <div class="vinted-review" style="margin-bottom:1.5rem;">
+    <div class="vinted-review">
       <p>⭐⭐⭐⭐⭐ — <strong>zohra6466</strong> : "<span data-i18n="review_zohra">merci</span>"</p>
-      <div style="margin-top:.5rem;color:var(--gold);font-size:.95rem;"><strong>limitless95</strong> : <span data-i18n="review_limitless_1">Ravi que tout soit parfait, GUILLET IV 🔥</span></div>
+      <div class="vinted-review-reply"><strong>limitless95</strong> : <span data-i18n="review_limitless_1">Ravi que tout soit parfait, GUILLET IV 🔥</span></div>
     </div>
     <div class="vinted-review">
       <p>⭐⭐⭐⭐⭐ — <strong>zlatoff05</strong> : "<span data-i18n="review_zlatoff">Tout est ok merci</span>"</p>
-      <div style="margin-top:.5rem;color:var(--gold);font-size:.95rem;"><strong>limitless95</strong> : <span data-i18n="review_limitless_2">Gratitude 🤲 merci</span></div>
+      <div class="vinted-review-reply"><strong>limitless95</strong> : <span data-i18n="review_limitless_2">Gratitude 🤲 merci</span></div>
     </div>
   </section>
 </div>
 
 <!-- PAGE À PROPOS -->
 <div id="page-apropos" class="page-section">
-  <div class="page-container" style="max-width:var(--container-max);">
-    <section class="hero" id="apropos" style="padding-top:0;">
+  <div class="page-container max-width-full">
+    <section class="hero pt-0" id="apropos">
       <h1 data-i18n="brand_king">👑 GUILLET IV</h1>
       <p class="motto" data-i18n="motto">« Créer sa voie. Défendre son autonomie. Bâtir l'avenir. »</p>
       <p class="baseline" data-i18n="baseline">Entreprise · Mouvement d'indépendance entrepreneuriale · Vision</p>
     </section>
-    <section class="doctrine" style="box-shadow:none;border-color:rgba(255,215,0,0.3);">
+    <section class="doctrine no-shadow">
       <h2 data-i18n="doctrine_title">⚔️ La Doctrine GUILLET IV</h2>
       <p data-i18n="doctrine_desc">GUILLET IV réunit la puissance de l'entreprise, la force d'une identité et la vision d'un mouvement. Notre principe fondateur : ne pas attendre sa place, mais la construire par l'action, la discipline et la création.</p>
       <div class="pillars">
@@ -635,7 +636,7 @@
         <div class="pillar"><h3 data-i18n="ascension">🜃 Ascension</h3><p data-i18n="ascension_desc">La montée, l'évolution, le dépassement de soi et des limites.</p></div>
       </div>
     </section>
-    <div class="about-section" style="margin-bottom:0;margin-top:3rem;">
+    <div class="about-section mb-0 mt-3">
       <h2 data-i18n="learn_more">🏢 En savoir plus</h2>
       <span class="about-sub" data-i18n="company_movement">Entreprise · Mouvement · Indépendance</span>
       <div class="about-block about-intro" data-i18n="about_intro">GUILLET IV est une entreprise et un mouvement d'indépendance entrepreneuriale. Il défend l'idée que chacun peut bâtir sa propre voie par le travail, la création et l'autonomie.</div>
@@ -646,8 +647,8 @@
         <a href="https://www.vinted.fr/member/3125071555" target="_blank" rel="noopener noreferrer" class="btn-about btn-about-secondary" data-i18n="view_my_vinted">👕 Voir mon Vinted</a>
       </div>
     </div>
-    <div style="text-align:center;margin-top:3rem;">
-      <a href="#" data-nav="accueil" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l'accueil</a>
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
     </div>
   </div>
 </div>
@@ -761,23 +762,23 @@
     <span data-i18n="parrainage_note_text">Les liens de parrainage sont des liens officiels Boursorama, Starlink, Vinted, Crédit Agricole et Octopus Energy. L'ouverture de compte Boursorama est gratuite et sans engagement. Les primes et avantages sont soumis aux conditions de chaque service. Le code Crédit Agricole EGYYLFH est à usage unique.</span>
   </div>
 
-  <div style="text-align:center;margin-top:1rem;">
-    <a href="#" data-nav="accueil" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l'accueil</a>
+  <div class="text-center mt-1">
+    <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
   </div>
 </div>
 
 <!-- PAGE VINTED -->
 <div id="page-vinted" class="page-section">
-  <div class="page-container" style="text-align:center;">
+  <div class="page-container text-center">
     <h1 data-i18n="my_vinted">👕 Mon Vinted</h1>
-    <p style="font-style:italic;margin-bottom:3rem;font-size:1.05rem;" data-i18n="vinted_intro">Retrouve mes ventes vérifiées, mes évaluations 5★ et mes produits disponibles sur Vinted.</p>
+    <p class="vinted-intro" data-i18n="vinted_intro">Retrouve mes ventes vérifiées, mes évaluations 5★ et mes produits disponibles sur Vinted.</p>
     <div class="vinted-card">
       <div class="vinted-rating"><span>★★★★★</span> <span data-i18n="verified_reviews">Avis Vinted Vérifiés</span></div>
-      <p style="margin-bottom:2.5rem;font-size:1.05rem;line-height:1.7;" data-i18n="vinted_desc">Je suis limitless95 sur Vinted. J'y propose des articles sérieux, bien présentés, avec un service client réactif.</p>
+      <p class="vinted-desc" data-i18n="vinted_desc">Je suis limitless95 sur Vinted. J'y propose des articles sérieux, bien présentés, avec un service client réactif.</p>
       <a href="https://www.vinted.fr/member/3125071555" target="_blank" rel="noopener noreferrer" class="vinted-btn" data-i18n="view_vinted_profile">👕 Voir mon profil Vinted</a>
     </div>
-    <div style="text-align:center;margin-top:3rem;">
-      <a href="#" data-nav="accueil" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l'accueil</a>
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
     </div>
   </div>
 </div>
@@ -789,18 +790,18 @@
     <span class="beauty-sub" data-i18n="beauty_sub">Élégance · Soin · Présentiel à Guignen</span>
     <p class="beauty-intro" data-i18n="beauty_intro">Prestations en présentiel uniquement à Guignen. Réservation par téléphone ou Instagram.</p>
   </section>
-  <div style="max-width:700px;margin:0 auto 3rem;padding:0 1rem;">
-    <img src="carte.png" alt="SHAYNAILS — présentation" loading="lazy" decoding="async" data-zoom style="width:100%;border:2px solid var(--gold);border-radius:var(--radius-lg);cursor:zoom-in;background:#000;box-shadow:0 10px 30px rgba(255,215,0,0.15);">
+  <div class="max-w-700">
+    <img src="carte.png" alt="SHAYNAILS — présentation" loading="lazy" decoding="async" data-zoom class="beauty-presentation-img">
   </div>
-  <section style="max-width:700px;margin:0 auto 3rem;padding:0 1rem;">
-    <h2 style="text-align:center;font-family:var(--font-display);color:var(--gold);font-size:1.6rem;margin-bottom:1.5rem;" data-i18n="beauty_prices_title">💶 Carte des tarifs</h2>
-    <div style="text-align:center;">
-      <img src="tarifs.png" alt="Carte des tarifs SHAYNAILS" loading="lazy" decoding="async" data-zoom style="width:100%;border:1px solid var(--border-color);border-radius:var(--radius-md);cursor:zoom-in;background:#000;">
+  <section class="max-w-700">
+    <h2 class="beauty-section-title" data-i18n="beauty_prices_title">💶 Carte des tarifs</h2>
+    <div class="text-center">
+      <img src="tarifs.png" alt="Carte des tarifs SHAYNAILS" loading="lazy" decoding="async" data-zoom class="beauty-tarifs-img">
     </div>
-    <p style="text-align:center;font-size:.9rem;opacity:.75;margin-top:1rem;font-style:italic;" data-i18n="beauty_presentiel_note">⚠️ Prestations uniquement en présentiel à Guignen — pas de vente en ligne.</p>
+    <p class="beauty-note" data-i18n="beauty_presentiel_note">⚠️ Prestations uniquement en présentiel à Guignen — pas de vente en ligne.</p>
   </section>
-  <section style="max-width:900px;margin:0 auto 3rem;padding:0 1rem;">
-    <h2 style="text-align:center;font-family:var(--font-display);color:var(--gold);font-size:1.6rem;margin-bottom:1.5rem;" data-i18n="beauty_gallery_title">✨ Réalisations clientes</h2>
+  <section class="max-w-900">
+    <h2 class="beauty-section-title" data-i18n="beauty_gallery_title">✨ Réalisations clientes</h2>
     <div class="beauty-clients-grid">
       <img src="cliente.png" alt="Réalisation cliente 1" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
       <img src="cliente2.png" alt="Réalisation cliente 2" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
@@ -809,23 +810,23 @@
       <img src="cliente7.png" alt="Réalisation cliente 5" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
     </div>
   </section>
-  <section style="max-width:480px;margin:0 auto 3rem;padding:0 1rem;">
-    <h2 style="text-align:center;font-family:var(--font-display);color:var(--gold);font-size:1.4rem;margin-bottom:1.2rem;" data-i18n="beauty_video_title">🎬 En vidéo</h2>
-    <div style="text-align:center;border:2px solid var(--gold);border-radius:var(--radius-md);overflow:hidden;background:#000;box-shadow:0 6px 20px rgba(255,215,0,0.15);">
-      <video src="video.mp4" controls preload="none" playsinline style="width:100%;height:auto;display:block;" aria-label="Vidéo de présentation SHAYNAILS" data-i18n="video_fallback">Votre navigateur ne prend pas en charge la lecture vidéo.</video>
+  <section class="max-w-480">
+    <h2 class="beauty-section-title" data-i18n="beauty_video_title">🎬 En vidéo</h2>
+    <div class="video-wrapper">
+      <video src="video.mp4" controls preload="none" playsinline class="video-full" aria-label="Vidéo de présentation SHAYNAILS" data-i18n="video_fallback">Votre navigateur ne prend pas en charge la lecture vidéo.</video>
     </div>
   </section>
-  <section style="max-width:800px;margin:0 auto 3rem;padding:3rem 1.5rem;background:linear-gradient(135deg,rgba(255,182,193,0.15),rgba(0,0,0,0.9));border:2px solid var(--gold);border-radius:var(--radius-lg);text-align:center;box-shadow:0 10px 30px rgba(0,0,0,0.4);">
-    <h2 style="font-family:var(--font-display);color:var(--gold);font-size:1.7rem;margin:0 0 .8rem;" data-i18n="beauty_book_title">📅 Réserver une prestation</h2>
-    <p style="font-size:1.05rem;line-height:1.7;margin:0 0 2.5rem;opacity:.9;" data-i18n="beauty_book_text">Toutes les prestations ont lieu en présentiel à Guignen.<br>Réservation par téléphone ou Instagram.</p>
-    <div style="display:flex;flex-direction:column;gap:1.5rem;align-items:center;">
-      <a href="tel:0620675441" style="display:inline-flex;align-items:center;justify-content:center;gap:.7rem;padding:1.2rem 2.5rem;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#000;border:2px solid #fff;border-radius:var(--radius-lg);font-family:var(--font-display);font-weight:700;font-size:1.2rem;text-decoration:none;box-shadow:0 6px 20px rgba(255,215,0,0.4);min-width:280px;transition:transform .2s;">📞 06.20.67.54.41</a>
-      <a href="https://www.instagram.com/shay_nails35/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;justify-content:center;gap:.7rem;padding:1.2rem 2.5rem;background:linear-gradient(135deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);color:#fff;border:2px solid #fff;border-radius:var(--radius-lg);font-family:var(--font-display);font-weight:700;font-size:1.15rem;text-decoration:none;box-shadow:0 6px 20px rgba(214,41,118,0.4);min-width:280px;transition:transform .2s;">📸 Instagram — @shay_nails35</a>
+  <section class="beauty-booking-section">
+    <h2 class="beauty-book-title" data-i18n="beauty_book_title">📅 Réserver une prestation</h2>
+    <p class="beauty-book-text" data-i18n="beauty_book_text">Toutes les prestations ont lieu en présentiel à Guignen.<br>Réservation par téléphone ou Instagram.</p>
+    <div class="beauty-buttons">
+      <a href="tel:0620675441" class="beauty-btn-phone">📞 06.20.67.54.41</a>
+      <a href="https://www.instagram.com/shay_nails35/" target="_blank" rel="noopener noreferrer" class="beauty-btn-insta">📸 Instagram — @shay_nails35</a>
     </div>
-    <p style="margin:2.5rem 0 0;font-size:.9rem;opacity:.7;font-style:italic;" data-i18n="click_photo_zoom">💡 Cliquez sur une photo pour l'agrandir</p>
+    <p class="beauty-click-note" data-i18n="click_photo_zoom">💡 Cliquez sur une photo pour l'agrandir</p>
   </section>
-  <div style="text-align:center;margin-top:3rem;">
-    <a href="#" data-nav="accueil" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l'accueil</a>
+  <div class="text-center mt-3">
+    <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
   </div>
 </div>
 
@@ -899,7 +900,7 @@
       <p data-i18n="cyber_conclusion_p1">Les cybercriminels peuvent exploiter des failles techniques, mais aussi la confiance, les habitudes et les informations partagées en ligne.</p>
       <p class="signature">Entreprise GUILLET IV<br>GRAND FOUGERAY</p>
     </section>
-    <div style="text-align:center;margin-top:3rem;">
+    <div class="text-center mt-3">
       <a class="return-btn" href="#" data-nav="accueil" data-i18n="back_shop">⬅ Retour à la boutique</a>
     </div>
   </div>
@@ -938,7 +939,7 @@
       <p data-i18n="legal_data_p1">Les données collectées (nom, email, adresse, téléphone) sont utilisées uniquement pour le traitement des commandes et le support client.</p>
       <p data-i18n="legal_data_p2">Aucune donnée personnelle n'est transmise, vendue, partagée ou communiquée à des entreprises, plateformes, services tiers ou organismes étatiques, en France ou ailleurs.</p>
       <p data-i18n="legal_data_p3">Conformément au RGPD, vous pouvez demander la suppression ou modification de vos données à tout moment via : lanceglorieuse@gmail.com.</p>
-      <p style="margin-top:1.2rem;"><a href="#confidentialite" data-nav="confidentialite" style="color:var(--gold);font-weight:700;text-decoration:underline;">📄 Consulter la politique de confidentialité (RGPD) complète →</a></p>
+      <p class="mt-1"><a href="#confidentialite" data-nav="confidentialite" class="link-gold-underline">📄 Consulter la politique de confidentialité (RGPD) complète →</a></p>
     </section>
 
     <section>
@@ -958,14 +959,14 @@
       <p data-i18n="legal_disputes_p2">À défaut, les tribunaux français seront compétents.</p>
     </section>
 
-    <section style="border-top: 2px solid var(--gold); padding-top: 3rem; margin-top: 3rem;">
-      <h2 data-i18n="security_audit_title" style="text-align: center; font-size: 1.8rem; margin-bottom: 2rem;">🛡️ Audit de Sécurité Technique (Nmap &amp; curl)</h2>
+    <section class="security-audit-section">
+      <h2 data-i18n="security_audit_title" class="security-audit-title">🛡️ Audit de Sécurité Technique (Nmap &amp; curl)</h2>
 
-      <div style="background: rgba(46, 168, 255, 0.08); border-left: 5px solid var(--blue); padding: 2rem; border-radius: var(--radius-md); margin-bottom: 2.5rem;">
-        <p style="color: var(--blue); font-weight: 700; font-size: 1.15rem; margin-bottom: 0.8rem;" data-i18n="security_audit_subtitle">🔐 Sécurité du site Shop de Légende</p>
-        <p style="margin-bottom: 1rem; line-height: 1.8;" data-i18n="security_audit_p1">La sécurité des visiteurs et des clients est strictement contrôlée sur Shop de Légende. Le site applique des protections avancées, rigoureuses et non contournables afin de garantir une navigation fiable, des paiements sécurisés et une confidentialité totale.</p>
-        <p style="margin-bottom: 1rem; line-height: 1.8;" data-i18n="security_audit_p2">Les analyses techniques approfondies réalisées avec Nmap et curl confirment que le site ne présente aucune faille, aucun élément dangereux, aucune exposition de données, et que tous les mécanismes détectés sont des protections normales et attendues.</p>
-        <p style="margin-bottom: 0; color: var(--gold); font-weight: 700; font-size: 1.05rem;" data-i18n="security_audit_p3">👉 Aucun risque, aucune menace, aucune anomalie.</p>
+      <div class="security-intro">
+        <p class="security-intro-title" data-i18n="security_audit_subtitle">🔐 Sécurité du site Shop de Légende</p>
+        <p class="security-intro-text" data-i18n="security_audit_p1">La sécurité des visiteurs et des clients est strictement contrôlée sur Shop de Légende. Le site applique des protections avancées, rigoureuses et non contournables afin de garantir une navigation fiable, des paiements sécurisés et une confidentialité totale.</p>
+        <p class="security-intro-text" data-i18n="security_audit_p2">Les analyses techniques approfondies réalisées avec Nmap et curl confirment que le site ne présente aucune faille, aucun élément dangereux, aucune exposition de données, et que tous les mécanismes détectés sont des protections normales et attendues.</p>
+        <p class="security-intro-highlight" data-i18n="security_audit_p3">👉 Aucun risque, aucune menace, aucune anomalie.</p>
       </div>
 
       <section id="security-dashboard" class="security-dashboard">
@@ -1262,7 +1263,7 @@
                 <p class="term-footer" data-i18n="security_audit_9_nmap7_footer">👉 Aucune ressource sensible, aucune page cachée, aucun service exposé.</p>
               </div>
 
-              <div class="term-block" style="margin-bottom:0;">
+              <div class="term-block mb-0">
                 <p class="term-title" data-i18n="security_audit_9_curl_title">✔️ Résultat curl</p>
                 <p class="term-text" data-i18n="security_audit_9_curl_text">Curl affiche uniquement : les protections, les en‑têtes de sécurité, les mécanismes anti‑bot.</p>
                 <p class="term-footer" data-i18n="security_audit_9_curl_footer">👉 Aucune anomalie, aucune faille, aucun risque.</p>
@@ -1279,8 +1280,8 @@
                 </div>
                 <span class="security-card-badge">Headers · Niveau bancaire</span>
               </div>
-              <p style="margin-bottom: 0.9rem; font-size: 0.93rem; line-height: 1.7;">
-                Le site applique les <strong style="color: var(--neon-mint);">13 en-têtes de sécurité HTTP</strong> suivants — exactement le niveau de protection d'une banque ou d'un site gouvernemental. Chaque en-tête a été vérifié et confirmé comme <strong style="color:#4ade80;">actif et correctement configuré</strong>.
+              <p class="security-table-desc">
+                Le site applique les <strong class="neon-mint-text">13 en-têtes de sécurité HTTP</strong> suivants — exactement le niveau de protection d'une banque ou d'un site gouvernemental. Chaque en-tête a été vérifié et confirmé comme <strong class="neon-mint-text">actif et correctement configuré</strong>.
               </p>
               <div class="security-table-wrapper">
                 <div class="security-table-scroll">
@@ -1310,7 +1311,7 @@
                   </table>
                 </div>
               </div>
-              <p style="margin-top: 1rem; margin-bottom: 0; font-size: 0.88rem; color: var(--text-muted);">
+              <p class="security-table-footer">
                 <em>👉 13 en-têtes actifs. Niveau banque / gouvernement. Aucune anomalie, aucune faille, aucun risque.</em>
               </p>
             </div>
@@ -1441,8 +1442,8 @@
       <p data-i18n="cgv_law_text1">Les présentes CGV sont régies par le droit français.</p>
       <p data-i18n="cgv_law_text2">En cas de litige, les tribunaux français seront compétents, dans le respect des règles de compétence applicables aux consommateurs.</p></section>
 
-    <div style="text-align:center;margin-top:3rem;">
-      <a href="#" data-nav="accueil" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l’accueil</a>
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l’accueil</a>
     </div>
   </div>
 </div>
@@ -1451,7 +1452,7 @@
 <div id="page-confidentialite" class="page-section">
   <div class="page-container">
     <h1 data-i18n="privacy_title">📄 Politique de Confidentialité (RGPD)</h1>
-    <p style="text-align:center;font-style:italic;margin-bottom:2.5rem;opacity:.85;" data-i18n="privacy_intro">La protection de vos données personnelles est une priorité. Cette politique explique quelles données sont collectées, pourquoi, comment elles sont protégées et comment exercer vos droits.</p>
+    <p class="privacy-intro" data-i18n="privacy_intro">La protection de vos données personnelles est une priorité. Cette politique explique quelles données sont collectées, pourquoi, comment elles sont protégées et comment exercer vos droits.</p>
 
     <section>
       <h2 data-i18n="privacy_s1_title">1. Données collectées</h2>
@@ -1552,7 +1553,7 @@
     <section>
       <h2 data-i18n="privacy_s10_title">10. Contact</h2>
       <p data-i18n="privacy_s10_text">Pour toute question concernant vos données personnelles :</p>
-      <p><strong>Email :</strong> <a href="mailto:lanceglorieuse@gmail.com" style="color:var(--gold);font-weight:700;">lanceglorieuse@gmail.com</a></p>
+      <p><strong>Email :</strong> <a href="mailto:lanceglorieuse@gmail.com" class="link-gold">lanceglorieuse@gmail.com</a></p>
     </section>
 
     <section>
@@ -1562,8 +1563,8 @@
       <p data-i18n="privacy_s11_text3">Vous pouvez introduire une réclamation auprès de la <a href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener">CNIL</a>.</p>
     </section>
 
-    <div style="text-align:center;margin-top:3rem;">
-      <a href="#" data-nav="accueil" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l'accueil</a>
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
     </div>
   </div>
 </div>
@@ -1639,8 +1640,8 @@
     <h2 data-i18n="faq_service">📞 Service client</h2>
     <div class="faq-item"><h3 data-i18n="faq_contact_q">Comment contacter GUILLET IV ?</h3><p data-i18n="faq_contact_text">📧 Email : lanceglorieuse@gmail.com — Réponse sous 48 heures.</p></div>
 
-    <div style="text-align:center;margin-top:3rem;">
-      <a href="#" data-nav="accueil" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l'accueil</a>
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
     </div>
   </div>
 </div>
@@ -1649,8 +1650,8 @@
 <div id="page-contact" class="page-section">
   <div class="page-container">
     <h1 data-i18n="contact_title">✉️ Contactez-nous</h1>
-    <p style="text-align:center;margin-bottom:2.5rem;font-size:1.05rem;" data-i18n="contact_intro">Une question ? Un projet ? N'hésitez pas à nous écrire.</p>
-    <div style="text-align:center;margin-bottom:2.5rem;font-size:1rem;line-height:1.9;">
+    <p class="contact-intro" data-i18n="contact_intro">Une question ? Un projet ? N'hésitez pas à nous écrire.</p>
+    <div class="contact-info">
       <p>📞 <span data-i18n="phone">Téléphone</span> : <strong>07.80.20.47.49</strong></p>
       <p>📧 Email : <strong>lanceglorieuse@gmail.com</strong></p>
       <p>📍 <span data-i18n="location">Localisation</span> : <strong data-i18n="france_ille">France, Ille-et-Vilaine</strong></p>
@@ -1662,9 +1663,9 @@
       <textarea id="message" rows="5" data-i18n-placeholder="your_message" placeholder="Votre message..." required></textarea>
       <button type="submit" data-i18n="send_message">Envoyer le message</button>
     </form>
-    <p id="confirmation" hidden style="text-align:center;color:var(--gold);font-weight:bold;margin-top:1.5rem;font-size:1rem;" data-i18n="message_prepared">Votre message a été préparé. Vous pouvez maintenant l'envoyer via votre application email.</p>
-    <div style="text-align:center;margin-top:3rem;">
-      <a href="#" data-nav="accueil" class="return-btn" style="display:inline-block;width:auto;min-width:250px;" data-i18n="back_home">⬅ Retour à l'accueil</a>
+    <p id="confirmation" hidden class="confirmation-msg" data-i18n="message_prepared">Votre message a été préparé. Vous pouvez maintenant l'envoyer via votre application email.</p>
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
     </div>
   </div>
 </div>
@@ -1742,7 +1743,7 @@
   <span id="panierCount" aria-live="polite">0</span>
 </button>
 
-<!-- ✅ CORRECTION ICI : Les chemins vers le dossier js/ -->
+<!-- CHARGEMENT DES SCRIPTS EXTERNES -->
 <script src="js/jslecart-init.js"></script>
 <script src="js/jscart-counter.js"></script>
 <script src="js/jsmaintenance.js"></script>
