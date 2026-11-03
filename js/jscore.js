@@ -23,6 +23,12 @@
       const navLink = e.target.closest('[data-nav]');
       if (navLink) {
         e.preventDefault();
+        
+        // 👉 CORRECTION ICI : On force la fermeture de la modale Harcèlement avant de naviguer
+        if (typeof window.fermerPrevention === "function") {
+          window.fermerPrevention();
+        }
+
         const target = navLink.getAttribute('data-nav');
         const section = navLink.getAttribute('data-section');
         window.navigateTo(target, section);
@@ -51,6 +57,12 @@
         const navLink = e.target.closest('[data-nav]');
         if (navLink) {
           e.preventDefault();
+          
+          // 👉 CORRECTION ICI AUSSI : On ferme la modale au clavier
+          if (typeof window.fermerPrevention === "function") {
+            window.fermerPrevention();
+          }
+
           window.navigateTo(navLink.getAttribute('data-nav'), navLink.getAttribute('data-section'));
         }
         const zoomImg = e.target.closest('[data-zoom]');
