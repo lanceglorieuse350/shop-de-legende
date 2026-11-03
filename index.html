@@ -251,10 +251,11 @@
         <option value="zh">🇨🇳 ZH</option>
       </select>
       
-      <!-- BOUTON CONNEXION AJOUTÉ ICI -->
-      <button type="button" id="authBtn" class="mode-btn" style="background:transparent;color:var(--gold);border:1px solid var(--gold);">🔐 Connexion</button>
+      <!-- BOUTON CONNEXION (sans la classe mode-btn) -->
+      <button type="button" id="authBtn" class="auth-btn" style="background:transparent;color:var(--gold);border:1px solid var(--gold); padding:0.5rem 0.8rem; border-radius:var(--radius-md); font-size:0.8rem; font-weight:700; cursor:pointer;">🔐 Connexion</button>
 
-      <button type="button" class="mode-btn" aria-label="Changer de mode clair ou sombre" data-i18n-aria="toggle_mode">🌙 / ☀️</button>
+      <!-- BOUTON LUMIERE (avec un ID spécifique) -->
+      <button type="button" id="themeToggleBtn" class="mode-btn" aria-label="Changer de mode clair ou sombre" data-i18n-aria="toggle_mode">🌙 / ☀️</button>
     </div>
   </div>
   <div class="navbar-links">
@@ -1746,7 +1747,7 @@
   <span id="panierCount" aria-live="polite">0</span>
 </button>
 
-<!-- MODALE AUTHENTIFICATION AJOUTÉE ICI -->
+<!-- MODALE AUTHENTIFICATION -->
 <div id="authModal" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.9); backdrop-filter:blur(5px); justify-content:center; align-items:center; padding:1rem;">
   <div style="background:linear-gradient(135deg, var(--card-bg), #0a0a0a); border:2px solid var(--gold); border-radius:var(--radius-lg); padding:2.5rem; width:100%; max-width:400px; position:relative;">
     <button type="button" id="closeAuthModal" style="position:absolute; top:1rem; right:1rem; background:transparent; border:none; color:#fff; font-size:1.5rem; cursor:pointer;">✕</button>
@@ -1785,7 +1786,6 @@
 <script src="js/translations.js"></script>
 <script src="js/jsi18n.js"></script>
 <script src="js/jscore.js"></script>
-<!-- SCRIPT AUTHENTIFICATION AJOUTÉ ICI -->
 <script src="js/auth.js"></script>
 
 </body>

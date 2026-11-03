@@ -73,7 +73,7 @@
       }
     });
 
-    const modeBtn = document.querySelector('.mode-btn');
+    const modeBtn = document.getElementById('themeToggleBtn');
     if (modeBtn) {
       modeBtn.addEventListener('click', () => {
         document.body.classList.toggle("light-mode");
