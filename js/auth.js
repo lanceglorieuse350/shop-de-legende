@@ -165,21 +165,8 @@
           if (signUpError) {
             showMessage("Erreur : " + signUpError.message, "var(--red)");
           } else {
-            // ✅ Enregistrement dans la table `clients`
-            if (signUpData.user) {
-              const { error: dbError } = await supabaseClient
-                .from('clients')
-                .insert([
-                  { 
-                    id: signUpData.user.id, 
-                    email: signUpData.user.email 
-                  }
-                ]);
-
-              if (dbError) {
-                console.error("[AUTH] Erreur lors de l'ajout dans la table clients :", dbError);
-              }
-            }
+            // ⚠️ L'insertion manuelle a été retirée ici. 
+            // C'est le Trigger SQL (sur Supabase) qui gère l'enregistrement dans la table `clients`.
 
             // Suite du processus d'inscription
             if (signUpData.session) {
