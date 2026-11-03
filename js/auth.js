@@ -259,6 +259,9 @@
     
     // On charge les infos existantes
     loadProfileData();
+    
+    // ✅ NOUVEAU : On charge l'historique des commandes
+    loadOrders(); 
   }
 
   function closeProfileModalFn() {
@@ -328,4 +331,64 @@
       }
     });
   }
+
+  // ==========================================
+  // 11. AFFICHAGE DES COMMANDES
+  // ==========================================
+  async function loadOrders() {
+    const ordersList = document.getElementById("ordersList");
+    if (!ordersList) return;
+
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    if (!user) return;
+
+    // On va chercher les commandes dans Supabase
+    const { data, error } = await supabaseClient
+      .from('commandes')
+      .select('*')
+      .eq('client_id', user.id)
+      .order('created_at', { ascending: false });
+
+    if (error) {
+      ordersList.innerHTML = `<p style="color:var(--red);">Erreur lors du chargement des commandes.</p>`;
+      return;
+    }
+
+    if (!data || data.length === 0) {
+      ordersList.innerHTML = `<p style="color:#aaa;">Vous n'avez pas encore passé de commande.</p>`;
+      return;
+    }
+
+    // On affiche les commandes
+    let html = "";
+    data.forEach(order => {
+      const date = new Date(order.created_at).toLocaleDateString('fr-FR');
+      
+      // On construit la liste des produits
+      let produitsHtml = "";
+      if (order.details_produits && Array.isArray(order.details_produits)) {
+        order.details_produits.forEach(prod => {
+          produitsHtml += `<li>${prod.quantite || 1}x ${prod.nom || 'Produit'} - ${prod.prix_unitaire || 0} €</li>`;
+        });
+      } else {
+        produitsHtml = "<li>Produits (détails indisponibles)</li>";
+      }
+
+      html += `
+        <div style="background:#111; border:1px solid #333; padding:10px; border-radius:5px; margin-bottom:10px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+            <strong style="color:var(--gold);">Commande du ${date}</strong>
+            <span style="color:var(--accent-safe); font-weight:bold;">${order.montant_total} €</span>
+          </div>
+          <ul style="margin-left: 20px; margin-bottom: 5px; color: #ccc;">
+            ${produitsHtml}
+          </ul>
+          <div style="font-size:0.8rem; color:#888;">Statut : ${order.statut || 'En attente'}</div>
+        </div>
+      `;
+    });
+
+    ordersList.innerHTML = html;
+  }
+
 })();
