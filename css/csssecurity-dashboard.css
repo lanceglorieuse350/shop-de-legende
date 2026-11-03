@@ -1,3 +1,6 @@
+/* ============================================================
+   DASHBOARD DE SÉCURITÉ - CSS COMPLET
+   ============================================================ */
 .security-dashboard {
   --bg-void: #03050c;
   --bg-void-2: #070b16;
@@ -87,6 +90,7 @@
   transform: translateY(0);
 }
 
+/* --- EN-TÊTE DU DASHBOARD --- */
 .security-header {
   position: relative;
   padding: 1.8rem 2rem;
@@ -213,6 +217,25 @@
   flex-wrap: wrap;
 }
 
+/* 👉 BADGE A+ */
+.security-grade {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(74, 222, 128, 0.2), rgba(74, 222, 128, 0.05));
+  border: 2px solid var(--accent-safe);
+  color: var(--accent-safe);
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 800;
+  padding: 0.1rem 0.8rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(74, 222, 128, 0.4);
+  text-shadow: 0 0 10px rgba(74, 222, 128, 0.6);
+  margin-right: 0.5rem;
+  line-height: 1;
+}
+
 .status-pill {
   display: inline-flex;
   align-items: center;
@@ -274,6 +297,7 @@
   box-shadow: 0 0 8px var(--neon-cyan);
 }
 
+/* --- KPI STRIP --- */
 .kpi-strip {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -381,6 +405,7 @@
   animation: gauge-fill 2s cubic-bezier(.2,.7,.3,1) forwards;
 }
 
+/* --- SECURITY CARDS --- */
 .security-stack {
   display: flex;
   flex-direction: column;
@@ -553,6 +578,7 @@
   white-space: nowrap;
 }
 
+/* --- TERMINAL BLOCKS --- */
 .term-block {
   position: relative;
   background:
@@ -625,6 +651,7 @@
   line-height: 1.55;
 }
 
+/* --- TABLEAU --- */
 .security-table-wrapper {
   margin-top: 0.9rem;
   border-radius: var(--radius-sm);
@@ -686,6 +713,7 @@
 }
 .security-level.safe { color: var(--accent-safe); }
 
+/* --- ENGAGEMENT & CONCLUSION --- */
 .security-engagement {
   position: relative;
   margin-top: 2.4rem;
@@ -897,6 +925,7 @@
     0 12px 32px -8px rgba(111, 245, 255, 0.85);
 }
 
+/* --- ANIMATIONS --- */
 @keyframes scan-line {
   0% { transform: translateX(-120%); }
   100% { transform: translateX(320%); }
@@ -933,6 +962,7 @@
   0% { stroke-dashoffset: 138; }
 }
 
+/* --- RESPONSIVE --- */
 @media (prefers-reduced-motion: reduce) {
   .security-dashboard *,
   .security-dashboard *::before,
@@ -952,4 +982,10 @@
   .security-conclusion { padding: 1.9rem 1.25rem; }
   .term-block { padding-left: 2.7rem; }
   .kpi-value { font-size: 1.6rem; }
+  
+  /* Ajustement du badge A+ sur mobile */
+  .security-grade {
+    font-size: 1.4rem;
+    padding: 0.1rem 0.6rem;
+  }
 }
