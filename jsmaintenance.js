@@ -1,14 +1,24 @@
+/* ============================================================
+   js/maintenance.js
+   Extrait du 1er <script> de index.html original.
+   Active / désactive la page maintenance.
+   ============================================================ */
 (function(){
   "use strict";
   var FORCER_MAINTENANCE = false;
   function getPage(){ return document.getElementById("maintenance-page"); }
   function getContenu(){
     return [
-      document.querySelector(".navbar"), document.querySelector(".marquee-bar"),
-      document.querySelector(".audio-player"), document.querySelector("main"),
-      document.querySelector("footer"), document.querySelector(".music-widget"),
-      document.getElementById("chatbot-toggle"), document.getElementById("chatbot-window"),
-      document.getElementById("top"), document.getElementById("panierFlottant")
+      document.querySelector(".navbar"),
+      document.querySelector(".marquee-bar"),
+      document.querySelector(".audio-player"),
+      document.querySelector("main"),
+      document.querySelector("footer"),
+      document.querySelector(".music-widget"),
+      document.getElementById("chatbot-toggle"),
+      document.getElementById("chatbot-window"),
+      document.getElementById("top"),
+      document.getElementById("panierFlottant")
     ].filter(Boolean);
   }
   function appliquer(actif){

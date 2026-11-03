@@ -1,7 +1,14 @@
+/* ============================================================
+   js/core.js
+   Extrait du <script> principal (navigation, musique, recherche,
+   chat, formulaire, zoom, mode, etc.)
+   ⚠️ Ce fichier doit être chargé APRÈS js/maintenance.js,
+   js/lecart-init.js et js/cart-counter.js, mais AVANT js/i18n.js.
+   ============================================================ */
 (function(){
   "use strict";
 
-  // ============ NAVIGATION ============
+  /* --- NAVIGATION --- */
   window.navigateTo = function(p, a){
     if (a === undefined) a = null;
     document.querySelectorAll(".page-section").forEach(function(s){ s.classList.remove("active"); });
@@ -13,16 +20,19 @@
     else { window.scrollTo({ top: 0, behavior: "smooth" }); }
     if (typeof window.reapplyLanguage === "function") setTimeout(window.reapplyLanguage, 120);
   };
+
   window.scrollToElementWithOffset = function(e, o){
     if (o === undefined) o = 80; if (!e) return;
     window.scrollTo({ top: e.getBoundingClientRect().top + window.pageYOffset - o, behavior: "smooth" });
   };
+
   window.scrollInPreventionModal = function(a, o){
     if (o === undefined) o = 80;
     var m = document.getElementById("prevention-page"); var e = document.getElementById(a);
     if (!m || !e) return;
     m.scrollTo({ top: Math.max(0, m.scrollTop + (e.getBoundingClientRect().top - m.getBoundingClientRect().top) - o), behavior: "smooth" });
   };
+
   window.activerPageCyberEtScroll = function(a, p){
     if (p === undefined) p = true;
     document.querySelectorAll(".page-section").forEach(function(s){ s.classList.remove("active"); });
@@ -34,6 +44,7 @@
     setTimeout(function(){ var e = document.getElementById(a); if (e) scrollToElementWithOffset(e, 80); }, 50);
     if (typeof window.reapplyLanguage === "function") setTimeout(window.reapplyLanguage, 120);
   };
+
   window.ouvrirPrevention = function(){
     document.getElementById("prevention-page").classList.add("open");
     document.body.style.overflow = "hidden";
@@ -55,13 +66,13 @@
     var w = window.scrollY > 200;
     var m = document.getElementById("prevention-page");
     var ms = m && m.classList.contains("open") && m.scrollTop > 200;
-    if (w || ms) b.classList.add("visible"); else b.classList.remove("visible");
+    if (w || ms) b.classList.add("visible");
+    else b.classList.remove("visible");
   };
 
-  // ============ MUSIQUE ============
-  var pl = document.getElementById("player"), ms = document.getElementById("musicSelect"),
-      mms = document.getElementById("miniMusicSelect"), mpb = document.getElementById("miniPlayBtn"),
-      vol = document.getElementById("volumeSlider"), eq = document.getElementById("musicEq");
+  /* --- MUSIQUE --- */
+  var pl = document.getElementById("player"), ms = document.getElementById("musicSelect"), mms = document.getElementById("miniMusicSelect"), mpb = document.getElementById("miniPlayBtn"), vol = document.getElementById("volumeSlider");
+  var eq = document.getElementById("musicEq");
   var v = (function(){ try { var v0 = parseFloat(localStorage.getItem("guillet_volume")); return (!isNaN(v0) && v0 >= 0 && v0 <= 1) ? v0 : 1; } catch(e){ return 1; } })();
   if (pl) pl.volume = v;
   if (vol) vol.value = Math.round(v * 100);
@@ -70,7 +81,8 @@
     try { localStorage.setItem("guillet_track", f); } catch(e){}
     var p = !pl.paused && !pl.ended;
     pl.src = "Musique/" + encodeURIComponent(f); pl.load();
-    if (ms) ms.value = f; if (mms) mms.value = f;
+    if (ms) ms.value = f;
+    if (mms) mms.value = f;
     pl.volume = v;
     if (p) pl.play().catch(function(){});
     updBtn();
@@ -81,18 +93,30 @@
   };
   function updBtn(){
     if (mpb) {
-      if (pl.paused) { mpb.textContent = "▶"; mpb.classList.remove("playing"); if (eq) eq.classList.remove("visible"); }
-      else { mpb.textContent = "⏸"; mpb.classList.add("playing"); if (eq) eq.classList.add("visible"); }
+      if (pl.paused) {
+        mpb.textContent = "▶";
+        mpb.classList.remove("playing");
+        if (eq) eq.classList.remove("visible");
+      } else {
+        mpb.textContent = "⏸";
+        mpb.classList.add("playing");
+        if (eq) eq.classList.add("visible");
+      }
     }
   }
-  if (vol) vol.addEventListener("input", function(e){ v = e.target.value / 100; pl.volume = v; try { localStorage.setItem("guillet_volume", String(v)); } catch(e2){} });
+  if (vol) vol.addEventListener("input", function(e){
+    v = e.target.value / 100; pl.volume = v;
+    try { localStorage.setItem("guillet_volume", String(v)); } catch(e2){}
+  });
   if (pl) {
     pl.addEventListener("volumechange", function(){ if (vol) vol.value = Math.round(pl.volume * 100); });
-    pl.addEventListener("play", updBtn); pl.addEventListener("pause", updBtn); pl.addEventListener("ended", updBtn);
+    pl.addEventListener("play", updBtn);
+    pl.addEventListener("pause", updBtn);
+    pl.addEventListener("ended", updBtn);
   }
   updBtn();
 
-  // ============ DÉTAILS PRODUITS ============
+  /* --- DETAILS (Voir plus / Voir moins) --- */
   window.toggleDetails = function(b){
     var d = b.nextElementSibling;
     var o = b.getAttribute("aria-expanded") !== "true";
@@ -104,7 +128,7 @@
     b.textContent = (dict && dict[key]) || fb;
   };
 
-  // ============ FORMULAIRE ============
+  /* --- FORMULAIRE CONTACT --- */
   window.envoyerMail = function(e){
     if (e) e.preventDefault();
     var n = document.getElementById("nom"), em = document.getElementById("email"), m = document.getElementById("message");
@@ -114,36 +138,34 @@
     if (!nv || !ev || !mv) { alert((dict && dict["fill_all_fields"]) || "Veuillez remplir tous les champs."); return; }
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(ev)) { alert((dict && dict["invalid_email"]) || "Adresse email invalide."); return; }
     var mailto = "mailto:lanceglorieuse@gmail.com?subject=" + encodeURIComponent("Message de " + nv) + "&body=" + encodeURIComponent("Email : " + ev + "\n\n" + mv);
-    var c = document.getElementById("confirmation"); if (c) { c.hidden = false; c.style.display = "block"; }
+    var c = document.getElementById("confirmation");
+    if (c) { c.hidden = false; c.style.display = "block"; }
     window.location.href = mailto;
   };
 
-  // ============ ZOOM ============
+  /* --- ZOOM IMAGE --- */
   window.ouvrirZoom = function(s, e){
     if (e) e.stopPropagation();
     window.ancienFocus = document.activeElement;
     document.getElementById("zoomImg").src = s;
     document.getElementById("zoomModal").style.display = "flex";
-    var zc = document.querySelector(".zoom-close"); if (zc) zc.focus();
+    document.querySelector(".zoom-close").focus();
   };
   window.fermerZoom = function(){
     document.getElementById("zoomModal").style.display = "none";
     if (window.ancienFocus) { window.ancienFocus.focus(); window.ancienFocus = null; }
   };
 
-  // ============ MODE CLAIR ============
+  /* --- MODE CLAIR / SOMBRE --- */
   window.toggleMode = function(){
     document.body.classList.toggle("light-mode");
     try { localStorage.setItem("guillet_mode", document.body.classList.contains("light-mode") ? "light" : "dark"); } catch(e){}
   };
 
-  // ============ RECHERCHE ============
-  var sf = document.getElementById("searchForm"), si = document.getElementById("searchInput"),
-      sc = document.getElementById("clearSearch"), ss = document.getElementById("searchSuggestions"),
-      sr = document.getElementById("searchResults"), sst = document.getElementById("searchStatus"),
-      np = document.getElementById("noProducts");
+  /* --- RECHERCHE PRODUITS --- */
+  var sf = document.getElementById("searchForm"), si = document.getElementById("searchInput"), sc = document.getElementById("clearSearch"), ss = document.getElementById("searchSuggestions"), sr = document.getElementById("searchResults"), sst = document.getElementById("searchStatus"), np = document.getElementById("noProducts");
   var fmt = new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" });
-  function norm(t){ return String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("fr").replace(/['']/g, " ").replace(/[^\p{L}\p{N}]+/gu, " ").trim(); }
+  function norm(t){ return String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("fr").replace(/[’']/g, " ").replace(/[^\p{L}\p{N}]+/gu, " ").trim(); }
   var cards = Array.from(document.querySelectorAll(".product-card")).map(function(c){
     var n = c.dataset.name || "";
     var d = c.querySelector(".desc") ? c.querySelector(".desc").textContent : "";
@@ -172,19 +194,23 @@
       res.forEach(function(p){
         var li = document.createElement("li");
         var a = document.createElement("a");
-        var n = document.createElement("span"), pr = document.createElement("span");
+        var n = document.createElement("span");
+        var pr = document.createElement("span");
         a.className = "search-result"; a.href = "#" + p.carte.id;
         n.textContent = p.nom; pr.textContent = fmt.format(p.prix); pr.className = "search-result-price";
-        a.append(n, pr); li.appendChild(a); if (sr) sr.appendChild(li);
+        a.append(n, pr); li.appendChild(a);
+        if (sr) sr.appendChild(li);
         a.addEventListener("click", function(e){ e.preventDefault(); pick(p); });
       });
     }
     if (showSuggestions) show();
   }
   function pick(p){
-    navigateTo("accueil"); si.value = p.nom; filter(false); hide();
+    navigateTo("accueil");
+    si.value = p.nom; filter(false); hide();
     cards.forEach(function(e){ e.carte.classList.remove("search-highlight"); });
-    clearTimeout(timer); p.carte.classList.add("search-highlight");
+    clearTimeout(timer);
+    p.carte.classList.add("search-highlight");
     setTimeout(function(){ p.carte.focus({ preventScroll: true }); p.carte.scrollIntoView({ behavior: "smooth", block: "start" }); }, 100);
     timer = setTimeout(function(){ p.carte.classList.remove("search-highlight"); }, 2500);
   }
@@ -197,26 +223,33 @@
       if (e.key === "Escape") hide();
     });
   }
-  if (sf) sf.addEventListener("submit", function(e){
-    e.preventDefault(); filter(false); hide();
-    if (!si.value.trim()) return;
-    if (res.length === 1) pick(res[0]);
-    else { navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produits"); if (p) p.scrollIntoView({ behavior: "smooth", block: "start" }); }, 100); }
-  });
+  if (sf) {
+    sf.addEventListener("submit", function(e){
+      e.preventDefault(); filter(false); hide();
+      if (!si.value.trim()) return;
+      if (res.length === 1) pick(res[0]);
+      else { navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produits"); if (p) p.scrollIntoView({ behavior: "smooth", block: "start" }); }, 100); }
+    });
+  }
   if (sc) sc.addEventListener("click", function(){ si.value = ""; filter(false); si.focus(); });
   document.addEventListener("click", function(e){ if (sf && !sf.contains(e.target)) hide(); });
 
-  // ============ CHATBOT ============
+  /* --- CHATBOT --- */
   var cw = document.getElementById("chatbot-window"), cm = document.getElementById("chat-messages"), ci = document.getElementById("chat-input");
+
   window.toggleChatbot = function(){
     window.chatOuvert = !window.chatOuvert;
     if (window.chatOuvert) {
       if (cw) cw.classList.add("open");
       if (cm && cm.children.length === 0) initChat();
-      var badge = document.getElementById("chatbot-badge"); if (badge) badge.style.display = "none";
+      var badge = document.getElementById("chatbot-badge");
+      if (badge) badge.style.display = "none";
       setTimeout(function(){ if (ci) ci.focus(); }, 300);
-    } else { if (cw) cw.classList.remove("open"); }
+    } else {
+      if (cw) cw.classList.remove("open");
+    }
   };
+
   window.envoyerMessageChat = function(tF){
     if (tF === undefined) tF = null;
     var t = tF || (ci ? ci.value.trim() : ""); if (!t) return;
@@ -228,7 +261,11 @@
       var txtKey = m.reponseKey;
       var txt = (dict && dict[txtKey]) ? dict[txtKey] : m.reponse;
       var opts = m.options ? m.options.map(function(o){
-        return { label: (dict && dict[o.labelKey]) ? dict[o.labelKey] : o.label, labelKey: o.labelKey, action: o.action };
+        return {
+          label: (dict && dict[o.labelKey]) ? dict[o.labelKey] : o.label,
+          labelKey: o.labelKey,
+          action: o.action
+        };
       }) : null;
       reply(txt, opts, txtKey);
     } else {
@@ -236,23 +273,29 @@
       var defaultMsg = (dict && dict[keyU]) ? dict[keyU] : "Je ne suis pas sûr de bien comprendre 🤔";
       reply(defaultMsg, [
         { labelKey: "chat_btn_all_pages", label: "📋 Voir toutes les pages", action: function(){ envoyerMessageChat("menu"); } },
-        { labelKey: "chat_btn_prices", label: "💶 Voir les prix", action: function(){ envoyerMessageChat("prix"); } },
-        { labelKey: "chat_btn_contact_me", label: "📞 Vous contacter", action: function(){ envoyerMessageChat("contact"); } },
-        { labelKey: "chat_btn_delivery", label: "🚚 Livraison", action: function(){ envoyerMessageChat("livraison"); } }
+        { labelKey: "chat_btn_prices",    label: "💶 Voir les prix",         action: function(){ envoyerMessageChat("prix"); } },
+        { labelKey: "chat_btn_contact_me",label: "📞 Vous contacter",        action: function(){ envoyerMessageChat("contact"); } },
+        { labelKey: "chat_btn_delivery",  label: "🚚 Livraison",             action: function(){ envoyerMessageChat("livraison"); } }
       ], keyU);
     }
   };
+
   function addMsg(html, ty, o, key){
-    if (ty === undefined) ty = "bot"; if (o === undefined) o = null; if (!cm) return;
-    var m = document.createElement("div"); m.className = "chat-msg " + ty;
+    if (ty === undefined) ty = "bot";
+    if (o === undefined) o = null;
+    if (!cm) return;
+    var m = document.createElement("div");
+    m.className = "chat-msg " + ty;
     if (key) m.dataset.i18nKey = key;
-    m.innerHTML = html; cm.appendChild(m);
+    m.innerHTML = html;
+    cm.appendChild(m);
     if (o && o.length) {
       var z = document.createElement("div"); z.className = "chat-options";
       o.forEach(function(opt){
-        var b = document.createElement("button"); b.type = "button"; b.className = "chat-option"; b.textContent = opt.label;
+        var b = document.createElement("button");
+        b.type = "button"; b.className = "chat-option"; b.textContent = opt.label;
         if (opt.labelKey) b.dataset.i18nKey = opt.labelKey;
-        b.addEventListener("click", function(){ addMsgText(opt.label, "user"); opt.action(); });
+        b.onclick = function(){ addMsgText(opt.label, "user"); opt.action(); };
         z.appendChild(b);
       });
       cm.appendChild(z);
@@ -260,15 +303,20 @@
     cm.scrollTop = cm.scrollHeight;
   }
   function addMsgText(text, ty){
-    if (ty === undefined) ty = "user"; if (!cm) return;
-    var m = document.createElement("div"); m.className = "chat-msg " + ty;
-    m.textContent = text; cm.appendChild(m); cm.scrollTop = cm.scrollHeight;
+    if (ty === undefined) ty = "user";
+    if (!cm) return;
+    var m = document.createElement("div");
+    m.className = "chat-msg " + ty;
+    m.textContent = text;
+    cm.appendChild(m);
+    cm.scrollTop = cm.scrollHeight;
   }
   function reply(t, o, key){
-    if (o === undefined) o = null; if (!cm) return;
+    if (o === undefined) o = null;
+    if (!cm) return;
     var m = document.createElement("div"); m.className = "chat-msg bot";
-    var s = document.createElement("span"); s.className = "chat-loading"; s.textContent = "…";
-    m.appendChild(s); cm.appendChild(m); cm.scrollTop = cm.scrollHeight;
+    m.innerHTML = '<span style="opacity:.6">…</span>';
+    cm.appendChild(m); cm.scrollTop = cm.scrollHeight;
     setTimeout(function(){ m.remove(); addMsg(t, "bot", o, key); }, 500);
   }
   function initChat(){
@@ -280,27 +328,42 @@
       var promptKey = "chat_prompt";
       var prompt = (dict && dict[promptKey]) ? dict[promptKey] : "Posez-moi une question :";
       reply(prompt, [
-        { labelKey: "chat_btn_menu", label: "📋 Menu des pages", action: function(){ envoyerMessageChat("menu"); } },
-        { labelKey: "chat_btn_prices", label: "💶 Les prix", action: function(){ envoyerMessageChat("prix"); } },
-        { labelKey: "chat_btn_delivery", label: "🚚 Livraison", action: function(){ envoyerMessageChat("livraison"); } }
+        { labelKey: "chat_btn_menu",     label: "📋 Menu des pages", action: function(){ envoyerMessageChat("menu"); } },
+        { labelKey: "chat_btn_prices",   label: "💶 Les prix",        action: function(){ envoyerMessageChat("prix"); } },
+        { labelKey: "chat_btn_delivery", label: "🚚 Livraison",       action: function(){ envoyerMessageChat("livraison"); } }
       ], promptKey);
     }, 900);
   }
+
   window.retranslateChat = function(){
     var dict = window.__getDict ? window.__getDict() : null;
-    var cm2 = document.getElementById("chat-messages"); if (!cm2) return;
+    var cm2 = document.getElementById("chat-messages");
+    if (!cm2) return;
     cm2.querySelectorAll(".chat-msg.bot[data-i18n-key]").forEach(function(el){
       var key = el.dataset.i18nKey;
-      if (dict && dict[key]) el.innerHTML = dict[key];
-      else if (key === "chat_hello") el.innerHTML = "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> !";
-      else if (key === "chat_prompt") el.innerHTML = "Posez-moi une question :";
-      else if (key === "chat_unknown") el.innerHTML = "Je ne suis pas sûr de bien comprendre 🤔";
+      if (dict && dict[key]) {
+        el.innerHTML = dict[key];
+      } else if (key === "chat_hello") {
+        el.innerHTML = "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> !";
+      } else if (key === "chat_prompt") {
+        el.innerHTML = "Posez-moi une question :";
+      } else if (key === "chat_unknown") {
+        el.innerHTML = "Je ne suis pas sûr de bien comprendre 🤔";
+      }
     });
     cm2.querySelectorAll(".chat-option[data-i18n-key]").forEach(function(el){
-      var key = el.dataset.i18nKey; if (dict && dict[key]) el.textContent = dict[key];
+      var key = el.dataset.i18nKey;
+      if (dict && dict[key]) {
+        el.textContent = dict[key];
+      }
     });
-    if (ci) { var phKey = "ask_question"; if (dict && dict[phKey]) ci.placeholder = dict[phKey]; else ci.placeholder = "Posez-moi une question..."; }
+    if (ci) {
+      var phKey = "ask_question";
+      if (dict && dict[phKey]) ci.placeholder = dict[phKey];
+      else ci.placeholder = "Posez-moi une question...";
+    }
   };
+
   var intents = [
     { intention: "menu", motsCles: ["menu","sommaire","tout","liste","pages"], reponseKey: "chat_menu_title", reponse: "Voici toutes les sections du site :", options: [
       { labelKey: "chat_btn_home", label: "🏠 Accueil", action: function(){ navigateTo("accueil"); toggleChatbot(); } },
@@ -338,13 +401,14 @@
     var tx = t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\w\s]/gi, "");
     var mm = null, ms2 = 0;
     intents.forEach(function(item){
-      var s = 0; item.motsCles.forEach(function(mc){ if (tx.includes(mc)) s += 1; });
+      var s = 0;
+      item.motsCles.forEach(function(mc){ if (tx.includes(mc)) s += 1; });
       if (s > ms2) { ms2 = s; mm = item; }
     });
     return ms2 > 0 ? mm : null;
   }
 
-  // ============ DOMContentLoaded ============
+  /* --- INITIALISATION GLOBAL --- */
   document.addEventListener("DOMContentLoaded", function(){
     var ih = window.location.hash.replace("#", "") || "accueil";
     var cp = ["accueil","apropos","vinted","ongles-beaute","parrainage","prevention-cyber","mentions","cgv","confidentialite","faq","contact"];
@@ -377,7 +441,9 @@
       var mt = "quelques-notes.mp3";
       try { mt = localStorage.getItem("guillet_track") || mt; } catch(e){}
       if (ms.querySelector('option[value="' + mt.replace(/"/g,'\\"') + '"]')) {
-        ms.value = mt; pl.src = "Musique/" + encodeURIComponent(mt); pl.load();
+        ms.value = mt;
+        pl.src = "Musique/" + encodeURIComponent(mt);
+        pl.load();
       }
     }
 
@@ -412,90 +478,16 @@
         chatBadge.style.display = chatOpened ? "none" : "block";
       } catch(e) { chatBadge.style.display = "block"; }
     }
-
-    // ===== ATTACHEMENT DES EVENT LISTENERS =====
-    // Navigation
-    document.querySelectorAll("[data-nav]").forEach(function(el){
-      el.addEventListener("click", function(e){
-        e.preventDefault();
-        var scroll = el.dataset.scroll || null;
-        navigateTo(el.dataset.nav, scroll);
-      });
-      el.addEventListener("keydown", function(e){
-        if (e.key === "Enter") { e.preventDefault(); var scroll = el.dataset.scroll || null; navigateTo(el.dataset.nav, scroll); }
-      });
-    });
-    // Prévention navigation
-    document.querySelectorAll("[data-prevention-nav]").forEach(function(el){
-      el.addEventListener("click", function(e){
-        e.preventDefault();
-        fermerPrevention();
-        navigateTo(el.dataset.preventionNav, el.dataset.scroll || null);
-      });
-    });
-    // Zoom
-    document.querySelectorAll("[data-zoom]").forEach(function(el){
-      el.addEventListener("click", function(e){ e.stopPropagation(); ouvrirZoom(el.src, e); });
-      el.addEventListener("keydown", function(e){ if (e.key === "Enter") { e.preventDefault(); ouvrirZoom(el.src, e); } });
-    });
-    document.querySelectorAll("[data-zoom-stop]").forEach(function(el){
-      el.addEventListener("click", function(e){ e.stopPropagation(); });
-    });
-    // Fermer zoom
-    document.querySelectorAll("[data-close-zoom]").forEach(function(el){
-      el.addEventListener("click", function(){ fermerZoom(); });
-    });
-    document.querySelectorAll("[data-close-zoom-stop]").forEach(function(el){
-      el.addEventListener("click", function(e){ e.stopPropagation(); fermerZoom(); });
-    });
-    // Détails produits
-    document.querySelectorAll("[data-toggle-details]").forEach(function(el){
-      el.addEventListener("click", function(){ toggleDetails(el); });
-    });
-    // Ouvrir/fermer prévention
-    document.querySelectorAll("[data-open-prevention]").forEach(function(el){
-      el.addEventListener("click", function(e){ e.preventDefault(); ouvrirPrevention(); });
-    });
-    document.querySelectorAll("[data-close-prevention]").forEach(function(el){
-      el.addEventListener("click", function(e){ e.preventDefault(); fermerPrevention(); });
-    });
-    // Mode clair
-    document.querySelectorAll("[data-toggle-mode]").forEach(function(el){
-      el.addEventListener("click", toggleMode);
-    });
-    // Play musique
-    document.querySelectorAll("[data-toggle-play]").forEach(function(el){
-      el.addEventListener("click", togglePlayMusique);
-    });
-    // Chat toggle
-    document.querySelectorAll("[data-toggle-chat]").forEach(function(el){
-      el.addEventListener("click", function(){
-        toggleChatbot();
-        var badge = document.getElementById("chatbot-badge");
-        if (badge) { badge.style.display = "none"; try { localStorage.setItem("guillet_chat_opened", "1"); } catch(e){} }
-      });
-    });
-    // Chat send
-    document.querySelectorAll("[data-chat-send]").forEach(function(el){
-      el.addEventListener("click", function(){ envoyerMessageChat(); });
-    });
-    // Retour en haut
-    document.querySelectorAll("[data-back-top]").forEach(function(el){
-      el.addEventListener("click", retourEnHaut);
-    });
-    // Formulaire contact
-    document.querySelectorAll("[data-contact-form]").forEach(function(el){
-      el.addEventListener("submit", envoyerMail);
-    });
-    // Langue
-    document.querySelectorAll("[data-lang-select]").forEach(function(el){
-      el.addEventListener("change", function(){ changeLanguage(el.value); });
-    });
-    // Musique
-    document.querySelectorAll("[data-music-select]").forEach(function(el){
-      el.addEventListener("change", function(){ changerMusique(el.value); });
-    });
-    // Chat input enter
-    if (ci) ci.addEventListener("keydown", function(e){ if (e.key === "Enter") envoyerMessageChat(); });
   });
+
+  /* Préserve le badge caché après ouverture */
+  var _origToggleChatbot = window.toggleChatbot;
+  window.toggleChatbot = function(){
+    var badge = document.getElementById("chatbot-badge");
+    if (badge) {
+      badge.style.display = "none";
+      try { localStorage.setItem("guillet_chat_opened", "1"); } catch(e){}
+    }
+    _origToggleChatbot();
+  };
 })();

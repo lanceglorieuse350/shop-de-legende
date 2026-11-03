@@ -1,8 +1,17 @@
+/* ============================================================
+   js/i18n.js
+   Extrait du dernier <script> (après translations.js).
+   Gère l'application des traductions.
+   ⚠️ Nécessite : translations.js chargé AVANT, et js/core.js
+   chargé AVANT (pour retranslateChat).
+   ============================================================ */
 (function(){
   "use strict";
-  var ORI_TEXT = new WeakMap(), ORI_ATTR = new WeakMap(), ORI_HTML = new WeakMap(), CURRENT_LANG = "fr";
+
+  var ORI_TEXT = new WeakMap(); var ORI_ATTR = new WeakMap(); var ORI_HTML = new WeakMap(); var CURRENT_LANG = "fr";
   function getDict(lang){ return lang === "fr" ? null : (window.TRANSLATIONS[lang] || null); }
   window.__getDict = function(){ return getDict(CURRENT_LANG); };
+
   function trNode(node, dict){
     if (!ORI_TEXT.has(node)) ORI_TEXT.set(node, node.nodeValue);
     var original = ORI_TEXT.get(node); if (!original || !original.trim()) return;
@@ -15,19 +24,20 @@
       node.nodeValue = lead + dict[t] + trail;
     } else node.nodeValue = original;
   }
+
   function trTree(root, dict){
     if (!root) return;
     var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
       acceptNode: function(node){
         var p = node.parentElement; if (!p) return NodeFilter.FILTER_REJECT;
-        var tag = p.tagName;
-        if (["SCRIPT","STYLE","NOSCRIPT","CODE","TEXTAREA"].indexOf(tag) !== -1) return NodeFilter.FILTER_REJECT;
+        var tag = p.tagName; if (["SCRIPT","STYLE","NOSCRIPT","CODE","TEXTAREA"].indexOf(tag) !== -1) return NodeFilter.FILTER_REJECT;
         return NodeFilter.FILTER_ACCEPT;
       }
     });
     var nodes = [], n; while ((n = walker.nextNode())) nodes.push(n);
     nodes.forEach(function(node){ trNode(node, dict); });
   }
+
   function applyAll(){
     var dict = getDict(CURRENT_LANG);
     document.querySelectorAll("[data-i18n]").forEach(function(el){
@@ -59,12 +69,15 @@
   window.applyLanguage = function(lang){
     if (lang !== "fr" && !window.TRANSLATIONS[lang]) lang = "fr";
     CURRENT_LANG = lang; document.documentElement.lang = lang;
-    if (typeof window.retranslateChat === "function") window.retranslateChat();
+    if (typeof window.retranslateChat === "function") {
+      window.retranslateChat();
+    }
     applyAll();
     var sel = document.getElementById("langSelect"); if (sel) sel.value = lang;
     try { localStorage.setItem("guillet_lang", lang); } catch(e){}
   };
   window.changeLanguage = function(lang){ window.applyLanguage(lang); };
+
   document.addEventListener("DOMContentLoaded", function(){
     var saved = "fr"; try { saved = localStorage.getItem("guillet_lang") || "fr"; } catch(e){}
     if (!window.TRANSLATIONS[saved] && saved !== "fr") saved = "fr";
