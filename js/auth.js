@@ -18,15 +18,15 @@
   // ==========================================
   // 2. RÉCUPÉRATION DES ÉLÉMENTS HTML
   // ==========================================
-  const authModal     = document.getElementById("authModal");
-  const authBtn       = document.getElementById("authBtn");
+  const authModal      = document.getElementById("authModal");
+  const authBtn        = document.getElementById("authBtn");
   const closeAuthModal = document.getElementById("closeAuthModal");
-  const authForm      = document.getElementById("authForm");
-  const authEmail     = document.getElementById("authEmail");
-  const authPassword  = document.getElementById("authPassword");
-  const authMessage   = document.getElementById("authMessage");
-  const googleAuthBtn = document.getElementById("googleAuthBtn");
-  const authSubmitBtn = document.getElementById("authSubmitBtn");
+  const authForm       = document.getElementById("authForm");
+  const authEmail      = document.getElementById("authEmail");
+  const authPassword   = document.getElementById("authPassword");
+  const authMessage    = document.getElementById("authMessage");
+  const googleAuthBtn  = document.getElementById("googleAuthBtn");
+  const authSubmitBtn  = document.getElementById("authSubmitBtn");
 
   if (!authModal || !authBtn || !authForm) {
     console.warn("[AUTH] Éléments HTML essentiels manquants (modal / bouton / formulaire).");
@@ -51,12 +51,10 @@
   function setLoading(loading) {
     isLoading = !!loading;
     if (!authSubmitBtn) return;
-    authSubmitBtn.disabled     = loading;
+    authSubmitBtn.disabled      = loading;
     authSubmitBtn.style.opacity = loading ? "0.6" : "1";
     authSubmitBtn.style.cursor  = loading ? "wait" : "pointer";
-    authSubmitBtn.textContent   = loading
-      ? "⏳ Chargement..."
-      : "Se connecter / S'inscrire";
+    authSubmitBtn.textContent   = loading ? "⏳ Chargement..." : "Se connecter / S'inscrire";
   }
 
   function openModal() {
@@ -73,7 +71,6 @@
     if (authForm) authForm.reset();
   }
 
-  // Met à jour le bouton en se basant sur un attribut data (fiable, non traduisible)
   function updateButton(user) {
     if (!authBtn) return;
     currentUser = user || null;
@@ -98,7 +95,6 @@
   // 5. ÉVÉNEMENTS UI
   // ==========================================
   authBtn.addEventListener("click", () => {
-    // On se base sur data-logged-in, PAS sur le texte
     if (authBtn.getAttribute("data-logged-in") === "true") {
       if (confirm("Voulez-vous vous déconnecter ?")) {
         supabaseClient.auth.signOut();
@@ -110,12 +106,10 @@
 
   if (closeAuthModal) closeAuthModal.addEventListener("click", closeModal);
 
-  // Fermeture au clic sur le fond de la modale
   authModal.addEventListener("click", (e) => {
     if (e.target === authModal) closeModal();
   });
 
-  // Fermeture avec la touche Échap
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && authModal.style.display === "flex") closeModal();
   });
@@ -143,11 +137,9 @@
     showMessage("Vérification en cours...", "#fff");
 
     try {
-      // --- Tentative de connexion ---
       const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
 
       if (error) {
-        // Cas 1 : mauvais identifiants → on tente l'inscription
         if (error.message.includes("Invalid login credentials")) {
           const { data: signUpData, error: signUpError } = await supabaseClient.auth.signUp({
             email,
@@ -157,32 +149,25 @@
           if (signUpError) {
             showMessage("Erreur : " + signUpError.message, "var(--red)");
           } else if (signUpData.session) {
-            // Confirmation email désactivée → connexion immédiate
             showMessage("✅ Inscription réussie !", "var(--accent-safe)");
             authForm.reset();
             setTimeout(closeModal, 1500);
           } else {
-            // Confirmation email requise
             showMessage(
               "✅ Inscription réussie ! Vérifie tes e-mails pour confirmer ton compte.",
               "var(--accent-safe)"
             );
             authForm.reset();
           }
-        }
-        // Cas 2 : email non confirmé
-        else if (error.message.includes("Email not confirmed")) {
+        } else if (error.message.includes("Email not confirmed")) {
           showMessage(
             "📧 Ton e-mail n'est pas encore confirmé. Vérifie ta boîte de réception.",
             "var(--neon-gold)"
           );
-        }
-        // Cas 3 : autre erreur
-        else {
+        } else {
           showMessage("Erreur : " + error.message, "var(--red)");
         }
       } else {
-        // Connexion réussie
         showMessage("✅ Connexion réussie !", "var(--accent-safe)");
         authForm.reset();
         setTimeout(closeModal, 1500);
@@ -202,8 +187,6 @@
     googleAuthBtn.addEventListener("click", async () => {
       showMessage("Redirection vers Google...", "#fff");
 
-      // Sur Vercel : https://ton-domaine.vercel.app/
-      // Sur file:// : échoue — il faut un vrai serveur
       const redirectUrl = window.location.origin + window.location.pathname;
 
       const { error } = await supabaseClient.auth.signInWithOAuth({
@@ -225,14 +208,13 @@
     const user = session ? session.user : null;
     updateButton(user);
 
-    // Retour de OAuth : on ferme la modale si elle est ouverte
     if (event === "SIGNED_IN" && authModal.style.display === "flex") {
       setTimeout(closeModal, 800);
     }
   });
 
   // ==========================================
-  // 9. INITIALISATION (restaure la session existante)
+  // 9. INITIALISATION
   // ==========================================
   (async () => {
     try {
