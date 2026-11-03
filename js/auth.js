@@ -4,7 +4,7 @@
   // ==========================================
   // 1. CONFIGURATION SUPABASE
   // ==========================================
-  const SUPABASE_URL = "https://wrhokeajimupnxpfucc.supabase.co";
+  const SUPABASE_URL = "https://wrhokeajjmupnxpfurcc.supabase.co";
   const SUPABASE_ANON_KEY = "sb_publishable_0mmEGRZ_GKmgKSMKE83S8A_huJaAdL9";
 
   // Vérification que le SDK Supabase est bien chargé
