@@ -28,6 +28,9 @@
 <link rel="stylesheet" href="css/cssmain.css">
 <link rel="stylesheet" href="css/csssecurity-dashboard.css">
 
+<!-- SDK SUPABASE -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
 <!-- Script Analytics externe (plus d'inline) -->
 <script src="js/vercel-analytics.js" defer></script>
 <script defer src="/_vercel/insights/script.js"></script>
@@ -247,6 +250,10 @@
         <option value="ru">🇷🇺 RU</option>
         <option value="zh">🇨🇳 ZH</option>
       </select>
+      
+      <!-- BOUTON CONNEXION AJOUTÉ ICI -->
+      <button type="button" id="authBtn" class="mode-btn" style="background:transparent;color:var(--gold);border:1px solid var(--gold);">🔐 Connexion</button>
+
       <button type="button" class="mode-btn" aria-label="Changer de mode clair ou sombre" data-i18n-aria="toggle_mode">🌙 / ☀️</button>
     </div>
   </div>
@@ -351,7 +358,7 @@
       <div class="pillar"><h3 data-i18n="authority">🖤 Autorité</h3><p data-i18n="authority_desc">Le noir incarne la maîtrise de soi, la rigueur et la solidité.</p></div>
       <div class="pillar"><h3 data-i18n="willpower">❤️ Volonté</h3><p data-i18n="willpower_desc">Le rouge représente l'énergie, le courage et la détermination.</p></div>
       <div class="pillar"><h3 data-i18n="legitimacy">👑 Légitimité</h3><p data-i18n="legitimacy_desc">L'or symbolise la valeur créée, l'exigence et la reconnaissance.</p></div>
-      <div class="pillar"><h3 data-i18n="vision">🚀 Vision</h3><p data-i( )18n="vision_desc">Le bleu ouvre la voie à l'innovation et à l'avenir.</p></div>
+      <div class="pillar"><h3 data-i18n="vision">🚀 Vision</h3><p data-i18n="vision_desc">Le bleu ouvre la voie à l'innovation et à l'avenir.</p></div>
     </div>
   </section>
 
@@ -368,7 +375,7 @@
       <div class="product-info">
         <h3 class="product-title" data-i18n="drone_title">KY108 DRONE – L'ŒIL DU FUTUR EST ENTRE VOS MAINS</h3>
         <p class="tagline" data-i18n="drone_tagline">Dominez le ciel… ou il vous dominera. Soyez des yeux sans avoir besoin de voir.</p>
-        <div class="price"><span class="promo">89 €</span><span class="off"> </span></div>
+        <div class="price"><span class="promo">89 €</span></div>
         <p class="desc" data-i18n="drone_desc">Un drone conçu pour les créateurs, les explorateurs et les pilotes ambitieux. Capturez le monde avec une précision chirurgicale.</p>
         <div class="drone-video-wrapper">
           <video src="publicite_drone.mp4" controls preload="metadata" playsinline class="video-full" aria-label="Publicité du drone KY108">
@@ -1739,6 +1746,37 @@
   <span id="panierCount" aria-live="polite">0</span>
 </button>
 
+<!-- MODALE AUTHENTIFICATION AJOUTÉE ICI -->
+<div id="authModal" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.9); backdrop-filter:blur(5px); justify-content:center; align-items:center; padding:1rem;">
+  <div style="background:linear-gradient(135deg, var(--card-bg), #0a0a0a); border:2px solid var(--gold); border-radius:var(--radius-lg); padding:2.5rem; width:100%; max-width:400px; position:relative;">
+    <button type="button" id="closeAuthModal" style="position:absolute; top:1rem; right:1rem; background:transparent; border:none; color:#fff; font-size:1.5rem; cursor:pointer;">✕</button>
+    
+    <h2 style="text-align:center; color:var(--gold); font-family:var(--font-display); margin-bottom:1.5rem;">🔐 Espace Client</h2>
+    
+    <!-- Formulaire -->
+    <form id="authForm" style="display:flex; flex-direction:column; gap:1rem;">
+      <input type="email" id="authEmail" placeholder="Votre adresse e-mail" required style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      <input type="password" id="authPassword" placeholder="Votre mot de passe" required style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      
+      <button type="submit" id="authSubmitBtn" style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-weight:bold; padding:1rem; border-radius:var(--radius-md); border:none; cursor:pointer; margin-top:0.5rem;">Se connecter / S'inscrire</button>
+    </form>
+
+    <div style="text-align:center; margin-top:1rem; font-size:0.9rem; color:#aaa;">
+      <span id="authMessage"></span>
+    </div>
+
+    <div style="display:flex; align-items:center; margin:1.5rem 0;">
+      <hr style="flex:1; border:none; border-top:1px solid rgba(255,255,255,0.1);">
+      <span style="padding:0 1rem; color:#666; font-size:0.8rem;">OU</span>
+      <hr style="flex:1; border:none; border-top:1px solid rgba(255,255,255,0.1);">
+    </div>
+
+    <button type="button" id="googleAuthBtn" style="width:100%; padding:1rem; background:#fff; color:#000; border:none; border-radius:var(--radius-md); font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:0.5rem;">
+      <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" style="width:20px; height:20px;"> Continuer avec Google
+    </button>
+  </div>
+</div>
+
 <!-- CHARGEMENT DES SCRIPTS EXTERNES -->
 <script src="js/jslecart-init.js"></script>
 <script src="js/jscart-counter.js"></script>
@@ -1747,6 +1785,8 @@
 <script src="js/translations.js"></script>
 <script src="js/jsi18n.js"></script>
 <script src="js/jscore.js"></script>
+<!-- SCRIPT AUTHENTIFICATION AJOUTÉ ICI -->
+<script src="js/auth.js"></script>
 
 </body>
 </html>
