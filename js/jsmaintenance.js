@@ -1,8 +1,3 @@
-/* ============================================================
-   js/maintenance.js
-   Extrait du 1er <script> de index.html original.
-   Active / désactive la page maintenance.
-   ============================================================ */
 (function(){
   "use strict";
   var FORCER_MAINTENANCE = false;

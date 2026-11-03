@@ -1,10 +1,3 @@
-/* ============================================================
-   js/i18n.js
-   Extrait du dernier <script> (après translations.js).
-   Gère l'application des traductions.
-   ⚠️ Nécessite : translations.js chargé AVANT, et js/core.js
-   chargé AVANT (pour retranslateChat).
-   ============================================================ */
 (function(){
   "use strict";
 

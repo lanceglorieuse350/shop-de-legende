@@ -1,7 +1,3 @@
-/* ============================================================
-   js/lecart-init.js
-   Extrait du <script> LeCart.init(...) après </footer>.
-   ============================================================ */
 document.addEventListener('DOMContentLoaded', function() {
   if (typeof LeCart === 'undefined' || typeof LeCart.init !== 'function') {
     console.warn('[LeCart] Bibliothèque non chargée.');

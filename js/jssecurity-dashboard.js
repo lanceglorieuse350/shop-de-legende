@@ -1,8 +1,3 @@
-/* ============================================================
-   js/security-dashboard.js
-   Extrait du <script> IntersectionObserver du security-dashboard.
-   Ajoute .is-visible aux .reveal quand ils entrent dans le viewport.
-   ============================================================ */
 (function () {
   var els = document.querySelectorAll('#security-dashboard .reveal');
   if (!els.length) return;

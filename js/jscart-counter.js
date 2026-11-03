@@ -1,7 +1,3 @@
-/* ============================================================
-   js/cart-counter.js
-   Extrait du <script> majCompteur (compteur panier flottant).
-   ============================================================ */
 (function(){
   "use strict";
   function majCompteur() {
