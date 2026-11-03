@@ -58,7 +58,9 @@
     });
     trTree(document.body, dict);
   }
+  
   window.reapplyLanguage = function(){ applyAll(); };
+  
   window.applyLanguage = function(lang){
     if (lang !== "fr" && !window.TRANSLATIONS[lang]) lang = "fr";
     CURRENT_LANG = lang; document.documentElement.lang = lang;
@@ -69,9 +71,18 @@
     var sel = document.getElementById("langSelect"); if (sel) sel.value = lang;
     try { localStorage.setItem("guillet_lang", lang); } catch(e){}
   };
+  
   window.changeLanguage = function(lang){ window.applyLanguage(lang); };
 
   document.addEventListener("DOMContentLoaded", function(){
+    // 👉 CORRECTION ICI : On rebranche l'événement sur le menu déroulant
+    var sel = document.getElementById("langSelect");
+    if (sel) {
+      sel.addEventListener("change", function(e) {
+        window.changeLanguage(e.target.value);
+      });
+    }
+
     var saved = "fr"; try { saved = localStorage.getItem("guillet_lang") || "fr"; } catch(e){}
     if (!window.TRANSLATIONS[saved] && saved !== "fr") saved = "fr";
     if (saved !== "fr") setTimeout(function(){ window.applyLanguage(saved); }, 150);
