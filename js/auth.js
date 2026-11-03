@@ -28,6 +28,12 @@
   const googleAuthBtn  = document.getElementById("googleAuthBtn");
   const authSubmitBtn  = document.getElementById("authSubmitBtn");
 
+  // Éléments du profil
+  const profileModal       = document.getElementById("profileModal");
+  const closeProfileModal  = document.getElementById("closeProfileModal");
+  const profileForm        = document.getElementById("profileForm");
+  const profileMessage     = document.getElementById("profileMessage");
+
   if (!authModal || !authBtn || !authForm) {
     console.warn("[AUTH] Éléments HTML essentiels manquants (modal / bouton / formulaire).");
     return;
@@ -40,7 +46,7 @@
   let isLoading   = false;
 
   // ==========================================
-  // 4. HELPERS
+  // 4. HELPERS (Messages et chargement)
   // ==========================================
   function showMessage(text, color) {
     if (!authMessage) return;
@@ -92,12 +98,18 @@
   }
 
   // ==========================================
-  // 5. ÉVÉNEMENTS UI
+  // 5. ÉVÉNEMENTS UI (Clics sur les boutons)
   // ==========================================
-  authBtn.addEventListener("click", () => {
+  authBtn.addEventListener("click", async () => {
     if (authBtn.getAttribute("data-logged-in") === "true") {
-      if (confirm("Voulez-vous vous déconnecter ?")) {
-        supabaseClient.auth.signOut();
+      // Si connecté : on demande s'il veut voir son profil ou se déconnecter
+      const choice = confirm("Voulez-vous ouvrir votre profil ?\n(Cliquez sur ANNULER pour vous déconnecter)");
+      if (choice) {
+        openProfileModal();
+      } else {
+        if (confirm("Voulez-vous vraiment vous déconnecter ?")) {
+          supabaseClient.auth.signOut();
+        }
       }
     } else {
       openModal();
@@ -111,7 +123,10 @@
   });
 
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && authModal.style.display === "flex") closeModal();
+    if (e.key === "Escape") {
+      if (authModal.style.display === "flex") closeModal();
+      if (profileModal && profileModal.style.display === "flex") closeProfileModalFn();
+    }
   });
 
   // ==========================================
@@ -150,7 +165,7 @@
           if (signUpError) {
             showMessage("Erreur : " + signUpError.message, "var(--red)");
           } else {
-            // ✅ NOUVEAU : Enregistrement dans la table `clients`
+            // ✅ Enregistrement dans la table `clients`
             if (signUpData.user) {
               const { error: dbError } = await supabaseClient
                 .from('clients')
@@ -162,7 +177,6 @@
                 ]);
 
               if (dbError) {
-                // On log l'erreur en console mais on ne bloque pas l'utilisateur
                 console.error("[AUTH] Erreur lors de l'ajout dans la table clients :", dbError);
               }
             }
@@ -247,4 +261,84 @@
       updateButton(null);
     }
   })();
+
+  // ==========================================
+  // 10. GESTION DU PROFIL CLIENT
+  // ==========================================
+  function openProfileModal() {
+    if (!profileModal) return;
+    profileModal.style.display = "flex";
+    if (profileMessage) profileMessage.textContent = "";
+    
+    // On charge les infos existantes
+    loadProfileData();
+  }
+
+  function closeProfileModalFn() {
+    if (!profileModal) return;
+    profileModal.style.display = "none";
+    if (profileForm) profileForm.reset();
+  }
+
+  async function loadProfileData() {
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    if (!user) return;
+
+    const { data, error } = await supabaseClient
+      .from('clients')
+      .select('*')
+      .eq('id', user.id)
+      .single();
+
+    if (data) {
+      document.getElementById("profileNom").value = data.nom_complet || "";
+      document.getElementById("profileTel").value = data.telephone || "";
+      document.getElementById("profileAdresse").value = data.adresse || "";
+      document.getElementById("profileCP").value = data.code_postal || "";
+      document.getElementById("profileVille").value = data.ville || "";
+    }
+  }
+
+  if (closeProfileModal) {
+    closeProfileModal.addEventListener("click", closeProfileModalFn);
+  }
+
+  if (profileModal) {
+    profileModal.addEventListener("click", (e) => {
+      if (e.target === profileModal) closeProfileModalFn();
+    });
+  }
+
+  if (profileForm) {
+    profileForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      profileMessage.textContent = "Enregistrement en cours...";
+      profileMessage.style.color = "#fff";
+
+      const { data: { user } } = await supabaseClient.auth.getUser();
+      if (!user) return;
+
+      const updates = {
+        nom_complet: document.getElementById("profileNom").value,
+        telephone: document.getElementById("profileTel").value,
+        adresse: document.getElementById("profileAdresse").value,
+        code_postal: document.getElementById("profileCP").value,
+        ville: document.getElementById("profileVille").value
+      };
+
+      const { error } = await supabaseClient
+        .from('clients')
+        .update(updates)
+        .eq('id', user.id);
+
+      if (error) {
+        profileMessage.textContent = "Erreur : " + error.message;
+        profileMessage.style.color = "var(--red)";
+      } else {
+        profileMessage.textContent = "✅ Profil mis à jour avec succès !";
+        profileMessage.style.color = "var(--accent-safe)";
+        setTimeout(() => { closeProfileModalFn(); }, 2000);
+      }
+    });
+  }
 })();

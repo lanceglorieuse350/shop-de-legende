@@ -1777,6 +1777,28 @@
   </div>
 </div>
 
+<!-- MODALE PROFIL CLIENT -->
+<div id="profileModal" role="dialog" aria-modal="true" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.9); backdrop-filter:blur(5px); justify-content:center; align-items:center; padding:1rem;">
+  <div style="background:linear-gradient(135deg, var(--card-bg), #0a0a0a); border:2px solid var(--gold); border-radius:var(--radius-lg); padding:2.5rem; width:100%; max-width:500px; position:relative;">
+    <button type="button" id="closeProfileModal" aria-label="Fermer la fenêtre de profil" style="position:absolute; top:1rem; right:1rem; background:transparent; border:none; color:#fff; font-size:1.5rem; cursor:pointer;">✕</button>
+    
+    <h2 style="text-align:center; color:var(--gold); font-family:var(--font-display); margin-bottom:1.5rem;">👤 Mon Profil</h2>
+    
+    <form id="profileForm" style="display:flex; flex-direction:column; gap:1rem;">
+      <input type="text" id="profileNom" placeholder="Nom complet" required style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      <input type="tel" id="profileTel" placeholder="Numéro de téléphone" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      <input type="text" id="profileAdresse" placeholder="Adresse (ex: 12 rue de la Paix)" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      <div style="display:flex; gap:1rem;">
+        <input type="text" id="profileCP" placeholder="Code Postal" style="flex:1; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+        <input type="text" id="profileVille" placeholder="Ville" style="flex:2; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      </div>
+      
+      <button type="submit" id="profileSubmitBtn" style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-weight:bold; padding:1rem; border-radius:var(--radius-md); border:none; cursor:pointer; margin-top:0.5rem;">Enregistrer mes informations</button>
+      <div id="profileMessage" style="text-align:center; color:var(--accent-safe); font-size:0.9rem; margin-top:0.5rem;"></div>
+    </form>
+  </div>
+</div>
+
 <!-- CHARGEMENT DES SCRIPTS EXTERNES -->
 <script src="js/jslecart-init.js"></script>
 <script src="js/jscart-counter.js"></script>
