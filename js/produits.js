@@ -3,7 +3,7 @@
   const SUPABASE_ANON_KEY = "sb_publishable_0mmEGRZ_GKmgKSMKE83S8A_huJaAdL9";
   const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-  // 1. On stocke tout votre design original ici
+  // 1. On stocke tout votre design original ici avec le marqueur {{STOCK}}
   const produitsHTML = {
     // DRONE
     "price_1URq5TRNu37iEZT9kBjY7X1G": {
@@ -22,7 +22,7 @@
         <div class="price"><span class="promo">89 €</span></div>
         <p class="desc" data-i18n="drone_desc">Un drone conçu pour les créateurs, les explorateurs et les pilotes ambitieux. Capturez le monde avec une précision chirurgicale.</p>
         <div class="drone-video-wrapper">
-          <video src="publicite_drone.mp4" controls preload="metadata" playsinline class="video-full" aria-label="Publicité du drone KY108">
+          <video src="publicite_drone.mp4" controls preload="none" playsinline class="video-full" aria-label="Publicité du drone KY108" poster="photo1.png">
             Votre navigateur ne prend pas en charge la lecture vidéo.
           </video>
         </div>
@@ -58,6 +58,7 @@
           </ol>
           <p data-i18n="drone_use_note">Pensez à respecter les règles de vol applicables et la vie privée des personnes filmées.</p>
         </div>
+        {{STOCK}}
         {{BOUTON}}
       </div>
     </div>
@@ -97,6 +98,7 @@
             <li data-i18n="proj_use_4">Laisser charger le panneau solaire</li>
           </ul>
         </div>
+        {{STOCK}}
         {{BOUTON}}
       </div>
     </div>
@@ -151,6 +153,7 @@
             <li data-i18n="pack_item_4_b4">Sac de rangement inclus</li>
           </ul>
         </div>
+        {{STOCK}}
         {{BOUTON}}
       </div>
     </div>
@@ -191,6 +194,7 @@
             <li data-i18n="endo_feat_5">Certification IP68 waterproof</li>
           </ul>
         </div>
+        {{STOCK}}
         {{BOUTON}}
       </div>
     </div>
@@ -259,6 +263,7 @@
           <h4 data-i18n="pack_secu_why">Pourquoi ce pack ?</h4>
           <p data-i18n="pack_secu_why_text">Parce qu'il protège toute votre habitation avec une caméra IA, une alarme complète, 4 capteurs et un système prêt à l'emploi. Pack clé en main — idéal pour particuliers et petits commerces.</p>
         </div>
+        {{STOCK}}
         {{BOUTON}}
       </div>
     </div>
@@ -266,42 +271,69 @@
     }
   };
 
-  async function renderProducts() {
+  // 2. Affichage instantané avec un texte de stock temporaire
+  function renderProductsInstantly() {
     const grid = document.getElementById("productsGrid");
     if (!grid) return;
 
-    // On récupère les stocks depuis Supabase
-    const { data: dbProduits } = await supabaseClient.from('produits').select('*');
-    const stockMap = {};
-    if (dbProduits) {
-      dbProduits.forEach(p => stockMap[p.stripe_price_id] = p.stock);
-    }
-
     let finalHTML = "";
-
-    // On boucle sur vos produits et on remplace {{BOUTON}} par le bon bouton
     for (const [priceId, data] of Object.entries(produitsHTML)) {
-      const stock = stockMap[priceId];
-      let boutonHTML = "";
-
-      if (stock !== undefined && stock <= 0) {
-        // Si le stock est à 0 : on grise le bouton
-        boutonHTML = `<button type="button" class="payment-btn" disabled style="background:#555; cursor:not-allowed; border: none;">❌ Rupture de stock</button>`;
-      } else {
-        // Sinon : bouton normal
-        boutonHTML = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${data.price}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
-      }
-
-      finalHTML += data.html.replace("{{BOUTON}}", boutonHTML);
+      const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${data.price}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
+      
+      // On injecte un texte temporaire pour le stock
+      const tempStock = `<p class="stock-display" data-id="${priceId}" style="font-size: 0.85rem; color: #888; margin-bottom: 0.5rem;">Stock : vérification...</p>`;
+      
+      finalHTML += data.html.replace("{{STOCK}}", tempStock).replace("{{BOUTON}}", defaultBtn);
     }
-
     grid.innerHTML = finalHTML;
     
-    // On réinitialise LeCart pour que les nouveaux boutons fonctionnent
     if (window.LeCart && typeof window.LeCart.init === 'function') {
       window.LeCart.init();
     }
   }
 
-  document.addEventListener("DOMContentLoaded", renderProducts);
+  // 3. Mise à jour des stocks en arrière-plan
+  async function checkStocks() {
+    try {
+      const { data: dbProduits, error } = await supabaseClient
+        .from('produits')
+        .select('stripe_price_id, stock');
+
+      if (error || !dbProduits) return;
+
+      dbProduits.forEach(prod => {
+        // On met à jour le texte du stock
+        const stockEl = document.querySelector(`.stock-display[data-id="${prod.stripe_price_id}"]`);
+        if (stockEl) {
+          stockEl.textContent = `Stock disponible : ${prod.stock}`;
+          // On colore en rouge si c'est épuisé
+          if (prod.stock <= 0) {
+            stockEl.style.color = "var(--red)";
+            stockEl.style.fontWeight = "bold";
+          }
+        }
+
+        // On gère le bouton si rupture
+        if (prod.stock <= 0) {
+          const btn = document.querySelector(`button[data-stripe-price-id="${prod.stripe_price_id}"]`);
+          if (btn) {
+            btn.disabled = true;
+            btn.style.background = "#555";
+            btn.style.color = "#ccc";
+            btn.style.cursor = "not-allowed";
+            btn.innerHTML = "❌ Rupture de stock";
+            btn.removeAttribute("data-lecart-add");
+          }
+        }
+      });
+    } catch (err) {
+      console.error("Erreur de vérification des stocks:", err);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    renderProductsInstantly();
+    checkStocks();
+  });
+
 })();
