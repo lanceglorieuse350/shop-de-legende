@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   try {
     LeCart.init({
-      // ✅ CORRECTION : Nouvelle clé LeCart insérée
       lecartApiKey: 'lecart_QFARqlmd0rNhYWqJdJPcZ8YZpfRlEWKsNmhnXgVxkDg',
       checkoutEndpoint: 'https://api.getlecart.com/create-checkout',
       stripePublicKey: 'pk_live_51UNkYQRNu37iEZT9IHDIDELHXsO4A5R2ppIQKlBEpev5Q4XX6qRjrTpVHRzcVgaKdykQEm8kVDLKkBXcdPIu33UV008Oeu1wN7',
@@ -15,7 +14,11 @@ document.addEventListener('DOMContentLoaded', function() {
       collectShippingAddress: true,
       collectPhoneNumber: true,
       
-      // ✅ AJOUT CRUCIAL : Indiquer où rediriger l'utilisateur après paiement ou annulation
+      // ✅ CORRECTION 400 : On utilise snake_case (tiret du bas) exigé par l'API
+      success_url: window.location.origin + '/#merci', 
+      cancel_url: window.location.origin + '/#panier',
+      
+      // On garde aussi le camelCase au cas où le SDK en ait besoin pour s'initialiser
       successUrl: window.location.origin + '/#merci', 
       cancelUrl: window.location.origin + '/#panier'
     });
