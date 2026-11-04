@@ -7,9 +7,13 @@
     return;
   }
 
-  // 1. On stocke tout votre design original ici avec le marqueur {{STOCK}}
+  // ============================================================
+  // 1. DONNÉES DES PRODUITS & TEXTES AMÉLIORÉS
+  // ============================================================
   const produitsHTML = {
+    // --------------------------------------------------------
     // DRONE
+    // --------------------------------------------------------
     "price_1URq5TRNu37iEZT9kBjY7X1G": {
       name: "KY108 Drone",
       price: "89.00",
@@ -21,15 +25,12 @@
         <img src="photo2.png" class="product-image" alt="Drone KY108 — vue secondaire" loading="lazy" decoding="async" data-zoom>
       </div>
       <div class="product-info">
-        <h3 class="product-title" data-i18n="drone_title">KY108 DRONE – L'ŒIL DU FUTUR EST ENTRE VOS MAINS</h3>
-        <p class="tagline" data-i18n="drone_tagline">Dominez le ciel… ou il vous dominera. Soyez des yeux sans avoir besoin de voir.</p>
+        <span class="badge" data-i18n="badge_new">NOUVEAU</span>
+        <h3 class="product-title" data-i18n="drone_title">KY108 DRONE – L'ŒIL DU FUTUR</h3>
+        <p class="tagline" data-i18n="drone_tagline">Dominez le ciel. Captures 4K. Précision chirurgicale.</p>
         <div class="price"><span class="promo">89 €</span></div>
-        <p class="desc" data-i18n="drone_desc">Un drone conçu pour les créateurs, les explorateurs et les pilotes ambitieux. Capturez le monde avec une précision chirurgicale.</p>
-        <div class="drone-video-wrapper">
-          <video src="publicite_drone.mp4" controls preload="none" playsinline class="video-full" aria-label="Publicité du drone KY108" poster="photo1.png">
-            Votre navigateur ne prend pas en charge la lecture vidéo.
-          </video>
-        </div>
+        <p class="desc" data-i18n="drone_desc">Conçu pour les créateurs, explorateurs et pilotes exigeants. Prenez le contrôle des airs et ramenez des images spectaculaires avec une stabilité inégalée.</p>
+        
         <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-drone" data-i18n="see_more">Voir plus</button>
         <div class="details" id="details-drone">
           <h4 data-i18n="full_desc">Description complète</h4>
@@ -62,13 +63,24 @@
           </ol>
           <p data-i18n="drone_use_note">Pensez à respecter les règles de vol applicables et la vie privée des personnes filmées.</p>
         </div>
+        
         {{STOCK}}
         {{BOUTON}}
+
+        <!-- VIDÉO PLACÉE TOUT EN BAS -->
+        <div class="drone-video-wrapper">
+          <video src="publicite_drone.mp4" controls preload="none" playsinline class="video-full" aria-label="Publicité du drone KY108" poster="photo1.png">
+            Votre navigateur ne prend pas en charge la lecture vidéo.
+          </video>
+        </div>
       </div>
     </div>
       `
     },
+
+    // --------------------------------------------------------
     // PROJECTEUR
+    // --------------------------------------------------------
     "price_1URs5zRNu37iEZT9MkNDMhFW": {
       name: "Projecteur LED rotatif",
       price: "35.00",
@@ -81,12 +93,14 @@
       </div>
       <div class="product-info">
         <h3 class="product-title" data-i18n="proj_title">Projecteur LED rotatif solaire</h3>
+        <p class="tagline" data-i18n="proj_tagline">Éclairez vos nuits. Zéro facture d'électricité.</p>
         <div class="price">35,00 €</div>
-        <p class="desc" data-i18n="proj_desc">Projecteur LED extérieur solaire avec détecteur PIR et panneaux rotatifs.</p>
+        <p class="desc" data-i18n="proj_desc">Illuminez votre extérieur en toute autonomie. Projecteur LED avec détecteur de mouvement PIR et panneaux solaires orientables pour une sécurité optimale.</p>
+        
         <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-projecteur" data-i18n="see_more">Voir plus</button>
         <div class="details" id="details-projecteur">
           <h4 data-i18n="full_desc">Description complète</h4>
-          <p data-i18n="proj_full_1">Projecteur LED extérieur alimenté par panneau solaire, équipé d'un détecteur PIR et de panneaux rotatifs.</p>
+          <p data-i18n="proj_full_1">Projecteur LED extérieur alimenté par panneau solaire, équipé d'un détecteur PIR et de panneaux rotatifs pour s'adapter à tous les angles de votre maison.</p>
           <h4 data-i18n="utility">Utilité</h4>
           <ul>
             <li data-i18n="proj_util_1">Sécuriser une entrée</li>
@@ -102,13 +116,17 @@
             <li data-i18n="proj_use_4">Laisser charger le panneau solaire</li>
           </ul>
         </div>
+        
         {{STOCK}}
         {{BOUTON}}
       </div>
     </div>
       `
     },
+
+    // --------------------------------------------------------
     // PACK HIVER
+    // --------------------------------------------------------
     "price_1URsA0RNu37iEZT9Yq7pXGpL": {
       name: "Winter Survival Pack",
       price: "99.99",
@@ -121,8 +139,10 @@
       <div class="product-info">
         <span class="badge" data-i18n="badge_winter">PACK HIVER</span>
         <h3 class="product-title" data-i18n="pack_title">Winter Survival Pack – Édition Premium</h3>
+        <p class="tagline" data-i18n="pack_tagline">L'autonomie totale face aux éléments.</p>
         <div class="price">99,99 €</div>
-        <p class="desc" data-i18n="pack_desc">Le pack ultime pour affronter l'hiver, rester au chaud, éclairé et autonome.</p>
+        <p class="desc" data-i18n="pack_desc">Ne laissez plus l'hiver dicter vos limites. Le pack ultime pour rester au chaud, éclairé et parfaitement équipé, même lorsque le réseau lâche.</p>
+        
         <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-pack" data-i18n="see_more">Voir plus</button>
         <div class="details" id="details-pack">
           <h4 data-i18n="pack_item_1">🧤 1. Gants Chauffants Électriques Intelligents (USB)</h4>
@@ -157,13 +177,17 @@
             <li data-i18n="pack_item_4_b4">Sac de rangement inclus</li>
           </ul>
         </div>
+        
         {{STOCK}}
         {{BOUTON}}
       </div>
     </div>
       `
     },
+
+    // --------------------------------------------------------
     // ENDOSCOPE
+    // --------------------------------------------------------
     "price_1US30aRNu37iEZT9EGBkxLCy": {
       name: "Endoscope caméra d'inspection",
       price: "95.00",
@@ -175,9 +199,11 @@
       </div>
       <div class="product-info">
         <span class="badge" data-i18n="badge_new">NOUVEAU</span>
-        <h3 class="product-title" data-i18n="endo_title">Endoscope caméra d'inspection avec écran</h3>
+        <h3 class="product-title" data-i18n="endo_title">Endoscope d'Inspection HD</h3>
+        <p class="tagline" data-i18n="endo_tagline">Voyez l'invisible. Ne ratez plus aucun détail.</p>
         <div class="price">95 €</div>
-        <p class="desc" data-i18n="endo_desc">Endoscope d'inspection 1080P avec écran intégré 4,3 pouces, câble semi-rigide de 10 mètres, caméra 2.0 MP, éclairage LED réglable et conception IP68 waterproof.</p>
+        <p class="desc" data-i18n="endo_desc">L'outil indispensable des professionnels et bricoleurs. Écran intégré 4,3", câble semi-rigide de 10 m et caméra 1080P étanche (IP68). Explorez l'inaccessible avec une clarté absolue.</p>
+        
         <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-endoscope" data-i18n="see_more">Voir plus</button>
         <div class="details" id="details-endoscope">
           <h4 data-i18n="full_desc">Description complète</h4>
@@ -198,13 +224,17 @@
             <li data-i18n="endo_feat_5">Certification IP68 waterproof</li>
           </ul>
         </div>
+        
         {{STOCK}}
         {{BOUTON}}
       </div>
     </div>
       `
     },
+
+    // --------------------------------------------------------
     // PACK SECURITE
+    // --------------------------------------------------------
     "price_1UV4VuRNu37iEZT9QXBQFhLp": {
       name: "Pack Sécurité Premium",
       price: "379.00",
@@ -217,9 +247,10 @@
       <div class="product-info">
         <span class="badge" data-i18n="badge_security">🛡️ PACK SÉCURITÉ</span>
         <h3 class="product-title" data-i18n="pack_secu_title">Pack Sécurité Premium</h3>
-        <p class="tagline" data-i18n="pack_secu_tagline">Protection complète. Installation en 10 minutes. Clé en main.</p>
+        <p class="tagline" data-i18n="pack_secu_tagline">Votre forteresse numérique et physique.</p>
         <div class="price">379 €</div>
-        <p class="desc" data-i18n="pack_secu_desc">Protégez toute votre habitation avec une caméra IA, une alarme complète, 4 capteurs et un système prêt à l'emploi. Idéal pour particuliers et petits commerces.</p>
+        <p class="desc" data-i18n="pack_secu_desc">Alarme Tiiwee, caméra Tapo IA et 4 capteurs SONOFF. Protégez votre foyer ou votre commerce avec un système complet, intelligent et prêt à l'emploi. Installation en 10 minutes.</p>
+        
         <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-pack-secu" data-i18n="see_more">Voir plus</button>
         <div class="details" id="details-pack-secu">
           <h4 data-i18n="full_desc">Description complète</h4>
@@ -267,6 +298,7 @@
           <h4 data-i18n="pack_secu_why">Pourquoi ce pack ?</h4>
           <p data-i18n="pack_secu_why_text">Parce qu'il protège toute votre habitation avec une caméra IA, une alarme complète, 4 capteurs et un système prêt à l'emploi. Pack clé en main — idéal pour particuliers et petits commerces.</p>
         </div>
+        
         {{STOCK}}
         {{BOUTON}}
       </div>
@@ -275,28 +307,37 @@
     }
   };
 
-  // 2. Affichage instantané avec un badge de stock stylé
+  // ============================================================
+  // 2. AFFICHAGE INSTANTANÉ
+  // ============================================================
   function renderProductsInstantly() {
     const grid = document.getElementById("productsGrid");
     if (!grid) return;
 
     let finalHTML = "";
+    
     for (const [priceId, data] of Object.entries(produitsHTML)) {
+      // Bouton par défaut (Panier)
       const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${data.price}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
       
-      // ✅ NOUVEAU : Le badge de stock stylé avec animation de chargement
+      // Badge de stock initial
       const tempStock = `<div class="stock-badge" data-id="${priceId}">⏳ Vérification du stock...</div>`;
       
+      // Remplacement des variables dans le HTML
       finalHTML += data.html.replace("{{STOCK}}", tempStock).replace("{{BOUTON}}", defaultBtn);
     }
+    
     grid.innerHTML = finalHTML;
     
+    // Initialisation du panier LeCart
     if (window.LeCart && typeof window.LeCart.init === 'function') {
       window.LeCart.init();
     }
   }
 
-  // 3. Mise à jour des stocks en arrière-plan
+  // ============================================================
+  // 3. MISE À JOUR DES STOCKS
+  // ============================================================
   async function checkStocks() {
     try {
       const { data: dbProduits, error } = await supabaseClient
@@ -307,13 +348,15 @@
 
       dbProduits.forEach(prod => {
         const stockEl = document.querySelector(`.stock-badge[data-id="${prod.stripe_price_id}"]`);
+        const btnEl = document.querySelector(`button[data-stripe-price-id="${prod.stripe_price_id}"]`);
+
         if (stockEl) {
           if (prod.stock > 5) {
             // Stock confortable
             stockEl.className = "stock-badge stock-in";
             stockEl.innerHTML = `🟢 En stock (${prod.stock} disponibles)`;
           } else if (prod.stock > 0 && prod.stock <= 5) {
-            // Stock faible
+            // Stock faible (Urgence)
             stockEl.className = "stock-badge stock-low";
             stockEl.innerHTML = `🟠 Plus que ${prod.stock} en stock !`;
           } else {
@@ -323,26 +366,21 @@
           }
         }
 
-        // On gère le bouton si rupture
-        if (prod.stock <= 0) {
-          const btn = document.querySelector(`button[data-stripe-price-id="${prod.stripe_price_id}"]`);
-          if (btn) {
-            btn.disabled = true;
-            btn.className = "payment-btn btn-out-of-stock"; // On change sa classe
-            btn.style.background = "transparent";
-            btn.style.color = "#ff4444";
-            btn.style.border = "1px solid #ff4444";
-            btn.style.cursor = "not-allowed";
-            btn.innerHTML = "❌ Produit épuisé";
-            btn.removeAttribute("data-lecart-add");
-          }
+        // Désactivation du bouton si rupture de stock
+        if (prod.stock <= 0 && btnEl) {
+          btnEl.disabled = true;
+          btnEl.classList.remove("payment-btn"); // On retire le style doré
+          btnEl.classList.add("btn-out-of-stock"); // On ajoute le style rouge/transparent
+          btnEl.innerHTML = "❌ Produit épuisé";
+          btnEl.removeAttribute("data-lecart-add"); // On empêche l'ajout au panier
         }
       });
     } catch (err) {
-      console.error("Erreur de vérification des stocks:", err);
+      console.error("[PRODUITS] Erreur de vérification des stocks:", err);
     }
   }
 
+  // Lancement au chargement de la page
   document.addEventListener("DOMContentLoaded", () => {
     renderProductsInstantly();
     checkStocks();

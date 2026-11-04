@@ -33,6 +33,273 @@
 
 <!-- Script Analytics Vercel -->
 <script defer src="/_vercel/insights/script.js"></script>
+
+<!-- ============================================================
+     STYLE EXCLUSIF POUR LA PAGE HARCÈLEMENT (Index.html)
+     ============================================================ -->
+<style>
+  /* Conteneur principal */
+  #prevention-page {
+    background: #090909 !important;
+    font-family: 'Inter', sans-serif;
+    color: #f0f0f0;
+    scroll-behavior: smooth;
+  }
+
+  /* En-tête collant */
+  .prevention-header {
+    background: linear-gradient(180deg, rgba(5,5,5,0.95) 0%, rgba(20,5,5,0.95) 100%) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 2px solid #ffd700 !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+  }
+
+  /* Titre principal de la page */
+  .prevention-header h1 {
+    color: #ffd700 !important;
+    text-shadow: 0 0 20px rgba(255,215,0,0.4) !important;
+    font-size: 1.8rem !important;
+    letter-spacing: 0.05em;
+  }
+
+  /* Navigation interne (en haut) */
+  .prevention-nav-links a {
+    color: #fff !important;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: all 0.3s ease;
+  }
+  .prevention-nav-links a:hover, 
+  .prevention-nav-links a.active-link {
+    background: #ffd700 !important;
+    color: #000 !important;
+    border-color: #ffd700 !important;
+    transform: translateY(-2px);
+  }
+
+  /* Intro Box */
+  .prevention-intro-box {
+    background: linear-gradient(135deg, rgba(225,6,0,0.15), rgba(0,0,0,0.5)) !important;
+    border: 1px solid rgba(225,6,0,0.3) !important;
+    border-left: 6px solid #e10600 !important;
+    border-radius: 12px;
+    padding: 2.5rem !important;
+    box-shadow: 0 10px 30px rgba(225,6,0,0.15);
+    margin-bottom: 3rem !important;
+  }
+  .prevention-intro-box p {
+    font-size: 1.15rem !important;
+    line-height: 1.8 !important;
+    color: #fff !important;
+  }
+  .prevention-intro-box strong {
+    color: #ff5c5c !important;
+    font-size: 1.3rem !important;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* Sommaire (Grille de boutons) */
+  .prevention-summary {
+    background: rgba(20,20,20,0.6) !important;
+    border: 1px solid rgba(255,215,0,0.15) !important;
+    border-radius: 16px;
+    padding: 2rem !important;
+    margin-bottom: 3.5rem !important;
+    backdrop-filter: blur(8px);
+  }
+  .prevention-summary h2 {
+    font-size: 1.4rem !important;
+    color: #ffd700 !important;
+    text-align: center;
+    margin-bottom: 1.5rem !important;
+    border: none !important;
+  }
+  .prevention-summary ul {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+    gap: 1rem !important;
+    padding: 0 !important;
+    list-style: none !important;
+  }
+  .prevention-summary li a {
+    display: block;
+    padding: 1.2rem !important;
+    background: rgba(255,255,255,0.03) !important;
+    border: 1px solid rgba(255,215,0,0.2) !important;
+    border-radius: 10px !important;
+    color: #ffd700 !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    transition: all 0.3s ease !important;
+    text-align: left;
+  }
+  .prevention-summary li a:hover {
+    background: rgba(255,215,0,0.1) !important;
+    border-color: #ffd700 !important;
+    transform: translateX(5px);
+  }
+
+  /* Blocs de sections */
+  .prevention-section-block {
+    margin-bottom: 4rem !important;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  /* Titres des sections */
+  .prevention-title-blue, 
+  .prevention-title-white, 
+  .prevention-title-red {
+    font-family: 'Cinzel', serif !important;
+    font-size: 1.8rem !important;
+    padding-bottom: 0.8rem !important;
+    margin-bottom: 2rem !important;
+    border-bottom: 2px solid !important;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  }
+  .prevention-title-blue { color: #4db8ff !important; border-color: rgba(77,184,255,0.3) !important; }
+  .prevention-title-white { color: #ffffff !important; border-color: rgba(255,255,255,0.2) !important; }
+  .prevention-title-red { color: #ff5c5c !important; border-color: rgba(255,92,92,0.3) !important; }
+
+  /* Cartes de contenu (Glassmorphism) */
+  .prevention-card-full {
+    background: linear-gradient(135deg, rgba(30,30,30,0.8), rgba(10,10,10,0.9)) !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 16px !important;
+    padding: 2.5rem !important;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6) !important;
+  }
+  .prevention-card-full h3 {
+    font-size: 1.3rem !important;
+    color: #ffd700 !important;
+    margin-bottom: 1.5rem !important;
+    font-family: 'Inter', sans-serif !important;
+  }
+  .prevention-card-full h3 a {
+    color: #ffd700 !important;
+    text-decoration: underline !important;
+    text-underline-offset: 4px;
+  }
+  .prevention-card-full p {
+    font-size: 1.05rem !important;
+    line-height: 1.8 !important;
+    color: #ccc !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* Liste des peines (Loi) */
+  .prevention-list {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 0 2rem 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .prevention-list li {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    background: rgba(0,0,0,0.4) !important;
+    padding: 1rem 1.5rem !important;
+    border-radius: 10px !important;
+    border-left: 3px solid rgba(255,92,92,0.5) !important;
+    color: #fff !important;
+    font-size: 1.05rem !important;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .prevention-list li strong {
+    font-weight: 600;
+    color: #eee !important;
+  }
+  
+  /* Badge de la peine */
+  .prevention-list li .peine {
+    background: linear-gradient(135deg, #e10600, #8a0000) !important;
+    color: #fff !important;
+    padding: 0.6rem 1.2rem !important;
+    border-radius: 30px !important;
+    font-weight: 800 !important;
+    font-size: 0.95rem !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    box-shadow: 0 4px 15px rgba(225,6,0,0.4) !important;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+  }
+
+  /* Boîte d'alerte / Aide */
+  .prevention-warning-box {
+    background: linear-gradient(135deg, rgba(225,6,0,0.15), rgba(0,0,0,0.8)) !important;
+    border: 2px solid #e10600 !important;
+    border-radius: 16px !important;
+    padding: 3rem 2rem !important;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(225,6,0,0.2) !important;
+  }
+  .prevention-warning-box p {
+    font-size: 1.2rem !important;
+    margin-bottom: 1rem !important;
+    color: #fff !important;
+  }
+  .prevention-warning-box strong {
+    font-size: 1.5rem !important;
+    color: #ff5c5c !important;
+    display: block;
+    margin-bottom: 1.5rem !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Boutons d'action */
+  .prevention-actions {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 1.5rem !important;
+    flex-wrap: wrap;
+    margin-top: 3rem !important;
+  }
+  .prevention-btn {
+    padding: 1.2rem 2.5rem !important;
+    border-radius: 50px !important;
+    font-size: 1.1rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: transform 0.3s, box-shadow 0.3s !important;
+  }
+  .prevention-btn-primary {
+    background: #ffd700 !important;
+    color: #000 !important;
+    border: none !important;
+    box-shadow: 0 10px 25px rgba(255,215,0,0.3) !important;
+  }
+  .prevention-btn-primary:hover {
+    transform: translateY(-3px) scale(1.02) !important;
+    box-shadow: 0 15px 35px rgba(255,215,0,0.5) !important;
+  }
+  .prevention-btn-danger {
+    background: #e10600 !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: 0 10px 25px rgba(225,6,0,0.3) !important;
+  }
+  .prevention-btn-danger:hover {
+    transform: translateY(-3px) scale(1.02) !important;
+    box-shadow: 0 15px 35px rgba(225,6,0,0.5) !important;
+  }
+
+  /* Responsive pour mobile */
+  @media (max-width: 600px) {
+    .prevention-list li { flex-direction: column; align-items: flex-start; }
+    .prevention-list li .peine { width: 100%; text-align: center; margin-top: 5px; }
+    .prevention-actions { flex-direction: column; width: 100%; }
+    .prevention-btn { width: 100%; text-align: center; }
+  }
+</style>
 </head>
 <body>
 
@@ -102,7 +369,7 @@
   <img id="zoomImg" alt="Zoom produit">
 </div>
 
-<!-- PRÉVENTION HARCELEMENT -->
+<!-- PRÉVENTION HARCELEMENT (Améliorée) -->
 <div id="prevention-page" class="prevention-page" role="dialog" aria-modal="true" aria-label="Prévention Harcèlement">
   <div class="prevention-header prevention-header-custom">
     <div class="prevention-header-top">

@@ -33,6 +33,369 @@
 
 <!-- Script Analytics Vercel -->
 <script defer src="/_vercel/insights/script.js"></script>
+
+<!-- ============================================================
+     STYLE EXCLUSIF POUR LES PAGES HARCÈLEMENT & CYBERSÉCURITÉ
+     ============================================================ -->
+<style>
+  /* =========================================
+     CORRECTION PAGE HARCÈLEMENT
+     ========================================= */
+  #prevention-page {
+    background: #090909 !important;
+    font-family: 'Inter', sans-serif;
+    color: #f0f0f0;
+    scroll-behavior: smooth;
+  }
+
+  .prevention-header {
+    background: linear-gradient(180deg, rgba(5,5,5,0.95) 0%, rgba(20,5,5,0.95) 100%) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 2px solid #ffd700 !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+  }
+
+  .prevention-header h1 {
+    color: #ffd700 !important;
+    text-shadow: 0 0 20px rgba(255,215,0,0.4) !important;
+    font-size: 1.8rem !important;
+    letter-spacing: 0.05em;
+  }
+
+  /* ✅ CORRECTION ICI : Les liens du haut sont maintenant DORÉS */
+  .prevention-nav-links a {
+    color: #ffd700 !important; /* Couleur dorée */
+    background: rgba(255,215,0,0.05) !important;
+    border: 1px solid rgba(255,215,0,0.3) !important;
+    transition: all 0.3s ease;
+  }
+  .prevention-nav-links a:hover, 
+  .prevention-nav-links a.active-link {
+    background: #ffd700 !important;
+    color: #000 !important;
+    border-color: #ffd700 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255,215,0,0.3) !important;
+  }
+
+  .prevention-intro-box {
+    background: linear-gradient(135deg, rgba(225,6,0,0.15), rgba(0,0,0,0.5)) !important;
+    border: 1px solid rgba(225,6,0,0.3) !important;
+    border-left: 6px solid #e10600 !important;
+    border-radius: 12px;
+    padding: 2.5rem !important;
+    box-shadow: 0 10px 30px rgba(225,6,0,0.15);
+    margin-bottom: 3rem !important;
+  }
+  .prevention-intro-box p {
+    font-size: 1.15rem !important;
+    line-height: 1.8 !important;
+    color: #fff !important;
+  }
+  .prevention-intro-box strong {
+    color: #ff5c5c !important;
+    font-size: 1.3rem !important;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .prevention-summary {
+    background: rgba(20,20,20,0.6) !important;
+    border: 1px solid rgba(255,215,0,0.15) !important;
+    border-radius: 16px;
+    padding: 2rem !important;
+    margin-bottom: 3.5rem !important;
+    backdrop-filter: blur(8px);
+  }
+  .prevention-summary h2 {
+    font-size: 1.4rem !important;
+    color: #ffd700 !important;
+    text-align: center;
+    margin-bottom: 1.5rem !important;
+    border: none !important;
+  }
+  .prevention-summary ul {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+    gap: 1rem !important;
+    padding: 0 !important;
+    list-style: none !important;
+  }
+  .prevention-summary li a {
+    display: block;
+    padding: 1.2rem !important;
+    background: rgba(255,255,255,0.03) !important;
+    border: 1px solid rgba(255,215,0,0.2) !important;
+    border-radius: 10px !important;
+    color: #ffd700 !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    transition: all 0.3s ease !important;
+    text-align: left;
+  }
+  .prevention-summary li a:hover {
+    background: rgba(255,215,0,0.1) !important;
+    border-color: #ffd700 !important;
+    transform: translateX(5px);
+  }
+
+  .prevention-section-block {
+    margin-bottom: 4rem !important;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  .prevention-title-blue, 
+  .prevention-title-white, 
+  .prevention-title-red {
+    font-family: 'Cinzel', serif !important;
+    font-size: 1.8rem !important;
+    padding-bottom: 0.8rem !important;
+    margin-bottom: 2rem !important;
+    border-bottom: 2px solid rgba(255,215,0,0.4) !important;
+    color: #ffd700 !important; 
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5), 0 0 15px rgba(255,215,0,0.2);
+  }
+
+  .prevention-card-full {
+    background: linear-gradient(135deg, rgba(30,30,30,0.8), rgba(10,10,10,0.9)) !important;
+    border: 1px solid rgba(255,215,0,0.2) !important;
+    border-radius: 16px !important;
+    padding: 2.5rem !important;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6) !important;
+  }
+  .prevention-card-full h3 {
+    font-size: 1.3rem !important;
+    color: #ffd700 !important;
+    margin-bottom: 1.5rem !important;
+    font-family: 'Inter', sans-serif !important;
+  }
+  .prevention-card-full h3 a {
+    color: #ffd700 !important;
+    text-decoration: underline !important;
+    text-underline-offset: 4px;
+  }
+  .prevention-card-full p {
+    font-size: 1.05rem !important;
+    line-height: 1.8 !important;
+    color: #ccc !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .prevention-list {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 0 2rem 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .prevention-list li {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    background: rgba(0,0,0,0.4) !important;
+    padding: 1rem 1.5rem !important;
+    border-radius: 10px !important;
+    border-left: 3px solid rgba(255,92,92,0.5) !important;
+    color: #fff !important;
+    font-size: 1.05rem !important;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .prevention-list li strong {
+    font-weight: 600;
+    color: #eee !important;
+  }
+  
+  .prevention-list li .peine {
+    background: linear-gradient(135deg, #e10600, #8a0000) !important;
+    color: #fff !important;
+    padding: 0.6rem 1.2rem !important;
+    border-radius: 30px !important;
+    font-weight: 800 !important;
+    font-size: 0.95rem !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    box-shadow: 0 4px 15px rgba(225,6,0,0.4) !important;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+  }
+
+  .prevention-warning-box {
+    background: linear-gradient(135deg, rgba(225,6,0,0.15), rgba(0,0,0,0.8)) !important;
+    border: 2px solid #e10600 !important;
+    border-radius: 16px !important;
+    padding: 3rem 2rem !important;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(225,6,0,0.2) !important;
+  }
+  .prevention-warning-box p {
+    font-size: 1.2rem !important;
+    margin-bottom: 1rem !important;
+    color: #fff !important;
+  }
+  .prevention-warning-box strong {
+    font-size: 1.5rem !important;
+    color: #ff5c5c !important;
+    display: block;
+    margin-bottom: 1.5rem !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .prevention-actions {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 1.5rem !important;
+    flex-wrap: wrap;
+    margin-top: 3rem !important;
+  }
+  .prevention-btn {
+    padding: 1.2rem 2.5rem !important;
+    border-radius: 50px !important;
+    font-size: 1.1rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: transform 0.3s, box-shadow 0.3s !important;
+  }
+  .prevention-btn-primary {
+    background: #ffd700 !important;
+    color: #000 !important;
+    border: none !important;
+    box-shadow: 0 10px 25px rgba(255,215,0,0.3) !important;
+  }
+  .prevention-btn-primary:hover {
+    transform: translateY(-3px) scale(1.02) !important;
+    box-shadow: 0 15px 35px rgba(255,215,0,0.5) !important;
+  }
+  .prevention-btn-danger {
+    background: #e10600 !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: 0 10px 25px rgba(225,6,0,0.3) !important;
+  }
+  .prevention-btn-danger:hover {
+    transform: translateY(-3px) scale(1.02) !important;
+    box-shadow: 0 15px 35px rgba(225,6,0,0.5) !important;
+  }
+
+  /* =========================================
+     AMÉLIORATION PAGE CYBERSÉCURITÉ (Lisibilité & Présentation)
+     ========================================= */
+  #page-prevention-cyber {
+    background: #090909 !important;
+    font-family: 'Inter', sans-serif;
+    padding: 2rem 1rem;
+  }
+  
+  .page-header-cyber {
+    background: linear-gradient(180deg, rgba(5,5,5,0.95) 0%, rgba(15,15,5,0.95) 100%) !important;
+    border-bottom: 2px solid #ffd700 !important;
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    text-align: center;
+  }
+  
+  .page-header-cyber h1 {
+    color: #ffd700 !important;
+    text-shadow: 0 0 20px rgba(255,215,0,0.4) !important;
+  }
+  
+  .page-header-cyber h2 {
+    color: #ffd700 !important;
+  }
+
+  /* Sommaire Cybersécurité */
+  .summary-cyber {
+    background: rgba(20,20,20,0.6) !important;
+    border: 1px solid rgba(255,215,0,0.3) !important;
+    border-radius: 16px !important;
+    padding: 2rem !important;
+    margin: 3rem 0 !important;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+  .summary-cyber h2 {
+    font-size: 1.4rem !important;
+    color: #ffd700 !important;
+    text-align: center !important;
+    margin-bottom: 1.5rem !important;
+    border: none !important;
+  }
+  .summary-cyber ul {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+    gap: 1rem !important;
+    padding: 0 !important;
+    list-style: none !important;
+  }
+  .summary-cyber li a {
+    display: block !important;
+    padding: 1.2rem !important;
+    background: rgba(255,215,0,0.05) !important;
+    border: 1px solid rgba(255,215,0,0.3) !important;
+    border-radius: 10px !important;
+    color: #ffd700 !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    transition: all 0.3s ease !important;
+    text-align: left;
+  }
+  .summary-cyber li a:hover {
+    background: #ffd700 !important;
+    color: #000 !important;
+    transform: translateX(5px);
+  }
+
+  /* Cartes Cybersécurité */
+  .cyber-section {
+    background: linear-gradient(135deg, rgba(30,30,30,0.8), rgba(10,10,10,0.9)) !important;
+    border: 1px solid rgba(255,215,0,0.2) !important;
+    border-radius: 16px !important;
+    padding: 2.5rem !important;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6) !important;
+    margin-bottom: 2rem !important;
+  }
+  
+  .cyber-section h2 {
+    font-family: 'Cinzel', serif !important;
+    font-size: 1.6rem !important;
+    padding-bottom: 0.8rem !important;
+    margin-bottom: 1.5rem !important;
+    border-bottom: 2px solid rgba(255,215,0,0.4) !important;
+    color: #ffd700 !important; 
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5), 0 0 15px rgba(255,215,0,0.2);
+  }
+  
+  .cyber-section p {
+    font-size: 1.05rem !important;
+    line-height: 1.8 !important;
+    color: #ddd !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* Signature Cybersécurité */
+  .signature {
+    text-align: right;
+    color: #ffd700 !important;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    font-weight: bold;
+  }
+
+  /* Responsive pour mobile */
+  @media (max-width: 600px) {
+    .prevention-list li { flex-direction: column; align-items: flex-start; }
+    .prevention-list li .peine { width: 100%; text-align: center; margin-top: 5px; }
+    .prevention-actions { flex-direction: column; width: 100%; }
+    .prevention-btn { width: 100%; text-align: center; }
+  }
+</style>
 </head>
 <body>
 
@@ -102,7 +465,7 @@
   <img id="zoomImg" alt="Zoom produit">
 </div>
 
-<!-- PRÉVENTION HARCELEMENT -->
+<!-- PRÉVENTION HARCELEMENT (Améliorée) -->
 <div id="prevention-page" class="prevention-page" role="dialog" aria-modal="true" aria-label="Prévention Harcèlement">
   <div class="prevention-header prevention-header-custom">
     <div class="prevention-header-top">
@@ -732,8 +1095,32 @@
       <p data-i18n="legal_liability_p1">GUILLET IV ne peut être tenu responsable des dommages liés à l'utilisation du site ou des produits, sauf preuve d'une faute directe.</p>
     </section>
 
+    <!-- ✅ NOUVELLE SOUS-SECTION ASSURANCE ICI -->
+    <section>
+      <h2>7. Assurance</h2>
+      <p>L'entreprise <strong>GUILLET IV</strong> est couverte par une assurance professionnelle adaptée à la vente en ligne.</p>
+      
+      <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--gold-bright);">RC Pro e-commerce :</h3>
+      <ul>
+        <li>Protection en cas de dommages causés par un produit</li>
+        <li>Couverture des produits défectueux</li>
+        <li>Gestion des litiges clients</li>
+        <li>Protection après livraison</li>
+        <li>Responsabilité exploitation simple</li>
+      </ul>
+
+      <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--gold-bright);">Protection juridique :</h3>
+      <ul>
+        <li>Défense en cas de litige</li>
+        <li>Recours contre un fournisseur ou un transporteur</li>
+        <li>Protection de l’e-réputation (diffamation, faux avis, harcèlement)</li>
+      </ul>
+
+      <p style="margin-top: 1.5rem;"><em>Ces garanties assurent une activité sécurisée et un cadre fiable pour nos clients.</em></p>
+    </section>
+
     <section id="mentions-litiges">
-      <h2 data-i18n="legal_disputes_title">7. Litiges</h2>
+      <h2 data-i18n="legal_disputes_title">8. Litiges</h2>
       <p data-i18n="legal_disputes_p1">En cas de litige, une solution amiable sera recherchée en priorité.</p>
       <p data-i18n="legal_disputes_p2">À défaut, les tribunaux français seront compétents.</p>
     </section>
