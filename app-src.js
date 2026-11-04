@@ -3370,7 +3370,7 @@ window.TRANSLATIONS = {
         <span class="badge" data-i18n="badge_new">NOUVEAU</span>
         <h3 class="product-title" data-i18n="drone_title">KY108 DRONE – L'ŒIL DU FUTUR</h3>
         <p class="tagline" data-i18n="drone_tagline">Dominez le ciel. Captures 4K. Précision chirurgicale.</p>
-        <div class="price"><span class="promo">89 €</span></div>
+        <div class="price"><span class="promo">89€</span></div>
         <p class="desc" data-i18n="drone_desc">Conçu pour les créateurs, explorateurs et pilotes exigeants. Prenez le contrôle des airs et ramenez des images spectaculaires avec une stabilité inégalée.</p>
         
         <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-drone" data-i18n="see_more">Voir plus</button>
