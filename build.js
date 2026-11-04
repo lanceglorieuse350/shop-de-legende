@@ -26,7 +26,8 @@ const OUTPUT = './app.js';   // fichier final à charger dans le HTML
         'activerPageCyberEtScroll',
         'TRANSLATIONS', 'supabaseClient', 'LeCart',
         'chatOuvert', 'ancienFocus', 'retranslateChat',
-        '__getDict', '__setMaintenance'
+        '__getDict', '__setMaintenance',
+        'lecartApiKey', 'checkoutEndpoint', 'stripePublicKey'
       ]
     },
     format: { comments: false }
@@ -63,7 +64,15 @@ const OUTPUT = './app.js';   // fichier final à charger dans le HTML
     transformObjectKeys: false,
     debugProtection: false,
     disableConsoleOutput: false,
-    log: false
+    log: false,
+
+    // ✅ PROTECTION DE LA CLÉ API ET DES MOTS-CLÉS LECART
+    reservedStrings: [
+      'lecart_0-Bbby0TVjcRqMSvtHx0iZ-ELLmhAKUTFyJFYkIGwlY'
+    ],
+    reservedNames: [
+      'LeCart', 'lecartApiKey', 'checkoutEndpoint', 'stripePublicKey'
+    ]
   });
 
   fs.writeFileSync(OUTPUT, obfuscated.getObfuscatedCode(), 'utf8');
