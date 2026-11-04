@@ -361,7 +361,7 @@ window.TRANSLATIONS = {
     pack_secu_ws3: "Installation assistance if needed",
     pack_secu_why: "Why this pack?",
     pack_secu_why_text: "Because it protects your entire home with an AI camera, a complete alarm, 4 sensors, and a ready-to-use system. Turnkey pack — ideal for individuals and small businesses.",
-    cart_pack_secu: "💳 Add to cart — €350",
+    cart_pack_secu: "💳 Add to cart — €379",
 
     // === INFO & REVIEWS ===
     guarantees: "🛡️ Guarantees & Services",
@@ -865,7 +865,7 @@ window.TRANSLATIONS = {
     chat_proj_reply: "💡 The <strong>Solar LED Projector</strong> (€35).",
     chat_endo_reply: "🔍 The <strong>Endoscope</strong> (€95).",
     chat_beauty_reply: "💅 The <strong>Nails & Beauty</strong> section.",
-    chat_price_reply: "💰 Drone: €89 • Projector: €35 • Winter Pack: €99.99 • Endoscope: €95 • Premium Security Pack: €350",
+    chat_price_reply: "💰 Drone: €89 • Projector: €35 • Winter Pack: €99.99 • Endoscope: €95 • Premium Security Pack: €379",
     chat_thanks_reply: "You're welcome! 🙏",
     chat_btn_home: "🏠 Home",
     chat_btn_shop: "🛒 Shop",
@@ -887,7 +887,6 @@ window.TRANSLATIONS = {
   },
 
   ru: {
-    // === NAV & HEADER ===
     maintenance: "ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ",
     maintenance_motto: "Сайт GUILLET IV в настоящее время находится на техническом обслуживании. Мы скоро вернемся.",
     maintenance_info: "⏳ Идут работы — Спасибо за ваше терпение",
@@ -910,8 +909,7 @@ window.TRANSLATIONS = {
     nav_cgv: "📄 Условия",
     nav_privacy: "📄 Конфиденциальность",
     nav_legal: "⚖️ Право и безопасность",
-    
-    // === MARQUEE ===
+
     marquee_welcome: "✨ Добро пожаловать в GUILLET IV — Орден Независимости ✨",
     marquee_delivery: "🚚 Быстрая и безопасная доставка",
     marquee_payment: "🛡️ 100% безопасная оплата",
@@ -920,7 +918,6 @@ window.TRANSLATIONS = {
     marquee_warranty: "🛡️ 2-летняя гарантия на все наши товары",
     marquee_music: "🎵 Откройте для себя нашу эксклюзивную музыкальную подборку",
 
-    // === AUDIO ===
     site_music: "🎵 Музыка сайта",
     choose_music: "Выбрать музыку",
     track_genetiquement: "[FR] 🧬 Génétiquement Modifier",
@@ -960,7 +957,6 @@ window.TRANSLATIONS = {
     track_miyagi_capitaine: "[RU] ⚓ Miyagi – Capitaine",
     track_miyagi_tumani: "[RU] 🎭 Miyagi – Tumani / YO / KADI / Bismarck",
 
-    // === HERO / DOCTRINE ===
     motto: "«Создай свой путь. Защити свою автономию. Построй будущее.»",
     baseline: "Компания · Движение предпринимательской независимости · Видение",
     doctrine_title: "⚔️ Доктрина GUILLET IV",
@@ -990,7 +986,6 @@ window.TRANSLATIONS = {
     ascension: "🜃 Восхождение",
     ascension_desc: "Восход, эволюция, преодоление себя и пределов.",
 
-    // === SHOP ===
     shop_title: "🛒 Магазин GUILLET IV",
     shop_intro: "Товары, выбранные для автономии, безопасности, активного отдыха и практичной жизни.",
     no_products: "Ни один товар не соответствует этому запросу.",
@@ -1002,7 +997,6 @@ window.TRANSLATIONS = {
     how_to_use: "Как использовать",
     features: "Характеристики",
 
-    // Drone
     drone_title: "ДРОН KY108 – ОКО БУДУЩЕГО В ВАШИХ РУКАХ",
     drone_tagline: "Доминируй в небе... или оно будет доминировать над тобой. Будь глазами, не нуждаясь в зрении.",
     drone_desc: "Дрон, созданный для творцов, исследователей и амбициозных пилотов. Запечатлей мир с хирургической точностью.",
@@ -1027,7 +1021,6 @@ window.TRANSLATIONS = {
     drone_use_note: "Не забывайте соблюдать применимые правила полетов и частную жизнь снимаемых людей.",
     cart_89: "💳 Добавить в корзину — 89 €",
 
-    // Projector
     proj_title: "Поворотный солнечный светодиодный прожектор",
     proj_desc: "Уличный солнечный светодиодный прожектор с PIR-датчиком и поворотными панелями.",
     proj_full_1: "Уличный светодиодный прожектор, питающийся от солнечной панели, оснащенный PIR-датчиком и поворотными панелями.",
@@ -1041,7 +1034,6 @@ window.TRANSLATIONS = {
     proj_use_4: "Дайте солнечной панели зарядиться",
     cart_35: "💳 Добавить в корзину — 35 €",
 
-    // Winter Pack
     badge_winter: "ЗИМНИЙ НАБОР",
     pack_title: "Winter Survival Pack – Премиум издание",
     pack_desc: "Идеальный набор, чтобы пережить зиму, оставаться в тепле, со светом и автономным.",
@@ -1070,7 +1062,6 @@ window.TRANSLATIONS = {
     pack_item_4_b4: "Сумка для хранения в комплекте",
     cart_9999: "💳 Добавить в корзину — 99,99 €",
 
-    // Endoscope
     badge_new: "НОВИНКА",
     endo_title: "Эндоскоп с камерой и экраном",
     endo_desc: "Инспекционный эндоскоп 1080P со встроенным экраном 4,3 дюйма, полужестким кабелем 10 метров, камерой 2,0 МП, регулируемой светодиодной подсветкой и водонепроницаемым дизайном IP68.",
@@ -1086,7 +1077,6 @@ window.TRANSLATIONS = {
     endo_feat_5: "Водонепроницаемость IP68",
     cart_95: "💳 Добавить в корзину — 95 €",
 
-    // Security Pack
     badge_security: "🛡️ НАБОР БЕЗОПАСНОСТИ",
     pack_secu_title: "Премиум набор безопасности",
     pack_secu_tagline: "Полная защита. Установка за 10 минут. Под ключ.",
@@ -1123,9 +1113,8 @@ window.TRANSLATIONS = {
     pack_secu_ws3: "Помощь в установке при необходимости",
     pack_secu_why: "Почему этот набор?",
     pack_secu_why_text: "Потому что он защищает весь ваш дом с помощью ИИ-камеры, полной сигнализации, 4 датчиков и готовой к использованию системы. Набор под ключ — идеально для частных лиц и малого бизнеса.",
-    cart_pack_secu: "💳 Добавить в корзину — 350 €",
+    cart_pack_secu: "💳 Добавить в корзину — 379 €",
 
-    // === INFO & REVIEWS ===
     guarantees: "🛡️ Гарантии и услуги",
     warranty_24: "✔ Гарантия: 24 месяца",
     secure_payment: "✔ Безопасная оплата",
@@ -1136,7 +1125,6 @@ window.TRANSLATIONS = {
     review_zlatoff: "Все ок, спасибо",
     review_limitless_2: "Благодарность 🤲 спасибо",
 
-    // === ABOUT ===
     learn_more: "🏢 Узнать больше",
     company_movement: "Компания · Движение · Независимость",
     about_intro: "GUILLET IV — это компания и движение предпринимательской независимости. Он защищает идею о том, что каждый может построить свой собственный путь через работу, творчество и автономию.",
@@ -1148,7 +1136,6 @@ window.TRANSLATIONS = {
     brand_king: "👑 GUILLET IV",
     back_shop: "⬅ Назад в магазин",
 
-    // === SPONSORSHIP ===
     parrainage_title: "🤝 Реферальная программа",
     parrainage_sub: "Boursorama · Starlink · Vinted · Crédit Agricole · Octopus Energy",
     parrainage_intro: "Откройте счет, подпишитесь на услугу или зарегистрируйтесь на Vinted по моим реферальным ссылкам. Информация заполняется автоматически, и вы пользуетесь преимуществами!",
@@ -1193,14 +1180,12 @@ window.TRANSLATIONS = {
     parrainage_note_title: "ℹ️ Полезно знать:",
     parrainage_note_text: "Реферальные ссылки являются официальными ссылками Boursorama, Starlink, Vinted, Crédit Agricole и Octopus Energy. Открытие счета Boursorama бесплатно и без обязательств. Бонусы и преимущества зависят от условий каждого сервиса. Код Crédit Agricole EGYYLFH является одноразовым.",
 
-    // === VINTED PAGE ===
     my_vinted: "👕 Мой Vinted",
     vinted_intro: "Найдите мои проверенные продажи, мои рейтинги 5★ и мои товары, доступные на Vinted.",
     verified_reviews: "Проверенные отзывы Vinted",
     vinted_desc: "Я limitless95 на Vinted. Я предлагаю серьезные, хорошо представленные товары с отзывчивым обслуживанием клиентов.",
     view_vinted_profile: "👕 Мой профиль Vinted",
 
-    // === BEAUTY PAGE ===
     beauty_title: "💅 Ногти и красота — SHAYNAILS",
     beauty_sub: "Элегантность · Уход · Лично в Гиньене",
     beauty_intro: "Услуги только лично в Гиньене. Запись по телефону или в Instagram.",
@@ -1213,7 +1198,6 @@ window.TRANSLATIONS = {
     beauty_book_text: "Все услуги проводятся лично в Гиньене.<br>Запись по телефону или в Instagram.",
     click_photo_zoom: "💡 Нажмите на фото, чтобы увеличить",
 
-    // === CYBERSECURITY PAGE ===
     cyber_title: "🛡️ Профилактика кибербезопасности",
     cyber_subtitle: "Компьютерные атаки во Франции",
     cyber_intro: "Фишинг, кража данных, мошеннический доступ и кража личных данных: понимание рисков помогает лучше защитить ваши учетные записи, устройства и личную информацию.",
@@ -1253,7 +1237,6 @@ window.TRANSLATIONS = {
     cyber_conclusion_title: "🏁 Общее заключение",
     cyber_conclusion_p1: "Киберпреступники могут использовать технические уязвимости, а также доверие, привычки и информацию, которой делятся в Интернете.",
 
-    // === LEGAL & SECURITY AUDIT ===
     legal_notice: "⚖️ Правовая информация и безопасность",
     legal_info: "1. Правовая информация",
     legal_company: "Название компании:",
@@ -1379,7 +1362,6 @@ window.TRANSLATIONS = {
     security_engagement_email: "<strong>Электронная почта:</strong> <a href=\"mailto:lanceglorieuse@gmail.com\">lanceglorieuse@gmail.com</a>",
     security_engagement_thanks: "Заранее благодарю за вашу бдительность и вклад в безопасность этого сайта. 🙏",
 
-    // === CGV ===
     terms_sale: "📄 Условия продажи – GUILLET IV",
     cgv_object: "1. Цель",
     cgv_object_text1: "Настоящие Условия продажи регулируют продажу продуктов, предлагаемых в магазине GUILLET IV.",
@@ -1439,7 +1421,6 @@ window.TRANSLATIONS = {
     cgv_law_text1: "Настоящие Условия регулируются французским законодательством.",
     cgv_law_text2: "В случае спора компетентными будут французские суды в соответствии с правилами подсудности, применимыми к потребителям.",
 
-    // === PRIVACY ===
     privacy_title: "📄 Политика конфиденциальности (GDPR)",
     privacy_intro: "Защита ваших персональных данных является приоритетом. В этой политике объясняется, какие данные собираются, почему, как они защищены и как вы можете осуществить свои права.",
     privacy_s1_title: "1. Собираемые данные",
@@ -1502,7 +1483,6 @@ window.TRANSLATIONS = {
     privacy_s11_text2: "Данные, необходимые для выставления счетов, хранятся в течение 10 лет в соответствии со <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006316689/\" target=\"_blank\" rel=\"noopener\">статьей L123-22 Коммерческого кодекса</a>.",
     privacy_s11_text3: "Вы можете подать жалобу в <a href=\"https://www.cnil.fr/fr/plaintes\" target=\"_blank\" rel=\"noopener\">CNIL</a>.",
 
-    // === FAQ ===
     faq_title: "❓ Часто задаваемые вопросы",
     faq_delivery: "📦 Доставка",
     faq_ship_time: "Какое время отправки?",
@@ -1559,7 +1539,6 @@ window.TRANSLATIONS = {
     faq_contact_q: "Как связаться с GUILLET IV?",
     faq_contact_text: "📧 Электронная почта: lanceglorieuse@gmail.com — Ответ в течение 48 часов.",
 
-    // === CONTACT ===
     contact_title: "✉️ Свяжитесь с нами",
     contact_intro: "Вопрос? Проект? Не стесняйтесь писать нам.",
     phone: "Телефон",
@@ -1580,7 +1559,6 @@ window.TRANSLATIONS = {
     advice_chat: "🤖 Советы GUILLET IV",
     ask_question: "Задайте мне вопрос...",
 
-    // === PREVENTION HARASSMENT ===
     prevention_harassment: "🛡️ Профилактика харассмента",
     harassment_is_crime: "Харассмент — это преступление. Это разрушает жизни.",
     harassment_intro_2: "Будь то физический, психологический или виртуальный, французский закон сурово наказывает виновных.",
@@ -1615,7 +1593,6 @@ window.TRANSLATIONS = {
     call_3018_btn: "📞 Позвонить 3018",
     prevention_footer_note: "Информация из французского Уголовного кодекса (Légifrance). Последнее обновление: 2026.",
 
-    // === CHATBOT ===
     chat_hello: "👋 Здравствуйте и добро пожаловать в <strong>GUILLET IV</strong>!",
     chat_prompt: "Задайте мне вопрос:",
     chat_unknown: "Я не уверен, что понимаю 🤔",
@@ -1627,7 +1604,7 @@ window.TRANSLATIONS = {
     chat_proj_reply: "💡 <strong>Солнечный светодиодный прожектор</strong> (35€).",
     chat_endo_reply: "🔍 <strong>Эндоскоп</strong> (95€).",
     chat_beauty_reply: "💅 Раздел <strong>Ногти и красота</strong>.",
-    chat_price_reply: "💰 Дрон: 89€ • Прожектор: 35€ • Зимний набор: 99,99€ • Эндоскоп: 95€ • Премиум набор безопасности: 350€",
+    chat_price_reply: "💰 Дрон: 89€ • Прожектор: 35€ • Зимний набор: 99,99€ • Эндоскоп: 95€ • Премиум набор безопасности: 379€",
     chat_thanks_reply: "Пожалуйста! 🙏",
     chat_btn_home: "🏠 Главная",
     chat_btn_shop: "🛒 Магазин",
@@ -1649,7 +1626,6 @@ window.TRANSLATIONS = {
   },
 
   zh: {
-    // === NAV & HEADER ===
     maintenance: "维护中",
     maintenance_motto: "GUILLET IV 网站目前正在维护中。我们将很快回来。",
     maintenance_info: "⏳ 正在施工 — 感谢您的耐心",
@@ -1672,8 +1648,7 @@ window.TRANSLATIONS = {
     nav_cgv: "📄 条款",
     nav_privacy: "📄 隐私",
     nav_legal: "⚖️ 法律与安全",
-    
-    // === MARQUEE ===
+
     marquee_welcome: "✨ 欢迎来到 GUILLET IV — 独立秩序 ✨",
     marquee_delivery: "🚚 快速安全的配送",
     marquee_payment: "🛡️ 100% 安全支付",
@@ -1682,7 +1657,6 @@ window.TRANSLATIONS = {
     marquee_warranty: "🛡️ 我们所有产品均有 2 年保修",
     marquee_music: "🎵 探索我们的独家音乐精选",
 
-    // === AUDIO ===
     site_music: "🎵 网站音乐",
     choose_music: "选择音乐",
     track_genetiquement: "[FR] 🧬 Génétiquement Modifier",
@@ -1722,7 +1696,6 @@ window.TRANSLATIONS = {
     track_miyagi_capitaine: "[RU] ⚓ Miyagi – Capitaine",
     track_miyagi_tumani: "[RU] 🎭 Miyagi – Tumani / YO / KADI / Bismarck",
 
-    // === HERO / DOCTRINE ===
     motto: "“创造你的道路。捍卫你的自主权。建设未来。”",
     baseline: "企业 · 创业独立运动 · 愿景",
     doctrine_title: "⚔️ GUILLET IV 信条",
@@ -1752,7 +1725,6 @@ window.TRANSLATIONS = {
     ascension: "🜃 上升",
     ascension_desc: "上升、进化、超越自我和极限。",
 
-    // === SHOP ===
     shop_title: "🛒 GUILLET IV 商店",
     shop_intro: "为自主、安全、户外和实用生活挑选的产品。",
     no_products: "没有产品符合此搜索。",
@@ -1764,7 +1736,6 @@ window.TRANSLATIONS = {
     how_to_use: "如何使用",
     features: "功能",
 
-    // Drone
     drone_title: "KY108 无人机 – 未来的眼睛掌握在你手中",
     drone_tagline: "主宰天空……否则它将主宰你。成为不需要看见的眼睛。",
     drone_desc: "专为创作者、探险家和雄心勃勃的飞行员设计的无人机。以手术般的精准度捕捉世界。",
@@ -1789,7 +1760,6 @@ window.TRANSLATIONS = {
     drone_use_note: "请记住遵守适用的飞行规则和被拍摄者的隐私。",
     cart_89: "💳 加入购物车 — 89 €",
 
-    // Projector
     proj_title: "旋转太阳能 LED 投影仪",
     proj_desc: "带 PIR 传感器和旋转面板的户外太阳能 LED 投影仪。",
     proj_full_1: "由太阳能电池板供电的户外 LED 投影仪，配备 PIR 传感器和旋转面板。",
@@ -1803,7 +1773,6 @@ window.TRANSLATIONS = {
     proj_use_4: "让太阳能电池板充电",
     cart_35: "💳 加入购物车 — 35 €",
 
-    // Winter Pack
     badge_winter: "冬季套装",
     pack_title: "冬季生存包 – 高级版",
     pack_desc: "应对冬季、保持温暖、照明和自主的终极套装。",
@@ -1832,7 +1801,6 @@ window.TRANSLATIONS = {
     pack_item_4_b4: "包含储物袋",
     cart_9999: "💳 加入购物车 — 99,99 €",
 
-    // Endoscope
     badge_new: "新品",
     endo_title: "带屏幕的检测摄像头内窥镜",
     endo_desc: "1080P 检测内窥镜，带 4.3 英寸集成屏幕、10 米半刚性电缆、200 万像素摄像头、可调 LED 照明和 IP68 防水设计。",
@@ -1848,7 +1816,6 @@ window.TRANSLATIONS = {
     endo_feat_5: "IP68 防水认证",
     cart_95: "💳 加入购物车 — 95 €",
 
-    // Security Pack
     badge_security: "🛡️ 安全套装",
     pack_secu_title: "高级安全套装",
     pack_secu_tagline: "全面保护。10 分钟安装。交钥匙。",
@@ -1885,9 +1852,8 @@ window.TRANSLATIONS = {
     pack_secu_ws3: "需要时提供安装协助",
     pack_secu_why: "为什么选择此套装？",
     pack_secu_why_text: "因为它通过 AI 摄像头、完整警报器、4 个传感器和即用型系统保护您的整个家庭。交钥匙套装 — 非常适合个人和小型企业。",
-    cart_pack_secu: "💳 加入购物车 — 350 €",
+    cart_pack_secu: "💳 加入购物车 — 379 €",
 
-    // === INFO & REVIEWS ===
     guarantees: "🛡️ 保修与服务",
     warranty_24: "✔ 保修：24 个月",
     secure_payment: "✔ 安全支付",
@@ -1898,7 +1864,6 @@ window.TRANSLATIONS = {
     review_zlatoff: "一切都好，谢谢",
     review_limitless_2: "感恩 🤲 谢谢",
 
-    // === ABOUT ===
     learn_more: "🏢 了解更多",
     company_movement: "企业 · 运动 · 独立",
     about_intro: "GUILLET IV 是一家企业和创业独立运动。它捍卫每个人都能够通过工作、创造和自主来建立自己的道路的理念。",
@@ -1910,7 +1875,6 @@ window.TRANSLATIONS = {
     brand_king: "👑 GUILLET IV",
     back_shop: "⬅ 返回商店",
 
-    // === SPONSORSHIP ===
     parrainage_title: "🤝 推荐",
     parrainage_sub: "Boursorama · Starlink · Vinted · Crédit Agricole · Octopus Energy",
     parrainage_intro: "使用我的推荐链接开设账户、订阅服务或在 Vinted 上注册。信息会自动预填，您可以享受优惠！",
@@ -1955,14 +1919,12 @@ window.TRANSLATIONS = {
     parrainage_note_title: "ℹ️ 了解详情：",
     parrainage_note_text: "推荐链接是 Boursorama、Starlink、Vinted、Crédit Agricole 和 Octopus Energy 的官方链接。开设 Boursorama 账户免费且无承诺。奖金和优惠受每项服务的条件约束。Crédit Agricole 代码 EGYYLFH 是一次性的。",
 
-    // === VINTED PAGE ===
     my_vinted: "👕 我的 Vinted",
     vinted_intro: "查找我的已验证销售、5 星评价以及 Vinted 上的可用产品。",
     verified_reviews: "已验证的 Vinted 评价",
     vinted_desc: "我在 Vinted 上是 limitless95。我提供严肃、展示良好的商品，并提供响应迅速的客户服务。",
     view_vinted_profile: "👕 查看我的 Vinted 个人资料",
 
-    // === BEAUTY PAGE ===
     beauty_title: "💅 美甲与美容 — SHAYNAILS",
     beauty_sub: "优雅 · 呵护 · 在 Guignen 线下",
     beauty_intro: "仅在 Guignen 线下提供服务。通过电话或 Instagram 预约。",
@@ -1975,7 +1937,6 @@ window.TRANSLATIONS = {
     beauty_book_text: "所有服务均在 Guignen 线下进行。<br>通过电话或 Instagram 预约。",
     click_photo_zoom: "💡 点击照片放大",
 
-    // === CYBERSECURITY PAGE ===
     cyber_title: "🛡️ 网络安全防范",
     cyber_subtitle: "法国的计算机攻击",
     cyber_intro: "网络钓鱼、数据盗窃、欺诈访问和身份盗窃：了解风险有助于更好地保护您的账户、设备和个人信息。",
@@ -2015,7 +1976,6 @@ window.TRANSLATIONS = {
     cyber_conclusion_title: "🏁 总体结论",
     cyber_conclusion_p1: "网络犯罪分子可以利用技术漏洞，也可以利用信任、习惯和在线共享的信息。",
 
-    // === LEGAL & SECURITY AUDIT ===
     legal_notice: "⚖️ 法律声明与安全",
     legal_info: "1. 法律信息",
     legal_company: "公司名称：",
@@ -2141,7 +2101,6 @@ window.TRANSLATIONS = {
     security_engagement_email: "<strong>电子邮件：</strong> <a href=\"mailto:lanceglorieuse@gmail.com\">lanceglorieuse@gmail.com</a>",
     security_engagement_thanks: "提前感谢您的警惕和对本网站安全的贡献。🙏",
 
-    // === CGV ===
     terms_sale: "📄 销售条款 – GUILLET IV",
     cgv_object: "1. 目的",
     cgv_object_text1: "本销售条款规范 GUILLET IV 商店提供的产品销售。",
@@ -2201,7 +2160,6 @@ window.TRANSLATIONS = {
     cgv_law_text1: "本条款受法国法律管辖。",
     cgv_law_text2: "如果发生争议，法国法院将具有管辖权，并遵守适用于消费者的管辖权规则。",
 
-    // === PRIVACY ===
     privacy_title: "📄 隐私政策 (GDPR)",
     privacy_intro: "保护您的个人数据是我们的首要任务。本政策说明了收集了哪些数据、为什么收集、如何保护以及如何行使您的权利。",
     privacy_s1_title: "1. 收集的数据",
@@ -2264,7 +2222,6 @@ window.TRANSLATIONS = {
     privacy_s11_text2: "开具发票所需的数据保留 10 年，根据<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006316689/\" target=\"_blank\" rel=\"noopener\">《商法典》第 L123-22 条</a>。",
     privacy_s11_text3: "您可以向 <a href=\"https://www.cnil.fr/fr/plaintes\" target=\"_blank\" rel=\"noopener\">CNIL</a> 提出投诉。",
 
-    // === FAQ ===
     faq_title: "❓ 常见问题",
     faq_delivery: "📦 配送",
     faq_ship_time: "发货时间是多久？",
@@ -2321,7 +2278,6 @@ window.TRANSLATIONS = {
     faq_contact_q: "如何联系 GUILLET IV？",
     faq_contact_text: "📧 电子邮件：lanceglorieuse@gmail.com — 48 小时内回复。",
 
-    // === CONTACT ===
     contact_title: "✉️ 联系我们",
     contact_intro: "有疑问？有项目？请随时给我们写信。",
     phone: "电话",
@@ -2342,7 +2298,6 @@ window.TRANSLATIONS = {
     advice_chat: "🤖 GUILLET IV 咨询",
     ask_question: "问我一个问题...",
 
-    // === PREVENTION HARASSMENT ===
     prevention_harassment: "🛡️ 骚扰防范",
     harassment_is_crime: "骚扰是一种犯罪。它摧毁生命。",
     harassment_intro_2: "无论是身体上、心理上还是虚拟的，法国法律都会严厉惩罚肇事者。",
@@ -2377,7 +2332,6 @@ window.TRANSLATIONS = {
     call_3018_btn: "📞 拨打 3018",
     prevention_footer_note: "信息来自法国刑法典 (Légifrance)。最后更新：2026 年。",
 
-    // === CHATBOT ===
     chat_hello: "👋 您好，欢迎来到 <strong>GUILLET IV</strong>！",
     chat_prompt: "问我一个问题：",
     chat_unknown: "我不确定我明白了 🤔",
@@ -2389,7 +2343,7 @@ window.TRANSLATIONS = {
     chat_proj_reply: "💡 <strong>太阳能 LED 投影仪</strong>（35€）。",
     chat_endo_reply: "🔍 <strong>内窥镜</strong>（95€）。",
     chat_beauty_reply: "💅 <strong>美甲与美容</strong>部分。",
-    chat_price_reply: "💰 无人机：89€ • 投影仪：35€ • 冬季套装：99.99€ • 内窥镜：95€ • 高级安全套装：350€",
+    chat_price_reply: "💰 无人机：89€ • 投影仪：35€ • 冬季套装：99.99€ • 内窥镜：95€ • 高级安全套装：379€",
     chat_thanks_reply: "不客气！🙏",
     chat_btn_home: "🏠 首页",
     chat_btn_shop: "🛒 商店",
@@ -2488,7 +2442,6 @@ window.TRANSLATIONS = {
   window.changeLanguage = function(lang){ window.applyLanguage(lang); };
 
   document.addEventListener("DOMContentLoaded", function(){
-    // 👉 CORRECTION ICI : On rebranche l'événement sur le menu déroulant
     var sel = document.getElementById("langSelect");
     if (sel) {
       sel.addEventListener("change", function(e) {
@@ -2522,7 +2475,6 @@ window.TRANSLATIONS = {
       if (typeof window.reapplyLanguage === "function") setTimeout(window.reapplyLanguage, 120);
     };
 
-    // Délégation d'événements pour la navigation et les interactions UI
     document.body.addEventListener('click', (e) => {
       const navLink = e.target.closest('[data-nav]');
       if (navLink) {
@@ -2539,7 +2491,6 @@ window.TRANSLATIONS = {
       }
     });
 
-    // Gestion de l'accessibilité au clavier (Entrée sur les éléments role=button)
     document.body.addEventListener('keydown', (e) => {
       if (e.key === 'Enter') {
         const navLink = e.target.closest('[data-nav]');
@@ -2922,7 +2873,7 @@ window.TRANSLATIONS = {
       { intention: "beaute", motsCles: ["ongle","ongles","beaute","beauté","vernis","manucure","nail"], reponseKey: "chat_beauty_reply", reponse: "💅 La section <strong>Ongles & Beauté</strong>.", options: [
         { labelKey: "chat_btn_see_section", label: "Voir la section", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } }
       ] },
-      { intention: "prix", motsCles: ["prix","tarif","combien","cout"], reponseKey: "chat_price_reply", reponse: "💰 Drone: 89€ • Projecteur: 35€ • Pack Hiver: 99,99€ • Endoscope: 95€ • Pack Sécurité Premium: 350€" },
+      { intention: "prix", motsCles: ["prix","tarif","combien","cout"], reponseKey: "chat_price_reply", reponse: "💰 Drone: 89€ • Projecteur: 35€ • Pack Hiver: 99,99€ • Endoscope: 95€ • Pack Sécurité Premium: 379€" },
       { intention: "merci", motsCles: ["merci","super","parfait","top"], reponseKey: "chat_thanks_reply", reponse: "Avec plaisir ! 🙏" }
     ];
 
@@ -2941,7 +2892,6 @@ window.TRANSLATIONS = {
     // 9. INITIALISATION ET GESTION DES HASH
     // ==========================================
     var ih = window.location.hash.replace("#", "") || "accueil";
-    // Ajout de "harcelement" dans la liste des pages normales
     var cp = ["accueil","apropos","vinted","ongles-beaute","parrainage","prevention-cyber","harcelement","mentions","cgv","confidentialite","faq","contact"];
     var ca = ["mots-de-passe","phishing","force-brute","photos-cles","vie-personnelle","loi-hacking","phishing-droit","donnees-personnelles","test-autorise","incident","conclusion-cyber"];
     var ha = ["prevention-moral","prevention-scolaire","prevention-sexuel","prevention-bande","prevention-aide"];
@@ -2963,7 +2913,6 @@ window.TRANSLATIONS = {
       });
     });
     
-    // Liens du sommaire Harcèlement (défilement normal)
     document.querySelectorAll(".prevention-summary a").forEach(function(l){
       l.addEventListener("click", function(e){
         var h = l.getAttribute("href");
@@ -3016,7 +2965,6 @@ window.TRANSLATIONS = {
       } catch(e) { chatBadge.style.display = "block"; }
     }
 
-    // Fonctions utilitaires de défilement
     window.scrollToElementWithOffset = function(e, o){
       if (o === undefined) o = 80; if (!e) return;
       window.scrollTo({ top: e.getBoundingClientRect().top + window.pageYOffset - o, behavior: "smooth" });
@@ -3043,13 +2991,11 @@ window.TRANSLATIONS = {
   const SUPABASE_URL = "https://wrhokeajjmupnxpfurcc.supabase.co";
   const SUPABASE_ANON_KEY = "sb_publishable_0mmEGRZ_GKmgKSMKE83S8A_huJaAdL9";
 
-  // Vérification que le SDK Supabase est bien chargé
   if (typeof supabase === "undefined" || typeof supabase.createClient !== "function") {
     console.error("[AUTH] Le SDK Supabase n'est pas chargé. Vérifie le CDN dans le <head>.");
     return;
   }
 
-  // ✅ CORRECTION : On crée une seule instance globale pour éviter le warning
   if (!window.supabaseClient) {
     window.supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
   }
@@ -3069,7 +3015,6 @@ window.TRANSLATIONS = {
   const authSubmitBtn  = document.getElementById("authSubmitBtn");
   const authNewsletter = document.getElementById("authNewsletter");
 
-  // Éléments du profil
   const profileModal       = document.getElementById("profileModal");
   const closeProfileModal  = document.getElementById("closeProfileModal");
   const profileForm        = document.getElementById("profileForm");
@@ -3080,15 +3025,9 @@ window.TRANSLATIONS = {
     return;
   }
 
-  // ==========================================
-  // 3. ÉTAT
-  // ==========================================
   let currentUser = null;
   let isLoading   = false;
 
-  // ==========================================
-  // 4. HELPERS (Messages et chargement)
-  // ==========================================
   function showMessage(text, color) {
     if (!authMessage) return;
     authMessage.textContent = text || "";
@@ -3138,12 +3077,8 @@ window.TRANSLATIONS = {
     }
   }
 
-  // ==========================================
-  // 5. ÉVÉNEMENTS UI (Clics sur les boutons)
-  // ==========================================
   authBtn.addEventListener("click", async () => {
     if (authBtn.getAttribute("data-logged-in") === "true") {
-      // Si connecté : on demande s'il veut voir son profil ou se déconnecter
       const choice = confirm("Voulez-vous ouvrir votre profil ?\n(Cliquez sur ANNULER pour vous déconnecter)");
       if (choice) {
         openProfileModal();
@@ -3170,9 +3105,6 @@ window.TRANSLATIONS = {
     }
   });
 
-  // ==========================================
-  // 6. CONNEXION / INSCRIPTION
-  // ==========================================
   authForm.addEventListener("submit", async (e) => {
     e.preventDefault();
     if (isLoading) return;
@@ -3198,7 +3130,6 @@ window.TRANSLATIONS = {
 
       if (error) {
         if (error.message.includes("Invalid login credentials")) {
-          // Tentative d'inscription
           const { data: signUpData, error: signUpError } = await supabaseClient.auth.signUp({
             email,
             password,
@@ -3212,7 +3143,6 @@ window.TRANSLATIONS = {
           if (signUpError) {
             showMessage("Erreur : " + signUpError.message, "var(--red)");
           } else {
-            // C'est le Trigger SQL qui gère l'enregistrement dans la table `clients`.
             if (signUpData.session) {
               showMessage("✅ Inscription réussie !", "var(--accent-safe)");
               authForm.reset();
@@ -3234,7 +3164,6 @@ window.TRANSLATIONS = {
           showMessage("Erreur : " + error.message, "var(--red)");
         }
       } else {
-        // Connexion réussie
         showMessage("✅ Connexion réussie !", "var(--accent-safe)");
         authForm.reset();
         setTimeout(closeModal, 1500);
@@ -3247,9 +3176,6 @@ window.TRANSLATIONS = {
     }
   });
 
-  // ==========================================
-  // 7. CONNEXION GOOGLE
-  // ==========================================
   if (googleAuthBtn) {
     googleAuthBtn.addEventListener("click", async () => {
       showMessage("Redirection vers Google...", "#fff");
@@ -3267,9 +3193,6 @@ window.TRANSLATIONS = {
     });
   }
 
-  // ==========================================
-  // 8. ÉCOUTE DES CHANGEMENTS D'AUTH
-  // ==========================================
   supabaseClient.auth.onAuthStateChange((event, session) => {
     console.log("[AUTH] Événement :", event);
     const user = session ? session.user : null;
@@ -3280,9 +3203,6 @@ window.TRANSLATIONS = {
     }
   });
 
-  // ==========================================
-  // 9. INITIALISATION
-  // ==========================================
   (async () => {
     try {
       const { data: { session } } = await supabaseClient.auth.getSession();
@@ -3293,9 +3213,6 @@ window.TRANSLATIONS = {
     }
   })();
 
-  // ==========================================
-  // 10. GESTION DU PROFIL CLIENT
-  // ==========================================
   function openProfileModal() {
     if (!profileModal) return;
     profileModal.style.display = "flex";
@@ -3373,9 +3290,6 @@ window.TRANSLATIONS = {
     });
   }
 
-  // ==========================================
-  // 11. AFFICHAGE DES COMMANDES
-  // ==========================================
   async function loadOrders() {
     const ordersList = document.getElementById("ordersList");
     if (!ordersList) return;
@@ -3412,7 +3326,6 @@ window.TRANSLATIONS = {
         produitsHtml = "<li>Produits (détails indisponibles)</li>";
       }
 
-      // ✅ AJOUT DU NUMÉRO DE SUIVI ICI
       let trackingHtml = '';
       if (order.numero_suivi) {
         trackingHtml = `<div style="margin-top: 8px; padding: 8px; background: rgba(255,215,0,0.1); border-radius: 4px; border-left: 3px solid var(--gold); font-size: 0.85rem;">
@@ -3441,14 +3354,11 @@ window.TRANSLATIONS = {
 
 })();
 
+// ============================================================
+// ✅ FIX n°2 : Bloc produits autonome, plus de return si Supabase absent
+// ============================================================
 (function () {
-  // ✅ CORRECTION : On utilise la connexion globale créée par auth.js
-  const supabaseClient = window.supabaseClient;
-
-  if (!supabaseClient) {
-    console.error("[PRODUITS] Supabase n'est pas initialisé. Vérifiez auth.js.");
-    return;
-  }
+  const supabaseClient = window.supabaseClient; // peut être undefined → OK
 
   // ============================================================
   // 1. DONNÉES DES PRODUITS & TEXTES AMÉLIORÉS
@@ -3510,7 +3420,6 @@ window.TRANSLATIONS = {
         {{STOCK}}
         {{BOUTON}}
 
-        <!-- VIDÉO PLACÉE TOUT EN BAS -->
         <div class="drone-video-wrapper">
           <video src="publicite_drone.mp4" controls preload="none" playsinline class="video-full" aria-label="Publicité du drone KY108" poster="photo1.png">
             Votre navigateur ne prend pas en charge la lecture vidéo.
@@ -3752,6 +3661,8 @@ window.TRANSLATIONS = {
 
   // ============================================================
   // 2. AFFICHAGE INSTANTANÉ
+  // ✅ FIX n°1 : Plus de LeCart.init() ici (déjà appelé au DOMContentLoaded en haut du fichier)
+  // ✅ FIX n°2 : Aucun return → le catalogue s'affiche TOUJOURS
   // ============================================================
   function renderProductsInstantly() {
     const grid = document.getElementById("productsGrid");
@@ -3760,28 +3671,32 @@ window.TRANSLATIONS = {
     let finalHTML = "";
     
     for (const [priceId, data] of Object.entries(produitsHTML)) {
-      // Bouton par défaut (Panier)
       const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${data.price}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
       
-      // Badge de stock initial
       const tempStock = `<div class="stock-badge" data-id="${priceId}">⏳ Vérification du stock...</div>`;
       
-      // Remplacement des variables dans le HTML
       finalHTML += data.html.replace("{{STOCK}}", tempStock).replace("{{BOUTON}}", defaultBtn);
     }
     
     grid.innerHTML = finalHTML;
-    
-    // Initialisation du panier LeCart
-    if (window.LeCart && typeof window.LeCart.init === 'function') {
-      window.LeCart.init();
-    }
+    // ❌ SUPPRIMÉ : window.LeCart.init();  → déjà appelé au DOMContentLoaded
   }
 
   // ============================================================
   // 3. MISE À JOUR DES STOCKS
+  // ✅ FIX n°2 : Guard si supabaseClient absent → badges neutres
+  // ✅ FIX n°3 : Fallback pour les produits absents de la DB
   // ============================================================
   async function checkStocks() {
+    if (!supabaseClient) {
+      // Supabase indisponible → on met un badge neutre mais le catalogue reste visible
+      document.querySelectorAll(".stock-badge").forEach(el => {
+        el.className = "stock-badge";
+        el.textContent = "📦 Disponibilité à confirmer";
+      });
+      return;
+    }
+
     try {
       const { data: dbProduits, error } = await supabaseClient
         .from('produits')
@@ -3789,41 +3704,44 @@ window.TRANSLATIONS = {
 
       if (error || !dbProduits) return;
 
+      const seen = new Set();
+
       dbProduits.forEach(prod => {
+        seen.add(prod.stripe_price_id);
         const stockEl = document.querySelector(`.stock-badge[data-id="${prod.stripe_price_id}"]`);
-        const btnEl = document.querySelector(`button[data-stripe-price-id="${prod.stripe_price_id}"]`);
+        const btnEl   = document.querySelector(`button[data-stripe-price-id="${prod.stripe_price_id}"]`);
 
         if (stockEl) {
-          if (prod.stock > 5) {
-            // Stock confortable
-            stockEl.className = "stock-badge stock-in";
-            stockEl.innerHTML = `🟢 En stock (${prod.stock} disponibles)`;
-          } else if (prod.stock > 0 && prod.stock <= 5) {
-            // Stock faible (Urgence)
-            stockEl.className = "stock-badge stock-low";
-            stockEl.innerHTML = `🟠 Plus que ${prod.stock} en stock !`;
-          } else {
-            // Rupture de stock
-            stockEl.className = "stock-badge stock-out";
-            stockEl.innerHTML = `🔴 Rupture de stock`;
-          }
+          if (prod.stock > 5)       { stockEl.className = "stock-badge stock-in";  stockEl.innerHTML = `🟢 En stock (${prod.stock} disponibles)`; }
+          else if (prod.stock > 0)  { stockEl.className = "stock-badge stock-low"; stockEl.innerHTML = `🟠 Plus que ${prod.stock} en stock !`; }
+          else                      { stockEl.className = "stock-badge stock-out"; stockEl.innerHTML = `🔴 Rupture de stock`; }
         }
 
-        // Désactivation du bouton si rupture de stock
         if (prod.stock <= 0 && btnEl) {
           btnEl.disabled = true;
-          btnEl.classList.remove("payment-btn"); // On retire le style doré
-          btnEl.classList.add("btn-out-of-stock"); // On ajoute le style rouge/transparent
+          btnEl.classList.remove("payment-btn");
+          btnEl.classList.add("btn-out-of-stock");
           btnEl.innerHTML = "❌ Produit épuisé";
-          btnEl.removeAttribute("data-lecart-add"); // On empêche l'ajout au panier
+          btnEl.removeAttribute("data-lecart-add");
+        }
+      });
+
+      // ✅ FIX n°3 : Les produits absents de la table ne restent plus bloqués sur "Vérification..."
+      document.querySelectorAll(".stock-badge").forEach(el => {
+        if (!seen.has(el.dataset.id)) {
+          el.className = "stock-badge";
+          el.textContent = "📦 Disponibilité à confirmer";
         }
       });
     } catch (err) {
       console.error("[PRODUITS] Erreur de vérification des stocks:", err);
+      document.querySelectorAll(".stock-badge").forEach(el => {
+        el.className = "stock-badge";
+        el.textContent = "📦 Disponibilité à confirmer";
+      });
     }
   }
 
-  // Lancement au chargement de la page
   document.addEventListener("DOMContentLoaded", () => {
     renderProductsInstantly();
     checkStocks();
