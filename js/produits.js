@@ -1,7 +1,11 @@
 (function () {
-  const SUPABASE_URL = "https://wrhokeajjmupnxpfurcc.supabase.co";
-  const SUPABASE_ANON_KEY = "sb_publishable_0mmEGRZ_GKmgKSMKE83S8A_huJaAdL9";
-  const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  // ✅ CORRECTION : On utilise la connexion globale créée par auth.js
+  const supabaseClient = window.supabaseClient;
+
+  if (!supabaseClient) {
+    console.error("[PRODUITS] Supabase n'est pas initialisé. Vérifiez auth.js.");
+    return;
+  }
 
   // 1. On stocke tout votre design original ici avec le marqueur {{STOCK}}
   const produitsHTML = {
@@ -271,7 +275,7 @@
     }
   };
 
-  // 2. Affichage instantané avec un texte de stock temporaire
+  // 2. Affichage instantané avec un badge de stock stylé
   function renderProductsInstantly() {
     const grid = document.getElementById("productsGrid");
     if (!grid) return;
@@ -280,8 +284,8 @@
     for (const [priceId, data] of Object.entries(produitsHTML)) {
       const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${data.price}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
       
-      // On injecte un texte temporaire pour le stock
-      const tempStock = `<p class="stock-display" data-id="${priceId}" style="font-size: 0.85rem; color: #888; margin-bottom: 0.5rem;">Stock : vérification...</p>`;
+      // ✅ NOUVEAU : Le badge de stock stylé avec animation de chargement
+      const tempStock = `<div class="stock-badge" data-id="${priceId}">⏳ Vérification du stock...</div>`;
       
       finalHTML += data.html.replace("{{STOCK}}", tempStock).replace("{{BOUTON}}", defaultBtn);
     }
@@ -302,14 +306,20 @@
       if (error || !dbProduits) return;
 
       dbProduits.forEach(prod => {
-        // On met à jour le texte du stock
-        const stockEl = document.querySelector(`.stock-display[data-id="${prod.stripe_price_id}"]`);
+        const stockEl = document.querySelector(`.stock-badge[data-id="${prod.stripe_price_id}"]`);
         if (stockEl) {
-          stockEl.textContent = `Stock disponible : ${prod.stock}`;
-          // On colore en rouge si c'est épuisé
-          if (prod.stock <= 0) {
-            stockEl.style.color = "var(--red)";
-            stockEl.style.fontWeight = "bold";
+          if (prod.stock > 5) {
+            // Stock confortable
+            stockEl.className = "stock-badge stock-in";
+            stockEl.innerHTML = `🟢 En stock (${prod.stock} disponibles)`;
+          } else if (prod.stock > 0 && prod.stock <= 5) {
+            // Stock faible
+            stockEl.className = "stock-badge stock-low";
+            stockEl.innerHTML = `🟠 Plus que ${prod.stock} en stock !`;
+          } else {
+            // Rupture de stock
+            stockEl.className = "stock-badge stock-out";
+            stockEl.innerHTML = `🔴 Rupture de stock`;
           }
         }
 
@@ -318,10 +328,12 @@
           const btn = document.querySelector(`button[data-stripe-price-id="${prod.stripe_price_id}"]`);
           if (btn) {
             btn.disabled = true;
-            btn.style.background = "#555";
-            btn.style.color = "#ccc";
+            btn.className = "payment-btn btn-out-of-stock"; // On change sa classe
+            btn.style.background = "transparent";
+            btn.style.color = "#ff4444";
+            btn.style.border = "1px solid #ff4444";
             btn.style.cursor = "not-allowed";
-            btn.innerHTML = "❌ Rupture de stock";
+            btn.innerHTML = "❌ Produit épuisé";
             btn.removeAttribute("data-lecart-add");
           }
         }

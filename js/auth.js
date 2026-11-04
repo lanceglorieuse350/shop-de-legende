@@ -13,7 +13,11 @@
     return;
   }
 
-  const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  // ✅ CORRECTION : On crée une seule instance globale pour éviter le warning
+  if (!window.supabaseClient) {
+    window.supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  }
+  const supabaseClient = window.supabaseClient;
 
   // ==========================================
   // 2. RÉCUPÉRATION DES ÉLÉMENTS HTML
@@ -27,7 +31,7 @@
   const authMessage    = document.getElementById("authMessage");
   const googleAuthBtn  = document.getElementById("googleAuthBtn");
   const authSubmitBtn  = document.getElementById("authSubmitBtn");
-  const authNewsletter = document.getElementById("authNewsletter"); // ✅ NOUVEAU
+  const authNewsletter = document.getElementById("authNewsletter");
 
   // Éléments du profil
   const profileModal       = document.getElementById("profileModal");
@@ -139,7 +143,7 @@
 
     const email    = (authEmail.value || "").trim();
     const password = authPassword.value || "";
-    const wantsNewsletter = authNewsletter?.checked || false; // ✅ NOUVEAU
+    const wantsNewsletter = authNewsletter?.checked || false;
 
     if (!email || !password) {
       showMessage("Veuillez remplir tous les champs.", "var(--red)");
@@ -164,7 +168,7 @@
             password,
             options: {
               data: {
-                newsletter: wantsNewsletter // ✅ NOUVEAU : On envoie la préférence au Trigger SQL
+                newsletter: wantsNewsletter
               }
             }
           });
@@ -172,10 +176,7 @@
           if (signUpError) {
             showMessage("Erreur : " + signUpError.message, "var(--red)");
           } else {
-            // ⚠️ L'insertion manuelle a été retirée ici. 
-            // C'est le Trigger SQL (sur Supabase) qui gère l'enregistrement dans la table `clients`.
-
-            // Suite du processus d'inscription
+            // C'est le Trigger SQL qui gère l'enregistrement dans la table `clients`.
             if (signUpData.session) {
               showMessage("✅ Inscription réussie !", "var(--accent-safe)");
               authForm.reset();
@@ -264,10 +265,7 @@
     profileModal.style.display = "flex";
     if (profileMessage) profileMessage.textContent = "";
     
-    // On charge les infos existantes
     loadProfileData();
-    
-    // ✅ NOUVEAU : On charge l'historique des commandes
     loadOrders(); 
   }
 
@@ -349,7 +347,6 @@
     const { data: { user } } = await supabaseClient.auth.getUser();
     if (!user) return;
 
-    // On va chercher les commandes dans Supabase
     const { data, error } = await supabaseClient
       .from('commandes')
       .select('*')
@@ -366,12 +363,10 @@
       return;
     }
 
-    // On affiche les commandes
     let html = "";
     data.forEach(order => {
       const date = new Date(order.created_at).toLocaleDateString('fr-FR');
       
-      // On construit la liste des produits
       let produitsHtml = "";
       if (order.details_produits && Array.isArray(order.details_produits)) {
         order.details_produits.forEach(prod => {
