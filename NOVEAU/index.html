@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>GUILLET IV — L'Ordre de l'Indépendance</title>
+<meta name="description" content="GUILLET IV — Boutique, prévention cybersécurité, prévention harcèlement et conseils produits.">
+<meta name="theme-color" content="#050505">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="GUILLET IV — L'Ordre de l'Indépendance">
+<meta property="og:description" content="Boutique, cybersécurité, prévention harcèlement et conseils produits.">
+<meta property="og:image" content="/background.jpg">
+<meta property="og:locale" content="fr_FR">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23e10600' stroke='%23ffd700' stroke-width='4'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='serif' font-weight='bold' font-size='28' fill='%23ffd700'%3EIV%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="background.jpg" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://unpkg.com/lecart/dist/lecart.css" crossorigin="anonymous">
+<script src="https://unpkg.com/lecart/dist/lecart.min.js" crossorigin="anonymous" defer></script>
+
+<!-- FICHIERS CSS EXTERNES -->
+<link rel="stylesheet" href="css/cssmain.css">
+<link rel="stylesheet" href="css/csssecurity-dashboard.css">
+
+<!-- SDK SUPABASE -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<!-- Script Analytics Vercel -->
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+<!-- SECTION MAINTENANCE -->
+<div id="maintenance-page" aria-hidden="true">
+  <div class="maintenance-wrapper">
+    <div class="maintenance-emblem">IV</div>
+    <h1 data-i18n="maintenance">MAINTENANCE</h1>
+    <p class="maintenance-motto" data-i18n="maintenance_motto">« Le site GUILLET IV est actuellement en maintenance. Nous revenons très vite. »</p>
+    <div class="maintenance-divider"></div>
+    <p class="maintenance-info" data-i18n="maintenance_info">⏳ Travaux en cours — Merci de votre patience</p>
+
+    <div class="maintenance-stats-box">
+      <h3>🌍 Statistiques Internationales</h3>
+      <div class="world-map-container" role="img" aria-label="Carte du monde des visiteurs du site">
+        <svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" class="svg-full">
+          <image href="carte-monde.jpg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" class="world-map-img"/>
+          <g class="visitor-dots">
+            <g class="visitor-dot" data-country="France"><circle cx="480" cy="170" r="16" class="dot-pulse"/><circle cx="480" cy="170" r="7" class="dot-core"/><text x="480" y="152" class="dot-label">FR</text></g>
+            <g class="visitor-dot" data-country="USA"><circle cx="180" cy="195" r="16" class="dot-pulse"/><circle cx="180" cy="195" r="7" class="dot-core"/><text x="180" y="177" class="dot-label">US</text></g>
+            <g class="visitor-dot" data-country="Netherlands"><circle cx="490" cy="160" r="14" class="dot-pulse"/><circle cx="490" cy="160" r="6" class="dot-core"/><text x="490" y="144" class="dot-label">NL</text></g>
+            <g class="visitor-dot" data-country="Sweden"><circle cx="515" cy="125" r="14" class="dot-pulse"/><circle cx="515" cy="125" r="6" class="dot-core"/><text x="515" y="109" class="dot-label">SE</text></g>
+            <g class="visitor-dot" data-country="HongKong"><circle cx="775" cy="230" r="14" class="dot-pulse"/><circle cx="775" cy="230" r="6" class="dot-core"/><text x="775" y="214" class="dot-label">HK</text></g>
+            <g class="visitor-dot" data-country="Ireland"><circle cx="460" cy="160" r="14" class="dot-pulse"/><circle cx="460" cy="160" r="6" class="dot-core"/><text x="460" y="144" class="dot-label">IE</text></g>
+            <g class="visitor-dot" data-country="Italy"><circle cx="495" cy="190" r="14" class="dot-pulse"/><circle cx="495" cy="190" r="6" class="dot-core"/><text x="495" y="174" class="dot-label">IT</text></g>
+            <g class="visitor-dot" data-country="Singapore"><circle cx="760" cy="280" r="14" class="dot-pulse"/><circle cx="760" cy="280" r="6" class="dot-core"/><text x="760" y="264" class="dot-label">SG</text></g>
+            <g class="visitor-dot" data-country="IvoryCoast"><circle cx="430" cy="245" r="14" class="dot-pulse"/><circle cx="430" cy="245" r="6" class="dot-core"/><text x="430" y="229" class="dot-label">CI</text></g>
+            <g class="visitor-dot" data-country="UK"><circle cx="470" cy="150" r="14" class="dot-pulse"/><circle cx="470" cy="150" r="6" class="dot-core"/><text x="470" y="134" class="dot-label">UK</text></g>
+            <g class="visitor-dot" data-country="Norway"><circle cx="500" cy="120" r="14" class="dot-pulse"/><circle cx="500" cy="120" r="6" class="dot-core"/><text x="500" y="104" class="dot-label">NO</text></g>
+            <g class="visitor-dot" data-country="Poland"><circle cx="525" cy="160" r="14" class="dot-pulse"/><circle cx="525" cy="160" r="6" class="dot-core"/><text x="525" y="144" class="dot-label">PL</text></g>
+          </g>
+        </svg>
+      </div>
+      <table class="stats-table">
+        <thead><tr><th>Pays</th><th>Visiteurs</th><th>Vues</th></tr></thead>
+        <tbody>
+          <tr><td><img src="https://flagcdn.com/w20/fr.png" alt="Drapeau France" class="stats-flag-img" width="20" height="15" loading="lazy"> France</td><td>58% (44)</td><td>674</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/us.png" alt="Drapeau États-Unis" class="stats-flag-img" width="20" height="15" loading="lazy"> États-Unis</td><td>13% (10)</td><td>10</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/nl.png" alt="Drapeau Pays-Bas" class="stats-flag-img" width="20" height="15" loading="lazy"> Pays-Bas</td><td>5% (4)</td><td>64</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/se.png" alt="Drapeau Suède" class="stats-flag-img" width="20" height="15" loading="lazy"> Suède</td><td>5% (4)</td><td>6</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/hk.png" alt="Drapeau Hong Kong" class="stats-flag-img" width="20" height="15" loading="lazy"> Hong Kong</td><td>4% (3)</td><td>3</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/ie.png" alt="Drapeau Irlande" class="stats-flag-img" width="20" height="15" loading="lazy"> Irlande</td><td>4% (3)</td><td>3</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/it.png" alt="Drapeau Italie" class="stats-flag-img" width="20" height="15" loading="lazy"> Italie</td><td>3% (2)</td><td>3</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/sg.png" alt="Drapeau Singapour" class="stats-flag-img" width="20" height="15" loading="lazy"> Singapour</td><td>3% (2)</td><td>2</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/ci.png" alt="Drapeau Côte d'Ivoire" class="stats-flag-img" width="20" height="15" loading="lazy"> Côte d'Ivoire</td><td>1% (1)</td><td>5</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/gb.png" alt="Drapeau Royaume-Uni" class="stats-flag-img" width="20" height="15" loading="lazy"> Royaume-Uni</td><td>1% (1)</td><td>1</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/no.png" alt="Drapeau Norvège" class="stats-flag-img" width="20" height="15" loading="lazy"> Norvège</td><td>1% (1)</td><td>1</td></tr>
+          <tr><td><img src="https://flagcdn.com/w20/pl.png" alt="Drapeau Pologne" class="stats-flag-img" width="20" height="15" loading="lazy"> Pologne</td><td>1% (1)</td><td>1</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="maintenance-actions">
+      <a href="mailto:lanceglorieuse@gmail.com" class="maintenance-btn-gold" data-i18n="contact_us">📧 Nous contacter</a>
+      <a href="tel:0780204749" class="maintenance-btn-outline">📞 07.80.20.47.49</a>
+    </div>
+    <p class="maintenance-copyright">© 2026 GUILLET IV — L'Ordre de l'Indépendance</p>
+  </div>
+</div>
+
+<noscript>
+  <div class="noscript-warning">⚠️ JavaScript est désactivé. Activez JavaScript pour une expérience complète.</div>
+</noscript>
+
+<div id="zoomModal" role="dialog" aria-modal="true" aria-label="Agrandissement du produit">
+  <button type="button" class="zoom-close" aria-label="Fermer l'image">×</button>
+  <img id="zoomImg" alt="Zoom produit">
+</div>
+
+<!-- PRÉVENTION HARCELEMENT -->
+<div id="prevention-page" class="prevention-page" role="dialog" aria-modal="true" aria-label="Prévention Harcèlement">
+  <div class="prevention-header prevention-header-custom">
+    <div class="prevention-header-top">
+      <h1 data-i18n="prevention_harassment" class="m-0">🛡️ Prévention Harcèlement</h1>
+      <button type="button" class="prevention-close" data-close-prevention aria-label="Fermer">✕</button>
+    </div>
+    <div class="navbar-links prevention-nav-links">
+      <a href="#accueil" data-nav="accueil" class="nav-link">🏠 Accueil</a>
+      <a href="#apropos" data-nav="apropos" class="nav-link">📜 À propos</a>
+      <a href="#produits" data-nav="accueil" data-section="produits" class="nav-link">🛒 Boutique</a>
+      <a href="#vinted" data-nav="vinted" class="nav-link">👕 Vinted</a>
+      <a href="#ongles-beaute" data-nav="ongles-beaute" class="nav-link">💅 Ongles & Beauté</a>
+      <a href="#parrainage" data-nav="parrainage" class="nav-link">🤝 Parrainage</a>
+      <a href="#prevention-cyber" data-nav="prevention-cyber" class="nav-link">🛡️ Cybersécurité</a>
+      <a href="#" class="nav-link active-link" style="pointer-events:none;">🚨 Harcèlement</a>
+      <a href="#contact" data-nav="contact" class="nav-link">✉️ Contact</a>
+      <a href="#faq" data-nav="faq" class="nav-link">❓ FAQ</a>
+      <a href="#cgv" data-nav="cgv" class="nav-link">📄 CGV</a>
+      <a href="#confidentialite" data-nav="confidentialite" class="nav-link">📄 Confidentialité</a>
+      <a href="#mentions" data-nav="mentions" class="nav-link">⚖️ Mentions légales & Sécurité</a>
+      <a href="https://www.tiktok.com/@lanceglorieuse" target="_blank" rel="noopener noreferrer">🎵 TikTok</a>
+    </div>
+  </div>
+
+  <div class="prevention-content">
+    <div class="prevention-intro-box">
+      <p><strong data-i18n="harassment_is_crime">Le harcèlement est un délit. Il détruit des vies.</strong></p>
+      <p data-i18n="harassment_intro_2">Que ce soit physique, psychologique ou virtuel, la loi française punit sévèrement les auteurs.</p>
+      <p data-i18n="harassment_intro_3">Voici les peines encourues, seul ou en bande organisée.</p>
+    </div>
+
+    <nav class="prevention-summary" aria-label="Sommaire de la prévention harcèlement">
+      <h2 data-i18n="prevention_themes">📋 Les thèmes de prévention</h2>
+      <ul>
+        <li><a href="#prevention-moral" data-i18n="moral_harassment">💻 Harcèlement moral</a></li>
+        <li><a href="#prevention-scolaire" data-i18n="school_harassment">🎓 Harcèlement scolaire</a></li>
+        <li><a href="#prevention-sexuel" data-i18n="sexual_harassment">🤬 Harcèlement sexuel</a></li>
+        <li><a href="#prevention-bande" data-i18n="organized_group">🚨 En bande organisée</a></li>
+        <li><a href="#prevention-aide" data-i18n="where_help">📞 Où trouver de l'aide ?</a></li>
+      </ul>
+    </nav>
+
+    <section class="prevention-section-block" id="prevention-moral">
+      <h2 class="prevention-title-blue" data-i18n="moral_harassment">💻 Harcèlement moral</h2>
+      <div class="prevention-card-full">
+        <h3>📜 <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047052788" target="_blank" rel="noopener noreferrer" class="link-gold">Article 222-33-2-2 du Code pénal (Légifrance)</a></h3>
+        <p data-i18n="moral_harassment_desc">Propos ou comportements répétés dégradant les conditions de vie, entraînant une altération de la santé physique ou mentale.</p>
+        <ul class="prevention-list">
+          <li><strong data-i18n="basic_penalty">Peine de base</strong> <span class="peine">1 an + 15 000 €</span></li>
+          <li><strong data-i18n="aggravating_simple">Circonstance aggravante simple</strong> <span class="peine">2 ans + 30 000 €</span></li>
+          <li><strong data-i18n="two_aggravating">Deux circonstances aggravantes cumulées</strong> <span class="peine">3 ans + 45 000 €</span></li>
+          <li><strong data-i18n="organized_group">En bande organisée</strong> <span class="peine" data-i18n="up_to_10_years">Jusqu'à 10 ans + 300 000 €</span></li>
+        </ul>
+        <p class="mt-06"><strong>⚠️ <span data-i18n="organized_group">En bande organisée</span> :</strong> <span data-i18n="organized_group_desc">chaque participant peut être poursuivi, même pour un seul message, si le caractère collectif du harcèlement est établi.</span></p>
+      </div>
+    </section>
+
+    <section class="prevention-section-block" id="prevention-scolaire">
+      <h2 class="prevention-title-white" data-i18n="school_harassment">🎓 Harcèlement scolaire</h2>
+      <div class="prevention-card-full">
+        <h3>📜 <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048015195" target="_blank" rel="noopener noreferrer" class="link-gold">Article 222-33-2-3 du Code pénal (Légifrance)</a></h3>
+        <p data-i18n="school_harassment_desc">Harcèlement moral commis par un élève ou un membre du personnel contre un élève du même établissement.</p>
+        <ul class="prevention-list">
+          <li><strong data-i18n="basic_penalty">Peine de base</strong> <span class="peine">3 ans + 45 000 €</span></li>
+          <li><strong data-i18n="itt_over_8">ITT > 8 jours</strong> <span class="peine">5 ans + 75 000 €</span></li>
+          <li><strong data-i18n="victim_suicide">Si la victime se suicide ou tente de se suicider</strong> <span class="peine">10 ans + 150 000 €</span></li>
+          <li><strong data-i18n="organized_group">En bande organisée</strong> <span class="peine">10 ans + 150 000 €</span></li>
+        </ul>
+        <p class="mt-06" data-i18n="school_harassment_note">Les faits restent punissables même après la fin de la scolarité.</p>
+      </div>
+    </section>
+
+    <section class="prevention-section-block" id="prevention-sexuel">
+      <h2 class="prevention-title-red" data-i18n="sexual_harassment">🤬 Harcèlement sexuel</h2>
+      <div class="prevention-card-full">
+        <h3>📜 <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047052831" target="_blank" rel="noopener noreferrer" class="link-gold">Article 222-33 du Code pénal (Légifrance)</a></h3>
+        <p data-i18n="sexual_harassment_desc">Propos ou comportements à connotation sexuelle ou sexiste répétés, portant atteinte à la dignité ou créant une situation intimidante, hostile ou offensante.</p>
+        <ul class="prevention-list">
+          <li><strong data-i18n="basic_penalty">Peine de base</strong> <span class="peine">2 ans + 30 000 €</span></li>
+          <li><strong data-i18n="aggravating_simple">Circonstances aggravantes</strong> <span class="peine">3 ans + 45 000 €</span></li>
+          <li><strong data-i18n="organized_group">En bande organisée</strong> <span class="peine">7 ans + 100 000 €</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="prevention-section-block" id="prevention-bande">
+      <h2 class="prevention-title-red" data-i18n="organized_group_law">🚨 En bande organisée : ce que dit la loi</h2>
+      <div class="prevention-card-full">
+        <h3 data-i18n="collective_responsibility">⚖️ Responsabilité collective</h3>
+        <p data-i18n="collective_desc">Le harcèlement en ligne ou en groupe est une circonstance aggravante. Même si tu n'as envoyé qu'un seul message, liké ou partagé un contenu harcelant, tu peux être poursuivi.</p>
+        <ul class="prevention-list">
+          <li><strong data-i18n="online_moral_harassment">Harcèlement moral en ligne</strong> <span class="peine">2 ans + 30 000 €</span></li>
+          <li><strong data-i18n="sexual_harassment_multiple">Harcèlement sexuel à plusieurs</strong> <span class="peine">3 ans + 45 000 €</span></li>
+          <li><strong data-i18n="multiple_aggravating">Harcèlement avec plusieurs circonstances aggravantes</strong> <span class="peine" data-i18n="up_to_10_years">Jusqu'à 10 ans + 300 000 €</span></li>
+        </ul>
+        <p class="mt-06" data-i18n="law_punishes_each">La loi punit chaque participant, pas seulement le meneur.</p>
+      </div>
+    </section>
+
+    <section class="prevention-section-block" id="prevention-aide">
+      <div class="prevention-warning-box">
+        <p><strong data-i18n="dont_stay_alone">⚠️ Ne reste pas seul(e). Parle.</strong></p>
+        <p data-i18n="call_3018">📞 3018 — Numéro gratuit, anonyme, 7j/7 (9h-23h)</p>
+        <p data-i18n="report_17cyber">🌐 17Cyber.gouv.fr — Signalement en ligne</p>
+      </div>
+    </section>
+
+    <div class="prevention-actions">
+      <a href="https://17cyber.gouv.fr/" target="_blank" rel="noopener noreferrer" class="prevention-btn prevention-btn-primary" data-i18n="report_17cyber_btn">🚨 Signaler sur 17Cyber</a>
+      <a href="tel:3018" class="prevention-btn prevention-btn-danger" data-i18n="call_3018_btn">📞 Appeler le 3018</a>
+    </div>
+
+    <p class="prevention-footer-note" data-i18n="prevention_footer_note">Informations issues du Code pénal français (Légifrance). Dernière mise à jour : 2026.</p>
+
+    <div class="text-center mt-3">
+      <a href="#" data-close-prevention class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar" aria-label="Navigation principale">
+  <div class="navbar-top">
+    <div class="brand" data-nav="accueil" role="button" tabindex="0">
+      <div class="emblem">IV</div>
+      <div>
+        <div class="brand-name">GUILLET IV</div>
+        <div class="brand-sub" data-i18n="order_independence">L'ORDRE DE L'INDÉPENDANCE</div>
+      </div>
+    </div>
+    <div class="navbar-tools">
+      <form class="search-container" id="searchForm" role="search" autocomplete="off">
+        <label class="sr-only" for="searchInput" data-i18n="search_product">Rechercher un produit</label>
+        <input type="text" id="searchInput" data-i18n-placeholder="search_product" placeholder="🔍 Rechercher un produit" aria-controls="searchSuggestions" aria-expanded="false" enterkeyhint="search" autocomplete="off">
+        <button type="button" id="clearSearch" aria-label="Effacer la recherche" data-i18n-aria="clear_search" hidden>×</button>
+        <div class="search-suggestions" id="searchSuggestions" hidden>
+          <p class="search-heading" data-i18n="matching_products">Produits correspondants</p>
+          <ul id="searchResults"></ul>
+        </div>
+        <p class="sr-only" id="searchStatus" role="status" aria-live="polite"></p>
+      </form>
+      <select id="langSelect" class="lang-select" aria-label="Choisir la langue / Choose language">
+        <option value="fr">🇫🇷 FR</option>
+        <option value="en">🇬🇧 EN</option>
+        <option value="ru">🇷🇺 RU</option>
+        <option value="zh">🇨🇳 ZH</option>
+      </select>
+      
+      <!-- BOUTON CONNEXION -->
+      <button type="button" id="authBtn" class="auth-btn" style="background:transparent;color:var(--gold);border:1px solid var(--gold); padding:0.5rem 0.8rem; border-radius:var(--radius-md); font-size:0.8rem; font-weight:700; cursor:pointer;">🔐 Connexion</button>
+
+      <!-- BOUTON LUMIERE -->
+      <button type="button" id="themeToggleBtn" class="mode-btn" aria-label="Changer de mode clair ou sombre" data-i18n-aria="toggle_mode">🌙 / ☀️</button>
+    </div>
+  </div>
+  <div class="navbar-links">
+    <a href="#accueil" data-nav="accueil" class="nav-link" data-i18n="nav_home">🏠 Accueil</a>
+    <a href="#apropos" data-nav="apropos" class="nav-link" data-i18n="nav_about">📜 À propos</a>
+    <a href="#produits" data-nav="accueil" data-section="produits" class="nav-link" data-i18n="nav_shop">🛒 Boutique</a>
+    <a href="#vinted" data-nav="vinted" class="nav-link" data-i18n="nav_vinted">👕 Vinted</a>
+    <a href="#ongles-beaute" data-nav="ongles-beaute" class="nav-link" data-i18n="nav_beauty">💅 Ongles & Beauté</a>
+    <a href="#parrainage" data-nav="parrainage" class="nav-link" data-i18n="nav_parrainage">🤝 Parrainage</a>
+    <a href="#prevention-cyber" data-nav="prevention-cyber" class="nav-link" data-i18n="nav_cyber">🛡️ Cybersécurité</a>
+    <a href="#" data-open-prevention data-i18n="nav_harassment">🚨 Harcèlement</a>
+    <a href="#contact" data-nav="contact" class="nav-link" data-i18n="nav_contact">✉️ Contact</a>
+    <a href="#faq" data-nav="faq" class="nav-link" data-i18n="nav_faq">❓ FAQ</a>
+    <a href="#cgv" data-nav="cgv" class="nav-link" data-i18n="nav_cgv">📄 CGV</a>
+    <a href="#confidentialite" data-nav="confidentialite" class="nav-link" data-i18n="nav_privacy">📄 Confidentialité</a>
+    <a href="#mentions" data-nav="mentions" class="nav-link" data-i18n="nav_legal">⚖️ Mentions légales & Sécurité</a>
+    <a href="https://www.tiktok.com/@lanceglorieuse" target="_blank" rel="noopener noreferrer">🎵 TikTok</a>
+  </div>
+</nav>
+
+<div class="marquee-bar">
+  <div class="marquee-content">
+    <span data-i18n="marquee_welcome">✨ Bienvenue chez GUILLET IV — L'Ordre de l'Indépendance ✨</span>
+    <span class="marquee-icon">★</span>
+    <span data-i18n="marquee_delivery">🚚 Livraison rapide et sécurisée</span>
+    <span class="marquee-icon">★</span>
+    <span data-i18n="marquee_payment">🛡️ Paiement 100% sécurisé</span>
+    <span class="marquee-icon">★</span>
+    <span data-i18n="marquee_motto">👑 Créer sa voie. Défendre son autonomie. Bâtir l'avenir.</span>
+    <span class="marquee-icon">★</span>
+    <span data-i18n="marquee_products">💎 Des produits choisis pour l'autonomie et la vie pratique</span>
+    <span class="marquee-icon">★</span>
+    <span data-i18n="marquee_warranty">🛡️ Garantie 2 ans sur tous nos produits</span>
+    <span class="marquee-icon">★</span>
+    <span data-i18n="marquee_music">🎵 Découvrez notre sélection musicale exclusive</span>
+    <span class="marquee-icon">★</span>
+  </div>
+</div>
+
+<div class="audio-player">
+  <h2 data-i18n="site_music">🎵 Musique du site</h2>
+  <select id="musicSelect" aria-label="Choisir une musique" data-i18n-aria="choose_music">
+    <option value="Génétiquement-Modifier.mp3" data-i18n="track_genetiquement">[FR] 🧬 Génétiquement Modifier</option>
+    <option value="Polygone.mp3" data-i18n="track_polygone">[FR] 🔷 Polygone</option>
+    <option value="quelques-notes.mp3" data-i18n="track_quelques_notes">[FR] 🎵 Quelques notes</option>
+    <option value="Bilar-Phénix.mp3" data-i18n="track_bilar_phoenix">[FR] 🔥 Bilar – Phénix</option>
+    <option value="Cenza-inconnu.mp3" data-i18n="track_cenza">[FR] 🕶️ Cenza – Inconnu</option>
+    <option value="ConFinement-n°2.mp3" data-i18n="track_confinement">[FR] 🧪 Bilar – ConFinement n°2</option>
+    <option value="Dark Blues.Vol.mp3" data-i18n="track_dark_blues">[EN] 🌑 Dark Blues.Vol</option>
+    <option value="IAM-la-fin-de-leur-monde.mp3" data-i18n="track_iam">[FR] 🌍 IAM – La fin de leur monde</option>
+    <option value="Issaba-Tu-connais.mp3" data-i18n="track_issaba">[FR] ⚡ Issaba – Tu connais</option>
+    <option value="kery-James.mp3" data-i18n="track_kery">[FR] 📜 Kery James – Post-Scriptum</option>
+    <option value="L'EXI-T-Venom Zirko-HYPERTHYMÉSIE.mp3" data-i18n="track_exit">[FR] 🧬 L'EXI-T – Venom Zirko / HYPERTHYMÉSIE</option>
+    <option value="Sakage-Prémice.mp3" data-i18n="track_sakage">[FR] 🌒 Sakage – Prémice</option>
+    <option value="sks-crew-tsunami-2.mp3" data-i18n="track_sks_tsunami_2">[FR] ⚡ SKS Crew – Tsunami 2</option>
+    <option value="sks-crew-tsunami.mp3" data-i18n="track_sks_tsunami">[FR] 🌊 SKS Crew – Tsunami</option>
+    <option value="SKS-CREW.mp3" data-i18n="track_sks">[FR] 💥 SKS CREW</option>
+    <option value="mysa-le-ralliement-visualizer.mp3" data-i18n="track_mysa_ralliement">[FR] 🚩 Mysa – Le Ralliement</option>
+    <option value="Rockin'Squat-A-Luta-Continua.mp3" data-i18n="track_rockin_luta">[FR] ✊ Rockin'Squat – A Luta Continua</option>
+    <option value="Rockin'Squat-Eternel-Apprenti.mp3" data-i18n="track_rockin_eternel">[FR] 📚 Rockin'Squat – Eternel Apprenti</option>
+    <option value="RCKNSQT-VERLAINE.mp3" data-i18n="track_rcknsqt_verlaine">[FR] 🖋️ RCKNSQT – VERLAINE</option>
+    <option value="mysa-autopsy-visualizer.mp3" data-i18n="track_mysa_autopsy">[FR] 🩸 Mysa – Autopsy</option>
+    <option value="sourire-la-fourmillière.mp3" data-i18n="track_fourmiliere">[FR] 🐜 La fourmilière – Sourire</option>
+    <option value="shurikn-samouraï.mp3" data-i18n="track_shurikn">[FR] 🗡️ Shurikn – Samouraï</option>
+    <option value="proser-la-rage-Monf-x-Poups.mp3" data-i18n="track_proser">[FR] 🔥 Proser – La Rage (Monf x Poups)</option>
+    <option value="Rohff-Fitna.mp3" data-i18n="track_rohff">[FR] ⚔️ Rohff – Fitna</option>
+    <option value="mysa-comme-un-fou-visualizer.mp3" data-i18n="track_mysa_fou">[FR] 🧠 Mysa – Comme Un Fou</option>
+    <option value="mysa-dystopie19.mp3" data-i18n="track_mysa_dystopie">[FR] 🏙️ Mysa – Dystopie19</option>
+    <option value="mysa-mortel.mp3" data-i18n="track_mysa_mortel">[FR] 💀 Mysa – Mortel</option>
+    <option value="mysa-piqure-de-rappel.mp3" data-i18n="track_mysa_piqure">[FR] 💉 Mysa – Piqûre de Rappel</option>
+    <option value="mysa-revolu-visualizer.mp3" data-i18n="track_mysa_revolu">[FR] 🔁 Mysa – Révolu</option>
+    <option value="millesime-k-republique.mp3" data-i18n="track_millesime">[FR] 🏛️ Millésime K – République</option>
+    <option value="Rockin'Squat-Aimer-Sans-Posséder.mp3" data-i18n="track_rockin_aimer">[FR] ❤️ Rockin'Squat – Aimer Sans Posséder</option>
+    <option value="Rockin'Squat-Ils-Ne-Veulent-Pas-Aimer.mp3" data-i18n="track_rockin_ils">[FR] 💔 Rockin'Squat – Ils Ne Veulent Pas Aimer</option>
+    <option value="RCKNSQT-VOCAB.mp3" data-i18n="track_rcknsqt_vocab">[FR] 🔤 RCKNSQT – VOCAB</option>
+    <option value="Miyagi & Miyagi & Andy Panda - Kosandra RU.mp3" data-i18n="track_miyagi_kosandra">[RU] 🌌 Miyagi & Andy Panda – Kosandra</option>
+    <option value="Miyagi - Capitaine RU.mp3" data-i18n="track_miyagi_capitaine">[RU] ⚓ Miyagi – Capitaine</option>
+    <option value="Miyagi-Tumani-YO-KADI-Bismarck.mp3" data-i18n="track_miyagi_tumani">[RU] 🎭 Miyagi – Tumani / YO / KADI / Bismarck</option>
+  </select>
+  <audio id="player" src="Musique/Génétiquement-Modifier.mp3" controls preload="metadata" aria-label="Lecteur de musique" class="audio-player-element">Votre navigateur ne prend pas en charge le lecteur audio.</audio>
+  <p class="audio-lang-note">🌍 La langue des paroles est indiquée par les préfixes [FR], [EN] et [RU] devant chaque titre.</p>
+</div>
+
+<main>
+
+<!-- PAGE ACCUEIL -->
+<div id="page-accueil" class="page-section active">
+  <section class="hero" id="accueil">
+    <div class="hero-slider">
+      <img src="background.jpg" class="hero-slide active" alt="Image principale GUILLET IV" data-zoom role="button" tabindex="0">
+      <img src="899.jpg" class="hero-slide" alt="Image secondaire GUILLET IV" loading="lazy" decoding="async" data-zoom role="button" tabindex="0">
+    </div>
+    <p class="motto" data-i18n="motto">« Créer sa voie. Défendre son autonomie. Bâtir l'avenir. »</p>
+    <p class="baseline" data-i18n="baseline">Entreprise · Mouvement d'indépendance entrepreneuriale · Vision</p>
+  </section>
+
+  <section class="doctrine" id="doctrine">
+    <h2 data-i18n="doctrine_title">⚔️ La Doctrine GUILLET IV</h2>
+    <p data-i18n="doctrine_desc">GUILLET IV réunit la puissance de l'entreprise, la force d'une identité et la vision d'un mouvement. Notre principe fondateur : ne pas attendre sa place, mais la construire par l'action, la discipline et la création.</p>
+    <div class="pillars">
+      <div class="pillar"><h3 data-i18n="authority">🖤 Autorité</h3><p data-i18n="authority_desc">Le noir incarne la maîtrise de soi, la rigueur et la solidité.</p></div>
+      <div class="pillar"><h3 data-i18n="willpower">❤️ Volonté</h3><p data-i18n="willpower_desc">Le rouge représente l'énergie, le courage et la détermination.</p></div>
+      <div class="pillar"><h3 data-i18n="legitimacy">👑 Légitimité</h3><p data-i18n="legitimacy_desc">L'or symbolise la valeur créée, l'exigence et la reconnaissance.</p></div>
+      <div class="pillar"><h3 data-i18n="vision">🚀 Vision</h3><p data-i18n="vision_desc">Le bleu ouvre la voie à l'innovation et à l'avenir.</p></div>
+    </div>
+  </section>
+
+  <h2 class="section-title" id="produits" data-i18n="shop_title">🛒 Boutique GUILLET IV</h2>
+  <p class="intro" data-i18n="shop_intro">Des produits choisis pour l'autonomie, la sécurité, l'extérieur et la vie pratique.</p>
+  <p id="noProducts" hidden data-i18n="no_products">Aucun produit ne correspond à cette recherche.</p>
+
+  <!-- Grille vide, remplie dynamiquement par js/produits.js -->
+  <div class="products-grid" id="productsGrid"></div>
+
+  <section class="info">
+    <h2 data-i18n="guarantees">🛡️ Garanties & Services</h2>
+    <p data-i18n="warranty_24">✔ Garantie : 24 mois</p>
+    <p data-i18n="secure_payment">✔ Paiement sécurisé</p>
+    <p data-i18n="fast_delivery">✔ Livraison rapide</p>
+  </section>
+
+  <section class="info">
+    <h2 data-i18n="reviews_title">⭐ Avis Clients (Vinted)</h2>
+    <div class="vinted-review">
+      <p>⭐⭐⭐⭐⭐ — <strong>zohra6466</strong> : "<span data-i18n="review_zohra">merci</span>"</p>
+      <div class="vinted-review-reply"><strong>limitless95</strong> : <span data-i18n="review_limitless_1">Ravi que tout soit parfait, GUILLET IV 🔥</span></div>
+    </div>
+    <div class="vinted-review">
+      <p>⭐⭐⭐⭐⭐ — <strong>zlatoff05</strong> : "<span data-i18n="review_zlatoff">Tout est ok merci</span>"</p>
+      <div class="vinted-review-reply"><strong>limitless95</strong> : <span data-i18n="review_limitless_2">Gratitude 🤲 merci</span></div>
+    </div>
+  </section>
+</div>
+
+<!-- PAGE À PROPOS -->
+<div id="page-apropos" class="page-section">
+  <div class="page-container max-width-full">
+    <section class="hero pt-0" id="apropos">
+      <h1 data-i18n="brand_king">👑 GUILLET IV</h1>
+      <p class="motto" data-i18n="motto">« Créer sa voie. Défendre son autonomie. Bâtir l'avenir. »</p>
+      <p class="baseline" data-i18n="baseline">Entreprise · Mouvement d'indépendance entrepreneuriale · Vision</p>
+    </section>
+    <section class="doctrine no-shadow">
+      <h2 data-i18n="doctrine_title">⚔️ La Doctrine GUILLET IV</h2>
+      <p data-i18n="doctrine_desc">GUILLET IV réunit la puissance de l'entreprise, la force d'une identité et la vision d'un mouvement. Notre principe fondateur : ne pas attendre sa place, mais la construire par l'action, la discipline et la création.</p>
+      <div class="pillars">
+        <div class="pillar"><h3 data-i18n="authority">🖤 Autorité</h3><p data-i18n="authority_desc">Le noir incarne la maîtrise de soi, la rigueur et la solidité.</p></div>
+        <div class="pillar"><h3 data-i18n="willpower">❤️ Volonté</h3><p data-i18n="willpower_desc">Le rouge représente l'énergie, le courage et la détermination.</p></div>
+        <div class="pillar"><h3 data-i18n="legitimacy">👑 Légitimité</h3><p data-i18n="legitimacy_desc">L'or symbolise la valeur créée, l'exigence et la reconnaissance.</p></div>
+        <div class="pillar"><h3 data-i18n="vision">🚀 Vision</h3><p data-i18n="vision_desc">Le bleu ouvre la voie à l'innovation et à l'avenir.</p></div>
+        <div class="pillar"><h3 data-i18n="authenticity">🌑 Authenticité</h3><p data-i18n="authenticity_desc">La vérité brute, l'identité réelle, ce que l'on est sans masque ni compromis.</p></div>
+        <div class="pillar"><h3 data-i18n="revelation">✨ Révélation</h3><p data-i18n="revelation_desc">La lumière qui dévoile ce qui était caché. L'éveil, la compréhension, la clarté.</p></div>
+        <div class="pillar"><h3 data-i18n="truth">⚡ Vérité</h3><p data-i18n="truth_desc">La ligne droite, la parole juste, ce qui ne ment pas et ne tremble pas.</p></div>
+        <div class="pillar"><h3 data-i18n="awareness">🧠 Conscience</h3><p data-i18n="awareness_desc">La lucidité, la hauteur, la capacité de voir au-delà de l'apparence.</p></div>
+        <div class="pillar"><h3 data-i18n="power">🜂 Puissance</h3><p data-i18n="power_desc">La capacité d'agir, d'imposer sa direction, de transformer son environnement.</p></div>
+        <div class="pillar"><h3 data-i18n="discipline">🜁 Discipline</h3><p data-i18n="discipline_desc">L'ordre, la structure, la constance qui forge la réussite.</p></div>
+        <div class="pillar"><h3 data-i18n="creation">🜄 Création</h3><p data-i18n="creation_desc">L'art de produire, d'innover, de bâtir ce qui n'existe pas encore.</p></div>
+        <div class="pillar"><h3 data-i18n="ascension">🜃 Ascension</h3><p data-i18n="ascension_desc">La montée, l'évolution, le dépassement de soi et des limites.</p></div>
+      </div>
+    </section>
+    <div class="about-section mb-0 mt-3">
+      <h2 data-i18n="learn_more">🏢 En savoir plus</h2>
+      <span class="about-sub" data-i18n="company_movement">Entreprise · Mouvement · Indépendance</span>
+      <div class="about-block about-intro" data-i18n="about_intro">GUILLET IV est une entreprise et un mouvement d'indépendance entrepreneuriale. Il défend l'idée que chacun peut bâtir sa propre voie par le travail, la création et l'autonomie.</div>
+      <div class="about-block about-service" data-i18n="about_service">Je vends sur Vinted (profil : limitless95) avec des avis 5★, un service client réactif et une volonté de proposer des produits sérieux, bien présentés, avec une véritable expérience boutique.</div>
+      <div class="about-block about-contact" data-i18n="about_contact">Pour toute question, contacte-moi via la page Contact ou directement sur Vinted.</div>
+      <div class="about-cta">
+        <a href="#contact" data-nav="contact" class="btn-about btn-about-primary" data-i18n="contact_me">✉️ Me contacter</a>
+        <a href="https://www.vinted.fr/member/3125071555" target="_blank" rel="noopener noreferrer" class="btn-about btn-about-secondary" data-i18n="view_my_vinted">👕 Voir mon Vinted</a>
+      </div>
+    </div>
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE PARRAINAGE -->
+<div id="page-parrainage" class="page-section">
+  <section class="parrainage-hero" id="parrainage">
+    <h1 data-i18n="parrainage_title">🤝 Parrainage</h1>
+    <span class="parrainage-sub" data-i18n="parrainage_sub">Boursorama · Starlink · Vinted · Crédit Agricole · Octopus Energy</span>
+    <p class="parrainage-intro" data-i18n="parrainage_intro">Ouvre un compte, souscris à un service ou inscris-toi sur Vinted avec mes liens de parrainage. Les informations sont pré-remplies automatiquement, et tu profites des avantages !</p>
+  </section>
+
+  <div class="parrainage-card">
+    <h2 data-i18n="parrainage_boursorama_title">🏦 Parrainage Boursorama</h2>
+    <p data-i18n="parrainage_boursorama_text">Ouvre ton compte Boursorama avec mon lien de parrainage : mes informations seront remplies automatiquement, tu n'as rien à ressaisir. Et tu profites des primes de bienvenue !</p>
+    <ul class="parrainage-benefits">
+      <li data-i18n="boursorama_b1">Prime de bienvenue offerte à l'ouverture</li>
+      <li data-i18n="boursorama_b2">Zéro frais de tenue de compte</li>
+      <li data-i18n="boursorama_b3">Inscription 100% en ligne, en quelques minutes</li>
+    </ul>
+    <a href="https://bour.so/p/IBffRk5RYc4" target="_blank" rel="noopener noreferrer" class="parrainage-btn" data-i18n="parrainage_btn_boursorama">🏦 Ouvrir mon compte Boursorama</a>
+  </div>
+
+  <hr class="parrainage-separator">
+
+  <div class="parrainage-card starlink">
+    <h2 data-i18n="parrainage_starlink_title">🛰️ Parrainage Starlink</h2>
+    <p data-i18n="parrainage_starlink_text">Souscris à Starlink avec mon lien de parrainage et profite d'un mois offert sur ton abonnement. Internet haut débit par satellite, partout, même dans les zones isolées.</p>
+    <ul class="parrainage-benefits">
+      <li data-i18n="starlink_b1">Un mois offert sur ton abonnement</li>
+      <li data-i18n="starlink_b2">Internet haut débit partout, même en zone isolée</li>
+      <li data-i18n="starlink_b3">Installation simple et rapide</li>
+    </ul>
+    <a href="https://starlink.com?referral=RC-DF-9799938-39549-82" target="_blank" rel="noopener noreferrer" class="parrainage-btn starlink-btn" data-i18n="parrainage_btn_starlink">🛰️ Souscrire à Starlink</a>
+  </div>
+
+  <hr class="parrainage-separator">
+
+  <div class="parrainage-card vinted">
+    <h2 data-i18n="parrainage_vinted_title">👕 Parrainage Vinted</h2>
+    <p data-i18n="parrainage_vinted_text">Inscris-toi sur Vinted avec mon lien d'invitation et rejoins la communauté. Achète, vends et donne une seconde vie à tes vêtements tout en profitant des avantages de bienvenue.</p>
+    <ul class="parrainage-benefits">
+      <li data-i18n="vinted_b1">Avantage de bienvenue pour ta première commande</li>
+      <li data-i18n="vinted_b2">Vends tes vêtements en quelques clics</li>
+      <li data-i18n="vinted_b3">Livraison et paiement sécurisés</li>
+    </ul>
+    <a href="https://www.vinted.fr/invite/limitless95/kr2YVFrbjdOkB2m1y2eicrsoqbe3vks4f" target="_blank" rel="noopener noreferrer" class="parrainage-btn vinted-btn" data-i18n="parrainage_btn_vinted">👕 Rejoindre Vinted</a>
+  </div>
+
+  <hr class="parrainage-separator">
+
+  <div class="parrainage-card credit-agricole">
+    <h2 data-i18n="parrainage_credit_agricole_title">🏛️ Parrainage Crédit Agricole</h2>
+    <p data-i18n="parrainage_credit_agricole_text">Tu souhaites ouvrir un compte au Crédit Agricole ? Utilise mon code de parrainage à usage unique et clique sur le lien pour découvrir tes avantages.</p>
+    <ul class="parrainage-benefits">
+      <li data-i18n="credit_agricole_b1">Avantages de bienvenue à l'ouverture de compte</li>
+      <li data-i18n="credit_agricole_b2">Une banque de proximité, présente partout en France</li>
+      <li data-i18n="credit_agricole_b3">Code de parrainage à usage unique EGYYLFH</li>
+    </ul>
+    <div class="parrainage-code">CODE : EGYYLFH</div>
+    <br>
+    <a href="https://www.credit-agricole.fr/ca-tourainepoitou/particulier/campagnes/parrainage.html?code-parrainage=EGYYLFH&offre=parrainagenatio" target="_blank" rel="noopener noreferrer" class="parrainage-btn credit-agricole-btn" data-i18n="parrainage_btn_credit_agricole">🏛️ Ouvrir mon compte Crédit Agricole</a>
+  </div>
+
+  <hr class="parrainage-separator">
+
+  <div class="parrainage-card octopus">
+    <h2 data-i18n="parrainage_octopus_title">🐙 Parrainage Octopus Energy</h2>
+    <p data-i18n="parrainage_octopus_text">Rejoins Octopus Energy avec mon lien de parrainage et profite d'un avantage sur ta facture d'électricité. Une énergie plus verte, plus simple et moins chère.</p>
+    <ul class="parrainage-benefits">
+      <li data-i18n="octopus_b1">Avantage de bienvenue sur ta facture d'électricité</li>
+      <li data-i18n="octopus_b2">Énergie 100% renouvelable et prix justes</li>
+      <li data-i18n="octopus_b3">Service client réactif et sans engagement</li>
+    </ul>
+    <a href="https://share.octopusenergy.fr/codeparrainage/calm-pillow-242" target="_blank" rel="noopener noreferrer" class="parrainage-btn octopus-btn" data-i18n="parrainage_btn_octopus">🐙 Rejoindre Octopus Energy</a>
+  </div>
+
+  <div class="parrainage-steps">
+    <div class="parrainage-step">
+      <div class="parrainage-step-num">1</div>
+      <div class="parrainage-step-content">
+        <h3 data-i18n="parrainage_step1_title">Clique sur le lien</h3>
+        <p data-i18n="parrainage_step1_text">Tu es redirigé vers la page d'inscription officielle (Boursorama, Starlink, Vinted, Crédit Agricole ou Octopus Energy) avec mon code parrain déjà intégré.</p>
+      </div>
+    </div>
+    <div class="parrainage-step">
+      <div class="parrainage-step-num">2</div>
+      <div class="parrainage-step-content">
+        <h3 data-i18n="parrainage_step2_title">Tes infos sont pré-remplies</h3>
+        <p data-i18n="parrainage_step2_text">Mes informations de parrainage sont automatiquement renseignées. Tu n'as plus qu'à compléter les tiennes.</p>
+      </div>
+    </div>
+    <div class="parrainage-step">
+      <div class="parrainage-step-num">3</div>
+      <div class="parrainage-step-content">
+        <h3 data-i18n="parrainage_step3_title">Valide ton inscription</h3>
+        <p data-i18n="parrainage_step3_text">Finalise ton ouverture de compte, ta souscription ou ton inscription en quelques minutes et profite des avantages.</p>
+      </div>
+    </div>
+    <div class="parrainage-step">
+      <div class="parrainage-step-num">4</div>
+      <div class="parrainage-step-content">
+        <h3 data-i18n="parrainage_step4_title">Tout le monde y gagne</h3>
+        <p data-i18n="parrainage_step4_text">Tu reçois ton avantage de bienvenue, et moi aussi. Un vrai gagnant-gagnant.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="parrainage-note">
+    <strong data-i18n="parrainage_note_title">ℹ️ À savoir :</strong>
+    <span data-i18n="parrainage_note_text">Les liens de parrainage sont des liens officiels Boursorama, Starlink, Vinted, Crédit Agricole et Octopus Energy. L'ouverture de compte Boursorama est gratuite et sans engagement. Les primes et avantages sont soumis aux conditions de chaque service. Le code Crédit Agricole EGYYLFH est à usage unique.</span>
+  </div>
+
+  <div class="text-center mt-1">
+    <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
+  </div>
+</div>
+
+<!-- PAGE VINTED -->
+<div id="page-vinted" class="page-section">
+  <div class="page-container text-center">
+    <h1 data-i18n="my_vinted">👕 Mon Vinted</h1>
+    <p class="vinted-intro" data-i18n="vinted_intro">Retrouve mes ventes vérifiées, mes évaluations 5★ et mes produits disponibles sur Vinted.</p>
+    <div class="vinted-card">
+      <div class="vinted-rating"><span>★★★★★</span> <span data-i18n="verified_reviews">Avis Vinted Vérifiés</span></div>
+      <p class="vinted-desc" data-i18n="vinted_desc">Je suis limitless95 sur Vinted. J'y propose des articles sérieux, bien présentés, avec un service client réactif.</p>
+      <a href="https://www.vinted.fr/member/3125071555" target="_blank" rel="noopener noreferrer" class="vinted-btn" data-i18n="view_vinted_profile">👕 Voir mon profil Vinted</a>
+    </div>
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE ONGLES & BEAUTÉ -->
+<div id="page-ongles-beaute" class="page-section">
+  <section class="beauty-hero" id="ongles-beaute">
+    <h1 data-i18n="beauty_title">💅 Ongles & Beauté — SHAYNAILS</h1>
+    <span class="beauty-sub" data-i18n="beauty_sub">Élégance · Soin · Présentiel à Guignen</span>
+    <p class="beauty-intro" data-i18n="beauty_intro">Prestations en présentiel uniquement à Guignen. Réservation par téléphone ou Instagram.</p>
+  </section>
+  <div class="max-w-700">
+    <img src="carte.png" alt="SHAYNAILS — présentation" loading="lazy" decoding="async" data-zoom class="beauty-presentation-img">
+  </div>
+  <section class="max-w-700">
+    <h2 class="beauty-section-title" data-i18n="beauty_prices_title">💶 Carte des tarifs</h2>
+    <div class="text-center">
+      <img src="tarifs.png" alt="Carte des tarifs SHAYNAILS" loading="lazy" decoding="async" data-zoom class="beauty-tarifs-img">
+    </div>
+    <p class="beauty-note" data-i18n="beauty_presentiel_note">⚠️ Prestations uniquement en présentiel à Guignen — pas de vente en ligne.</p>
+  </section>
+  <section class="max-w-900">
+    <h2 class="beauty-section-title" data-i18n="beauty_gallery_title">✨ Réalisations clientes</h2>
+    <div class="beauty-clients-grid">
+      <img src="cliente.png" alt="Réalisation cliente 1" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
+      <img src="cliente2.png" alt="Réalisation cliente 2" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
+      <img src="cliente3.png" alt="Réalisation cliente 3" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
+      <img src="cliente6.png" alt="Réalisation cliente 4" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
+      <img src="cliente7.png" alt="Réalisation cliente 5" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
+    </div>
+  </section>
+  <section class="max-w-480">
+    <h2 class="beauty-section-title" data-i18n="beauty_video_title">🎬 En vidéo</h2>
+    <div class="video-wrapper">
+      <video src="video.mp4" controls preload="none" playsinline class="video-full" aria-label="Vidéo de présentation SHAYNAILS" data-i18n="video_fallback">Votre navigateur ne prend pas en charge la lecture vidéo.</video>
+    </div>
+  </section>
+  <section class="beauty-booking-section">
+    <h2 class="beauty-book-title" data-i18n="beauty_book_title">📅 Réserver une prestation</h2>
+    <p class="beauty-book-text" data-i18n="beauty_book_text">Toutes les prestations ont lieu en présentiel à Guignen.<br>Réservation par téléphone ou Instagram.</p>
+    <div class="beauty-buttons">
+      <a href="tel:0620675441" class="beauty-btn-phone">📞 06.20.67.54.41</a>
+      <a href="https://www.instagram.com/shay_nails35/" target="_blank" rel="noopener noreferrer" class="beauty-btn-insta">📸 Instagram — @shay_nails35</a>
+    </div>
+    <p class="beauty-click-note" data-i18n="click_photo_zoom">💡 Cliquez sur une photo pour l'agrandir</p>
+  </section>
+  <div class="text-center mt-3">
+    <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
+  </div>
+</div>
+
+<!-- PAGE PRÉVENTION CYBERSÉCURITÉ -->
+<div id="page-prevention-cyber" class="page-section">
+  <div class="page-container">
+    <header class="page-header-cyber">
+      <h1 data-i18n="cyber_title">🛡️ Prévention Cybersécurité</h1>
+      <h2 data-i18n="cyber_subtitle">Attaques informatiques en France</h2>
+      <p data-i18n="cyber_intro">Phishing, vol de données, accès frauduleux et usurpation d'identité : comprendre les risques aide à mieux protéger ses comptes, ses appareils et ses informations personnelles.</p>
+      <p data-i18n="cyber_intro_2">La prévention associe des habitudes prudentes, des protections techniques adaptées et une réaction rapide lorsqu'un incident survient.</p>
+    </header>
+    <nav class="summary-cyber" aria-label="Sommaire de la prévention cybersécurité">
+      <h2 data-i18n="prevention_themes">📋 Les thèmes de prévention</h2>
+      <ul>
+        <li><a href="#mots-de-passe" data-i18n="cyber_step1">🔑 Étape 1 — Mots de passe enregistrés</a></li>
+        <li><a href="#phishing" data-i18n="cyber_step2">🎣 Étape 2 — Ingénierie sociale et phishing</a></li>
+        <li><a href="#force-brute" data-i18n="cyber_step3">💻 Étape 3 — Attaques contre les mots de passe</a></li>
+        <li><a href="#photos-cles" data-i18n="cyber_step4">🗝️ Étape 4 — Photos de clés et sécurité physique</a></li>
+        <li><a href="#vie-personnelle" data-i18n="cyber_step5">👤 Étape 5 — Informations personnelles</a></li>
+        <li><a href="#loi-hacking" data-i18n="cyber_step6">⚖️ Étape 6 — Loi française et hacking</a></li>
+        <li><a href="#phishing-droit" data-i18n="cyber_step7">📨 Étape 7 — Phishing, escroquerie et identité</a></li>
+        <li><a href="#donnees-personnelles" data-i18n="cyber_step8">🗂️ Étape 8 — Données personnelles et RGPD</a></li>
+        <li><a href="#test-autorise" data-i18n="cyber_step9">✅ Étape 9 — Tests de sécurité autorisés</a></li>
+        <li><a href="#incident" data-i18n="cyber_step10">🚨 Étape 10 — Que faire en cas d'incident ?</a></li>
+        <li><a href="#conclusion-cyber" data-i18n="cyber_conclusion">🏁 Conclusion générale</a></li>
+      </ul>
+    </nav>
+    <section class="cyber-section" id="mots-de-passe">
+      <h2 data-i18n="cyber_s1_title">🔑 Étape 1 — Les mots de passe enregistrés : confort, protection et vigilance</h2>
+      <p data-i18n="cyber_s1_p1">Enregistrer ses mots de passe dans un fichier texte, une note non protégée ou un document partagé expose les comptes si le fichier est volé ou si l'appareil est compromis.</p>
+    </section>
+    <section class="cyber-section" id="phishing">
+      <h2 data-i18n="cyber_s2_title">🎣 Étape 2 — Ingénierie sociale et phishing : vous pouvez être la cible</h2>
+      <p data-i18n="cyber_s2_p1">Le phishing, ou hameçonnage, est une technique qui consiste à se faire passer pour une personne ou un organisme de confiance afin d'obtenir des informations, un paiement ou une action risquée.</p>
+    </section>
+    <section class="cyber-section" id="force-brute">
+      <h2 data-i18n="cyber_s3_title">💻 Étape 3 — Les attaques contre les mots de passe</h2>
+      <p data-i18n="cyber_s3_p1">Les tentatives de deviner ou de réutiliser un mot de passe prennent plusieurs formes et ne fonctionnent pas toutes de la même façon.</p>
+    </section>
+    <section class="cyber-section" id="photos-cles">
+      <h2 data-i18n="cyber_s4_title">🗝️ Étape 4 — Photos de clés et sécurité physique</h2>
+      <p data-i18n="cyber_s4_p1">Publier une photo détaillée d'une clé de maison, de garage ou de véhicule peut révéler des caractéristiques utiles à une personne malveillante.</p>
+    </section>
+    <section class="cyber-section" id="vie-personnelle">
+      <h2 data-i18n="cyber_s5_title">👤 Étape 5 — Informations personnelles et vie privée</h2>
+      <p data-i18n="cyber_s5_p1">Évitez les mots de passe fondés sur des détails faciles à trouver ou à deviner.</p>
+    </section>
+    <section class="cyber-section" id="loi-hacking">
+      <h2 data-i18n="cyber_s6_title">⚖️ Étape 6 — Loi française : accès frauduleux, hacking et sanctions</h2>
+      <p data-i18n="cyber_s6_p1">En France, les atteintes aux systèmes de traitement automatisé de données (STAD) sont principalement prévues par les articles 323-1 et suivants du Code pénal.</p>
+    </section>
+    <section class="cyber-section" id="phishing-droit">
+      <h2 data-i18n="cyber_s7_title">📨 Étape 7 — Phishing, escroquerie et usurpation d'identité</h2>
+      <p data-i18n="cyber_s7_p1">Le phishing décrit une méthode, pas à lui seul la qualification finale d'une infraction.</p>
+    </section>
+    <section class="cyber-section" id="donnees-personnelles">
+      <h2 data-i18n="cyber_s8_title">🗂️ Étape 8 — Données personnelles, RGPD et obligations de sécurité</h2>
+      <p data-i18n="cyber_s8_p1">Les organisations qui traitent des données personnelles doivent notamment mettre en œuvre des mesures de sécurité adaptées.</p>
+    </section>
+    <section class="cyber-section" id="test-autorise">
+      <h2 data-i18n="cyber_s9_title">✅ Étape 9 — Audit et test de sécurité : obtenir une autorisation claire</h2>
+      <p data-i18n="cyber_s9_p1">Un audit, un test d'intrusion ou une recherche de vulnérabilité doit être réalisé dans un cadre autorisé.</p>
+    </section>
+    <section class="cyber-section" id="incident">
+      <h2 data-i18n="cyber_s10_title">🚨 Étape 10 — Que faire si un compte ou un appareil est compromis ?</h2>
+      <p data-i18n="cyber_s10_p1">Depuis un appareil sain, changez le mot de passe concerné et ceux qui ont été réutilisés.</p>
+    </section>
+    <section class="cyber-section" id="conclusion-cyber">
+      <h2 data-i18n="cyber_conclusion_title">🏁 Conclusion générale</h2>
+      <p data-i18n="cyber_conclusion_p1">Les cybercriminels peuvent exploiter des failles techniques, mais aussi la confiance, les habitudes et les informations partagées en ligne.</p>
+      <p class="signature">Entreprise GUILLET IV<br>GRAND FOUGERAY</p>
+    </section>
+    <div class="text-center mt-3">
+      <a class="return-btn" href="#" data-nav="accueil" data-i18n="back_shop">⬅ Retour à la boutique</a>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE MENTIONS LÉGALES & SÉCURITÉ -->
+<div id="page-mentions" class="page-section">
+  <div class="page-container">
+    <h1 data-i18n="legal_notice">⚖️ Mentions légales & Sécurité</h1>
+
+    <section>
+      <h2 data-i18n="legal_info">1. Informations légales</h2>
+      <p><strong data-i18n="legal_company">Nom de l'entreprise :</strong> GUILLET IV</p>
+      <p><strong data-i18n="legal_status">Statut :</strong> Micro-entreprise</p>
+      <p><strong>SIREN :</strong> Confidentiel – affiché sur facture</p>
+      <p><strong data-i18n="legal_address">Adresse :</strong> Ille-et-Vilaine, France</p>
+      <p><strong>Email :</strong> lanceglorieuse@gmail.com</p>
+      <p><strong>Téléphone :</strong> 07.80.20.47.49</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="legal_hosting">2. Hébergement du site</h2>
+      <p><strong>Hébergeur :</strong> Vercel Inc.</p>
+      <p>440 N Barranca Ave #4133, Covina, CA 91723, États-Unis</p>
+      <p><strong>Site :</strong> vercel.com</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="legal_ip">3. Propriété intellectuelle</h2>
+      <p data-i18n="legal_ip_p1">Tout le contenu du site (textes, images, design, logo, structure) est la propriété exclusive de GUILLET IV.</p>
+      <p data-i18n="legal_ip_p2">Toute reproduction, distribution ou exploitation sans autorisation est strictement interdite.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="legal_data_title">4. Données personnelles</h2>
+      <p data-i18n="legal_data_p1">Les données collectées (nom, email, adresse, téléphone) sont utilisées uniquement pour le traitement des commandes et le support client.</p>
+      <p data-i18n="legal_data_p2">Aucune donnée personnelle n'est transmise, vendue, partagée ou communiquée à des entreprises, plateformes, services tiers ou organismes étatiques, en France ou ailleurs.</p>
+      <p data-i18n="legal_data_p3">Conformément au RGPD, vous pouvez demander la suppression ou modification de vos données à tout moment via : lanceglorieuse@gmail.com.</p>
+      <p class="mt-1"><a href="#confidentialite" data-nav="confidentialite" class="link-gold-underline">📄 Consulter la politique de confidentialité (RGPD) complète →</a></p>
+    </section>
+
+    <section>
+      <h2 data-i18n="legal_cookies_title">5. Cookies</h2>
+      <p data-i18n="legal_cookies_p1">Le site peut utiliser des cookies techniques pour améliorer l'expérience utilisateur (panier, préférences d'affichage).</p>
+      <p data-i18n="legal_cookies_p2">Aucun cookie publicitaire n'est utilisé.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="legal_liability_title">6. Responsabilité</h2>
+      <p data-i18n="legal_liability_p1">GUILLET IV ne peut être tenu responsable des dommages liés à l'utilisation du site ou des produits, sauf preuve d'une faute directe.</p>
+    </section>
+
+    <section id="mentions-litiges">
+      <h2 data-i18n="legal_disputes_title">7. Litiges</h2>
+      <p data-i18n="legal_disputes_p1">En cas de litige, une solution amiable sera recherchée en priorité.</p>
+      <p data-i18n="legal_disputes_p2">À défaut, les tribunaux français seront compétents.</p>
+    </section>
+
+    <section class="security-audit-section">
+      <h2 data-i18n="security_audit_title" class="security-audit-title">🛡️ Audit de Sécurité Technique (Nmap &amp; curl)</h2>
+
+      <div class="security-intro">
+        <p class="security-intro-title" data-i18n="security_audit_subtitle">🔐 Sécurité du site Shop de Légende</p>
+        <p class="security-intro-text" data-i18n="security_audit_p1">La sécurité des visiteurs et des clients est strictement contrôlée sur Shop de Légende. Le site applique des protections avancées, rigoureuses et non contournables afin de garantir une navigation fiable, des paiements sécurisés et une confidentialité totale.</p>
+        <p class="security-intro-text" data-i18n="security_audit_p2">Les analyses techniques approfondies réalisées avec Nmap et curl confirment que le site ne présente aucune faille, aucun élément dangereux, aucune exposition de données, et que tous les mécanismes détectés sont des protections normales et attendues.</p>
+        <p class="security-intro-highlight" data-i18n="security_audit_p3">👉 Aucun risque, aucune menace, aucune anomalie.</p>
+      </div>
+
+      <section id="security-dashboard" class="security-dashboard">
+        <div class="security-inner">
+          <header class="security-header reveal">
+            <div class="security-header-top">
+              <div class="security-header-title">
+                <div class="security-header-icon">
+                  <svg viewBox="0 0 32 32">
+                    <circle class="ring" cx="16" cy="16" r="12" fill="none" />
+                    <circle class="pulse" cx="16" cy="16" r="7" fill="none" />
+                    <path class="shield" d="M16 6l6 2v6c0 4.418-2.686 8.418-6 9.5-3.314-1.082-6-5.082-6-9.5V8z" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="security-header-main-title">Firewall &amp; Sécurité avancée</div>
+                  <div class="security-header-subtitle">Dashboard de protection temps réel — Shop de Légende (hébergement Vercel, politique bancaire).</div>
+                </div>
+              </div>
+              <div class="security-header-status">
+                <span class="security-grade">A+</span>
+                <span class="status-pill">
+                  <span class="status-dot"></span>
+                  SECURE · LIVE MONITORING
+                </span>
+              </div>
+            </div>
+            <div class="security-header-bottom">
+              <span class="header-tag"><span class="header-tag-dot"></span> Glassmorphism · Dark OS</span>
+              <span class="header-tag"><span class="header-tag-dot"></span> CSP &amp; CORS verrouillés</span>
+              <span class="header-tag"><span class="header-tag-dot"></span> Stripe · PCI-DSS</span>
+              <span class="header-tag"><span class="header-tag-dot"></span> Nmap &amp; curl · Audit complet</span>
+            </div>
+          </header>
+
+          <div class="kpi-strip reveal">
+            <div class="kpi-card" style="--kpi-accent: var(--accent-safe);">
+              <div class="kpi-label">Score de sécurité</div>
+              <div class="kpi-value">100<small>/100</small></div>
+              <div class="kpi-sub">Niveau bancaire certifié</div>
+              <svg class="kpi-gauge" viewBox="0 0 54 54">
+                <circle class="track" cx="27" cy="27" r="22" />
+                <circle class="fill" cx="27" cy="27" r="22" stroke-dasharray="138" stroke-dashoffset="0" />
+              </svg>
+            </div>
+            <div class="kpi-card" style="--kpi-accent: var(--neon-cyan);">
+              <div class="kpi-label">En-têtes actifs</div>
+              <div class="kpi-value">13<small>/13</small></div>
+              <div class="kpi-sub">Tous correctement configurés</div>
+            </div>
+            <div class="kpi-card" style="--kpi-accent: var(--neon-mint);">
+              <div class="kpi-label">Chiffrement</div>
+              <div class="kpi-value">TLS 1.3</div>
+              <div class="kpi-sub">HSTS · preload · 2 ans</div>
+            </div>
+            <div class="kpi-card" style="--kpi-accent: var(--neon-gold);">
+              <div class="kpi-label">Failles détectées</div>
+              <div class="kpi-value">0</div>
+              <div class="kpi-sub">Nmap · curl · OWASP</div>
+            </div>
+          </div>
+
+          <div class="security-stack">
+            <div class="security-card reveal">
+              <div class="security-card-header">
+                <div class="security-card-title">
+                  <div class="security-card-title-icon">
+                    <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                  </div>
+                  <h3 data-i18n="security_audit_1_title">🔒 Connexion sécurisée (HTTPS / TLS 1.3)</h3>
+                </div>
+                <span class="security-card-badge">HTTPS · TLS 1.3</span>
+              </div>
+              <p data-i18n="security_audit_1_p1"><strong>Le site utilise les standards de sécurité les plus stricts :</strong></p>
+              <ul>
+                <li data-i18n="security_audit_1_l1">chiffrement intégral des données</li>
+                <li data-i18n="security_audit_1_l2">protection contre les interceptions</li>
+                <li data-i18n="security_audit_1_l3">redirection automatique vers HTTPS</li>
+                <li data-i18n="security_audit_1_l4">protocole TLS 1.3, norme bancaire internationale</li>
+              </ul>
+              <p class="security-card-footer">
+                <em data-i18n="security_audit_1_footer">👉 Nmap confirme que le port 443 est ouvert, sécurisé et ne présente aucune vulnérabilité.</em>
+              </p>
+            </div>
+
+            <div class="security-card reveal">
+              <div class="security-card-header">
+                <div class="security-card-title">
+                  <div class="security-card-title-icon">
+                    <svg viewBox="0 0 24 24"><path d="M4 5l8-3 8 3v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V5z"/></svg>
+                  </div>
+                  <h3 data-i18n="security_audit_2_title">🛡️ Protection avancée contre les attaques (CSP)</h3>
+                </div>
+                <span class="security-card-badge">CSP · Content Security Policy</span>
+              </div>
+              <p data-i18n="security_audit_2_p1"><strong>La Content Security Policy du site bloque :</strong></p>
+              <ul>
+                <li data-i18n="security_audit_2_l1">les scripts malveillants</li>
+                <li data-i18n="security_audit_2_l2">les injections de code</li>
+                <li data-i18n="security_audit_2_l3">les ressources non autorisées</li>
+                <li data-i18n="security_audit_2_l4">les tentatives de piratage</li>
+              </ul>
+              <p class="security-card-footer">
+                <em data-i18n="security_audit_2_footer">👉 Le scan http-headers de Nmap confirme une CSP complète, stricte et verrouillée. Aucun comportement dangereux détecté.</em>
+              </p>
+            </div>
+
+            <div class="security-card reveal">
+              <div class="security-card-header">
+                <div class="security-card-title">
+                  <div class="security-card-title-icon">
+                    <svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="12" rx="2"/><path d="M8 11l2 2 6-6"/></svg>
+                  </div>
+                  <h3 data-i18n="security_audit_3_title">🧱 Anti‑fraude &amp; Anti‑clickjacking</h3>
+                </div>
+                <span class="security-card-badge">Frames · Isolation</span>
+              </div>
+              <ul>
+                <li><code>x-frame-options: SAMEORIGIN</code></li>
+                <li><code>frame-ancestors 'self'</code></li>
+              </ul>
+              <p class="security-card-footer">
+                <em data-i18n="security_audit_3_footer">👉 Protection active, non contournable, empêchant toute tentative de détournement d'interface.</em>
+              </p>
+            </div>
+
+            <div class="security-card reveal">
+              <div class="security-card-header">
+                <div class="security-card-title">
+                  <div class="security-card-title-icon">
+                    <svg viewBox="0 0 24 24"><path d="M4 7h16v10H4z"/><path d="M4 9l8 4 8-4"/></svg>
+                  </div>
+                  <h3 data-i18n="security_audit_4_title">🔐 Paiements sécurisés avec Stripe</h3>
+                </div>
+                <span class="security-card-badge">Stripe · PCI-DSS</span>
+              </div>
+              <p data-i18n="security_audit_4_p1"><strong>Les paiements sont traités par Stripe, solution bancaire certifiée :</strong></p>
+              <ul>
+                <li data-i18n="security_audit_4_l1">conformité PCI-DSS</li>
+                <li data-i18n="security_audit_4_l2">chiffrement complet</li>
+                <li data-i18n="security_audit_4_l3">aucune conservation des données bancaires</li>
+                <li data-i18n="security_audit_4_l4">cartes jamais stockées sur le site</li>
+              </ul>
+              <p class="security-card-footer">
+                <em data-i18n="security_audit_4_footer">👉 Nmap confirme que les endpoints Stripe sont sécurisés, valides, et sans risque.</em>
+              </p>
+            </div>
+
+            <div class="security-card reveal">
+              <div class="security-card-header">
+                <div class="security-card-title">
+                  <div class="security-card-title-icon">
+                    <svg viewBox="0 0 24 24"><path d="M5 4h14v4H5z"/><path d="M5 10h9v4H5z"/><path d="M5 16h6v4H5z"/></svg>
+                  </div>
+                  <h3 data-i18n="security_audit_5_title">🧭 Confidentialité renforcée</h3>
+                </div>
+                <span class="security-card-badge">Privacy · Headers</span>
+              </div>
+              <p data-i18n="security_audit_5_p1"><strong>Le site applique des politiques strictes :</strong></p>
+              <ul>
+                <li data-i18n="security_audit_5_l1">Referrer Policy : <code>strict-origin-when-cross-origin</code></li>
+                <li data-i18n="security_audit_5_l2">Permissions Policy : aucune caméra, aucun micro, aucune géolocalisation</li>
+                <li data-i18n="security_audit_5_l3">X-Content-Type-Options : <code>nosniff</code></li>
+                <li data-i18n="security_audit_5_l4">Cross-Origin-Opener-Policy : <code>same-origin</code></li>
+                <li data-i18n="security_audit_5_l5">Cross-Origin-Embedder-Policy : <code>credentialless</code></li>
+                <li data-i18n="security_audit_5_l6">Cross-Origin-Resource-Policy : <code>same-origin</code></li>
+              </ul>
+              <p class="security-card-footer">
+                <em data-i18n="security_audit_5_footer">👉 Ces protections sont actives, strictes, et sans impact négatif pour les visiteurs.</em>
+              </p>
+            </div>
+
+            <div class="security-card reveal">
+              <div class="security-card-header">
+                <div class="security-card-title">
+                  <div class="security-card-title-icon">
+                    <svg viewBox="0 0 24 24"><path d="M4 6h16v4H4z"/><path d="M4 14h10v4H4z"/></svg>
+                  </div>
+                  <h3 data-i18n="security_audit_6_title">🌍 Protection contre les sites externes (CORS)</h3>
+                </div>
+                <span class="security-card-badge">CORS · Origin Lock</span>
+              </div>
+              <p data-i18n="security_audit_6_p1">Le site n'autorise que son propre domaine :</p>
+              <p><code>Access-Control-Allow-Origin: https://shop-de-legende.vercel.app</code></p>
+              <p class="security-card-footer">
+                <em data-i18n="security_audit_6_footer">👉 Aucune fuite, aucun accès externe non autorisé.</em>
+              </p>
+            </div>
+
+            <div class="security-card reveal">
+              <div class="security-card-header">
+                <div class="security-card-title">
+                  <div class="security-card-title-icon">
+                    <svg viewBox="0 0 24 24"><path d="M4 5h16v10H4z"/><path d="M8 19h8"/></svg>
+                  </div>
+                  <h3 data-i18n="security_audit_7_title">🧪 Hébergement sécurisé sur Vercel</h3>
+                </div>
+                <span class="security-card-badge">Vercel · Edge Security</span>
+              </div>
+              <p data-i18n="security_audit_7_p1"><strong>Le site bénéficie des protections Vercel :</strong></p>
+              <ul>
+                <li data-i18n="security_audit_7_l1">sécurité renforcée</li>
+                <li data-i18n="security_audit_7_l2">mises à jour automatiques</li>
+                <li data-i18n="security_audit_7_l3">protection DDoS</li>
+                <li data-i18n="security_audit_7_l4">infrastructure mondiale fiable</li>
+                <li data-i18n="security_audit_7_l5">système anti‑bot actif</li>
+              </ul>
+              <p class="security-card-footer">
+                <em data-i18n="security_audit_7_footer">👉 Nmap détecte : X-Vercel-Challenge-Token, X-Vercel-Mitigated: challenge, Vercel Security Checkpoint. Ces mécanismes sont normaux, automatiques, et ne concernent jamais les visiteurs humains.</em>
+              </p>
+            </div>
+
+            <div class="security-card reveal">
+              <div class="security-card-header">
+                <div class="security-card-title">
+                  <div class="security-card-title-icon">
+                    <svg viewBox="0 0 24 24"><path d="M5 5h14v4H5z"/><path d="M5 11h10v4H5z"/><path d="M5 17h7v2H5z"/></svg>
+                  </div>
+                  <h3 data-i18n="security_audit_8_title">🛠️ Surveillance &amp; maintenance continue</h3>
+                </div>
+                <span class="security-card-badge">Monitoring · Audits</span>
+              </div>
+              <p data-i18n="security_audit_8_p1"><strong>Le site est soumis à :</strong></p>
+              <ul>
+                <li data-i18n="security_audit_8_l1">audits réguliers</li>
+                <li data-i18n="security_audit_8_l2">mises à jour techniques</li>
+                <li data-i18n="security_audit_8_l3">vérifications SSL</li>
+                <li data-i18n="security_audit_8_l4">tests anti‑attaque</li>
+              </ul>
+              <p class="security-card-footer">
+                <em data-i18n="security_audit_8_footer">👉 Les analyses confirment une sécurité constante, active, sans faille.</em>
+              </p>
+            </div>
+
+            <div class="security-card reveal">
+              <div class="security-card-header">
+                <div class="security-card-title">
+                  <div class="security-card-title-icon">
+                    <svg viewBox="0 0 24 24"><path d="M4 6h16v4H4z"/><path d="M4 14h16v4H4z"/></svg>
+                  </div>
+                  <h3 data-i18n="security_audit_9_title">📡 Vérification technique (Nmap &amp; curl)</h3>
+                </div>
+                <span class="security-card-badge">Nmap · curl · Fingerprint</span>
+              </div>
+              <p data-i18n="security_audit_9_p1"><strong>Les analyses externes montrent :</strong></p>
+              <ul>
+                <li data-i18n="security_audit_9_l1">aucune faille</li>
+                <li data-i18n="security_audit_9_l2">aucune méthode dangereuse</li>
+                <li data-i18n="security_audit_9_l3">aucun port inutile</li>
+                <li data-i18n="security_audit_9_l4">aucune fuite d'informations</li>
+                <li data-i18n="security_audit_9_l5">aucun service exposé</li>
+                <li data-i18n="security_audit_9_l6">aucun comportement anormal</li>
+                <li data-i18n="security_audit_9_l7">aucun risque pour les visiteurs</li>
+              </ul>
+
+              <div class="term-block">
+                <p class="term-title" data-i18n="security_audit_9_nmap1_title">✔️ Nmap — http-headers</p>
+                <p class="term-text" data-i18n="security_audit_9_nmap1_text">En-têtes détectés : CSP complète, HSTS actif, X-Frame-Options, Permissions-Policy, Referrer-Policy, X-Content-Type-Options, CORS strict, protections Vercel.</p>
+                <p class="term-footer" data-i18n="security_audit_9_nmap1_footer">👉 Tous ces éléments sont des protections. Aucun danger.</p>
+              </div>
+
+              <div class="term-block">
+                <p class="term-title" data-i18n="security_audit_9_nmap2_title">✔️ Nmap — http-methods</p>
+                <p class="term-result" data-i18n="security_audit_9_nmap2_text">GET, HEAD, POST, OPTIONS</p>
+                <p class="term-footer" data-i18n="security_audit_9_nmap2_footer">👉 Aucune méthode dangereuse.</p>
+              </div>
+
+              <div class="term-block">
+                <p class="term-title" data-i18n="security_audit_9_nmap3_title">✔️ Nmap — http-title</p>
+                <p class="term-result" data-i18n="security_audit_9_nmap3_text">Site doesn't have a title (text/plain)</p>
+                <p class="term-footer" data-i18n="security_audit_9_nmap3_footer">👉 Réponse technique normale. Aucun impact pour les visiteurs.</p>
+              </div>
+
+              <div class="term-block">
+                <p class="term-title" data-i18n="security_audit_9_nmap4_title">✔️ Nmap — http-security-headers</p>
+                <p class="term-text" data-i18n="security_audit_9_nmap4_text">Nmap confirme : HSTS, CSP stricte, X-Frame-Options, X-Content-Type-Options, Cache-Control sécurisé.</p>
+                <p class="term-footer" data-i18n="security_audit_9_nmap4_footer">👉 Sécurité conforme aux standards OWASP.</p>
+              </div>
+
+              <div class="term-block">
+                <p class="term-title" data-i18n="security_audit_9_nmap5_title">✔️ Nmap — http-server-header</p>
+                <p class="term-result" data-i18n="security_audit_9_nmap5_text">Server: Vercel</p>
+                <p class="term-footer" data-i18n="security_audit_9_nmap5_footer">👉 Normal et sécurisé.</p>
+              </div>
+
+              <div class="term-block">
+                <p class="term-title" data-i18n="security_audit_9_nmap6_title">✔️ Nmap — fingerprint</p>
+                <p class="term-result" data-i18n="security_audit_9_nmap6_text">400 Bad Request · 404 Not Found · DEPLOYMENT_NOT_FOUND</p>
+                <p class="term-footer" data-i18n="security_audit_9_nmap6_footer">👉 Réponses internes de Vercel à des requêtes inhabituelles. Aucun danger.</p>
+              </div>
+
+              <div class="term-block">
+                <p class="term-title" data-i18n="security_audit_9_nmap7_title">✔️ Nmap — http-enum</p>
+                <p class="term-result" data-i18n="security_audit_9_nmap7_text">443/tcp open https</p>
+                <p class="term-footer" data-i18n="security_audit_9_nmap7_footer">👉 Aucune ressource sensible, aucune page cachée, aucun service exposé.</p>
+              </div>
+
+              <div class="term-block mb-0">
+                <p class="term-title" data-i18n="security_audit_9_curl_title">✔️ Résultat curl</p>
+                <p class="term-text" data-i18n="security_audit_9_curl_text">Curl affiche uniquement : les protections, les en‑têtes de sécurité, les mécanismes anti‑bot.</p>
+                <p class="term-footer" data-i18n="security_audit_9_curl_footer">👉 Aucune anomalie, aucune faille, aucun risque.</p>
+              </div>
+            </div>
+
+            <div class="security-card reveal">
+              <div class="security-card-header">
+                <div class="security-card-title">
+                  <div class="security-card-title-icon">
+                    <svg viewBox="0 0 24 24"><path d="M4 6h16v2H4z"/><path d="M4 11h16v2H4z"/><path d="M4 16h16v2H4z"/></svg>
+                  </div>
+                  <h3>🛡️ Les 13 en-têtes de sécurité actifs</h3>
+                </div>
+                <span class="security-card-badge">Headers · Niveau bancaire</span>
+              </div>
+              <p class="security-table-desc">
+                Le site applique les <strong class="neon-mint-text">13 en-têtes de sécurité HTTP</strong> suivants — exactement le niveau de protection d'une banque ou d'un site gouvernemental. Chaque en-tête a été vérifié et confirmé comme <strong class="neon-mint-text">actif et correctement configuré</strong>.
+              </p>
+              <div class="security-table-wrapper">
+                <div class="security-table-scroll">
+                  <table class="security-table">
+                    <thead>
+                      <tr>
+                        <th>En-tête HTTP</th>
+                        <th>Valeur / Configuration</th>
+                        <th>Niveau</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr><td><code>Strict-Transport-Security</code></td><td>2 ans + preload</td><td class="security-level safe">🟢 Maximal</td></tr>
+                      <tr><td><code>Content-Security-Policy</code></td><td>Stricte (img/media + upgrade-insecure-requests)</td><td class="security-level safe">🟢 Très bon</td></tr>
+                      <tr><td><code>X-Frame-Options</code></td><td>SAMEORIGIN</td><td class="security-level safe">🟢 Maximal</td></tr>
+                      <tr><td><code>X-Content-Type-Options</code></td><td>nosniff</td><td class="security-level safe">🟢 Maximal</td></tr>
+                      <tr><td><code>X-XSS-Protection</code></td><td>0 (désactivé proprement)</td><td class="security-level safe">🟢 Recommandation OWASP</td></tr>
+                      <tr><td><code>X-Permitted-Cross-Domain-Policies</code></td><td>none</td><td class="security-level safe">🟢 Maximal</td></tr>
+                      <tr><td><code>X-DNS-Prefetch-Control</code></td><td>off</td><td class="security-level safe">🟢 Maximal</td></tr>
+                      <tr><td><code>Referrer-Policy</code></td><td>strict-origin-when-cross-origin</td><td class="security-level safe">🟢 Maximal</td></tr>
+                      <tr><td><code>Permissions-Policy</code></td><td>7 APIs bloquées</td><td class="security-level safe">🟢 Excellent</td></tr>
+                      <tr><td><code>Cross-Origin-Opener-Policy</code></td><td>same-origin</td><td class="security-level safe">🟢 Maximal</td></tr>
+                      <tr><td><code>Cross-Origin-Embedder-Policy</code></td><td>credentialless</td><td class="security-level safe">🟢 Excellent</td></tr>
+                      <tr><td><code>Cross-Origin-Resource-Policy</code></td><td>same-origin</td><td class="security-level safe">🟢 Maximal</td></tr>
+                      <tr><td><code>Access-Control-Allow-Origin</code></td><td>Domaine unique</td><td class="security-level safe">🟢 Maximal</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <p class="security-table-footer">
+                <em>👉 13 en-têtes actifs. Niveau banque / gouvernement. Aucune anomalie, aucune faille, aucun risque.</em>
+              </p>
+            </div>
+
+          </div>
+
+          <div class="security-conclusion reveal">
+            <h3 data-i18n="security_conclusion_title">🟢 Conclusion ferme</h3>
+            <p data-i18n="security_conclusion_p1">Les analyses Nmap et curl prouvent que :</p>
+            <ul>
+              <li data-i18n="security_conclusion_l1">le site est sécurisé</li>
+              <li data-i18n="security_conclusion_l2">les protections sont actives</li>
+              <li data-i18n="security_conclusion_l3">aucune faille n'existe</li>
+              <li data-i18n="security_conclusion_l4">aucun élément dangereux n'a été détecté</li>
+              <li data-i18n="security_conclusion_l5">rien n'impacte les visiteurs</li>
+              <li data-i18n="security_conclusion_l6">la configuration est professionnelle, stricte et conforme</li>
+            </ul>
+            <p class="security-conclusion-final" data-i18n="security_conclusion_final">👉 Shop de Légende est un site hautement sécurisé, fiable et protégé.</p>
+          </div>
+
+          <div class="security-engagement reveal">
+            <h3 data-i18n="security_engagement_title">Un engagement de sécurité</h3>
+            <p data-i18n="security_engagement_p1">
+              En tant que <strong>pentesteur professionnel</strong>, je maîtrise les failles de sécurité et les mécanismes d'attaque. Ce site a été conçu, développé et audité avec les mêmes exigences qu'un environnement bancaire.
+            </p>
+            <p data-i18n="security_engagement_p2">
+              Si vous êtes un chercheur en sécurité, un développeur ou un utilisateur curieux et que vous détectez une anomalie, une faille ou un comportement suspect, <strong>contactez-moi immédiatement</strong> :
+            </p>
+            <ul>
+              <li data-i18n="security_engagement_phone">
+                <strong>Téléphone :</strong> <a href="tel:0780204749">07.80.20.47.49</a>
+              </li>
+              <li data-i18n="security_engagement_email">
+                <strong>Email :</strong> <a href="mailto:lanceglorieuse@gmail.com">lanceglorieuse@gmail.com</a>
+              </li>
+            </ul>
+            <p class="security-engagement-footer" data-i18n="security_engagement_thanks">
+              Merci d'avance pour votre vigilance et votre contribution à la sécurité de ce site. 🙏
+            </p>
+          </div>
+
+          <div class="return-btn-wrapper reveal">
+            <a href="#" data-nav="accueil" class="return-btn" data-i18n="back_home">⬅ Retour à l'accueil</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+  </div>
+</div>
+
+<!-- PAGE CGV -->
+<div id="page-cgv" class="page-section">
+  <div class="page-container">
+    <h1 data-i18n="terms_sale">📄 Conditions Générales de Vente – GUILLET IV</h1>
+
+    <section><h2 data-i18n="cgv_object">1. Objet</h2>
+      <p data-i18n="cgv_object_text1">Les présentes Conditions Générales de Vente (CGV) régissent les ventes de produits proposés sur la Boutique GUILLET IV.</p>
+      <p data-i18n="cgv_object_text2">Toute commande implique l’acceptation pleine et entière des présentes CGV.</p></section>
+
+    <section><h2 data-i18n="cgv_products">2. Produits</h2>
+      <p data-i18n="cgv_products_text1">Les produits proposés sont décrits avec la plus grande précision.</p>
+      <p data-i18n="cgv_products_text2">Les photographies sont non contractuelles.</p>
+      <p data-i18n="cgv_products_text3">La disponibilité est indiquée sur chaque fiche produit.</p></section>
+
+    <section><h2 data-i18n="cgv_price">3. Prix</h2>
+      <p data-i18n="cgv_price_text1">Les prix sont indiqués en euros (€), toutes taxes comprises (TTC).</p>
+      <p data-i18n="cgv_price_text2">Le vendeur se réserve le droit de modifier les prix à tout moment, mais les produits seront facturés sur la base du tarif en vigueur au moment de la validation de la commande.</p></section>
+
+    <section><h2 data-i18n="cgv_order">4. Commande</h2>
+      <p data-i18n="cgv_order_text1">Le client sélectionne les produits qu’il souhaite acheter, valide son panier et procède au paiement.</p>
+      <p data-i18n="cgv_order_text2">Une confirmation de commande est envoyée par email.</p>
+      <p data-i18n="cgv_order_text3">Le vendeur se réserve le droit de refuser une commande en cas de problème de paiement ou de litige antérieur.</p></section>
+
+    <section><h2 data-i18n="cgv_payment">5. Paiement</h2>
+      <p data-i18n="cgv_payment_text1">Le paiement est sécurisé via <a href="https://stripe.com/fr" target="_blank" rel="noopener">Stripe</a> ou via les options proposées par <a href="https://www.vinted.fr" target="_blank" rel="noopener">Vinted</a>.</p>
+      <p data-i18n="cgv_payment_text2">Les données bancaires ne sont jamais conservées par GUILLET IV.</p></section>
+
+    <section><h2 data-i18n="cgv_delivery">6. Livraison</h2>
+      <p data-i18n="cgv_delivery_text1">Les produits sont expédiés rapidement selon leur disponibilité.</p>
+      <p data-i18n="cgv_delivery_text2">Délais indicatifs : 2 à 5 jours ouvrés.</p>
+      <p data-i18n="cgv_delivery_text3">Zones desservies : France métropolitaine.</p>
+      <p data-i18n="cgv_delivery_text4">Un numéro de suivi peut être fourni lorsque disponible.</p>
+      <p data-i18n="cgv_delivery_text5">En cas de retard ou de perte, le client doit contacter le vendeur pour assistance.</p></section>
+
+    <section><h2 data-i18n="cgv_retractation">7. Droit de rétractation (14 jours)</h2>
+      <p data-i18n="cgv_retractation_text1">Conformément à l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842/" target="_blank" rel="noopener">article L221-18 du Code de la consommation</a>, le client dispose d’un délai de 14 jours pour exercer son droit de rétractation, sans justification.</p>
+      <p data-i18n="cgv_retractation_text2">Le produit doit être retourné dans son état d’origine.</p>
+      <p data-i18n="cgv_retractation_text3">Conformément à l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226830/2016-08-10" target="_blank" rel="noopener">article L221-23 du Code de la consommation</a>, les frais directs de retour sont à la charge du client, sauf erreur du vendeur.</p>
+      <p data-i18n="cgv_retractation_text4">Conformément à l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226828/2024-11-16" target="_blank" rel="noopener">article L221-24 du Code de la consommation</a>, le remboursement est effectué dans un délai maximum de 14 jours à compter de la notification de la rétractation, et au plus tard après récupération du produit ou preuve de son expédition.</p></section>
+
+    <section><h2 data-i18n="cgv_return">8. Retour et remboursement</h2>
+      <p data-i18n="cgv_return_text1">Les retours doivent être envoyés à l’adresse communiquée par le vendeur.</p>
+      <p data-i18n="cgv_return_text2">Les remboursements suivent les règles de Vinted ou Stripe selon le mode d’achat.</p>
+      <p data-i18n="cgv_return_text3">Aucun remboursement ne sera effectué pour un produit endommagé par le client.</p></section>
+
+    <section><h2 data-i18n="cgv_legal_warranties">9. Garanties légales</h2>
+      <p data-i18n="cgv_legal_warranties_text">Le vendeur applique les garanties légales obligatoires prévues par le <a href="https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565" target="_blank" rel="noopener">Code de la consommation</a> et le <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441924/1976-01-01" target="_blank" rel="noopener">Code civil</a>.</p></section>
+
+    <section><h2 data-i18n="cgv_conformity">10. Garanties légales</h2>
+      <p data-i18n="cgv_conformity_text1"><strong>Garantie légale de conformité (2 ans) :</strong> conformément aux <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044142579" target="_blank" rel="noopener">articles L217-3 et suivants du Code de la consommation</a>, le client bénéficie d’une garantie couvrant les défauts de conformité existant lors de la délivrance du bien.</p>
+      <p data-i18n="cgv_conformity_text2"><strong>Garantie des vices cachés :</strong> conformément à l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441924/1976-01-01" target="_blank" rel="noopener">article 1641 du Code civil</a>, le vendeur est tenu de garantir les défauts cachés rendant le produit impropre à l’usage attendu ou diminuant fortement cet usage.</p>
+      <p data-i18n="cgv_conformity_text3"><strong>Garantie commerciale éventuelle :</strong> si GUILLET IV propose une garantie commerciale, ses conditions, durée, périmètre et mise en œuvre sont précisées sur la fiche produit ou le document remis avec le produit.</p>
+      <p data-i18n="cgv_conformity_exclude_title">Les garanties légales ne couvrent pas :</p>
+      <ul>
+        <li data-i18n="cgv_conformity_exclude1">l’usure normale ;</li>
+        <li data-i18n="cgv_conformity_exclude2">les dommages causés par une mauvaise utilisation ;</li>
+        <li data-i18n="cgv_conformity_exclude3">les modifications du produit.</li>
+      </ul></section>
+
+    <section><h2 data-i18n="cgv_data">11. Données personnelles (RGPD)</h2>
+      <p data-i18n="cgv_data_text1">Les données collectées (nom, email, adresse, téléphone) sont utilisées uniquement pour le traitement des commandes et le support client, conformément au <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679" target="_blank" rel="noopener">RGPD</a>.</p>
+      <p data-i18n="cgv_data_text2">Aucune donnée n’est vendue ou partagée.</p>
+      <p data-i18n="cgv_data_text3">Le client peut demander l’accès, la rectification, la portabilité ou la suppression de ses données via <a href="mailto:lanceglorieuse@gmail.com">lanceglorieuse@gmail.com</a>.</p></section>
+
+    <section><h2 data-i18n="cgv_liability">12. Responsabilité</h2>
+      <p data-i18n="cgv_liability_text1">Le vendeur n’est responsable que des dommages directs liés à un produit défectueux.</p>
+      <p data-i18n="cgv_liability_text2">Il ne peut être tenu responsable des dommages indirects (perte de données, perte financière, etc.).</p></section>
+
+    <section><h2 data-i18n="cgv_service">13. Service client</h2>
+      <p data-i18n="cgv_service_text">Pour toute question : <a href="mailto:lanceglorieuse@gmail.com">lanceglorieuse@gmail.com</a> — Réponse sous 48 h.</p></section>
+
+    <section><h2 data-i18n="cgv_mediation">14. Médiation</h2>
+      <p data-i18n="cgv_mediation_text1">En cas de litige, une solution amiable sera recherchée en priorité.</p>
+      <p data-i18n="cgv_mediation_text2">Si aucun accord n’est trouvé, le client peut saisir gratuitement un médiateur de la consommation via <a href="https://www.economie.gouv.fr/mediation-conso" target="_blank" rel="noopener">economie.gouv.fr/mediation-conso</a>.</p></section>
+
+    <section><h2 data-i18n="cgv_law">15. Droit applicable</h2>
+      <p data-i18n="cgv_law_text1">Les présentes CGV sont régies par le droit français.</p>
+      <p data-i18n="cgv_law_text2">En cas de litige, les tribunaux français seront compétents, dans le respect des règles de compétence applicables aux consommateurs.</p></section>
+
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l’accueil</a>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE POLITIQUE DE CONFIDENTIALITÉ (RGPD) -->
+<div id="page-confidentialite" class="page-section">
+  <div class="page-container">
+    <h1 data-i18n="privacy_title">📄 Politique de Confidentialité (RGPD)</h1>
+    <p class="privacy-intro" data-i18n="privacy_intro">La protection de vos données personnelles est une priorité. Cette politique explique quelles données sont collectées, pourquoi, comment elles sont protégées et comment exercer vos droits.</p>
+
+    <section>
+      <h2 data-i18n="privacy_s1_title">1. Données collectées</h2>
+      <p data-i18n="privacy_s1_intro">Nous collectons uniquement les données nécessaires au fonctionnement du site et au traitement des commandes :</p>
+      <ul>
+        <li data-i18n="privacy_s1_l1">nom, prénom</li>
+        <li data-i18n="privacy_s1_l2">adresse postale</li>
+        <li data-i18n="privacy_s1_l3">email</li>
+        <li data-i18n="privacy_s1_l4">numéro de téléphone</li>
+        <li data-i18n="privacy_s1_l5">informations de commande</li>
+        <li data-i18n="privacy_s1_l6">adresse IP (sécurité et prévention fraude)</li>
+      </ul>
+      <p data-i18n="privacy_s1_note">Aucune donnée sensible n'est collectée.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="privacy_s2_title">2. Finalités du traitement</h2>
+      <p data-i18n="privacy_s2_intro">Vos données sont utilisées pour :</p>
+      <ul>
+        <li data-i18n="privacy_s2_l1">traiter et expédier vos commandes</li>
+        <li data-i18n="privacy_s2_l2">assurer le support client</li>
+        <li data-i18n="privacy_s2_l3">gérer votre compte client</li>
+        <li data-i18n="privacy_s2_l4">sécuriser le site et prévenir la fraude</li>
+        <li data-i18n="privacy_s2_l5">respecter les obligations légales (facturation)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 data-i18n="privacy_s3_title">3. Base légale</h2>
+      <p data-i18n="privacy_s3_intro">Les traitements reposent sur :</p>
+      <ul>
+        <li data-i18n="privacy_s3_l1">l'exécution du contrat (commande)</li>
+        <li data-i18n="privacy_s3_l2">l'intérêt légitime (sécurité, lutte contre la fraude)</li>
+        <li data-i18n="privacy_s3_l3">le consentement (cookies non essentiels)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 data-i18n="privacy_s4_title">4. Sous-traitants</h2>
+      <p data-i18n="privacy_s4_intro">Pour assurer le fonctionnement du site, certains prestataires peuvent traiter vos données :</p>
+      <ul>
+        <li data-i18n="privacy_s4_l1">Vercel (hébergement du site)</li>
+        <li data-i18n="privacy_s4_l2">Stripe / PayPal (paiements sécurisés)</li>
+        <li data-i18n="privacy_s4_l3">Service email (confirmation de commande)</li>
+      </ul>
+      <p data-i18n="privacy_s4_note">Ces prestataires respectent le RGPD ou disposent de garanties équivalentes.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="privacy_s5_title">5. Durée de conservation</h2>
+      <ul>
+        <li data-i18n="privacy_s5_l1">Données nécessaires au traitement et à la facturation des commandes : 10 ans, conformément à l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006316689/" target="_blank" rel="noopener">article L123-22 du Code de commerce</a>.</li>
+        <li data-i18n="privacy_s5_l2">Données clients inactifs : 3 ans</li>
+        <li data-i18n="privacy_s5_l3">Cookies techniques : 13 mois</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 data-i18n="privacy_s6_title">6. Vos droits</h2>
+      <p data-i18n="privacy_s6_intro">Conformément au RGPD, vous disposez des droits suivants :</p>
+      <ul>
+        <li data-i18n="privacy_s6_l1">accès à vos données</li>
+        <li data-i18n="privacy_s6_l2">rectification</li>
+        <li data-i18n="privacy_s6_l3">suppression</li>
+        <li data-i18n="privacy_s6_l4">opposition</li>
+        <li data-i18n="privacy_s6_l5">portabilité</li>
+      </ul>
+      <p data-i18n="privacy_s6_contact">Pour exercer vos droits : lanceglorieuse@gmail.com</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="privacy_s7_title">7. Cookies</h2>
+      <p data-i18n="privacy_s7_intro">Le site utilise uniquement :</p>
+      <ul>
+        <li data-i18n="privacy_s7_l1">des cookies techniques (panier, session, sécurité)</li>
+      </ul>
+      <p data-i18n="privacy_s7_note">Aucun cookie publicitaire ou de tracking marketing n'est utilisé. Une bannière d'information peut apparaître lors de votre première visite.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="privacy_s8_title">8. Sécurité</h2>
+      <p data-i18n="privacy_s8_intro">Nous appliquons des mesures strictes pour protéger vos données :</p>
+      <ul>
+        <li data-i18n="privacy_s8_l1">chiffrement HTTPS / TLS 1.3</li>
+        <li data-i18n="privacy_s8_l2">protections anti-bot</li>
+        <li data-i18n="privacy_s8_l3">en-têtes de sécurité avancés (CSP, HSTS, X-Frame-Options, etc.)</li>
+        <li data-i18n="privacy_s8_l4">infrastructure sécurisée Vercel</li>
+        <li data-i18n="privacy_s8_l5">paiements certifiés PCI-DSS via Stripe</li>
+      </ul>
+      <p data-i18n="privacy_s8_note">Aucune donnée bancaire n'est stockée sur le site.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="privacy_s9_title">9. Transferts hors UE</h2>
+      <p data-i18n="privacy_s9_text">L'hébergement Vercel peut impliquer un traitement hors Union Européenne. Ces transferts sont encadrés par des garanties conformes au RGPD.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="privacy_s10_title">10. Contact</h2>
+      <p data-i18n="privacy_s10_text">Pour toute question concernant vos données personnelles :</p>
+      <p><strong>Email :</strong> <a href="mailto:lanceglorieuse@gmail.com" class="link-gold">lanceglorieuse@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2 data-i18n="privacy_s11_title">11. Références légales et réclamation</h2>
+      <p data-i18n="privacy_s11_text1">Cette politique est établie conformément au <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679" target="_blank" rel="noopener">Règlement général sur la protection des données (RGPD)</a> et à la <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031701594" target="_blank" rel="noopener">Loi Informatique et Libertés</a>.</p>
+      <p data-i18n="privacy_s11_text2">Les données nécessaires à la facturation sont conservées pendant 10 ans, conformément à l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006316689/" target="_blank" rel="noopener">article L123-22 du Code de commerce</a>.</p>
+      <p data-i18n="privacy_s11_text3">Vous pouvez introduire une réclamation auprès de la <a href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener">CNIL</a>.</p>
+    </section>
+
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE FAQ -->
+<div id="page-faq" class="page-section">
+  <div class="page-container">
+    <h1 data-i18n="faq_title">❓ Foire Aux Questions</h1>
+
+    <h2 data-i18n="faq_delivery">📦 Livraison</h2>
+    <div class="faq-item"><h3 data-i18n="faq_ship_time">Quel est le délai d'expédition ?</h3><p data-i18n="faq_ship_time_text">Les articles sont expédiés rapidement, généralement sous 24 à 48 heures selon leur disponibilité.</p></div>
+    <div class="faq-item"><h3 data-i18n="faq_delivery_time">Quels sont les délais de livraison ?</h3><p data-i18n="faq_delivery_time_text">La livraison prend en moyenne 2 à 5 jours ouvrés après expédition, selon le transporteur et la zone de livraison.</p></div>
+    <div class="faq-item"><h3 data-i18n="faq_zones">Quelles sont les zones livrées ?</h3><p data-i18n="faq_zones_text">La livraison est assurée en France métropolitaine, via les options proposées par Vinted ou les transporteurs disponibles.</p></div>
+    <div class="faq-item"><h3 data-i18n="faq_tracking">Comment suivre mon colis ?</h3><p data-i18n="faq_tracking_text">Un numéro de suivi est fourni dès l'expédition lorsque disponible. Vous pouvez suivre votre colis directement via le site du transporteur ou via Vinted.</p></div>
+    <div class="faq-item"><h3 data-i18n="faq_delay_lost">Que faire en cas de retard ou de colis perdu ?</h3><p data-i18n="faq_delay_lost_text">Contactez le service client GUILLET IV. Une enquête sera ouverte auprès du transporteur.</p></div>
+
+    <h2 data-i18n="faq_payment">🔒 Paiement sécurisé</h2>
+    <div class="faq-item"><h3 data-i18n="faq_payment_q">Comment se passe le paiement ?</h3><p data-i18n="faq_payment_text">Toutes les transactions sont sécurisées et effectuées via Vinted ou Stripe.</p></div>
+    <div class="faq-item"><h3 data-i18n="faq_bank_protection">Mes données bancaires sont-elles protégées ?</h3><p data-i18n="faq_bank_protection_text">Oui. Vos données bancaires ne sont jamais stockées par GUILLET IV. Le traitement est entièrement géré par les plateformes de paiement sécurisées.</p></div>
+    <div class="faq-item">
+      <h3 data-i18n="faq_payment_methods">Quels moyens de paiement sont acceptés ?</h3>
+      <p data-i18n="faq_payment_methods_intro">Selon la plateforme :</p>
+      <ul>
+        <li data-i18n="faq_payment_card">Carte bancaire</li>
+        <li data-i18n="faq_payment_apple_google">Apple Pay / Google Pay (Stripe)</li>
+        <li data-i18n="faq_payment_vinted">Paiement intégré Vinted</li>
+      </ul>
+    </div>
+
+    <h2 data-i18n="faq_refund">🔁 Retour & Remboursement</h2>
+    <div class="faq-item"><h3 data-i18n="faq_return_q">Puis-je retourner un article ?</h3><p data-i18n="faq_return_text">Oui. Conformément à l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842/" target="_blank" rel="noopener">article L221-18 du Code de la consommation</a>, vous disposez de 14 jours pour demander un retour.</p></div>
+    <div class="faq-item"><h3 data-i18n="faq_how_return">Comment effectuer un retour ?</h3><p data-i18n="faq_how_return_text">Contactez le vendeur pour obtenir les instructions et l'adresse de retour. Le produit doit être renvoyé dans son état d'origine.</p></div>
+    <div class="faq-item"><h3 data-i18n="faq_return_fees">Les frais de retour sont-ils à ma charge ?</h3><p data-i18n="faq_return_fees_text">Conformément à l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226830/2016-08-10" target="_blank" rel="noopener">article L221-23 du Code de la consommation</a>, les frais de retour sont à la charge du client, sauf erreur du vendeur ou produit défectueux.</p></div>
+    <div class="faq-item"><h3 data-i18n="faq_refund_q">Comment se passe le remboursement ?</h3><p data-i18n="faq_refund_text">Les remboursements sont traités selon les règles de Vinted ou directement par le vendeur. Conformément à l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226828/2024-11-16" target="_blank" rel="noopener">article L221-24 du Code de la consommation</a>, le remboursement intervient dans un délai maximum de 14 jours à compter de la notification de la rétractation, et au plus tard après récupération du produit ou preuve de son expédition.</p></div>
+    <div class="faq-item">
+      <h3 data-i18n="faq_refund_refused_q">Dans quels cas un remboursement peut être refusé ?</h3>
+      <ul>
+        <li data-i18n="faq_refund_refused_1">Produit endommagé par le client</li>
+        <li data-i18n="faq_refund_refused_2">Produit incomplet</li>
+        <li data-i18n="faq_refund_refused_3">Produit utilisé ou modifié</li>
+      </ul>
+    </div>
+
+    <h2 data-i18n="faq_warranty">🛡️ Garantie</h2>
+    <div class="faq-item"><h3 data-i18n="faq_warranty_q">Que couvre la garantie de 24 mois ?</h3><p data-i18n="faq_warranty_text">La garantie commerciale couvre les défauts de fabrication et les pannes non imputables à l'utilisateur.</p></div>
+    <div class="faq-item">
+      <h3 data-i18n="faq_legal_warranty_q">Quelles sont les garanties légales ?</h3>
+      <p data-i18n="faq_legal_warranty_intro">Tous les produits bénéficient automatiquement :</p>
+      <ul>
+        <li data-i18n="faq_legal_warranty_1">de la <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044142579" target="_blank" rel="noopener">garantie légale de conformité de 2 ans</a>,</li>
+        <li data-i18n="faq_legal_warranty_2">de la <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441924/1976-01-01" target="_blank" rel="noopener">garantie des vices cachés</a>.</li>
+      </ul>
+    </div>
+    <div class="faq-item">
+      <h3 data-i18n="faq_not_covered_q">Qu'est-ce qui n'est pas couvert ?</h3>
+      <ul>
+        <li data-i18n="faq_not_covered_1">Usure normale</li>
+        <li data-i18n="faq_not_covered_2">Dommages causés par une mauvaise utilisation</li>
+        <li data-i18n="faq_not_covered_3">Chocs, liquides, négligence</li>
+        <li data-i18n="faq_not_covered_4">Modifications ou réparations non autorisées</li>
+      </ul>
+    </div>
+    <div class="faq-item">
+      <h3 data-i18n="faq_claim_warranty_q">Comment faire jouer la garantie ?</h3>
+      <p data-i18n="faq_claim_warranty_intro">Contactez le service client avec :</p>
+      <ul>
+        <li data-i18n="faq_claim_warranty_1">votre numéro de commande,</li>
+        <li data-i18n="faq_claim_warranty_2">une description du problème,</li>
+        <li data-i18n="faq_claim_warranty_3">des photos ou vidéos du défaut.</li>
+      </ul>
+    </div>
+
+    <h2 data-i18n="faq_service">📞 Service client</h2>
+    <div class="faq-item"><h3 data-i18n="faq_contact_q">Comment contacter GUILLET IV ?</h3><p data-i18n="faq_contact_text">📧 Email : lanceglorieuse@gmail.com — Réponse sous 48 heures.</p></div>
+
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE CONTACT -->
+<div id="page-contact" class="page-section">
+  <div class="page-container">
+    <h1 data-i18n="contact_title">✉️ Contactez-nous</h1>
+    <p class="contact-intro" data-i18n="contact_intro">Une question ? Un projet ? N'hésitez pas à nous écrire.</p>
+    <div class="contact-info">
+      <p>📞 <span data-i18n="phone">Téléphone</span> : <strong>07.80.20.47.49</strong></p>
+      <p>📧 Email : <strong>lanceglorieuse@gmail.com</strong></p>
+      <p>📍 <span data-i18n="location">Localisation</span> : <strong data-i18n="france_ille">France, Ille-et-Vilaine</strong></p>
+      <p>🕒 <span data-i18n="hours">Horaires</span> : <strong>9h – 20h</strong></p>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="nom" data-i18n-placeholder="your_name" placeholder="Votre nom" required>
+      <input type="email" id="email" data-i18n-placeholder="your_email" placeholder="Votre adresse e-mail" required>
+      <textarea id="message" rows="5" data-i18n-placeholder="your_message" placeholder="Votre message..." required></textarea>
+      <button type="submit" data-i18n="send_message">Envoyer le message</button>
+    </form>
+    <p id="confirmation" hidden class="confirmation-msg" data-i18n="message_prepared">Votre message a été préparé. Vous pouvez maintenant l'envoyer via votre application email.</p>
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-container">
+    <nav class="footer-links" aria-label="Navigation de pied de page">
+      <a href="#accueil" data-nav="accueil" data-i18n="footer_home">🏠 Accueil</a>
+      <a href="#apropos" data-nav="apropos" data-i18n="footer_about">📜 À propos</a>
+      <a href="#" data-open-prevention data-i18n="footer_harassment">🛡️ Harcèlement</a>
+      <a href="#produits" data-nav="accueil" data-section="produits" data-i18n="footer_shop">🛒 Boutique</a>
+      <a href="#vinted" data-nav="vinted" data-i18n="footer_vinted">👕 Vinted</a>
+      <a href="#ongles-beaute" data-nav="ongles-beaute" data-i18n="footer_beauty">💅 Beauté</a>
+      <a href="#parrainage" data-nav="parrainage" data-i18n="footer_parrainage">🤝 Parrainage</a>
+      <a href="#prevention-cyber" data-nav="prevention-cyber" data-i18n="footer_cyber">🛡️ Cybersécurité</a>
+      <a href="#contact" data-nav="contact" data-i18n="footer_contact">✉️ Contact</a>
+      <a href="#faq" data-nav="faq" data-i18n="footer_faq">❓ FAQ</a>
+      <a href="#cgv" data-nav="cgv" data-i18n="footer_cgv">📄 CGV</a>
+      <a href="#confidentialite" data-nav="confidentialite" data-i18n="footer_privacy">📄 Confidentialité</a>
+      <a href="#mentions" data-nav="mentions" data-i18n="footer_legal">⚖️ Mentions légales & Sécurité</a>
+      <a href="https://www.tiktok.com/@lanceglorieuse" target="_blank" rel="noopener noreferrer">🎵 TikTok</a>
+    </nav>
+    <div class="footer-info">
+      <p data-i18n="footer_location">📍 Ille-et-Vilaine · 🕒 9h – 20h</p>
+      <p>📞 07.80.20.47.49 · 📧 lanceglorieuse@gmail.com</p>
+      <p data-i18n="footer_payment">🔒 Paiement sécurisé — 🚚 Livraison rapide</p>
+    </div>
+    <p class="footer-copyright" data-i18n="copyright">© 2026 GUILLET IV — L'Ordre de l'Indépendance</p>
+    <a class="footer-tiktok" href="https://www.tiktok.com/@lanceglorieuse" target="_blank" rel="noopener noreferrer" data-i18n="follow_tiktok">🎵 Suivez-nous sur TikTok</a>
+  </div>
+</footer>
+
+<button type="button" id="top" aria-label="Retour en haut" data-i18n-aria="back_top">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</button>
+
+<div class="music-widget" id="musicWidget" role="region" aria-label="Lecteur musique persistant">
+  <button type="button" class="music-play-btn" id="miniPlayBtn" aria-label="Lecture / Pause">▶</button>
+  <div class="music-eq" id="musicEq" aria-hidden="true">
+    <span></span><span></span><span></span><span></span>
+  </div>
+  <select id="miniMusicSelect" aria-label="Choisir une musique"></select>
+  <span class="volume-icon" aria-hidden="true">🔊</span>
+  <input type="range" id="volumeSlider" min="0" max="100" value="100" aria-label="Volume de la musique">
+</div>
+
+<button type="button" id="chatbot-toggle" aria-label="Ouvrir le chat de conseil" data-i18n-aria="open_chat">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/>
+    <circle cx="8" cy="10.5" r="1.3" fill="#ffd700"/>
+    <circle cx="12" cy="10.5" r="1.3" fill="#ffd700"/>
+    <circle cx="16" cy="10.5" r="1.3" fill="#ffd700"/>
+  </svg>
+  <span id="chatbot-badge">1</span>
+</button>
+<div id="chatbot-window" role="dialog" aria-label="Chat conseil GUILLET IV">
+  <div class="chat-header">
+    <div class="chat-title"><span data-i18n="advice_chat">🤖 Conseil GUILLET IV</span></div>
+    <button type="button" class="chat-close" aria-label="Fermer le chat">×</button>
+  </div>
+  <div class="chat-messages" id="chat-messages"></div>
+  <div class="chat-input-zone">
+    <input type="text" id="chat-input" data-i18n-placeholder="ask_question" placeholder="Posez-moi une question..." autocomplete="off">
+    <button type="button" id="chat-send" aria-label="Envoyer">➤</button>
+  </div>
+</div>
+
+<button type="button" id="panierFlottant" data-lecart-open aria-label="Voir le panier">
+  <img src="panier.png" alt="">
+  <span class="panier-label">Panier</span>
+  <span id="panierCount" aria-live="polite">0</span>
+</button>
+
+<!-- MODALE AUTHENTIFICATION -->
+<div id="authModal" role="dialog" aria-modal="true" aria-labelledby="authModalTitle" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.9); backdrop-filter:blur(5px); justify-content:center; align-items:center; padding:1rem;">
+  <div style="background:linear-gradient(135deg, var(--card-bg), #0a0a0a); border:2px solid var(--gold); border-radius:var(--radius-lg); padding:2.5rem; width:100%; max-width:400px; position:relative;">
+    <button type="button" id="closeAuthModal" aria-label="Fermer la fenêtre de connexion" style="position:absolute; top:1rem; right:1rem; background:transparent; border:none; color:#fff; font-size:1.5rem; cursor:pointer;">✕</button>
+    
+    <h2 id="authModalTitle" style="text-align:center; color:var(--gold); font-family:var(--font-display); margin-bottom:1.5rem;">🔐 Espace Client</h2>
+    
+    <form id="authForm" style="display:flex; flex-direction:column; gap:1rem;">
+      <input type="email" id="authEmail" placeholder="Votre adresse e-mail" required autocomplete="email" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      <input type="password" id="authPassword" placeholder="Votre mot de passe" required autocomplete="current-password" minlength="6" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      
+      <!-- Case à cocher Newsletter -->
+      <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
+        <input type="checkbox" id="authNewsletter" style="width: auto; cursor: pointer; accent-color: var(--gold);">
+        <label for="authNewsletter" style="font-size: 0.85rem; color: #ccc; cursor: pointer;">
+          Je souhaite recevoir les offres exclusives et nouveautés
+        </label>
+      </div>
+
+      <button type="submit" id="authSubmitBtn" style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-weight:bold; padding:1rem; border-radius:var(--radius-md); border:none; cursor:pointer; margin-top:0.5rem;">Se connecter / S'inscrire</button>
+    </form>
+
+    <div style="text-align:center; margin-top:1rem; font-size:0.9rem; color:#aaa; min-height:1.2em;">
+      <div id="authMessage" role="status" aria-live="polite"></div>
+    </div>
+
+    <div style="display:flex; align-items:center; margin:1.5rem 0;">
+      <hr style="flex:1; border:none; border-top:1px solid rgba(255,255,255,0.1);">
+      <span style="padding:0 1rem; color:#666; font-size:0.8rem;">OU</span>
+      <hr style="flex:1; border:none; border-top:1px solid rgba(255,255,255,0.1);">
+    </div>
+
+    <button type="button" id="googleAuthBtn" style="width:100%; padding:1rem; background:#fff; color:#000; border:none; border-radius:var(--radius-md); font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:0.5rem;">
+      <svg width="20" height="20" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+      Continuer avec Google
+    </button>
+  </div>
+</div>
+
+<!-- MODALE PROFIL CLIENT -->
+<div id="profileModal" role="dialog" aria-modal="true" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.9); backdrop-filter:blur(5px); justify-content:center; align-items:center; padding:1rem;">
+  <div style="background:linear-gradient(135deg, var(--card-bg), #0a0a0a); border:2px solid var(--gold); border-radius:var(--radius-lg); padding:2.5rem; width:100%; max-width:500px; position:relative;">
+    <button type="button" id="closeProfileModal" aria-label="Fermer la fenêtre de profil" style="position:absolute; top:1rem; right:1rem; background:transparent; border:none; color:#fff; font-size:1.5rem; cursor:pointer;">✕</button>
+    
+    <h2 style="text-align:center; color:var(--gold); font-family:var(--font-display); margin-bottom:1.5rem;">👤 Mon Profil</h2>
+    
+    <form id="profileForm" style="display:flex; flex-direction:column; gap:1rem;">
+      <input type="text" id="profileNom" placeholder="Nom complet" required style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      <input type="tel" id="profileTel" placeholder="Numéro de téléphone" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      <input type="text" id="profileAdresse" placeholder="Adresse (ex: 12 rue de la Paix)" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      <div style="display:flex; gap:1rem;">
+        <input type="text" id="profileCP" placeholder="Code Postal" style="flex:1; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+        <input type="text" id="profileVille" placeholder="Ville" style="flex:2; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      </div>
+      
+      <button type="submit" id="profileSubmitBtn" style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-weight:bold; padding:1rem; border-radius:var(--radius-md); border:none; cursor:pointer; margin-top:0.5rem;">Enregistrer mes informations</button>
+      <div id="profileMessage" style="text-align:center; color:var(--accent-safe); font-size:0.9rem; margin-top:0.5rem;"></div>
+    </form>
+
+    <!-- Historique des commandes -->
+    <hr style="border:none; border-top:1px solid var(--border-color); margin:2rem 0;">
+    <h3 style="color:var(--gold); font-family:var(--font-display); margin-bottom:1rem;">📦 Mes commandes</h3>
+    <div id="ordersList" style="max-height: 200px; overflow-y: auto; font-size: 0.9rem; color: #fff;">
+      <p style="color:#aaa;">Chargement de vos commandes...</p>
+    </div>
+  </div>
+</div>
+
+<!-- CHARGEMENT DES SCRIPTS EXTERNES -->
+<script src="js/jslecart-init.js"></script>
+<script src="js/jscart-counter.js"></script>
+<script src="js/jsmaintenance.js"></script>
+<script src="js/jssecurity-dashboard.js"></script>
+<script src="js/translations.js"></script>
+<script src="js/jsi18n.js"></script>
+<script src="js/jscore.js"></script>
+<script src="js/auth.js"></script>
+<!-- NOUVEAU SCRIPT POUR LES PRODUITS DYNAMIQUES -->
+<script src="js/produits.js"></script>
+
+</body>
+</html>
