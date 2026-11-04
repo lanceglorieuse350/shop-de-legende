@@ -13,7 +13,11 @@ document.addEventListener('DOMContentLoaded', function() {
       language: 'fr',
       theme: 'dark',
       collectShippingAddress: true,
-      collectPhoneNumber: true
+      collectPhoneNumber: true,
+      
+      // ✅ AJOUT CRUCIAL : Indiquer où rediriger l'utilisateur après paiement ou annulation
+      successUrl: window.location.origin + '/#merci', 
+      cancelUrl: window.location.origin + '/#panier'
     });
   } catch(e) {
     console.error('[LeCart] Erreur :', e);
