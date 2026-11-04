@@ -8,6 +8,18 @@
 <meta name="theme-color" content="#050505">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 
+<!-- ✅ CORRECTION CSP : Autorise Google Translate, LeCart, Stripe, Supabase et tes images -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://cdn.jsdelivr.net https://translate.google.com https://translate.googleapis.com https://www.gstatic.com https://*.vercel.app;
+  style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com https://www.gstatic.com https://translate.googleapis.com;
+  img-src 'self' data: https:;
+  font-src 'self' https://fonts.gstatic.com data:;
+  connect-src 'self' https://api.getlecart.com https://api.stripe.com https://*.supabase.co https://translate.googleapis.com;
+  media-src 'self' https:;
+  frame-src 'self' https://js.stripe.com;
+">
+
 <meta property="og:type" content="website">
 <meta property="og:title" content="GUILLET IV — L'Ordre de l'Indépendance">
 <meta property="og:description" content="Boutique, cybersécurité, prévention harcèlement et conseils produits.">
@@ -21,13 +33,14 @@
 <link rel="preload" as="image" href="background.jpg" fetchpriority="high">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="https://unpkg.com/lecart@1.0.0/dist/lecart.css" integrity="sha384-jX1fMwNTDgokIr2sLOOHC3XkleqIqDuR38KnIV/VX1L/Kg3dxBweTnxiMGecfQLQ" crossorigin="anonymous">
-<script src="https://unpkg.com/lecart@1.0.0/dist/lecart.min.js" integrity="sha384-K0ojmSxf+bcrLxHcdUwl0aKqZ5VxF0w9GRK1dYRYRaui7tiHjj3dhXW9vKC7Ae1i" crossorigin="anonymous" defer></script>
+<!-- ✅ LeCart : J'ai retiré @1.0.0 pour correspondre exactement à ton tableau de bord -->
+<link rel="stylesheet" href="https://unpkg.com/lecart/dist/lecart.css" crossorigin="anonymous">
+<script src="https://unpkg.com/lecart/dist/lecart.min.js" crossorigin="anonymous" defer></script>
 
 <link rel="stylesheet" href="css/cssmain.css">
 <link rel="stylesheet" href="css/csssecurity-dashboard.css">
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.39.8/dist/umd/supabase.min.js" integrity="sha384-S21vdBTi9bjHygfLyIjf4A4QFtW9TvQyHFloa8yT8hIcYgaJT82CZextSZs3a5Wx" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.39.8/dist/umd/supabase.min.js" crossorigin="anonymous"></script>
 
 <script defer src="/_vercel/insights/script.js"></script>
 
@@ -1852,8 +1865,9 @@
   </div>
 </div>
 
+<!-- ✅ Ajout de l'attribut alt pour l'accessibilité -->
 <button type="button" id="panierFlottant" data-lecart-open aria-label="Voir le panier">
-  <img src="panier.png" alt="">
+  <img src="panier.png" alt="Icône panier">
   <span class="panier-label">Panier</span>
   <span id="panierCount" aria-live="polite">0</span>
 </button>
