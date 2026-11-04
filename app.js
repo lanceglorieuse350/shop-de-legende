@@ -1,1 +1,3832 @@
-function _0x18cdf3(_0x2b46d5,_0xbb4866){return _0xfb09(_0x2b46d5-0x2f,_0xbb4866);}function _0x1c0568(_0x56a4d0,_0x252e45){return _0xfb09(_0x56a4d0- -0x38a,_0x252e45);}function _0x302a(){var _0xb350c4=['Dv91C2vFnci+qW','0lGG0l/rGnc+0ltrG9c60ylqSa','0lZqTDgb0ylqUnc80yVqUsdrGq','ic8GyMfSy29UEq','0yWG0yeG0l3qSnc80lG','0jVqUngh0l3qSngpinc40l3rHa','B3jZlcbHBMqGyq','Aw50zwqGuMv2Aq','AguGr0rquIWGEq','zNvSBcbLBMnYEq','BguTzgv0ywLSCW','BKHIvxi','y29TzsbIzw5LzG','ChjPy2u','igv4CgXVCMvYCW','AwnVBguG0lGGt2m','0lJqUcdrGDc+idXHigG','ifn0yxjSAw5Rla','0jlqVTc30llrGncW0yiG0yhrGa','CIbHDsbWyw5Pzq','5BEY6AQm6k+b55QeifzPBNrL','DgLVBNm','5OQa5PYV5yIg5P6q6k+b5A6E77Ym572r56Uz5RkH','Aw5Hz2vFCMvWBa','uI9uwfqVp3vYAq','yM90','8j+CGYdqKTc+0yhrHDc+0lBqTnc1','8j+xGU+4JYdNRkWGocdMRAuG4Ocuia','8j+pOIdqO9c30l3qSngc0yWG0le','w1jvxsdWN4Ymie1PEq','4OctioACQUADPEEAHoECVoEDM+AoJoApOEwCQa','0lRqSnc30yVqSTcW0lxrGIdqSG','iowFUUEHGoIUVUAwVq','ic0G','w0zsxsdWN5kLifnluW','ideWodbqpc9SAq','Bgf0Aw9Upc9Ona','iL9IBgfUAYiGCG','BKPOzgO','yxqGAw50zxjMyq','ihjLzMvYCMfSia','DcbHigrYB25LoG','0l3rI9c1inc/0ydqVTc00ldqTG','y3jLyxrLvhjLzq','0ydrG9c60ylrG9ga0laPingp','8j+uJsbmjZXZDhjVBG','EwjLCIbH','BMC6ihLVDsbJyq','Aw5WDxq','0jRqU9c40lxqVDgcincY0yVqSq','0lJqT9c+0lVqUnga0l7qSTcW0l0','ihnHBgvZig9Mia','C3r5Bgu9iMnVBa','C3m5nEoaGUAiKEApKos+M+s4PEIcGW','5y2R5l2G55Qe6iEQ5lI75P2d44cc5BU66k6+5PYQ','igeGzhv2zxqGlW','CM5LzcbPBIbPDa','ChG7iJ4kicaGia','y29TBwvYy2LHBa','ocbPCYbYzwfKEq','0llqSnc90l3qVTcZ0l4G0llqVq','v2uGyxbWBhKGCW','CMnLBc1dAgfSBa','psjTyxjNAw4TDa','4PYj77IpincA0l7qVDgc0ldqUTgc0yS','CMnPywWGq29Kzq','4PYj77IpioIbLoEZU+AwUEw8JW','AsbKyxrHlwKXoa','zsdIGjmGu291CMLY','svyG5l+H5P2H','0kxqSnga0ldrGDgb0lZqTDc90yi','0lGG0l/rGnc10lJqVngd0yNqTq','0lFqScdqV9ga0lxqTnc10lVqSa','6l+u5zUE6Ag26yoO','8j+oKYdqQnc60l7qU9gm0l3rI9c5','5OkO55Qe55wz6kIalI4U','0l3qVDgl0luG0ylqTDgb0ylrIW','zw50AwfSBgvZCW','rKnAqLe','0lBqTncW0lxrGIdqV9c+0lVqVq','ywDL','0yuG0lVqUngginc4inc80la','0j7rGTc/0ypqS9c90yprGTgmia','5lQR5PYj5RA155Uw5lQK6lsN5PE25A2y5zYO55Qe','zwvWAw5NigjHzW','zNjHBMnLlMDVDq','8j+pM++4JYdLVidORR7MIjhNMOqGq3ldQq','0yhqUTc40lKG0lFqSnc60l7qVq','yxbWzw5Kq2HPBa','yxj0iokaLcdIGQW5os4','C3rHyMXPC2HLza','y3vYAxr5ifbHyW','ChvZAfn0yxrL','B3nHBMrYyq','incYinc60l7rGnc30lJqVDgd','rw5LCMD5igf2zq','572r56Uz5lIk5lIn5A2y5ykO5lU75l2v6zo26kgm','8j+sUYdqNnc+0ydqSnc70yZqVDgl','whfnu2q','5lUf55sO5lQo6k6I5y2v5Ase55cg5zkm5A6I5OI3','0llqVTc5inc/0yprGTgmlIa','BMnLihDPDgGGpa','DxjLihbHEw1LBG','0yVqTsWG0yxqVTga0l7rInc+','zxGUzxvYB3bHlG','0jtqVTc80lJqVDc40ydrG9c5ia','5zci5Rov5yIP55Uk77Yi5A6j5ywO44cb5y+n5QY6','5PYS5Ps/562w5Qc55O2UpgeGAhi','0yhrJYdqTnc+0lpqVTcY0l7rGa','rxjYzxvYigLUyq','0lVqVTcX0ldqU9gm0l3qSngpia','DxmGrw5LCMD5ia','DgeTC3rYAxbLlq','q29TChv0zxiGyq','BwfYy2S','inc/0l7rGDgp0lpqSngc0lxqUW','0l3rGIdrGDcW0lNrGTcWicG','0l3qScdqTnc10ylqSnc70y/rHq','572r56Uz5y+V6io95lYA5l2/55sO5OQa5PYV5OcN','0l7qSsdrG9gp0lFqSTc40lZqVG','B25MB3jTAxr5pa','CgfNzs1WCMv2zq','DgGGu3rYAxbL','6AUy57QN5A6j5ywO5Awx6kof5Rgh6zUg5lQg5l+D','zgLUzYWGy2XHCG','0yVrGDgc0ydqSngpinc4incX','0lKG0lRqSncX0lxqU9gmide','vgfWBYbdmJq1ra','0j7qSDgp0lFqSngc0lxqU9gm0ye','ndqXoti0lZe5nW','0yiG0yhrGnc10ltrGDgc0liG','Aw9UCY4','y2HHDc1TC2CG','5zkm5P6b6zMq44cc','C0jizhO','AwzYyw5Jzs5NBW','4QYfincD0ldqT9cW0lqG0liG','inc90ldrGDgc0ydqVTc10l3qVG','BgvYigvYCM9Yia','B3jKzxjZtgLZDa','8j+BJ++4JYa0lIbnDwX0Aq','C2LZDgfUDa','icaGE3Tct1vutW','ywrNzv9UzxCIpG','0yeG0l7qV9c70ldrGTc+0lKG','yxqSihrOzsbgCG','ihzVDxmGC3vPDG','zgfUy2uGD2L0Aa','j3qGv2fUDcb0BW','CMuIpLzVAxiGCa','icaGica8BgKGza','DwX0','0lFrH9c40lRqVTc8incX0ypqTa','u2PzCeW','0lJqTTcW0y7rIDc40luG0y3rGG','0jJqVDge0l7rGnc80ldrHTc40y8','0ydqTDgb0yprGngb0yS','44cbsfnuu+oaGvGTrNi','C2LZDgfUDguGyq','0lxqVngl0lZqUcdqVnc10ydqSa','DgLJBgvFBgmVta','iJ7WN5UH77Ipifbbq0SGuW','8j+AQcbtDgvWideWia','6kEJ5OkO55Qe5lYy5OoG44cc','4OcC6igu57o75PA55BYp4OcD6Ag16z2I5OIw55U0','Ds4GqMuGzxLLCW','yxjYyw50AwvZ','incZ0lxqVTc70l7qUTcW0yBqUa','inc60l7rGnc30lJqVDgdinc4','8j+uKIdqKDc10lFqVTc/0ldrGDc9','0lVqUcdqVTcX0yNqTDc8inc0','ie1VzgLMAwvY','0l7qSDglinc30ldqV9ga0l7rGq','qw4GyxvKAxqSia','ywjHiokaKYbzB3uG','lcbHBIbPBNn0CG','0lJqVnc+0yhrGTc4','tevepc9SAt4kia','zw50ig9MihrOzq','0lxqUDc30ldqTTc4incYincY','lca0ihnLBNnVCG','inc90lxqVDgd0lBqVDgl0yuG','mYbTB250Ahm','ysdIGjmGvgHLifjH','ruXmBwHbs1vurG','0lxqUngb0l/rGncW0llqVDc+0ye','inc/0ydqUnc90lJqVncW0y7rGG','8j+rIsboBYbYAxnRla','57QI6iMY5lUJ6kgO6io96yEp44cb5yUh5Rcu5zkm','0lhqSnc70lRqVTc9kq','zcbYDwXLCYbVCG','0ldqTDgcidi0lDc80lxrGq','BJ0IChjVAL91Da','0kdqSncX0l7rGTcW0lxrGIdqSq','u2LTCgXLigfNzW','ywDPiokaKYbuDw1H','C3rYAxbLx3bYAq','y2HHDc1VChrPBW','0yFqTDga0lxqTYa8ysbO','6yca5QY+6yg15B6QifzPBNrL','BNrLzcK','ihbPCgvZlcbJBW','igfWyxj0BwvUDa','ief1zgL0igfUza','zun5yMvYrxrtyW','0lGG0l/qVTc70yprH9c40ylqTq','qwXSihnPDguGyW','Dgv1CNmGu09otW','BM9TywX5lcbMBa','os4G0j/qTDga0lxqTncW0yC','BwvUDcbKzsbTyq','ica8l2rPDJ4kia','ysdIGjmGqNLNB25L','DM1XuLy','C2LTCgXLigrYBW','0lxqU9c4','z2vFD2LUDgvYiG','B3jPzxvZzubNBq','0yhrGTgm0y4U','DgGGD2fYCMfUDa','icaGicaGidXWia','suXmrvqGsvy8lW','6l+z5lQB5O+q5l6B5zwg6yg15A6iieDe','8j+uKcdqKDc10lFqVTc/0ldrGDc9','z25LBI48yNi+qG','yxKGDxnLihrLyW','zwf1DhK','0l/rGnc+0lJqT9cY0l7qTnc40yi','5OkO55Qe5l+H5OgV5BEY6Ake5AgR','0yhrGTga0ypqUTgg0lJqUcdqUa','icaGicaGphaGza','DMPlt2W','8j+BOE+4JYdqKngd0ltqUngcingc0lu','BgfIzwW','CMDLDd0Ix2jSyq','Aw9U','8j+sJIdqOTc+0llqSnga0ySSia','CMLJB2XLioAiLIbp','CgvYyxr1CMuGBa','ChjVzMLSzvzPBa','AguGC2L0ztO','CM9SCZ0Izgv0yq','Dg9WDxmGrw5LCG','ihbHCYbZW7TYigq','4PYOienSAwvUDcbH','6ygL5O6N5zMO77Yj','B3DLCMjHBMSGAa','0lJqU9c4incYieLUC3q','BIb2zxjZieDVBW','C3rLBMvY','ieLUDgvSBgLNzq','8j+rIsbjBNrLCM5HBa','ChjVzMLSzunq','Awv1C2vaz21HAq','lwHLywrLCG','u0iGzxqGDSoQDgu','AguGChjVy2vZCW','5O+q5l6B5zcm57g75lQN5zob5lIT5B6i5Bcr5PYj','8j+xNE+4JYdqQncW0lmGncdIGjqG','ode2otaWrfzYDKLl','0ydqVncW0lZqUc4','0jlrGDc1ingc0ydqSnc90lFqSa','BNrZig5Vy3r1CG','iIb0yxjNzxq9iG','BIbPBNtdQwDYW6KG','8j+oRcdqKIdqSTc40ltqTDc+','0lxqV9c10ydrJcdqSTglinc8','0lxqUs4','u2vLihnLy3rPBW','vcbYB2j1C3rLpa','0l3qVDgl0lKG0lhqVTc90yprGq','6ycF5lQs6igu572r77Ym5PEG5Ase5lIn5zYO77Ym','BNqGCgXHDgzVCG','CM1PAuq','0jhqSnc90lRqVTcY0yhqUTc40lu','ChjVzhvPDc1KCG','0ldrIDcW0y7rIDcW0y8G0lVrJG','BM9TEq','DgeTAte4BJ0Iza','0lpqSnga0ldqVDgc0lJrJIWG','nY4G5lQj6k6U','vgHLihnPDguGDq','z3vPBgXLDf92BW','ig9MzMvYCYb5BW','ihrVihbYB3zPza','CIbPBIbHBIbVCG','0ldrInc40lWG0ltqSnc90l3rIW','ihrOzsbKB2n1Bq','inc/0ydqTDc40lZrG9gj0lxrGq','zM9YrwfJAa','yML0CYWGyxbWCG','8j+rLsbwAw50zwq','ihn1yNnJCMLWDa','iJ5fBMrVC2nVCa','zwfUDhmUifbYzq','0l/rGDc40yxqVTc70l7qS9c40yC','Bw91CYbUDw1Izq','zNiVy29KzxmVyq','0lRrGTc40llqVDgl0luG0lFqUa','DwX0lxbYAwnL','5A6H6k6H5lIo5A6j5ywO5Rwl6k+v77YA6i635B6x','ywLSCY1WywnRiG','C3rVy2S','inc+0l0G0lFqSngj0lJrIDcW','0lpqVIdqV9c+0llqTDc00lxqVq','DgLVBI4GuMvHza','BMrVx2zLyxrFmq','pgeGAhjLzJ0IAa','zgf0yxnLDa','igrYB25LigfUza','D3LWCgu','0ylqSTc40lGG0yhqVIa8yq','0lZqTDgb0ylqScWG0laG0ye','B20GvMvYy2vSia','iNbHy2TFC2vJDq','ihrPBwu/','8j+tHcbuzxjTCW','4PQw77Ipifn0zxaGnIdIGjq','8j+tIYdMN6xNNiVMIydMNiNPOBxPNAi','0j/rGnc+0ytqUnc70ldqUTgc0lG','zw1LBNqGW6LXDwK','5lIu5PEG5OM/6k+644cc5Aww6yEr5zkm5lYy5OoG','icaGidWVzgL2pG','0j/rGnc+0ltqSncY0ldqUDgc0lu','B3jKlcb3Agf0ia','icaGia','5Qch5yEg77YA','Aw5NzxjWCMLUDa','0yhrGTcY0lxqVDc90yVqTsdqTa','0lFqTnc+0ydqVTcY0yZrJY4','0l/rGncW0llqU9gp0lxrGTgb0y8','0lpqSnc10lZqVTcZ0l4G0lJrGq','zg9FDxrPBf8XiG','yw5KzsbHDMvJia','lwLUzM8IpGOGia','r1vhsw8','BMCGyw5Kign1CW','iM5VB3bLBMvYiG','inc60ldqV9go0yJqVTc9','0lxqVDglinc4inc60ldqUIa','BIb0AguGC2L0zq','CNjLDxiGBg9YCW','ihvUig91DgLSia','8j+NPcaXlIdMMBROG73NLlxLIQdNG60','zs1pChrPB25Z44cb','ihbVCNqGndqZia','0jtqSTcWingb0l7qSTc+0lRrGW','6zsa5P2d77Ym5PEG6zYa6k+05PIo55cg55sX44cc','lJaGtvaGyxzLyW','ruDjqvjustaWma','0l/qSnc90lxqU9gp0lZqUc4','CM90zwn0Aw9UlG','DgvUDc1uExbLlq','0ydqVTgn0l3qTDga0lpqUnc4la','CYbZy2fUignVBG','AwDOihf1ywXPDa','0lxrGDgc0llqSnc80lGH','5y+r6lsN44cc','0lxrHnc10lRrGTglinc4inc9','0ydqUnc90lJqVncW0y7rGIdrGa','0ldrJYdqSnc60yBqUngp','5yQOimk3ioAeV+AzRW','DcWGzgLZCgXHEq','y3vYBcdOV5VOOyZNMOtMT7hLHAu','BYbUzwDHDgL2zq','nJK1nJuIihrHCG','DxnLCIbLEhbLCG','5l+H5lU744cb5lMG5OoV5zkm5zYO57Q/5ywX5lQR','idXWignSyxnZpq','0lGGr0rquG','5OIw5yIG6zMK5yw25PwW5O2U44cc','inc00llqUncZ0ldrGTc10lVqTq','B3iGyxr0zw1WDa','y2XHC3noyw1L','CYbSzxmGy2HHBq','inc4ingd0yhqU9gd0lpqUa','mc42','u2vLig1VCMu','8j+rIsboBwfWinc+0lhqVq','zsbZDg9JAY1SBW','sw5ZDgfUDcbZBq','lMzYl2XVzgeVAq','0yhqSnc90lJqTq','rKLmvevsx0fdqW','Dwu9iG','l2XPpGOGicaGia','ingb0lxqUTgb0lJrGDgc0yhqUG','8j+pPIbcB3vYC29Yyq','icJqVDc+0yFqVDc+0luG0li','ruXiwhnpnee1uG','sMz6Dey','8j+FOIbfBIbZDg9JAW','zMLSBwvKlG','BcbKyxrH','B3jPEMvKigzYyq','ys1PmtHUpsjLBG','inc90laGvMvYy2vS','B246','0l/qVTgb0lVqTDc00l7qSTcW0yi','rgf0ysbUzwnLCW','BgvJyxj0x2nHCG','igfKzhjLC3m','4O+ZifDVCMSGAw4G','ioE9KEERMEEBRUwjJEATO+wCQoE7ToAkPos4Rq','C3vIC3rYAw5N','CM4Gyw4GAxrLBq','44cb5Bgv56s66iMV5Aw955Qe5zwg5zob77Ym5BM2','0yhrGTgminc4inc80l7rIDc9','zsbWCM9JzxnZzq','0yprH9c10l3qUngpinc/0ydqVG','s1KXmdGGrfjptG','z2vK','0yhrGTgd0l/qTDc9lIdqKTgl','CY1qB2XPy3NJGifs','CgvYAwvUy2uU','l2fYDgLJBgvFBa','0khqVTgg0lJqSnc70yZqVDcW0y8','0l7rGDc40ylrJcdrG9c00ldqUW','AwnLicHVCMrLCG','5RkH5PYj5BYc5BI46kgm5lI6','lDc60ldqVnc10ydqScdrGsa','incX0lxqT9c+0l/qSngb0l3qVG','AxnRCYbOzwXWCW','ms4G5Rov5B6l5l+H5OgV','CNnVCMfTysdOTkBMIlC','4PYu77IpincG0lxqT9gd0lVrJngc0la','incW0ltrGnc10yeG0llqVTc3','v2HLDgHLCIbWAa','Axy+cIaGicaGia','5Osp5OIw5yAs54QV5OcN55Qe546V5Akd44cc','0jdqNDcy0ju','BgLHyMXLlcbHBG','0lZqVTc1inc00lVrJYdqT9cW','zw52AxjVBM1LBG','ihjLywWGAwrLBG','DgvKios4QUs6UUI1HoAwMq','CgfUAwvYrMXVDa','igrVieKUieeGDa','0j/qU9cW0ylqTDc20lGG0l7qSq','q29KztWVyt4U','0klqTDgf0l3qUngh0lxrGDc60lG','Bt9ZDwjQzwn0pq','Ew1LBNq','inc+0l/rI9gc0laGknc60l4','rNjHBwuTt3b0Aq','5l2/55sO6l+h5OIw5l+U5Ps56l+h55Qe5lQN5zob','w0zsxsdWN4+z77Ipie15CW','igrLigWNsw5KW6K','iJ5wB2LYihbSDq','oI8VD3D3lMXLzW','yxv0Afn1yM1PDa','t0jzBgK','0yhrGTga0l7qUDgb0ylqSTc+ia','oIdqSTglingd0yhrGTcW0l0','z2XLig1LC3nHzW','ysbircWGC29Uia','8j+rIsboBwfWigrLDa','8j+pGsdqNTcX0yNqTDc1inc30la','yw5JzsWGyw5Kia','ywrKAw5NoIa4Ca','phaGC3r5Bgu9iG','0ldqSTc40yhqUnc80l7rGDgc0lG','B3rYzsbUyxzPzW','AwXSCYbVCIbJBW','CgfNzxm','B3j0Aw5N','0lJqUd8','8j+KLIbhvuLmtevuia','8j+oOYdqQncW0lmGmIdIGjqG','8j+KNsbwB2LYigXHia','ywnJDwvPBa','mtiGmdaWig1bAa','u1bKtue','Aunkuvi','0ytqVTga0lZqSngg0lJrJYdqTW','B2n0B3b1CW','8j+tPYbuB24Gzs1Tyq','0luG0l/rGncW0llqSdO','AwzZihbVDxiGCW','0yhqVTc+0lhrIDc10l3qUnc1','8j+oOYbtDgvWidiG4Ocu','y29Kzsbfr1Lzta','0lxrGncY0lJrGDcWlIdqMTc+','lIbuB3v0igvZDa','qxbWCMvUDgLJzq','zcbWCM90zwn0zq','zgf0ys1SB2DNzq','ChrPB24','pJG5iokcRdWVC3bH','BgXVDYbwAw50zq','ywnLlwjLDhDLzq','0yhrGTc4imk3incs0lJqTnc1','DgL0Bgu','inc+0l/qSngb0l3rI9gfinc8','z2v0','0kdqTDc60lVqSnc80l3rI9c1ia','zdWVBgK+cIaGia','DxjLyxu8l2XPpG','C3rVBwvYihn1Ca','5O6N5yY65z+F','inc90l7rGnc80ldqU9gm0l3rIW','BgLUztSIpG','0ldqT9c+0li','0yhqVnc+0ylrGnc10l3qVDgl0lu','0l7qSDga0ldqTTc10l3qUngpla','Df81iJ5dzxj0Aq','zxiGy2fUihjLCq','0ydqSsaO0l/qVTgc0lxrGngp','0j/rGnc+0ltqSncY0lxrHIdqVW','we11y1q','zgvSywK','0lJqU9c4ie9JDg9WDq','t3v0zg9VCIbZBW','w1bst0rvsvrtxq','Cgf1C2vK','lurtuYWG0yFqTDga0lu','0lKG0lhqSnc90lRqVTcY0yhqUG','B25LignHBIbIDq','0jlqMncH0jJqNncE0khqOTcy','Fx0kicaGicaGpa','C3nL','tLnrvcdIGjmGvK9d','0j3qTDc30ldqSTc40yhqUnc80l4','0j7rGTc60ydrI9gc0yWG0yFqSa','igHHDMuGmtqGza','zxvYCY4GW4LJCMe','AxnPB24','qNLjza','0yVqTsdqV9c70ldrGTc10lBqUa','C288l2e+lG','DcbZAgvLDcbVCG','y29UEs4','uhDTqxu','0ldqTDc80yVqTsbwAw50','5zwg5lIA5l+D5l+U5RA155Uw6z2E55sO5OI36ycG','0llqVDcW0y8G0l7rGTcY0lxrGG','CNjHBcbSAw5RCW','0jlrIYdqVnc+0lBqTDgc0luG','lMnVBsi+BgfUyW','BgfPCMu8l3n0CG','ihbYzs1MAwXSzq','zwqU','EuPgwwTjr3DSwq','BNrLzcdqUnc70lGGuW','zsb5B3vYihjPzW','CgHVDg8Tzw5KBW','4PYOifDLBgnVBwuG','8j+sScdqLnga0l7qVtOGodK','psjZDg9JAY1Iyq','Cg9YDa','lcbHy3rPDMuGsa','inc/0lJrGDcW0ylrJcdqVDcW','rg91yMXLlxnPza','AwTuB2SGyw5Kia','zxnJiJ5bBgfYBq','6AUy5OcN6io95yAS5A2J5OMl5Awx77Ym5PEO5zYO','z291DI5MCI9Tzq','0llqU9gp0y7rGTgb0y8G0lFqSa','DhjVBMC+igLMia','qsWGDw5LigfSyq','ingb0llqVTgolG','0lZrI9c1inc00ldqVDc90yVqTq','BwvUDgLVBNm','incx0lJqVnc90lJqUsdqVDcW','5A6i6ycc55sO5lQo5RAi6ls56icf55Qe566H6l6w','ysbIyw5RAw5Nia','0l7qS9ga0lxqSTc+0lWU','WRCG8j+vKIdKUiRLJyGGosdNGRK','6AAw5QYH6k6I5y2v5lQR5y+x5QYI6l+o5lYy5OoG','DgfPBMu','0j7rH9c40yhrGTc40ylrJcdqVW','0l7qTnc/0lJrGDc60lGUincs','zwzLBMqGEw91CG','0l7qVDgh0ldqVDc40y8G0yprHW','0lCG0yhrGTga0ldqVDc40yBrGW','4PQG77IpifnLCNzPy2vZ','y3rPB24','8j+wPcdqKTc70ldrGDgc0yW','0l7qS9c+0ylqUnc/lcdrGDgc','0liG0llrI9c00ldrH9c1ingb','sw4TCgvYC29Uia','mtiUieXPywjPBa','DhvYBMuGseq8lW','C28GDhj1C3qSia','0lFqSnc/0ydqVTgb0ySUincE','0ydqTDcX0lJrGTc10lVrJngb0lO','5A6j5ywO5OM/6k+6','0lVqVTgc0l7qSI4G0jFqSnc/','0laG0lJqVDgc0lxrGnge0lxqUq','zfLvBxy','W6LNBgfIBgvZpc8','6ycb5PYn5yQH44cc','vMLLDW','lcbLDMvUigLUia','qwDYAwnVBguGWRC','8j+tNcdLHBpKUO4','56EP5BQp44cb57Ut5P6e44cb6zo45BcX5OIq5yQF','CMvWywLYCW','x3rHz2XPBMuIpG','8j+BKIdLLyBLUPC','AxzLCIbKAwn0zq','ufiPpc9HpIbHBG','y2HHDf9IDg5Fza','B25UywXPDmoPCZW','0kprGDgc0l7qUDgh0lJqSTc+0ye','AweGDgHLig9WDa','0jFqSngj0lJrIDcW0lxrGG','B3bLoIdIGQW5nsdIGki','CgfUpGOGicaGia','rKjhEei','ww91igfYzsbYzq','phn0CM9UzZ7MS5xLRPO','0jRqSnc6inc/0ydqVTc40yhrHq','CMXPBMVJGifwAw50','yw5JAwvUrM9JDq','DMvYEsbMBgLNAa','qw55ig9YzgvYia','BgfTCgu','rM9YigfUEsbXDq','0lRrGncW0yhqVTgc0la','BMC+lG','6lQR5lU955Qe5yQB6yEp5zkm6l+q5yQO55Qe5Os/','0liSinc60ldqVnc10ydqVTc5','0luG0l/qSnga0l7qU9c4oIa','zg8GAw4Gy2fZzq','w0zsxsdWN5cCieXHia','8j+KRcdqODc10lRrGDgd0ldqU9gm','8j+rLsdMN6xNNiVMIjhNMOqGvMLU','zxmPlG','0yiG0lhrI9gc0yWG0l/rGnc4','Ate4BKfYAwe','8j+BOE+4JYdqK9cW0ydqSnc90ylqUngp','0l7qSDgdincYidXHigG','5QYH5OcN55Qe44cc','0y8G0lVqUngh0l3qVIdqSIa','0yJqVTc6lDc60l7qUTc+0l0G','pc9JB2rLpG','BfLSEu4','oEkcRo+8IEoaGG','Dg9Nz2XL','B24GyxjLihnWzq','0jtqVTgb0ylqSncY0lRqScdqVG','t0rLuhy','yw50zwvZignVBq','8j+BOE+4JYdLRONLHAJLPzFOO4u','4OcIifDPBNrLCIbq','0lRqU9c40lRqVTcY','rNvSBcbKzxnJCG','0ydqVTcY0ldqVDc40luG0ltqSa','mZaG0ltqVDc10lK','y29Tpc9HpIdIGjqG','0ydqSncY0lVrJ9go0ylrGDgpia','icaGicaGicaGpa','0ylqV9ga0ldqSTc60lGU','zMLUzcbVCIbNDq','A1P0B0G','re9nq29UDgvUDa','CIb0Agf0igzLDW','zwzLCNjLCI1qBW','AxnOywjSzsbLDG','CMvMDw5KigjLia','0ySG0lOG0l7qV9c70ldrGTc1','y2XPzw50x2LK','DhvT','5zYO57Q/57k+56wE6AQA5OMW','w0zsxsdWN5kaie15CW','8j+rLsbwAw50zwqGuG','yxnZBwvUDcbIEq','lcbHBMqGy29TzG','DcbJB3zLCMvKpW','5OI377Ym5BM25lIu5Qoa5Rwl5yIW5BYc5BI444cb','5PYj6zQq6jEp6Ag16z2I44cb5RkH5PYj5PQ06zYY','5PYQ57Up5O6i5P2d55Qe6lwe5RQq','BM9Uzq','8j+uKcbdB25UzxHPBW','zsbYDwXLCYbKzq','zvPYtfe','zMLYBxmGDgHHDa','C2vZC2LVBG','zcdcTYbervbmt1K','0ldqU9gm0l3qVTgb0ylrJa','ywnRifpdQwn1CMK','txvZAxf1zs8','zgfTywDLignHDq','lxbYAwnLpsi5oq','psjZzwvFBw9Yzq','zsbuAwL3zwuGyq','v2fYCMfUDhKGjG','iezYzw5JAcbJBW','0l4G0lGG0lRrGncW0lBqSca','5AAc5l2v5l2/55sO','CM91BMq','EsbMB3iGB3jKzq','8j+tHcdqN9c+0lVqUngc0lJqUTcW','0lxqVc4','vMv1AwXSzxOGCG','lMXLz2LMCMfUyW','ioMxQoEQL+s8OoAeN+wzQo+8IoMxQcaV','Acb0AguGr0rquG','0ylqSnc90ltqSnga0ylqSnc8ia','AgfYy2vSzw1LBG','psjWywnRx3nLyW','inc+0lhrITgp0yhqVDgp0lxrGG','zxzLBhm','0lxqTTc40llqSnc90lJrJYdqVa','Dw5HBwK','0ylrG9ga0la','r1vjteXfvcbjvG','B3rYzsbWCM9MAq','B29Wzw5LCIi+0ye','4OcCq3jLyxrLihLV','mJeTmJmGB2yGDa','u2vL','oEkcRcdIGkiGuhjVAMu','BgvJDhjPCxvLCW','AgvPz2H0lcb0Aa','0lGSingb0ylrGnc+0lJrGTgm','incW0l3qSnc70lJqTYWG0l8','w0zsxsdWN461ieeGzG','Cgf0AwvUy2u','icaGicaGica8Ca','zKvJCeO','DxrPBf8YiJ5uCG','ingb0lxrGngc0lJrHnc40yBqUa','0luG0lGG0l3qTsdqV9c+0lq','ignVBNrYB2XSzq','ChjVy2vZCYbHBG','BgX1BwLUzxOGDG','BI1JCM9ZCY1VCG','CM0SidqGC2vUCW','mcbQB3vYCZWVBa','ncbtt05prKyGCW','ruDlBhK','BgLNyxrPB25Zia','lMnVBq','yxbWBhLmyw5NDq','0yBqUnc4lcdqV9c70ldrGTc1','5A655ywf55s15A6D','0llqSngi0lGG0yprH9c10ylqVq','5Rov5A6A5l+D6k+b5lIn5yYf5OUS77YA','0ldrGncW0yhrGDc80lxqVDgc0la','ihrVigzVBgXVDW','q29UDgfJDcbJDq','igjYDxnOBgvZCW','ihrVigv4zxjJAq','ignYzwf0B3jZla','W4L2AxrLBwvUDca','u2vYDMvYoIbwzq','lwXLEc5LDxjVCa','AxiGy2fYDcWGyq','tcDVDxrPBcbPBG','y2fWDgv1CNmGuW','0ldqT9c+0llrI9cY0ldrGTgmia','8j+uGsbszxr1CM4GjG','0l4G0yhqSnc50yiG0l3qTsa','zxn0zxi8l3n0CG','yMXPC2HTzw50lG','0y7rGTgb0y8G0ltqU9gpoG','psjWDwjSAwnPDa','BgLUAYb0BYbKAq','8j+mKsbbDxrOzw50Aq','wuzuAfq','0khqUTc70ldqTngl0llqSnc10yi','ywvcCK4','0l7rGDgc0lGG0l7rGIdrGDc/','0l7qTTc10yiG0ydqSngb0lRrGa','8j+BOE+4JYdPQPRMIBdPMllOJim','C2uGDgHHDcb3zq','CMvNDwXHCIbHDq','8j+rIsboBwfWioEHRUIUPoERRW','0lGG0lZqVTc4incX0ldqVDc6','8j+KNsdMJQJOJza','ww91CIbICM93CW','0jtqVIaXmcdqU9c10yiG','ifbHBMrHiokaKYbl','ignVBxbYB21PCW','mtaTBwv0zxiGCW','DgGGBxKGAw52Aq','AM95igeGzNjLzq','zxrHAwXZlxbYBW','tM8Gywr2zxj0Aq','DsbWCM9Qzwn0zq','CMnLBa','0ldrJTgj0lJrHsdqVTcX0yhrGG','EwnOB2XVz2LJyq','BwLLlMDVDxyUzG','0lxqVIdqTnc10ytqTDc60ylqSa','8j+rIsbtAg9WigrLia','AgfZ','B250ywn0ig1Lia','lIbuAgLZihbVBa','zgLZCgXHEq','AwnL','8j+AMIdqLnc+0yhrGTcW0llqUTcW','8j+sOsa8C3rYB25NpG','4PQw77IpincF0ydqSncY0l4G0lGG','DcbLDMvYExDOzq','BNqSigLUignVBq','8j+pOIbbCgfYDg1LBG','BgvnB2rHBa','54US56Ul56EP5BQpiokCQa','0j7rGTc60ydqVTc50ylqTsdrGq','DxiGBgeGCgf1Bq','ignVBxbSAwfUDa','mY0YmIdqMTc+0lZqVnc1','8j+AQcdPQPRMIBa','8j+FOcbqBhvZihf1zq','ugfZC3DVCMq','yxrFB3bLBMvK','y2HHDf90AgfUAW','ignOzwnRihrOzq','0llqVTc30ydqSnc20lxqVDc40lu','CMLMAwvKihnHBa','8j+sUYdqQncW0lmGmYdIGjqG','igrPC3bVBMLIBa','BwLUDxrLCYbHBG','CIb0AguGyxzHAq','D29YAZ8','CY9HCNrPy2XLxW','ouHjB2PiBq','6lw36k+j44cc','yw1LpsjfBMrVCW','ig9YihnPz24GDq','0lGG0lRqU9c40lxqVDgc0l7qSG','ChjPBwu','wMfvqMi','0lJrJY4G0j3qSngiinc+0ye','BwvZC2fNzq','igrLy29KAw5Npq','0yhqVTcX0l3qVTgb0ylrJcdqSG','0lCG0l/qVTc00ydqSnc30ypqVa','ihbOExnPCxvLlG','inga0lxrHnc10ydqSnc70yZqVq','0ldqT9c70lJrH9c90yVqTsdrHa','ie9JDg9WDxmGrq','0l7qTncW0llqSnc50ylqTsdqUa','zgLYzwn0Aw9UBG','0lpqVIdqUnc70lGG0l/rGDc4','svaG5zYW5z2a77Yi5A6j5ywO5zkm5QY6','8j+tHcdPMPdNP4e','8j+rIsdMSQhMNiNMLy/MHj/OTytMUPdJGihMSQe','0ltqV9ga0lJqVDc40lZqSngc0lu','0lVrIYdqLDcH','mtiGmdaWinc80jdrHW','pgXPpG','Ag9UzsaVifnHBq','AhrZoIbSyw5Jzq','rvqGsvyG0liG0l3qSa','inc30ldqSTc40yhqUnc80l7rGq','5OkO55Qe5zcn5A2x','0ldqVcdqUnc70lGG0lpqVTgb','yw5JzwDSB3jPzq','yxrHigXVC3mSia','0ltqVDc10lKG0liG0l3qTDc0','y29UzMLYBwf0Aq','0lGG0l/qVTgb0lVqTDc00yprJG','wteWociGCg9ZDa','CgHVBMuGBNvTyG','pKfSzxj0zxmGAq','iefjienHBwvYyq','0jZqS9c90l7qSTc10l3qVDgl0lu','572r57UC6zkt6Bg844cb5QY66k+i5lIo6lQR5lU9','CM95CYbSAxzLCW','0ylqTDgb0ylqSnc8inc90laG','0l/qVTc00lhqVTga0lRrGW','44cc6l+z5lQB5lYG6l6t5y+x56YM5zciieC','5y+V5lUL5lQR5y+x5lYy5OoG77Yb','B3v2CMLYwM9VBq','icaGidWVDwW+cG','BKvxDgS','DwL0ihrYB3v2W6K','Aw5JAwrLBNq','CMvJzxzVAxi','0l3qScdrGDcW0lNrGTc1lG','oI8VD3D3lNzPBG','sxqGzgvMzw5KCW','ingn0lRrGncW0l0GncWZ','0llrGnc10ltqVTc90l7rGDc90yS','lIbuDxjUA2v5ia','y2XHC3m9iNbYBW','0ydrI9gi0l3rI9c5incY0ldrGa','w0zsxsdWN5oCieTLCG','zwnOBMLJywWGyq','CMvZiJ5dyxjHyW','uNrOvfG','As5NzxrSzwnHCG','ls1NB2XKktSGDa','CgvUzgfUy2u','thvJAwrPDhKSia','BMnLlMDVDxyUzG','ihn0EwXLpsjTyq','ingb0llqVTc40yuG0ltqSnc9','y2HHDf91BMTUBW','ndm3mta3rw9IBfvX','0lxqTnc/0ydqUnc90y/rGTcWia','6kgm5l2/5OkO55Qe5P2d5yIP77YABgfU','0kFqSngb0ySG0ydqSncX0l7rGG','y3vYzsbWyxLTzq','8j+AQcbiyxjHC3nTzq','yw5KigvTzxjNzq','Aw1WB3nLihLVDq','5lMl5Asw55Qe6io95yQB44cc','0jRqSnc60lJqTsdrGncW0lNqVG','5lIn5A6I5Rcu77Yb8j+zJW','z2LUzwvYAw5Nia','0ltqTDc90lJqTsWG0l/qVTc9','57k+5yEg5BQM5O2v5O2j5lIw55wm44cc','BNqGywnJzxnZla','C3bHBG','DhrLBMr1zs4GuG','8j+uKIdLRONLHAJMLk/KU5GG4OcuipcFMPO','Dg86','B3v2zxj0DxjLpa','0ldqSDc+0ydqScaO0ylqVTgh','0lRqSngpinc70ldqVnc/0laG','0ydqVTc00ypqUTgc','6k6/5A6I5zkm5A6I5OI355Qe5A6j5ywO44cc572r','AgLKzgvUigrLzG','DgvKlIdqRYdqV9ga0lu','0yVrH9c90l4G0liG0ylqTDgh','pc9SAt4kicaGia','Dhj1zq','0yhrGTc10lZqSa','B25ZlcbLDgmUkq','0lJrGngd0lxrGTgb0y8','0kpqTncW0ydrIYWG0lBqUnc0','0luG0l/qVTc00ltqSngo0yNqSa','CYbZDwnJzxnZlG','ugvYBwLZC2LVBG','lcdqTnc10lNrGDgc0llrG9go','CIb2AxnPDg9YCW','5zYO5Rov5zU95OIw5yw25lUw5zYW5PA577Ym5lU7','ys5LDs9SzwDHBa','BgWGyMuGC291zW','sufsveKWmdaWna','ww91j3jLihDLBa','C2HVCa','AxzYuM4','C3nPBMC','0yhrJYbtDhjPCguS','zxj5x3jLCgX5','0l4G0lJqVDgb0ylrGngd0lZqTq','0l7qV9c+0llqTDgj0lxqVDc40y8','qMfZAwmGCgvUyq','0lVqUnc10l3rGTc+0liGkfy','0yhrHDc+0ltqVDc+0lWG0yhqVG','ChrHBMnLig9Mia','5lUo5ygL5BQ355Qe6k6+5Ash5PU05Ps555U45ywZ','pgXPigrHDgeTAq','zxmGAmoPBgLJzxm','yxrPBMCSigHVCW','incY0lRqU9cW0lqG0liG0le','B20Gysb3yxjYyq','BgvUz3rO','5y+w5yAZ5lQo5BMZ5y+W77YA','AxjKlxbHCNr5ia','tM1HCcdLKOWGy3vY','0lxqU9cW0y7rIDc40luG0l/rGa','0j/qVTc00l/qUngi0lJrGTc10ye','ig1LDgHVzcWGBG','0lRrHTc40lGG0lhqTDc30l7qVW','0k/rGDc90l7rGDgc0yWSincY','y1LHsMW','idXHigHYzwy9iG','zcbVBIbKzxrHAq','0ylqSTc40lGG0yeGr0rq','8j+sJIbqCM9KDwn0CW','8j+pOcdPPPBPOBu','0ylqVTcY0l7qUsdqUIdqUngb','DgLVBNmGyw5Kia','vMLSywLUzsdcTYa','iMrLC2mIigrHDa','zsbVCgvUzwqGDW','0l7qV9cW0yhqVDgl0yuG0y3qUW','zNiTrLi','Aw5NigHHCMqTDa','icaGicaGica8Aq','svnbrha','0ltqSnc90l3rI9c1icJqUnc8','0yFqTDgc0l7qSIK','0y7rIDc40luG0lZqTDga0ySG','BNqGChldQs1Yzw0','inc/0ydqVTcX0lVqTDc80ySG','8j+oTsbeAxnJB3zLCG','5AAc5l2v6l+96lIQ5OIr55Qe5yYf6ko577YF','5O6L5y+x5zoQ5lQB5lUy5QY+5PA55BYp77YF','uhjVzhvJDhmGyq','uM90yxrPBMCGCW','0l7qVnc+0yNqUc4','0l3rGTc40y8/','Ahr0Chm6lY93DW','Bg9ZCYWGzxrJlG','y3vYAxtdQsbqCMu','inc90lxrGDc10yiG0lRqU9c4','ugHVDg9NCMfWAa','0lJrGnc+0llqSnc90l3rI9c1ia','ihbYAwnLCW','tevhsufsveKWma','Aw50zxmIihrHCG','CMLNAw48l2nVza','pc9HpIWGDgHLia','8j+tPYdOGztNS7VMIjhKU6W','0ylqSTc+0ydrHTc+0liSinc4','ssbZzwXSig9Uia','suXmrvqGsvy','rvqGsvBVVj8','0l3qVTga0lZqSnc70yZqVDglla','BgvZCZK1ig9Uia','ms0YncdqN9c+0ylrGnc1','0lVqVTgd0lZrI9gi0lVqTDc90l0','0jhqTDc30l7qV9cW0yhqVDcW0y8','igv4Axn0lG','y3DACxm','Dg9Y','BxbHy3qSigLUDa','D2L0Ag91Dcb0zq','0ylqVTcY0ldrGnglingbinc+','Aw9UywWGB2jZDa','sw5Hy3rPDMuGyW','lDc/0l7rGDc10ylqUngc0lxqUW','CeTrq0G','DgHLigXHDYbZyq','5OIr5lIn56gU5A6A5OIr5PIo55M95lQgipcFPjq','y2uUz291DI5MCG','ysa8ysbOCMvMpq','0yhqVDc+lG','AxbL','pc9Ond4kicaGia','8j+uKcbtzwn1CML0Eq','yMXHBMSIihjLBa','Dw1LBNqGB2yGBq','y2HHDf9IDg5FBq','B3i6i2zMzJSGzG','otb4ihPVB20','0yhrJYdqVTgcingb0l7qU9c9','ignSyxnZpsjWCG','0j7qOncu0jxqNsdqNDcv0jFqKa','8j+rKsbhvuLmtevuia','BwLUAvbSyxLcDa','0lRqUnga0ypqTDgcoG','rxjYzxvYieDVBW','D2fPDcbMB3iGEq','5O6L44cc5BYa6k6+iejVDxjZ','AxqTChjVAMvJDa','5Rov5zU95Rov5B6l77YA5QY66k+i6k6/6zEU44cb','A3KXmdG','0ylrIYdqSncY0ylqVTc80ldrGG','iJ4kicaGicaGia','AwXZlxbYB2PLyW','AxnREsbHy3rPBW','inc00lVrJYdqVTgc0yhqU9c1','C3r5Bgu','igLUDmoPz3ldQs48','phn0CM9UzZ7NLlxLRza','inc00l4GmJa6mdaG','iowpKEEuN+s6I+s7TUAxTUIVPEAaJUs5IowkNG','DJ4kicaGicaGpa','CgLKztWVBgK+cG','iIbJBgfZCZ0ICa','ingc0l7qU9gm0lRqVIdqTnc7','zxnZzq','BM9KzvzHBhvL','inc/0l7rGDc10ylqUngc0lxqUW','44cbq3ldQwrPDcbbzW','0y8G0yhqVIdqVnc90l7qUq','0lxqVDc40luG0yFqTDgc0lRqVG','0ySG0l/qVTc70yprH9cW0lxrGG','zYbPBMnSDwrLza','0yWG0lGG0ylqTsWG0lRqVG','0j/rGnc10lZqUngd0lWG0l3qSa','z291DI5MCIdIGjqG','yxrPBMCGCgfUzq','0lVqSnc50l0T0l/rGnc+0ltqSa','BMX5igfSBg93CW','vgHLihbYB2r1yW','igXHBMnLz2XVCG','55sO6ycu5OIw5AsN5AsN6zMn5l2o6l+z56En55sO','DwvZDgLVBNm','Ew91igHHDMuGBG','0yhrGnc10ltqVDc10lWGmI0','lcbKAxjLy3qGCG','AMvJDcb0BYb0Aa','zs1qB2XPy3K6ia','y2nVDw50ig9Yia','A2LLCYbHCMuGDq','zIbKzwXHEsbVCG','igrYB25Ligv0ia','DxmGBwv0Ag9KCW','DcbMyxvSDc4','0ytqUnc70ldqUTgc0lJqUTc4','iokaKYbmysbMAw4G','zMvYCMfSigXPBG','y1HIq2C','w0zsxsdWN6ESieDLBG','ChjLDMvUDcbMCG','5QY66k+i6k6/6zEU5zkm6lQR5lU955Ux56Qd77YA','ysdIGjmGrhLZDg9W','6kEg6kEj5BEL5yw377Ym5lIa56En5O6m5O6N5BEL','BgL2CMfPC29U','8j+tIYdPMllOJipKUlVPOPG','BwCGC3jJpsjWAa','Aw9UoIbYzwr1yW','6zMK6z2E5PYj55U05O6L6l+h6zsz55Qe6k+b5O2U','0l7qVdWVyt4G0lGGpa','Ag9YywLYzq','0y7rGTgb0y8G0lGG0l3qTsa','0l7rGnc80ldrHTc40y8','u0Hbwu5bsuXt','0lxrGIdqUTcW0lBqTngl0lKG','AwuGChjPDSoPztW','z292zxjUihrOzq','igzPBg3dQwvZlJW','CMvZzxq','ndaWiejHzcbszq','zguU','0ylqUcdqVTgcinc40yuG0l0','Dgf5igfSB25LlG','y29UDgvUDcWGEq','zw52B2K','ihbHzgrPBMC6mq','sgLNAc1WCMvJAq','t05prKyPlG','0ylqVTc80l7qSDc40lVrJYdqVa','B25NpKvUzg9ZyW','0l3rGTc10ydqTDgb0luGkncX','0yZrJIdqMncylDc60ldqVnc1','0llrGDgc0ydqVTc10l3qVDgl0lW','vxaGDg8GmtaGEq','ihjLywr5lxrVlq','CM9UzZ46','BxvYpc9SAt4kia','0yeGAvbOB25Lic8','5O+q5l6B5y2Z5PE25zkm5y+x5O6N55Qe54oT6yEp','0ldrJTgj0lJqVcdqVTcX0yhrGG','ingd0llqTDc00l7qVnc70lxqVq','0l7qTnc40yiG0llqVTc30llrGa','lcbszwzLCNjLCG','y2HHDc1TzxnZyq','0lxrGDgc0llqTq','B3i6icnJy2m7iG','0lBqVDc+ingc0l7qU9gm0lRqVG','DgHHDcbLDMvYEq','B21Pzs5NB3v2lG','0jFqNTcF0jdqODcD0j7qODcI0jG','nc0Xms0XnIiGDa','AYiGCMvSpsjUBW','0l7rH9gc0ySGknc/0l7qTngc','yw5PzxmSihbSyq','8j+BSo+4JYbtDgfYBgLUAW','sw5ZDgfNCMfT','zxjYywW','rvqGsvy/','BhKGDw5KzxiGBq','0yhrG9gj0lxrGDgc0llqVTcY0la','mZuWiokcRa','0yWG0yhqSTc10ylqU9gl0lKV','0jlrGDc1incYincY0yVqUncZ','z2v0qxr0CMLIDq','yw5RiIbYzwW9iG','8j+AQcdqQncW0lmGmtaG4Ocu','CYbZDxiGC21HCG','w0zsxsdWN4YnieLbtq','zgfPCMuIigXVyq','iokaLcdrJDgc0l4G0l/rGnc1','CMfUDgvLigHPza','inc/0lxrGncY0yVqUsdqT9cW','Esb0Aw1LCZ8','4PQu77Ipincu0l7qUTgc0ydqUnc90la','5BYa5yw35y+r56wO5OMa6zYa55Qe5PwW5O2U5l+D','55Qe5zwg5lIA5l+D6k+b77YApc9ZDa','r3nov0K','0l3qVDgl0yuG0ydqSnc80lRqSa','ChjVDg90ExbL','q0TSzgm','ysbOCMvMpsjODa','5A6m5Pw05PwW5O2U5yQG5A+g','tgzRELu','0lJqVncW0l3qUnc1lcdrJ9gb','ndqZl3rJCcbVCa','8j+rLsdMIjhNMOqGvMLUDgu','BwLUAu11C2LJuW','BNmGD2HHDcbKyq','l2LKl0PpuKzurq','ufiU','uJWVyt7JGii','qufIvKG','6zEU6Aky5O+p6l+W77Ym','Bw90C0nSzxm','zwqGyNKGz3vHCG','mJaWios4H+wdJ+E0OoArHowdJ+wKTa','y29SB3i6i2fHyq','ug93zxjMDwWGyq','BNn0igeGC3r1za','y2HUAwnHBcbPBG','5Bcg6k6+5Ash6l+E5O6L5yIW5BQu55sO56Il5BQp','yw4GywDNCMf2yq','ys1PmtHUpsjWyq','0lVqUcWG0l7rGDc90ldrIDc1','AwDPBJWVy29Kzq','ihvUigLUC3rYDq','y2LHBcbYzwDPCW','5OQa5PYV5RYp5RsE77Ym5lMF5y+V5lUL5yIP55sO','yw5LBcWGzxf1Aq','5PYn5yQH5yY65z+F77YA5Rov5zU95PYS5zYF44cc','0lJqTnc10l3rHTc40ldqU9gm0l0','DxiGteveihnVBa','DMPVqLG','uJWVC3bHBJ4kia','x2XJl0Xfr0LbuG','Aw5Uzxjive1m','cIaGica8zgL2ia','5zYO5lU75l2v5zYW5PA55O+q5l6B6AUy6ycF5lQs','0llqVDc+0lpqVIdqUTc+0ltqTq','C3rYB25NpU+8Gq','AxjLBG','0ylrJcdqV9c+0yhqTDgc0lJrGG','0l3qVTc5ingb0lJqS9c90ldqUW','5PM66io95Qoa5RwlicHbssK','0l7qUsdrGDgb0yVqU9c60luG','w0zsxsdIMQeGu0Tt','BNqGuhjLDMvUDa','ingc0l7qSTcW0ydrIW','0ytqTDga0ldqU9gm0l3qVTc5ia','rgvSAxzLCNKGDa','igfUzcbJB21WBa','6k6I6zIf44cc6ycA6l+h5y2R5PIF5O+q5l6B6AUy','tgzxswO','z1jzAfe','Ew91CIbLBNrPCG','0ydqSnc90ylqUnc10lKG0yhqVG','0ldqSDc+0ylqSngo0yiG0l7qTa','B24Gphn0CM9UzW','DhjPBq','0ylqSncY0lVqTDc90l3rI9c1ia','5A626zsz6k+V5OIw5lQN5zob5PYj57Y66zM344cc','inc90laGmtDdEwjL','8j+sHsboywLSCYaMia','0lZqTDc00lVqTDc90l3qVIdrGq','zsbJyxjYAwvYia','yM9YzgvY','C2LUzYbPCYbLBG','ihnPDguGyw5Kia','AgfXDwuGDM9Sia','q2XLyxiGC2vHCG','AgLKzgvU','y2LMAwvKig9Uia','BNvZig9MzMvYzq','vgfRzsbWCM9Mzq','nZGWmJa0nZq5iG','yxnOBgLNAhrZia','0yhrGTcY0lxqVDc90l7rGDgc0yW','0l4G0ltrGnc+0l06ingn0yi','5A6m5OIq44cc','rerVuYdKV53MIQq','AgfJA2LUzYbHDa','0yprGDgc0ydqVTc50yhrGTcY0la','0jlrGDc10l3qSnc/0ydqSncY0lS','0j/rGnc+0ltqSncY0lxrHIdqVq','Bg9JyxrPB24','zg8GAwyGyw4Gyq','0ydqUngb0lRqSc4','8j+tHsbcB29RigeGCW','Dxn0B21LCIbZzq','CNjLDxiGoG','5BcD6k+v44cc','0l3rI9c5ingf0ldrGncW0yhrGq','BMuUpc9SAt4kia','5PEl6l2S5AsQ6zIZ6io9ieXfrca','ios7JUs4JEs/NEEvMEMtTUIHJoAvSoAnRUoaGG','lDc60ldqVnc10ydqTsWGoq','8j+rIsboBYbHBM9Tyq','zwqGyxjLyxmU','y2SGkgv4ywn0kq','4PYu77Ipien1CMWG57Ut5P6C','z1r0EK8','wfnrueq','DIbJBgfZCZ0Iza','ingd0l/rGncW0llqU9c10l3qUa','inc60lVqUnc10l3rGTc+0liG','CMXPBMS','iLDPBNrLCIbtDq','0ylqSTc10ylrGDgc0llrG9c10yi','lcbLEhbSB3jHDa','DhrWlxnLy3vYAq','zM9YBxvSywLYzq','ihDPDgHPBIbHia','0l7qV9cW0yhqVDc+0yhrGTc4','r3jHDgL0DwrLia','DgfYz2v0','u3rVCMfNzsbIyq','5OI344cb6k6I6zIf5OIw5RoO5yAm77Ym5BM25lQR','ztWVBgK+cIaGia','v2Xmv2e','igLUlxbLCNnVBG','zgv0ywLSxZiIpG','0l7qVDc70ldqUDc9','u1nmioAJGoAFPq','CgvUzxiIpUoaIUMaMUEuQa','DxmGzwXLBwvUDa','mteUieXLz2fSia','B2PLy3rLDxi','5OkO55Qe6kgJ5PYn','v2LUDgvYifn1CG','mtaUieXLz2fSia','inc60ldrGngc0l7rH9c60luG','y29UDhjVBcWGCG','inc30ypqVnc+0lW','8j+BOE+4JYaYlDc70lxrGTc90y/rJW','DgfJDgvY','pc9ZDhjVBMC+cG','B25Zzsb3AxrOAq','CM9KDwn0lwLTyq','CYbUB3qGDhjLBq','rvzgAei','Dxn0ignVBNrHyW','BNr5ignVDMvYAq','u0iGsgvHDgLUzW','yxLqywZVViJLRONLHAJMLk/KU5G','ChjPEa','DhrWlxrPDgXL','0llqSnga0lJrGTc10lVrJnc90l4','vgHLihn0CMfPzW','BgLNAhqTBw9Kzq','tfmGms4Zkq','ywnJB3vUDcWGCW','0lZrIY4G0j3qSncX0l7rGca','DwuGy2HLEIa8CW','CMv0DxjUzwqGAq','0y8G0lhrI9gb0ylrGnc+incY','rgv0zwn0zwqGAa','Bca/cIHdBgLXDq','5y+r5OIw5yIP55sO44cc','zxjMzwn0lcbhvq','ifbYzw1PDw0GuW','y3jLyxrLrwXLBq','idiWChG7ig1HCG','Dg9YqwXS','0jlrGDgc0ydqVTc10l3qVDgl0lK','0ypqU9gm0yiG0ltqUngb0ylqSa','B25bDxrOu3rHDa','4Octiev0zxjUywWG','0lJqUIWG0lRqVTgc0l7rGngl','Aw1WBgLLCYbMDq','0lZrI9c1inga0ldqUDc+0l3rIW','5A6j5ywO55QeifzLCMnLBa','B250Aw51yq','icaGphvSpGOGia','vhvYBIbVBIb0Aa','0l7qVYaXmdGWucdrGq','BfvHqLe','CgfUignSyxnZpq','0kFqUngc0ldrGTgminc00ldqUW','Aw9Uig9MihLVDq','0yiG0l/rGnc+0lJqT9cY0l7qTa','uvjkzwq','BCoPCMeGseqGyxy','0lJqTTc10l3qUnc1inc/0ydqTq','ysaXmdGWucddQxq','sgfzwvu','0lJqVZOG0l3qTsdqTTc00la','zw1IzxiGywDHAq','0l0Singh0ylqVIdqV9c+0l0','5PA55zcr77Ym5Ps55y+y5l2G55Qe546V5Akd44cc','DgHLienVBw1LCG','BguGy2fTCgLUzW','DhjPBMu','BMvTzw50idO','55sX5AsQ6zIZ6io955s15RgG5P2/5l6B55s155Qe','0y8G0lJqVDge0l7rGnc80ldrHG','0lJrGncW0y7rGTgb0y8U','0khqTDc90yhqVTga0l3rI9c5ia','0lhrHDc+0ltqUnc80yVqTsdqTa','zZ7KUjpKUjRMUjFPGi/MTyVOR5xLKzG8','55QeienpuLpJGifwzxi','BgX5','0y/qT9cY0lJqVnc+0yhrGTgmia','B25L','0y8G0l7qSDc10yhqV9c10yFqTq','igrVig5VDcbHBa','5y+r5BId5OI/5Bgl44cb6l2M5BQt5OIw6l2M6l6g','0ydqSnc90ylqUnga0l7qSTcW0yi','0ylqSncY0lVqTDc90lJqTsdrGq','incW0ylqSnc6lIdqRDgc0l4','ExnPy2fSlcbWCW','DgvK','BMrVD3mGlYbNyq','5O2U5lII5AsX44cb57Up5Rwo5O2F5AsX562j77Yj','rNjHBMnL','DMfJEq','CIbWB3DLCMvKia','z3jPy29Szt8G0jG','B2rHBa','icaGicaGpgG0ia','0lxqS9c40yhrGTga0ldrHTc40y4','zYbWCMLUy2LWBa','zNiVzNiVCgXHAq','psjOB3DFDg9FDq','inc00ldqSTcW0lNrGTc1incY','lIbhyw50CYbdAa','0y3qU9c10lRrGTga0l7qVDc90la','A19Zzwn1x3DOEq','Bg9Hza','t1jgvevyvdaWma','0yFqVDc+0yhrGTgm','igHHDxrLihbLCG','0llrInc40luG0l3qScdqVnc+','8j+AQcdqKIdqVTga0lpqSnc90lG','CYbZDwLJAwrL','4OctiefPBwvYifnH','0jRqSnc60l7qSTglingb0ydqVG','zgvK','igLUDgvYBMv0ia','zsbWBgLHyMXLla','BMnVCMuGCgfZCW','0yNqTDc90lJqUcdqVnc+0lBqTq','0lVqUnga0yprJTgcinc/0ydqVG','B3iGC2v4Axn0ia','0luG0yhrGTga0l7qS9c40luG','ChrPB25Zlcbqzq','8j+tNIboB3vZihnVBq','CMfIAwXPDhKGCW','CgXHy2vOB2XKzq','0l3qSngpinc/0ydqVTcZ0ydqSa','ieD1AwDUzw4','tK9grU+8IEoaGG','CMv0CMfUC2XHDa','A2LUj1nXDwf0ia','CJ7qL9cW0l/qUngb0yWG0l8','0ylqSTga0ldrIDc10l3qUngpia','zsWGvMvYy2vSia','0ypqUTgc0ySG0lhrG9c00yprGG','0l3rI9gf','yNv0Dg9Uw2rHDa','CMrLCJOXChGGCW','0lRqVDcWic8G0lpqSnga0la','Ew91CIbKyxrH','yxrHlxrVz2DSzq','BMqGBxKGChjVza','yxj0AwnSzv9SyW','6io95RAj5y+k5QYN55UF5lUL5Asw55Qe5Ase55cg','B2rLpNnHBwuTBW','vufusfO','5A6j6kof44cc5lQK6zkL5yYz44cc','ingb0l7qT9c00ldqVDc90yprJG','CMLHBcbWAg90BW','0lBqSnc70l7qSTcW0ylrJcdqSG','ienYzxCG4OctifrZ','sw50zwDYyxrLza','q09XDue','8j+CGIbqB3DLCG','odKUmda','inga0lxrInc40lZqVTgb0ylrJa','ChjVzhvJDhnFzG','z3KUincE0ylqUTga0yVrGG','DMLUDgvKlMzYiG','y29Uy2X1C2LVBG','C2nYB2XSwq','0l3qSnc/0ydqSncY0lVqTDc90l0','0lGG0lJqU9c4inga0lxqVnc+','ingb0l7qT9c00ldrJTgj0lJqTq','ugvUywWGq29Kzq','AgLRD0i','DhmGB2zMzxjLza','8j+KNsbpDxzYzsb1BG','CYbVBw5PzgLYzq','0l7rGDgc0lGSinc00ldqTTc1','BM9Tx2nVBxbSzq','jIbtDxbWB3j0pa','psj0ywDSAw5LiG','zMzLCMvKig9Uia','z2Dvsfu','tu5sCKy','0ldqSTc40ylrJcdqTDcZ0l4G','zgL2ignSyxnZpq','0lJrGTc10lVrJnc90l7rGDgc0yW','inc00ldqVDc90yVrHsWG0yq','CYdMIAVMJ4/NOA7ORQtKUOBLROZMLBtJGie','0yhrGTcW0llqU9gp0lxrGIdqTW','ingf0ldrGncW0yhrGDc80lxqVq','xZnFyJmIpKnVBq','CYbOAwrKzw4Uia','BmoPy29TBwfUzgu','ww91ignHBIbMAq','zsWGy2HHBMDLia','AweXoq','l2zYiIb0yxjNzq','0lJrGDc/0l7qU9gm0lFqVTcY0la','ns4Gq29VA2LL','C19YzxbSEq','u2LUz2XLlxvZzq','DMvJimoPy3jHBIi','0jFqSngj0lJrGTcWincY0ldrIa','BMr1zsa6','v3LOqMC','l3n0CM9UzZ4U','8j+rIsdNRkBLKiGGt1Dbu1a','l3D3DY5JBMLSlG','oIaXmcb5zwfYCW','uwLyCNe','psjFyMXHBMSIia','0lhqVTgc0lRqUcdqTncW0l3qVq','5Qc55O2UpgeGAhjLzJ0','Dg8GC2vLigjLEq','uMvMzxjYzxiGua','8j+tQcbtDgvWidCG4Ocu','C2vHCMnOlxjLCW','BgKGzgf0ys1Pmq','C3m9iNbYAwnLiG','DMLKzw8GCgXHEq','zxzLCNL3AgvYzq','zLvusgq','WQVqODc+0lFqTncW0lKG0yhqSG','ChmU','inc80l7qUsdqVTc00l3qVTga','inc90luG0y/qSTc70y/rJTgc','8j+sOsbmzsa8C3rYBW','0yVqVcdrJDc60ydqSnc90l7qVa','qxjYB3DeB3DU','C3rYB25NpIdqSIa','0yhrGTcY0l4G0lJqU9c4inc/','572r56Uz5PIV5A6j5ywO55Qe','lwn5yMvY','nI4G6lsJ5lU7','qNHtreS','DhjVBMC+mdCUoa','mdaWnJq0mtKYna','5OQK5lIo6k2M5Oov','zxmGB2yGANvYAq','qsb0CMfJA2LUzW','0ytqVTgc0l7qS9ga0ldrHnc40y8','BgfZCZ0IDgfNBa','0yFqUnc60lG','AM9PBMrYzq','ruDzwuXgscdMMk/KUia','yw50As1HDhrHyW','zhuG','iJ7WN4+QienVBw1LCG','0lxrGDc70lGG0yprGDgc0ldqVq','0lxqVDgc0lJqU9gp0yBqUngpla','y2S6iokcRdm1ma','l2e+lG','A0rsu0K','Ate4BJ0IzhjVBG','odCZotzTEvLtD1K','vKXWAuu','idXOncbKyxrHlq','0lGSincX0lxqT9c+0l/qSngb','tIbzt1vsieHbtG','osdIGkiGrw5KB3nJ','8j+tNIdMIjhKU6ZNMOtMNi3LIQhML7BPL7tKUlO','Cgf1C2u','CYbPBIbHihrLEa','y2fYDa','zxvZzubNBwfPBa','incZ0ldrGncW0lBqScWG0l8','CMWSinc/0l7qTngc0llqTq','BMC+idXHigHYzq','0l7qVcdqUnc70lGG0yhqVTgc','igeGzMv3ignSAq','incX0ypqTngd0yNqTDc1lG','0yBqVTc8lG','igLZigjHC2vKia','zxiGzM9YigfZCW','ww91CIbUyw1L','0khqSnc50yiG0lJrGDc/0l7qUW','BM9VCgvUzxiIpG','Dgf0Aw5NihbHBG','5lIa5QYH5OcN5O6O6i2q56cbievhwq','inc00llqTDga0lGGlYdqVG','rwrtAK8','0yiG0yhqUnc70ymG0lhqUnc3','vgHLigzHy3rZia','44cb5PU05l6/5A6C55Qe6io95RQq44cc','mta4mfaG5Qoa5Rwl5yAf56QL','CZWVyt4U','Aw9UigLZigf1Da','DxnPB25Z','DcbVCgvUAw5Nla','BguGmty0msbVzG','0l/qVTc00ldrGTgminc20ldqUW','Ev9YzxbSEq','0l7qS9c+ingf0ldrGncW0lRrGG','0l7qSTc60laG0lFqScaXma','5AAc5PYj5lU75l2v6zEU6Aky77Ym6k+36ycA6l+h','6igu57o75y2w5A625lUL6i635y+w6k+05PIo5zkm','DhmP','0y3qUTga0ldqVDc+0lW','4OctieLSCYbozsbw','8j+tNIaZmde4iokaLcbg','zwqGDg8GDgHLia','ingh0ylqVIdqV9c+0ydrGIa','igrHCMSGyxjLyq','zxqGCgfYzMfPDa','mtiSmdaWig1bAa','0lFqTnc10lVrIYdrGDcW0lNrGG','B3v0igP1C3rPzG','yxn0zxj5lcbHBG','6zYa55Qe5lIa5yIh4Ocu4Ocu5PEG6zYa5OQa5PYV','lcddQwnSywLYW6KG','57Y66zM35l+D6k+b77YApc9ZDhi','igXLCYa0ignHCa','vMLUDgvKpc9HpG','8j+BSo+4JYdqOnc10ytqTDga0ldqU9gm','8j+pGsbhzw5LCMfSia','5l2v5lIQ5lQ65PwW5O2U5z2h5lIn5lYA5lYG6l6t','5PYQ5l2/55sO5BM/5zgk5OIw6jcL6zsa6lEF6lIQ','4PYuifnLy3vYzsbW','z21HAwWUy29TiG','CMvMDxnLzd8','6kgO56s677Ym5zcR5OMa5PYj56Io6ls5icG','BNrLBNuGCg91CG','l2G0pGOGicaGia','BgL0W6K8l2G0pGO','y2HHDc1TC2CGyG','zgL2ihn0EwXLpq','AwD1CSoPidOGDM8','zxuVBgvNywWTyW','ihDPDgGGysbYzq','ywn0AxzLCLbHzW','0yJqTDc90l3qUngh0lxrGDgc0li','nYdrGnc10lBqUnc80l7qSIa','mY4G5lU35Qc8','B3mGBNvPDhmUia','5OIr5zYOifzPBNrLzca','AxnbCNjHEq','yxjTlcbSAxqSia','6igu57o7ieDvsuXmrvq','CMf0Aw9U','ywDYyw0U','ufiPpc9HpUwsJdXH','z2uGAgfZigjLzq','Dwn0lwLTywDLiG','8j+qMsdLIQdLHAuGt2n0B3a','zwr1y2vKlw1VDa','0y/rGTc+0yaGmtiGmda','Aw5R','zw50igDPDMvUia','0lWSingh0ylqVTcX0ySG0l8','BgLUAYWGvMLUDa','0ydqUngb0lRrGYWG0lxrGDc7','mteUincF0lxrGngb0l7qVq','icaGica8AdqGza','u3rYAxbLincX0lxqTW','C2nYB2XSsw50BW','iej1AwXKihrOzq','zwWGu2vJDxjPDa','6k+36k6W5l2p6yg15A6i6ycc55sO55Qe6AoE6kgm','ihbYAxzHy3K','6zkL5yYz54wN54Mh5lIo54MP55cg5A6j5ywO','4OctifvtqIbszwnO','zsdNMOtLRONLHAJMLk/KU5G','y3rFCMvWBhK','5zMO5zkm5PEl6l2S6z2I5P2/44cc','pgXPpLbYB2r1Aq','otuG4OkS','DsbZDgfIAwXPDa','ys1LEhbHBMrLza','0llqTDc30ltqTsWG0ltqSnc2','5BQ35y+x5O2F44cc','C3rVBwvYihnLCG','C3nTzw50igLZia','0lxqVDc40lKG0y3qU9c10lRrGG','BNmGug9ZC8oPzgu','0l/qVTc/0yVrGTc60laG0lZqUa','0l3qScdqSTgb0luG0l3qSngi','0khqSTc10yiSinc60l7rGTc+','6lco5lMF5lIn6AkK5OQw44cc','DgeTAte4BJ0ICa','Dg8GEw91CIbJBa','DMfYkc0TywnJzq','0yxqSnc90lJrH9c10yhqUTcW0y8','0yhqUTc40luG0l/qTDga0yFqSa','5BIM5Bgp5BMv55Qe5Qoa5Rwl5Pge5yop5As05yAf','u1rpq0T9FqOGia','zsbZzw1PlxjPzW','5zYO57Q/5OIw5zUI5l2t6AQA5OMW5PIV5yQG6yEn','B25LlxzPzgvVlq','DhrWCZOVl2v1CG','4OcuipcFMPOG0jhrI9gb0ylrGncW','8j+tJsbjBgXLlwv0lq','pLbLBNnLEIddOca','C2nVCguIpGOGia','ihn5C3tdQg1Liha','BhrOEsbKzxzPyW','inc60ldqTTc00l7qS9c+ingb','vvnciowpR+wfHEEuTq','CM9UzZ4GpgeGAa','qM91Dg9Usgf1Da','55s15A2q6ykU5lU2','mtmUien1C3rVBq','yxrLzcbgufyGCW','zM91CM1PBgNdQhi','iMrYB25Lx3rHzW','0lGG0lVrJTcX0l7qV9gl0ylqVq','8j+NQIbwzxjJzwWG5lIk','zw9WBgu','t059FqOGicaGia','C2vHCMnOrM9YBq','igLKpsjWCM9KDq','CIbPCYbYzxf1Aq','nZuGy20P','0j/rG9c70yZrGIdqTnc40yhrGG','0j7qTnc40l0G0lhqTDgb0l/qUW','Aw5NihrOAxmGDq','lIbuAguGC2L0zq','lunVBNrLBNqTva','8j+tNIdqK9c00luG0l3qSnc50yi','0l7qSTgb0lRqUnc1inc00ldqVq','5lQN5zob5Qc55O2U5yw25y+V55sO5OcN5B+R6ycF','zguGyxnZAxn0W6K','DMLZAwjSzq','B2TPzsaO0lRqVTga0lC','0lRqVIdqVTc00l3qVIdrGDc+','8j+uKsdNRkWGmsdMRAuG4Ocuia','0y8G0lFqScdqV9ga0l7qTngd','5lIQ5lQ65l+H5OgV5lIo6zQq56Eb','zxCGBM90zxm','igLUDmoPz3ldQwu8','8j+NOcdqNTgb0l7qT9c90ldqVDc9','4QYfiejHy2SGDg8G','5Rs76lEd55Qe5y+n5PY65zMO5lQ657o757UF','0jxrGDc70lGG0lBqTDga0ylqSG','C21HCNrWAg9Uzq','BNrLpc9SAt4kia','6k6/6zEU5OkO55Qe5PwW5O2U','nY4Gq29VA2LLCW','0lxrGDc10yiG0l7rGTcY0lxrGG','8j+NSsbbBNrPlwzYyq','z2LJywWGChjLyW','icaGicaGiaOGia','8j+BOo+4JYbdB250Aw51BW','0ltqTDga0ySG0yhqVTcX0lVrJG','xZmIpVcFLiSGmY4GqG','lta4lteWiIb0yq','CM90zwn0Aw9UCW','x19eruzbvuXuxW','0ldrGTc10lVrJngb0lRqVTcZ0l4','zwn0BhKGDMLHia','rNjHBMnLig9Yia','6jcL5lIA5PE26zE0','0l7qS9c+inc/0l7qSTc10ltqTq','5lIk6zsa5zsU77Yi5lIQ5lQ66lwe5PAz77YABa','zsbJB25KAxrPBW','Dhb1Da','x2z1BgXFmsi+ua','zs1KzxrHAwXZia','0lRqVTc90l3qSngpincZ0ldrGa','ChbSAwvZihn0CG','zgf0ys1SzwnHCG','ievYCMv1CIbKzq','0ydqVTc40lFqSTc+0ltqUngc0ye','8j+rIsboBYbZzw5ZAq','yxjNzxq9iL9IBa','yxiG4OctifbOB2vU','0yhqV9ga0l7qUnc30llqTDc00lu','yw5KihbOAxnOAq','0ylqVIdqVnc10ylqVTc0lca','0lpqSnc10lZrI9c1idXHia','zxr1CM4Gy29ZDa','0lZqUca14PIflcdqVTgc0lC','DMvYEsbVzIb0Aa','BgLLBwvUDa','u21HCNqGzgv0zq','lJWVBgK+cIaGia','BNrLCMnLChrPBW','0l7rH9c90yVqTsdrGDga0l7qUG','incYinc+0ltqUnc90l7rH9c6','Aw4Trw1IzwrKzq','z2XLidOG','ignLihbHy2SGpW','0yhrGTcY0lJqUcdrGsa8yq','8j+oOYdNRkWGmIdMRAuG4Ocuia','incW0l3qVTc80ldqU9gm0l3qVG','BgvJyxj0','5lIQ5lQ65l+H5OgV','AwXKihrOzwLYia','B3bLBMvYiJ7JGiRMSje','0lJqVDcW0lRqVTcY0l4U','igL0ihrOCM91zW','0khqUTga0yVrGTgm','zwy9iMH0DhbZoG','BhfSCwi','y2HHDf9IDg5FCW','zMn3ueS','tevuieLwioEAHos4K+ACIq','5PY65zMO5lQ65PY65yI244cc','5PsV5OYb44cc','C3rYB25NpIbZzq','C29UigLUieD1Aq','lwKXog49iMjHza','56YSieWYmJeTmtGG','Bs0XmxbTkq','DhvHDgLVBNmGza','0jRqSnc60l7qSTglinc30ldqUG','0yxqSnga0ldrGDgb0lZqTDc90yi','w0zsxsdWN5sKifjdsW','Awv1CIbLBIb0BW','ihrOzsb3yxKGDa','C29SAwrPDhKU','zxvYigfSAw1LBG','ientuooaGEA0U+wkQoEAHcbi','Ag9RzwfQAM11Ca','zxn0Aw9UCYWGyW','iMrLDgfPBhmIpG','0ydqTDc00l7rGDgc0ldqSTc70y8','0lVrJTcX0l7qTsdqSTga0lxqVa','y2LWyw50ignHBG','AYWGy3jLyxrPBW','DsbPBNn0ywXSla','B3nJB3bLlNbUzW','AwXLCYbKj2fJyW','0jiG0yhqVTc+0ylqSTc10ylrGq','Aw4Tt3bLBMvYlq','0l7rInc10l3qVDc40yFqTDgb0lO','ifbjuIbZzw5ZBW','AguGC2T54OcMig9Y','0lJqSTcW0l3qUnc1inc60lVqUa','0luG0liG0lVrJTcX0l7qTsa','8j+rIsboBYbSzwfRCW','0l3qUngpinc90luG0l7qSDc9','0l/qVTgh0ylqSdO8l3n0','zeLzqNK','5l2/55sOie5TyxaG5zkmia','0khqVDc40lZqSnc50ylqTsdqVW','8j+tJsdqMnc70yWT0y0T0jlqUa','0ylqSncY0ldrGTgm0yhrJYdqSG','x3vZzv9UB3rLiG','mJi2odi4lZiWmG','0l7qS9c4icHuvemPlG','0y/qS9gh0ldrJTgj0lxqTsdqVG','zxmGChjVDMuGDa','w1jvxsdWN46Tie1PEq','DgHHBMSGEw91','0l4G0lRqVTc00lxqUTgb0la8','yw5Kigf1Dg9UBW','w1jvxsdIMPmGtwL5','y29TiJ5Syw5Jzq','ChrPB24Gy29TCa','CMvWBgfJzq','0l/rGnc40lFqVDcW0l3qUnc1lG','zsbWAwXVDgLUzW','Dgv4DenVBNrLBG','Dg8GB2j0ywLUia','0yhqTDc30l7qVDc90yVqUsdrGq','C2vHCMnOsw5WDq','uhjLBwL1BsiGBa','0khqVTc+0lhrIDc10l3qUnc1ia','rw50zxi','yxLZihrVihjLCq','DI5MCI9JB2rLCW','0j/qVTgc0l7qVngdingh0ylqVG','0l7qUsdqUTc+0l3rHnc40ltqTq','77Yi6lsT54MP6l2M44cb5lYA6k+D44cb5A6j5ywO','ica8zgL2ignSyq','mda2ndqXoti0lW','DY5SzwDPzNjHBG','ugLSB3qGDMLHia','zxzMDfu','0kdqTDge0lxrGncW0lVrJnc90yS','5zYO5lQl5lU25y+r55sF5PE25B+R6ycF5y+n5BQu','oYi+vM91CYbUjW','s2TgEgK','y2HLy2TLza','Aw1Hz2uIigfSDa','BweGuMvMzxjYyq','0lGG0yprH9c10ylqVDgl0luG','nY4G0khqV9c+0ydrIW','EsbWCM9OAwjPDa','lY93D3CUy25PBa','BM9YBwfSAxPL','C2nYB2XS','5yw35PYj5AsA5lIQ5yQG6yEn5Oof6iQc55Qe6AQA','BNnPC3rLBMn5ia','8j+sTIdMN6xNNiVKU7FMOlW','zxmGBM90ihLLDa','y2XVDgHLCYbPBG','B3vWlG','W6LNzw5Kzq','0ltqTDc50yhrGTcY0lJrJY4','BYbPBxbHy3qGzG','5ywO44cb5PYj5Pwi5lIu5PEG6Aoo6zMP44cc','ieDeufiG0lGG0l7qSq','ChrPB25Z44cbwc1d','0yWG0liG0l7qSDc70ldrGDgc','8j+uKcdKVB/NLkGGu3rYAxa','0jtqOncE0j0Gs1KXmdG','lMDVDxyUzNiVyW','mtaWjsdLNkJNUR/MS6JLHOZVViW','igLZig9RihrOyq','ihrHCMDLDd0IxW','CIbHBMqGDgvHCG','ChDMELe','z29Vz2XLqxv0Aa','DwvZDgLVBJO','yw5KigHHDMuGBG','DhKGAxmGAw5KAq','wwvZlIbzB3vYia','0yWG0l3qScbtDgfYBa','zwqGBw9KAwzPyW','AgvZAxrHDguGDa','ugf5BwvUDcbPCW','sgvYzsbHCMuGDa','zw5LCIi+0yhrGTcW0yi','w0zsxsdWN5sLiejPBa','0l7rGTc60ydrI9gc0lJqTsdrGq','DxjHAq','DxjPywWGAw5Kzq','DhbOB25Lpc9SAq','B3b1CYbfBMvYzW','uKPPr1e','C2nYB2XSvg9W','8j+tPYdqODcY0y/qT9cW0ylrJngb','ChjPEf91BML0yq','ingb0l7qS9c70ldrGDc90l4G','x2zLyxrFmYi+W4K','0lRrGTga0l7qVDc90l7qUsdqVW','DgLUzW','0yVqTsdqV9ga0lJqSTgl0yFqUG','u1rt44cbwc1gCMfT','0j3qUcdqVTc00lJqVsdrGTc+','5OgV5Bcg6iEQ5yQO5AgR5yAz77Ym5OkO5PEG6zYa','0lBqTngd0l3qSnga0l7qTnc90yS','5A2M55sF5OIw5Pwz6igm5zgy5BEL5A+55zcm5lIa','5OQKicHdu1aP','mJGVmJaYnc0Xmq','0lJqU9c4inc/0l7qSTc10ltqTq','B250lxnPEMu6ma','vM9PCIbSysbZzq','BwvJAgfUAxnTCW','0ylrGnc+0lNqUTc4inc+0ylqVG','tguGBw90igrLia','AxrOB3v0igeGBq','icaGihT7qK9vva','0l3qUnc1inc30ldqUTcW0lFqSa','z2XVCMLLDxnLqa','CSoPy2LZAw9Upc8','0lxqT9c+0l/qSngb0l3qSngppa','DhrVBIiGy2XHCW','y2vNBg9YAwv1CW','y29SB3i','AwD1CMvKoIb5BW','nd4kicaGicaGia','zgv2AwnLigLZia','5P+L55Yl5PU05AsA','CYbTyw5XDwfUDa','oc8Ymdi0lteXlq','rcKGyxjLig1HAq','8j+rIsdqKnc60ylqUncY0l3qSngp','lNjLDMvHBa','pc9HpG','B3rLCIb2AweGBa','ihGGug91ChmP','ieTzmta4ig4Nzq','mdGIigrHDgeTCa','ingb0lJqS9c90ldqU9c40lFqSa','vgHLC2uGvgvYBq','0yBqUnc+0lFqVDgl0yuG0l/qUa','0lWG0lRqVTc00lxqUTgb0l7qVa','y2HHDf9IDg5FzG','0laGvMLUDgvKicG','0ldrGTcW0lRqUa','revoq0u','zgLUzZ0Iyxn5BG','mI4G5Ase55cg55UU55Qe','ignVBMzPCM1HDa','CIbtAg90','0lJqT9c80lxqVDc10l0','zcbPBMzVCM1HDa','BcbqywnRiokaKYddIq','0yhrJcdqUnc70lGG0yprGDgc','vMLUDgvKkq','vgfRzsbVzMyGAq','0ldrHTc40y8GvgLPD2u','D3jHChbLCIi+cG','zxn0Aw9UCZOGpa','ief0DgfJA3mGyq','tKjJq28','ALj0vhq','0lRqSnc30l7qSJO','0y8G0l7rGDc90l7qSTcW','572r56Uz5lUf5l2/55sO77YA','icaGicakicaGia','0yhrGTcY0yprJTgj0lJqTsdrGG','8j+rIsboBwfWinc/0l7qTa','DgLUzYbJAxjJDq','DgHLigrLzMvJDa','wwvZlIbjBIbHyW','mZC5lJaW','55Qe5PYa57Ui5A6A5OcN44cc','zZ0Iyxn5BMmIia','BYbLBMXHCMDL','vfpJGihKUkxMOlZNMOqGq1nq','BgK+cIaGicaGia','u2f2Aw5NihLVDq','incW0lRqUTgd0lZrG9c70y/rGG','z2f0zwq6ignOyq','0jlqUTc70y7rH9c40ylqTsdqVW','0yJqUngc0lxrGDgminc90laG','y2fYlG','DxnPBMvZC2vZlG','0ydqSnc90y/rGTgb0y8Gr1u','BgXFCgfNzxm','B3iGt2n0B3b1CW','C2nYB2XSsgvPzW','zg9JDw1LBNrfBa','y3qP','6zEU5OIr5lIa5lIQ6zEU6AkylI4U','DgeGAxmGBMv2zq','iefNCMLJB2XLpW','0l3qVTcY0l7qV9c+0lVqSncZ0la','yvP6Cfi','B3jPz2LU','BgfUAYiGCMvSpq','ndiViIb0yxjNzq','CYbSzsbYzxnWzq','AgvYzsWGzxzLBG','BY1YzwfJAcbHCG','Bc5JB23JGii','CNKGC29VBI4','0ylqTsdrGDc+0lhqU9go0ltqSa','C2LVBIbZzw5ZBW','CIbJDxn0B21LCG','0l3qTsdqU9c20lxrGIdqUca','BguGDg8GDgHLia','5O+q5l6B5A6I5OI35PsV5OYb','5lUL5lIl5PIV572r56Uz55Qe5OMa5PYj6yoO5yIg','B3j0ignSAwvUDa','BgfZCZ0Izgv0yq','4PYfioESRca5ioATPsdIGjqG','ig9UihrOzsbWyq','0lRrGTgd0ldqU9gm0l3qSngpia','0lZrG9c20lxrGDgc0llqVIdqUa','0ylqUngh0lxrGDc60lGSincY','y2HHDf9IDg5Fyq','BMnLiokaLcbhvuLm','DMLUDgvK','Cg9PBNrLCG','nc4G5Ase55cg6icf','0l3qTDgb0ldqVDc60yBqUnc+0l0','suXmrvqGsvyG5zwg','Axn0CW','5lI656gU5l+D572r56Uz6l+q6jcL77Ym5P+q5lQB','CKPrseG','igLUC2nYAxmTDa','mdaWmZiYmJy4na','0lRrGIWG0l/qVTcY0ydqTDc2','y2XVC2vbDxrOtq','vxvjCNe','iJ4XiefSyxjTzq','0ypqTDc80yVqVnc4inc00ldqTG','kc0Tz29SzcK7iG','zwXVCgvKlcbHBG','CMuGCMv1C2vKlG','DgfUDa','x2L0zw1Fnf9Imq','inc40l3rHnc+0ydqVncW0yBqUa','zwmGDw5LignSyq','0lKG0l/qVTc00yhqSTc10ylqUG','DgHLihn0CMvUzW','0lxqVDgc0l7qVc4','BgLJEsbIBg9JAW','5lYy5OoG44cc','BIb0ExbLpsjIDq','4PQu77IpieDvsuXmrvqG','w2rHDgeTDg9NzW','yxjYyw50Eq','0ylrJcdqTnga0l7qVq','0yhrJYdrGsdqV9ga0l7qTncW','ingbifbjuI3qTncW0yi','AxnL','0jZqVTga0ldqU9gm0l3rI9c5ia','yM90Dg9ToJvWEa','l2e+lcdqSTc+0lFqSTga','0jtqSnc90l3rI9c1lcdqVDc1','Exnur2q','yxv0B21HDgLJia','CgfJA19Zzwn1xW','igfYAweTy29UDa','mY4G0jJqVDgc0lxqU9c70lu','zxjYB3i','8j+rIsdqKnc90ldqU9c40lFrIYa','phn0CM9UzZ7PMPdOL48','B250CM9SlG','CYbPBMzVCYbZBW','0ldqTnc10ydqTTc60lGG0lJqUW','y2HPBgrYzw4','Aw50CNvZAw9UCW','vgHLigXPz2H0ia','yw5KihbPCgvZ','CeLbvfy','rerVuYbWCM90zq','5PYQ5Qoa5Rwl5yIW5lU75l2v5y2X6zMP5ywd57sG','0l7rGTc+0yhqVDc40lZqUTc4','BYbKyw5NzxiU','0ylqUTc4lcdrGDc+0lFqTncW','zwq6ie1LDhjVCa','yxbWzwXLCG','D2TmvNm','yxjYyw50AwvZpW','ihvUChjVDgvJDa','mxb4ihnVBgLKia','8j+vS++4JYbdzwXSyxi','B3zLBwvUDcdcTYa','0yhrGTgm','Ag5Py2fSignVBW','mteUioAZLEw+I+wpGUIaG+wsJoAkLq','svruid4GocdqTnc9','wxHmAe4','44cb6ycc5B2t55Qe5OQa5PYV5l+D5OQK5lUL5y+k','phn0CM9UzZ7qVDc1','0l/rGnc+0lhqU9c10lZrIYW','zxHWB3nLCYb5BW','idrWEdSGyM9Yza','DMfPBgfIBguGzG','C3rPBMC','tM8Gzgf0ysbPCW','zhbVAw50CYbHCG','B24GywDHAw5ZDa','yMuGyMfJAYb2zq','C3nPyMXLignVBq','BIWGDhjHBNnMBW','5yY56ywn55Qe5lQN5zob','As1IB3qGC3LZDa','qKf2Afu','CYbVzIbtywXLia','w0zsxsdINiOGuM9J','0ydqVTgn0l3qTDga0lpqUngolG','zgvZigrLigX1Bq','57UT5P2H5QY+pc9HpU+8JowUOUAiTW','ihbLCNnVBM5LCW','0ytqVTga0lZqSngg0lJrJI4','yxbYB3bVCW','ug9ZzxOTBw9Pia','8j+rIsdMRApLUlJNMOtMIOdMNk/LK43LUPtJGii','6l+E5O6L6AUy5RIf5Pge5yop5As044cc','0yhrI9cY0ldqTDgcinc80lxrGG','CM9Tig5VDgLMAq','0l3rI9c80lGU','lcb0AguGCMvMDq','iNbYB2PFDxnLxW','5PkE5yE744cb5RAY5l2t44cb55Ap5B+9','BMfSExnLCYbJyq','CSoPy2vWDgLVBI4','4PYOiowUOUAiT+s9NowtGq','Dw1ZDgfUy2vZ','0yhrI9c70lRrGZ8','qvz6A0S','ywjSzsbSyxC','Dg8Gphn0CM9UzW','igf1DgGUANmU','nc4G6k6I5y2v','0lRqVTgc0l7rGnc+0lKG0ltqTq','zgrLBIbWywDLla','DMuGzgf0ysbPCW','0l/qVDglingbidK6mda','0l3qVDcW0y8G0l/qVTgh0ylqSa','0ltrG9gf0l7qSTc+0ltqVTcYla','iezYzw5JAcbqzq','Dgv1CIbKzsbTBW','0l3qVTgb0ylqUcdqT9cWingd','CMnLlcbUBYbOAq','EhbSB2L0ihrLyW','qwzxAva','0yVrGDgc0ydrG9goinga0lxqSa','lIdqNDcW0yhrGTc+0y/rIDc4','icHuyxbVicSGuW','0ymSingd0lRqSnc30ldqVDc9','0yhrGTcY0ldqVnc4lG','zxzLCNK','EMfvzhi','zv9KzxrHAwXFna','v2fSA2vY','CgLJAw91CYbIzq','inc30ldqVnc10ylqUTc1inc4','B3j0ywjSzsbZBa','5lU25y+r6ycb44cc','8j+BKIbcB3v0Axf1zq','mJyG5BM044cc','y29YzgfUy2uGDW','8j+BOE+4JYdPKOJLR7NMLlVLH7VNMOtPQ5JNUQFKV50','6lsM5OI344cb6k6I6zIf5PYn5yQH5OIw5zYOia','CxvLCNLtzwXLyW','0lWGmtaG0lZqTDgc0ydqVG','Aw9Uig9MigeGBq','mtaUioIbLoEZU+AwUEw8JW','0lJrH9c40lGU','z2flzhLRuuvToa','BMC+icG4oEkcRcKU','mI3qU9c10ylqVDc10lKG0lC','B2r1AxrZ','Dw5KzwzPBMvK','AxrLidO','Bcb3B3jRihrOzq','icaGicaGpgrPDG','ufiP','B3jPz2LUlxDOzq','shnJEuS','0lJqTsaXmcdqU9c10yiG','8j+AMIdPHy3PGie','0l7qVTgc0llqTDgc0yhrGTcY0ym','zgvZ','566H6l6w5P2d44cc','suXmrvqGsvyG5O+q','BgLUzsi+rg9TAq','0lJqU9c4inc/0ydqTDc00yVqTa','cIaGicaGidWVza','B3jKCYbVCIbIzq','CNLdB0C','igL0igLZigeGDG','0lJrJYdqUnc90ytqVTga0lZqSa','vM9PCIbWBhvZpa','ndGG5Bcp5PE25yAf5zUE5Asn44cc','ihzLBNrPBgf0Aq','rMXewwe','ioAyR+s4GowUTUs8GEs4MUwsJowiM+s4MUElRa','CM9UzZ4Giq','iIbHBhq9iKrYBW','0l3qUngg0yS','AxzPzhvHBhmGyq','B3rLy3rPB25ZlG','w0zsxsdIMQeGsxnZ','z8oPzs4','0ltqTDc70lJqU9c40yhrJcdqUG','z2LUignYzwrLBG','vvbpCgu','0ylrJcdqV9ga0lJqVnc10l3qUa','zsbOywjPDgf0Aq','Aw50zwqG0lJqU9c4ia','8j+tHcbqCML2ywn5','W6LWDwLZW6K','ywnJB3jKyw5Jzq','DhKTAgvHzgvYCW','0khqVTga0lJqTDc90ylqUnga0ym','BNnWzwn0Aw9U','8j+KNsbqyxjYywLUyq','tevuieLwpW','4PYOioASOUI/JUADPEwiScbhvuK','DsiGzgf0ys1Pmq','8j+NOcdMHi/OR4y','C3rYAxbLlMnVBq','y29UC2vUDcaOBG','yw4GB2zMzw5Zzq','y3bKzfe','y2vZpc9SAt4kia','0l7qUsdqVDcW0llqUncZ0ldrHG','inc00lVrJYdrGDc10lhrJYa','0l3qUnc10lW7','v2vSy29TzsbIBW','uLmP','qNrU','5PIV5y2w5A6255Qe6zsz6k+V44cc','pMvJB25VBwLLlG','6ycc5zci5lIQ5lQ65zkm5Bcp5z6l5lYb5lIA44cc','DgLMAwnHDgLVBG','zt0IB3bHy2L0Eq','s0fessaViejPCW','B29Wzw5LCIi+qW','yxbWzw5K','0yprIDc10yhrGTcY0laG0l/rGa','DgfJDgLXDwuGDq','zsbUB3jTywWSia','5PYjide0iowKQEEAHoAxTUMxToIMGq','zvvhv1a','0lJrGngd0lNrGTc10yhrJcdqVq','0jRqVTc80l/qSnc90lJrJYdcTW','0ytqSnc50lVrIYbJB29R','qNj3AuG','idXZDhjVBMC+0le','u2L0zsbKB2vZBG','CMD5','0j/qVTgb0lZqVTgc0ydqTDgc0yW','ifnOB3aGzguGta','iJ5wAw50zwq8lW','Dg9W','cIaGicaGicaGcG','phn0CM9UzZ5mzq','5y+r6ycb5RAi5OgV','0j/rGnc+0llqTDga0lxqVDc90yS','5lIQ6AUy5BQM5A6j5ywO44cb5y+V6z2G5lIu5y+x','wSoPCM8GzMfJDhu','0yVqTsdqTncW0l3qVDgl0luG','572r56Uz5y+x55Uk5lQoifzLCMm','CM1HDgLVBG','8j+oKYdMOkhLM63PQPRMIBa','Cg9ZDgfSigfKza','8j+pPIdLVidORR7MIjhNMOqGqM91','inc90lxqTnc+0yhrGTcW0ylqUG','zsbZExn0zw0Uia','0lJqSnc70yZqVDc+0yhrGTc4ia','qwrYzxnZzsbLBq','x2zLyxrFnci+qW','0lVqUnc10l3rGIWG0lFqSca','lvnLyxnVBIbnDq','5PEG6zYa55s15yQB5y2Z5y+V5BEL5l2C','0j7qSDgb0lVrG9c20lJqSTcW0lu','0l7rH9c40yuG0ltqVDc10lKU','vIdIGjqG0j7rGnc00lxqVsa','Dg9mB2nHBgvmBW','lMzYl2nVzgvZlW','z2v0sxrLBq','5lIa5l2t5BYp6Aoo5BI9','tNvTyMvYrM9YBq','0l/qVTc70l3qVTc1ingi0lJrHa','vuLmtevuieLw','ihzVDhjLignVBq','CNmU','z2v0rwXLBwvUDa','B24SihnLy3vYAq','5Qc55O2UieDeuflVViZMGQJMI6u','CMvJB3zLCNKGBW','vhjVAxmGBML2zq','0lGG0llqVTgb0l/qVTc70yZqTW','u0iSignVBxbHDa','y2XLx2XJl0XfrW','ncbKyxrHlwKXoa','5P+L55Yl6yoO5yIg','kdiXmcddLYa3nsa','0y4G0ktrGncW0l3rHTc40y4G','y2HPzxzLBwvUDa','whPbuKm','5lUS55Qe6AAw6kAb5lU75yQH44cc5PYS5Ps/562w','5lIn5A2y5zYO5lU75l2v57Y66zM3','ysdIGjmGuSoPDM9SDq','CSoPidqSmYbWB3u','z3vPBgXLDf9TBW','0j7rGTc/0ydqSncY0lJrGTgmia','zJ0IAhr0Chm6lW','r0rquIK','zsbUyxzPz2f0Aq','B3v2lMzYl21Lza','t05prKyGkhbVCG','uMfNzsaOtw9UzG','DxiGCgf0Ac4Gra','4OkSiokaOIbfBMrVC2m','0ylrJcdqTnc+0yhrGTgd0l8S','CMf0B3jZlG','Aw4Gy2XLyxiGyq','0yJqVDgl0lKG0yhqVTgo0lFqVq','rvjTtMS','0lJqUsdqSnc60lRrG9c80ypqUW','ignTktWVAdq+cG','cIaGicaGicaGia','qxbWBguGugf5ia','0j/rGnc+0ltrG9c60yiG0l/qVG','BNmG0lGG0yiU0lqUkq','0khqUTc70ldqTnc90l7qUsWG','mtqG5AsP5yAf6l+B6kgm77Ym5PYa6l+F','0l7qS9c00laG0l3qTsdrHDga','0jlrI9gb0l7qUTc+0ylqVTgh0l0','Bcb2zxjPzMLJyq','CIbSzsbWyw5Uzq','mtiUioI0O+s7UW','DxnLqgDTywLSlG','Bg9JA2vKientua','zsbJDxn0B21LCG','pgG0igrHDgeTAq','0lJrGncW0y7rGTgb0y8Sinc/','pgrPDIbJBgfZCW','zgvZyYi+rgvZyW','8j+CHcdLIjVPGka','rvHry2u','C3m9iM1VCMuIia','DgL0BguGkhrLEa','0lhqVDc+0lpqVIdqT9cW0llqTq','CgHVDg9ZlwnSzq','zxvYCYbLDcbWAq','uenjlurtuYdLKiJOP4q','vg9Nz2XLigXPzW','zwfZoIbKDwn0CW','5yop57sG5Pge5yop5As044cb5y+V6lcdieW','C2uGEw91CIbYAq','mhWYFdv8m3W0Fa','BMvSBgu','0luG0yFqTDga0lxqTYdqSTgb','0jlqVTc30llrGncW0ylrIYdqTa','zsWGAwyGDgHLia','ingd0yxrG9c00yJqTDc90lJqTq','igLUDM9Py2vKia','Chm6lY93D3CUBa','zgf0ys1Zzwn0Aq','8j+oRcdOP4BPOPe','ywLSxZmIpK1VDa','5O6Q5PA944cc','Dg8GCMvMDxnLia','q3ldQwrPDcbbz3i','0yhqSnc50ylqScdqUcdqVTcX','6k+T5OIw6kgm5lI677Ym5A+86iE06lQR5B+d5ygL','0llqVTc5ingb0yFqTDgciei','0lZqUcdqSDgd0ltrG9gcinge','0jRqSnc60l7qTsdqSTga0lxqVa','vgflvvK','55Qe5A6j5ywO5OMy566H','DxjPC2u8l2G0pG','0ldqVDc40yy','0liG0lGG0ylrGngd0le','Awe6igXHBMnLzW','AwXxBNe','CmoPCMf0DxjLihi','0jiG0l/rGnc+0ylqUncY0l3qVG','rgvSAxzLCNKGAq','Ew91CIbZDwjZyW','iokcRdWVBgK+','0jlrGDgc0ydqVTc10l3qVDcW0y8','icaGicaGidWVDq','incZ0ldrGncW0l3rGTc40y8G','D2fYBG','B3vZlcb3zwXSlq','yxmGzw5JB3jLia','y291Da','oc4Gu2vJDxjPDa','zuj0BG','Bw90zxvY','inc40l3qTTc10l3qTDga0lJrJW','6lcO5zkm5z2A5A6E44cc','AxrOihrOzsbJyq','A0jhB0C','0ylqSTc10ylrGDgc0llqTDc90l0','0jiG0lFqSncY0lJrGDc40lZqVG','iM5VBMuIihbSyq','DxjHDgLVBIbPCW','0yZqUTc+inc70lJrH9c90l4G','AhjLzJ0IAhr0Ca','Awq9iMrLDgfPBa','0j3qTDgb0ldqVDc60yBqUnc+0l0','CYb3AwXSigjLia','sgvYzsbHCMuGyq','0lVrJnc90yVrHsdqTncW0l3qVq','0ldqVDc+0lZqSnc70lJqUsWG','AwX0BZPSyw5Jzq','inga0ldqT9c00lxqUW','6zIZ5y+W77Yj','v2HHDcbHCMuGDa','zsbPBw1LzgLHDa','5lQg5y+V55sO5OcN44cc','rw1HAwWGoIa','ica8l29SpGOGia','lMHLCM8TC2XPza','mhb4oYbIB3jKzq','rKyGC3vYihbVCG','uxvxwgq','DMfYkc0TCMvKkq','zxmGyxjLihvZzq','BwvYy2uSihvUia','0lGUincs0yhqTsdrG9c20lu','0lRrGncW0yhqVTgc0laG4Ocuia','0lRqUnc5inc+0l/rI9gclG','ios4IUwfS+AZQoAiKEs7Ra','zsbJyxzLig91ia','AwnSzv9SyY9mrq','lYbhB29NBguGua','BMCSigj1AwXKAq','igeGCgHVDg8GDa','yw5KihnHBMn0Aq','zguGC3rVy2S','CIbWyxnZD29Yza','ysdIGjmGqxv0B3bZ','ihrOzsbWDxjJAa','q29UDgfJDcb0Aa','5l+D5OQK5OkO55Qe5lIQ5lQ65PwW5O2U5PIV5OIr','lwKXog49iMvUza','otKUotK','t3jPzw50ihrOzq','DxjZB3jHBweSia','Dg8Gr1vjteXfva','zgLYzwn0zwqGDa','0ldqVDc40lZqSnc10yiG0liG','5P2H5y+k5zco57UT5P2H5QY+6kEe5A6A44cc','zxiGC2vSzwn0CW','yxjHC3m','0ldqVDgc0lGT0lhqVTgcinc3','ChbLzcb3AxrOia','DhjPCguU','C2fYEsbMB3iGAq','0lJqSTc90yS','z2fUAxPHDgLVBG','0ldrGngd0lBqTDc90l4U','0jlqSngi0luG0yhqVTc+0lhrIq','zcdMIjyGu3rYAxbL','Ahrozem','0lRqU9go0yFqSnc10ylrGDgpia','inc60l7qVDge0lJqTnc10l3rHG','icaGicaGE3Ttva','zMzHBNrZlJWVCa','Bwf0y2G','yNvZAw5LC3mSia','ChjVzhvJDc10Aq','0ytqVTga0lZqSngg0lJqUa','CYbZDwjQzwn0ia','BIbVCgvUAw5Nia','mtLct1PYEMu','y2fYzhmGBMv2zq','v1zlvey','0lFqSTga0ldrGTc1ingb0ydqTq','AgvJA3bVAw50lG','icaGica8yNv0Da','l3D3DY5Ly29UBW','5Rov5A6A5l+D6k+b5PYj5zoQ5lQB77YF','Ahr0Chm6lY9HCa','5RIf6zMK5PcC57sI','0j/qVTc70lJrGTc40lRqScdqSq','vM9Py2KGDg91Da','mY4G5Rov5B6l5l6D5O2U','5y+V5OQy5y+G5OIq6kkR5A2qic8G5Q+V','igfUzcbUzxzLCG','zcb3AxrOig15ia','0j3qVTc80lxrGcdqVTgc0yhqUW','DM9SDw1Ly2HHBG','og49iMrYB25LxW','D1nNuxy','B3iGChjVB2yGBW','8j+oKYbty2HVB2WGAa','mtaUienVBNrHyW','0ldqUDgc0lxrGDgminc90laG','tgDowxa','CYWGyw5KigeGCG','ig1HDgnOzxmGDa','4OctifvtqIdLIQdNG63KUjpNLkG','0yhrGTgp0yuG0lhqTDc30l7qVW','0lJrJYWG0l/rGncW0llqUnc7','0yhrJcdqUIdrGDc+0l7qSDgj','0ylqUnga0l7qSTcW0l3qUnc1ia','sg9TzsbPBxbYBW','BhnwEwe','yM91CNnVCMfTyq','AwDUzwqSigrLDG','6zIY6iYd57Ut5zci5lQg6lcO5Owo55Qe5lMG5OoV','0lFrG9gp0yhrJcdqV9ga0lJqSG','uLrjmdaWmdmYmG','0yWG0lhrG9c00lxrGIdqV9ga','0l3qUnc1','0lRrGTc+0liSinc/0ydqTDc0','5yET5ycF5yw25y+m6AUy5RIf5Pge5yop5As044cb','zxiTBgvMDdOGmW','igfJy291BNq','0lxqUTgc0lJqSTc90yVqUsdrHq','BIbHDxrVBwf0zq','ns4Gq29VA2LLCW','DgvJDgLVBIbHBG','zgf0ys1PmtHUpq','zsbLBgvTzw50CW','C3bHBJ4kicaGia','ievUzxjNEsb3Aq','DxmGrw5LCMD5','0ylqVTc5ifzLCMnLBa','0l7rH9gc0ySU','0khqSTgp0lBqUngc0lxrGDgmia','AKzxrvG','lwDVBgqP','4Q2qincE0ylqT9gl0llrIYdqUG','EsbdAgvJA3bVAq','AxrZlJWVCd4kia','0l7rGTc60ydrI9gc0lJrJYbt','DcbVzIbHihbHEq','0l7qSTc+0ltqUTcW','y2HHDf9IDg5FyG','qMvHDxr5iokaLcbt','y2vZC2LUzYbVDq','0l7rJ9gc0lxqU9gm0yhrGTcY0la','BMfSExnLCYbZAa','0lRqVTgc0l7rGngl0lKG0lFqSa','B3bLBG','pgnVzgu+C2fTzq','BMzViJ4kicaGia','0jlrI9gb0l7qUTc+0yhqUTc+0ya','ALzTt3u','zg9Zy29Wzsb3Aq','0yhqUTc4inc4inc60l7qVnc/','0l7qVDcW0lVrJnc90yVrHsdqTa','ihnLCNzPy2uU','C3vWzxi','igHLBgqGBgLHyG','BMXLC3mGChjVBW','Dg9TzxiGC3vWCa','rM50ELi','s319cIaGicaGia','incX0lxrGDc60l7qU9c70lxqUG','0l7qUngb0lO','0ktqUngi0lJqVDcZiokaLcdrJq','Aw5Hz2uGoIbSzq','4PQw77IpioESRca2ioATPsdIGjqG','5l2G5OMl5lIT','0lRqVTc90ytqUnc00lxqVDgg0lG','zZ5Myxn0igfUza','rgvgD0O','qKDAugK','C3jJpsjWCM9KDq','Aw5Nig9YzgvYCW','z2fPBNn0ihbHCW','0yhqVTc+0ylqSTc10ylrGDgc0li','0l/rGnc10ltqVTgb0ylqSncY0lS','incYinc30ldqSTc40yhqUnc8','uhjVzhvPDa','CY4GvgHPCYbZAq','0ylqSTc10l3qVDc+0luG0l/rGa','CMvHzhKGy29UzG','EwXLpsjJB2XVCG','55Qe5lIn5zcm77Ym5y+r6lsN5zco5BMZ5z2h6zYa','5OMa5PYj5lQK5PIt5z2h6ycA6l+hifzP','5OQK5OI/5Bgl44cb5ywS5A+t44cb5lYb5lIA44cb','mtmUiowUOUAiT+ACJEwkOq','BgLJEEoaGvGTq29U','0ldrGTgmincYidXZDhi','t05prKyUifbYBW','0lRqUcdqTnc+0yhrGTcW0llqUG','icaGicaGcIaGia','zIbPDhmGC2HPCa','B2yGCgvVCgXLia','y29UDgfPBNm','55s144cb5AsC6zE05PEf6kgm44cb5Rg96l2M44cc','yxrHlxPVB20+cG','keHuvfbtic8Gva','0ylrJcdrHTc10l3rIYdqSIa','Bcb2B3vZig9MzG','DxzLBwvUDcbqsq','0ym6igXHBMnLz2W','BwvUDcbLBIbJBW','psjODhrWCZOVlW','5A6I5OI36ycj5OUP5lUw5lUS5BIm5PYB6lsT5lMW','0ylrGDgc0llqUnc4ingbinc/','8j+tNIbxzsbHCMuGyq','B208l2e+','CMvMzxjYywWGBa','zMvYBwvYwM9VBq','5PYj5lUL5lIl5P2d5yIP77YA','tMzREha','DMvYEq','zwXZlG','incW0llrGTc+0l3qVTc80lJrJG','nc4ZlwLUy2GGAq','0l7rJ9gc0lxqU9gm0yhrGTcY0l4','AwjPBgL0Eq','0lGG0lhqTDc30l7qV9cW0yhqVq','rgf0ysbqCM90zq','0jhqSnc30l7qSTc+0luG0l3qSa','BwvUDq','DgfPBhmTzw5KBW','zgDLiIbKyxrHlq','6Ag754M55yIR5A6E5PA96ycc5B2t55Qe5A6j5ywO','ChjVzMLSzu1Vza','8j+sHsdNVO7NLllKUi7NVO7LRRK','zsbhrfbsig9Yia','Dg9Nz2XLugXHEq','z2fUAxPLzcbNCG','CMvWB25ZzuTLEq','CgfUAwvYq291BG','mJa5nMHoExDfzW','BIb0BYbivfrquW','0lRrG9c/0lJrGTgmlcdqV9c+','5l+D5OQK55Qe572r56Uz44cc','0ytqUnc60ldrHTc40y4G0l/rGa','8j+AQcbszxbVCNqGBW','q3vYBcdKU4xMMl7NPlRVVjRKV50','inc00ldqVDc90yVrHsaOrW','8j+BOE+4JYdqK9cW0ydqSnc90ylqUnc4','8j+pM++4JYbpCgvUig15ia','0ylqVTga0l3qVI4G0jGG0li','inc/0ydqVTc20lxqUTgc0l7rGa','ChjVB2yGy2vYDa','y2XVC2vZDa','vMzJBvC','8j+BOE+4JYaXmdaLincX0lxqTW','8j+oPsa8C3rYB25NpG','t1vora','55s16ls55lQR5y+x5QYI6l+o5lYy5OoG','4PQG77IpierVig5VDcbZ','igLUignHC2uGBW','DgLVBNmGB2yGDa','ingb0l/rGnc+0lxqUTgc0lJrGa','5Rov77Ym5PYS6lQR5BM25lIn5P6e5OIq54QV572Q','lw1VCMfS','DcbZCgfJzxmU','0l7qU9cZ0l7qSTc10yFqVDgl0lK','0j7qSDc10lFqVTc/0ldrGDc40yi','yxr0CMLIDxrHyG','ihnVBwjYzxm8lW','AwXFnsi+rhjVBG','DgLSxZmIpLn1CG','z291DI5MCI9JBW','os4G5QYN55UF5lUL5Asw55Qe5lYG6l6t','sg93ihrVihrYyq','ignVBMnLCM4GAa','zxiGzg9LCYbUBW','0y7rGIdqV9c+0yhrGTc+0y/qVq','CMfTyq','zxKGy2fUihjLDG','5OIw5y+V55sO5OM/6l+q5lQ65O+q5l6B55Qe6ycj','CgfYC2u','EsbHBMqGCg93zq','0j3qSncX0lVrJTc00ldqUDgc0lu','C3rVy2SUlI48lW','0l3qVTc5ingb0yhrI9c70lRqTq','AwfIBguGzw4GyW','l0Xfr0LbuLrjma','zwzLCNjHBa','0ylqSnc70yZqVDcW0y8G0ktrGa','zxvYigLUyxr0zq','pc91Bd4kicaGia','wMvQALy','ChjVzMLSzu5VBq','W4Ltsuu','BMfSienVzguGka','B3vYihbSywnLla','0l/qVTc0inc60lVrJTghiokaLa','0l7qV9cW0yhqVDgl0luG0l/qUW','0lRqSnc20ltrI9c5inc80l7qTG','0lRqVTcY0ldqVDc90l7qS9c+ia','5l2/55sO5OIr55Qe6yka6k+36zo+5O6L5zYOia','Ag9Zzw4GzM9Yia','zgvSzxrPB24','icyGy3vYBcK','ysdIGjmGtgv0AgfS','qgDTywLSlMnVBq','0l3qSngpinc40ltqTDc90ylqUa','0lRqUnc8inc60ldqSDc10lVqTq','ruqG54wN5PIo5zkmieLqnG','6k6P5AsQ6zIZ6io955s15RgG5P2/5ywf55s1','AxrOidXHigHYzq','sg93igrVzxmGCa','sw4GD2HHDcbJyq','zsbIB251C2vZiq','8j+rKsbdCMvHDguGEq','0l7qVnc/0ydqVTc80lxrGTc40ya','rMLUywXPEMuGEq','DhjVBcbPBIbKyq','8j+pGsdMGlVKVzpNU5pORRO','Ag9UzsWGBM8GzW','ica8CcbJBgfZCW','AxrSzxnZotuPia','D2LYAvm','0yVrGTgmingf0ldrGncW0lRrGG','txKGCMvMzxjYyq','qw4GB3jKzxiGyW','B3a6idHWEdSGCa','mc4Ymc40nY40oq','CMvKAxjLy3rPBW','B250zw50icH0zq','0lGG0lFqSnc60ldqT9c+0liG','0lxrGDc60lJqUsdqTnc+0yhrGG','0l7rGDgc0lGSinga0ldqT9ga','8j+xGU+4JYbtDgvWidGG4Ocu','lwrLDgfPBhmGyq','z2vZ','w0zsxsdWN5s3ifbVBa','6lsF6lsJ44cc','CY4UlG','ihz1zsbWCMLUyW','8j+rLsbkB2LUifzPBG','0jlqT9c70lxrGTcW0lNrGTc1ia','wfvuEui','6l+B6kgmifbdss1eu1m','5OcN6lsO77Ym5Q+p5lIQ5y+c5lIo6icf6yo95y+V','6igu57o75A6I5OI35PYn5yQH5BM25O+q5l6B77YA','B3bHy2L0Eq','inc00lJqSncZ0l3qVTgb0ylqUa','B24SihnLy3vYzq','DgLJzsaMifnLyW','lM5HDI1SAw5R','0lFrGDc60l7qS9c+incJ0lpqVG','icaGidXSAsbKyq','sg93ihrVig1HAW','D2L0AcboBwfWia','Aw9Ukq','mY4G0j/rGncW0llqVTcY0la','AuvAvdLjserjra','icaGica','lNbYzxzLBNrPBW','vgHLihnLBgXLCG','0l3qTDc30ldqSTc40yhqUnc80l4','uhjVAMvJDgv1CG','AxnPB24Gy2HPCG','C2mIpKXHBxbLia','5PYQ5l2/55sO5BM/5zgkienVB2S','0lVqSncZ0ldqTDc80yVrHsdqSG','zhvJDc1JyxjKiG','whj1u0K','5zUG6k+V55sO6ycG5OIq55Qe5O2F5z2p77YB','zMLSBwvY','0l3qVDgl0lKGueLslDc0','C2vHCMnOu3vNzW','AxmGzNjLzsbHBG','0l3qUnc60ldqUTc40yuG0l3qTq','0ylqSdWVC3rYB25N','0yVqSTcW0y7rIDc10lKG0ltqTq','CgfYzw50rwXLBq','CgXHEq','icaGphaGy2XHCW','yM9KEq','6yEn5PAW6l6t5ywL44cc6icm5lIu5OkO5y+V5lUL','DxmGAw5ZDgfSBa','0jxrGDc70lGG0llrIYdqUngb','0lNqU9glignVB2TPzq','CNjxyKm','B2XHAxjLiIbKyq','yuLQz20','8j+AQcdLM6lKVjNKVzZMOyG','6kkl77Ym6z2E5BI46ycc5zci6zYY6jcL5zkm57sN','5y+Q6zYa5yEG5yIg6zkF','ywLUDgvUyw5Jzq','DgvYBMf0Aw9Uyq','svyG5zwg5BQx','ywXPDgu','sfruufmGlYbuta','6k6I5y2v5l+H5OgV','rKLmvevsx1jfsG','6lcI5OkO55Qe6icq5B+d','Aw50zwDYyxrLza','iezqvIbZy3jLzq','DZOGzNjHDwr1Ba','C2v0qxr0CMLIDq','0l/qVDgl0yuG0l7rGTgp0lprHW','oc4G6yca6lsN5lIo6yca5QY+','5P6b55Qe44cb5lIL5Qc855Qe77Ym5BM25lIu5A+5','C2vJDxjLlcbYzq','DMfSAg0','0j7rGnc00lxqVsdqNDc10lFqSa','0yJqVTc6lcdqUnc00lxqSnc7','0lhqVDcW0ydrG9c20lxqVDc40lu','WQKGmJaYnIbhvuK','0l3rGTc4lDcX0l7rGIdrGDc4','AxldQg5LicSGDmoP','zwW9iM5VB3bLBG','B206nxb4oYi+uW','icaGicaGica8Ba','C2vHCMnOuMvZDq','0lxqVTc00l7qU9c10l3qUnc1ia','rLiVvfHulZ91CG','yxr0zxjPzsbfEa','y29TyMLLBG','BNrLza','yxrLza','zMLJyxrPB24Gsq','6BUr5A6I5BcD6k+v','Dw5HBwKGmG','0jdrG9c00lJrGIWG0ylqTDgb','0ldrJTgj0lJqVnc4inc+0lhrGq','DNHKrKS','ChjVzhvPDc1WCG','0lhrGncW0lhqVTgc0lRqScdqVW','yw4GB3jKzxiGAq','Dc9WBgfPBIK','0l/rGnc+0lJrGDgf0l7qTnc40yi','0lKG0yhqSTc10ylqVTc00lJqVG','0lhqTDgb0l/qU9cW0ylqVDc+ia','y2HHDe91DMvYDa','ignVBMzPCM0GyW','BM8Gy2fTzxjHla','CZOVl3D3DY5Szq','BI1ZDw1Tyxj5ia','8j+sUYbtDgvWidmG4Ocu','uwfWCuO','0llrG9goinc+0yFqTDga0lxqTa','Axr5igzSyxDZia','0kFrGTc+inc00lxqU9cW0ylrJa','phn0CM9UzZ5fBq','Dxr1CMLZDgLJia','zsbKzxmGChjVzG','y29UDgfJDa','ieLqnJGGD2f0zq','0ldrGDcW0y7rIDc40lZrGDgpia','0yhqUTc+0lpqVIdqUTc+0ltqTq','0l7qU9gm0lFqVTcY0ldrGTc10lS','Cgf5BwvUDc1IDa','w0fvveHDievYCG','Aw9Uig9MihrOzq','0ydrI9c5inga0ldrGDc60ydrIW','zMLSzq','0jlqVIdqPnga0ldqVDgg0lJqUa','DxrLzcWGzxzLBG','y2fIBguSidiUma','0yhrJZ8','0ldqVDc90yVqUsdqTnc70y8G','BwvYy2K','6zMq5PE25l+d6zsa','0ltqTDc60yhqScaOtmoPzW','z2vUDguGkeLbkq','C2vLx21VCMuIpG','yxv0AevTywLS','BgWGyw5KignVBq','qvbyCK8','CYb0BYbWyxLTzq','vgHLieTzmta4ia','8j+rIsdqNDc+0ydqVncW0lVrJnc9','0y4UincF0l7rGDgc0ydqVTc5','0luG0ytqSnc50lVrIYbJBW','s29jueq','B3iGC3rHDguGyG','qJWVAdq+cIaGia','BMC+uhjVAMvJDa','0ldqVcdqVDc40yFqTDcZ0l4G','0l3qTDc+0lhrI9gh0l3rI9c1ia','BgvNAwzYyw5Jzq','Dw5LihpdQwn1CMK','8j+BSo+4JYbtDwjZy3jPyG','0klrGnc4inga0lxqS9gd0lVqUa','0ldrJTgc0yhrJYWG0l3qTsa','CgfYCMfPBMfNzq','B24Gy29TChrLlG','4PQw77IpincF0ydqSncY0l7qSTcW0y8','ihDLBgnVBwuGyG','tuvovf9ot1rFrG','nc4G0j7qSDga0ldqSDc+0yi','0lxqVcdrGDcW0lNrGTcWinc4','igjSyw5Rzxq','suDxDw8','zgLZywjSzwq','zgf0ysWGr0rquG','vgHHBMSGEw91ia','zMLYBxmGysbJBW','zgL0iefNCMLJBW','0lJrH9c10yhqUTc40luG0yprJW','BIbKzxnPz24','zMLSDgvY','5OQa5PYV5PU05PAW','CZWVyNv0Dg9UpG','z2vYlcbJB21Wyq','q3jVC3mTt3jPzW','77Ym5BIM5y+V6lcdieXfrcdNHAC','ig9YzgvY','8j+qMsdqN9ga0lJrGDc+0lxqTnc4','BgrYzw4','EfDAsMm','5lIn5l+D55wz6zo26kgm5PwW5O2U','ihnHBwuGzxn0yq','CYaH','C3rVy2STyMfKzW','u1aP','0j/qVTga0y/qTnc+0lOSingb','icaGicaGicaGia','0l7rHnc10yhrGDc40l7qVDcW0lS','og49iNbHy2TFAq','Aw5RCYbHCMuGBW','igLUC3rHBgXHDa','BgLNzw5Jzq','DhKP','0lRrGDcWpc9HpIdrGYa','sevprNa','77Ym5zcM5yIzieDvsuXmrq','0l7qS9c+inc60l7qTnc10lRrGq','0yJqSnc10yiG0ylqVTc70yZqUG','ywn0Aw9U','CMvZCY4GvgHLia','BJ0ICgfJA19Zzq','y2HHBMDLCK11CW','0yhrGnc10ltrGDgc0li','0lGG0lhqTDc3inc+0lhrJ9c3','icaGica8l2rPDG','4OcIioAkLEw9SEs7QU+8MJm14OkSia','CgvUzxiIpKnVBG','iM1VCMuIigrHDa','BMSIihjLBd0IBG','5RYp5RsE5OIw5y+V55Ar6kgm5lI677Ym6k+3pa','AxjJDw1ZDgfUyW','ifGTvMvYy2vSlq','0lxqVDcW0y8Sinc/0ydqVTgb','0lJrH9c40y8U','0lJrJYdqUTc70lJqTDc90ylqVG','inc6inc/0l7rGTga0lxqSDc4','y2SGDwX0Aw1Lia','vwX0CMeTyNjPzW','4PYfienVBM5LEgLV','igj1DcbIDwLSza','iemNzxn0ihbYW6O','yxaG0lGGy3vYBca','Aw9UBMvSBgvZpa','zgLLCYbZzwXMlq','zw51','rvnjqq','y2XLCYbmmJe3lq','icHZzwn1CML0Eq','0lhqVTgaincX0lxqT9c+0l/qSa','C3HHB1G','yxjPyq','5lIn5Rs76lEd5A6I5OI35PwW5O2U77YAmYa','Cgf5BwvUDa','8j+rIYbcB25QB3vYia','Aw5JBhvKzxm','0jlrI9cX0ydqSngc0yWG0lZrGW','5zwg5zob5y+r6lsN6l+f6ycF77Ym6ycA5BI45Qc5','lY9LDxiTBgv4lG','igLZigeGy29TCa','5PYj57Y66zM344cb5RkH5PYj5y2X6zMP5ywd57sG','vgHLihnPDguGBq','zsbLyxn5ihrVia','zg9UBMvLCY1Wzq','uhjLDMvUDgLVBG','0l7qTncY0ldqU9cWinc40lVqUa','DM9SDw1L','Aw5KzxHpzG','sw52ywXPzcbSBW','l2e+','AwnVBguGywnJBW','0lVqVDc10yFqVDgl0lKG0yhqSG','CI9JB2rLCY9HCG','q1nqkq','0llqVDc10ltrGngp0ylrJcdrGq','AwL3zwuGzxqGBa','icaGicaGpgXPia','0lxqVcdrGDgc0ydqVTcZ0lJqTq','0lVrJYdqV9c+0lVrG9gh0lxqVq','5lIa5P625PEG5lQ65PY677YA5A6d5PIV5lIa56En','CM9UzZ4WnY44ma','ihnPDguSignLCG','0l3qTDgb0lRqVTc70yZqUTc+ia','BcbSyw1WigzVCG','incZ0ldrGncW0l3rGTc40lGS','5yYf5OUS5yAs5ywf5y+x5l+H5lU755Qe5lQ65OIw','igfUzcb5B3uGza','u3rHDhvZoG','0lJqUc4','0yFqTDc90lJrJYdrGncW0lhqVG','yxDHBcWGD2L0Aa','B3jHBwe','Dd8Grg8GBM90ia','0llqVTga0l7rGTc90yVqVnc4ia','B25ZlcbylunVBG','pMXHBMnLz2XVCG','AwvUihf1Asb0CG','0yhqUnc5inc30laG0l7qSDgb','0l7qSTc10l3qUnc1inc40lVqUa','z3vuDve','BMnLigz1DhvYAq','0laG0lxqS9c+inc+0ylqV9ga','EsbhvuLmtevuia','0l7qSTcW0l0Singa0ldqT9ga','0ldqTTcW0lxrGIdrGTc+0lVrJa','BcWGB3iGDMLYDa','BMLVBI4GvgHLCW','incY0ldrInc10lKG0yprH9c1','B3v2lMzYl2XVza','0jdrG9c00lJrGIdqUcdrGTc1','0ldrGnc+0lVqUa','ysbWCMLVCML0Eq','DgfPBIbWCM92Aq','zcbZy3jLzw4Sia','5lMW5PA55BYp44cc','yxiG4OctifbOW6LUAq','0jVrJTcX0l7qTsdqSTc+0yhqVW','DhjPCguUy29TlW','ksdrGsdqVTgc0lFrI9cY0la','BgfZCZ0IDMLKzq','Bwf0y2HLCW','AxiGisdWN5Mp','ysbKzxnJCMLWDa','0lVrJnc90l7rGDgc0yWG0lGG','pc9HpI4','zcbZzxj2AwnLlG','qxbWCMvUDgK','0l3qTDgb0laSingb0lJqU9gd','seTSsKy','sw4GywnJB3jKyq','thrKzLe','BwfPBc5JB20U','igrPCMvJDdWVBa','4PYu77Ipien1CMWGCMvZ','vfjbtLnmqvrjtW','yNv0Dg9U','mYdqUcdqV9c+0yhqU9c10lq','AxmGy3vYCMvUDa','D214u3m','inge0ydqSnc90yBrG9c30yhqUG','0lVqUnga0yprJTgc0yhrJYdqSW','uvzVyMy','ztOGBgLNAhqP','mcdqVnc10ylrGnc+0li','0jRqSnc6ingb0ltqTDc70ldrGG','D3CUBgvNAwzYyq','DhrWlwvUDw0','8j+sHsdqNDc+0lprGTc4inc4ia','0lxrGIdqSTc10yhrJcdqSTcW','0lJqU9c4inc80ldrGnc60lxrGG','inc/0l7qUngb0lOG0yprJ9c3','CM1LignVBxbSW6G','5PIV55Qe44ccr1vjteXfva','ChjVzhvJDcbTDq','vvncihjLy2HHCG','BMf2AwDHDgvuBW','w0zsxsdWN4YsifnHAW','0jRqSnc6inc40yhqV9c+0lVrJa','EwvY','0yNqTDc80ymU','pGOGicaGica8lW','ufLQvM8','qxjnr00','A19Zzwn1x3DZmq','CNjPzxiU','B2zPBgu6igXPBq','icaGpgGZignSyq','5A6I5OI35B+f6Ag76igu57o75y2w5A625A+75Rgc','DMLLlxbLCNnVBG','0l4G0lGG0lhqTDc30l7qV9cW','veXtideUmYbWCG','0yhqVDc+0yhrGTgm','yxnLig1LDgHVza','0y8G0yhrGTga0l7qS9c+inc3','B25ZihrOyxqGCa','0l/qTDga0lxqVDc+0yhqUnc80l4','8j+oPsbuAguGphn0CG','0l7qSTcW0l3rIZ8','swyGDgHLihzPyW','0l7qU9gm0yJqTq','y3vYAxr5ihn0yq','CYbHCMuGDgHLia','zwDPzNjHBMnLlG','psjqCM9Qzwn0zq','igjLihbYB3nLyW','0lhrGDgc0l7rJ9gc0lxqU9gm0ye','8j+oTsbgB2XSB3CGDq','ywLSigLUDMfSAq','uhjPy2vZigfYzq','pUoaIUA2IoI0UEIaHEAZLEwfUooaI+ESRca','0ydqTDc40lZrG9gj0lxrGDgc0li','8j+sScbeCM9UztOGoa','0llrI9gh0lRqUcdqUcdqUnc9','reTpAu0','zgvZl2fYDgLJBa','8j+tPIdqODc+0yhrGTcW0liG0l0','0llqU9c10yFqTDc9inc6inc+','C3jJ','5P2Hpc9HpU+8JoEBToAoPEMaGoI0PW','DgvZDa','8j+mKsdNNj/LRP7MGkC','0khqSnc50yiG0l/rGnc40lZqTq','0yVrGDc+0ylqScWG0yhqV9c+','5lIk5PIVigXPBwL0Bgu','yxiG4OctienVBKzP','igzVBNqTD2vPzW','yxjPys1LEhbHBG','DxjPC8oPztWVC3q','0l/qVTgc0lxrGnc4inc4ingc','vgHLigXHDYbWDq','uMvTzw1IzxiGDa','0yhrGTgminc30laG0lRqVTgb','Esb0AguGpgeGAa','y2vFAwq','ingn0ylqVTc80ymG0lFqSnc/','0jRqVTc80lZqTDga0yFqTDgb0lO','0yZqT9gd0lxrGIdrGDcW0lZrIW','z3mGDg9NzxrOzq','0ldrJTgc0yhrJY4','BNrZiJ7WN5oMienVBG','BMvYz3KG55Qe5A6y5PA56zo+','0jhqU9cW0lpqVTc00ldrGnc90l4','inc40lFqTncW0l3qUnc1','BYbVzMzLCIbZzq','Bsbtzwn1CML0Eq','W6jIBguGC2vTAs0','0yxqVDc40yFqTDgb0lRqVTc5ia','AxqXlNbUzYiGyW','BxbSAwfUy2u','ztWVC3rYB25NpG','yxaG0l/qVTc00ylqSTc10ya','ig1PBNv0zxmU','AxqSigfUzcbZBW','BMrVC2nVCguGyW','t059FqOkicaGia','0lpqVDgd0ylqVIWG0lRqU9c4','AwDVCM91CYWGyq','yxiOls1NB2XKkq','iefPBwvY','y291BNqSihn1yG','0lxqT9c00l7qUIWG0ldqSTgc','0kdqSnc30lVqVTc20lJrGTc1ia','zhvJDc1WCMLJzq','inc40ltqTDc90ylqUngh0l3qVG','BwX3vxC','0ylqVTga0yprJIdqTTc40lFqVq','Bc5JB208l2e+ia','y3L2AMC','x3vZzv8ZiJ5sW6K','5P2d55Qe5Asw6yoO6k6/6zEU44cc','DgLSxZmIpKrPyq','icaGicaGpc91Ba','BMX5igLUieD1Aq','6iob77Ym5RkH5PYj5BYc5BI444cc','0lxrH9c90l7qUsdqV9cW0l3qTq','5lIk5y2iidKG54k56iEZ5PMA5lIkia','8j+uGsdPGidOTkFKUi7PGidMRl4','Dc1Hzgq','0ldqTncW0ylrJcdqUnc70lGG','CMnLBcdqVnc+0lBqTDgc','mtaWjsbYzw5LDW','5lUf5zYOieD1AwDUzw4','8j+BOE+4JYdMIjhKU6ZMIydMNiNKUQFLK4hLNyFMNiK','0lFqSnc60lVrJTgh0lxqVDc40lu','igL0ihDPBgWGza','Bwf0Axf1zw1LBG','0lJqTsdqV9c+0lVqUngc0lJqUG','8j+sSYdLIQdLHAxOTk3NIANOVAyG4Ocuia','y3jPCMu','CgHPC2HPBMCTza','0yBqUngoifrPAxDLzq','iokcRdWVC3bHBJ4k','5lIn5lQi6yca5QY+44cc','icaGicaGpc9KAq','yxv0AfbHC3n3BW','BMvYz3K','BNrLzc5MCIiGDa','CIbWCM9JzxnZAq','ios4QUs8OoAeN+wzQowsJownS+EuQowEI+EZUW','ief1zgL0icHoBq','idWVzgL2pGOGia','0lhqSngc0yVqSTcW0lxrGTgb0y8','BgXLCIbLBIbTBW','BgfIBguGy2fYCG','4PYfifn0zxaGosdIGjq','ieXVDMu','56YSieWYmJeTmJmG','6zIY5OUM5OIQ5l+D5OQK','8j+sHsdqOncW0lFqTnc10lSGpa','CIi+0yhrGTcW0ylrJnc10lK','8j+sOsdNGRNLH7VNHAFNIyFMLl7LPkC','0l3qTsdqTnga0l7qTTc40yiU','8j+BOo+4JYdqNDc10l/rGnc10ydrI9cY','zw50','0ylrGDgpincW0llrGTc+0lZqSa','igHHCYbIzwvUia','BMCGzgf5CY4','sufsveKWmdaWma','idXKAxyGy2XHCW','BMnLihDPDgGGDa','zMLSBf9HBgXFzG','BMn5ihnPDhvHDa','DxrPBcbPBMrPCW','lcbPzgvHBcbMBW','DgvYzxnZzsbUDq','mtqUie1LzgLHDa','yxj0AwnSzsbmmG','ywXSEse','CMLJDcWGyw5Kia','vxrPBgL0Eq','ywXSifvtqIbKzq','0y/qVnc4idmYmY0Xia','zwn1iJ4kicaGia','0y/qVnc+0lKG0llqUnc90ySU','0lZqSngg0lJrJYdqV9ga0lxqTa','y2HHDgjVDc10BW','0j/rGnc40lRrGnc10l/qUngc0lu','icaGidXZCgfUia','zs48l3a+cIaGia','ChjVzMLSzvrLBa','rgzRwxq','y3rPB24U','0l/rG9gc0yWG0yFqTDga0lxqTW','yNb6rg0','DwvZDcbHy2nLCW','0j/qVTcY0ylqVTga0y/rJTgj0lG','ihbYzxnLBNrZia','uMvMDw5KCYbHCG','ExDiuxC','ieHtvfmSifGTrG','iMH0DhbZoI8VDW','0l/qVTc00ylqSTc10ydqTTc00la','zwqGB3iGBw9KAq','8j+pM++4JYdqOnc10ytqTDga0ldqU9gm','5OUn5Pge5lIt5lIA6iIQ5OUn54wN54Mh','igXVC3qGCgfJAW','yMXVy2S','mtKYnc8XotC2lq','Agf2zsbLCxvPDG','qKPRq1e','0jRqVTc90ytqUnc00lxqVDgg0lG','q3zpDMS','uwD3B0W','CMLHlwv4CgfUza','DcbTDxn0igjLia','0jZqTDgb0ylqVDgl0lKG0lhqSa','kdG54OkSks4','Bd0IBM9VCgvUzq','iowMGUAENoI0PUAiT+AiLUIUVUwKH+IIQ+wfPq','C2vHCMnOu3rHDa','0lJqVDge0l7rGnc80ldrHTc40y8','AxmGBM90igP1CW','C2nYAxb0CW','0j3qVTc70yWG0lRqVTc80lJrGq','yxnRig9YignVBq','tLnrvcdIGjmGvKvs','8j+tPYbfBwfPBdOGBa','Cg9UC2L2zsbJDq','0yiGy3vYBa','og49iMvUzg9FzG','ifb1AxnZyw50zq','0kpqQDcv0jpqNIdqKIdqKTcq','inge0lJqT9c40yFqTDgb0lRqVG','0lpqVIdrGncW0lFrGnc10yJqTq','EfHktuS','CMfUy2uUz291DG','BMLUzW','nc4G0j/qTDga0yhqVTc90la','BhmGD2HHDcb3yq','0l7qV9ga0l7rGDcW0lWSinc6','5OkO6i635B6x5QYI6l+o5lYy5OoG77Ym5OIr5lMF','5PcC57sI5B+f6Ag75zYO5O6i5P2d55Qe5Qgg5P62','0ltrGDgc0ldqSTc70y/rJTgcia','Aw1Hz2vZiJ4kia','B2r1y3qTAw1HzW','4QYfioI/LowBNUwvHUw6LW','psjUB29Wzw5LCG','vvrptN19cIaGia','ysbWzw5LDhjHDa','inc+0l/qVTcY0lxrIDc10l3qUa','CxvLihrOyxqGyW','qxjLihjLDhvYBG','4OctieXVDMuGv2L0','0kpqU9c40yFqVDgl0lKG0yhqVG','0yhqUTc+0lpqVIdqODc+0y7qTW','nJq0mtKYnc8Xoq','ignSW6KGzw4GBwe','y2HHBMDL','0l3rGIdqSTc40ltqTDc90lJrJW','A2P5vgW','0k3rGTc4inc/0ydqVTcY0ldqUq','inc80ldqS9cW0lFqUnc90luG','idqSmYdqTngo0lNqVncW','z0XXAKi','5zYO5lUa5lMi5Oof5yA15lIl5y+V5lUL5OUs57UD','DgvKpW','inc30laG0ylqTDga0ydqUngc','0llrG9go0yNqUnc80lGGr0q','rxjYzxvYidOG','yxrPB24SihnJBW','Dcb0CMf2zwWSia','0lJqU9c4inc/0l7qTnc+0lFrGa','sMjsD2i','tdiXnY0ZioADOEwpIUwqJG','0l4G0yhqSTc+0lKG0yhqVTcX','w0zsxsdWN6M4ie15CW','4OcuincE0ylqSTc10yiG0liG','B3j0','BgLZDgu','zguGBgv1CIbTBW','mdCUodaUmJaUna','BIWGyw5Kigf1Da','ChjVz3jLC3mG4Ocu','DhjVBMC+r1vjta','BMCIignSyxnZpq','zsbZAgLWCgLUzW','BNnVpc9HpIdLHy3OTlK','txvZAxf1zq','qM91CNnVCMfTyq','AvfJr24','teveifbYB2PLyW','CIbHDxrVBM9TEq','C21LBNqGAxmGzq','ienHy2HLlunVBG','8j+tIYbnzw51igrLCW','BhmIigLKpsjKzq','BNqTC2fMzsK','zu1lD1O','DgeGAxmGy29SBa','ysb3zwvRicG5yq','6io96kkR6lw36k+j77Ym5y2Z5l2/5y+Q5y+r5lQg','ihrOzsbdB21Tzq','0jpqUnc90yZqTDc90lu','0ylrGDgpinc/0l4G0y3qU9c1','0ydqVTcY0ldqUDc00lxrGnglia','0lFqSngj0lJrGTglincW0lRrGG','yxjYyw50EsbVBG','Dc11CgrHDgvK','0llqU9c10yFqTDc90ySG0lOG','Ce1sqLu','4QYfioI/LowBNUMMLUMHTq','B3rLy3rPB25Zia','s1KXmdG8l3n0CG','5l+D5A2y55Qe5A+g56cb77YA6iIs6ycc44cb5l+D','8j+AQcbiyxjJW6HSzw0','og49iNbHy2TFCW','B3bLoIa5nEkcRcdIGki','CMuGssb1BMrLCG','5OMl5O6m5y+m6z2I5yQG54oT','EdiP','BM9T','Ate4BLbSywnLAa','EsbYzxnLyxjJAa','6iEZ5PMA5lIkideXioEcUE+8Iq','t2zyquq','0ldqT9c+0llrI9c5inga0lxrHa','BMC+rhjVBMuGsW','C29YCYaOzg9VCG','zM8IpGOGicaGia','zw1HAwW','8j+BJ++4JYa0lIdqNnc90l7qS9c+','yw1HioI0PUAiT+oaGEIUOUMyHsa','rcdMIyVNLlxNRziG4Octifvt','BNqGBwfPBNrLBG','Dc5JB20Vy3jLyq','ihnLy3vYzsb2Aq','igv4Cg9ZDxjLla','icaGpgXPigrHDa','rMLUzcbTEsb2zq','lYbtyw1ZDw5Nia','0l4G0llrGDc10lKG0ktrGncW','uxDdzwO','0ydqVDc10yiG0yFqTDga0lxqTW','zgf0ys1Uyw1Lpq','0jFqMncC0j3qMnczincD0jdqKq','yMLSAxtdQsbLDca','BYbVyNrHAw4GDa','0lqG0l/rGnc10l/rJ9gc0yhrGG','B25NBgvZlwjLyq','5O+q5l6B5zoQ5lQB5yY65z+F55Qe6ywn6ycb77YF','0lJqTsbqq0KTrfnt','0jlqVTgb0yxqVTc0lcdrJDcY','knc30ldqUTcW0lCP','tgLNAhqGDxaGyq','C2vLx21VCMu','BgvZigfUzcb0Aa','C3vWywjHC2vdBa','0ydqSncY0lJqU9gm0l3rI9c8ia','w0zsxsdWN6ESieWNrq','44cb5RkH5PYj5PwW5O2U5PQ06zYY77Ym5BM25lIu','ihbYB2r1y3q','0ylqSTc10ydqTTc00ldqTDgcla','r0rquJWVyt4U','B25pyNnLCNzLCG','mI4G0kxqVTgb0ylqUnc90lm','D2L0AcbTEsbYzq','DML2ywWGugfJAW','5l2v6zEU6Aky77YA','0l3qUnc1lcdrG9c90lJqTTcW','yxrPBMCGy2LYyW','ifrPA1rVAYbLDa','ww91CIbTzxnZyq','0lVrJc3rJs3qKTc40lVqTDc9','zIb3AxrOzhjHDW','0ylrGnc40ydrG9c50ylqTDgb0yW','idWVDwW+cIaGia','y3vFzJmIpLnPCG','AhqGDgfJDgLJyq','mY0YmIdMNAe8l2e+','yM91Da','icaGicaGphvSpG','sw4GDgHLigv2zq','mtaUioAZLEwUMUs/NEIVGq','6icm5lIn5lUf5lUf5PIV5As055UU44cc','8j+rIsdMSQhMNiNLJBhPMANMLRNMS5xJGii','0laG0yhqVTcX0l7qUsdqV9ga','nc4G0jFqSnc60ldqTW','AwrHDgvZihrOzq','0ldqU9gm0l3rI9c1inc00ldqVq','8j+sUYdNRkWGmYdMRAuG4Ocuia','zxLoBgq','inc60llqSnga0ylqUnga0ySS','AL91DgLSxZeIpG','lM11C2LJlxDPza','Aw5RigfUzcbLBG','0lFqSngj0lJrGTglinc4incX','zMLODuy','0lJqU9c4inc40lZqTDgo0yiG','0kFrGTc+0lhrIYdqVTgb0yprIq','idXWigrHDgeTAq','5zci5lIQ5lQ65zkm5Bcp5z6l5lYb5lIA44cc','rgv0ywLSCW','8j+uIYaZlIaXmIWWma','B3uGAgf2zsb0Aa','ieHuvfbtic8Gva','B3vYihjLz2LZDa','0lJqU9gmifzPBNrLza','55Qe5P2d5yIP77Ym5l2g5lQN5zob5Bcg5OYj6k6I','0lpqVIdqUTc+0l3rGTga0l7qUW','ywjSzv8WBw1frW','CYbWCM92AwrLza','AhqGyxmGysbWCG','ywn0AxzL','u2LTCgXLigfUza','8j+rIsdqKTc90yprGTga0lxqVDc9','5Pge5yop5As044cc','5l2C5lI65lIa5zcnphn0CM9U','5Ase55cg5zkm6l+q6ycb5OkO55Qe6k6I5y2v','q29TCgf0AwjSzq','ingh0lxrGnc10lCG0l7qV9gg','AcbSzwDHBcbVyG','nI4GtgLHyMLSAq','igjYAw5NCYb0BW','0yprIDc10lpqVIdrGDc/0l7rGa','5OsF5OgPipcFPliG6lcI6lcI','0jpqSnga0ldqVDgc0lJrJYaY','iokaLca5osW5osdIGQW','sxPtCuu','BgvJyxj0lwnHCG','ChjVzhvPDhm','vM9PCIbTB2LUCW','AwzPzwqGyMfUAW','6AUy57k+5BQM5lYG5OsF5zMO','ysbqCM90zwn0Aq','0y4G0ldqSTgc0l7qVDc+0lZqUa','0ldqVDc90yVqTsWG0l3qTDc+','0ytqTDc60ylrIYdrGDc+0l7rGG','8j+tIYbwB2LYihrVDq','0l4G0llrGDc10lZqUcbvuW','5A6j6kof566a5y2v5B+R5O23','5Rov5B6l5OoP572A5Q+p5lIQ5y+c5lIo6icf77Ym','0lxqVnc90yprJIdqT9c+0l3rGW','0ldqT9cW0l3qVIdqSIdqSTc+','0ylqVTga','Ate4BG','ieDvsuXmrvqGsq','x19ZzxrnywLUDa','qujnsK0','sgLNAc1WzxjMBW','0ldqVDc40lFqSngg0lJrJIdqTa','8j+rIsdqNDc10yiG0lRqVTc90yq','5yYf5zcR5ykO54MP6kkl','W4LJBgfPCMv6ihy','8j+CGsbeAxnJAxbSAq','BIbJAgfYz2uGBa','0lVqUcdqV9c+0ylqTDga0lGG','yxnPCW','5lIk5lIo5OIr6igu57o744cc','mtaWjsdqVTc90lVqSnc5','0ldqVDgc0lJrJYdrGDc+0l7rGG','s1KXmdGG5PEG5lQ65PY6ia','sva2ocb3yxrLCG','ywDLic8GyMfSyW','B2XPDgfUiezYyq','0lVqVTcZ0l4G0lhqUnc30l3qTq','DmoPz2v6ihzVDhi','CNvLihDPBI13Aq','zgf0ztOGmJaYnG','mteUifbLCNnVBG','B25NpIaOmZxIGQWP','0l3qScdrHnc+0ylqVIWG0yC','0lRqSnc30ldqVdOGmtaG','inc60ldqVnc10ydqVTc5inc4','BM8GDw5UzwnLCW','lNbHz2uTC2vJDa','mteUios4QUs6UUAvSoAnRIaO','Esb0BYbHy3qSia','0ylqUdO','CYbqB2XPy3K6ia','r2H3vNy','0lJqVngd0yNqTDgb0ylqSTcW0lW','yxv0BW','ywnRywDLigrPCG','0yVqTsdrHTc10l3rIW','0y3qVDc10ydqS9c40y8G0lGG','BM9ZAxm','0yhrG9gj0lxrGDgc0llqU9gp0lu','DhjVBMCGC3r5Ba','CguSigfUzcbPBq','B21UAwrPCMvJDa','rgv0zxiGAw50CG','0lxrGI4','5y+Jidq0mYdLT7lMIzpLVidJGie','qvDoz24','AYWG0lFqSnga0lxqS9c40ye','B24IignSyxnZpq','0l7qUTga0ypqTTcW0y7rIDgd0y4','0lGG0lRqVTc90ylqTDc90ylqSa','0lVrJnc90l7qS9c+inc40lVqUa','zNvSBf8XiJ5mzq','5PI+56s65ygp5Aw977Yj44cc','C2LNBMvKigzVCG','lcbHBMqGyxqGDa','5BQu55sO56Il5BQp5y+r6ycb5A6d44cc','CYbZBwfYDhbOBW','svyG5zkO6k+I','5l2/55sO5OIr55Qe5O6O6i2q6zo+5O6L5BYa6k6+','u09kq2m','mtHUpsjKCM9Uzq','w0zsxsdINAtVUi8GuM9J','vfn4yw0','C2v0','icaGica8C3bHBG','yw4Gy29UDgfJDa','zwqGDg8Gy29TCa','BwfUDwn1CMu','B2PLy3rVCIb3Aq','0ldqTTc00l7qUsdqUTcW0ydrGG','0lRqVTc80l/qSnc60ylqVDgl0lK','5PYS572r56Uz5A6j5ywO55Qe6lsH54YU44cc8j+zJW','Dg8Gy29UC3vTzq','y2HHDf9WyxjYyq','ievUzxjNEsKGDW','ms4G55UU55Qe','zc9mruDjvevyva','CNnVBIbVCIbVCG','AwXZlxbHy2STCW','nI4G0jlqSngi0lGG0l/rGa','igfUzcbKzxrLyW','CM1ZoIbiu1rtla','tgfzALO','4PYu77Ipie5TyxaG4OcuigG','ztWVyt4SihrOzq','tgLTAxrLzcbWCG','0ytqUnc30lJrH9c10yhqUTcW0y8','ioAoQoInKa','icaGica8DwW+cG','8j+NPcaXlIbtBwfYDa','0yNqUngc0l7qUs4G0j7qV9cW','5l+D5OQK5O6Q5PA95PIV56EV5P6b55Qe','EdWVBgK+cIaGia','rvvoDuu','DxiGCgvYC29Uyq','C29UywWGAw5MBW','0ldrJYdqVTc/0lVqSngc0la','zsbVzIb0AguGyW','0lJrJYdqVTcXinc+0ylqUTcW','iJ5vDgLSAxnHDa','icaGica8Aw1Nia','inc30ldrIDc40ylqScWG0l0','mJi2odmWlZiWmq','y3qGzguGBgeGDG','DgvTChrZ','4PQw77IpincA0l7qU9c70lxqUTgc0lG','6l+h77Ym6zIY5Q2I5lU75l2v55wm6z2I5yQR5OYb','ChjLDMvUDerLzG','zwf1EcbYB3rHDa','4PYj77IpincH0llrJ9c30ldrGTgm0ye','BMKGlYbztYaVia','5AAc5P6C5OkO5PIV5A6j5ywO56cu56M25lQ65zgy','8j+rIsdqNDc40lRqSnc60lJrHsa','0y8G0lRqVTc90ytqUnc00lxqVq','0ldqTnc10l0G0lJqU9c4ingd','icaGica8zgL2ia','veKWmdaWmdy0na','CI1qB2XPy3K6ia','0luG0l3qTDc+0lhrHDc+0ltqUa','u3vIC2nYAwjLia','0k3qU9c10lpqSnc90ylqVDc+0ye','0ldrGTc10lVrJcdqUcdqVTcX','vgHLihnPDguGAq','0ypqV9cW0lNrGTc1lcdqV9ga','BNrLCMzHy2uGvq','0ylqTDc90ylqVDgl0lZqUcdqSq','5BM25yQG5ywL56s+5yY644cc6lsT5lMW44cb5yE6','Aw4Gyw4Gyxv0Aa','mJKWode2mefrzgnmuq','idXZDhjVBMC+ma','8j+uJsa8C3rYB25NpG','vM9PCG','0l/qVTc70yZqT9gd0y7rGTgb0y8','Aw5MB3jTyxrPBW','AwrLigrLideWia','AwjLzcb3AxrOia','z291DI5MCI9SBW','w0fvveHDimojDSoP','44cb5lI65lUa5lMi5Ps26zUg44cb5AAc5l2v5l+D','igzVCIbMCMvLia','0l/qVTc70lxrGIdqSIdrHngd','lIbfC3nHAwuGDq','z2XLlI4U','0jtrGnc+0l0Gs1KXmdG','0lJrHTcW0lxqVnc+0yhrGTgmia','4PQG77IpincD0luG0l7rGDgc0ldqSG','5y2H5lUo5lIn5A2y5ykO5zYO572r56Uz5lIk','igeGAg91C2uSia','0yiG0yhqSnc80l7rG9cX0lJqUq','iIbYzwW9iM5VBW','Cgf0Ag5HBwu','0l7qT9gllcdqVDc10yiG0la','B24Gyw5KihrOzq','AguGBgvNywWGDW','8j+rKsdqM9c10lpqUngc0lJqVnc9','BMv4DevSzw1LBG','ihrViduGD29YAW','zM9JDxm','0jlrGDc1ingd0yhqU9gd0lpqUa','nY4G5PkK6zsa5P2d77YimtqG','0l/qVTcY0l7rGnc+0ylqVDgl0lW','BMqGBM9Ulwj5Ca','5l2G55Qe6iEQ5lI75P2d44cc5BU66k6+5PYQ5P2L','Aw9UCYbVzMzLCG','0kdqSnc0lcdrH9gc0l4G0li','0ydqTDcY0l7qT9gh0lJqUTcWia','5y6F5AEl55YF55U477Ym55YF5A6E6lQR5lU977Ym','0l3rGTc40lG/','BNrLzc4','0lRqScdrGDc+0yFqTDgc0ldqTq','ywrKrxzLBNrmAq','0ydqTDc00lxqU9cW0lZqUcdqSG','ideWlw1PBNv0zq','ywrK','0l7qSDc10yhqV9c10yFqTDc90lG','BIaRihjLBw90zq','8j+rIsboB3jTywWGyq','igLqywq','0ktqUngi0lJqVDcZinc+0l/qUa','uMvZCg9UC2L2zq','zxjHihDPDgGGyq','C3bVBNnLCYb0BW','zgL0Aw9UifbYzq','x3vZzv8YiJ5pCG','lcdqSTglinc80l7qTTc10yi','BcbIDxnPBMvZCW','5z+65PYS5yIr572A','0ylqSngc0yZqTDc5ieWYmG','zsaO0yhqUnga0lxqVDcWia','BguTzxqTvMLSyq','nciGy29UDhjVBa','ANjuCfziuNPJvG','6AUy5RIf5AsC6kEg','0l7qSTcW0l3qVDgl0yuG0ydqSa','8j+tQcdqQncW0lmGnYdIGjqG','4PQw77IpieXLz2fSie5V','ig9UBhKGC2vUDa','lcbMCMf1zhvSzq','Aw50zxjUzxq','5OgV5y2Z5y+V44cc','B2zMzxiGC2vYAq','5y+r6lsN5PE25lYA5O+q5l6B6l+96lIQ5y+356cb','CMfNzsaVigjHBa','ingb0ylrGnc+0lpqSngpinc4','0l7qU9gd0yFqUngc0yWG0lJqVq','0l7qTnc10lRrGDcWpc9HpG','ihbYB3zPzgvKia','DxjPDhK','uK5nBvi','6ygt44cb5y+r5yQO5PY644cb566H6ygt44cb5A+8','CM9JzxnZihbLCG','0l7qTTc10l3qUnc1ingn0lVqTq','nc4ZioIlSEwVUoMBHUAiKowXJ+w5Lq','yMuGy29TCgv0zq','8j+BSo+4JYdqN9c+0ltqV9c40yhqSngc','DxbVBIbZAgLWBq','4PYj77IpienVBNrHy3qG','q1nqlIdqNTc/0ldrGDc9','5Og25Osp6isA5PYS','0lVqTDc9imk3ipcFLziGotO','tKze','iokaKYbmj8wssuWGra','5P2Hpc9HpU+8JoMaGoASVUwWHUwCQa','CgvUzxiIpKrHDa','5RAj5y+k5lQ657g76k6/5A6I44cc','phvSpGOGicaGia','0khqVTc30ltqSncY0ldqUDgc0lu','C2nVCguUCg5N','5OkO55Qe5Rwp6kEi5zMO5lIn5PsV5OYb6kEg6Akr','igtdQwRdOcbJB25M','z2v0psjFyMXHBG','Ahq6yM9SzdSIpG','C29TBwfPCMu','CgXPyw50ihDPDa','ide0igrHExmGzG','CM9UzZ7LPOlMNPWGr1u','Ate4BJ0ICgfJAW','Bc4Gq2fWDhvYzq','572r56Uz5y+x5yIW5lUL5lIl57QM5P2F77YA','tgvdyxj0','igzVCIb5B3vYia','0jlqVTgcincY0yhqTsdrGncW','Ew1LBNrZihzPyq','zsbJB3vYyw50la','8j+KRcbtzxH1ywWGAa','6yg15A6i5Rov5B6l5lMj5yQH77Yi5BYa5yw35y+r','ihrOzsbLEgnSDq','C3rHCMXPBMS','8j+tNIaZmde4iokaLcdLHy0','suXmrvqGsvyGyW','0y/qT9cW0ylqTDc70yZrGDgc0li','ugf5BwvUDhmGyq','ww91CIbPBMzVia','r29SzcbZEw1IBW','igWNAw52AxnPyG','8j+rKsdqODc+0lFqTncW0lKG0ye','D1n5wxq','swrLywWGzM9Yia','yxv4ihnVBgfPCG','u0rlifn1CgfIyq','zw5LCMDPzq','CZ0IBw9YzsiGza','z2vBzgf0ys1Pza','yw50AwvZigrVia','lJrb','t25SAw5LihjLCa','8j+rIsboBwfWioEAHcbO','ms0XocdqN9c+0ylrGnc1','5AsQ6zIZ6io9ieXfrcdMIPxLVBe','0khrG9c80lRqScdqTnc70y8G','0yVqTsdqT9cW0l/qUngb0lGG','BcbKyxrHigLZia','0l4G0l3qTsdqV9ga0l7rGDgc','vMvYy2vSlG','0ldqT9cW0ylqTDc70yZrGDgc0li','0yFqTDga0lxqTYdqVTc/0yBqUa','0lNrGTc10yhrJcdqUIbpyW','5AAc5P6C5y+r55sF5BU26l+F5OIw5lII5AsX77Ym','zxHWzxjPzw5Jzq','lcdrGDc+0llqTDga0yJqTDc9','y2HHDf9KzwXPDG','zwXPDMvYEq','wxbkuNi','CMqGy29Uy2vYBG','8j+xNE+4JYdNRkWGncdMRAuG4Ocuia','ienVBNrLBNqGuW','lw9YAwDPBJWVyW','DmoPihbHCIbWyw4','phn0CM9UzZ5qBW','zguGzM9YigeGCa','0lGG0l7rGTc/0ydqSncY0lRqUa','Bxn0yw5Jzs4Grq','ifn1CgfIyxnLia','0lJqU9c4inc90ldqV9ga0y/qVa','zNvUy3rPB24','BM9ZBMLMzJWVyW','ywDLicHnB25Mia','BMCGD2HHDcbKBW','ifzPBNrLzcdqV9c+','AgvHzgvYCYboBq','lYiGDgfYz2v0pq','mYbLDcbZzxeUia','r0vulcbirufela','0jJrGDc60ldrGTgmingc0l7qSG','CZWVBgK+cIaGia','0ypqVcaXncdqTnc90lxqUq','ywLUDhm','lIbcDwLSzcb0Aa','zxrHAwXZiIbPza','8j+tNIdqNnglinc00l7rGDgc0ym','ywLYzsiGBg9Hza','iIbKzwnVzgLUzW','zwn0CZO8l3n0CG','0llqVnc10yhrGTc40lZqVTgb0yi','rerVuW','0lKSinge0ydqSnc90yBrG9c3','ywz0zxiGCMvJBW','5O6m5O+H5A6j5ywO5RYp5RsE5zkm5Ps75yE75PY6','yMHUuMy','C3bSAxq','0jlrGDc1inc+0lOSingb0l8','0j/qVTc00lRqU9go0yFqUngc0lu','rM12AKS','iIbPzd0Izgv0yq','0ldqU9c40yFqUngplG','lY93D3CUBgvNAq','zNvSBcbKyxrHia','Dwn0DxjLlcbJBW','0yhqVTcX0yhrGTcY0lxqVDc90l4','44cb5zU+5yop44cb6k6+6k6H44cb5B695Qch44cb','5OkO55Qe5PwW5O2U55sO5lQo77YA','zxj2AwnL','5y2Z5y+V5lQR5y+x5lIa5lIQ5PYi55Qe5ywn6ls5','zwnVzgLUzZ0Iyq','y3rPB25ZigfYzq','5lQK6lsN5PE26zE05PIV5AsA5lMf77YF','0lGSinc80l7qUcdrGnc10lK','icaGicaGidXSAq','8j+NRsdqO9gb0lJqU9c10l3qVDcW','8j+tNcddGcbWCM9WB3m','tmoPz2vUzguG5PIV5lIa','CMvSpsjUB29Wzq','CgXHEwLUzW','inc/0l7qTnc00lxrGnc20lRqUa','0lxqU9goicG5oJaWlq','CYbZzwn1CMu','BNvTzxjVx3n1Aq','DYWGBM8GCMLZAW','zwqGzM9Yigj5ia','55s15A2q6ykU5lU25PYn5yQH77Yi6k6I5y2v56gU','Aw5L','lcdqSDc10lCG0lZqUnc60ya','zwWGzxqGC2vZia','EufqAhy','ica8CcbKyxrHlq','zNvSieXfrcbgBa','qxzvAuy','DhrWlxnLCNzLCG','0jZqVTcZ0ymG0lVqUcdrJYa','vg9Rzw4SifGTvG','Aw5ZDgfSBgf0Aq','zw5JAcbSyxCU','DcaH','8j+tNIaZmde4iokaLcdqKq','BcDHBgfYBwuGva','q2HHBgXLBMDLlq','0ltqTDc70l7qSI4','zgfYAW','ywDPicyGqw5KEq','DMLLD3mSihjLCW','0jtqSTc+0lNqVDcW0y8Gseq','CNrHyMLSAxr5la','u0XVwhm','5l+D5OQK5OkO55Qe6lsM5OI344cb6k6+5Ash5zkm','ywWGAgfYyxnZBq','5RkH5PYj5lIn5B+f6kAb55Qe56UV5y+J','8j+sHsbpBMDSzxmGjG','y2vSBgfYlcbVCG','6lcd5Pw0ifbjuIdKVkdMHj/LMAG','0liGq3ldQwrPDcbb','BIbHig1HEgLTDq','zv9Zzwn1CML0Eq','8j+pQIdKVihKUjO','5l+D5A2y55Qe5A+g56cb','mtHUpsjMzwf0Dq','qwvdt28','B3vYigfJy291BG','qsbKCM9UzsbKzq','0j/qVTc00ylqSTc10ydqTTc00lu','sg93ihrVihvZzq','B250CMfJDcaOBW','0j7qS9ga0ldqVDc40yFqTDc90l0','0k3qVDc00l7rGDc60l7qVYdrGq','0y7qT9c40llqVDgd0y4G0lZrGW','DwvZDcb0AguGza','lwKXog49iNbHyW','ingc0ydqTDcX0l7qSTcW0ylqTq','DgeTEM9VBt4kia','DhbZoI8VD3D3lG','vevyvefsrue','q0T9FqOGicaGia','CmoPDgvUy2uGDgu','qxmGysa8C3rYBW','inc40yhqV9c+0lVrJnc30yprJG','u2LNBIb1CcbVBG','icaGicaGphnWyq','EKXJyLC','CgLXsha','sutdIu8GueXbq8oj','iNbOB3rVlwvUza','icaGpgrPDIbJBa','vsbgvvrvuJWVAa','0l/qVIdrGTc10lVqTDge0l7qVq','icaGica8l29SpG','0y8G0ylqSnc60ylqUngh0lxrGq','vMLUDgvKihbYBW','lcbKzxnPz25Lza','0lFqSTc40lZqVTgb0ylqUcWG','0lRqSngpinc/0ydqVTcY0lxrGa','0lWG0lRqU9c40lxqVDgc0l7qSG','8j+BOE+4JYaXmdaLiowUIEwfQoAuRW','6Ag577Ym5zYO5Rov5zU95PYS5zYF5O+q5l6B6ywn','y29UzMLYBwvK','C2rPy3rPB24Gyq','0lZqVncW','B25KigfWCgvHCG','0yBqUngolG','5A6E5lUn54s25BQu5y+x5OoP572A44cc','0lKG0ydqTDge0lxrGncW0lVrJa','0yVqVcdqUTc+0ltqVTc8lG','0l3rIYdqUcdqVDc40lRqVTcZ','mc3qUTga0ldrGTc90l7qVngd','rw5KB3nJB3bLia','8j+sVcdqNTge0lJrGq','yxjLAwXZimoGigW','0ltqSngo0yiGr0rquIa','0ltqSngo0yNqUnc10yhrJYdqVG','4P2mifbYB2r1AxqG','D2L0Acb0AguGCa','y2uGAgLQywnRAq','teTLsKW','5P2Hpc9HpU+8JoMaGoI0P+I/KoI0Uq','0y3qU9c10lRrGTga0l7qVDc90l4','DgLVBIWGAw4Gyq','5lIQ5lQ65l+H5OgV44cc','0lJqUsdqUcdqSDc10yhqUTc+','inc6inc+0l/qU9cW0ylqTs4','icaGcIaGicaGia','DxnLCG','uK1RC1O','0llqSngbinc10yhrGTgmide','C3rHBMrHCMq','DgvUDhmGkgv4yq','B3rOAw5NihrVia','l2e+77Ym','AwXFnci+rM9UyW','ihvUzgvYC3rHBG','lMrLC2m','0lhqVDcW0ydrG9c20lxqVDc90yS','0lJqVDge0ydqSngb0ylrGngd0lO','v25pq2O','B25Z','y3vTC3rHBMnLCW','v2vSy29TzsbIzq','incW0llrGTc+0lZqSngc0lJrHW','DxL6CvK','0lJqVDc+0llqVDgl0yuU','0ylqSc4','w0zsxsdWN5oAifjVyW','z3DRt3i','iokgKIdqTnc70lJrGTc10lVrJa','CYbVDxzYAxiGDG','44cbwc1gCMfTzs1p','BMr1AxrZlcb0zq','CMfSigfNz3jHDG','0yprGI4','0jFqSnc00ldqUDgc0luG0lZqVq','BNrLz3jHDgvKia','0yWG0l4G0lpqSnga0ldqVDgc','icaGpc91Bd4kia','0llrIYdqVnc+0lBqTDgc0luG','suW8l2e+ioApKowhUUAkLq','Bgrut2q','0lRrGDcWlG','mhb4idbWEcaTna','z2DSzq','8j+tIYdPOBxPNAlOJ5ZLJzu','CMvMzxjLBMnLCW','0ypqU9c40ydqVTcY0ldqVDc40y8','ksdNMOtMLlVLH7VKUlVOPOhNLlhJGiRLIje','s1KXmdGG5lIn5lUf5lUf5PIV','DcbZAgvLDc4','BhvZpc9IDxr0BW','Axb0Aw9U','0yVqUsdrHDc+0yhrGTc40l3qSW','mJy4mJGVmJaYna','4PYuifDHCNjHBNr5','w0zsxsdWN5sbie15CW','rwXLz2fUy2uGWRC','0yJqUnge0ydqVTcY0ldqVDc40lu','Aw5Hz2u','Ahr0Chm6lY9LDq','BwvUDhmGy2HHDq','mc4XktSGyM9Yza','psjWCM9KDwn0lq','ihnLCNzPy2vZ','Bw90zxvYCYbICG','C2v0sxrLBq','0yFqVDc+0yhrGTgmlcdrGTc+','0yhqSnc50yiG0lhqTDc30l7qVW','B2PLy3rVCIbVBG','inc60l7qVnc/0lVqTDc60ylqTq','Dg9YCW','inc/0ydqTDc00yprGDc80l7rGG','rM9Uy3rPB25Uzq','6k6/5A6I5RkH5PYj6lsF6z2I5B2X5zon44cc','C3m9iNbYB21ViG','5BgL6kgm5zci5zcm77Yi6k6I5y2v77Yj','AfL5zwW','mY4GuhjPy2u','ieXfrcbYW6LNBge','EMnNEhG','0l/rGnc+0ylqVTc60l7qUYbu','zwXZzxDOzxjLlG','0l/qVTc70yZqT9c+0llqSnc90lG','BgfUy2vNBg9YAq','0ldqVDc60l7qSTgb0lRqUnc1ia','iIbKyxrHlxbYAq','0lxrGTc+0ltqUnc+0ltqVDgl0lK','vSoPCMLMAwnHDgK','igvUDhjLChjLBG','inc30ldrGnc10lpqUngb0ylrGa','0yhrGTc4','DM90CMuGBwfPCW','oYi+cIaGicaGia','B25NpIaO4OkSodKP','BM8GywjUB3jTyq','q3LIzxjJCMLTAq','8j+rIYbizwXSBYbHBG','B3n0CYbHCMuGDa','AwfyuMS','0yhqVDgl0yuG0l/qU9cW0ylqTq','CMnLBcbtzwn1CG','CgH5C2LJywWGCW','lcdqSnc00ydqTDgblcdrGG','yxvMzMfUDhmGW4K','BgfUz1nLBgvJDa','pJa3lJGWlJiWlG','Dv93CZmIpKfZCW','Dg9mB2nHBgveyq','8j+pOcdqK9c70ldqSTc90ldrJW','z0nSAwvUDfjLyW','u2vLigXLC3m','BIbIzsb0AguGDa','ncdKUkOGu09ot0zg','mJqG5lIQ5PYi5l+D5l+U5RA155Uw5zoQ','x19NzxreAwn0','ignVBxb0zsbcBW','igrYB25Lpc9SAq','0lZqVncWienYW6LKAxq','Ate4BJ0Izw5KBW','0yiG0lFqScdrJDc70lxqUTgc','uhDjCuC','0ldrInc4inc00ldqVDc90yVqTq','0llrGTc+0ydqTTc10l3qUngp','y3n4tKS','BMvMAxqGB24GEq','yw55ihrPBwuGDG','ihrPBwvZoIaYia','yxjLigfJDgL2zq','AxbLiowUIEwfQoI/M+IHJooaGG','0ltrJcdqS9c70ldqT9cW0lZqUa','0lxrGDgc0llqUngc0yWG0yhqSG','yw55igfUzcbHBG','54US56Ul56EP5BQp','phzPzgvVihnYyW','rw1HAwWGBM90ia','zsbHyMLSAxr5ia','ywLZB248l2XPpG','lNn1Bw1HCNKTyW','54YC5Rwl5OIw6yEn55sO5A+g56cb55Qe5BcD6k+v','lcdrH9gc0l46','5yw85A65igLqAg9Uzsa','C2nYB2XSvg8','0jFqSnc60l7qVsdqVDcW0lRqSa','Dwn0ig9YihbYBW','Dg9YzwqGB24GDa','yxj0iokaLcdIGQW4oq','BmoPC2LTzsbliokaKW','yMfUAZWVBgK+cG','0llqU9gp0y7rGTgb0y8G0l7rHa','8j+AGcdMHl/MMA8','ls1YzwqPoYi+rq','ihnLCNzPy2u','l2nVzgvZl2fYDa','mdmYmJi2odmWlW','B25UywLZ','BNqUlI4','0llqTDga0lBqTnc10l3qUnc1ia','0lRqVTc80ytqVTga0yiSinc3','8j+mJsdqL9cW0yNqUngc0laG0l4','ms4GuhvYCg9Zzq','ig91CIbLEgnSDq','ChjPDSoPzsbKzxm','CMeSigeGy29TCa','zgL2','yw5KigXPBwL0CW','zwzPDcbMCM9ToG','zw1LBNqGAxmGzG','pc9HpIW','6zwC77Ym5BIMidqUmYdOI7hLR7G','sNLYu3K','DgvZigXLCYbWyq','0yhrJYdqSIdrGTc10yFqTDc9','zwfIBguGCgfYia','igL0CYbJB25KAq','CYbRzxb0igzVCG','zgfTywDLCYaOza','0ltqTDc90lJrJY4','8j+pPIbpCgvUig15ia','DhrWlw1LDgHVza','0yhqSc4','zmoPywWGCg91CIa','0ylqTDc70yZrGDc60l7qVngdia','DxyUzNiVy29Kzq','0yhqVDc+0yhrGTgmincX0lxqTW','8j+KNsdKVB/NLkJMIjhNMOtMJQJOJzdPK77MJQu','Chm6lY9LDxiTBa','0luSinga0ldrGDc/0ydqVTgb','0lRrGngl0ylrI9gfingb0lxrGa','lcdqUTc+0ylqVTga0yVqTsa','6zMI5Bcg5yw35PYj566H6l6w5P2d77Ym5BM26yg1','lIdqK9c+0ylqVTcY0l4G0lC','ienVB2TPzsdMNAxMLlK','0l7qTTc10yiG0lhrI9gc0yWG','0lxqSTcW0lxrGIdqV9c+0lVqVq','CIbdB2rLpc9HpG','0jlqSngi0luG0lJqVngp','mtqUincC0lxqTnc40ldrHG','staWmdaWnJq0mq','y2X1C2LVBG','44cb5BYa5y+r5lQ65zgy5OIw5Aw95Awh55Qe55sO','8j+CGsdqLnc40yhrHTc40l/qU9c4','0l7qTncY0lxrGncZ0ldqTDgcia','At4kicaGicaGia','0khqVTgf0ydqSnc90lxqVDc90yS','AxrZigr1ywWGsa','lcbIDxnPBMvZCW','teXfvcbjvIdIGjqG','BMCU','6lcd5Pw0ieXfrcdPNAlMNB/NMOq','zunOyxq','8j+BOE+4JYdqMTc40lhqTDga0lhqTDc3','5zUE5Asn44cc','0luG0yhqU9c10ltrG9go0yNqUa','ihLVDsbJB25Uzq','0lxqU9gm0l3qVTgb0ylrJcWG','Aw5ZCgvJDa','B21V','0lpqVIdqV9ga0l7qTngd0lRrGG','vhLWzs1pChrPBW','mdaWmZiYmJy4mG','Ate4BJ0IAg93xW','inc30ldqV9gd0lpqUncY0ldrJG','B2XPy3K6idXJBW','x2jSyw5RiIbYzq','incu0llqUnc20lxqVDc40luG','C3vUzYaVigLqyq','0luG0yhrGDgl0lVqUTc4ingp','4PYu77Ipie5TyxaG4Ocuigy','ywDPiokaKYbdyxbP','tmoPz2vUzguGAxm','5Qoa5P+L6zQ+5lUL5yIW6l6+5yY65z+F77Yi566H','nEkcRcKU','DgnOlG','zw4GAhr0Chm','8j+pOIdLHAZLR5m','ignHBwvYysbLBG','zsbZzwXSzxiGDa','Dd0Ix2jSyw5RiG','0lxqTTc40llqSnc90lJrJYdqVW','Bw90B3jZlcbPDa','vMLUDgvKlcbdCG','8j+sUYdNSR7NPz7PQPRMIBa','yYbTzxmGBgLLBG','0yVqTsdqVDcWifzPBNq','BMfSCYbJyw4Gzq','zMzZzxq','y2XHC3m9iMjHza','B2r1y3qTDgL0Ba','BsbVzIaXncbKyq','ntC5iIb0yxjNzq','zMfSC2u','t3fryui','tg9HzgvK','6zo26kgm5PwW5O2U44cc5Ase55cg5A6m5ywO55sX','Bd4kicaGicaGia','yxj0AwnSzxmGmW','zsbOB21LihDPDa','Cs4GB2yGDgHLia','CM5LzcbIEsbgCG','CMvWBgfJzvn0yq','0l3qScdqV9ga0l7qVDc40lRqVq','DcbIzsbOzwXKia','mZ4kicaGicaGia','5zci6kEe57Y66zM355Qe5l+D6k+b44cc','5lUL5lIl5PIV5y2v54US5OIw5zUI5lYz5l2C5Qgi','ig9MihrOzsbdBW','zsb0CMfUC2zLCG','teXfvcbjvI4G0j4','0ylqVTc8lIdqKIdrJDgc0l4','iokaLcbbBgfYBwuG','ChjPy2vZigf0ia','z3vPBgXLDf9JAa','C19MB3vUza','CMLRBIdIGjmGu2fT','yw5ZzM9YBxmGzq','ihjLzNvUzcbVyW','ywn0AxzLigfUDa','zdOJmteXoYbIBW','B3qGAw4GAxrZzq','zxmIpKzVBMn0Aq','5A6A5PYF5A6H6k6H','zJ0IDgvSoJa3oa','yMfUAYbJB21Wyq','0l7qV9cW0yhqVDcW0y8G0l7qVW','0lGG0ydqSnc50l7qVDcWinc0','B2rLCY9HCNrPyW','igXLieTzmta4ia','y2HHDf9IDg5FDG','6zki5A+55A+g56cb55Qe5Ps75yE7','8j+tHcdPLidLLk7MNAhMRl4G4OctieC','mtaG57gZ5y2k5yIA5OcN55s157Yg','Ag9W','w0zsxsdWN5kjie15CW','5Rgc5yIG6zMK5OIw5l+U5Ps55OkO55Qe5PwW5O2U','tejYv3m','546W5zYO5y+V5lUL6ycA6l+h55s15A2q6ykU5lU2','mtHUpsjIywrNzq','ms4G0kBqTDc70yW','icaGicaG','0ldqTDc80l7qVcdqUIdqV9ga','ACoOBwuGDNvLigq','0kprGDc70l7qSTc40y8G0l/rGa','inc+0l3qUcdqT9cW0yNqUngj','0lJqVTc00l3rI9c1inc/0ldqVq','CIbHihnOyxjLza','0jFqSnc60l7qVDc90yVqTsdqSW','rufSDMS','igfSCMvHzhKGAq','C2nYzwvU','BIbWCMvWyxjLza','0khqVTgf0ydqSnc90lxqVDc40lu','icaGicaGica8Aa','w0zsxsdWN6EQiejPBa','ChjVAMvJDgv1CG','q29UBMvJDcb0Aa','0lGG0l/qTDga0lxrHDcY0ldrGG','0ypqUDgc0luG0lGG0ltqVTcX','iow/Q+MaN+MfJEMaGq','lcbNywLUzxmSia','0klqTDc70lxrHnc+0l0','B24Gz3vPzgu','qNHhBee','ingb0lJrGTgd0ldrHTc40lKU','suXmrvqGsvyU','0yhrGTcW0l3qVTcY0lRqTsdqVW','0liG0lJrGDgf0l7qTnc90l7qVa','5A+g56cb5lUL5y+k6kkR6yEn55sO55Qe5A+g56cb','0lJrGDc/0ydqSncY0lVqTDc90lG','inc4ingb0ldqVDc60yBqUnc4','0l7rGnc40lxqUsWG0ypqSTcW','yxKGkfn0CMLWzq','y29TBwL0BwvUDa','0jFqSngj0lJrIDc10l3rIYdqUW','z2fLuwO','yY9mruDjqvjusq','mJy4ndiViIb0yq','0luG4OcuincX0lxqTYdqVTc9','yw5Jzsb3AxrOia','vvLhrNC','0lJrGTcWlIdqO9gb0ylqSnc9','ugfYy2uGCxuNAq','BIbIzsbWCM92Aq','yNvTCa','DgHLigDYzwf0zq','rmoPDgfPBhm8l2G','qw55ihjLChjVza','tM1HCcbHBMqGyW','C3b1DguSihrOzq','iefNCMLJB2XLia','ihbSDxm8l2j1Da','4P2tiow4UoINGEMxRUMIMa','0l4GpgeGAhjLzJ0','y2HHDf9IDg5FAa','0lGSingb0l7qVTgc0llqTDgc','CYbPBMrPC3bVBG','B3rLy3qGEw91CG','y29TBwfUzgvZ','B3rVms5WBMCIia','0yFqUnc60l7qVcdqUcdqV9c+','8j+uKIdLRONLHAJMLk/KU5G','phn0CM9UzZ5qAa','twvTu04','DgGGB2yGyw4GAq','icaGicaGE3TctW','0yBqUngo','8j+rLsdqNnc+0lKGvMLUDa','4PQG77Ipios4JEIMGEElRoIhQUAjV+wpL+oaGUIVTa','0l/qUTc4lG','5lI75A6W5AsP56M64OcM4OcM5zcM5yIz5A6d5Bcg','ignVBw1PDg1LBG','CNmGB3v0C2LKzq','mIi+rmoPDgvJDgK','0ylqTsWG0l/rGnc40lVqSncZ','y3vZDg9TzxiGyG','CgfJA19PDgvTxW','0l7rGDcY0lxrIDc10l3qUngp','ywLSlMnVBsi+Ba','0l3qVTgb0ylrJc4','CYbWzxjZB24U','y2f0y2G','Aw9UlwnVBNnViG','CYbZDhjPy3rSEq','igfUzcbMCMf1za','ihrVigjLDhrLCG','AwWGBIDLC3qGCa','8j+oTsdMJQlNTklMIjhKU6ZNMOtNI6ZLRRBPN7m','wwP2sxu','ieLwios7JUs4JEwTMowcQoAcQoEAHa','q25Uq3C','0l7qV9c40yhqSnc90lJqTDc8ia','0l7qVnc/0lxrGTc10l3rGTc90yS','EMeG4OctifvUA25V','5Ase55cg57o757UFicHtvefe','0yhqUTc+0lZqV9ga0l7qVnc10yi','ywrYzxnZzq','B25VBxKU','0yhrGDgl0lVqUTc1oIdqVnc+','igL0CYbVD24Gza','ihrOzsbPzgvHia','B3vLDhrLic8GyW','y2XPy2S','0j/rGnc40llqTDgc0yhrGTcY0lu','5lIt5lI65yIB5l2C6icf44cb5O6I6zMP5A625zkm','0yhqSnc80l7qUTc+0l3rGTga0l4','8j+BOE+4JYaYlxLLyxiGDW','BIbPCYbZzw50ia','DgvZic8GzMvUW6O','ueL1mZnvvJaWoa','tw9UAxrVCIbHBG','BvjgtLG','ChjVDgvJDgLVBG','t1Dbu1aU','5l2/55sO5OIr55Qe5O6O6i2q6zo+5O6L6k6I6zIf','CMLJDgvZDcbZzq','5yAS5A2J5Awx6kof','ifGTrNjHBwuTtW','0jRqU9c40lxqVDgcinc80l7qTG','yxbVlJWVBgK+cG','0l7qU9c90y/qTDgc0yhrJYdqSa','Aw50zwq','8j+oTsdLNkGGvgLRvg9R','5y+Q6zYa54k55yE75yEG5lIl5y2Z5y+V5yE65zsU','0j7rGDc80l7rGTgainc00llqUa','BYb0AguGB2zMAq','C0PQq2W','zv9SyY9mruDjqq','DxbKyxrLCW','BMvYiJ53yxjYyq','0llqTncWlcdrGnc10ldqU9gm','xZfFyJeIpKnOyq','0llqVTc30llrGncW0yNqTDc9ia','0ldrGTc90yVqUsdqVnc10yhrJW','wcuZqtmYmde2uG','AwfSAxr5lG','t21UAwrPCMvJDa','B25LihnVBwjYzq','0lVrJngb0ylqSIaO0llrI9gb','0ypqUTgc0ySSinc60l7rGTc+','oI42iJ7IGky8l3nW','AguGq29UC3vTzq','C3b1DguSigfUia','zcb2AwDPBgfUyW','CYWGC2vJDxjPDa','cIaGicaGia','DgvTxZeIpVcFP6qGmq','q3jLyxrLignVBG','B21HDgLJywXSEq','0ylqSTcWlcdqSTc+0lFqTngd','5BIM6zUg5OIqiezqvIdLSy/LUzu','Aw5HBcbJB25KAq','Dg8Gz3vHCMfUDa','0jlqVDc10yJqVDc40luG0ldqVq','BJSGBwfYz2LUlq','Dg9Nz2XLq2HHDa','8j+AQcdLM6lKVjNKVzZMOyJVVjRMS5xLVOVLPOi','5OQv5B2X5lUQ','ingb0yprGnc+0llqVIdqVDcW','weKTvcdIGjmGvMvU','5lI75A6W5l2G44cc5OIq5lI65lIn6zYa6kAb55Yl','tM1HCcdqV9c+0ltrGTcY','0ytqVTc9','mZuIihrHyMLUza','CM9JzxnZAw5Nia','wfqWmdaWmdyWnG','lwKXog49iNnLzq','5Qoa5Rwl5yIW55Qe5Qch5As077YA5A6m5Pw055Qe','ywLU','0yprIDc10yhrGTcY0l4G0l3qSa','B24Upc9WpGOGia','BwzVCNqSihbYBW','yxzLEIbWyxmGzq','0jiG0lRqSnc60lJrHsdrGDc7','0lxqTsdrG9gb0lVqVTcY0lJrJW','yYiGzgf0ys1Pmq','6igu572r77Ym5y2Z5l2/5zYO5ygp6l+C5zYW5yY6','0l7qSDgf0l7qTnc40lZrI9c1ia','0yuSincWincY0yhqTsdqVG','yw5RignVBxbHDa','DhrWCZOVl3D3DW','rvHumdaWmda2ma','0ydqTTc40llqSnc10yiG0llqVG','t25LigzYzwuGBq','pc9ZDhjVBMC+ia','xZiIpVcFLkyGmI4Gva','y2vFAwqSihn0BW','0l7qSTc10ltqTDc90lJqTsWG','5lIa5yIh6yo95Aw977Ym6lcI6lcI','0l3qVTgb0ylrJcK','CI1YywrPDxm6nq','iIbHCMLHlwnVBG','pc9KAxy+cIaGia','lcbYzxr1CM4GyW','B21L','oIdqUTc+0l3rGTc40l3qTDc9','mtm1ugDJt3zs','0ylrGncW0l3qTDc90lJqTsdqUa','l2rPDJ4kicaGia','Aw50W6LNCSoPztWV','0yhrJYdqSIdqV9gd0yxqVTcY','yw50zwvZlG','B2XSzwn0zwqGka','5y+n5Asn6lsS5l2o55sF5Rs75P2H5lU255Qe6kIa','y29TCgX5ihDPDa','qKzYv0C','l2j1DhrVBJ4kia','y2HHDf9Tzw51xW','Aw5RCY4Gsw5MBW','sw5ZCgvJDgLVBG','D2LSBcbIzsbTyq','y2fTW6LYysbKj2K','8j+tPIbqywnRignVBG','44cc5l+H5OgV5lYA6iEQ5yQO6Ake5AgR77Ym5OkO','DMLKzw9Zig9Mia','0jlqUnc30ypqSnc70yZqVDgl0lK','0lZrI9c1inc/0ydqSncY0lJqUW','igrHDgeTEM9VBq','y2LHBcb3yxjYyq','CIbLDMvYExrOAq','ywjPBMrLEd0Ilq','CMfTzs1pChrPBW','0j/rGnc10ltqU9cW0lpqSnc10lW','W6LNzw5Kzs4G0khqSa','5yIWidq4iowWJ+AxTUwgHEwpKEI0PW','otxIGQWG4OcIioMRMoE6P+wUIEwfQa','igXLCYb6B25LCW','0ltqTDgcinc00l7qVnc40l3qUa','Cw92ugK','ntGYnZrJuK1VBxG','z3vPBgXLDf9Syq','BgvK','mI4GuhvYCg9Zzq','igLUie1LDhjVCa','CML0EsWGD2L0Aa','zJ0IBwfPBhrVoG','u0LhtKvex0Lo','zgf0ysbUzwnLCW','CcbKyxrHlwKXoa','lJHYzw07ignVBa','0ylrGngd0lRrGTgd0ydqScWG','ign1CMWP','B3DUihbHDgGGDa','C3m9iNbYB2r1yW','AwWUy29TiJ5Syq','ig9MzMLJzsdIGjqG','5Rov5yw444clpc9HpUINHowUMUEAHa','rgTdzwC','AwjSzxmGzguGoq','4PYuiowUIEwfQoAuR+s7Ma','CNrPy2XLx2XJlW','0lxqUTgc0ydqVTc90l3qSngpia','D2fPDa','0ylqVTga0yVqTsdqSDgl0lVqUa','C2LNBKLUv2L0Aa','5yw444cl56YSide2ndeG5P2H','5lQN5zob5l+U5Ps544cc','sKTIsMK','AYddIwrPDgLVBIa','5A2y5zYO55Qe5lQl54MP55Qe6iM65PYV44cc','msiGDgfYz2v0pq','igfUzcbWCMfJDa','B25Uzwn0zxOSia','BIWGysbWyxLTzq','j3vYz2vUy2uUpa','AwXZiIbPzd0Iza','pGOGicaGicaGia','Bv80x2iZiJ5qBa','y3vYCMvUy3K','Aw5NigrHDge','0l7qSDga0ldqSDc+0ylqUTc4ia','inc+0lhqVDcW0ydrG9c20lxqVq','8j+rIsboBwfWignVBG','BgvNAxrPBwf0zq','svyGu2HVCa','inc30laG0llqSnc80lGG0l8','vg9Rzw7JGifylvzL','0khqSnc50yiG0l/qVTc00llqTq','AxqTzw5KB3nJBW','DxnLihn5C3rLBq','incC0j8G0yeG0ydqTDcZ0ym','zxn0Aw9UCYbYzq','4OcuifDOyxqGDg8G','zwfJAcbWyxj0Aq','AwuXoq','0jpqSnga0ldqVDgc0lJrJYdqUa','y2fSBhKSigfUza','CIbHDsbJAgf1za','inc6inc40l3qVDc+0llqSngg','0jVrJTcX0l7qUsdqT9cW0lRqSa','zs1WywDL','DcbVBIb5B3vYia','psjHC3LUyYiGza','inc80lJqVDgd0yiUincF0l4','vcbjvIbZAxrLia','lZe5nZyTmdeTma','BMvJDgvYkq','B2rLpG','igrHDgeTAte4BG','CgvUzxiIpKnosq','0yiG0l3qSncX0l7rGd8','qIdLJ6/LHyxNLluGkhGYkq','yxv0Aa','incr0l7qU9c10luG0lFqTDc7','0lxqTncW0yFqUcdrGnc10lprGW','0yhrH9c10yiGq3ldQwrP','zMjoBhi','5A2M5lMG5PEG5lQ65PY66AM+6AM2','0lJqTsWG0l/qTDga0lxqVDc+','BwuTt3b0Aw9UCW','CgfJDhmGDMLZAq','0jlqTDgb0yWG0lRqVTc90ylqTq','vhDVign1BxvSyq','v2vHAuK','yxaGjIbJDxjSkq','8j+rLsdqN9ga0lJrGDc+0lxqTnc4','0llqSnc80lGG0lGG0l7qTnc1','inc/0l4G0l/rGncW0llqUnc7','CYWGyw5KihbLCG','0jiG0yhqU9gd0yFqSnc1inc3','C190CNK','xZfFyJmIpKrLCW','0jJqVDgb0l/qTDc60yBqUnc+0l0','y2f0Aw9Uig9Mia','Aw4TuMvZB3vYyW','CM90zwn0zwq/','BNn0ywXSyxrPBW','igLZigeGy3jPBq','0liG0llrGDc/0l7qVnc+0lpqSa','sgLNAc1JyxbHyW','0lRqVTc90ytqUncZ0yprGncW0yy','ywrLCNmGkentua','8j+BKIbtAg9W','t3bLBIbHBIbHyW','otaT0lRrGncW0ylqVDgl0lW','0kpqVnc90l7qTsdqVTcX0l3qSa','zwXLDgLVBIbVCG','sgLNAc1ZCgvLza','z3vPBgXLDf90CG','inc70lJrH9c90yVrHsdqTncW','AdmGy2XHC3m9iG','0kpqU9c40yFqVDgl0lKG0yhqSG','igLUDgvNCMf0zq','0yVqTsdqV9ga0l7qTngd0lRrGG','0yhrGTgminc4inc/0ydqVTgh','zYb0BYbwAw50zq','ug9ZDc1ty3jPCa','w0zsxsdWN5kuifjVyW','6zU26lsM5OI357U05OQK6ls5','y2HHDf9IDg5FCa','mJaXnLiWnJC5iG','iowiHUMsN+wnS+wpR+wUJoAiKooaGG','BgLNAhq','zgLUzYbVBIb0Aa','B2TPztOGmtmG0lW','q2nxy0C','ica8BgKGzgf0yq','zwn1CML0EsbOzq','0ylqUcdqUcdqUTga0ldrGDc+','0jpqU9gd0lhqVTc60lJqUsdrGG','B25NpUAGUEAnRJXHigG','vM91Bgv6lxzVDq','yxLTzw50CYb3Aq','ms4GtgvNywWGAq','0ldrGTc10lBqUcK','icSGu09ot0zgkq','0l7rH9gc0luU','5P+L5OM+5OIr55Qe5BEY6AQm6k+b6zsa5zsU44cb','4OcuihnHBNmGy29T','pgjYpUMaMUI/H+EuTEIVNEAiLIa','zgvKicHuvemPlG','0k8GBgLTAxrSzxm','0jpqUnc90yZqTDc90luUpgi','s1fmwee','0lVqTDge0l7qVtO8l3n0','j3qGAgf2zsbHia','0lxrGDgmingb0llqVTc5inc0','yNKGzw1HAwWU','ihrVDxmGBgvZia','0yVqTsdqS9cW0ydqSnc90ylqUa','DMLHidXHigHYzq','5y2Z5l2/5zYO5ygp6l+C5zYW5yY65lMF5PIV5AAc','BguGzM9YigrHBq','0ldqUTgc0lJqSTc90ldrJYdqSa','y2XHC3nmAxn0','zs4GsxqGzgvZDa','j8oPy3jHBIbgufy','0lZqVTcZ0yprGIdqVTcX0ydqSa','0l3qUngh0lxqS9c+inc90luG','nsdMMj/OR4tKU7FKU6xLJ4OGvMK','ica8B2W+cIaGia','icaGicaGidXOna','ignYW6LHDgv1CNm','0jtqSnc90l3rI9c1inc90luG','A1zeteTRqLHJza','Dv9JmYi+ncbdyq','BMX5ihbYB3zPza','mJaXnI0Woc0Xma','0l3qScdrGDgc0lxqVDc1','igfSDd0Irgv1Ea','0y8G0l/rGnc40l7rGnc40ylqTq','B3jKzxi','0ydqVIdqV9c+0lBqSnc70l7qSG','5yAz44cc5OkO5y+Q6zYa5AgR5yAz5OkO55Qe5l+H','0lVrJYdrGncW0lhqVTgc0ySG','0lhrI9gb0ylrGnc+lcdqVTcX','0ytqVTga0lZqSngg0lJqTDc5ia','y3qGzxqGy29UzG','DxrOB3jPEMf0Aq','ChGGC29SAwqGDG','CMfTysWGu3rHCG','zw5LCIi+44ck5RAi6ls56icf','DhjHDgLVBIbWyq','pc9HpIbHBMqGDa','0lZqTDc00lJqSngc0l7rGngdia','mtHUpsjWywnRxW','0l3rGIdqTnc70y8G0l7rGDc8','zw50igqNB2jZDa','CMvMpsjODhrWCW','yMj5mfrwAMnsCq','CMvHChbSEuXHBG','y3vFD2fYCMfUDa','6AUy57QN5A6j5ywO5Awx6kof','BwvUDcbPBMnSDq','5y+r6lsN5PE26zE05PIV5AsA5lMf77YF','54s25zco6l+B6kgm5lUy5QY+44cc','mtHUpsjMDwXSxW','Cg91CIbYzxn0zq','0l7rGDgc0lGG0l7rGIdqV9c1','BxKGzxHWzw5Zzq','vgvZDcbZAxjLBG','mJqG5P2Hpc9HpU+8JoMaGa','C2LUzYbVCIbTyq','8j+sHsdNVO7NLllKUi7NVO7LRRKG4Ocuia','os4G0jFqSnc60l7qVDc90yS','zMXLEa','inc/0ydqUngh0lJqVs4','yxLTzw50','55Qe5lQN5zob77Ym6AQm6k+b6lsT54MP6l2M77Ym','C3bLy3rPB24Gyq','CMvTB3zL','Agf2Aw9Ylca8CW','0y8G0lJqU9c4incX0yVqUYa','0j3qSnc20lZqUngc0luG0l3qSa','6iEQ5yQO6yEn5A6A5zcr5yIWieHuva','0yeG0lZqVTgi0lxqVDc90lJrHW','6AQA5OMW5yAf5A6577Ym5OkO5lMF5y+V6io96kkR','8j+AQcdNRkWGmtaG5Q2LiokaLa','5y2w5A625l+D55wz6zQp5PE25l+U5Ps55lU35Qc8','ica8yNv0Dg9Uia','0lxqUTgc0l3rI9c8inc/0ydqVG','ig9UBgLUzs4','zcbLBMPVEsb0Aa','0ldqSDc+0ylrIZOG0yhqSnc9','6ycA6l+hifn0CMLWzsa','l3D3DY5SzwDPzG','5zAe55sO5OI35l2t6AQm77Yi6lsT54MP6l2M44cb','BM9YBwfSihDLyq','r1HRDxm','DMfSAwqSigfUza','6k+i6Ake6zIY77Yj','DhrVBJ4kicaGia','mtmUincE0lhrGDc70ypqTG','8j+BOE+4JYdNVzhNU5ZLRONLHAG','ihbYB3rLy3rPBW','y2f0zwqGB24Gzq','CKLdwhm','6yca5zUE44cc','ms0WmsiGDgfYzW','0lRrHTc40y4G0l/rGnc4incY','igXLz2fSihDHCG','ysbZzxj2AwnLla','4P2K77IpioAeJ+w/LW','DMDtBu4','5lUJ56cb5RoO5ywL','0ltrG9c60ylqVTc8lG','0lGG0l/qVTgc0lxrGnc4inc6','0jiG0yhqU9gd0yFqSnc1ingb','os4G5Rov5A6A5l+D6k+b','0ydqSncY0lVrJ9c10ylqTDgb0yW','zxrHAwXZigfYAq','nZyTmdeTmdeIia','DMvTzw50oIbWBa','w2rHDgeTAte4BG','igHYzwy9iMH0Da','z2vHyMXL','DMvYiIbKyxrHlq','D2HLBIbHBIbPBG','5Ase55cg5lIQ5lQ65PwW5O2U55Qe57Ue57Uh5B+f','0l/rGnc+0llqTDga0lRqSnc8ia','zNjVBq','0luG0llqVTc/0ydqVTgboG','phaGzgf0ys1Pmq','B25NpIWGssbTyq','y2HHBMDLtgfUzW','oti0lZe5nZyTma','yKPutNy','D3ngzKG','inga0lJrGDc60laG0ltqU9gp','q3vRCNi','0lFqTnc90lxqTsWG0yFqTDc8','ugfJAYbtW6LJDxi','AxmTDMLZAwjSzq','l3a+','AwuGyw5KigrVzq','0ySG0l7qV9c40yhqSnc90ySG','zYbZCMm9iLbHyW','0ldrGTc10lVrJngb0ylqSI4G','0l7qTncW0lBqUcdrGnc10lprGW','6zEU5OIr5lIa5lIQ6zEU6Aky77YA','CZWVAdq+cIaGia','C2LYW6HUzsbLDca','6AUy5RIf5OUn5Pge6Aoo5PMV','ingd0ltqVTcX0l3rI9c5ingb','tdeYmY0YmIdMNAe8','CYbVCMLNAw5HBa','5Ase55cg5z+65lQo77YA','y2HHDf9IDg5FyW','0ltqVDc10lKG0l/qVTgb0lVqTq','0yaG0l3qTsdqV9c+0ltqTnc1','4OctieeGthv0ysbd','ndy4zNb6C2Dq','B24Gzw4Gy291CG','8j+pPIdqNTgc0lRrGngl0ylrJca','0jRqSnc6inc30ldrJ9cY0lJrGG','zgvUigrLzMvJDa','AgfZAa','AwjSzsb3AxrOia','igrLifjHChbLBa','BIa0ocbOB3vYCW','0llqSngo0ylrGDgppW','igHVB2q','0ldqSTgc0l7qVncW0ylqUngh0lu','0lxrH9cW0ylqU9c10lKG0lZqUa','ywrPBMC9iMXHEG','iokgKIbHDxrVBM9T','tefjtKu','rsbprIbuseuGrG','8j+KLIdqODc+0llqTDgc0ySGrW','ifbLCNnVBMfSia','v1f1rw8','zhvJDc1PBwfNzq','AhjLzG','77YApc9ZDhjVBMC+','zsbHihjLDhvYBG','0l/rGncW0llqUnc70ldqVcbw','CMrSrLC','ihrOAxmGC2L0zq','BJ0IzNvSBf9Kzq','su9ouW','0lxrGnc20ltqSnc10yi6ieG','C2vLx2XLC3m','z3HtBMC','nsiGDgfIAw5Kzq','zwtJGifdCSoPzgL0ia','0lxqVnc10l3rGTc+0liG0l3qTq','odbqihjLC29SDq','8j+pOcbiB21L','uMvWzwf0zwqGDW','0l3rI9c1pW','icaGicaGidX1Ba','0l/rGnc+0ltqSngo0ylrGDgpia','igvUihn0B2nRia','0lxrGIdqV9c+0yhrGTga0l7qUa','Dcb0AguGC2vSBa','zw52B3LLCK1LCW','zg9VCNmGlYb3Aq','B3iGC3rHzMyGBq','0ylqSTc+inc/0l4G0lhqTDc3','uMvKAxjLy3rPBW','odKG4OcIifbYB2PL','ifjLDMLLD3mGka','ignVBMzPzgvUDa','zvn5sw4','qMXHy2SGzw1IBW','lJq5pc9ZDhjVBG','0khqUnc90lJqUsdqVTgc0lRrGa','iokaLca5nsdIGQW','mJm6mdaP','0ydqVDc+0lpqVIdrG9ga0lxqSW','vMvYy2vS77Yi572r56Uz5OMy','5lMq57k+6ycj','ywXSigrLDgvJDa','ingbinc/0l7qVnc+0yNrJngo','5B6i6AUy5yw05lIa5yIh5A6m576o77Ymr1u','pJK5ldK5iokcRdWV','0lxrGncY0l7qVcdqV9c+0yhqTq','ihvUDxn1ywWGCG','y3nns0S','s0u4m1m4qv9ODq','0ypqTncW0lVqTDc90lJqTq','8j+tNIdqNTcX0yhqU9gd0lBqUncY','6yca5QY+77YF','0ltqVTcYlcdrGTc10yxqVDc4','tM8GChjVzhvJDa','B20GwMLYA28GlW','kYdqV9gd0lVrJngc0ySP','DgLVBIbirdWVAa','Aw4G4OcuigLKW6LHBa','6igu57o75RAi6ls56icf6lcd6kEJ5zgy44cc','8j+rLsbwAwv3ig15ia','0jJrGDc60yprGDgb0ylqSTc+ia','ruXfwcuZqtmYma','BMC+iq','vgfWBY4','qMvHDxr5','6kEe5yIz5zkm6kkR5OUn5Pge6icf55Qe6zQq56Eb','0l7rGTga0lxqSDc40ylqTDc70yW','lDcX0l7rGIdqVnc10yxqSnc9','zgLHDgLVBI1JBW','0l7qTsdqVTc00lxrJ9c70l4G','mJGXmxDTzKjzBG','CgvUzxiIpKDeua','BMrLihnPDgu','BwXUuNa','B3vYC29Yyw1Hia','0j7qV9c70ldrGTcWincX0lxqTW','mJaYnc0Xms0XnG','lcbHzgP1C3rHyG','inc60lVrJTgh0lxqUsdqUca','EwjLCG','BcWGywrKCMvZCW','y3r1ywWGChjVCa','6zYa55Qe5PwW5O2U77YAmtaG5BM077Ym','0l7qSsdqVTgc0lRqSnc30luG','0lVqTDcZ0lRqVIdqVDcW0lNrGG','BujvzxG','B21HAw46','CMuTzw50zxiUia','rxnJyxbL','zMLUyw5JAwfSia','5lIo5OM/6l+q5lQ65Bgv5BYa6lcd5P+L44cc','pc9ZDhjVBMC+5Qc5','zgLUzYb0AguGCG','0llrGTc+0lZqSngc0lJqT9c40ya','igLKzw50Axr5ia','CM9SBgvKigHLyq','5zkm6iEQ5lI75P2L5BU656Ul6iEQ5BEX55Qe6ygt','mdiWndC0osi+ma','yxnZpsjWCM9KDq','0lpqUngo','CNtdQsbHyNnVBhu','ywDPiokaKYbdyxb0','yw5KigjLBMvMAq','0yhqV9cW0yhqUncX0l4','swyGEw91igfYzq','AdqGzgf0ys1Pmq','igf0ienYW6LKAxq','BMnLz2XVCMLLDq','0yhrGTc10lZrIYdqVTcX0ydqSa','0yWSinc10yhqU9c4ingd0yC','Dw4GyNvYzwf1ia','4PYuinct0ldrGncW0l3rGTc40y8','BMnL','0l7rGTcY0lxrGTgb0ylqSTc40y8','0yhqV9c+0lVrJnc30l7qSTcW0yi','BgvJyxj0oML0zq','CYWGzhvJDhmSia','qvjustaWmdaZmG','0yhqU9c10lBqUncY0ldrGTgmia','lwfPzgu','inc4inc20lxqU9cW0l3qUnc1','5l615Oco5lMi5yQE77YF','zwq9iMzHBhnLiG','Dv90ywDSAw5LiG','0lFrI9cY0ldrJTgcoG','AgfZt3DUuhjVCa','yMLSAxr5lG','5zYO5Ps25zUE5lQN5zob5OIw6k+b5PIo5yw25BEY','0khrGTcW0ylrG9gboG','icaGidXIDxr0BW','udy4ihDHDgvYCa','5PwW5O2U5l+D5OQK5Rov44clpc9HpG','8j+tIYbtzwuGywXSia','mtiZltiYig9Mia','Dw5KoIbYz2jHka','zxj0Eq','inc/0l7qTnc00lxrGnc20lRqSa','0yBqUngpinc30laG0l3qTDgb','DgvUyw5Jzq','0ydqVTc00ldqSTgg0l7qVc4G','ywn0DwfSAxnLCG','0yhqVTc+0lhrIDcW0y7rGTgb0y8','ms4G0khqVTcX0lJrGncW0lu','ihrLC3rZ','0l7qTngd0lRrGIdqVDc10l/rGa','oIb0AguGs1KXma','5yIh5O2I5Rwf6iMYl+A3SEIjSUAOOEw8JW','6k6/6zEU5PE25y+V6io95lYA5yE6546W5l+H5OgV','BhKU','rcbJyw1LCMeSia','CIi+44ck5RAi6ls56icf5Rov5yw444cl','igzYyxvKigfUza','u2HVy2TZlcbSAq','tgL2zsbTB25PDa','DML2ywWUCg5N','ihbYzxzLBNrPBW','0l4G0liG0jpqUnc90yZqTDc9','BIaYncb0BYa0oa','vMLUDgvKios4IUAZQowgJa','nI4G0jtqVTgb0ylqSncY0lO','8j+NSsdLJ43MRlROR4JKUi7LJ43NGRNLH7VLIQS','BgvUig9YihrOzq','0j/rGngp0lZqSngpingc0ydqSa','0l3qScdqSTc+0lFqSTga0ldrGG','CYb1C2vKig9UBa','0lxqVDgclcdqT9cWinc40ye','0ltqVTc60ldqT9gl0llqSngo0yi','D29YzhmGyMfZzq','BMzVCM1HDgLVBG','tMndq04','CxvLC3qGWRCGnda','AxnVBgf0zwqGyq','y2LHBcbdB2rLpa','0l3qUnc10lW','0lxrGDgp0yBqTDcY','8j+rPcbtDgvWiduG4Ocu','0lxrGnc10lCGvMLUDgu','kokcRcKSigfSBcb0','5P2Hpc9HpU+8JowUOUAiT+ACIsa','8j+CGYdKUiRLJyC','0y4G0yFqTDga0lxqTYdrGDcW','yxv0Ae5LD3nSzq','l2rPDJ4','yw5ZzM9YBwuGyW','CYaVigDHCMfNzq','otb4ihPVB20Sia','8j+BOE+4JYbxyxjYyw50Eq','0yFqTDgb0ylqSTcW','BNqGB2yGysbKAq','BMvTzw50icmY','CM9KDwn0CW','igeGAgLNAgX5ia','psjMywXZzsiGyq','Cg9WC3rHDgu','DxrL','4PYuios/NEs/RU+8MJi0ios4QUACIa','lcbOywnRAw5Nia','ztOGmc44nxjLBq','iNbHy2TFAxrLBq','nc4GugvYC29Uyq','ChjLDMvUDgLVBG','yxbViemYndveia','kokcRcKSincY0lRqU9go0yC','8j+rIsdMRApLUlJKUjtLRONLHAJJGii','0lVqSncZ0l7rGncW0lFrG9c80l0','0l7qSDgj0lxqVDc40luSinc/','CMf2yxrPBMCGyW','4O+Zincy0ltrG9gcinga0ldqSq','r3r2vNC','DMvUigLMihLVDq','icb7E0jpvvrptG','AcddOcaYmgGGyxu','CYdNRyNVViK','inc80l3qVTc5ingh0lxrGnc1','0l7qUTgd0lZqTDc90ylqTsdqVW','pMfYDgLJBguGta','0yNqUnc80lGG0kpqS9c+0lVqVG','lM1HCNf1zwuTyG','w0zsxsdWN4+B77Ipie1PBa','zIb0AguGChjVza','DgvZDc1HDxrVCG','DxyUzNiVBg9Kyq','wc1dB250zw50lq','mtuUioMaGUEuQoAZLEw+IW','vMLZAw9U','ChjVzMLSzuzVCG','yxvSDa','Agf2Aw9YCYbVzG','CMvKihrVigD1yq','yxjPys1SywjLBa','0lVrJnc90ldrJYdqUnc90ytqVG','0ypqT9gb0lRqUnc1ingb0ypqTa','5ywO6z2I5l+D5OQK44ccmtaG5yIg6zkF','inc/0l7qUTga0yVqSTcW0y7rGG','0l7rGTgb0yprGTgb0ylqSTc40lu','mtzsmdy3osiGDa','CM9PDa','0ltqVTc90lxqV9ga0l7qVDc40yy','AguGB3bLCMf0Aq','Bc5MCI9MCI9WBa','zhbfqKe','B25Nihn0EwXLpq','BwfSAwnPB3vZia','0lZqVDc+0lpqUnc1inc00ydqVG','BCoPCMLXDwuGzxq','EsbwAw50zwqGBW','0l3qUngp','zsbMDxr1CMuU','BgXLBMDLlcbwzq','iJ5hyxjHBNrPzq','Aw50zwqU','0lJrJYdqTTc40lFqVDc4lca','ys1PmtHUpsjWCG','D3beshK','zgDL','CvnvDu0','mhb4idbWEa','CgXLCIWGyw5Kia','56YSieWYmJeTmJqG','AYbtW6LJDxjPDmoP','zsbJB21WBgv0la','B24Ty29UC28Iia','8j+BOE+4JYdqNDcq0jhqNTcGincr0ju','yMfZzwqGB24GDa','DNfOuKK','ysbqsviGC2vUCW','0lRqUdOG0l/qVTc70l3qSngp','0lxrGDgdidXHigHYzq','phnWyw4GC3r5Ba','EsbOzwfKzxjZla','y3r1CM5LicSGza','y2fTW6LYysbirc4','iensrvC','BgvNywWTy29UDa','4PQw77IpioAZLEw+I+wJSoAyJUs4JUwUIEwfQa','0lqGq3ldQwrPDcbb','8j+rIsdOV5NKUPVKV53MIQtMJQRMLR3MMk/NP68','EsbHDhrLBxb0ia','zZ4GkokcRdm1ks4','iNbYB2r1y3qTAq','mL9Imsi+nYbTBW','0lJrGTc10lVrJnc90l4G0yhqVq','5OkO5Bcg6kkR6yEn5A6A5zcr5yIW5A6y5PA55RoO','A19Zzwn1x3vZzq','inc00l7qS9c+0llqVTga0laG','zgLUzZ0IBgf6Eq','BNrLCYiGDgfYzW','0j/rGnc+0ltqSncY0lxrHIdqVG','inc90laGvMLUDgvK','lcbZDhjPy3qSia','DmoPpc9SAt4kica','AguGCMvZCg9UCW','0ltqSncY0yBqSc4','inc90laG0yhqVncW0ydrGTge','8j+rIsdLIiBMNPdOR4hLRP7KUOBMJihNU63JGie','0lVqTDc90lJrJYdrGDgh0lxrGG','0lhrIYdqV9c10ydqTDc20lJrGG','oI8VD3D3lMvJBW','5O6i5P2d55Qe5A6j5ywO5Rwl6k+v','0jRqSnc6inc+0ylrGDc70lxqTa','DgLVBI4','0yFqTDga0lxqTYdqV9ga0lJqUW','0ldqTTcWinc00ldqVDc90yVrHq','yxjNAw4TyM90Da','z2v0q2fYDa','77Ym5zU96zMf6zo26kgm5Qch5yEg','zwn1CML0Eq','5A6Z5Bck5lIL5OIw6ycG5OIq5Ogq5zct44cb5Pwm','ihnHBwuGD2f5lG','0lJqUTc4iokaKYdqSnc60lRrGW','r0LbuLrjmdaWma','zubNBwfPBc5JBW','DMLKzw8','CMLUzYbKzwzLyW','5zoQ5lQB5lIn5zYO5l+D5l+U6iYd5zU05yAf77YF','ingh0ylqVIdqUTc+0l3qTDgh','5zYO6BUr5PQx5yY65z+F6l+B6kgm6kEg6kEj5O6N','6ycj5OUP6z+Z5lMq','C29Yyw1H44cbu3rH','mcWWmda','zgvKihvZzsbVCG','C29SywLYzq','AxrZiq','0yFqUnc60l7qSIdqUcdqS9c+','5ywS5y+45zcn56EW77YA','6zUg5OIq5Bgp5BMv44cbmtaG57gZ5y2k','54wN54Mh5lIn5yw35zci5zcm5Pwi5yQB44cc','iJ5Ly29UB21Pzq','DgvYBMfSigfJyW','8j+oTsbtAxrLig11CW','0y8G0l/rGnc10ltqV9c+0lVqSa','yxrHlwKXog49iG','0yyG0l/qVTc00l/qUngb0lRqUa','AMvJDgv1CIi+cG','zsbKj0LUC3bLyW','B3bLpc9ZDhjVBG','0lFqTsdqUcdqVDc1inc/0l4','CNmSihr1Ewf1Ea','0luG0l/rGnc40llqTDgc0yhrGG','rxzLCNL0AgLUzW','z2jMs0S','4PYj77IpioIbLoEZU+AiKEs7Ra','5Asw6yoO5yIg5P6q5PI+56s677YA','lu1PDgLNyxrLza','DM5swhm','zsbUB24Gy2HHCG','psjKCM9Uzv91Da','0yhqVDc+0yhrGTc4oIaZnq','DwW+cIaGicaGia','0l0Uinct0l7qSTc+0ydqUngc','CIdKUiRMIQxLKyO','Aw5LiJ5wB3LLEG','yxn0CNvJDhvYzq','DhjVBMC+igLUia','y29KzsbPBMPLyW','0lRqUnc80lGG0l7rGTgp0lprHW','0lJqUsdrGDgc0ldqVDc00ldrGa','ywWGC2HVCcbLEa','zgv4psiTmsi+cG','0lRqSnc30yVqSTcW0y7rGIdqVq','6zUe5B+d5yUd5yUd55Qe6AoE6kgm5zgy6k6+6k6H','0llqTDgc0yhrGTcY0lxqVDc90l4','BwfPBNreAxnWBa','ignOB3nLBIbMBW','ifbOB3rVCYbVzG','0lhrGDgc0llqTDc90l3rI9c5ia','Bcbtzwn1CML0Eq','CMvSAwfIBguGzW','Aw9UlG','AgfUAxnTCYbHCG','DMuGChjVzhvJDa','zhjVBMvFzgv0yq','0l7qUsdqV9ga0l7qSTc+0ltqUG','0lG6idiTnsdrGncW0le','CZ0IChjVzhvJDa','lY93D3CUzwnVBG','DxiGC3vYihvUia','8j+rPcdqQncW0lmGnsdIGjqG','uIdqSTglinc40lZqTDc10yi','8j+BOE+4JYdKV53KV64','AhjVDwDOihDVCG','inc+inc30ldqUTcW0lFqTq','0j3qSncY0lxrGngf','zgL2pGOGicaGia','5z2A5zU655Qeide3mfqG5RAK','5yE65P2L44cc','0ySG0l3qScdqSTc+0lFqSTga','inc90luG0l/qTDga0lxqTncW','8j+AMIbmysbSAxzYyq','ihbYB2zLC3nPBW','0yNqUngc0ySG0ltqVTc80laS','CMuGChjVy2vZCW','Cgf0AwjSzsbPua','u0Dwre8','ywDLCYbYzwXHDa','EfjgC0q','8j+oPsbmzsa8C3rYBW','5lQB5yAf5A6577YF','0jtqSnc50ylqTsdrGDc+0lVqVq','C2fNzq','BMuGy2HHBgv1CG','0jRqSnc6idXZDhjVBG','5Qc55O2U5OM/6l+q5lQ65zkm5lQK6lsN5yY65z+F','8j+uPIaYlIbqB3DLCG','0jtqVTc80ldrInc90lJqTsdrGa','ihbVDxiGCgfYDa','5OMt5BYa5zkO6k+I6igk5AsP','BhKGD2L0Acb0Aa','ig1VzguU','y3rLDxi6idm14OkS','0l3qSnc00lxqTTc90ldrJYdqSW','zxvYCYbLDcb1BG','ncWZiIWGy8oIyMW','lNPVB20Ty2XVCW','0jFqSnga0y/qTnc60laG0yFqTq','5yw377Ym5lIa5lIQ5Bcg5Q+p5QYH6AoE6kgm6yo9','0lFqSnc60ldqT9cWkq','DgfYz2v0psjFyG','B3rYzsbLEhtdQxi','4P2tiezbuq','B25NpUMdQowiHUoaGG','CM9Qzwn0zxvYia','W6L0Axf1zw1LBNq','0jZqVTgpinga0lxrHnc10ydqSa','0ylqTDgh0lxqVDc40luGndG','ywnRx3nLy3vFzG','77YivgfWBYaRifnp','Dg91CYbSzxmGyq','vMLUDgvKicHWCG','ig5HDhvYzsbVzG','y2HHDf9WCM9QxW','yxD3tui','ingb0lVqTDc00l7qSTcW0ylrJa','DcbWzxrPDhmGyW','yw4GAw50Aw1Pza','DMfSDwu','0lJqVDgb0ylqSTc+inc40lVqUa','zxq9iL9IBgfUAW','8j+sHsa8C3rYB25NpG','55U057Q/77Ym5Q2J56gU55Qe6k+D77Ym5lIn5Pks','B24Gqwn0pc9HpG','44cb5yE65zsU44cb5ywX5lQR5OIw5lYG6l6+57Uz','rw5LCMD5ioAoQoInKa','0ydrG9c/0l/qTq','zw4Gywz0zxiGDa','vfbRz28','0ldqVnc4','8j+oTsdqNTgc0lRrGnc+0lNrGTc1','5AAc5l2v55sZ6k+35l+D5l+U77YF','zw5ZB3jZig9Uia','C2nVDMvYihLVDq','DwfNzq','BwL1BtWVAdm+cG','0ydrIYWG0l/qVTc70l3qVTc5','5PEG5OM/6k+6','seqG0l3qVTgh0l3qVTc1ia','mYi+q29UBMvJDa','DgLUzYbTyxKGAq','5RkH5PYj5lU75l2v5lIC6kw/5B2X5zon6k6/5A6I','pYbbihbYB2PLyW','mI4G5lQN5zob','y3rHy3vSywLYzq','8j+pOcbiB3vZzq','og49iMvUzg9FDq','0y8G0l7qSDga0ldqSDc+0ylqUG','mtqUioIWG+INOW','incYincy0l3rGTc10ydqVDc1','0ylqUngh0l3qVTc5inc20lJqTW','0llqUnc80l7rGDgc0lxqUsdqTa','ihnPigjLC29PBG','0l/rGnc10ltqV9ga0lJqVDc40lW','Dgv4Dgu','0ylqUTc4inc4incY0yVrGDgc','0yhqTsdqUnc00lxqSnc70yZqVq','C3DVCMrZ','8j+BOE+4JYdqOncW0yhrInc40ydqTDc9','BNrHy3qGCgfNzq','6ycA6l+hidXHigHYzwy','5Rov44cl56YSidmYmY0Xia','0lVqUnga0ypqTDc80l7qUsdrGq','inc/0ydqTDc/0y/rGTgb0ylqSG','5OkO55Qe5Pw05lIQ5A625BQT44cc6z2E5BI46ycc','5OQa6io95OIw5Asn5P2c5BId57Q/44cc5lIa5yIh','iNrHz2XPBMuIia','B20+cIaGicaGia','8j+xGU+4JYdqQncW0lmGocdIGjqG','ihzVDxmGzmoPy28','igzLDYbTAw51Da','mcbTqwGG5ywf55s15A6Dia','inc90lxqVnc10ltqU9c10l3qVq','0j/qUnc70l7rGTc40ydrG9c50yi','W6LKAxqGqwDYAwm','rvDnCuq','z2uIigrHDgeTAq','ifbHy2SGyNjPBG','5O6L5y+x5PYS5P2H5QY+44cc','0lKG0lJqVDgb0ylrGngd0lZqTq','zxy1utrywdzXuG','0lVqUngh0l3rI9gfinc00ldqVq','iKrYB25LieT5mq','DgzVCM06','Dcb0BYbVCgvUia','ihjLBd0IBM9VCa','0lxrGDc60lGSinc4incY0yS','0lRqSnga0ylqSa','5OQK5lUL5y+k5AAc5l2v6kgm5l2/5OkO55Qe5P2d','qsbXDwvZDgLVBG','0yhrH9c10yiGqM91CNm','8j+BKIdqNncW0lpqSnc30lJqVq','incYinc00l7qUTgd0lZqTDc9','pKjYyw5JAgvYia','0lJqVcdqT9cW0lRqVTc90l7qTa','ywDLiokaKYbqCMvT','CM1PC3nPB25Zlq','ChjLBMrYzsdWN6su','mJqTBw9UDgGGDW','8j+sSYdqLnc+0lhqSncY0lJrGTgm','BNn1BwvYienVza','yxzLyYbKW6L0zwm','5ywO5zcr6yg/6zQC','0yprGDgliq','0lxrGTc40ylqTDc70lxqUs4','0khqSnc50yiG0l/qVTc70yZqTW','8j+sHsbuAguGphn0CG','DgHLigLUDgvNCG','0lxrGncW0lVrJnc90yVqVcdrGq','8j+BOE+4JYdMIOdMNk/LRONLHAJLRQhORQeGka','6yAs44cb55cg6kEJ44cb5RIf5PMW44cc','EwT6rNe','0ylqTDgb0l3rJ9c50ylqTDgb0yW','0lRrGYdqVDcW0l/rGngp0lZrGW','AuTPEvC','77Ym6ywn5AshifbjuIdKVkdMHj8','CMfTyEoaGvn0yxjS','BNzVBhzLihbYBW','ifn0CMLWzq','BJWVBgK+cIaGia','zw5LzML0CYbMCG','0l7qTngb0ypqTnc90l7rGDgc0lG','B3b0Aw9UCW','0ylqTDga0l3qTDgc0luU','5ywO55Qe5PsV5lUy5zkm5A6m5ywO55Qe5PY65A+g','rfbskq','8j+sSYbbzgqGDg8GyW','B24GoG','zxmGDgfRzsbWBa','C2vHCMnOlwHPzW','BMnLlG','E3Tct1vut059Fq','BgfIzwXlzxK','w0zsxsdIMPtVUi8GuM9O','icaGidXKAxyGyW','EM9VBu1VzgfS','ihLVDsbLBMPVEq','vfHulZ91CMK9qW','6AQA5OMW44cc','0yJqSnc10yiG0lBqUnc30l3qUa','DcWGy29TCgfJDa','0jhqVTc90yprGDglinc4inc/','0j3qSngb0ylqVTgp0yNqUnc1ia','8j+uTcbsDxb0DxjLia','0l7qSIdqUcdrGDc70l7qTTc9','ifbpu1qSie9qva','idXSAsbKyxrHlq','ihnLBgvJDgLVBG','y3rVCJOG4OkSmZuG','0l7qSIWG0yxrGncW0l3rJ9gc','Bhm9iMrLDgfPBa','Cg9YDgfIAwXPDa','0yNqUngc0lJrGTgmincY0ldrIa','0ldrGTgd0ydrIW','y2f0Aw9UlcbWBW','BNm6idXJB2rLpG','CYbWCMvSB2fKpq','z25LBI4GqM9VAW','zcdOP4tLIjNMIjBNLlhLJzBLRRBNM7tMJQu','5QY+5zYO6ycA55+L5PkK6zsa5zco5PYa5AsAia','zxOGC3vYiefotG','u2v4DwfSigHHCG','y2vZC2LUzYbZEq','0yWG0liG0yhqU9gd0yFqSnc1','0ltqU9gpingh0ldrGDgc0l3rIW','BMCGqMfNicGYmq','8j+uKsbtDgvWideG4Ocu','tg5pyKO','CYddQwXLy3rYAwm','DwXSxZeIpKWNBW','AhjLzJ0IBwfPBa','u3rHCMXPBMSSia','0yhqUTc40yuG0l3qSncY0yVqUG','mdaGBufOiokaKYbt','cIaGicaGicaGpa','5OkO5y+V5lUL5zcridXHigHY','q29UDhldTgXLihy','B3rVmI5WBMCIia','C3rRq00','EuXhufy','0l7qTcWG0laG0l3qTsdrGq','mdaWmdy0nde5mG','DgvTxZfFyJiIpG','0y3rGTc+incY0yVrGDc+0lRqVG','BNv0zxmUpc9SAq','lcdqV9c+0lVrG9c20lxrGDgc','C2vSzwn0','0yBqUncW0lVrJnc90l7rGDgc0yW','w0zsxsdWN6EGie15CW','ihDPDgHPBIa0oa','8j+sScdML6dKURRMNlRVVjO4oEkcRca','0llqVDgl0lKGsfnuuYW','C2fNzunOyxq','0yhrGTc4iokCQa','0l3qUngpinc90laG0l/qVTgb','DhjVBMC+lG','ig51BwjLCIbJyq','inc00ldqVDc90yVrHq','0ylqScdqUnc70lGG0ltqVTc6','tufjtLrftKfoqW','tfmGms4Z','zhvYW6LLpc9SAt4','0j/rGnc40yhqVTc10ltqUnc90y8','mtaUincx0ldqUTc+0l3qVq','56s+5lYA5BEL56Il5lIo572r57UC6zkt6Bg8','0l3qVTc80ldqU9c40y4Singd','inc/0l7qSTgc0l7rGnc90l4G','8j+CGIdqODc40lVqSa','0j3qTDc/0l7qU9c90yVqUsdqVW','B3vUza','yxv0Ae1VzgfS','8j+uPYbnywLUDgvUyq','ieLwipcFLku','0l7qTTc10ylqTsdqVTgc0l/rGa','5lI6ifrPA1rVAYdLKOW','nc8XotC2ltaXlq','5lUw5lUS5lIn5A+56zE05O6L5O2F5A6Z77Yi5PwW','BYbVBMXPBMuGCW','nY4G0j/rGncW0llqVIdqVq','igrLBgf5ig9Yia','ihbHEw1LBNrZla','vgHLC2uGChjVDG','yxCSig9Yihn1CW','6yca5QY+5Qc55O2UifzPBNrL','0ldrGIdrGDga0lxqTngb0ylqSG','0ltqUngc0luG0l/qVIdrGDgb','igfNywLUC3qGAq','W6LLC3nHAwuGzge','rgvWzw5KAw5Nia','CYbLEgLZDgLUzW','ncboB3qGrM91BG','ChjVzhvJDhnhCG','y29KzxmVyxj0Aq','zw50l0zsl1ryva','C2vHCMnOlwvTCa','ihbYB2r1y2LUzW','DhrWlwHLywrLCG','0ltqSngc0yFqUnc60l7qSIdqUa','zcWGywXVBMuGBW','qMfJAYb0BYb0BW','DhLWzt0IyNv0Da','AxrOig15ihjLzG','msdrGDc40lpqVDcW0lVqUnc3','ywWGzM9YigLUza','B3bYAwf0zsb0zq','zfDxDg0','BgmVtevhsufsva','imk3ifn0yxjSAw4','0luSinc00ldqTTc1incYia','C2nYB2XSvg9fBa','icaGpgG0igrHDa','0lhqTDc30l7qV9cW0yhqVDcW0y8','0lNrGTc1ingb0llqTDgc0l7qTa','DwP2zhG','8j+pOcdMIl/LSyS','zwqG0lJqU9c4inc00l7rGq','CMLJzt0IodKIia','0llqVTc40yuG0ltqSnc90l3rIW','0lGG0lJqU9c4incZ0ltqTs0','DxbHyMfZzs5JBW','Aw9YigrLDgvJDa','CgXPyw5Jzsb3Aq','t25SAw5Lig1VCG','q29TCgXLDguGCa','CgXPzxmGyxv0BW','B24GDgHLBwvZ','zw5JAcbJB3vYDa','u1DMsgG','zhjVBMuIpGOGia','iMvUzg9FDgfNBa','BwfPBhrVoMXHBG','uMz1Dgq','sgfYyxnZBwvUDa','6kgm5yQO55Qe6io95yQB77Ym5BY65yQG5l2G55Qe','CIiGC3r5Bgu9iG','0yWG0lFqUnc80ymSinc+0ye','BgfZCZ0IChjVza','BM8GCMv0zw50Aq','0l7qUsdqS9ga0ypqV9c/0luU','nda3nZi3mgTKsfPSBW','0lVqTTc10l0G0lhrI9gc0yWG','mZuUmda','A2v5zg93BG','0j3qNTcs0jJqNDcA0ja','8j+tHsdqL9cW0l/qUngb0ldrGTgm','0j/rG9cX0lVqUnc60ldrHTc40y8','igfYzsbWCM90zq','y2fYDgu','0khqVTc70l3qTDgh0l3rI9c5ia','ihrVihrOzsbHza','0ypqV9ga0ldqSTc70lxqVDc40y8','verlAvC','x2L0zw1FmL9Kzq','B3v0ihzPysbwAq','0yVqTsdqSngc0ldqUTc4incY','w0zsxsdWN5cCifrOzq','0yprGIdqUngb0l/qVTc70yZqTW','54wN5lQU6BUr5PQx5yY65z+F','5OcN5O6O6i2q56cb5BM254k55yE76zo+5O6L5lQg','inc40yhqV9ga0ldqSTc70lxqVq','zwnVBM9TAwuUzW','BhKGB24GvMLUDa','AYbuyxbViemYna','inc/0l4G0yprGDgc0ldqVDc+','0l3rIYdqVTcX0yhqU9gd0lBqUa','y2D2','54k55yE76zo+5O6L','0lhqTDc30l7qV9cW0yhqVDc+0ye','0yhqVTcZ0lVqSngb0lJqUcaO','t2v1mxDonW','uhjVDgvJDcb5BW','5lIj5lIQ5y+V6lcd5RIP5BQM562j57QN','swTpuNe','iJ7IJ7mGvSoPCMLMAq','khzPC2LVBIbUBW','4OcIiowgRowTO+wLL+IJHE+8MJK5lG','Bgf0Aw9UicHhra','5OcL5Oof5yA144cc','ifrOzxnLig1LyW','vMvYy2vSioAjMoEUOEwpRW','B2XKzxi','AwvUDa','B25ZAxn0CYbVzG','0ldqSTc70lxqVDc40y8G0yhrHW','yxDHBcWGyw5Kia','8j+KNsdqOnc10ytqTDga0ldqU9gm','BYbjqsbLDca0ia','0ldrGncW0lRrGTc10yaG0yxqSa','og49iMzLyxr1CG','l3a+cIaGicaGia','lcdqV9ga0l7qTncW0llqTDgg','igLUW6LNywZdQwuU','BMSSihbYzxnLBG','zt0Iy29SB3i6iW','inc30laGmtaG0lZqUnc9','rKTAB1K','0l7rGdWVC3rYB25N','vMLUDgvKlIbjia','BY1MDwXSiIbHCG','sMfbzeW5','zxjHz2uGB2yGmG','0lqG0lRqU9go0yCU','lIbxzsb3AwXSia','ugHVBMu','ns4G5l+D55wz5PYF6zMq','inc/0l4G0lFqSngj0lJrGTc1','0l7rGDgc0l3qVTc5inc40l3rGG','zs5NB3v2lMzYlW','0lxrGTgb0y8G0l/rGnc4inc+','0lVqTDgclcdqSIdrGDc+0l4','0lKG0l/qVTc70lJrGTc40lRqTq','ywDLiokaKYbqCSoPBq','iokaLcbmj09YzhjL','Bw9Rzge','8j+AGcbwAxnPB24','0ltrGnc10ye','zcbVBIbtAg9Wia','CM1HDgLVBI4','B3nJB3bLihDPDa','AguGCgvUywX0Aq','CgXLBwvUDgf0Aq','5Q2J5BI45zkm6Ake5PYF55Qe5l+D5OQK5O6Q5PA9','zgv0ywLSC19WCG','0jZqVTgj0l3rI9c5inc4inc0','tM8GCMvMDw5Kia','B2X1DgLVBIb3Aq','y3rPB24GuMvNDq','z2fYywDLlcbVCG','ihn0ywjPBgL0W6K','0lGG0l/qVTc00ltqTDga0lBqUG','0yZrGDgpinc90laGu3rH','BMfTzq','BgvFBgmVtevhsq','0lxqU9gm0l3qVTgb0ylrJcdqUa','DcbMAwXLlcbHBG','5OIr5lUS6yEh5y+w5lIL5Qc85O6Q5PA95l+D5OQK','ioAXH+IbMUs6HUs8GEs4MUEAHowkM+MhJ+oaGq','ig1VDg9Y','0yJqTDc90lJqTsdqVDc1incX','8j+rIsboB3jTywWGDa','0l3qScbtDgfYBgLU','0luG0lhrI9gc0yWG0l/rGnc4','0ldqVDc90yVrHtWVyt4U','D2L0Acb0AguGCW','0y8G0yeG0l3qSnc80lG','khbYzwzLCNmTyW','566H44cb5OQa5PYV5A6j6kof5OIw54UT56Qe56M6','zwqGyw5KihrOBW','0lxrGDgc0llrG9c10yiU','0ylqTsWG0lpqVTgc0l7qSTc+','6zM377Ym5RkH5PYj6Aoo6zMP44cc','w0zsxsdWN6ESieFdQw4','inc80ldqS9cW0lFqUnc90laU','uhjVzhvJDhmGyW','0l3qUngplcdqV9ga0lxqTngd','incY0yhqTsdqVTc90lGG0ya','0ltqTDc90l3rI9c5inc60lVqUa','C3rHCNq','A2v5','AwXFmYi+rgLZCW','0yiG0yhqSnc50yiG0lhrI9c7','0ldrGDgc0l3qVTgb0ylqUcWG','igfWCgXPzxmGDa'];_0x302a=function(){return _0xb350c4;};return _0x302a();}function _0xfb09(_0x3a7af3,_0x537f57){_0x3a7af3=_0x3a7af3-(-0x1db3*0x1+-0x73*-0xd+0x1894);var _0x5f1122=_0x302a();var _0x86c80=_0x5f1122[_0x3a7af3];if(_0xfb09['XKfFWZ']===undefined){var _0x4a4227=function(_0x489731){var _0x2597b8='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x4077d1='',_0x402cca='';for(var _0x3486d5=-0x2*0x166+0x15d0+0x982*-0x2,_0x8eef63,_0x6d4ec,_0x4a39a5=-0x101f+0x2*-0x11ef+0x33fd;_0x6d4ec=_0x489731['charAt'](_0x4a39a5++);~_0x6d4ec&&(_0x8eef63=_0x3486d5%(-0x1e6e+0x901+0x1571)?_0x8eef63*(0x1a5f+-0x1e98+-0x1*-0x479)+_0x6d4ec:_0x6d4ec,_0x3486d5++%(-0x28*-0x52+-0xdba+0xee))?_0x4077d1+=String['fromCharCode'](-0x1*0x127d+0x1a92+-0x716&_0x8eef63>>(-(0x483+0x1*-0x16af+0x166*0xd)*_0x3486d5&-0x5*0x478+-0x1cd*-0x4+-0x2*-0x795)):0x26*-0xe8+0x44e+0x26*0xcb){_0x6d4ec=_0x2597b8['indexOf'](_0x6d4ec);}for(var _0x55b549=-0x17ef*-0x1+0x17f5*-0x1+0x6,_0x459232=_0x4077d1['length'];_0x55b549<_0x459232;_0x55b549++){_0x402cca+='%'+('00'+_0x4077d1['charCodeAt'](_0x55b549)['toString'](0x10f*-0x1d+0x13ec+0xad7))['slice'](-(-0x1883*-0x1+0x1a8a+-0x330b));}return decodeURIComponent(_0x402cca);};_0xfb09['OyEwkv']=_0x4a4227,_0xfb09['UreMYh']={},_0xfb09['XKfFWZ']=!![];}var _0x1274bb=_0x5f1122[0xcfe+-0x1fb3+0x12b5];_0xfb09['GpFfQL']!==_0x1274bb&&(_0xfb09['UreMYh']={},_0xfb09['GpFfQL']=_0x1274bb);var _0x177225=_0xfb09['UreMYh'][_0x3a7af3];return _0x177225===undefined?(_0x86c80=_0xfb09['OyEwkv'](_0x86c80),_0xfb09['UreMYh'][_0x3a7af3]=_0x86c80):_0x86c80=_0x177225,_0x86c80;}(function(_0x412726,_0x568b3d){function _0x49633a(_0x5b6ed7,_0x5dbb25){return _0xfb09(_0x5b6ed7-0x316,_0x5dbb25);}function _0x482dde(_0x4806e3,_0x46b45d){return _0xfb09(_0x46b45d- -0x260,_0x4806e3);}var _0x2065e3=_0x412726();while(!![]){try{var _0x4dc1ef=parseInt(_0x482dde(0x110d,0x64d))/(0x374+0x9b7*-0x1+0x644)*(parseInt(_0x49633a(0x137d,0xea2))/(-0x2304+0x24bb+-0x1b5))+-parseInt(_0x482dde(0xb89,0xf85))/(0x66c+-0x5a7+0x2*-0x61)*(parseInt(_0x49633a(0xc5f,0xe6b))/(-0x448+0x17bd+-0x1371))+-parseInt(_0x49633a(0x135c,0x1177))/(-0xa09*0x1+0x1*-0x7b5+0x1*0x11c3)*(parseInt(_0x482dde(-0x27b,0x29b))/(-0xc8e*0x1+-0x1*-0x1ffb+-0x1367))+-parseInt(_0x49633a(0x18ec,0x12e4))/(-0x12*-0x16e+0x2562*-0x1+0xbad)+-parseInt(_0x49633a(0x1034,0x13c3))/(-0x1cbe+-0x3*0x223+0x232f)+-parseInt(_0x482dde(-0x30a,-0x39))/(-0x6fb+0x10b4*0x1+-0x5*0x1f0)*(parseInt(_0x49633a(0x176d,0x18b4))/(0x159a+-0x11b9+0x3d7*-0x1))+-parseInt(_0x49633a(0x587,0xc46))/(-0x1605+0x4*-0x33a+0x22f8)*(-parseInt(_0x482dde(0x16d8,0xf2b))/(0x252d+-0xb48+-0x19d9));if(_0x4dc1ef===_0x568b3d)break;else _0x2065e3['push'](_0x2065e3['shift']());}catch(_0x5f4725){_0x2065e3['push'](_0x2065e3['shift']());}}}(_0x302a,-0x83*-0x2e7+-0x5c26c+0x953b0),(document[_0x1c0568(0x9be,0x1f9)+'stener']('DOMContent'+_0x1c0568(0xbca,0xdb3),function(){var _0x976c93={'bhnRf':function(_0x15c70a,_0x3adbef){return _0x15c70a!=_0x3adbef;},'PwIqG':'undefined','vnRXs':function(_0x7cee7e,_0x2fba2b){return _0x7cee7e==_0x2fba2b;},'DkcNF':'function','BxGlA':_0x175930(0x21b,0xa7c)+_0xe758e9(0x543,0xed2)+_0xe758e9(0xf06,0xbfe)+'te-checkou'+'t','CNJqN':'pk_live_51'+'UNkYQRNu37'+_0xe758e9(0xc99,0x1088)+_0xe758e9(0x1932,0x229b)+'2ppIQKlBEp'+_0x175930(0x12f1,0x1557)+_0xe758e9(0x1037,0x134a)+_0x175930(0x25b,0x945)+_0xe758e9(0x13e6,0xf74)+_0x175930(0x119f,0x11b6)+_0xe758e9(0x174f,0x1910),'fQPrf':'dark','QRJed':'[LeCart]\x20E'+_0x175930(0x983,0x5aa)};function _0x175930(_0x48718a,_0x326306){return _0x1c0568(_0x326306-0x551,_0x48718a);}function _0xe758e9(_0x4fe187,_0x41f425){return _0x1c0568(_0x4fe187-0x664,_0x41f425);}if(_0x976c93[_0x175930(0xcad,0xfa3)](_0x976c93[_0x175930(0xe56,0x1097)],typeof LeCart)&&_0x976c93[_0x175930(0x16fb,0x14be)](_0x976c93['DkcNF'],typeof LeCart['init']))try{LeCart['init']({'lecartApiKey':'lecart_0-B'+_0xe758e9(0x13ff,0x1d46)+'MSvtHx0iZ-'+_0x175930(0x1646,0x1752)+_0xe758e9(0x3ec,-0x1bc),'checkoutEndpoint':_0x976c93[_0xe758e9(0x1273,0xb0c)],'stripePublicKey':_0x976c93['CNJqN'],'currency':'EUR','language':'fr','theme':_0x976c93['fQPrf'],'collectShippingAddress':!(-0x1695+-0x2086+-0x371b*-0x1),'collectPhoneNumber':!(0x1c8a+0x23a*0x5+-0x13d6*0x2)});}catch(_0x4fc842){console['error'](_0x976c93[_0x175930(0xfc9,0x605)],_0x4fc842);}else console[_0x175930(0x4b4,0xa20)]('[LeCart]\x20B'+'ibliothèqu'+_0xe758e9(0x15d2,0x185a)+_0xe758e9(0xa7b,0xc4));}),(function(){'use strict';var _0x5f50de={'nEWtk':function(_0x31b7c0,_0x5a6198){return _0x31b7c0===_0x5a6198;},'UYGFw':'inline-blo'+'ck','TPkgo':_0x26013f(0xec6,0xc04),'yaJvi':'[data-leca'+'rt-add]','ISADp':'panierCoun'+'t','kLLUD':function(_0x14acdd,_0x7a01f1,_0x4398d1){return _0x14acdd(_0x7a01f1,_0x4398d1);},'ZJMcL':'DOMContent'+_0x45efc5(0x1a57,0x10c6),'bEONF':'lecart:car'+_0x45efc5(0xc0b,0xd83),'cYaJl':_0x26013f(0xfe1,0xe68)+'m-removed'};function _0x45efc5(_0x4251ac,_0xfe18a2){return _0x18cdf3(_0xfe18a2-0x143,_0x4251ac);}function _0x2de5f6(){var _0x21b148=document['getElement'+'ById'](_0x35579e(0xaf9,0xafa)+'t');function _0xa5b626(_0x21bfab,_0x24b1bc){return _0x26013f(_0x21bfab,_0x24b1bc-0x3c5);}function _0x35579e(_0x2a31d7,_0x4b34e5){return _0x26013f(_0x2a31d7,_0x4b34e5-0x55c);}if(_0x21b148){var _0x3ab601=0x1dc7+0x4*0x24a+-0x26ef;try{var _0x427aa9=JSON[_0xa5b626(0xb5d,0x98d)](localStorage[_0xa5b626(0x76b,0x80a)](_0x35579e(0x1ff6,0x1815)+'t')||'[]');if(Array['isArray'](_0x427aa9)&&(_0x3ab601=_0x427aa9['length']),_0x5f50de[_0x35579e(0x3a9,0x40b)](-0xcf*-0x27+-0x7a6+-0x17e3,_0x3ab601)){var _0x138a76=JSON[_0xa5b626(0xbad,0x98d)](localStorage[_0x35579e(0x478,0x9a1)](_0x35579e(0x172f,0xe3c)+'t')||'[]');Array[_0xa5b626(0x365,0x567)](_0x138a76)&&(_0x3ab601=_0x138a76['length']);}}catch(_0x4f8586){_0x3ab601=0x1*0x6ba+-0x9eb+0x2b*0x13;}if(_0x35579e(0x786,0x934)!=typeof LeCart&&'function'==typeof LeCart['getCart'])try{var _0xdf0380=LeCart[_0x35579e(0x1d14,0x1481)]();Array['isArray'](_0xdf0380)&&(_0x3ab601=_0xdf0380['length']);}catch(_0x41b965){}_0x3ab601>0x11e8*0x1+0x22*-0x1a+-0xe74?(_0x21b148['style'][_0xa5b626(-0xfe,0x226)]=_0x5f50de[_0x35579e(0x932,0x115c)],_0x21b148['textConten'+'t']=_0x3ab601):_0x21b148[_0xa5b626(0xdd6,0x32a)][_0x35579e(-0x2a1,0x3bd)]=_0xa5b626(0x97b,0x1b0);}}function _0x26013f(_0x48114e,_0x1906a3){return _0x18cdf3(_0x1906a3- -0x3d9,_0x48114e);}document['addEventLi'+_0x45efc5(0x125d,0x173e)](_0x5f50de['ZJMcL'],_0x2de5f6),window['addEventLi'+_0x26013f(0xb19,0x1222)](_0x5f50de['bEONF'],_0x2de5f6),window[_0x45efc5(0x11f1,0xeba)+'stener']('lecart:upd'+_0x26013f(-0x60,0x657),_0x2de5f6),window['addEventLi'+'stener'](_0x26013f(0x903,0xe68)+'m-added',_0x2de5f6),window['addEventLi'+_0x45efc5(0x1b84,0x173e)](_0x5f50de[_0x26013f(-0x9f4,-0xf4)],_0x2de5f6),window['addEventLi'+_0x26013f(0xe61,0x1222)]('lecart:qua'+'ntity-chan'+_0x26013f(0x900,0x12c4),_0x2de5f6),window[_0x45efc5(0x19a1,0xeba)+'stener']('storage',function(_0x443e49){function _0x52c081(_0xa2737e,_0x49d66d){return _0x45efc5(_0xa2737e,_0x49d66d-0x262);}function _0x3438d3(_0x4fd927,_0x2ad533){return _0x45efc5(_0x4fd927,_0x2ad533- -0x4a7);}_0x443e49[_0x52c081(0x1214,0x18a2)]&&(_0x443e49[_0x52c081(0x203a,0x18a2)][_0x52c081(0x4cd,0xe67)](_0x52c081(0xb4f,0x9b5))||_0x443e49[_0x52c081(0x1f1d,0x18a2)][_0x52c081(0x700,0xe67)](_0x52c081(0x481,0x8d8)))&&_0x2de5f6();}),_0x5f50de['kLLUD'](setInterval,_0x2de5f6,0x1cb*0x2+-0x112f*-0x1+-0xee9),document[_0x45efc5(0x8ac,0xeba)+_0x26013f(0x177c,0x1222)](_0x45efc5(0x192f,0x115a),function(_0x35b2ad){var _0x3c4737={'tydQV':_0x5f50de[_0xc19cba(0xf9c,0xfd3)]};function _0xc19cba(_0x1a7678,_0x5a168d){return _0x26013f(_0x1a7678,_0x5a168d-0x21);}function _0x2aa4e4(_0x5e7aa0,_0x22b5e7){return _0x26013f(_0x22b5e7,_0x5e7aa0-0x1eb);}if(_0x35b2ad['target']['closest'](_0x5f50de['yaJvi'])){var _0x3e9293=document['getElement'+'ById'](_0x5f50de[_0x2aa4e4(0x106,-0x13d)]);_0x3e9293&&(_0x3e9293['classList'][_0x2aa4e4(0xf7b,0x1493)](_0x5f50de[_0xc19cba(0x1a1b,0xfd3)]),_0x3e9293['offsetWidt'+'h'],_0x3e9293[_0xc19cba(0x1059,0xd79)][_0x2aa4e4(0xb8c,0x14b0)]('bump'),_0x5f50de['kLLUD'](setTimeout,function(){_0x3e9293['classList']['remove'](_0x3c4737['tydQV']);},0x196b+-0x19*0x167+0xb98)),_0x5f50de['kLLUD'](setTimeout,_0x2de5f6,-0x25c8+0x4ca*0x7+0x56e),setTimeout(_0x2de5f6,-0x25*-0x10d+-0x46*-0x57+-0x3b8b);}});}()),(function(){'use strict';var _0x37c687={'IVgKF':function(_0x4a8453,_0x534306){return _0x4a8453!==_0x534306;},'gxSng':_0x34e9b5(0x315,0x49a)+'_','YpJRr':'maintenanc'+_0x3e99de(0x1017,0x1446),'fqQrs':_0x3e99de(0x11eb,0x1c13)+'ar','pkxbX':'.audio-pla'+_0x3e99de(0xa6d,-0x4e),'QuWXd':'footer','lYlyN':_0x34e9b5(0x9c1,0x1)+_0x3e99de(0x55,0x8fb),'wiriS':'chatbot-wi'+'ndow','EVFhB':_0x34e9b5(0x52f,0x59e),'sxaoX':_0x34e9b5(0x13e1,0x16ea)+_0x34e9b5(0x453,0x91),'ldTOd':_0x3e99de(0xc32,0x14bc),'yAPhv':_0x3e99de(0x108,0x764),'CvOvk':'GUILLET\x20IV'+_0x34e9b5(0x11fa,0x1390)+_0x3e99de(0x1605,0x1fcb)+_0x34e9b5(-0x3b,0x3e4),'GXkus':function(_0x389710,_0x53d607){return _0x389710==_0x53d607;},'VLpiE':function(_0x1aaccc,_0x39dd5c,_0x595efd){return _0x1aaccc(_0x39dd5c,_0x595efd);},'BkvfT':function(_0x3bd1a3,_0x50383d){return _0x3bd1a3(_0x50383d);}};function _0x34e9b5(_0x1dffb6,_0x42f2e8){return _0x1c0568(_0x1dffb6-0xe4,_0x42f2e8);}function _0x3e99de(_0x1d58a3,_0x1bcc07){return _0x1c0568(_0x1d58a3-0x2fd,_0x1bcc07);}function _0x1c853d(_0x1ad3a9){var _0x225c11={'pFenq':_0x37c687['gxSng'],'cpddQ':'none'};function _0x7a8fef(_0x1370fe,_0x1cab36){return _0x3e99de(_0x1cab36-0x1ab,_0x1370fe);}var _0x5f3b34=document[_0x7a8fef(0x1f7,0x914)+_0x620751(0x3f,0x92b)](_0x37c687[_0x620751(0xcf4,0x898)]),_0x32baa8=[document['querySelec'+'tor']('.navbar'),document['querySelec'+_0x7a8fef(0x8a,0x407)](_0x37c687['fqQrs']),document[_0x620751(0x6b5,0x5d7)+_0x7a8fef(0xc35,0x407)](_0x37c687['pkxbX']),document['querySelec'+'tor']('main'),document[_0x7a8fef(0x3ff,0x897)+_0x620751(0x225,-0x36f)](_0x37c687[_0x7a8fef(0x1a2,0x999)]),document['querySelec'+'tor'](_0x37c687[_0x7a8fef(0xd62,0x28f)]),document[_0x620751(0x732,0x6f7)+_0x7a8fef(0x2fe,0x221)]('chatbot-to'+_0x7a8fef(0xf08,0xfa1)),document['getElement'+'ById'](_0x37c687[_0x7a8fef(0x144e,0xaba)]),document[_0x620751(0x732,0x987)+'ById'](_0x37c687[_0x620751(0x351,-0x5c8)]),document[_0x7a8fef(0x5e2,0x914)+_0x7a8fef(0xc99,0x221)](_0x37c687[_0x620751(0x9ca,0x1317)])]['filter'](Boolean);function _0x620751(_0x412207,_0x3a76e2){return _0x3e99de(_0x412207- -0x37,_0x3a76e2);}if(_0x5f3b34){if(_0x1ad3a9)_0x32baa8['forEach'](function(_0x1b20eb){function _0x3fbad2(_0xfbcba2,_0xed6a0d){return _0x620751(_0xfbcba2-0x3b6,_0xed6a0d);}function _0x4efb01(_0x3d7a96,_0x179f0a){return _0x620751(_0x179f0a- -0x168,_0x3d7a96);}_0x1b20eb[_0x4efb01(0x15e1,0x13db)][_0x3fbad2(0x15fb,0xed9)+'ay']||(_0x1b20eb['dataset']['maintDispl'+'ay']=_0x1b20eb['style']['display']||_0x225c11['pFenq']),_0x1b20eb[_0x3fbad2(0x601,-0x9f)]['display']=_0x225c11[_0x3fbad2(0xaa8,0x120f)];}),_0x5f3b34['style'][_0x7a8fef(0x28c,0x329)]='flex',document['title']=_0x7a8fef(0x13ca,0x1531)+_0x7a8fef(0xd6f,0x804)+'LET\x20IV',document['body'][_0x7a8fef(-0x6b4,0x42d)]['overflow']=_0x37c687[_0x620751(0xdbc,0x1198)];else{_0x32baa8[_0x620751(0x1530,0x1c93)](function(_0x3fef4d){function _0x429ad9(_0xddfc36,_0x436b91){return _0x7a8fef(_0xddfc36,_0x436b91- -0x4db);}var _0x3bcb5e=_0x3fef4d['dataset'][_0x5de2c5(0x19b9,0x1526)+'ay'];function _0x5de2c5(_0x2f53c5,_0x3fcb6e){return _0x7a8fef(_0x2f53c5,_0x3fcb6e-0xff);}_0x3fef4d[_0x429ad9(-0x83f,-0xae)]['display']=_0x3bcb5e&&_0x37c687['IVgKF'](_0x37c687[_0x5de2c5(0x1a1f,0x13c7)],_0x3bcb5e)?_0x3bcb5e:'',delete _0x3fef4d[_0x429ad9(0x1cf5,0x124a)][_0x5de2c5(0x1ca3,0x1526)+'ay'];}),_0x5f3b34[_0x7a8fef(-0x139,0x42d)][_0x7a8fef(-0x720,0x329)]=_0x37c687[_0x620751(0xd3b,0x38b)],document['title']=_0x37c687[_0x7a8fef(0x1371,0xccf)],document[_0x620751(0x912,0xab9)]['style']['overflow']='',_0x37c687[_0x620751(0x1088,0x1055)]('function',typeof window[_0x7a8fef(0xf91,0x1349)+_0x7a8fef(0x29f,0x6a9)])&&_0x37c687[_0x7a8fef(0xf1e,0x61a)](setTimeout,window[_0x7a8fef(0xce9,0x1349)+'BoutonHaut'],0x1db1*0x1+0x1d*0x135+-0x40b2);var _0x3a134a=document[_0x7a8fef(0x716,0x914)+'ById'](_0x37c687['wiriS']);_0x3a134a&&!window['chatOuvert']&&_0x3a134a[_0x7a8fef(0xcec,0x1220)]['remove']('open');}}}document['addEventLi'+'stener']('DOMContent'+'Loaded',function(){_0x37c687['BkvfT'](_0x1c853d,!(0xb19+0x178a+-0x2aa*0xd));}),window[_0x34e9b5(0x9f6,0x9a4)+'enance']=_0x1c853d;}()),(function(){function _0x380dba(_0x54199d,_0x514fc3){return _0x1c0568(_0x514fc3-0x25a,_0x54199d);}var _0x1d655f={'EGKly':'is-visible','EWMqD':'#security-'+'dashboard\x20'+_0x5862b0(0x109d,0x77e),'zqESY':function(_0x1b6af7,_0xe6127e){return _0x1b6af7 in _0xe6127e;}},_0x40badc=document['querySelec'+_0x5862b0(0x4ac,0x51a)](_0x1d655f[_0x5862b0(0x1776,0x1479)]);function _0x5862b0(_0x5393ae,_0x23c609){return _0x1c0568(_0x23c609-0x478,_0x5393ae);}if(_0x40badc[_0x5862b0(-0x5ef,0x39b)]){if(_0x1d655f['zqESY']('Intersecti'+_0x380dba(0xb58,0xb19),window)){var _0x137309=new IntersectionObserver(function(_0x54d0c2){_0x54d0c2['forEach'](function(_0x1bd286){function _0x1d9bd7(_0x59b875,_0x36c9e6){return _0xfb09(_0x36c9e6-0x343,_0x59b875);}function _0x2f551c(_0x19277e,_0x345e90){return _0xfb09(_0x345e90-0x32a,_0x19277e);}_0x1bd286['isIntersec'+_0x2f551c(0x1453,0x99a)]&&(_0x1bd286[_0x1d9bd7(0x92f,0x73f)]['classList'][_0x2f551c(0xbfb,0x1075)](_0x2f551c(0x175c,0x14a2)),_0x137309['unobserve'](_0x1bd286['target']));});},{'threshold':0.08,'rootMargin':_0x380dba(0x2d2,0xd52)+_0x5862b0(0x16e6,0x138d)});_0x40badc['forEach'](function(_0x2553d2){_0x137309['observe'](_0x2553d2);});}else _0x40badc[_0x380dba(0x1a43,0x14c4)](function(_0xe55d84){function _0x3dd305(_0x3b7804,_0x3df192){return _0x380dba(_0x3df192,_0x3b7804-0x447);}function _0x384c87(_0xb1c6ac,_0x3fff29){return _0x380dba(_0x3fff29,_0xb1c6ac-0x365);}_0xe55d84[_0x384c87(0x1337,0xac4)]['add'](_0x1d655f[_0x384c87(0x405,0xe9)]);});}}()),window['TRANSLATIO'+'NS']={'en':{'maintenance':_0x18cdf3(0x1436,0x1429)+'E','maintenance_motto':'The\x20GUILLE'+_0x18cdf3(0x10d7,0xda1)+_0x18cdf3(0xb14,0xfa3)+_0x1c0568(-0x16,-0x42c)+_0x1c0568(0x657,0x4bc)+_0x18cdf3(0x14c5,0xced)+_0x18cdf3(0x769,0xfc8)+_0x1c0568(0x34c,-0x379),'maintenance_info':_0x1c0568(0x12db,0xac9)+_0x18cdf3(0xc27,0x16e5)+'\x20Thank\x20you'+_0x18cdf3(0xdbd,0x698)+_0x1c0568(-0x1c7,-0x196),'contact_us':'📧\x20Contact\x20'+'us','order_independence':'THE\x20ORDER\x20'+'OF\x20INDEPEN'+_0x1c0568(0x313,0xbbc),'search_product':'Search\x20for'+'\x20a\x20product','clear_search':_0x1c0568(0x45,0x8a3)+'ch','matching_products':'Matching\x20p'+_0x18cdf3(0x128c,0xa45),'toggle_mode':_0x1c0568(0x4a9,0x4a9)+'ht/dark\x20mo'+'de','nav_home':_0x18cdf3(0x11de,0x184a),'nav_about':'📜\x20About','nav_shop':_0x18cdf3(0x10fd,0xc31),'nav_vinted':_0x18cdf3(0x1625,0x2004),'nav_beauty':_0x18cdf3(0x3f7,0x2f0)+'Beauty','nav_parrainage':'🤝\x20Referral','nav_cyber':'🛡️\x20Cybersec'+_0x1c0568(0x9e3,0xac8),'nav_harassment':_0x1c0568(-0x114,0x7ee)+'nt','nav_contact':'✉️\x20Contact','nav_faq':_0x1c0568(0xfb8,0x851),'nav_cgv':_0x18cdf3(0x163e,0x1b47),'nav_privacy':_0x1c0568(0x41e,-0x22),'nav_legal':'⚖️\x20Legal\x20&\x20'+'Security','marquee_welcome':_0x18cdf3(0x145,0x386)+_0x18cdf3(0x8c2,0xf35)+'\x20IV\x20—\x20The\x20'+'Order\x20of\x20I'+'ndependenc'+'e\x20✨','marquee_delivery':'🚚\x20Fast\x20and'+'\x20secure\x20de'+'livery','marquee_payment':'🛡️\x20100%\x20sec'+_0x1c0568(0x11af,0xf91)+'t','marquee_motto':_0x18cdf3(0x9c3,0x84)+'our\x20path.\x20'+'Defend\x20you'+_0x1c0568(0x877,0xd40)+_0x1c0568(0xa47,0x9f)+_0x18cdf3(0x12c5,0x1081),'marquee_products':_0x1c0568(-0xd0,-0x77f)+_0x1c0568(0xf80,0x7a3)+_0x1c0568(0x877,0x97e)+_0x18cdf3(0x10b6,0x8a8)+'ical\x20life','marquee_warranty':_0x18cdf3(0x101b,0x898)+_0x18cdf3(0xc3f,0x1251)+'\x20all\x20our\x20p'+'roducts','marquee_music':_0x18cdf3(0x2fa,0x4aa)+_0x18cdf3(0xf27,0xa5f)+'sive\x20music'+_0x1c0568(0x1049,0xc98),'site_music':_0x18cdf3(0x1317,0x91c)+'ic','choose_music':'Choose\x20a\x20m'+'usic','track_genetiquement':_0x18cdf3(0x368,-0x5d7)+'etically\x20M'+'odifier','track_polygone':_0x18cdf3(0x9d9,0x1111)+'ygon','track_quelques_notes':_0x1c0568(-0x1c8,0x199)+_0x18cdf3(0x5d7,0x3b1),'track_bilar_phoenix':'[FR]\x20🔥\x20Bil'+_0x1c0568(0x243,-0x131)+'ix','track_cenza':'[FR]\x20🕶️\x20Cen'+_0x1c0568(0xc55,0x8c5)+'wn','track_confinement':'[FR]\x20🧪\x20Bil'+'ar\x20–\x20Confi'+_0x1c0568(0xed2,0x1634),'track_dark_blues':'[EN]\x20🌑\x20Dar'+'k\x20Blues\x20Vo'+'l','track_iam':'[FR]\x20🌍\x20IAM'+'\x20–\x20The\x20end'+'\x20of\x20their\x20'+'world','track_issaba':'[FR]\x20⚡\x20Iss'+_0x18cdf3(0x15b0,0xf74)+'know','track_kery':_0x18cdf3(0x294,-0x6a5)+'y\x20James\x20–\x20'+_0x1c0568(0xd52,0xd40)+_0x1c0568(-0x1ff,-0x2a8),'track_exit':'[FR]\x20🧬\x20L\x27E'+_0x1c0568(0xc97,0x8ac)+'om\x20Zirko\x20/'+'\x20HYPERTHYM'+_0x18cdf3(0xab9,0x15),'track_sakage':_0x18cdf3(0xb27,0xe6c)+_0x1c0568(0x1015,0xa40)+'ise','track_sks_tsunami_2':_0x1c0568(0x2d,-0x561)+'\x20Crew\x20–\x20Ts'+_0x18cdf3(0xa33,0x5),'track_sks_tsunami':'[FR]\x20🌊\x20SKS'+'\x20Crew\x20–\x20Ts'+_0x18cdf3(0x1e4,0x35c),'track_sks':'[FR]\x20💥\x20SKS'+_0x1c0568(0xf25,0x6e7),'track_mysa_ralliement':'[FR]\x20🚩\x20Mys'+_0x1c0568(0x1200,0x1b07)+_0x18cdf3(0x481,0x450),'track_rockin_luta':_0x1c0568(0x3b7,0x76c)+'kin\x27Squat\x20'+_0x18cdf3(0x11b9,0x1409)+'ontinua','track_rockin_eternel':'[FR]\x20📚\x20Roc'+_0x18cdf3(0x4b5,-0xb7)+_0x1c0568(0xa6,0x626)+_0x18cdf3(0x107,-0x3ea),'track_rcknsqt_verlaine':'[FR]\x20🖋️\x20RCK'+'NSQT\x20–\x20VER'+_0x18cdf3(0x11c9,0x8da),'track_mysa_autopsy':'[FR]\x20🩸\x20Mys'+'a\x20–\x20Autops'+'y','track_fourmiliere':_0x1c0568(0x10dd,0x1823)+'\x20Anthill\x20–'+'\x20Smile','track_shurikn':'[FR]\x20🗡️\x20Shu'+'rikn\x20–\x20Sam'+_0x1c0568(0x2db,0x972),'track_proser':'[FR]\x20🔥\x20Pro'+'ser\x20–\x20The\x20'+_0x18cdf3(0x83e,0xdfe)+_0x18cdf3(0x6c2,0x10e3),'track_rohff':_0x1c0568(0x103b,0x1658)+'ff\x20–\x20Fitna','track_mysa_fou':'[FR]\x20🧠\x20Mys'+'a\x20–\x20Like\x20a'+'\x20Madman','track_mysa_dystopie':_0x1c0568(0x1307,0xac1)+_0x18cdf3(0x36b,-0x6d8)+_0x18cdf3(0x4ef,0xaf9),'track_mysa_mortel':_0x1c0568(-0x1fd,0x581)+_0x1c0568(0x600,0x3e9),'track_mysa_piqure':_0x18cdf3(0xfab,0x14b7)+'a\x20–\x20Booste'+_0x1c0568(0x317,0xc27),'track_mysa_revolu':_0x18cdf3(0xebe,0x168f)+_0x18cdf3(0x15d6,0x149a),'track_millesime':_0x18cdf3(0x12a8,0x1a60)+_0x1c0568(0xb60,0xb6a)+'\x20Republic','track_rockin_aimer':'[FR]\x20❤️\x20Roc'+_0x18cdf3(0x4b5,0x3fd)+_0x18cdf3(0xc09,0xf74)+'hout\x20Posse'+_0x18cdf3(0x2cd,-0x5b9),'track_rockin_ils':'[FR]\x20💔\x20Roc'+_0x18cdf3(0x4b5,0x899)+'–\x20They\x20Don'+_0x1c0568(0x11dd,0xda0)+_0x18cdf3(0xba8,0x11c0),'track_rcknsqt_vocab':'[FR]\x20🔤\x20RCK'+'NSQT\x20–\x20VOC'+'AB','track_miyagi_kosandra':'[RU]\x20🌌\x20Miy'+_0x1c0568(0xa84,0x2fb)+_0x18cdf3(0x229,0x6bc)+'osandra','track_miyagi_capitaine':_0x1c0568(0x295,-0x7e5)+_0x18cdf3(0x1233,0x1344)+_0x1c0568(0xca0,0x34e),'track_miyagi_tumani':'[RU]\x20🎭\x20Miy'+'agi\x20–\x20Tuma'+_0x18cdf3(0xd3b,0x1694)+'KADI\x20/\x20Bis'+'marck','motto':_0x1c0568(-0x1d0,0x137)+_0x1c0568(0x486,-0x4b0)+_0x1c0568(-0x25a,0x8e)+'\x20autonomy.'+_0x1c0568(0x1d6,-0x7c1)+'\x20future.”','baseline':'Company\x20·\x20'+'Entreprene'+_0x18cdf3(0x695,0x31d)+'pendence\x20m'+_0x1c0568(0x3a0,0xb69)+_0x1c0568(0xef5,0x6f3),'doctrine_title':'⚔️\x20The\x20GUIL'+'LET\x20IV\x20Doc'+_0x18cdf3(0x478,0xa2e),'doctrine_desc':'GUILLET\x20IV'+_0x18cdf3(0xcb3,0x9f0)+'gether\x20the'+'\x20power\x20of\x20'+_0x18cdf3(0x8d7,0x971)+_0x18cdf3(0x72d,0x100b)+_0x18cdf3(0xff1,0xd9f)+'dentity,\x20a'+'nd\x20the\x20vis'+_0x18cdf3(0x7aa,-0x219)+'ovement.\x20O'+'ur\x20foundin'+_0x1c0568(0xdc,-0x535)+'e:\x20do\x20not\x20'+_0x18cdf3(0x334,0xa57)+_0x1c0568(0x5f7,0xd5e)+_0x1c0568(0x6fa,0x502)+_0x18cdf3(0x615,0x9cd)+'h\x20action,\x20'+'discipline'+',\x20and\x20crea'+_0x18cdf3(0x12fa,0xe13),'authority':'🖤\x20Authorit'+'y','authority_desc':_0x18cdf3(0x11ef,0x1387)+_0x18cdf3(0xab7,0xc33)+_0x18cdf3(0x43c,0x968)+'igor,\x20and\x20'+_0x1c0568(0x270,-0x5d),'willpower':'❤️\x20Willpowe'+'r','willpower_desc':'Red\x20repres'+'ents\x20energ'+'y,\x20courage'+',\x20and\x20dete'+'rmination.','legitimacy':'👑\x20Legitima'+'cy','legitimacy_desc':_0x18cdf3(0xdca,0x15d6)+'lizes\x20the\x20'+'value\x20crea'+'ted,\x20requi'+'rement,\x20an'+'d\x20recognit'+_0x18cdf3(0x133e,0x1be6),'vision':_0x18cdf3(0x14d1,0x1718),'vision_desc':'Blue\x20opens'+_0x1c0568(0x26f,0x431)+'o\x20innovati'+_0x1c0568(0x9ac,0x85)+'\x20future.','authenticity':_0x18cdf3(0x21b,0x910)+'city','authenticity_desc':'Raw\x20truth,'+_0x18cdf3(0x16b4,0x13e7)+'tity,\x20what'+'\x20you\x20are\x20w'+_0x18cdf3(0x6ae,-0x1ed)+_0x18cdf3(0xbed,0x121c)+'promise.','revelation':'✨\x20Revelati'+'on','revelation_desc':_0x18cdf3(0x74a,0x491)+'that\x20revea'+_0x1c0568(0x842,0x6bb)+_0x18cdf3(0x4eb,-0x30a)+'Awakening,'+'\x20understan'+_0x1c0568(0x11c5,0x1b96)+'ity.','truth':'⚡\x20Truth','truth_desc':_0x1c0568(0x93,0xae0)+'ht\x20line,\x20t'+'he\x20right\x20w'+_0x18cdf3(0x1646,0x15fb)+'does\x20not\x20l'+_0x18cdf3(0x11a9,0xae5)+_0x18cdf3(0x443,0x1b)+'ble.','awareness':'🧠\x20Awarenes'+'s','awareness_desc':_0x1c0568(-0x11e,0x147)+_0x18cdf3(0x1ee,0x3d6)+_0x1c0568(0xb55,0x793)+_0x18cdf3(0x501,0x8d0)+_0x1c0568(0xabd,0x11be)+'ances.','power':_0x18cdf3(0x4cc,0xed6),'power_desc':'The\x20abilit'+_0x18cdf3(0xce9,0x1387)+_0x1c0568(-0x112,0x299)+'r\x20directio'+_0x18cdf3(0x76b,0x3db)+'rm\x20your\x20en'+'vironment.','discipline':_0x18cdf3(0xcd2,0x4cc)+'ne','discipline_desc':'Order,\x20str'+_0x1c0568(0xa5b,0xd80)+_0x1c0568(0x2ba,0x833)+'that\x20forge'+_0x18cdf3(0x2c2,0x4a2),'creation':'🜄\x20Creation','creation_desc':'The\x20art\x20of'+_0x18cdf3(0x145a,0x11ae)+',\x20innovati'+_0x1c0568(0x4fc,0xba7)+_0x1c0568(0xa3d,0x16b)+_0x18cdf3(0x675,-0x1af)+_0x1c0568(-0xa3,-0x7e6),'ascension':'🜃\x20Ascensio'+'n','ascension_desc':'The\x20rise,\x20'+'evolution,'+'\x20surpassin'+'g\x20oneself\x20'+_0x18cdf3(0xf2b,0x181a)+'.','shop_title':'🛒\x20GUILLET\x20'+_0x18cdf3(0x10c3,0x1aa3),'shop_intro':_0x1c0568(0x113f,0x16d6)+_0x18cdf3(0x9b6,0x5fb)+'autonomy,\x20'+'security,\x20'+'outdoor,\x20a'+'nd\x20practic'+'al\x20life.','no_products':_0x18cdf3(0x1203,0x18c6)+_0x18cdf3(0x8f6,-0x9d)+'his\x20search'+'.','see_more':_0x18cdf3(0x167b,0x1231),'see_less':_0x1c0568(0xb3c,0x1608),'full_desc':_0x1c0568(-0x20f,-0xb43)+_0x1c0568(0xb01,0xf85),'details':_0x18cdf3(0xc9e,0x4ef),'utility':_0x18cdf3(0xbc0,0x11a3),'how_to_use':_0x1c0568(0xa99,0x1091),'features':'Features','drone_title':_0x1c0568(0x12e3,0x13e6)+'E\x20–\x20THE\x20EY'+_0x1c0568(0xe11,0x599)+'UTURE\x20IS\x20I'+_0x18cdf3(0x52e,0x4ee)+'DS','drone_tagline':'Dominate\x20t'+_0x18cdf3(0x63a,0x876)+_0x18cdf3(0xb93,0x127c)+'ominate\x20yo'+_0x1c0568(0x11ee,0x1bc2)+'\x20without\x20n'+'eeding\x20to\x20'+'see.','drone_desc':_0x1c0568(0xa97,0x887)+_0x18cdf3(0xd02,0xc35)+_0x18cdf3(0x20c,0x488)+_0x18cdf3(0x1510,0xbfd)+',\x20and\x20ambi'+'tious\x20pilo'+'ts.\x20Captur'+'e\x20the\x20worl'+'d\x20with\x20sur'+_0x18cdf3(0x5e3,-0x28f)+'ision.','drone_full_1':_0x1c0568(0x6aa,-0x2e7)+_0x1c0568(0x831,0x2e0)+_0x18cdf3(0x152b,0x1623)+_0x1c0568(0x40a,0x7f)+'ision\x20tool'+_0x18cdf3(0x15b1,0x15f3)+_0x1c0568(-0x90,0x8b0)+_0x1c0568(0x1a6,0x22d)+'\x20aerial\x20al'+'ly\x20that\x20tr'+_0x1c0568(0xbe0,0x1210)+_0x1c0568(-0x22f,-0x732)+'t\x20into\x20a\x20f'+_0x1c0568(0x690,0x23d)+_0x18cdf3(0xde3,0xfcd)+'.','drone_full_2':'Thanks\x20to\x20'+_0x1c0568(0xb9a,0x539)+_0x18cdf3(0x1263,0xbf5)+_0x1c0568(0xece,0x578)+_0x1c0568(0x93d,0x65f)+_0x1c0568(-0x9d,0x973)+'acle\x20avoid'+_0x1c0568(-0x2cc,-0x1a7)+'brushless\x20'+_0x18cdf3(0xf76,0xc56)+_0x18cdf3(0x161d,0x1e44)+_0x18cdf3(0x59a,0x934)+_0x18cdf3(0x9a2,0x7ab)+_0x1c0568(-0x205,0x68e)+'\x20drones\x20in'+'\x20its\x20categ'+'ory\x20can\x20ma'+_0x1c0568(0xbb6,0xfc8),'drone_full_3':'Foldable,\x20'+'compact,\x20i'+'ntelligent'+_0x1c0568(0xea6,0x161c)+_0x18cdf3(0x153d,0x1294)+_0x18cdf3(0x208,-0x32b)+'\x20you\x20anywh'+'ere.','drone_detail_1':'Dual\x20HD\x20ca'+'mera\x20with\x20'+_0x18cdf3(0x32c,-0xa8),'drone_detail_2':_0x18cdf3(0x1039,0x9e5)+_0x18cdf3(0x31c,-0x55d)+'acle\x20avoid'+'ance','drone_detail_3':_0x18cdf3(0x3ca,0x244)+'nd\x20durable'+_0x18cdf3(0x20a,-0x27c)+_0x18cdf3(0x14e8,0x1767),'drone_detail_4':'Remote\x20con'+'trol\x20with\x20'+_0x18cdf3(0xa18,0x84e)+_0x18cdf3(0xa19,0xb07)+'n','drone_detail_5':'Foldable\x20d'+'rone,\x20easy'+'\x20to\x20transp'+_0x18cdf3(0xc22,0x403),'drone_util_1':'Film\x20lands'+'capes\x20in\x20h'+_0x18cdf3(0x1665,0x1f3f)+'y','drone_util_2':_0x18cdf3(0x1044,0x1310)+'tent\x20for\x20T'+_0x18cdf3(0x14c,-0x168)+_0x18cdf3(0x3a0,-0x664),'drone_util_3':_0x18cdf3(0x101f,0x1453)+'\x20area\x20resp'+'ecting\x20pri'+_0x1c0568(0xd6,0x44d),'drone_util_4':'Learn\x20dron'+_0x18cdf3(0x653,0x987),'drone_util_5':_0x1c0568(0x49,0x692)+'ssional\x20ae'+_0x1c0568(0x10e,-0x329)+'s','drone_use_1':'Unfold\x20the'+_0x1c0568(0x127e,0xaf1)+_0x18cdf3(0x24d,0x2de)+'\x20propeller'+'s.','drone_use_2':_0x18cdf3(0x466,-0x53d)+'e\x20remote\x20c'+_0x1c0568(0x38c,0x8f3),'drone_use_3':_0x18cdf3(0xfc1,0x1384)+'e\x20HD\x20camer'+'a.','drone_use_4':_0x18cdf3(0x6d6,-0x2dc)+'n\x20assisted'+_0x18cdf3(0x1366,0xa79),'drone_use_5':_0x1c0568(0x2aa,0x285)+_0x18cdf3(0x13da,0xa09)+_0x1c0568(0x204,0x2c7)+'creen.','drone_use_note':_0x18cdf3(0xb5d,0x1546)+'o\x20respect\x20'+'applicable'+'\x20flight\x20ru'+_0x18cdf3(0xc70,0xb77)+'e\x20privacy\x20'+_0x1c0568(0x598,0xa50)+_0x1c0568(0x12d1,0x1768),'cart_89':'💳\x20Add\x20to\x20c'+_0x18cdf3(0xf18,0x1913),'proj_title':_0x18cdf3(0x2fe,0xc8d)+'olar\x20LED\x20p'+'rojector','proj_desc':_0x1c0568(-0x296,0x225)+'lar\x20LED\x20pr'+_0x1c0568(0x958,0x17)+'th\x20PIR\x20sen'+'sor\x20and\x20ro'+_0x18cdf3(0x541,0x536)+_0x1c0568(0x5ac,-0x330),'proj_full_1':'Outdoor\x20LE'+'D\x20projecto'+_0x1c0568(0xd7,0xa0c)+'by\x20solar\x20p'+_0x18cdf3(0x3d5,0xec3)+_0x18cdf3(0x8c9,0xed9)+_0x18cdf3(0x12d7,0x180c)+'or\x20and\x20rot'+_0x1c0568(-0x67,-0x274)+'ls.','proj_util_1':'Secure\x20an\x20'+'entrance','proj_util_2':_0x1c0568(0x8b5,0x7d1)+_0x18cdf3(0x55a,0xe5e),'proj_util_3':_0x1c0568(0x93e,0x573)+_0x1c0568(0x192,-0x546),'proj_util_4':'Works\x20with'+'out\x20electr'+'icity','proj_use_1':'Fix\x20the\x20pr'+_0x1c0568(0xb12,0xc92)+'\x20a\x20wall','proj_use_2':_0x1c0568(0x507,0x907)+'\x20LED\x20panel'+'s','proj_use_3':'Adjust\x20the'+_0x18cdf3(0x639,0xdc6)+'r','proj_use_4':'Let\x20the\x20so'+'lar\x20panel\x20'+'charge','cart_35':'💳\x20Add\x20to\x20c'+'art\x20—\x20€35','badge_winter':'WINTER\x20PAC'+'K','pack_title':'Winter\x20Sur'+_0x18cdf3(0xc7b,0x130b)+'\x20–\x20Premium'+'\x20Edition','pack_desc':'The\x20ultima'+'te\x20pack\x20to'+'\x20face\x20wint'+'er,\x20stay\x20w'+_0x1c0568(0x1c3,-0x4a8)+_0x1c0568(0x294,0x621)+'mous.','pack_item_1':_0x18cdf3(0xd26,0x1653)+'\x20Electric\x20'+'Heated\x20Glo'+'ves\x20(USB)','pack_item_1_desc':_0x18cdf3(0xccd,0x39d)+'rmance\x20win'+'ter\x20gloves'+_0x1c0568(0xab4,0xd4)+_0x18cdf3(0x161e,0x1d3b)+_0x1c0568(0x4ea,-0x3a3)+'e\x20and\x20cont'+_0x18cdf3(0x122d,0x1220)+'t.','pack_item_1_b1':_0x1c0568(-0x26e,0x36e)+'ed\x20heating'+_0x1c0568(0x357,0x8bd)+'lm','pack_item_1_b2':'Three\x20adju'+'stable\x20tem'+_0x1c0568(0x1237,0x9c7)+_0x1c0568(-0x1d7,-0x7f9),'pack_item_1_b3':'Touchscree'+_0x18cdf3(0xa81,0x76c),'pack_item_1_b4':'USB\x20interf'+'ace\x20operat'+'ion,\x20power'+_0x18cdf3(0xfa1,0x7ca)+'tible','pack_item_2':_0x18cdf3(0x1361,0xcbb)+_0x18cdf3(0xe30,0x15a5)+_0x1c0568(0x4b,-0xa84)+_0x1c0568(0x1db,0x26a)+'argeable\x20('+_0x18cdf3(0xc4c,0x92e),'pack_item_2_desc':_0x18cdf3(0xab1,0x1599)+_0x18cdf3(0xc86,0x428)+_0x1c0568(0x725,-0x211)+'\x20power\x20out'+'ages,\x20nigh'+_0x1c0568(0x862,0x22a)+_0x1c0568(0x338,0xbad),'pack_item_2_b1':'7\x20light\x20mo'+_0x1c0568(0x402,0xe04),'pack_item_2_b2':_0x1c0568(0x76c,0xe17)+_0x1c0568(0xddd,0x1013),'pack_item_2_b3':'Built-in\x20b'+'attery','pack_item_2_b4':'Weather\x20re'+_0x18cdf3(0x158f,0x1f52),'pack_item_3':'🔋\x203.\x2012,00'+'0\x20mAh\x20Powe'+'r\x20Bank\x20–\x20U'+_0x1c0568(0x8e,-0x947)+'\x20Special','pack_item_3_desc':_0x1c0568(0xd41,0x762)+'ity\x20powerb'+_0x18cdf3(0x1064,0x6b9)+_0x1c0568(0xe07,0xf5f)+_0x18cdf3(0xbc1,0x86e)+'vices\x20and\x20'+'heated\x20clo'+'thing.','pack_item_3_b1':_0x1c0568(0x1a3,0x15c)+'\x20→\x20long-la'+'sting\x20auto'+_0x18cdf3(0x1617,0x133c),'pack_item_3_b2':'5V\x202.4A\x20ou'+_0x1c0568(0x239,0x190),'pack_item_3_b3':_0x18cdf3(0xcaf,0xedd)+'\x20with\x20iPho'+'ne\x20/\x20Samsu'+'ng\x20/\x20iPad','pack_item_4':_0x18cdf3(0x158e,0x1c7c)+_0x18cdf3(0x817,0xe1)+'mmy\x20Sleepi'+_0x18cdf3(0x1414,0xa2d)+'0\x20×\x2075\x20cm)','pack_item_4_desc':'Lightweigh'+_0x18cdf3(0x13fb,0x1bf0)+_0x1c0568(-0x1fa,-0x11f)+_0x1c0568(0x3e8,-0x6c0)+_0x18cdf3(0x1556,0xfd3)+_0x1c0568(0x801,0xfac)+'r\x20camping\x20'+_0x1c0568(-0x113,0x312)+_0x1c0568(0x7ff,0x2ab)+_0x18cdf3(0x1585,0xaeb),'pack_item_4_b1':'Integrated'+_0x1c0568(0xe0b,0x16ce),'pack_item_4_b2':'Robust\x20170'+'T\x20polyeste'+'r','pack_item_4_b3':'Folds\x20into'+_0x1c0568(0x1180,0xdd4)+_0x1c0568(0x6c0,0x3d6),'pack_item_4_b4':_0x1c0568(0x73,-0x2bf)+_0x18cdf3(0x34e,0x6df),'cart_9999':_0x1c0568(0x1034,0xc5a)+_0x18cdf3(0x155b,0x1ba8)+'99','badge_new':'NEW','endo_title':_0x18cdf3(0x1082,0x1334)+_0x18cdf3(0xf72,0x66a)+_0x1c0568(0x56f,0x8af)+'th\x20screen','endo_desc':'1080P\x20insp'+'ection\x20end'+_0x18cdf3(0x14d5,0xcd9)+'h\x204.3-inch'+_0x1c0568(0xd4e,0x1726)+_0x18cdf3(0xafc,0x6ff)+_0x18cdf3(0x22b,-0x410)+'emi-rigid\x20'+_0x1c0568(0x69e,-0x9f)+'\x20MP\x20camera'+_0x18cdf3(0x121b,0x1544)+'le\x20LED\x20lig'+'hting,\x20and'+_0x1c0568(0x693,0x32b)+'rproof\x20des'+'ign.','endo_full_1':'The\x20essent'+'ial\x20tool\x20f'+'or\x20inspect'+_0x1c0568(-0xc7,-0xb5a)+_0x1c0568(0x34a,-0x459)+_0x18cdf3(0x863,0xf0)+',\x20engines,'+_0x1c0568(0x1212,0x1845)+_0x18cdf3(0xea6,0xb5f)+_0x1c0568(0x13,0x33d)+'stallation'+'s,\x20or\x20tigh'+_0x1c0568(0x5d8,0x3a1),'endo_util_1':_0x18cdf3(0x1082,0x784)+'\x20of\x20engine'+_0x18cdf3(0x1242,0xbae)+_0x1c0568(0x392,-0x317),'endo_util_2':_0x1c0568(0x543,0x2a)+_0x1c0568(0xdda,0x1761)+'umbing,\x20ve'+'ntilation,'+'\x20wiring','endo_util_3':'Fast\x20mecha'+'nical\x20diag'+_0x1c0568(0x939,0x2d3),'endo_util_4':'Visual\x20con'+_0x1c0568(0x60d,0x731)+'rk\x20areas','endo_feat_1':'Full\x20HD\x2010'+_0x18cdf3(0x11dd,0x6f9)+'tion','endo_feat_2':'2.0\x20MP\x20cam'+_0x18cdf3(0xd81,0x1575)+'djustable\x20'+'LED\x20lighti'+'ng','endo_feat_3':_0x18cdf3(0x967,-0x23)+_0x1c0568(0xaf1,0xb82)+_0x1c0568(0xc02,0xfab),'endo_feat_4':'10-meter\x20s'+'emi-rigid\x20'+'cable','endo_feat_5':_0x1c0568(0x921,0x13c4)+_0x18cdf3(0x984,0x6f0)+'ification','cart_95':'💳\x20Add\x20to\x20c'+'art\x20—\x20€95','badge_security':'🛡️\x20SECURITY'+'\x20PACK','pack_secu_title':'Premium\x20Se'+_0x18cdf3(0x155d,0x16d2)+'k','pack_secu_tagline':_0x18cdf3(0x1476,0x16bc)+_0x18cdf3(0x1661,0xf68)+_0x1c0568(0x9c0,0x99b)+_0x18cdf3(0xa96,0x144f)+'ion.\x20Turnk'+'ey.','pack_secu_promo':_0x1c0568(0x969,0x221)+_0x1c0568(0xba6,0xd12),'pack_secu_desc':_0x1c0568(0x10ec,0x131c)+'ur\x20entire\x20'+'home\x20with\x20'+'an\x20AI\x20came'+_0x18cdf3(0xf29,0x1208)+'lete\x20alarm'+_0x18cdf3(0x15b6,0x1501)+_0x1c0568(0x53c,0xbaa)+'eady-to-us'+_0x1c0568(0x459,0xe0e)+_0x1c0568(0xa15,0x307)+'individual'+'s\x20and\x20smal'+_0x1c0568(0x9cd,0x733)+'es.','pack_secu_full_1':'The\x20Premiu'+_0x1c0568(0x7b2,0x97)+_0x18cdf3(0x13bc,0x104c)+_0x1c0568(0x7ab,0x8d4)+_0x1c0568(0xcd3,0x707)+'ng\x20you\x20nee'+'d\x20to\x20secur'+'e\x20a\x20house,'+_0x1c0568(0x1213,0x1869)+_0x18cdf3(0xf54,0x467)+',\x20garage,\x20'+_0x18cdf3(0xe46,0xfe6)+_0x18cdf3(0x10a6,0xf51)+_0x18cdf3(0x31a,0x8a2)+'chnical\x20sk'+_0x1c0568(-0x2c7,-0xa13)+'mplex\x20wiri'+'ng.\x20Everyt'+'hing\x20is\x20al'+_0x18cdf3(0x945,-0xc0)+_0x18cdf3(0x6b7,-0x1d1)+_0x1c0568(0x27a,0x331)+_0x1c0568(0xba3,0x23b)+'ct,\x20it\x27s\x20r'+'eady\x20in\x2010'+_0x18cdf3(0xb72,0xe77),'pack_secu_contents':_0x18cdf3(0x1085,0x139e)+_0x18cdf3(0xe91,0xc04)+_0x18cdf3(0x6f8,0x701),'pack_secu_c1':'1\x20Tiiwee\x20A'+'larm\x20(sire'+_0x1c0568(0x9c3,0x1457)+'s)','pack_secu_c2':'1\x20TP-Link\x20'+_0x1c0568(0x11c8,0x112e)+_0x1c0568(-0x13b,0x147)+'\x20(night\x20vi'+'sion\x20+\x20det'+'ection)','pack_secu_c3':'4\x20SONOFF\x20O'+'pening\x20Sen'+_0x18cdf3(0xc54,0x1256)+'s\x20/\x20window'+_0x18cdf3(0x1286,0x1d59)+_0x1c0568(0x114c,0x895)+')','pack_secu_c4':'Installati'+_0x18cdf3(0xfc7,0x516),'pack_secu_c5':'30-day\x20ass'+'istance','pack_secu_f1':_0x1c0568(0x12c5,0xb8b)+'artphone\x20a'+'lerts','pack_secu_f2':_0x1c0568(0x24c,-0x1bf)+'ction\x20(AI)','pack_secu_f3':'Powerful\x20s'+_0x18cdf3(0x3e1,-0x584),'pack_secu_f4':'HD\x20night\x20v'+_0x18cdf3(0x131,-0x130),'pack_secu_f5':_0x1c0568(0xeae,0x84c)+'oring','pack_secu_f6':_0x18cdf3(0x383,-0x10a)+_0x18cdf3(0x707,-0x305)+'rs','pack_secu_secure_for':'Secures','pack_secu_s1':_0x18cdf3(0x139c,0x1543),'pack_secu_s2':_0x18cdf3(0x241,-0x38b)+'t','pack_secu_s3':'🏪\x20Business','pack_secu_s4':'🚗\x20Garage','pack_secu_s5':_0x1c0568(0x39f,-0x18e),'pack_secu_s6':'💼\x20Office','pack_secu_use_1':'Plug\x20in\x20th'+_0x1c0568(-0x1e8,-0x7ce)+'larm\x20and\x20t'+'he\x20Tapo\x20ca'+'mera.','pack_secu_use_2':'Stick\x20the\x20'+_0x1c0568(-0x1bb,-0xab9)+_0x1c0568(0xfd6,0x686)+_0x1c0568(0xe2e,0x1391)+_0x18cdf3(0x48c,0xd)+_0x18cdf3(0xd97,0x767)+_0x18cdf3(0x136,0x607),'pack_secu_use_3':_0x18cdf3(0xfc1,0x6b7)+'e\x20devices\x20'+'to\x20the\x20app'+_0x1c0568(0x3df,-0x46f)+_0x1c0568(-0x35,-0x82e),'pack_secu_use_4':'Configure\x20'+_0x18cdf3(0x5dd,0x380)+'\x20alerts.','pack_secu_use_5':_0x18cdf3(0x115f,0x1bc8)+_0x18cdf3(0xd1d,0x9fc)+_0x1c0568(0x127a,0x1543)+'y\x20in\x2010\x20mi'+'nutes.','pack_secu_warranty_support':_0x1c0568(-0x1e7,0x89)+'\x20Support','pack_secu_ws1':_0x18cdf3(0x13d1,0xfcf)+_0x1c0568(0x37b,-0x4fd),'pack_secu_ws2':'30-day\x20cus'+'tomer\x20supp'+_0x18cdf3(0xc22,0x14fc),'pack_secu_ws3':'Installati'+'on\x20assista'+'nce\x20if\x20nee'+_0x18cdf3(0x4a5,0x740),'pack_secu_why':'Why\x20this\x20p'+'ack?','pack_secu_why_text':'Because\x20it'+'\x20protects\x20'+_0x1c0568(0x36,-0xc2)+_0x18cdf3(0xf87,0x11f9)+'h\x20an\x20AI\x20ca'+'mera,\x20a\x20co'+'mplete\x20ala'+_0x18cdf3(0x1fc,0x1d9)+_0x1c0568(0x114f,0x1beb)+_0x1c0568(-0x2e,-0x76)+_0x18cdf3(0x10c8,0x19a3)+_0x1c0568(-0x128,-0x5a9)+'pack\x20—\x20ide'+_0x1c0568(0x10a9,0x16b8)+_0x18cdf3(0x7cd,0xedd)+'nd\x20small\x20b'+_0x1c0568(0x339,-0x5a5),'cart_pack_secu':_0x1c0568(0x1034,0xc2c)+'art\x20—\x20€350','guarantees':'🛡️\x20Guarante'+'es\x20&\x20Servi'+'ces','warranty_24':_0x18cdf3(0xebd,0x98e)+':\x2024\x20month'+'s','secure_payment':_0x18cdf3(0x569,0xe5a)+_0x18cdf3(0x1166,0x196c),'fast_delivery':'✔\x20Fast\x20del'+'ivery','reviews_title':'⭐\x20Customer'+_0x1c0568(0xe33,0x172c)+_0x1c0568(0x31c,-0x6e3),'review_zohra':_0x1c0568(0x292,0xc0f),'review_limitless_1':'Glad\x20every'+'thing\x20is\x20p'+_0x1c0568(0x9e,-0x86c)+'ILLET\x20IV\x20🔥','review_zlatoff':_0x1c0568(0xf68,0x14e4)+_0x1c0568(0x2ca,0x7c7)+'nk\x20you','review_limitless_2':_0x18cdf3(0x42a,0x84e)+'🤲\x20thank\x20yo'+'u','learn_more':'🏢\x20Learn\x20mo'+'re','company_movement':'Company\x20·\x20'+'Movement\x20·'+'\x20Independe'+_0x18cdf3(0x123e,0x1175),'about_intro':_0x18cdf3(0x1e6,-0x7b5)+_0x1c0568(0x70d,0xb8d)+_0x18cdf3(0xf0a,0x158b)+_0x1c0568(0xb26,0x4d9)+'eurial\x20ind'+'ependence\x20'+'movement.\x20'+_0x18cdf3(0x28e,-0x20b)+_0x1c0568(0xc5c,0x1375)+_0x18cdf3(0x398,0x9f1)+_0x18cdf3(0x128,-0x603)+_0x1c0568(0x259,-0x1a3)+_0x18cdf3(0x10a3,0x1b6e)+_0x18cdf3(0x134a,0xc1a)+_0x1c0568(0x279,0x851)+_0x18cdf3(0xc26,0xaf8)+_0x1c0568(0xc59,0x58b),'about_service':_0x18cdf3(0x30e,-0x7bb)+_0x1c0568(0xfc1,0xfee)+_0x1c0568(0x777,0x9aa)+_0x18cdf3(0x9ca,0x7b3)+'with\x205★\x20re'+_0x1c0568(0xa85,0x980)+_0x18cdf3(0xbf0,0x8d1)+'stomer\x20ser'+'vice,\x20and\x20'+'a\x20desire\x20t'+_0x18cdf3(0xb6a,0x4c7)+'rious,\x20wel'+'l-presente'+'d\x20products'+_0x1c0568(0x1bb,-0x13f)+_0x18cdf3(0x1333,0x18dc)+_0x1c0568(0x12e7,0x18b3),'about_contact':'For\x20any\x20qu'+_0x1c0568(0x274,0x9c)+_0x1c0568(-0x181,-0x70a)+'via\x20the\x20Co'+_0x18cdf3(0x13aa,0x196c)+'\x20or\x20direct'+_0x18cdf3(0x149c,0x117e)+_0x1c0568(-0x279,-0x3de),'contact_me':_0x1c0568(0x9ec,0x58b)+'me','view_my_vinted':_0x18cdf3(0x1209,0xcff)+'Vinted','back_home':_0x1c0568(0x221,0x3b)+'home','brand_king':_0x18cdf3(0x330,0x228)+'IV','back_shop':'⬅\x20Back\x20to\x20'+_0x18cdf3(0x2cb,0x1b),'parrainage_title':'🤝\x20Referral','parrainage_sub':'Boursorama'+_0x1c0568(0x10ad,0x1a4e)+'k\x20·\x20Vinted'+'\x20·\x20Crédit\x20'+'Agricole\x20·'+_0x1c0568(-0x154,0x7f6)+_0x1c0568(0x7e5,0xbd6),'parrainage_intro':_0x18cdf3(0x10fe,0x1687)+_0x1c0568(0x7c1,0xad2)+'scribe\x20to\x20'+_0x18cdf3(0x1188,0x9f0)+_0x1c0568(-0x160,-0x3da)+'p\x20on\x20Vinte'+_0x1c0568(0x532,0x62b)+'referral\x20l'+_0x1c0568(0xcc8,0x88e)+'rmation\x20is'+_0x18cdf3(0x13f,0x88b)+'d\x20automati'+_0x1c0568(0xd16,0xb28)+_0x1c0568(0x103e,0xbde)+'\x20the\x20benef'+_0x18cdf3(0x1310,0x16f5),'parrainage_boursorama_title':'🏦\x20Boursora'+_0x18cdf3(0x66b,0x105d)+'l','parrainage_boursorama_text':'Open\x20your\x20'+'Boursorama'+'\x20account\x20w'+_0x1c0568(0x10a7,0x19b9)+'erral\x20link'+':\x20my\x20infor'+'mation\x20wil'+'l\x20be\x20fille'+'d\x20in\x20autom'+'atically,\x20'+_0x1c0568(-0x60,0x1af)+_0x1c0568(0xad9,0x24f)+_0x1c0568(0xe6c,0xfe6)+'And\x20you\x20en'+'joy\x20welcom'+_0x1c0568(0x609,0xd91),'boursorama_b1':_0x1c0568(0x431,-0x419)+_0x18cdf3(0x401,0xc33)+'d\x20upon\x20ope'+_0x1c0568(0x840,0x97c),'boursorama_b2':'Zero\x20accou'+_0x1c0568(0x8a1,0x27f)+'ance\x20fees','boursorama_b3':'100%\x20onlin'+'e\x20registra'+_0x1c0568(0xacf,0x1022)+_0x18cdf3(0x13b5,0x187f)+'es','parrainage_btn_boursorama':_0x18cdf3(0xf38,0x191a)+'Boursorama'+_0x18cdf3(0x908,0x7f5),'parrainage_starlink_title':'🛰️\x20Starlink'+'\x20Referral','parrainage_starlink_text':_0x18cdf3(0xd44,0x14b3)+'to\x20Starlin'+'k\x20with\x20my\x20'+_0x18cdf3(0x960,0x2a6)+_0x18cdf3(0xc97,0x1732)+_0x18cdf3(0x22d,0x5b2)+'\x20month\x20on\x20'+_0x1c0568(0x4ca,-0x24c)+'ription.\x20H'+'igh-speed\x20'+'internet\x20v'+'ia\x20satelli'+'te,\x20everyw'+_0x18cdf3(0x702,0xd7f)+'\x20in\x20isolat'+_0x1c0568(0x61,0x2a5),'starlink_b1':_0x18cdf3(0x1068,0x124d)+'onth\x20on\x20yo'+'ur\x20subscri'+'ption','starlink_b2':_0x18cdf3(0x1102,0x1108)+_0x18cdf3(0x4a6,0x434)+_0x18cdf3(0x508,0x136)+_0x18cdf3(0x174,-0x4c0)+_0x18cdf3(0x1279,0x1737)+'reas','starlink_b3':_0x18cdf3(0xcaa,0x160a)+'\x20fast\x20inst'+'allation','parrainage_btn_starlink':_0x18cdf3(0xa6f,0xe85)+'e\x20to\x20Starl'+'ink','parrainage_vinted_title':_0x1c0568(-0x1fc,0x496)+_0x18cdf3(0x9a8,0x7df),'parrainage_vinted_text':_0x1c0568(0xaa8,0x10eb)+'\x20Vinted\x20wi'+_0x18cdf3(0x22c,-0x3ee)+'tation\x20lin'+'k\x20and\x20join'+'\x20the\x20commu'+'nity.\x20Buy,'+'\x20sell,\x20and'+'\x20give\x20a\x20se'+'cond\x20life\x20'+_0x1c0568(0x1ee,0x8b5)+'othes\x20whil'+'e\x20enjoying'+_0x1c0568(0x6bc,0x94f)+'enefits.','vinted_b1':_0x18cdf3(0xe9c,0xc76)+'nefit\x20for\x20'+'your\x20first'+_0x1c0568(0x6cf,0x89f),'vinted_b2':'Sell\x20your\x20'+_0x1c0568(0x2bd,0x726)+_0x1c0568(0x180,0x543)+'cks','vinted_b3':'Secure\x20del'+'ivery\x20and\x20'+_0x18cdf3(0xac0,0xa04),'parrainage_btn_vinted':_0x1c0568(0x624,0x3df)+'ted','parrainage_credit_agricole_title':'🏛️\x20Crédit\x20A'+'gricole\x20Re'+'ferral','parrainage_credit_agricole_text':'Do\x20you\x20wan'+_0x18cdf3(0x13c3,0xa5e)+'an\x20account'+'\x20at\x20Crédit'+_0x18cdf3(0x6fb,0xda8)+'\x20Use\x20my\x20si'+'ngle-use\x20r'+'eferral\x20co'+'de\x20and\x20cli'+'ck\x20on\x20the\x20'+_0x18cdf3(0x21a,-0x608)+_0x1c0568(0xfd7,0x10d3)+'r\x20benefits'+'.','credit_agricole_b1':_0x1c0568(0xae3,0x9c2)+'nefits\x20upo'+_0x1c0568(0x522,-0x20a)+'an\x20account','credit_agricole_b2':'A\x20local\x20ba'+_0x1c0568(0x1102,0x6dd)+_0x1c0568(-0x17a,0x2ac)+'re\x20in\x20Fran'+'ce','credit_agricole_b3':_0x1c0568(0x13b,0xb51)+_0x18cdf3(0x152a,0x11a6)+_0x1c0568(-0x2b5,-0x967)+'FH','parrainage_btn_credit_agricole':_0x1c0568(0x5c8,-0xc1)+_0x18cdf3(0x873,0xf96)+_0x1c0568(0x718,0xdb8)+'unt','parrainage_octopus_title':'🐙\x20Octopus\x20'+'Energy\x20Ref'+_0x18cdf3(0x3a1,-0x1bf),'parrainage_octopus_text':'Join\x20Octop'+_0x18cdf3(0x1571,0xd23)+_0x18cdf3(0xc7a,0x62e)+_0x1c0568(-0x53,-0x7fc)+'k\x20and\x20enjo'+'y\x20a\x20benefi'+_0x18cdf3(0x10d4,0x1363)+'electricit'+'y\x20bill.\x20Gr'+'eener,\x20sim'+_0x1c0568(0xf16,0x899)+'cheaper\x20en'+'ergy.','octopus_b1':'Welcome\x20be'+_0x1c0568(0xb4a,0x7bd)+'our\x20electr'+'icity\x20bill','octopus_b2':_0x18cdf3(0xb8f,0xf02)+'able\x20energ'+'y\x20and\x20fair'+_0x18cdf3(0x307,0x3e3),'octopus_b3':_0x18cdf3(0xd80,0x381)+'\x20customer\x20'+'service\x20an'+'d\x20no\x20commi'+'tment','parrainage_btn_octopus':'🐙\x20Join\x20Oct'+_0x18cdf3(0x697,0xdc8)+'y','parrainage_step1_title':'Click\x20on\x20t'+'he\x20link','parrainage_step1_text':_0x18cdf3(0x185,0x96a)+_0x1c0568(0x50a,0xaac)+_0x1c0568(0xc75,0xa74)+_0x18cdf3(0x3d3,0x1c5)+_0x18cdf3(0x114d,0x741)+'ge\x20(Bourso'+_0x1c0568(0xd92,0xa99)+_0x18cdf3(0x589,0x876)+'ed,\x20Crédit'+_0x1c0568(0xc2a,0x1075)+'or\x20Octopus'+_0x18cdf3(0xd17,0xae2)+'ith\x20my\x20ref'+'erral\x20code'+_0x1c0568(0xc01,0x1072)+'ntegrated.','parrainage_step2_title':_0x1c0568(0xa10,0x8dc)+'is\x20pre-fil'+_0x18cdf3(0x1098,0x9e5),'parrainage_step2_text':_0x18cdf3(0x9cd,0xacc)+'l\x20informat'+_0x1c0568(0x191,-0x69)+_0x18cdf3(0x1045,0x1414)+'\x20filled\x20in'+'.\x20You\x20just'+'\x20need\x20to\x20c'+'omplete\x20yo'+'urs.','parrainage_step3_title':'Validate\x20y'+_0x18cdf3(0xca2,0x7fd)+_0x18cdf3(0x57e,0xd44),'parrainage_step3_text':_0x18cdf3(0x9c5,0x100c)+'our\x20accoun'+_0x1c0568(0x193,-0x5f0)+_0x18cdf3(0x1626,0xd09)+'ion,\x20or\x20re'+'gistration'+'\x20in\x20a\x20few\x20'+_0x18cdf3(0x252,0xac0)+_0x1c0568(0xdbc,0x1786)+'e\x20benefits'+'.','parrainage_step4_title':'Everyone\x20w'+'ins','parrainage_step4_text':'You\x20receiv'+'e\x20your\x20wel'+_0x18cdf3(0x150e,0xe83)+_0x18cdf3(0xb73,0x56e)+_0x1c0568(0x12fe,0x17fd)+_0x1c0568(0x926,0x240)+'n.','parrainage_note_title':'ℹ️\x20Good\x20to\x20'+'know:','parrainage_note_text':'Referral\x20l'+_0x18cdf3(0xa95,0xfff)+'fficial\x20Bo'+_0x18cdf3(0x8c1,-0x153)+_0x1c0568(0x1061,0x17f5)+'Vinted,\x20Cr'+'édit\x20Agric'+'ole,\x20and\x20O'+'ctopus\x20Ene'+'rgy\x20links.'+'\x20Opening\x20a'+'\x20Boursoram'+'a\x20account\x20'+_0x1c0568(0x645,0xc04)+'d\x20without\x20'+_0x18cdf3(0xfd2,0xd4f)+'.\x20Bonuses\x20'+_0x1c0568(0xe7b,0x484)+'ts\x20are\x20sub'+_0x1c0568(-0x5d,-0x34f)+_0x1c0568(0x238,0x835)+'ns\x20of\x20each'+'\x20service.\x20'+'The\x20Crédit'+_0x1c0568(0xc2a,0x1fd)+_0x18cdf3(0x104,-0x8ea)+'FH\x20is\x20sing'+'le-use.','my_vinted':'👕\x20My\x20Vinte'+'d','vinted_intro':_0x1c0568(0x8a6,0x581)+_0x1c0568(-0x16a,-0x3f1)+'es,\x20my\x205★\x20'+'ratings,\x20a'+_0x1c0568(0x107,0x5f2)+'ucts\x20avail'+'able\x20on\x20Vi'+_0x1c0568(0x9bc,0x12f8),'verified_reviews':'Verified\x20V'+_0x1c0568(0x1150,0x147d)+'ews','vinted_desc':'I\x20am\x20limit'+_0x1c0568(-0xa7,0x9e3)+_0x18cdf3(0x14c0,0xb1d)+_0x18cdf3(0xd95,0x1368)+_0x1c0568(0x4d0,-0xaf)+'presented\x20'+'items\x20with'+'\x20responsiv'+_0x18cdf3(0x855,-0x292)+_0x18cdf3(0x92b,0xf04),'view_vinted_profile':'👕\x20View\x20my\x20'+_0x18cdf3(0xe6c,0x397)+_0x1c0568(0x69b,0xe7c),'beauty_title':_0x1c0568(0x3e,-0xaa8)+_0x18cdf3(0x91e,0xf98)+'HAYNAILS','beauty_sub':_0x18cdf3(0xebf,0x193b)+'\x20Care\x20·\x20In'+'-person\x20in'+_0x1c0568(0xf9,0x716),'beauty_intro':_0x1c0568(-0x252,-0xab8)+'services\x20o'+_0x18cdf3(0xb87,0xd97)+_0x18cdf3(0x140c,0xdc6)+'ing\x20by\x20pho'+'ne\x20or\x20Inst'+_0x1c0568(0x1c6,0x25e),'beauty_prices_title':'💶\x20Price\x20li'+'st','beauty_presentiel_note':_0x18cdf3(0x162,-0xb0)+_0x18cdf3(0x430,-0x69a)+'\x20only\x20in\x20G'+'uignen\x20—\x20n'+_0x18cdf3(0x1448,0x1caf)+'ales.','beauty_gallery_title':_0x18cdf3(0x15f6,0x1dad)+_0x18cdf3(0x831,-0x162)+'s','beauty_video_title':'🎬\x20In\x20video','video_fallback':_0x18cdf3(0x227,-0x2bb)+_0x18cdf3(0x99c,0xd81)+'t\x20support\x20'+_0x1c0568(0x14e,0x2d8)+'back.','beauty_book_title':_0x1c0568(0x57,0x71a)+_0x1c0568(0xa5f,0x36c),'beauty_book_text':'All\x20servic'+_0x1c0568(0x1036,0xa9d)+'ace\x20in-per'+_0x18cdf3(0x61f,0x6f3)+_0x1c0568(0x1229,0x1b66)+'ooking\x20by\x20'+'phone\x20or\x20I'+'nstagram.','click_photo_zoom':'💡\x20Click\x20on'+_0x1c0568(0x4fd,0x8b)+_0x1c0568(0x330,0x325),'cyber_title':'🛡️\x20Cybersec'+'urity\x20Prev'+'ention','cyber_subtitle':_0x1c0568(0x11ba,0x1b2d)+'ttacks\x20in\x20'+_0x18cdf3(0x48e,-0x250),'cyber_intro':'Phishing,\x20'+'data\x20theft'+_0x1c0568(0x9d9,0x1243)+_0x1c0568(-0x10b,-0x92f)+'\x20and\x20ident'+'ity\x20theft:'+_0x1c0568(0xadc,0xa26)+_0x18cdf3(0x122a,0x118d)+_0x1c0568(0x12ef,0xf87)+_0x18cdf3(0x1006,0x172d)+'\x20protect\x20y'+_0x18cdf3(0xe4f,0x9d3)+'ts,\x20device'+_0x18cdf3(0x10ef,0x1a41)+_0x1c0568(0x973,-0x62)+_0x18cdf3(0x14d4,0x1450),'cyber_intro_2':_0x1c0568(0x712,-0x38d)+'\x20combines\x20'+'prudent\x20ha'+_0x18cdf3(0x1624,0x1478)+_0x18cdf3(0x1463,0xc5a)+'chnical\x20pr'+'otections,'+'\x20and\x20rapid'+'\x20reaction\x20'+_0x1c0568(0xddf,0x18af)+'cident\x20occ'+'urs.','prevention_themes':'📋\x20Preventi'+_0x18cdf3(0x1478,0x1427),'cyber_step1':'🔑\x20Step\x201\x20—'+'\x20Saved\x20pas'+'swords','cyber_step2':_0x18cdf3(0x103,0x11f)+'\x20Social\x20en'+_0x18cdf3(0x2ab,-0x3c4)+_0x18cdf3(0x5fe,0x86e)+'ng','cyber_step3':_0x1c0568(0x68a,-0xcd)+'\x20Attacks\x20a'+_0x18cdf3(0x93e,-0x13d)+'swords','cyber_step4':'🗝️\x20Step\x204\x20—'+_0x1c0568(0xf81,0x1104)+'\x20keys\x20and\x20'+_0x18cdf3(0xeec,0xa11)+'ecurity','cyber_step5':_0x18cdf3(0x127d,0x1821)+'\x20Personal\x20'+_0x18cdf3(0xd52,0xf52)+'n','cyber_step6':_0x1c0568(0x1286,0x1541)+'\x20French\x20la'+'w\x20and\x20hack'+'ing','cyber_step7':_0x1c0568(0x14a,-0xfd)+'\x20Phishing,'+_0x18cdf3(0x1265,0x1ad5)+'\x20identity','cyber_step8':_0x1c0568(0x61d,0xdc3)+_0x1c0568(0xe13,0x6e1)+'data\x20and\x20G'+'DPR','cyber_step9':'✅\x20Step\x209\x20—'+'\x20Authorize'+'d\x20security'+_0x18cdf3(0x125d,0x1932),'cyber_step10':_0x1c0568(0x11eb,0x19ef)+_0x1c0568(0xd12,0x31b)+_0x1c0568(-0x226,-0x8eb)+'\x20of\x20an\x20inc'+'ident?','cyber_conclusion':'🏁\x20General\x20'+_0x18cdf3(0x4d2,0x745),'cyber_s1_title':_0x18cdf3(0x1415,0x1c17)+'\x20Saved\x20pas'+'swords:\x20co'+_0x18cdf3(0x105c,0x817)+_0x1c0568(0x553,-0xaa)+_0x18cdf3(0x1040,0x1482)+'e','cyber_s1_p1':_0x18cdf3(0x6ec,0x4a7)+_0x1c0568(0x500,0xe80)+_0x18cdf3(0x532,0xc37)+_0x1c0568(0x112c,0x1a5c)+_0x18cdf3(0x756,0xeae)+'ed\x20note,\x20o'+_0x1c0568(0xbfe,0x1c5)+'\x20document\x20'+_0x18cdf3(0x762,-0x175)+'ur\x20account'+'s\x20if\x20the\x20f'+'ile\x20is\x20sto'+_0x18cdf3(0x126f,0x109e)+'\x20device\x20is'+_0x1c0568(-0x18f,-0x195)+'ed.','cyber_s2_title':_0x1c0568(-0x2b6,0x7cc)+'\x20Social\x20en'+_0x18cdf3(0x2ab,-0x518)+'and\x20phishi'+_0x1c0568(0x1178,0x854)+_0x1c0568(0xb3d,0x33a)+'arget','cyber_s2_p1':'Phishing\x20i'+'s\x20a\x20techni'+_0x1c0568(0x84e,0x476)+_0x18cdf3(0x14b1,0x1cdc)+'\x20pretendin'+'g\x20to\x20be\x20a\x20'+'trusted\x20pe'+_0x18cdf3(0xd1a,0x16f2)+_0x18cdf3(0x8cd,0x997)+'\x20in\x20order\x20'+_0x1c0568(0x29c,-0x1c0)+'informatio'+_0x18cdf3(0x10b8,0x6e4)+'nt,\x20or\x20a\x20r'+_0x1c0568(-0x7d,-0x2e8)+'n.','cyber_s3_title':_0x18cdf3(0xa43,0xf7b)+_0x1c0568(0x321,0x111)+'gainst\x20pas'+_0x1c0568(0xfef,0x1494),'cyber_s3_p1':'Attempts\x20t'+'o\x20guess\x20or'+'\x20reuse\x20a\x20p'+'assword\x20ta'+'ke\x20several'+'\x20forms\x20and'+_0x18cdf3(0x485,0xc2)+_0x18cdf3(0x7b3,0x2b2)+_0x18cdf3(0x1302,0x1573),'cyber_s4_title':'🗝️\x20Step\x204\x20—'+_0x18cdf3(0x133a,0x1b4a)+'\x20keys\x20and\x20'+'physical\x20s'+'ecurity','cyber_s4_p1':'Publishing'+'\x20a\x20detaile'+'d\x20photo\x20of'+_0x1c0568(0x9a7,0x75c)+_0x18cdf3(0x14de,0xda0)+'\x20vehicle\x20k'+_0x1c0568(0x5e6,0x8e1)+'eal\x20charac'+'teristics\x20'+'useful\x20to\x20'+'a\x20maliciou'+_0x1c0568(0xc48,0x1260),'cyber_s5_title':_0x18cdf3(0x127d,0xbf7)+'\x20Personal\x20'+_0x1c0568(0x999,0x4fa)+'n\x20and\x20priv'+'acy','cyber_s5_p1':'Avoid\x20pass'+_0x18cdf3(0x1275,0x15a2)+_0x1c0568(-0xd2,0x822)+'ls\x20that\x20ar'+_0x18cdf3(0xac9,0x1399)+_0x18cdf3(0x1b1,-0x412)+'ess.','cyber_s6_title':'⚖️\x20Step\x206\x20—'+'\x20French\x20la'+_0x1c0568(0x661,0x703)+'ent\x20access'+_0x18cdf3(0x1292,0x151e)+_0x1c0568(0x4fe,-0x19)+_0x18cdf3(0xe9a,0x9a3),'cyber_s6_p1':'In\x20France,'+'\x20attacks\x20o'+_0x1c0568(0x551,-0x4a0)+'d\x20data\x20pro'+_0x18cdf3(0x1411,0x1c64)+'stems\x20(STA'+_0x1c0568(0x304,0x88)+_0x18cdf3(0x113d,0x118e)+_0x18cdf3(0xe29,0x11c2)+_0x1c0568(0xbcd,0x29f)+'23-1\x20et\x20se'+_0x1c0568(0xbcf,0xa89)+_0x1c0568(0x11e,0x77b)+'.','cyber_s7_title':'📨\x20Step\x207\x20—'+'\x20Phishing,'+'\x20fraud\x20and'+_0x1c0568(0xe73,0xbee)+'theft','cyber_s7_p1':'Phishing\x20d'+'escribes\x20a'+_0x1c0568(-0xd7,0x4d)+_0x1c0568(0xbe4,0xb44)+'lf\x20the\x20fin'+'al\x20qualifi'+_0x1c0568(0xd3b,0xbd2)+_0x1c0568(0x42b,-0x285)+'.','cyber_s8_title':'🗂️\x20Step\x208\x20—'+'\x20Personal\x20'+_0x1c0568(0x6c3,0x803)+'\x20and\x20secur'+'ity\x20obliga'+'tions','cyber_s8_p1':'Organizati'+_0x18cdf3(0xb39,0x8c)+_0x18cdf3(0xd9f,0x16a7)+'sonal\x20data'+'\x20must\x20in\x20p'+'articular\x20'+'implement\x20'+'appropriat'+'e\x20security'+'\x20measures.','cyber_s9_title':_0x1c0568(0x7ee,0xad6)+_0x1c0568(0x1214,0x19d6)+'\x20security\x20'+'test:\x20obta'+_0x18cdf3(0x843,0x89f)+_0x18cdf3(0x1149,0xcd8)+'on','cyber_s9_p1':_0x18cdf3(0x15af,0x16d4)+_0x1c0568(0x84c,0xfee)+'ion\x20test,\x20'+'or\x20a\x20vulne'+_0x18cdf3(0x4af,0xde4)+'earch\x20must'+'\x20be\x20carrie'+'d\x20out\x20with'+_0x1c0568(0x993,0x11f4)+_0x1c0568(0x12d3,0x1221)+'mework.','cyber_s10_title':_0x18cdf3(0x15a4,0x1865)+'—\x20What\x20to\x20'+_0x18cdf3(0x40e,-0x1ad)+_0x1c0568(-0x5b,-0x2e3)+_0x18cdf3(0x6b9,0xbea)+'compromise'+'d?','cyber_s10_p1':'From\x20a\x20hea'+_0x18cdf3(0x5b6,0xdca)+_0x18cdf3(0x4ee,-0x40b)+'the\x20passwo'+_0x1c0568(0xa2f,0xc5d)+_0x18cdf3(0x14f2,0x14e4)+_0x1c0568(-0x197,-0x547)+_0x1c0568(0x36e,0x586),'cyber_conclusion_title':_0x18cdf3(0x566,0x207)+_0x18cdf3(0x4d2,0x150),'cyber_conclusion_p1':_0x18cdf3(0xee6,0x14ce)+_0x1c0568(0xbc2,0x6fc)+_0x1c0568(0x3db,0xeb8)+'hnical\x20fla'+'ws,\x20but\x20al'+_0x18cdf3(0x16a,-0x5d7)+'habits,\x20an'+_0x1c0568(0x319,0x461)+'ion\x20shared'+_0x1c0568(0xdbb,0x4a2),'legal_notice':_0x18cdf3(0xd90,0x1507)+_0x1c0568(0x62d,0x10bd)+'urity','legal_info':_0x1c0568(0xd63,0x940)+_0x18cdf3(0x1276,0x13e1),'legal_company':'Company\x20na'+'me:','legal_status':_0x18cdf3(0xae2,0x3db),'legal_address':'Address:','legal_hosting':'2.\x20Site\x20ho'+_0x18cdf3(0x765,0x8c1),'legal_ip':'3.\x20Intelle'+_0x1c0568(0xe66,0x155f)+_0x1c0568(0xe9c,0x1448),'legal_ip_p1':_0x1c0568(0x1217,0x78a)+_0x1c0568(0x619,0x83b)+'xts,\x20image'+'s,\x20design,'+'\x20logo,\x20str'+'ucture)\x20is'+_0x18cdf3(0xdc3,0xb8f)+'sive\x20prope'+'rty\x20of\x20GUI'+'LLET\x20IV.','legal_ip_p2':_0x1c0568(0xc27,0x1300)+'uction,\x20di'+'stribution'+',\x20or\x20explo'+'itation\x20wi'+'thout\x20auth'+'orization\x20'+'is\x20strictl'+_0x1c0568(0x2b5,-0x3f4)+'ed.','legal_data_title':_0x1c0568(0xedc,0x17bc)+_0x18cdf3(0x168b,0x11bf),'legal_data_p1':'The\x20data\x20c'+_0x18cdf3(0x107b,0x1500)+'name,\x20emai'+_0x18cdf3(0x121e,0x1976)+',\x20phone)\x20i'+'s\x20used\x20onl'+_0x1c0568(-0x1e2,0x88a)+'r\x20processi'+'ng\x20and\x20cus'+'tomer\x20supp'+'ort.','legal_data_p2':'No\x20persona'+'l\x20data\x20is\x20'+'transmitte'+'d,\x20sold,\x20s'+'hared,\x20or\x20'+'communicat'+_0x18cdf3(0xd0f,0x1338)+_0x1c0568(-0x1b,-0x125)+'tforms,\x20th'+_0x18cdf3(0x2de,0xb69)+'services,\x20'+_0x1c0568(0x6af,0xb62)+'odies,\x20in\x20'+_0x1c0568(0x234,0x80c)+_0x1c0568(0xb1f,0x329),'legal_data_p3':'In\x20accorda'+_0x18cdf3(0xbb6,0x82c)+_0x18cdf3(0x150a,0xfc8)+'ou\x20can\x20req'+_0x1c0568(0xa9e,0x75c)+_0x18cdf3(0x1101,0x1285)+'\x20modificat'+_0x18cdf3(0x46b,0x47c)+'r\x20data\x20at\x20'+_0x1c0568(0xb4b,0x204)+_0x1c0568(0x4c5,0x9b9)+'lorieuse@g'+_0x1c0568(0x755,0xd39),'legal_cookies_title':_0x18cdf3(0x90b,0x123f),'legal_cookies_p1':_0x1c0568(0x70f,0x68d)+_0x1c0568(0x122a,0x14d9)+_0x18cdf3(0x75b,0x83c)+'kies\x20to\x20im'+'prove\x20the\x20'+_0x18cdf3(0x1670,0x209c)+'ience\x20(car'+_0x1c0568(0x12b3,0x1678)+'\x20preferenc'+_0x18cdf3(0x197,-0x403),'legal_cookies_p2':_0x18cdf3(0x22f,-0x280)+'sing\x20cooki'+_0x18cdf3(0x8ac,0x113d)+'d.','legal_liability_title':_0x1c0568(0x8f9,0x945)+'ty','legal_liability_p1':'GUILLET\x20IV'+'\x20cannot\x20be'+_0x18cdf3(0x92d,0x95)+_0x18cdf3(0x112f,0x17be)+_0x1c0568(0xf9f,0xed2)+_0x1c0568(0x19f,0x99e)+'use\x20of\x20the'+'\x20site\x20or\x20p'+'roducts,\x20u'+_0x1c0568(0x575,0xdde)+'f\x20of\x20direc'+_0x18cdf3(0x363,0x2e4),'legal_disputes_title':'7.\x20Dispute'+'s','legal_disputes_p1':'In\x20the\x20eve'+'nt\x20of\x20a\x20di'+_0x18cdf3(0x103f,0x17de)+'amicable\x20s'+'olution\x20wi'+_0x1c0568(-0xf1,0x1b3)+_0x18cdf3(0xca8,0xec7)+'iority.','legal_disputes_p2':'Failing\x20th'+_0x18cdf3(0x1593,0xbe2)+_0x1c0568(0x10c0,0x1881)+_0x1c0568(0x4e2,0xaf1)+'competent.','security_audit_title':'🛡️\x20Technica'+_0x1c0568(0xf83,0x177a)+_0x1c0568(0x7e9,0x1126)+_0x1c0568(0xd32,0xf20),'security_audit_subtitle':_0x18cdf3(0x327,-0x309)+'\x20of\x20the\x20Sh'+'op\x20de\x20Lége'+_0x1c0568(0xe5d,0x9ee),'security_audit_p1':'The\x20securi'+'ty\x20of\x20visi'+'tors\x20and\x20c'+'ustomers\x20i'+_0x18cdf3(0x1004,0x139d)+_0x18cdf3(0x1f8,0xb0d)+_0x1c0568(0x111a,0x8b5)+'de\x20Légende'+_0x1c0568(0x212,-0x66d)+'\x20applies\x20a'+'dvanced,\x20r'+_0x18cdf3(0xb77,0x1626)+_0x18cdf3(0xd6e,0x9b1)+'assable\x20pr'+'otections\x20'+_0x18cdf3(0x1049,0xe8d)+'ee\x20reliabl'+_0x18cdf3(0x83b,-0x2a4)+_0x18cdf3(0x9e5,0xfe5)+_0x1c0568(0x1092,0x15ec)+'\x20and\x20total'+_0x1c0568(0xe34,0x6a0)+_0x18cdf3(0x1038,0x7f8),'security_audit_p2':'In-depth\x20t'+_0x18cdf3(0x295,0x5a4)+_0x1c0568(0x3c7,0x12f)+'rried\x20out\x20'+_0x18cdf3(0x9eb,0x103f)+'and\x20curl\x20c'+'onfirm\x20tha'+'t\x20the\x20site'+'\x20presents\x20'+'no\x20flaws,\x20'+'no\x20dangero'+_0x18cdf3(0x435,0xbc4)+'s,\x20no\x20data'+_0x1c0568(0x8a4,0x587)+'\x20and\x20that\x20'+_0x18cdf3(0x11f7,0x7fc)+'ed\x20mechani'+'sms\x20are\x20no'+'rmal\x20and\x20e'+'xpected\x20pr'+_0x18cdf3(0x7ce,0x91c),'security_audit_p3':_0x1c0568(0x1204,0x1cb2)+'\x20no\x20threat'+',\x20no\x20anoma'+_0x18cdf3(0x1262,0x1228),'security_audit_1_title':'🔒\x20Secure\x20c'+'onnection\x20'+_0x1c0568(0x59c,0xa93)+_0x1c0568(0x95,0x69f),'security_audit_1_p1':_0x1c0568(0x1262,0x1500)+'ses\x20the\x20st'+_0x1c0568(0xc6b,0x1240)+_0x1c0568(0x786,-0xbc)+'ndards:','security_audit_1_l1':_0x1c0568(0xa5a,0x8ee)+'encryption','security_audit_1_l2':_0x1c0568(0xc68,0x13bf)+_0x1c0568(0x1098,0x177e)+_0x1c0568(0x24e,0x1e8)+'n','security_audit_1_l3':'automatic\x20'+_0x18cdf3(0x9d1,0xbce)+_0x18cdf3(0x979,0x602),'security_audit_1_l4':_0x1c0568(0x77c,0x121a)+'otocol,\x20in'+_0x1c0568(0x658,0x106c)+'l\x20banking\x20'+_0x18cdf3(0xe90,0x145e),'security_audit_1_footer':'👉\x20Nmap\x20con'+_0x1c0568(-0x1f1,0x2a8)+_0x18cdf3(0x165b,0x149f)+'is\x20open,\x20s'+'ecure,\x20and'+_0x18cdf3(0xbd1,0x104a)+'no\x20vulnera'+_0x18cdf3(0x124c,0xd61),'security_audit_2_title':'🛡️\x20Advanced'+_0x18cdf3(0x1181,0xc94)+'n\x20against\x20'+'attacks\x20(C'+_0x1c0568(0x6d7,-0x235),'security_audit_2_p1':'The\x20site\x27s'+_0x18cdf3(0xdea,0x12dd)+'ecurity\x20Po'+_0x1c0568(0x376,-0x5c6)+'s:','security_audit_2_l1':_0x18cdf3(0x12c0,0x11c9)+_0x1c0568(0x832,0xa5c),'security_audit_2_l2':_0x18cdf3(0x1330,0x997)+_0x1c0568(0x115e,0xf61),'security_audit_2_l3':'unauthoriz'+'ed\x20resourc'+'es','security_audit_2_l4':_0x18cdf3(0x409,0x449)+_0x18cdf3(0xd35,0x38c),'security_audit_2_footer':'👉\x20Nmap\x27s\x20h'+_0x18cdf3(0x145b,0x199e)+_0x18cdf3(0x1664,0xc39)+_0x18cdf3(0xa7e,0xbad)+'mplete,\x20st'+_0x1c0568(0x806,0x2ee)+_0x1c0568(0x49b,0x8a0)+'.\x20No\x20dange'+'rous\x20behav'+_0x1c0568(0x10ba,0xef2)+'ed.','security_audit_3_title':_0x1c0568(0x229,0x2e7)+'ud\x20&\x20Anti-'+'clickjacki'+'ng','security_audit_3_footer':'👉\x20Active\x20p'+'rotection,'+'\x20non-bypas'+'sable,\x20pre'+'venting\x20an'+_0x1c0568(0xf2a,0xc50)+_0x1c0568(0x1170,0xe5d)+_0x1c0568(0xacb,0xb69)+_0x1c0568(0xb9d,0x185),'security_audit_4_title':'🔐\x20Secure\x20p'+_0x18cdf3(0x111b,0x1a93)+_0x18cdf3(0x157c,0xcbd),'security_audit_4_p1':_0x18cdf3(0xdc8,0x87b)+_0x1c0568(0xf9c,0x748)+'ed\x20by\x20Stri'+'pe,\x20a\x20cert'+_0x1c0568(0x903,0xd67)+'ing\x20soluti'+'on:','security_audit_4_l1':'PCI-DSS\x20co'+_0x18cdf3(0xb6f,0x66f),'security_audit_4_l2':_0x1c0568(0x1152,0x17ac)+_0x1c0568(-0x2af,-0x3c),'security_audit_4_l3':_0x1c0568(0x10cb,0x19f4)+'on\x20of\x20bank'+_0x18cdf3(0x10be,0xa79),'security_audit_4_l4':_0x1c0568(0x524,-0x2ee)+'r\x20stored\x20o'+_0x1c0568(0x129d,0x1426),'security_audit_4_footer':_0x18cdf3(0x10c1,0x18c9)+_0x18cdf3(0x1c8,0x2c6)+'\x20Stripe\x20en'+_0x1c0568(0x3ae,0x7a5)+'e\x20secure,\x20'+_0x18cdf3(0x117c,0xce3)+'\x20without\x20r'+'isk.','security_audit_5_title':'🧭\x20Enhanced'+_0x18cdf3(0x592,0x896),'security_audit_5_p1':'The\x20site\x20a'+_0x1c0568(0x23d,-0x345)+'ict\x20polici'+'es:','security_audit_5_l1':'Referrer\x20P'+_0x18cdf3(0xf65,0x121c)+'de>strict-'+'origin-whe'+_0x1c0568(-0x1be,-0x5c2)+'igin</code'+'>','security_audit_5_l2':_0x1c0568(-0xf6,-0xab8)+_0x1c0568(0x932,0x13ec)+_0x18cdf3(0xa40,0x136c)+'\x20no\x20microp'+_0x1c0568(0x60f,-0x1f4)+'eolocation','security_audit_5_l3':'X-Content-'+_0x1c0568(0xba8,0x11f2)+_0x18cdf3(0x140a,0x11dd)+'nosniff</c'+'ode>','security_audit_5_l4':_0x1c0568(0x6cd,0x5c7)+_0x18cdf3(0x637,0x469)+'Policy:\x20<c'+_0x18cdf3(0x4c3,0xcf7)+_0x1c0568(-0xaf,0x6da)+'e>','security_audit_5_l5':'Cross-Orig'+'in-Embedde'+_0x1c0568(0x989,0xc4b)+'<code>cred'+_0x1c0568(0x1196,0x7be)+_0x1c0568(-0x21a,0x770),'security_audit_5_l6':_0x1c0568(0x6cd,0x5db)+'in-Resourc'+_0x1c0568(-0x5c,0x5a7)+_0x1c0568(0x56b,0xc13)+'-origin</c'+_0x18cdf3(0x10da,0x6c2),'security_audit_5_footer':'👉\x20These\x20pr'+_0x18cdf3(0xc44,0xaba)+_0x1c0568(0xb4d,0xd16)+_0x1c0568(0xf36,0xeb1)+_0x18cdf3(0x689,0x3db)+_0x18cdf3(0x166e,0x1233)+'\x20impact\x20fo'+_0x1c0568(-0xf4,-0x6fd)+'.','security_audit_6_title':'🌍\x20Protecti'+_0x18cdf3(0x768,0x19f)+'\x20external\x20'+'sites\x20(COR'+'S)','security_audit_6_p1':'The\x20site\x20o'+_0x1c0568(-0x65,-0x3eb)+_0x1c0568(0xc5b,0x891)+_0x1c0568(0xe6b,0x1391),'security_audit_6_footer':_0x1c0568(0x284,0x1bd)+',\x20no\x20unaut'+'horized\x20ex'+_0x18cdf3(0x1316,0x18b7)+'ess.','security_audit_7_title':'🧪\x20Secure\x20h'+'osting\x20on\x20'+'Vercel','security_audit_7_p1':'The\x20site\x20b'+_0x1c0568(0x102e,0x14ee)+_0x18cdf3(0x163b,0x1ccf)+'protection'+'s:','security_audit_7_l1':'enhanced\x20s'+_0x1c0568(0xf47,0x1220),'security_audit_7_l2':_0x18cdf3(0x73e,0x22b)+_0x18cdf3(0x1031,0x932),'security_audit_7_l3':_0x18cdf3(0x74d,0xf0e)+_0x18cdf3(0x163,-0x936),'security_audit_7_l4':_0x1c0568(0xf84,0x12e8)+'lobal\x20infr'+_0x1c0568(0xf75,0x587),'security_audit_7_l5':_0x1c0568(0xbe2,0xd32)+_0x1c0568(0x3b4,-0x58e)+'em','security_audit_7_footer':_0x18cdf3(0xeb,0xe1)+'ects:\x20X-Ve'+_0x1c0568(0x1187,0x1098)+'enge-Token'+',\x20X-Vercel'+_0x18cdf3(0x1325,0x1e04)+':\x20challeng'+_0x18cdf3(0x4b8,-0x3d2)+'Security\x20C'+_0x1c0568(0x527,0x403)+_0x18cdf3(0x14ad,0xc24)+_0x1c0568(0xf86,0x12e8)+_0x18cdf3(0x7f7,0x493)+'automatic,'+_0x18cdf3(0x8ea,0xc3f)+_0x1c0568(0x5e2,-0x1db)+'uman\x20visit'+'ors.','security_audit_8_title':_0x1c0568(0x22c,0xaa2)+'us\x20monitor'+'ing\x20&\x20main'+_0x18cdf3(0x1258,0x1a25),'security_audit_8_p1':_0x1c0568(0x98e,0x185)+_0x1c0568(0x521,-0x1f2)+_0x18cdf3(0x2b2,-0x1be),'security_audit_8_l1':_0x1c0568(-0x196,-0x69d)+'dits','security_audit_8_l2':'technical\x20'+'updates','security_audit_8_l3':'SSL\x20checks','security_audit_8_l4':_0x18cdf3(0x521,0x93e)+'k\x20tests','security_audit_8_footer':'👉\x20Analyses'+_0x18cdf3(0xa3f,0xe5)+'onstant,\x20a'+'ctive\x20secu'+_0x18cdf3(0x109b,0x16bc)+'out\x20flaws.','security_audit_9_title':'📡\x20Technica'+_0x1c0568(0x497,0xe5d)+'tion\x20(Nmap'+_0x18cdf3(0x9b8,0x13a),'security_audit_9_p1':'External\x20a'+_0x18cdf3(0x921,0xac5)+'ow:','security_audit_9_l1':'no\x20flaws','security_audit_9_l2':'no\x20dangero'+_0x18cdf3(0x362,-0x5f),'security_audit_9_l3':_0x1c0568(0x92d,-0xde)+'sary\x20ports','security_audit_9_l4':'no\x20informa'+'tion\x20leaks','security_audit_9_l5':'no\x20exposed'+_0x18cdf3(0xec6,0x137a),'security_audit_9_l6':_0x18cdf3(0xee5,0xc95)+'l\x20behavior','security_audit_9_l7':'no\x20risk\x20fo'+'r\x20visitors','security_audit_9_nmap1_title':_0x18cdf3(0xd20,0x12e1)+_0x1c0568(0x10a2,0x1af2)+'s','security_audit_9_nmap1_text':_0x18cdf3(0x454,0x779)+'eaders:\x20co'+'mplete\x20CSP'+_0x1c0568(-0x270,-0xa3b)+'STS,\x20X-Fra'+_0x18cdf3(0x10e6,0xc00)+',\x20Permissi'+'ons-Policy'+_0x18cdf3(0x393,0x484)+'-Policy,\x20X'+_0x1c0568(0x213,-0x2e7)+'ype-Option'+'s,\x20strict\x20'+'CORS,\x20Verc'+'el\x20protect'+_0x1c0568(0x11cc,0x702),'security_audit_9_nmap1_footer':'👉\x20All\x20thes'+_0x18cdf3(0x90e,0x10a7)+_0x18cdf3(0x148d,0xded)+'ctions.\x20No'+'\x20danger.','security_audit_9_nmap2_title':_0x1c0568(0x967,0x887)+'ttp-method'+'s','security_audit_9_nmap2_text':_0x18cdf3(0xdfb,0x1804)+_0x18cdf3(0x1400,0x116b)+'IONS','security_audit_9_nmap2_footer':'👉\x20No\x20dange'+'rous\x20metho'+'d.','security_audit_9_nmap3_title':'✔️\x20Nmap\x20—\x20h'+'ttp-title','security_audit_9_nmap3_text':'Site\x20doesn'+_0x1c0568(0xd6f,0x1107)+_0x1c0568(0x4a4,0x27d)+'t/plain)','security_audit_9_nmap3_footer':_0x18cdf3(0x14ea,0x1217)+'echnical\x20r'+'esponse.\x20N'+_0x18cdf3(0x67a,0xe30)+'or\x20visitor'+'s.','security_audit_9_nmap4_title':'✔️\x20Nmap\x20—\x20h'+_0x1c0568(0x6d,-0x8b3)+_0x1c0568(0x421,0x37f),'security_audit_9_nmap4_text':'Nmap\x20confi'+_0x1c0568(0x965,0xa31)+'\x20strict\x20CS'+'P,\x20X-Frame'+'-Options,\x20'+'X-Content-'+'Type-Optio'+'ns,\x20secure'+_0x18cdf3(0xc32,0x8fd)+'trol.','security_audit_9_nmap4_footer':'👉\x20Security'+_0x1c0568(-0x173,-0x856)+'\x20with\x20OWAS'+'P\x20standard'+'s.','security_audit_9_nmap5_title':_0x18cdf3(0xd20,0x1099)+_0x18cdf3(0xe32,0x8a4)+_0x18cdf3(0x1600,0x16c9),'security_audit_9_nmap5_text':'Server:\x20Ve'+'rcel','security_audit_9_nmap5_footer':_0x1c0568(0x9c4,0x975)+'nd\x20secure.','security_audit_9_nmap6_title':_0x18cdf3(0xf6a,0x4ef)+_0x18cdf3(0x1649,0x1a32),'security_audit_9_nmap6_text':'400\x20Bad\x20Re'+_0x18cdf3(0x1278,0x13e7)+_0x1c0568(0x109c,0xe73)+'d\x20·\x20DEPLOY'+_0x18cdf3(0xa76,0x111c)+_0x18cdf3(0x989,0xb47),'security_audit_9_nmap6_footer':_0x1c0568(0x1244,0xf1c)+'\x20Vercel\x20re'+_0x1c0568(0x9c9,0xf70)+_0x1c0568(0xe43,0x700)+'equests.\x20N'+_0x1c0568(0x397,0x3c6),'security_audit_9_nmap7_title':'✔️\x20Nmap\x20—\x20h'+_0x1c0568(0x764,0x9ee),'security_audit_9_nmap7_text':_0x18cdf3(0x3bd,-0x334)+_0x18cdf3(0xf70,0x480),'security_audit_9_nmap7_footer':_0x1c0568(0x241,0x1f2)+'tive\x20resou'+_0x1c0568(0x3da,0xa2)+_0x18cdf3(0x78b,0x6a8)+'\x20no\x20expose'+_0x1c0568(0x74f,0xf9e),'security_audit_9_curl_title':_0x1c0568(0x757,0x3b5)+_0x1c0568(0x11e0,0x10c3),'security_audit_9_curl_text':'Curl\x20displ'+'ays\x20only:\x20'+'protection'+_0x1c0568(0xc88,0x1212)+_0x18cdf3(0x12db,0x1bcb)+'\x20anti-bot\x20'+_0x1c0568(0x2f2,0x5ca)+'.','security_audit_9_curl_footer':_0x18cdf3(0x419,0xdf9)+'ly,\x20no\x20fla'+_0x1c0568(0xa6f,0x2f9)+'.','security_conclusion_title':'🟢\x20Firm\x20con'+_0x18cdf3(0xf4d,0x9d0),'security_conclusion_p1':_0x1c0568(0xc28,0xe30)+'url\x20analys'+_0x1c0568(0x290,-0x66a)+'hat:','security_conclusion_l1':'the\x20site\x20i'+_0x1c0568(0xa6d,0x7e1),'security_conclusion_l2':'protection'+'s\x20are\x20acti'+'ve','security_conclusion_l3':'no\x20flaw\x20ex'+_0x1c0568(0x362,0x9c4),'security_conclusion_l4':'no\x20dangero'+_0x1c0568(0x7c,-0x2ff)+_0x1c0568(0x7f9,0xcb7)+'detected','security_conclusion_l5':'nothing\x20im'+_0x1c0568(0xd2e,0xb27)+_0x1c0568(0xb14,0xec9),'security_conclusion_l6':'the\x20config'+_0x1c0568(0x4dd,-0x295)+_0x1c0568(0xf9a,0x134b)+'nal,\x20stric'+'t,\x20and\x20com'+'pliant','security_conclusion_final':_0x1c0568(-0x183,-0x65f)+_0x18cdf3(0xf6c,0x66f)+_0x18cdf3(0x128d,0xff4)+_0x18cdf3(0xa1f,-0x47)+_0x1c0568(0x12f8,0x180d)+_0x18cdf3(0x108,-0x659)+'d\x20site.','security_engagement_title':'A\x20security'+_0x18cdf3(0xff8,0xc61)+'t','security_engagement_p1':_0x18cdf3(0xe5f,0x1060)+'ng>profess'+'ional\x20pent'+_0x18cdf3(0x216,0x90e)+_0x18cdf3(0x119e,0xb6f)+'ster\x20secur'+_0x18cdf3(0xa46,0xca6)+'and\x20attack'+'\x20mechanism'+_0x18cdf3(0x943,0xdb2)+'te\x20was\x20des'+_0x18cdf3(0x8ff,0xa88)+_0x1c0568(0x36d,0xd93)+'d\x20audited\x20'+_0x18cdf3(0x14ee,0x1a58)+'ame\x20requir'+'ements\x20as\x20'+_0x18cdf3(0x158,-0x59b)+_0x18cdf3(0x16b3,0x1cf9)+'t.','security_engagement_p2':_0x18cdf3(0x1236,0x1b82)+'\x20a\x20securit'+_0x18cdf3(0xc4f,0xcb1)+'er,\x20develo'+'per,\x20or\x20cu'+'rious\x20user'+_0x18cdf3(0xae1,0xb2)+'etect\x20an\x20a'+_0x18cdf3(0x15d2,0xb0c)+_0x18cdf3(0x144d,0x1f22)+_0x18cdf3(0x79f,0xbbf)+_0x18cdf3(0x116a,0x1834)+'trong>cont'+'act\x20me\x20imm'+'ediately</'+'strong>:','security_engagement_phone':_0x1c0568(0xc36,0xbd1)+'one:</stro'+_0x18cdf3(0x537,0xdb8)+_0x1c0568(0xbe7,0x9ba)+_0x18cdf3(0x122f,0x92a)+'7.80.20.47'+'.49</a>','security_engagement_email':_0x1c0568(0x68f,0xc04)+'ail:</stro'+'ng>\x20<a\x20hre'+_0x18cdf3(0x109c,0xaea)+_0x1c0568(0xb21,0x896)+_0x18cdf3(0x534,0x52a)+_0x1c0568(-0x27c,0x84e)+'eglorieuse'+_0x18cdf3(0x9ba,-0x89)+'</a>','security_engagement_thanks':_0x1c0568(0x6c4,0x5f8)+'in\x20advance'+_0x18cdf3(0xdbd,0x13d0)+'vigilance\x20'+'and\x20your\x20c'+'ontributio'+'n\x20to\x20the\x20s'+'ecurity\x20of'+_0x18cdf3(0x11d4,0x177f)+'.\x20🙏','terms_sale':'📄\x20Terms\x20of'+'\x20Sale\x20–\x20GU'+_0x18cdf3(0x30f,0xd7a),'cgv_object':_0x18cdf3(0xf26,0x133e),'cgv_object_text1':'These\x20Term'+_0x18cdf3(0x76f,0xb06)+_0x18cdf3(0x379,0xd9a)+_0x18cdf3(0x1535,0x1c94)+'products\x20o'+_0x18cdf3(0x4e0,0x64d)+'the\x20GUILLE'+'T\x20IV\x20Shop.','cgv_object_text2':_0x18cdf3(0x18b,0x665)+_0x18cdf3(0x461,0xcbb)+_0x1c0568(0x6a7,0xdb7)+'plete\x20acce'+_0x1c0568(-0xe4,-0x7fa)+'these\x20Term'+'s.','cgv_products':'2.\x20Product'+'s','cgv_products_text1':_0x18cdf3(0x355,0xd8c)+_0x1c0568(0x120,-0x2db)+'\x20are\x20descr'+_0x1c0568(0x99b,0xf75)+_0x1c0568(0xc25,0x108f)+'st\x20precisi'+'on.','cgv_products_text2':_0x18cdf3(0x305,0x2cf)+'s\x20are\x20non-'+'contractua'+'l.','cgv_products_text3':'Availabili'+_0x1c0568(0x2d1,0xc48)+_0x18cdf3(0x1182,0x129c)+'ach\x20produc'+_0x18cdf3(0xeb8,0x414),'cgv_price':_0x18cdf3(0xed4,0x15bf),'cgv_price_text1':_0x1c0568(0x78e,0xd9e)+'\x20indicated'+'\x20in\x20euros\x20'+_0x1c0568(0xec6,0x4d1)+'axes\x20inclu'+_0x18cdf3(0x1123,0xfdd),'cgv_price_text2':_0x1c0568(0x638,0x87a)+'\x20reserves\x20'+'the\x20right\x20'+'to\x20modify\x20'+_0x1c0568(0xbdc,0x7cd)+'any\x20time,\x20'+'but\x20produc'+'ts\x20will\x20be'+_0x1c0568(0x4b3,0x894)+_0x1c0568(0xf1c,0x1983)+'he\x20rate\x20in'+'\x20force\x20at\x20'+'the\x20time\x20o'+'f\x20order\x20va'+'lidation.','cgv_order':'4.\x20Order','cgv_order_text1':'The\x20custom'+_0x1c0568(0x50d,0x4da)+'\x20the\x20produ'+'cts\x20they\x20w'+'ish\x20to\x20pur'+'chase,\x20val'+_0x1c0568(0x8d7,-0x1f0)+_0x1c0568(-0x1a9,0x82e)+'nd\x20proceed'+_0x1c0568(0x6a9,0xeab)+'nt.','cgv_order_text2':_0x1c0568(0x615,-0x319)+'onfirmatio'+_0x18cdf3(0x101c,0x1a35)+_0x18cdf3(0x112a,0xe6b),'cgv_order_text3':_0x18cdf3(0x9f1,0x16c)+'\x20reserves\x20'+'the\x20right\x20'+_0x18cdf3(0x872,0x458)+_0x1c0568(0x680,-0xa)+'n\x20the\x20even'+_0x1c0568(0x562,-0x193)+'ment\x20probl'+'em\x20or\x20prio'+'r\x20dispute.','cgv_payment':'5.\x20Payment','cgv_payment_text1':_0x18cdf3(0x68f,0xe1c)+_0x1c0568(0x8a3,0x5e4)+_0x1c0568(-0x96,0x548)+'\x22https://s'+_0x1c0568(0x747,0x1182)+'fr\x22\x20target'+_0x18cdf3(0x4fe,-0x471)+'rel=\x22noope'+'ner\x22>Strip'+'e</a>\x20or\x20v'+_0x18cdf3(0x180,0x5f1)+_0x1c0568(0x9b7,0x134e)+'ed\x20by\x20<a\x20h'+_0x18cdf3(0x1153,0x10f6)+_0x1c0568(-0x12c,-0x796)+'ted.fr\x22\x20ta'+'rget=\x22_bla'+'nk\x22\x20rel=\x22n'+'oopener\x22>V'+'inted</a>.','cgv_payment_text2':'Banking\x20da'+_0x18cdf3(0x6fa,0x10ae)+'r\x20kept\x20by\x20'+_0x18cdf3(0x1e6,-0x48)+'.','cgv_delivery':'6.\x20Deliver'+'y','cgv_delivery_text1':_0x1c0568(-0xbc,-0x905)+'re\x20shipped'+'\x20quickly\x20a'+'ccording\x20t'+'o\x20their\x20av'+'ailability'+'.','cgv_delivery_text2':'Indicative'+_0x1c0568(0xb4c,0xcab)+'to\x205\x20worki'+_0x1c0568(0x7fa,0xe34),'cgv_delivery_text3':'Areas\x20serv'+_0x18cdf3(0x752,-0x169)+'olitan\x20Fra'+_0x18cdf3(0x13f1,0xc7f),'cgv_delivery_text4':_0x1c0568(0x162,0x5d1)+_0x1c0568(0x107a,0x187b)+_0x1c0568(0xc23,0x2b3)+'ded\x20when\x20a'+'vailable.','cgv_delivery_text5':'In\x20case\x20of'+_0x18cdf3(0x144a,0x1ca8)+'loss,\x20the\x20'+'customer\x20m'+_0x1c0568(0x8c,-0x3f9)+_0x18cdf3(0x11e5,0x1abe)+_0x1c0568(0x184,-0x5bb)+'istance.','cgv_retractation':'7.\x20Right\x20o'+_0x1c0568(0x8c9,0x1e1)+'al\x20(14\x20day'+'s)','cgv_retractation_text1':_0x1c0568(0x753,0xbaa)+_0x1c0568(0x11ae,0xa5b)+'a\x20href=\x22ht'+_0x18cdf3(0xe5b,0x1254)+_0x18cdf3(0xa6d,0x84b)+_0x1c0568(0x2c8,0x52a)+'odes/artic'+'le_lc/LEGI'+_0x18cdf3(0x1243,0x1be9)+'226842/\x22\x20t'+'arget=\x22_bl'+_0x1c0568(-0x10,0x4dd)+'noopener\x22>'+'article\x20L2'+'21-18\x20of\x20t'+'he\x20Consume'+_0x18cdf3(0xf49,0x89f)+',\x20the\x20cust'+'omer\x20has\x201'+'4\x20days\x20to\x20'+'exercise\x20t'+'heir\x20right'+'\x20of\x20withdr'+_0x1c0568(0x72c,0xa4a)+_0x18cdf3(0x55e,0xf25)+'ication.','cgv_retractation_text2':_0x1c0568(-0x64,-0x9e9)+_0x1c0568(0x82a,0x885)+_0x1c0568(0x99,-0x614)+'n\x20its\x20orig'+_0x18cdf3(0x1048,0x951)+_0x1c0568(0xf41,0xdf0),'cgv_retractation_text3':'In\x20accorda'+_0x18cdf3(0x1567,0x1986)+'a\x20href=\x22ht'+'tps://www.'+'legifrance'+'.gouv.fr/c'+'odes/artic'+_0x1c0568(0x112a,0x1058)+_0x18cdf3(0x1243,0xbb4)+_0x18cdf3(0xd33,0xf9b)+'6-08-10\x22\x20t'+_0x1c0568(0x242,-0x7c7)+'ank\x22\x20rel=\x22'+'noopener\x22>'+'article\x20L2'+'21-23\x20of\x20t'+'he\x20Consume'+_0x18cdf3(0xf49,0x9d8)+_0x1c0568(-0x5e,-0x323)+_0x18cdf3(0x601,0xddf)+_0x18cdf3(0xb40,0xce6)+'responsibi'+'lity\x20of\x20th'+_0x18cdf3(0x855,0x35c)+',\x20except\x20i'+'n\x20the\x20case'+'\x20of\x20seller'+'\x20error.','cgv_retractation_text4':'In\x20accorda'+_0x18cdf3(0x1567,0x1efd)+'a\x20href=\x22ht'+'tps://www.'+'legifrance'+_0x18cdf3(0x681,0xc6c)+'odes/artic'+'le_lc/LEGI'+_0x18cdf3(0x1243,0x106a)+_0x18cdf3(0x646,0x8ec)+_0x1c0568(-0x1e,0xabe)+_0x18cdf3(0x5fb,0x4ac)+_0x1c0568(-0x10,0x93d)+'noopener\x22>'+_0x1c0568(0x804,0x56d)+'21-24\x20of\x20t'+_0x1c0568(0xc85,0x1104)+_0x18cdf3(0xf49,0xa67)+_0x1c0568(0x3c4,0x3a7)+'nd\x20is\x20made'+_0x1c0568(0x6f,0x389)+'maximum\x20of'+_0x1c0568(0x9fe,0x111e)+_0x1c0568(0x3c2,0xb96)+_0x1c0568(0xd3b,0x1421)+'withdrawal'+_0x18cdf3(0xd03,0x1113)+'he\x20latest\x20'+_0x18cdf3(0xe09,0x7a2)+_0x18cdf3(0x603,0xc67)+'e\x20product\x20'+_0x18cdf3(0x8f0,0xcd)+_0x1c0568(0x597,0x6e3)+'ment.','cgv_return':'8.\x20Return\x20'+'and\x20refund','cgv_return_text1':'Returns\x20mu'+'st\x20be\x20sent'+_0x1c0568(0x10d7,0x187a)+'dress\x20prov'+'ided\x20by\x20th'+'e\x20seller.','cgv_return_text2':'Refunds\x20fo'+_0x1c0568(-0x2ad,-0x694)+'d\x20or\x20Strip'+_0x18cdf3(0x1c6,0xcae)+'pending\x20on'+_0x1c0568(0x502,0x240)+_0x1c0568(0x77e,-0xbd)+'.','cgv_return_text3':_0x1c0568(0x1122,0x191d)+_0x1c0568(0xcca,0x87a)+_0x1c0568(0xa35,0x12a8)+'roduct\x20dam'+'aged\x20by\x20th'+_0x18cdf3(0x855,-0x1a)+'.','cgv_legal_warranties':'9.\x20Legal\x20w'+_0x18cdf3(0x15a8,0x1f23),'cgv_legal_warranties_text':'The\x20seller'+_0x1c0568(0x1148,0xc8a)+'he\x20mandato'+'ry\x20legal\x20w'+'arranties\x20'+'provided\x20b'+_0x1c0568(0x7a6,0xe27)+'ref=\x22https'+'://www.leg'+_0x18cdf3(0x1589,0x186d)+_0x1c0568(0xef2,0x7d2)+'/id/LEGITE'+_0x1c0568(0xc9d,0x7a4)+'9565\x22\x20targ'+_0x18cdf3(0x1383,0x1114)+_0x1c0568(0x9a9,0x46e)+_0x1c0568(0x6ed,-0x26f)+'sumer\x20Code'+_0x1c0568(0xd95,0x11f1)+'he\x20<a\x20href'+_0x1c0568(0x5a2,-0x2cb)+'www.legifr'+'ance.gouv.'+'fr/codes/a'+'rticle_lc/'+'LEGIARTI00'+_0x1c0568(0x15f,0xa98)+_0x18cdf3(0x10d8,0x10fb)+_0x1c0568(0xcfc,0x6a5)+_0x18cdf3(0x1527,0x1ad3)+_0x1c0568(0x66e,-0x45f)+'er\x22>Civil\x20'+_0x1c0568(0x1300,0x15fb),'cgv_conformity':_0x1c0568(0x81,-0x5c3)+'warranties','cgv_conformity_text1':_0x18cdf3(0x806,0x368)+'gal\x20warran'+'ty\x20of\x20conf'+'ormity\x20(2\x20'+'years):</s'+_0x18cdf3(0x132f,0xcc0)+'accordance'+'\x20with\x20<a\x20h'+_0x1c0568(0xd9a,0xaf8)+'://www.leg'+'ifrance.go'+'uv.fr/code'+'s/article_'+_0x1c0568(0x10ac,0x6f0)+'I000044142'+_0x1c0568(0xbc7,0x7b0)+'t=\x22_blank\x22'+'\x20rel=\x22noop'+'ener\x22>arti'+_0x1c0568(0x701,0x75e)+_0x18cdf3(0xdfa,0x1106)+'of\x20the\x20Con'+'sumer\x20Code'+_0x1c0568(-0xae,0x2b7)+_0x1c0568(0xc43,0x294)+'enefits\x20fr'+_0x18cdf3(0x2db,0x81c)+_0x18cdf3(0x446,0xde7)+'ng\x20conform'+'ity\x20defect'+_0x1c0568(0x109b,0x167e)+'\x20at\x20the\x20ti'+'me\x20of\x20deli'+_0x1c0568(0x24a,-0x2fd)+'e\x20good.','cgv_conformity_text2':'<strong>Wa'+'rranty\x20of\x20'+_0x1c0568(-0x101,0x20e)+_0x1c0568(0xa4c,0xcf)+'ong>\x20in\x20ac'+_0x18cdf3(0x7a5,0x67a)+'ith\x20<a\x20hre'+'f=\x22https:/'+_0x18cdf3(0x1178,0xf9f)+'rance.gouv'+'.fr/codes/'+'article_lc'+'/LEGIARTI0'+'0000644192'+_0x18cdf3(0x1446,0x1b20)+'01\x22\x20target'+'=\x22_blank\x22\x20'+'rel=\x22noope'+'ner\x22>artic'+_0x18cdf3(0x54d,0xbf2)+'\x20the\x20Civil'+'\x20Code</a>,'+'\x20the\x20selle'+_0x1c0568(0x20d,-0x57b)+_0x1c0568(0xef9,0x830)+_0x1c0568(-0xa,0x59f)+'den\x20defect'+'s\x20making\x20t'+'he\x20product'+'\x20unfit\x20for'+'\x20its\x20inten'+_0x18cdf3(0x130e,0xaf2)+'\x20significa'+'ntly\x20reduc'+_0x18cdf3(0x5ca,0x1bd)+'se.','cgv_conformity_text3':_0x18cdf3(0xded,0x648)+_0x1c0568(0x3b1,0x2ef)+'mercial\x20wa'+'rranty:</s'+_0x18cdf3(0x151,0x5a6)+_0x1c0568(-0x1d3,0x41d)+'\x20offers\x20a\x20'+_0x18cdf3(0x153c,0xcd9)+'\x20warranty,'+_0x1c0568(0xb7b,0x59c)+'tions,\x20dur'+_0x18cdf3(0xc1a,0x74e)+_0x1c0568(0x93c,0xf8b)+_0x1c0568(0x111e,0x869)+_0x1c0568(-0x216,-0xfa)+_0x1c0568(0x47,0x608)+'the\x20produc'+_0x1c0568(-0x284,-0x6e)+_0x1c0568(0x1268,0x111d)+_0x1c0568(0x1ce,0x2f9)+_0x18cdf3(0xe83,0x846)+'roduct.','cgv_conformity_exclude_title':'Legal\x20warr'+_0x18cdf3(0xdd4,0x13ce)+'not\x20cover:','cgv_conformity_exclude1':_0x18cdf3(0x117a,0x16f6)+_0x1c0568(0x2cc,-0x5f8)+';','cgv_conformity_exclude2':_0x18cdf3(0x1ce,-0x3f7)+'sed\x20by\x20mis'+'use;','cgv_conformity_exclude3':'product\x20mo'+'dification'+'s.','cgv_data':_0x1c0568(0x928,0xb31)+'al\x20data\x20(G'+_0x18cdf3(0x13ec,0x1d21),'cgv_data_text1':'The\x20data\x20c'+'ollected\x20('+'name,\x20emai'+_0x18cdf3(0x121e,0x1892)+',\x20phone)\x20i'+_0x1c0568(0xeb9,0x4cb)+'y\x20for\x20orde'+_0x18cdf3(0xba0,0x507)+_0x18cdf3(0x1652,0xdf5)+_0x1c0568(0x576,0x8df)+'ort,\x20in\x20ac'+'cordance\x20w'+'ith\x20the\x20<a'+'\x20href=\x22htt'+_0x18cdf3(0xf40,0x1016)+_0x1c0568(0x11b1,0x8b7)+_0x18cdf3(0x573,0xc40)+'ontent/FR/'+'TXT/?uri=C'+'ELEX%3A320'+'16R0679\x22\x20t'+_0x1c0568(0x242,0x7a1)+'ank\x22\x20rel=\x22'+_0x1c0568(0x187,0x2c3)+_0x1c0568(0x8be,0x258),'cgv_data_text2':_0x18cdf3(0x766,0x1013)+'\x20sold\x20or\x20s'+'hared.','cgv_data_text3':'The\x20custom'+_0x18cdf3(0x11d,-0x64)+_0x18cdf3(0xbcf,0x7cc)+'s,\x20rectifi'+_0x1c0568(0x1050,0x658)+_0x1c0568(0xa87,0xa20)+'\x20or\x20deleti'+'on\x20of\x20thei'+'r\x20data\x20via'+'\x20<a\x20href=\x22'+_0x1c0568(0x10c4,0xd5a)+'ceglorieus'+_0x18cdf3(0x1305,0xaa3)+'m\x22>lancegl'+'orieuse@gm'+'ail.com</a'+'>.','cgv_liability':_0x1c0568(-0x251,-0x1e1)+'ity','cgv_liability_text1':'The\x20seller'+'\x20is\x20only\x20l'+'iable\x20for\x20'+'direct\x20dam'+'ages\x20relat'+'ed\x20to\x20a\x20de'+'fective\x20pr'+'oduct.','cgv_liability_text2':'They\x20canno'+_0x1c0568(0xbd3,0x525)+'liable\x20for'+'\x20indirect\x20'+_0x18cdf3(0xf36,0x12b0)+_0x18cdf3(0x277,0x7af)+_0x18cdf3(0x1227,0x961)+_0x18cdf3(0x302,-0x77c)+').','cgv_service':_0x18cdf3(0x5bc,0x62a)+'er\x20service','cgv_service_text':_0x1c0568(-0x22c,-0x28)+_0x18cdf3(0x6d9,-0x27a)+'a\x20href=\x22ma'+_0x18cdf3(0x89f,0x679)+'glorieuse@'+'gmail.com\x22'+_0x1c0568(0x731,-0x68)+_0x18cdf3(0x15ff,0xec8)+_0x1c0568(0x7c8,-0x11e)+'—\x20Response'+_0x1c0568(0x1073,0x1b5b)+'\x20hours.','cgv_mediation':_0x18cdf3(0xbbc,0x6eb)+'ion','cgv_mediation_text1':_0x18cdf3(0xc8a,0xb9d)+_0x18cdf3(0x128a,0x1cb0)+_0x1c0568(0xc86,0xe89)+'amicable\x20s'+_0x18cdf3(0x14dc,0x1d09)+_0x1c0568(-0xf1,-0xbdf)+_0x1c0568(0x8ef,0x1143)+'iority.','cgv_mediation_text2':'If\x20no\x20agre'+_0x1c0568(0xb74,0x13e1)+'ound,\x20the\x20'+'customer\x20c'+_0x18cdf3(0xd0e,0xfc4)+'\x20a\x20consume'+'r\x20mediator'+_0x1c0568(0x99f,0x5bc)+_0x18cdf3(0x112d,0x151d)+'f=\x22https:/'+_0x18cdf3(0x8e2,0x1308)+_0x1c0568(-0x185,-0x6d)+'r/mediatio'+'n-conso\x22\x20t'+_0x1c0568(0x242,0x9dd)+'ank\x22\x20rel=\x22'+_0x18cdf3(0x540,0x45e)+_0x1c0568(0x10e2,0x12bb)+_0x18cdf3(0x83c,0x4dd)+'iation-con'+_0x18cdf3(0x134,0x921),'cgv_law':'15.\x20Applic'+_0x1c0568(0x3cd,0x59c),'cgv_law_text1':_0x18cdf3(0x6c6,0x8ef)+'s\x20are\x20gove'+_0x1c0568(0xbd0,0x1024)+_0x1c0568(0xa7d,0x434),'cgv_law_text2':'In\x20the\x20eve'+'nt\x20of\x20a\x20di'+_0x18cdf3(0xfe2,0x1188)+_0x1c0568(-0x1e6,0x440)+'urts\x20will\x20'+_0x1c0568(0x9e9,0x11f3)+_0x18cdf3(0x240,0x344)+_0x18cdf3(0x1474,0x104a)+'th\x20the\x20rul'+_0x1c0568(0x161,0xc5)+_0x1c0568(0xabb,0x2b7)+'pplicable\x20'+_0x18cdf3(0xd15,0x123e)+_0x18cdf3(0x824,0x2d7),'privacy_title':'📄\x20Privacy\x20'+'Policy\x20(GD'+_0x1c0568(0x3fc,0xd88),'privacy_intro':'The\x20protec'+'tion\x20of\x20yo'+'ur\x20persona'+_0x1c0568(0xa23,0x1424)+_0x18cdf3(0xafa,0x121f)+_0x18cdf3(0x239,0x2f7)+'icy\x20explai'+_0x1c0568(0x7,-0x5ac)+_0x1c0568(0x87e,0x4f5)+'ected,\x20why'+',\x20how\x20it\x20i'+'s\x20protecte'+'d,\x20and\x20how'+_0x18cdf3(0x20b,0xa96)+_0x18cdf3(0x865,0x43b)+'ghts.','privacy_s1_title':'1.\x20Data\x20co'+'llected','privacy_s1_intro':'We\x20collect'+'\x20only\x20the\x20'+_0x1c0568(0xce5,0xb69)+'sary\x20for\x20t'+_0x1c0568(0xf03,0x91a)+'on\x20of\x20the\x20'+'site\x20and\x20t'+_0x18cdf3(0x1602,0x201c)+'ing\x20of\x20ord'+'ers:','privacy_s1_l1':'last\x20name,'+'\x20first\x20nam'+'e','privacy_s1_l2':_0x1c0568(0x456,0xda0)+'ress','privacy_s1_l3':'email','privacy_s1_l4':_0x18cdf3(0x27c,0x930)+'er','privacy_s1_l5':'order\x20info'+_0x1c0568(0x454,-0x388),'privacy_s1_l6':'IP\x20address'+_0x18cdf3(0xabb,0x4b)+_0x1c0568(0xc4c,0x1ac)+_0x18cdf3(0x1269,0xf26)+'n)','privacy_s1_note':'No\x20sensiti'+_0x1c0568(0x3d3,-0x247)+'\x20collected'+'.','privacy_s2_title':_0x1c0568(0xce0,0x81a)+'s\x20of\x20proce'+'ssing','privacy_s2_intro':'Your\x20data\x20'+'is\x20used\x20to'+':','privacy_s2_l1':_0x1c0568(-0x1c0,0x32f)+'d\x20ship\x20you'+'r\x20orders','privacy_s2_l2':'provide\x20cu'+_0x1c0568(-0x2a4,0xca)+_0x18cdf3(0x148,0x1a1),'privacy_s2_l3':'manage\x20you'+_0x18cdf3(0x708,-0x1b1)+'\x20account','privacy_s2_l4':'secure\x20the'+_0x18cdf3(0x3fc,-0x490)+_0x18cdf3(0x369,-0x398)+'aud','privacy_s2_l5':_0x1c0568(0xcc4,0x1645)+_0x18cdf3(0xcb1,0x158c)+_0x1c0568(-0x1b9,0x4e4)+'(invoicing'+')','privacy_s3_title':'3.\x20Legal\x20b'+_0x1c0568(0x91c,0x123d),'privacy_s3_intro':'Processing'+_0x1c0568(0x183,0x3ae)+_0x18cdf3(0x168f,0x1276),'privacy_s3_l1':'performanc'+_0x18cdf3(0xd2e,0xba2)+_0x1c0568(0xa9a,0x1420)+'rder)','privacy_s3_l2':_0x1c0568(0xd09,0x163f)+'\x20interest\x20'+'(security,'+'\x20anti-frau'+'d)','privacy_s3_l3':_0x1c0568(0x42a,0x550)+'on-essenti'+'al\x20cookies'+')','privacy_s4_title':'4.\x20Process'+'ors','privacy_s4_intro':'To\x20ensure\x20'+'the\x20operat'+'ion\x20of\x20the'+_0x1c0568(0x723,0xa01)+_0x18cdf3(0xafb,0xc17)+'ders\x20may\x20p'+'rocess\x20you'+'r\x20data:','privacy_s4_l1':'Vercel\x20(si'+'te\x20hosting'+')','privacy_s4_l2':'Stripe\x20/\x20P'+'ayPal\x20(sec'+_0x1c0568(0x11af,0x1a8b)+_0x18cdf3(0x554,0x9cd),'privacy_s4_l3':'Email\x20serv'+_0x1c0568(0x12eb,0xa3a)+_0x18cdf3(0x6cf,-0x407)+_0x18cdf3(0x9ec,0x13ff),'privacy_s4_note':_0x1c0568(0x1093,0x11c3)+'iders\x20comp'+_0x18cdf3(0x1365,0xf92)+_0x1c0568(0x5ba,-0x3ba)+_0x18cdf3(0xbdd,0x13e2)+'alent\x20guar'+_0x1c0568(0xcc1,0x161e),'privacy_s5_title':'5.\x20Retenti'+'on\x20period','privacy_s5_l1':_0x18cdf3(0x1691,0x1842)+'sary\x20for\x20p'+_0x1c0568(0xc9c,0xa4b)+'and\x20invoic'+_0x1c0568(0x584,0x3e0)+_0x18cdf3(0x4fc,0x392)+',\x20in\x20accor'+_0x18cdf3(0x1595,0x160c)+'\x20<a\x20href=\x22'+'https://ww'+'w.legifran'+_0x1c0568(-0x97,-0x8ca)+'/codes/art'+_0x18cdf3(0x8b3,0x4b0)+'GIARTI0000'+'06316689/\x22'+'\x20target=\x22_'+_0x1c0568(-0x91,-0x81a)+_0x1c0568(0x84a,0xb15)+'\x22>article\x20'+'L123-22\x20of'+_0x18cdf3(0xc3a,0xcec)+_0x1c0568(0x118a,0x1af7)+'</a>.','privacy_s5_l2':_0x1c0568(-0x9c,0x96d)+'ustomer\x20da'+'ta:\x203\x20year'+'s','privacy_s5_l3':'Technical\x20'+'cookies:\x201'+_0x1c0568(0x11ff,0xdb7),'privacy_s6_title':'6.\x20Your\x20ri'+'ghts','privacy_s6_intro':'In\x20accorda'+'nce\x20with\x20t'+_0x1c0568(0x1151,0x689)+_0x18cdf3(0xca0,0x1686)+'e\x20followin'+'g\x20rights:','privacy_s6_l1':'access\x20to\x20'+_0x1c0568(0x105,0x983),'privacy_s6_l2':'rectificat'+_0x1c0568(0x1234,0x131f),'privacy_s6_l3':_0x18cdf3(0x9b7,0x145e),'privacy_s6_l4':'objection','privacy_s6_l5':_0x18cdf3(0x1406,0xba3)+'y','privacy_s6_contact':'To\x20exercis'+_0x1c0568(-0x276,-0xa9)+_0x1c0568(-0x148,0xf6)+'glorieuse@'+'gmail.com','privacy_s7_title':_0x18cdf3(0x5e0,0x9c3),'privacy_s7_intro':'The\x20site\x20u'+'ses\x20only:','privacy_s7_l1':'technical\x20'+'cookies\x20(c'+'art,\x20sessi'+_0x18cdf3(0x826,0x1d)+_0x1c0568(0x6df,-0x20d),'privacy_s7_note':'No\x20adverti'+_0x18cdf3(0x1161,0xd8c)+'rketing\x20tr'+'acking\x20coo'+_0x1c0568(-0x5a,-0x2bc)+'sed.\x20An\x20in'+'formation\x20'+'banner\x20may'+'\x20appear\x20on'+'\x20your\x20firs'+'t\x20visit.','privacy_s8_title':_0x18cdf3(0x88c,0x1a1)+'y','privacy_s8_intro':_0x18cdf3(0x153f,0x1f5d)+'trict\x20meas'+'ures\x20to\x20pr'+_0x18cdf3(0xfea,0x1956)+'\x20data:','privacy_s8_l1':_0x18cdf3(0xa14,0x18e)+'S\x201.3\x20encr'+'yption','privacy_s8_l2':'anti-bot\x20p'+_0x1c0568(0x230,-0x4a2),'privacy_s8_l3':'advanced\x20s'+_0x18cdf3(0x1116,0x725)+_0x18cdf3(0x10fc,0x1304)+',\x20HSTS,\x20X-'+_0x18cdf3(0x16be,0x1b9d)+_0x1c0568(-0xfb,0x2a1),'privacy_s8_l4':'secure\x20Ver'+'cel\x20infras'+'tructure','privacy_s8_l5':'PCI-DSS\x20ce'+'rtified\x20pa'+_0x1c0568(0xa06,0x13d5)+_0x1c0568(0x102c,0xa98),'privacy_s8_note':'No\x20banking'+'\x20data\x20is\x20s'+_0x18cdf3(0xf17,0xc82)+'he\x20site.','privacy_s9_title':'9.\x20Transfe'+_0x1c0568(0xc40,0x169b)+'\x20the\x20EU','privacy_s9_text':'Vercel\x20hos'+_0x1c0568(0xfde,0x6f3)+_0x1c0568(0x102b,0xf6c)+_0x18cdf3(0x91f,0x15b)+'tside\x20the\x20'+'European\x20U'+_0x18cdf3(0xaf5,0x72f)+_0x18cdf3(0xf91,0xbd2)+'s\x20are\x20fram'+_0x1c0568(0xe,0x72c)+_0x1c0568(-0x213,0x88b)+_0x1c0568(0x9fd,0xbe3)+_0x1c0568(-0x1dc,-0x31b)+'.','privacy_s10_title':_0x18cdf3(0x8f2,0xc61)+'t','privacy_s10_text':_0x1c0568(-0x22c,-0x748)+_0x1c0568(0xd11,0x17f9)+'garding\x20yo'+_0x18cdf3(0xd2b,0x49d)+'l\x20data:','privacy_s11_title':_0x18cdf3(0x436,0xa02)+_0x1c0568(0xafb,0x1481)+_0x18cdf3(0x3eb,0x6f)+_0x1c0568(0xa46,0xa8e),'privacy_s11_text1':'This\x20polic'+'y\x20is\x20estab'+'lished\x20in\x20'+_0x1c0568(0x420,0xad6)+'\x20with\x20the\x20'+'<a\x20href=\x22h'+_0x18cdf3(0x5b0,0x80b)+_0x1c0568(-0x1aa,0x7c4)+_0x1c0568(-0xf2,0x5e8)+'-content/F'+_0x18cdf3(0x151a,0xaee)+'=CELEX%3A3'+_0x18cdf3(0x110f,0x17e6)+'\x20target=\x22_'+'blank\x22\x20rel'+_0x1c0568(0x84a,-0x161)+'\x22>General\x20'+_0x18cdf3(0x96b,0xeec)+_0x18cdf3(0x14dd,0x14dd)+_0x1c0568(0x10f2,0xb85)+_0x1c0568(-0x23d,0x870)+'d\x20the\x20<a\x20h'+_0x18cdf3(0x1153,0x1824)+_0x18cdf3(0x16c3,0x1883)+'ifrance.go'+'uv.fr/loda'+_0x1c0568(0x8,0x46b)+'XT00003170'+'1594\x22\x20targ'+_0x1c0568(0xfca,0xc0a)+_0x18cdf3(0xd62,0xc55)+_0x1c0568(0x9f3,0x8fc)+_0x18cdf3(0xcbe,0x8af)+_0x18cdf3(0x1386,0xdb5)+'.','privacy_s11_text2':_0x18cdf3(0x1691,0x14d4)+_0x18cdf3(0x8cb,0xb66)+'nvoicing\x20i'+_0x1c0568(0xb7c,0xaa2)+'\x2010\x20years,'+'\x20in\x20accord'+_0x1c0568(0xc1f,0x79e)+'<a\x20href=\x22h'+'ttps://www'+_0x18cdf3(0x1db,0xac4)+'e.gouv.fr/'+'codes/arti'+'cle_lc/LEG'+'IARTI00000'+'6316689/\x22\x20'+_0x1c0568(0xfb6,0xe2b)+'lank\x22\x20rel='+_0x1c0568(0x129a,0x1019)+_0x1c0568(0xeec,0x11e5)+_0x18cdf3(0x1253,0x13cc)+_0x18cdf3(0x476,0x1d6)+_0x1c0568(0xec1,0x144a)+_0x18cdf3(0x527,0x162),'privacy_s11_text3':_0x1c0568(0x134,-0x403)+'le\x20a\x20compl'+'aint\x20with\x20'+'the\x20<a\x20hre'+'f=\x22https:/'+_0x1c0568(0x142,0xa57)+_0x18cdf3(0x496,-0x5af)+_0x18cdf3(0x12ec,0x1081)+_0x1c0568(0xfca,0x155c)+'\x22\x20rel=\x22noo'+_0x1c0568(0xd23,0x1503)+'L</a>.','faq_title':'❓\x20Frequent'+'ly\x20Asked\x20Q'+_0x1c0568(-0x61,0x575),'faq_delivery':'📦\x20Delivery','faq_ship_time':'What\x20is\x20th'+_0x1c0568(0x871,0x4da)+_0x1c0568(0x1284,0x19c6),'faq_ship_time_text':'Items\x20are\x20'+'shipped\x20qu'+'ickly,\x20usu'+'ally\x20withi'+_0x18cdf3(0x126b,0x1279)+'\x20hours\x20dep'+'ending\x20on\x20'+'their\x20avai'+'lability.','faq_delivery_time':'What\x20are\x20t'+'he\x20deliver'+_0x18cdf3(0x3b1,-0x3a2),'faq_delivery_time_text':_0x1c0568(0x31,0x7b1)+'akes\x20an\x20av'+_0x1c0568(0x110a,0x10e2)+_0x18cdf3(0xd69,0xc05)+'ing\x20days\x20a'+'fter\x20shipp'+'ing,\x20depen'+_0x18cdf3(0x1112,0x156f)+_0x18cdf3(0x3f9,0xe76)+'and\x20delive'+'ry\x20area.','faq_zones':'What\x20areas'+'\x20are\x20deliv'+'ered?','faq_zones_text':_0x18cdf3(0x882,0x12dd)+_0x1c0568(0x8ee,0x7e)+_0x18cdf3(0x109a,0x1a74)+_0x18cdf3(0xcdc,0x14bc)+'nce,\x20via\x20t'+'he\x20options'+'\x20offered\x20b'+_0x18cdf3(0x12c3,0x1226)+_0x1c0568(-0x166,-0x12e)+_0x18cdf3(0xba6,0xf91)+'iers.','faq_tracking':_0x1c0568(0x5e1,0x83d)+'ck\x20my\x20pack'+'age?','faq_tracking_text':_0x1c0568(0x162,-0x27c)+'\x20number\x20is'+_0x18cdf3(0xd9b,0x693)+_0x18cdf3(0xda4,0x391)+'ent\x20when\x20a'+'vailable.\x20'+'You\x20can\x20tr'+'ack\x20your\x20p'+_0x18cdf3(0xcef,0x16e2)+_0x18cdf3(0x5ec,0xf4f)+'the\x20carrie'+'r\x27s\x20websit'+'e\x20or\x20via\x20V'+_0x1c0568(0xf0f,0x1367),'faq_delay_lost':'What\x20to\x20do'+_0x18cdf3(0x98c,0x11fe)+_0x18cdf3(0x360,0x7ce)+_0x18cdf3(0xbda,0x9bb)+'age?','faq_delay_lost_text':'Contact\x20GU'+_0x1c0568(0xa0d,0x83e)+_0x1c0568(0x58,0x3d6)+'rvice.\x20An\x20'+'investigat'+'ion\x20will\x20b'+_0x18cdf3(0x2ef,0x36d)+_0x18cdf3(0x891,0xf94)+_0x18cdf3(0xb2f,0xca),'faq_payment':'🔒\x20Secure\x20p'+_0x1c0568(0xdad,0xaf2),'faq_payment_q':_0x18cdf3(0x9c0,0x145a)+'ayment\x20wor'+'k?','faq_payment_text':'All\x20transa'+_0x1c0568(0xa62,0xfec)+'\x20secure\x20an'+'d\x20carried\x20'+_0x18cdf3(0x1494,0x1e8f)+'nted\x20or\x20St'+'ripe.','faq_bank_protection':'Is\x20my\x20bank'+'ing\x20data\x20p'+_0x18cdf3(0x10f6,0xb6a),'faq_bank_protection_text':_0x18cdf3(0x68b,0x406)+'banking\x20da'+_0x18cdf3(0x6fa,0x1124)+'r\x20stored\x20b'+_0x18cdf3(0xaf1,0xa7c)+'IV.\x20Proces'+_0x1c0568(0x42,-0x1ad)+'tirely\x20man'+'aged\x20by\x20se'+_0x1c0568(-0x115,0x6a0)+_0x18cdf3(0x1612,0x16cf)+'ms.','faq_payment_methods':'What\x20payme'+'nt\x20methods'+'\x20are\x20accep'+_0x1c0568(0x85d,0xb4a),'faq_payment_methods_intro':_0x1c0568(0x109a,0x18bc)+'on\x20the\x20pla'+_0x18cdf3(0x13c2,0xa8c),'faq_payment_card':'Credit\x20car'+'d','faq_payment_apple_google':'Apple\x20Pay\x20'+_0x18cdf3(0x8b4,0xbb2)+'ay\x20(Stripe'+')','faq_payment_vinted':_0x1c0568(0x111,-0x7cd)+'\x20Vinted\x20pa'+_0x1c0568(0x1303,0x19f6),'faq_refund':_0x1c0568(-0x1a5,0x12e)+'\x20Refund','faq_return_q':'Can\x20I\x20retu'+_0x18cdf3(0x1697,0x1294)+'?','faq_return_text':_0x1c0568(0x32c,0x5d4)+_0x1c0568(0x3ec,-0x67e)+_0x18cdf3(0x9bf,0x1154)+_0x1c0568(0x480,0xe78)+'/www.legif'+'rance.gouv'+_0x18cdf3(0x81d,0x210)+'article_lc'+_0x1c0568(0x5ee,0x59d)+_0x18cdf3(0x71f,0xfe7)+'2/\x22\x20target'+'=\x22_blank\x22\x20'+'rel=\x22noope'+'ner\x22>artic'+'le\x20L221-18'+_0x1c0568(0xbd7,0x1057)+'nsumer\x20Cod'+'e</a>,\x20you'+_0x1c0568(-0x28a,0x9d)+_0x18cdf3(0x65b,0xf10)+'uest\x20a\x20ret'+'urn.','faq_how_return':_0x1c0568(0x631,0xd65)+_0x1c0568(0xe18,0x429)+'?','faq_how_return_text':_0x18cdf3(0x8bc,0x799)+_0x18cdf3(0xf73,0x580)+_0x18cdf3(0xc67,0x220)+'he\x20instruc'+_0x1c0568(-0xcd,-0x255)+'return\x20add'+_0x1c0568(0x6e6,-0x310)+_0x18cdf3(0xb24,0xa0c)+'st\x20be\x20retu'+_0x1c0568(0x1181,0xdce)+_0x1c0568(0xdfb,0x1517)+'\x20condition'+'.','faq_return_fees':_0x1c0568(0x84f,-0x1ae)+'\x20costs\x20at\x20'+_0x1c0568(0xda5,0x1764)+'?','faq_return_fees_text':'In\x20accorda'+_0x1c0568(0x11ae,0xb06)+_0x18cdf3(0x3b9,0x9c3)+_0x18cdf3(0xe5b,0x10b6)+'legifrance'+'.gouv.fr/c'+_0x18cdf3(0xfa4,0x6ea)+_0x1c0568(0x112a,0x1469)+'ARTI000032'+'226830/201'+'6-08-10\x22\x20t'+_0x1c0568(0x242,-0x846)+'ank\x22\x20rel=\x22'+_0x1c0568(0x187,0x8ad)+_0x18cdf3(0xbbd,0x15d5)+_0x1c0568(-0x1cf,-0x12b)+_0x18cdf3(0x103e,0x140e)+_0x18cdf3(0xf49,0x1810)+_0x1c0568(0xcb9,0x8a9)+_0x18cdf3(0xee8,0x1314)+_0x1c0568(0xf38,0x84f)+'ibility\x20of'+'\x20the\x20custo'+'mer,\x20excep'+'t\x20in\x20the\x20c'+'ase\x20of\x20sel'+_0x1c0568(0x11d3,0x939)+'or\x20defecti'+_0x18cdf3(0x1340,0x1401)+'.','faq_refund_q':'How\x20does\x20t'+'he\x20refund\x20'+_0x18cdf3(0x254,0xca4),'faq_refund_text':_0x18cdf3(0xbd2,0x4cb)+_0x18cdf3(0x169a,0x10f2)+'d\x20accordin'+_0x1c0568(0xd51,0x14ef)+_0x1c0568(0x1207,0x82f)+'\x20directly\x20'+'by\x20the\x20sel'+'ler.\x20In\x20ac'+_0x18cdf3(0x7a5,0xf55)+'ith\x20<a\x20hre'+_0x1c0568(0x480,-0x76)+'/www.legif'+'rance.gouv'+'.fr/codes/'+_0x18cdf3(0x4c1,-0x5f6)+'/LEGIARTI0'+_0x1c0568(0xba9,0xb33)+_0x1c0568(0x303,0x73d)+'16\x22\x20target'+_0x1c0568(0x145,0x705)+_0x1c0568(0xa69,0x34d)+'ner\x22>artic'+'le\x20L221-24'+_0x1c0568(0xbd7,0x70d)+_0x1c0568(0x101a,0x1a84)+_0x18cdf3(0xd21,0x9c9)+_0x18cdf3(0xf9a,0x11e6)+'curs\x20withi'+_0x18cdf3(0xe49,0x13a1)+_0x1c0568(0xbc6,0x6c0)+'ys\x20from\x20no'+_0x18cdf3(0x7f0,0xd3d)+'\x20of\x20withdr'+_0x1c0568(0x10fa,0xdef)+'at\x20the\x20lat'+'est\x20after\x20'+_0x1c0568(0x46f,-0x5d8)+_0x1c0568(0xef0,0xb3f)+_0x18cdf3(0xf16,0xe99)+'of\x20of\x20its\x20'+'shipment.','faq_refund_refused_q':_0x1c0568(0x608,0xa69)+'ses\x20can\x20a\x20'+_0x18cdf3(0x1b7,-0x82d)+_0x18cdf3(0x56b,0xf05),'faq_refund_refused_1':'Product\x20da'+'maged\x20by\x20t'+'he\x20custome'+'r','faq_refund_refused_2':'Incomplete'+_0x1c0568(0x8bc,0xeed),'faq_refund_refused_3':'Product\x20us'+_0x18cdf3(0xbd7,0x1284)+'fied','faq_warranty':_0x1c0568(0xecf,0x18a2),'faq_warranty_q':'What\x20does\x20'+'the\x2024-mon'+_0x1c0568(0x1224,0x88c)+'y\x20cover?','faq_warranty_text':'The\x20commer'+_0x1c0568(0xcd2,0xa79)+'nty\x20covers'+'\x20manufactu'+_0x18cdf3(0x1307,0x16bd)+'ts\x20and\x20fai'+'lures\x20not\x20'+_0x18cdf3(0x994,0x70a)+_0x18cdf3(0x70a,0x29d)+'user.','faq_legal_warranty_q':_0x18cdf3(0x8a2,0x38)+_0x1c0568(0x9ad,0x10dc)+_0x1c0568(0x39c,0xe76),'faq_legal_warranty_intro':'All\x20produc'+'ts\x20automat'+'ically\x20ben'+_0x18cdf3(0xf2c,0xae0),'faq_legal_warranty_1':'the\x20<a\x20hre'+_0x1c0568(0x480,-0x7c)+'/www.legif'+_0x18cdf3(0xbf8,0x12f6)+'.fr/codes/'+'article_lc'+_0x1c0568(0x5ee,0x681)+'0004414257'+'9\x22\x20target='+_0x1c0568(0x116e,0x7a1)+'el=\x22noopen'+'er\x22>2-year'+_0x18cdf3(0x1187,0x1aba)+'ranty\x20of\x20c'+_0x18cdf3(0x157a,0x2002)+'/a>,','faq_legal_warranty_2':'the\x20<a\x20hre'+'f=\x22https:/'+'/www.legif'+'rance.gouv'+_0x18cdf3(0x81d,0x567)+'article_lc'+_0x18cdf3(0x9a7,-0x95)+_0x18cdf3(0x1424,0x122e)+'4/1976-01-'+'01\x22\x20target'+'=\x22_blank\x22\x20'+'rel=\x22noope'+_0x1c0568(0xc79,0x9e5)+'nty\x20of\x20hid'+_0x18cdf3(0x11be,0x16fc)+_0x1c0568(0x190,0x763),'faq_not_covered_q':'What\x20is\x20no'+_0x18cdf3(0x1c0,0x928),'faq_not_covered_1':'Normal\x20wea'+_0x18cdf3(0x685,0x3a2),'faq_not_covered_2':'Damage\x20cau'+'sed\x20by\x20mis'+'use','faq_not_covered_3':_0x1c0568(0xead,0x1128)+'quids,\x20neg'+_0x1c0568(0x6de,-0x1ba),'faq_not_covered_4':'Unauthoriz'+_0x1c0568(0x2d4,-0x413)+'ations\x20or\x20'+_0x1c0568(-0x241,0x17d),'faq_claim_warranty_q':'How\x20to\x20cla'+'im\x20the\x20war'+'ranty?','faq_claim_warranty_intro':_0x1c0568(-0x1b0,-0x592)+_0x1c0568(0x1e5,0x76)+'vice\x20with:','faq_claim_warranty_1':'your\x20order'+'\x20number,','faq_claim_warranty_2':_0x18cdf3(0xb05,0xdc6)+_0x18cdf3(0xa52,0x5b0)+'\x20problem,','faq_claim_warranty_3':'photos\x20or\x20'+_0x1c0568(0xcce,0x1650)+_0x1c0568(0x32b,0xbf3)+'.','faq_service':'📞\x20Customer'+_0x1c0568(0xb65,0xca1),'faq_contact_q':'How\x20to\x20con'+'tact\x20GUILL'+_0x18cdf3(0x3a2,-0x2ab),'faq_contact_text':_0x1c0568(0x836,0xd0)+_0x1c0568(-0x143,0x4c7)+_0x18cdf3(0x853,0x740)+'com\x20—\x20Resp'+_0x1c0568(0x88,0x3a5)+_0x18cdf3(0x11c2,0x8da)+'.','contact_title':_0x18cdf3(0xda5,0x14e1)+'us','contact_intro':_0x18cdf3(0x13c8,0xbdb)+_0x1c0568(0xfe0,0x186b)+_0x1c0568(0x72e,0xe18)+_0x18cdf3(0x68e,0x1b7)+'o\x20write\x20to'+'\x20us.','phone':_0x1c0568(0x110d,0x1122),'location':'Location','france_ille':'France,\x20Il'+_0x18cdf3(0xd8a,0xa65)+_0x18cdf3(0xe2b,0xb8f),'hours':'Hours','your_name':_0x1c0568(0x185,-0x3a),'your_email':'Your\x20email'+_0x18cdf3(0x1693,0xc1c),'your_message':_0x1c0568(0x8c7,0x12f3)+'ge...','send_message':'Send\x20messa'+'ge','message_prepared':'Your\x20messa'+_0x1c0568(0x1c8,0x127)+_0x1c0568(0xc03,0x1b3)+'.\x20You\x20can\x20'+'now\x20send\x20i'+'t\x20via\x20your'+'\x20email\x20app'+'lication.','footer_location':_0x1c0568(0x1f9,-0x449)+_0x18cdf3(0x2ed,-0x28b)+'🕒\x209am\x20–\x208p'+'m','footer_payment':'🔒\x20Secure\x20p'+'ayment\x20—\x20🚚'+'\x20Fast\x20deli'+_0x18cdf3(0x964,0x122d),'copyright':_0x18cdf3(0xa24,0x1311)+'LLET\x20IV\x20—\x20'+'The\x20Order\x20'+'of\x20Indepen'+'dence','follow_tiktok':_0x1c0568(0x78c,0x225)+'s\x20on\x20TikTo'+'k','back_top':_0x18cdf3(0x145e,0xa05)+'p','open_chat':'Open\x20advic'+'e\x20chat','advice_chat':'🤖\x20GUILLET\x20'+'IV\x20Advice','ask_question':'Ask\x20me\x20a\x20q'+'uestion...','prevention_harassment':'🛡️\x20Harassme'+_0x1c0568(0x2e,0x409)+'ion','harassment_is_crime':_0x1c0568(0x10c6,0x16cb)+_0x1c0568(0xd3f,0xaa4)+_0x1c0568(0xd79,0xf01)+_0x1c0568(-0x138,0x19d)+'.','harassment_intro_2':_0x18cdf3(0x16ad,0xd94)+_0x18cdf3(0x48a,0x28e)+_0x18cdf3(0x233,0xb34)+_0x1c0568(0x73b,0x1032)+'ual,\x20Frenc'+'h\x20law\x20seve'+'rely\x20punis'+'hes\x20perpet'+_0x18cdf3(0x842,0x8b0),'harassment_intro_3':_0x18cdf3(0x690,0xfc2)+_0x18cdf3(0x14d6,0xa5a)+'es\x20incurre'+_0x18cdf3(0x145d,0x1878)+_0x18cdf3(0x161f,0xba3)+_0x18cdf3(0x975,0x3c)+_0x1c0568(0x2be,-0x4df),'moral_harassment':'💻\x20Moral\x20ha'+'rassment','school_harassment':_0x1c0568(0x538,-0x15d)+'arassment','sexual_harassment':_0x18cdf3(0xdc1,0x30a)+'arassment','organized_group':'🚨\x20In\x20an\x20or'+'ganized\x20gr'+'oup','where_help':'📞\x20Where\x20to'+'\x20find\x20help'+'?','moral_harassment_desc':_0x18cdf3(0x11df,0xac6)+_0x18cdf3(0x7c1,0xd53)+'haviors\x20de'+'grading\x20li'+'ving\x20condi'+'tions,\x20cau'+'sing\x20an\x20al'+'teration\x20o'+'f\x20physical'+'\x20or\x20mental'+'\x20health.','basic_penalty':_0x18cdf3(0x2d2,0x4c)+'lty','aggravating_simple':_0x18cdf3(0x15c4,0x2055)+_0x1c0568(0xee3,0x7e8)+_0x1c0568(0x6f1,0x1b)+'e','two_aggravating':_0x18cdf3(0x10e9,0x6b8)+'tive\x20aggra'+'vating\x20cir'+_0x1c0568(0xae2,0x12),'up_to_10_years':_0x1c0568(-0x2f,-0x49b)+'ears\x20+\x20€30'+_0x18cdf3(0x130d,0xe87),'organized_group_desc':_0x1c0568(0xd13,0x8a4)+_0x1c0568(0x278,0x1ee)+_0x1c0568(0x78a,0x353)+_0x1c0568(0x69d,0x10cb)+'\x20for\x20a\x20sin'+_0x18cdf3(0xe9,-0x965)+_0x18cdf3(0x86a,0x5f8)+'collective'+_0x1c0568(0xfc2,0x8f0)+'\x20the\x20haras'+_0x1c0568(0x878,0xad2)+_0x1c0568(0x11a3,0x8e6)+'.','school_harassment_desc':'Moral\x20hara'+'ssment\x20com'+'mitted\x20by\x20'+'a\x20student\x20'+_0x18cdf3(0x11e8,0x1b6b)+_0x1c0568(0xba,-0x1e4)+_0x1c0568(0x12,-0x8b6)+_0x1c0568(0x11fb,0x1990)+_0x18cdf3(0xa8d,0xa8)+_0x1c0568(-0x1a2,-0x20f),'itt_over_8':'ITT\x20>\x208\x20da'+'ys','victim_suicide':_0x18cdf3(0xb3d,0x1086)+'tim\x20commit'+'s\x20suicide\x20'+_0x18cdf3(0x1676,0x13d0)+_0x1c0568(0xe9,-0x4b1),'school_harassment_note':_0x18cdf3(0x546,0x898)+'remain\x20pun'+_0x1c0568(-0x203,-0x9f2)+_0x1c0568(0xfd1,0x4fa)+'he\x20end\x20of\x20'+'schooling.','sexual_harassment_desc':'Repeated\x20w'+'ords\x20or\x20be'+_0x18cdf3(0x12b1,0x170f)+'\x20a\x20sexual\x20'+_0x18cdf3(0x4ab,-0x2bf)+'nature,\x20un'+'dermining\x20'+'dignity\x20or'+'\x20creating\x20'+_0x18cdf3(0x1380,0x1256)+_0x18cdf3(0x2d9,0xb72)+'tile,\x20or\x20o'+'ffensive\x20s'+'ituation.','organized_group_law':'🚨\x20In\x20an\x20or'+_0x18cdf3(0x975,0x295)+'oup:\x20what\x20'+_0x1c0568(-0x99,-0xa8c)+'ys','collective_responsibility':'⚖️\x20Collecti'+'ve\x20respons'+_0x18cdf3(0x969,0x12e),'collective_desc':'Online\x20or\x20'+'group\x20hara'+_0x18cdf3(0x59f,0xe62)+_0x1c0568(0x15,-0x2f)+_0x1c0568(0x32a,-0xcf)+_0x1c0568(0xa37,0xf11)+_0x18cdf3(0x129f,0x1ccd)+_0x18cdf3(0xd91,0xeb3)+'\x20one\x20messa'+'ge,\x20liked\x20'+'or\x20shared\x20'+'harassing\x20'+_0x1c0568(-0x39,-0x851)+'ou\x20can\x20be\x20'+'prosecuted'+'.','online_moral_harassment':_0x1c0568(0x10bc,0x10a2)+_0x18cdf3(0xe43,0x439)+_0x18cdf3(0xbb0,0x1004),'sexual_harassment_multiple':_0x1c0568(0x1057,0xf6d)+_0x1c0568(-0x1fb,-0x662)+'\x20several\x20p'+_0x18cdf3(0x5c2,0x65b),'multiple_aggravating':'Harassment'+'\x20with\x20seve'+_0x18cdf3(0xea7,0x170d)+_0x18cdf3(0xc7e,0x2d1)+_0x1c0568(0x3ca,-0x411),'law_punishes_each':_0x1c0568(0x7a3,0x1004)+'nishes\x20eac'+'h\x20particip'+'ant,\x20not\x20j'+'ust\x20the\x20le'+'ader.','dont_stay_alone':_0x18cdf3(0x98b,0x144b)+_0x1c0568(-0x3a,-0x37d)+'\x20Speak\x20up.','call_3018':_0x1c0568(0x19e,0x90f)+'ree,\x20anony'+_0x1c0568(0x1271,0x182d)+'r,\x207\x20days\x20'+_0x18cdf3(0xc38,0x1722)+_0x18cdf3(0x622,0x1c),'report_17cyber':'🌐\x2017Cyber.'+_0x1c0568(-0x68,0x24f)+_0x1c0568(0xa1d,0x1228)+_0x1c0568(-0x2c5,-0x20a),'report_17cyber_btn':_0x18cdf3(0x97d,0x9d1)+'n\x2017Cyber','call_3018_btn':'📞\x20Call\x20301'+'8','prevention_footer_note':'Informatio'+'n\x20from\x20the'+_0x18cdf3(0x790,0x1208)+_0x18cdf3(0x9af,0x15)+'Légifrance'+').\x20Last\x20up'+_0x1c0568(0x927,-0x73)+'.','chat_hello':_0x18cdf3(0xee7,0x14a6)+'d\x20welcome\x20'+_0x1c0568(0x3ce,0x830)+'>GUILLET\x20I'+'V</strong>'+'!','chat_prompt':'Ask\x20me\x20a\x20q'+_0x18cdf3(0x688,0x73),'chat_unknown':'I\x27m\x20not\x20su'+_0x18cdf3(0xc4a,0x731)+'stand\x20🤔','chat_menu_title':_0x1c0568(0x4e3,0x716)+'ll\x20the\x20sec'+_0x18cdf3(0x98d,0xada)+_0x18cdf3(0x15f2,0x1b82),'chat_parrainage_reply':'🤝\x20Open\x20a\x20B'+_0x1c0568(0xe5f,0xc15)+_0x1c0568(0x96,-0x8b0)+'ubscribe\x20t'+'o\x20Starlink'+',\x20sign\x20up\x20'+'on\x20Vinted,'+_0x18cdf3(0x1238,0xb40)+'\x20Agricole\x20'+_0x1c0568(0x33c,0x7f8)+_0x1c0568(0x557,0xa69)+'th\x20my\x20refe'+_0x1c0568(-0x27e,-0x842)+':\x20info\x20is\x20'+'pre-filled'+'\x20automatic'+_0x1c0568(0x805,0x34c),'chat_contact_reply':_0x1c0568(0x5a5,-0x8f)+_0x18cdf3(0x764,0xd79)+'rom\x209am\x20to'+'\x208pm\x20at\x20<s'+_0x18cdf3(0x517,-0x518)+_0x18cdf3(0x9d0,0x1251)+'</strong>.','chat_delivery_reply':'🚚\x20Delivery'+'\x20is\x20<stron'+_0x18cdf3(0x939,0xa55)+'\x20secure</s'+_0x18cdf3(0x1432,0x1543),'chat_drone_reply':_0x1c0568(0x782,0xefb)+'ong>Drone\x20'+_0x1c0568(0x88c,0x148)+_0x18cdf3(0xee4,0x18b0)+'.','chat_proj_reply':'💡\x20The\x20<str'+'ong>Solar\x20'+_0x18cdf3(0xc2f,0xb0b)+'tor</stron'+_0x18cdf3(0x12e4,0xa67),'chat_endo_reply':'🔍\x20The\x20<str'+_0x18cdf3(0x386,0xaa0)+_0x18cdf3(0x131d,0xbaa)+'g>\x20(€95).','chat_beauty_reply':_0x1c0568(0x1020,0x68d)+'ong>Nails\x20'+'&\x20Beauty</'+_0x1c0568(0x265,0xa20)+_0x1c0568(0x813,0x9c2),'chat_price_reply':'💰\x20Drone:\x20€'+_0x18cdf3(0x11eb,0xb60)+_0x18cdf3(0x1403,0x12d0)+_0x18cdf3(0x1a8,-0x585)+'ack:\x20€99.9'+_0x18cdf3(0x52f,0xee4)+_0x1c0568(-0x237,-0x8d3)+_0x1c0568(0x9f,0x6e7)+'ecurity\x20Pa'+_0x18cdf3(0x526,0xf91),'chat_thanks_reply':_0x18cdf3(0x2ca,-0x3c5)+'come!\x20🙏','chat_btn_home':_0x18cdf3(0x11de,0x130f),'chat_btn_shop':'🛒\x20Shop','chat_btn_vinted':'👕\x20Vinted','chat_btn_beauty':'💅\x20Nails\x20&\x20'+_0x18cdf3(0x120e,0x17d1),'chat_btn_parrainage':'🤝\x20Referral','chat_btn_about':'📜\x20About','chat_btn_contact':'✉️\x20Contact','chat_btn_faq':'❓\x20FAQ','chat_btn_cyber':'🛡️\x20Cybersec'+'urity','chat_btn_harass':_0x18cdf3(0x2a5,0xd0c)+'nt','chat_btn_see':_0x1c0568(-0x1ce,0x62),'chat_btn_see_section':_0x1c0568(0x1255,0x1906)+'n','chat_btn_all_pages':_0x18cdf3(0x1252,0xbeb)+_0x1c0568(-0x2c6,-0xb15),'chat_btn_prices':'💶\x20See\x20pric'+'es','chat_btn_contact_me':'📞\x20Contact\x20'+'you','chat_btn_delivery':'🚚\x20Delivery','chat_btn_menu':'📋\x20Page\x20men'+'u'},'ru':{'maintenance':'ТЕХНИЧЕСКО'+'Е\x20ОБСЛУЖИВ'+_0x18cdf3(0x16b0,0x1863),'maintenance_motto':'Сайт\x20GUILL'+_0x18cdf3(0x272,0x2de)+'стоящее\x20вр'+'емя\x20находи'+'тся\x20на\x20тех'+'ническом\x20о'+'бслуживани'+'и.\x20Мы\x20скор'+'о\x20вернемся'+'.','maintenance_info':_0x1c0568(0xee4,0xce5)+'оты\x20—\x20Спас'+'ибо\x20за\x20ваш'+'е\x20терпение','contact_us':_0x1c0568(0x2e1,0x403)+_0x1c0568(0x1136,0x84d),'order_independence':_0x18cdf3(0x32f,0x1fd)+_0x1c0568(-0x290,0x537),'search_product':_0x18cdf3(0xdfc,0x16c5)+'ар','clear_search':_0x1c0568(-0x25c,-0x760)+_0x18cdf3(0x933,0xd79),'matching_products':'Подходящие'+_0x18cdf3(0x3e8,0xcc3),'toggle_mode':'Переключит'+_0x1c0568(-0x13,-0x37b)+'темный\x20реж'+'им','nav_home':_0x18cdf3(0xef3,0x10c2),'nav_about':'📜\x20О\x20нас','nav_shop':_0x18cdf3(0x13ca,0x944),'nav_vinted':_0x1c0568(0x126c,0x1369),'nav_beauty':_0x1c0568(0x765,0xc8d)+'красота','nav_parrainage':'🤝\x20Рефераль'+_0x18cdf3(0x4b1,0x62)+'мма','nav_cyber':'🛡️\x20Кибербез'+'опасность','nav_harassment':'🚨\x20Харассме'+'нт','nav_contact':_0x18cdf3(0x1542,0x1043),'nav_faq':_0x18cdf3(0x1371,0x111b),'nav_cgv':'📄\x20Условия','nav_privacy':'📄\x20Конфиден'+_0x18cdf3(0x142a,0x12f2),'nav_legal':_0x1c0568(-0x17b,-0x92b)+'безопаснос'+'ть','marquee_welcome':'✨\x20Добро\x20по'+_0x1c0568(0x10f,-0x519)+_0x18cdf3(0xcca,0x998)+_0x1c0568(0x462,0x776)+_0x1c0568(-0x28c,-0xb4d)+_0x1c0568(0x1077,0x1745),'marquee_delivery':'🚚\x20Быстрая\x20'+_0x1c0568(0x5b1,0xbc7)+'ая\x20доставк'+'а','marquee_payment':_0x1c0568(0x5ce,0xb59)+_0x18cdf3(0xfa2,0x66e)+'лата','marquee_motto':_0x1c0568(0xa13,0xd96)+_0x1c0568(0x11ad,0x1925)+'Защити\x20сво'+_0x18cdf3(0xcbf,0x1035)+_0x18cdf3(0xa65,0x789)+_0x1c0568(0x181,0x30d),'marquee_products':_0x1c0568(0x1235,0x1327)+'выбранные\x20'+'для\x20автоно'+'мии\x20и\x20прак'+'тичной\x20жиз'+'ни','marquee_warranty':_0x18cdf3(0x43e,0x698)+_0x18cdf3(0x887,0xf15)+_0x1c0568(0x1ea,0x9b1)+'и\x20товары','marquee_music':_0x1c0568(0xfd4,0xf4f)+_0x18cdf3(0x7e8,-0x2d3)+'нашу\x20экскл'+_0x1c0568(0xa9d,0xde0)+'зыкальную\x20'+_0x1c0568(-0x136,-0x8ac),'site_music':'🎵\x20Музыка\x20с'+'айта','choose_music':_0x1c0568(0x70a,0x2cc)+'зыку','track_genetiquement':'[FR]\x20🧬\x20Gén'+_0x1c0568(0xfbb,0x728)+_0x18cdf3(0x15ad,0x10a8),'track_polygone':'[FR]\x20🔷\x20Pol'+'ygone','track_quelques_notes':'[FR]\x20🎵\x20Que'+'lques\x20note'+'s','track_bilar_phoenix':_0x1c0568(0x2d9,-0x38b)+'ar\x20–\x20Phéni'+'x','track_cenza':'[FR]\x20🕶️\x20Cen'+'za\x20–\x20Incon'+'nu','track_confinement':_0x18cdf3(0xfbf,0x1299)+_0x1c0568(0x79e,0xbd4)+'nement\x20n°2','track_dark_blues':'[EN]\x20🌑\x20Dar'+'k\x20Blues.Vo'+'l','track_iam':_0x1c0568(-0xd,0x49c)+_0x1c0568(-0x54,0x50b)+_0x18cdf3(0xc24,0x1246)+'nde','track_issaba':_0x1c0568(0x416,0xcb4)+'aba\x20–\x20Tu\x20c'+'onnais','track_kery':'[FR]\x20📜\x20Ker'+'y\x20James\x20–\x20'+'Post-Scrip'+'tum','track_exit':_0x18cdf3(0xc73,0x13f7)+_0x1c0568(0xc97,0xbfc)+_0x18cdf3(0x1204,0x166e)+'\x20HYPERTHYM'+_0x1c0568(0x5f5,-0x324),'track_sakage':_0x1c0568(0x76e,0x4c8)+_0x18cdf3(0x14ce,0x1bc8)+'ice','track_sks_tsunami_2':'[FR]\x20⚡\x20SKS'+'\x20Crew\x20–\x20Ts'+'unami\x202','track_sks_tsunami':'[FR]\x20🌊\x20SKS'+_0x1c0568(0x110,-0x448)+_0x18cdf3(0x1e4,0x1b),'track_sks':_0x18cdf3(0x1524,0x1fe0)+_0x18cdf3(0x12de,0x1732),'track_mysa_ralliement':'[FR]\x20🚩\x20Mys'+'a\x20–\x20Le\x20Ral'+_0x1c0568(0x24b,0x509),'track_rockin_luta':_0x18cdf3(0x770,0x72a)+_0x18cdf3(0x4b5,-0x25)+_0x18cdf3(0x11b9,0x845)+_0x1c0568(0xab,-0x50e),'track_rockin_eternel':'[FR]\x20📚\x20Roc'+'kin\x27Squat\x20'+'–\x20Eternel\x20'+_0x18cdf3(0xb09,0x1256),'track_rcknsqt_verlaine':'[FR]\x20🖋️\x20RCK'+'NSQT\x20–\x20VER'+_0x18cdf3(0x11c9,0x9dd),'track_mysa_autopsy':_0x18cdf3(0xc20,0x13ee)+_0x18cdf3(0x8ba,-0x149)+'y','track_fourmiliere':_0x18cdf3(0x194,0xc2e)+_0x18cdf3(0x5be,-0x24c)+_0x1c0568(0x118d,0xf7b)+'e','track_shurikn':'[FR]\x20🗡️\x20Shu'+_0x1c0568(0xbdf,0x9a6)+'ouraï','track_proser':'[FR]\x20🔥\x20Pro'+'ser\x20–\x20La\x20R'+_0x18cdf3(0xdf5,0x7de)+'x\x20Poups)','track_rohff':'[FR]\x20⚔️\x20Roh'+'ff\x20–\x20Fitna','track_mysa_fou':'[FR]\x20🧠\x20Mys'+'a\x20–\x20Comme\x20'+'Un\x20Fou','track_mysa_dystopie':_0x1c0568(0x1307,0x95f)+'a\x20–\x20Dystop'+_0x18cdf3(0x10cd,0xe78),'track_mysa_mortel':_0x1c0568(-0x1fd,-0x903)+'a\x20–\x20Mortel','track_mysa_piqure':'[FR]\x20💉\x20Mys'+'a\x20–\x20Piqûre'+_0x1c0568(0xe08,0xf08),'track_mysa_revolu':_0x18cdf3(0xebe,0x3d9)+_0x1c0568(0x47c,-0x23b),'track_millesime':'[FR]\x20🏛️\x20Mil'+'lésime\x20K\x20–'+'\x20Républiqu'+'e','track_rockin_aimer':_0x18cdf3(0xd0a,0x16c2)+'kin\x27Squat\x20'+'–\x20Aimer\x20Sa'+_0x1c0568(0x1e8,0x35c)+'r','track_rockin_ils':_0x18cdf3(0x110c,0x1912)+'kin\x27Squat\x20'+_0x18cdf3(0x556,0xc66)+'eulent\x20Pas'+_0x1c0568(0x7c0,0xf80),'track_rcknsqt_vocab':'[FR]\x20🔤\x20RCK'+_0x18cdf3(0x12c,-0x66d)+'AB','track_miyagi_kosandra':'[RU]\x20🌌\x20Miy'+_0x1c0568(0xa84,0xa81)+'\x20Panda\x20–\x20K'+_0x1c0568(0x11a6,0xce5),'track_miyagi_capitaine':'[RU]\x20⚓\x20Miy'+_0x1c0568(0xbb2,0x1593)+_0x18cdf3(0x15c,0x474),'track_miyagi_tumani':_0x1c0568(0x291,0x2c)+'agi\x20–\x20Tuma'+'ni\x20/\x20YO\x20/\x20'+_0x1c0568(0x439,0xc19)+'marck','motto':_0x18cdf3(0x50a,0x9a8)+'ой\x20путь.\x20З'+'ащити\x20свою'+_0x1c0568(0x5ad,-0x510)+'.\x20Построй\x20'+'будущее.»','baseline':_0x1c0568(0x442,0xaa4)+_0x18cdf3(0xf67,0xce8)+_0x18cdf3(0x13a4,0xeec)+'ательской\x20'+_0x1c0568(0x639,0xda9)+_0x18cdf3(0x10e,0x714)+'ние','doctrine_title':_0x18cdf3(0x3b2,0x84)+'\x20GUILLET\x20I'+'V','doctrine_desc':_0x18cdf3(0x1e6,0x99a)+'\x20объединяе'+_0x18cdf3(0x545,0x55d)+_0x1c0568(0x751,0xe75)+_0x1c0568(0x7c5,0x8db)+'сти\x20и\x20виде'+'ние\x20движен'+_0x18cdf3(0x25d,-0x1b)+_0x1c0568(0x343,-0xb)+'ющий\x20принц'+_0x1c0568(0xb9,0x3f5)+'ть\x20своего\x20'+_0x1c0568(0x1281,0x9ba)+'троить\x20его'+'\x20через\x20дей'+'ствие,\x20дис'+'циплину\x20и\x20'+'созидание.','authority':_0x18cdf3(0x164,-0x71b),'authority_desc':'Черный\x20оли'+'цетворяет\x20'+_0x18cdf3(0x101a,0x5f5)+'ль,\x20строго'+_0x18cdf3(0x1109,0x1980)+'ность.','willpower':'❤️\x20Воля','willpower_desc':'Красный\x20пр'+'едставляет'+'\x20энергию,\x20'+_0x18cdf3(0x712,0xaa3)+_0x1c0568(0x115,-0x2e9)+'.','legitimacy':_0x18cdf3(0xd67,0x3ef)+'ость','legitimacy_desc':'Золото\x20сим'+'волизирует'+_0x18cdf3(0x4c6,0x38c)+'\x20ценность,'+_0x1c0568(0xaa0,0x3ae)+_0x18cdf3(0xb06,0x48)+_0x1c0568(0x299,-0x7ed),'vision':'🚀\x20Видение','vision_desc':_0x1c0568(0xe38,0xc0d)+'ывает\x20путь'+_0x18cdf3(0x10d1,0xbf8)+'иям\x20и\x20буду'+_0x18cdf3(0xb2a,0xf7e),'authenticity':'🌑\x20Аутентич'+'ность','authenticity_desc':'Чистая\x20пра'+_0x18cdf3(0x1033,0xd5a)+_0x18cdf3(0x9bb,0x348)+_0x18cdf3(0xec9,0x838)+',\x20что\x20вы\x20е'+'сть\x20без\x20ма'+_0x1c0568(0x570,0xae5)+'ромиссов.','revelation':'✨\x20Откровен'+'ие','revelation_desc':_0x1c0568(0x1eb,0x8dc)+_0x1c0568(0x69a,0x1e7)+'вает\x20скрыт'+'ое.\x20Пробуж'+_0x18cdf3(0x2ac,0xcef)+_0x18cdf3(0x3bc,-0x454)+_0x18cdf3(0x1000,0x8ab),'truth':'⚡\x20Истина','truth_desc':'Прямая\x20лин'+_0x1c0568(0x540,-0x513)+'ьное\x20слово'+',\x20то,\x20что\x20'+_0x1c0568(0x350,0xa90)+_0x1c0568(0x7f5,-0x263),'awareness':_0x18cdf3(0x5d9,0x6d7)+'ость','awareness_desc':_0x1c0568(-0xd5,-0x413)+_0x1c0568(0x79c,0x285)+_0x18cdf3(0x260,-0x617)+'идеть\x20за\x20п'+_0x18cdf3(0xd78,0xb83)+'нешности.','power':_0x1c0568(0x1085,0x1abc),'power_desc':'Способност'+'ь\x20действов'+'ать,\x20навяз'+'ывать\x20свое'+'\x20направлен'+'ие,\x20преобр'+_0x18cdf3(0x213,-0x75e)+_0x1c0568(0x944,0xae0)+'\x20среду.','discipline':_0x1c0568(0xb96,0x1388)+'на','discipline_desc':_0x1c0568(0x6d8,0x267)+_0x1c0568(0xce8,0x1732)+_0x1c0568(0x12d7,0x12bb)+_0x1c0568(0xba4,0x752)+'которые\x20ку'+'ют\x20успех.','creation':'🜄\x20Творение','creation_desc':_0x18cdf3(0x120a,0x1bd5)+_0x1c0568(0x122c,0x1695)+'ь,\x20внедрят'+'ь\x20инноваци'+_0x1c0568(-0x1ca,-0x6d1)+'\x20то,\x20чего\x20'+'еще\x20не\x20сущ'+_0x1c0568(0x113a,0x1ba4),'ascension':_0x1c0568(0x1163,0x12c5)+_0x1c0568(0x54b,0x70f),'ascension_desc':_0x18cdf3(0xc6c,0xa04)+'олюция,\x20пр'+_0x18cdf3(0xa2b,0xa88)+'себя\x20и\x20пре'+_0x18cdf3(0xe3b,0x18e2),'shop_title':'🛒\x20Магазин\x20'+'GUILLET\x20IV','shop_intro':'Товары,\x20вы'+'бранные\x20дл'+'я\x20автономи'+_0x18cdf3(0x52d,0x622)+'ности,\x20акт'+'ивного\x20отд'+'ыха\x20и\x20прак'+_0x18cdf3(0x13a1,0xe33)+'ни.','no_products':_0x1c0568(0x2e9,0x2cd)+'вар\x20не\x20соо'+_0x1c0568(0x6b,-0x8ef)+_0x1c0568(0x7a8,0x70a)+'росу.','see_more':_0x18cdf3(0x46a,0x667)+'ее','see_less':_0x18cdf3(0x616,0x20e),'full_desc':'Полное\x20опи'+_0x18cdf3(0x1680,0x189a),'details':'Детали','utility':'Полезность','how_to_use':_0x18cdf3(0xb28,0x523)+'зовать','features':'Характерис'+'тики','drone_title':_0x1c0568(0x2c7,0x15e)+'\x20–\x20ОКО\x20БУД'+_0x1c0568(0x83b,0x104f)+'ШИХ\x20РУКАХ','drone_tagline':_0x18cdf3(0x156b,0x1a7c)+'в\x20небе...\x20'+'или\x20оно\x20бу'+_0x18cdf3(0x1094,0x14dd)+'ровать\x20над'+'\x20тобой.\x20Бу'+_0x1c0568(0xb4f,0x1005)+',\x20не\x20нужда'+'ясь\x20в\x20зрен'+_0x1c0568(0x72a,-0x27a),'drone_desc':'Дрон,\x20созд'+_0x1c0568(0x6a0,0x5bc)+_0x18cdf3(0x30d,0x696)+'сследовате'+'лей\x20и\x20амби'+_0x1c0568(0x30e,0x9ec)+_0x18cdf3(0x16e,0x5ca)+_0x1c0568(0xe0d,0x1167)+'р\x20с\x20хирург'+'ической\x20то'+'чностью.','drone_full_1':'KY108\x20—\x20эт'+_0x18cdf3(0xddd,0x15cc)+_0x1c0568(0x4d,0x38b)+_0x18cdf3(0x2d0,0x8e6)+_0x1c0568(0x856,0x90e)+',\x20инструме'+'нт\x20мастерс'+_0x1c0568(0xc8d,0x659)+_0x18cdf3(0x844,-0x126)+_0x18cdf3(0x460,-0xf1)+'й\x20превраща'+_0x1c0568(-0x42,-0x570)+_0x18cdf3(0xd59,0xd07)+'туристичес'+_0x18cdf3(0x8b0,0x105e),'drone_full_2':'Благодаря\x20'+'двойной\x20HD'+_0x1c0568(0x5f,-0xa82)+_0x18cdf3(0xe7c,0x1152)+'\x20зуму,\x20все'+_0x1c0568(0x11b,-0x4bf)+'ому\x20обходу'+_0x1c0568(0xff5,0xd47)+_0x1c0568(0xad1,0x1350)+'ллекторным'+'\x20двигателя'+'м,\x20он\x20пред'+'лагает\x20вам'+'\x20стабильно'+_0x1c0568(0x12e0,0xc81)+'ость,\x20кото'+'рых\x20могут\x20'+'достичь\x20не'+_0x1c0568(0xf08,0xe6c)+'ны\x20в\x20его\x20к'+'атегории.','drone_full_3':_0x18cdf3(0x84c,0xc96)+_0x18cdf3(0xd13,0x166b)+',\x20умный:\x20K'+'Y108\x20готов'+_0x1c0568(0xfc5,0xe71)+_0x1c0568(0xd0b,0xebc)+'овсюду.','drone_detail_1':_0x18cdf3(0xe3f,0xc3e)+_0x18cdf3(0x16a6,0x11d6)+_0x18cdf3(0x10ff,0xe21)+_0x1c0568(0x84,0x70d),'drone_detail_2':_0x1c0568(0x52,0xaa9)+'енный\x20обхо'+_0x1c0568(0x8af,0x106b)+'вий','drone_detail_3':_0x18cdf3(0x14da,0x13a2)+_0x1c0568(0x5d9,-0x9c)+_0x18cdf3(0x932,0xe)+'торный\x20дви'+'гатель','drone_detail_4':_0x1c0568(0x20f,0xa89)+'анционного'+_0x1c0568(0x67,0x19b)+'я\x20со\x20встро'+'енным\x20FPV-'+_0x18cdf3(0x555,0xfba),'drone_detail_5':'Складной\x20д'+'рон,\x20легко'+'\x20транспорт'+_0x1c0568(-0xfa,0x560),'drone_util_1':_0x1c0568(0x289,0x278)+_0x1c0568(0x11fc,0xb6a)+'ысоком\x20кач'+_0x18cdf3(0x395,0x637),'drone_util_2':_0x1c0568(0x9f6,0x38f)+'\x20контент\x20д'+'ля\x20TikTok\x20'+'и\x20Instagra'+'m','drone_util_3':_0x1c0568(0x5ea,0x58b)+_0x1c0568(0x85e,0xeb9)+_0x18cdf3(0xfd0,0x16d4)+'жая\x20частну'+'ю\x20жизнь','drone_util_4':'Научитесь\x20'+'пилотирова'+_0x18cdf3(0x735,0x675),'drone_util_5':'Делайте\x20пр'+_0x18cdf3(0xa93,0xb17)+'ьные\x20аэроф'+_0x1c0568(0x396,0xcca),'drone_use_1':_0x18cdf3(0xb7c,0x31d)+'дрон\x20и\x20про'+'верьте\x20про'+'пеллеры.','drone_use_2':_0x18cdf3(0x6ef,0x860)+_0x1c0568(0xa4,0x89d)+'нционного\x20'+_0x1c0568(0x10d8,0x10f7)+'.','drone_use_3':_0x1c0568(0xa55,0x2eb)+'\x20HD-камеру'+'.','drone_use_4':_0x1c0568(0x625,0xc85)+_0x1c0568(0xd40,0xeb2)+'тельном\x20ре'+'жиме.','drone_use_5':_0x1c0568(0xfff,0x13c7)+_0x18cdf3(0x868,0xf1a)+'троенный\x20F'+'PV-экран.','drone_use_note':'Не\x20забывай'+_0x18cdf3(0x706,-0x171)+_0x1c0568(0x41b,-0x11c)+_0x1c0568(0xcd0,0x6b5)+'а\x20полетов\x20'+'и\x20частную\x20'+'жизнь\x20сним'+'аемых\x20люде'+'й.','cart_89':'💳\x20Добавить'+_0x18cdf3(0x1560,0x16af)+'\x20—\x2089\x20€','proj_title':'Поворотный'+'\x20солнечный'+'\x20светодиод'+'ный\x20прожек'+_0x18cdf3(0xcc8,0x826),'proj_desc':_0x18cdf3(0xc0a,0xee8)+_0x1c0568(0x719,0x4a2)+'етодиодный'+'\x20прожектор'+_0x18cdf3(0x737,0x1d)+_0x1c0568(0xc34,0x645)+_0x1c0568(0x72f,0x54e)+_0x18cdf3(0x1660,0x17fe),'proj_full_1':_0x1c0568(0xd4d,0x548)+_0x1c0568(0xb24,0x48e)+_0x1c0568(0x5ca,0x4cb)+',\x20питающий'+_0x1c0568(-0x8c,0x2fa)+_0x1c0568(0x7d0,0x3e5)+_0x1c0568(0x17,-0x584)+_0x1c0568(0x643,-0x48)+'атчиком\x20и\x20'+_0x1c0568(0x9b4,0x4e9)+'и\x20панелями'+'.','proj_util_1':_0x1c0568(0x5da,0x433)+'ь\x20вход','proj_util_2':'Осветить\x20т'+_0x18cdf3(0xcc6,0x11ad),'proj_util_3':_0x18cdf3(0x1554,0xa8d)+_0x1c0568(0xb48,0x1591),'proj_util_4':_0x1c0568(0x120a,0x180e)+'ез\x20электри'+_0x18cdf3(0x1289,0x157f),'proj_use_1':'Закрепите\x20'+'прожектор\x20'+_0x1c0568(0xd86,0x56a),'proj_use_2':_0x1c0568(0x422,0x2d0)+_0x1c0568(0x10b2,0x1258)+_0x18cdf3(0xfb6,0x51b)+_0x18cdf3(0x15d9,0x1263),'proj_use_3':'Отрегулиру'+'йте\x20PIR-да'+'тчик','proj_use_4':_0x1c0568(0xfa3,0xa5b)+_0x18cdf3(0xb89,0xb39)+'ли\x20зарядит'+'ься','cart_35':_0x18cdf3(0x13d2,0xb91)+_0x1c0568(0x11a7,0xdc5)+'\x20—\x2035\x20€','badge_winter':_0x1c0568(0x8ac,-0x174)+'ОР','pack_title':_0x18cdf3(0x439,-0x44c)+_0x18cdf3(0xc7b,0x114c)+'\x20–\x20Премиум'+_0x18cdf3(0xb69,0x229),'pack_desc':'Идеальный\x20'+'набор,\x20что'+_0x1c0568(0xf3d,0x1079)+_0x18cdf3(0x1482,0x19d0)+_0x1c0568(0x28b,-0x64)+'\x20тепле,\x20со'+'\x20светом\x20и\x20'+'автономным'+'.','pack_item_1':'🧤\x201.\x20Умные'+'\x20электриче'+_0x18cdf3(0x5aa,0xc37)+'тки\x20с\x20подо'+'гревом\x20(US'+'B)','pack_item_1_desc':'Высокоэффе'+_0x18cdf3(0x162c,0x1114)+'мние\x20перча'+_0x1c0568(0x398,0x3bc)+'нные\x20для\x20о'+'беспечения'+_0x18cdf3(0x13b7,0xa3d)+'ого\x20и\x20конт'+'ролируемог'+'о\x20тепла.','pack_item_1_b1':'Двусторонн'+'ий\x20нагрев\x20'+'на\x20ладони','pack_item_1_b2':_0x1c0568(0x6b7,-0x182)+'руемых\x20уро'+'вня\x20темпер'+_0x1c0568(0x104f,0xa3d),'pack_item_1_b3':_0x18cdf3(0x47d,0x3b3)+'дизайн','pack_item_1_b4':'Работа\x20чер'+'ез\x20USB-инт'+'ерфейс,\x20со'+_0x1c0568(0xa4d,0x1223)+'ь\x20с\x20поверб'+'анком','pack_item_2':'🔦\x202.\x20Мощны'+'е\x20светодио'+'дные\x20фонар'+_0x1c0568(0xf4a,0xe9b)+'муляторные'+'\x20USB\x20(x2)','pack_item_2_desc':'Ультраярка'+_0x18cdf3(0xe6b,0xf29)+_0x18cdf3(0x2b5,0xd24)+'для\x20отключ'+_0x18cdf3(0x5a0,0x632)+_0x1c0568(0x12aa,0xc50)+'\x20ночных\x20по'+_0x18cdf3(0xb7b,0xf30)+'омобиля.','pack_item_2_b1':_0x1c0568(0x1be,0x7e2)+_0x1c0568(0xc45,0x719),'pack_item_2_b2':_0x1c0568(0xfb3,0x17d7)+'рез\x20USB','pack_item_2_b3':_0x1c0568(0xa3,-0x221)+_0x1c0568(0x334,0x211)+'ор','pack_item_2_b4':_0x1c0568(-0x23a,0x64e)+'ть\x20к\x20погод'+'ным\x20услови'+'ям','pack_item_3':'🔋\x203.\x20Внешн'+_0x18cdf3(0x846,0x422)+_0x18cdf3(0x585,0xd41)+'0\x20мАч\x20–\x20сп'+'ециально\x20д'+'ля\x20USB-обо'+'грева','pack_item_3_desc':'Повербанк\x20'+'высокой\x20ем'+'кости,\x20сов'+_0x18cdf3(0x1504,0x16a8)+_0x1c0568(0x90a,0xf0e)+'B-устройст'+_0x18cdf3(0x10ed,0x89a)+'ждой\x20с\x20под'+_0x18cdf3(0x159,0x97c),'pack_item_3_b1':_0x1c0568(-0x14b,0x1a7)+_0x18cdf3(0xea3,0x17ff)+'ная\x20автоно'+'мность','pack_item_3_b2':'Выход\x205V\x202'+_0x18cdf3(0xdd5,0xbbc),'pack_item_3_b3':'Совместим\x20'+_0x1c0568(-0x2b,0x68a)+'\x20Samsung\x20/'+_0x18cdf3(0xd7e,0x10e9),'pack_item_4':_0x18cdf3(0xc57,0xf34)+_0x1c0568(0x29d,0x302)+'пальный\x20ме'+_0x18cdf3(0x19e,0x7e7)+_0x1c0568(0x476,-0x117)+'см)','pack_item_4_desc':'Легкий,\x20ко'+'мпактный\x20и'+_0x1c0568(0xdf9,0x1087)+'пальный\x20ме'+_0x18cdf3(0xa22,0x506)+'ьно\x20подход'+'ит\x20для\x20кем'+'пинга\x20и\x20чр'+'езвычайных'+_0x1c0568(0xc10,0x262),'pack_item_4_b1':_0x1c0568(0xa3,-0x79c)+_0x18cdf3(0x1654,0xdcf),'pack_item_4_b2':'Прочный\x20по'+'лиэстер\x2017'+'0T','pack_item_4_b3':_0x18cdf3(0x21d,-0x836)+_0x18cdf3(0x1079,0x128c)+_0x1c0568(0xe5a,0x17cb)+'/\x20одеяло','pack_item_4_b4':_0x1c0568(0xa21,0x355)+'хранения\x20в'+_0x18cdf3(0xecc,0x5eb),'cart_9999':'💳\x20Добавить'+_0x1c0568(0x11a7,0x1b84)+_0x1c0568(0x8fe,-0x17e),'badge_new':_0x18cdf3(0x148a,0x1927),'endo_title':_0x18cdf3(0xe55,0x1723)+_0x1c0568(0x92c,0xe51)+'\x20экраном','endo_desc':_0x18cdf3(0x10f3,0x1817)+'ный\x20эндоск'+_0x1c0568(0xae,0x815)+'о\x20встроенн'+_0x1c0568(0x156,-0x4d3)+_0x18cdf3(0xc13,0x13a)+_0x18cdf3(0x1428,0xae2)+_0x1c0568(0x603,0x2cb)+_0x18cdf3(0x7a9,0xb9e)+_0x1c0568(-0x228,0x29e)+'\x202,0\x20МП,\x20р'+'егулируемо'+_0x1c0568(0x683,-0x1e3)+'дной\x20подсв'+'еткой\x20и\x20во'+_0x1c0568(0xf02,0x62f)+'аемым\x20диза'+'йном\x20IP68.','endo_full_1':'Незаменимы'+_0x18cdf3(0x13be,0xe76)+_0x1c0568(0xd98,0x890)+'отра\x20трудн'+'одоступных'+'\x20мест:\x20воз'+_0x1c0568(0x3d6,0xe0b)+_0x1c0568(0x12bc,0x10e0)+'й,\x20труб,\x20к'+'абелепрово'+_0x1c0568(0xe49,0x161a)+'ческих\x20уст'+'ановок\x20или'+'\x20узких\x20про'+'странств.','endo_util_1':_0x1c0568(0xc74,0x212)+'гателей,\x20в'+'оздуховодо'+_0x1c0568(0x4c4,0xe56),'endo_util_2':_0x1c0568(0xfa9,0x17f0)+_0x1c0568(0xdbd,0x1704)+'техника,\x20в'+_0x1c0568(0x16c,-0x879)+'\x20электропр'+_0x18cdf3(0x91c,0xa7a),'endo_util_3':'Быстрая\x20ме'+_0x18cdf3(0x5a9,0xdcc)+_0x1c0568(0x62b,0x3d1)+'ка','endo_util_4':_0x1c0568(0xccf,0xb4a)+'\x20контроль\x20'+'в\x20темных\x20з'+'онах','endo_feat_1':'Разрешение'+'\x20Full\x20HD\x201'+'080P','endo_feat_2':'Камера\x202,0'+_0x18cdf3(0x10c9,0x14e2)+_0x18cdf3(0x13ad,0x18b5)+'ветодиодно'+_0x1c0568(0x373,-0x3a8)+'ой','endo_feat_3':_0x1c0568(0xa3,-0x3e6)+_0x1c0568(-0x12a,-0x36a)+'\x20дюйма','endo_feat_4':'Полужестки'+_0x1c0568(0x11c7,0x1736)+_0x18cdf3(0xb1a,0x1514),'endo_feat_5':'Водонепрон'+_0x1c0568(0x9a4,0xe8c)+'IP68','cart_95':'💳\x20Добавить'+_0x1c0568(0x11a7,0x1a10)+_0x18cdf3(0x11f2,0x1b75),'badge_security':_0x18cdf3(0x12d4,0x1ad5)+_0x18cdf3(0x39a,0x22f),'pack_secu_title':_0x1c0568(-0x69,0x5b7)+'бор\x20безопа'+'сности','pack_secu_tagline':'Полная\x20защ'+_0x1c0568(0xc21,0xd65)+_0x18cdf3(0x551,0x900)+_0x1c0568(0xd1d,0xcc2)+_0x1c0568(0x110b,0x127c),'pack_secu_promo':_0x1c0568(0xa9b,0x2b8)+_0x18cdf3(0x166a,0x1951),'pack_secu_desc':'Защитите\x20в'+_0x1c0568(0xd70,0x4aa)+'ом\x20с\x20помощ'+_0x1c0568(-0x31,0x8c2)+_0x1c0568(0xfda,0x1945)+_0x1c0568(0x30c,0x2a)+'ции,\x204\x20дат'+_0x18cdf3(0x1311,0xd34)+_0x18cdf3(0x2eb,0x3fb)+_0x18cdf3(0xed9,0x9e0)+'ю\x20системы.'+'\x20Идеально\x20'+'для\x20частны'+'х\x20лиц\x20и\x20ма'+'лого\x20бизне'+'са.','pack_secu_full_1':_0x18cdf3(0x350,-0x1ca)+'бор\x20безопа'+'сности\x20объ'+'единяет\x20вс'+_0x1c0568(0x98a,0xf1e)+_0x1c0568(0x12f9,0x100c)+_0x18cdf3(0x1354,0xa2d)+_0x1c0568(0x8db,0x908)+'\x20магазина,'+_0x1c0568(0x17c,0xb41)+_0x18cdf3(0xacc,0x63a)+'\x20офиса\x20—\x20б'+'ез\x20техниче'+_0x1c0568(0x1062,0xd90)+_0x1c0568(0x1046,0xb14)+_0x18cdf3(0x1342,0x17bb)+_0x18cdf3(0x8ae,0x8c0)+_0x18cdf3(0x158b,0x1718)+_0x18cdf3(0xe8,-0x6da)+'авливаете,'+'\x20подключае'+_0x18cdf3(0x14f4,0xc1d)+_0x18cdf3(0x14bd,0x16d2)+_0x18cdf3(0xea8,0x18da),'pack_secu_contents':_0x18cdf3(0xb4e,0xbc)+_0x1c0568(-0x105,0x610)+'ный)','pack_secu_c1':_0x1c0568(0x10a8,0x1717)+_0x1c0568(0x31e,0x8a)+_0x18cdf3(0xd89,0x2e4)+_0x1c0568(0xe4c,0x189b),'pack_secu_c2':'1\x20ИИ-камер'+'а\x20TP-Link\x20'+_0x1c0568(0x11c8,0x1b12)+_0x1c0568(0x12cd,0xe9a)+'идение\x20+\x20о'+_0x1c0568(0x66a,-0x29c)+')','pack_secu_c3':'4\x20датчика\x20'+_0x18cdf3(0x91a,0xa24)+'ONOFF\x20(две'+'ри\x20/\x20окна\x20'+'/\x20гараж\x20/\x20'+_0x1c0568(0x1206,0x1158),'pack_secu_c4':'Инструкция'+_0x18cdf3(0x149e,0x1b20)+'вке','pack_secu_c5':'Поддержка\x20'+_0x1c0568(-0x20d,-0x9b1),'pack_secu_f1':_0x18cdf3(0x27f,0x889)+_0x1c0568(0x84d,0x1127)+'я\x20на\x20смарт'+_0x18cdf3(0x1053,0x5ae),'pack_secu_f2':_0x1c0568(0xd47,0x1000)+'ружение\x20(И'+'И)','pack_secu_f3':'Мощная\x20сир'+'ена','pack_secu_f4':_0x18cdf3(0x1395,0x16e1)+'видение','pack_secu_f5':_0x1c0568(0xeb7,0x75d)+'нсляция','pack_secu_f6':_0x18cdf3(0x84f,0x2f8)+'ые\x20датчики','pack_secu_secure_for':_0x18cdf3(0x181,0x160),'pack_secu_s1':'🏠\x20Дом','pack_secu_s2':'🏢\x20Квартира','pack_secu_s3':'🏪\x20Магазин','pack_secu_s4':'🚗\x20Гараж','pack_secu_s5':'🕳️\x20Подвал','pack_secu_s6':_0x18cdf3(0xe7e,0x181e),'pack_secu_use_1':_0x1c0568(0xa55,0x92f)+'\x20сигнализа'+_0x18cdf3(0xb99,0xdbe)+'\x20и\x20камеру\x20'+_0x1c0568(0xe54,0xd73),'pack_secu_use_2':_0x18cdf3(0xbc7,0x15f5)+'\x204\x20датчика'+'\x20SONOFF\x20на'+_0x18cdf3(0x543,0xfd0)+_0x18cdf3(0x4bd,0x974)+'ж\x20/\x20балкон'+'.','pack_secu_use_3':'Подключите'+'\x20устройств'+'а\x20к\x20прилож'+'ению\x20(Tapo'+_0x1c0568(0xd65,0x14ca)+'.','pack_secu_use_4':'Настройте\x20'+_0x1c0568(-0xe8,-0x3a6)+_0x18cdf3(0x12f3,0x1120)+'он.','pack_secu_use_5':'Проверьте\x20'+'сирену\x20и\x20о'+'бнаружение'+_0x18cdf3(0xf45,0x1a0f)+'а\x2010\x20минут'+'.','pack_secu_warranty_support':_0x18cdf3(0x10ce,0x823)+_0x1c0568(0xe9d,0xd66),'pack_secu_ws1':_0x1c0568(0x8fd,0xf85)+'4\x20месяца','pack_secu_ws2':'Поддержка\x20'+'клиентов\x203'+'0\x20дней','pack_secu_ws3':'Помощь\x20в\x20у'+_0x1c0568(0xc12,0x58c)+'ри\x20необход'+_0x1c0568(0x11f9,0x759),'pack_secu_why':'Почему\x20это'+_0x18cdf3(0x10dd,0x74d),'pack_secu_why_text':_0x18cdf3(0x65d,0x93d)+_0x1c0568(0x1278,0xddd)+_0x18cdf3(0xb1f,0x10f4)+'ш\x20дом\x20с\x20по'+'мощью\x20ИИ-к'+'амеры,\x20пол'+_0x18cdf3(0x3e3,-0x6c1)+'изации,\x204\x20'+_0x1c0568(0x10a3,0x1063)+'\x20готовой\x20к'+'\x20использов'+'анию\x20систе'+_0x18cdf3(0x450,0x8aa)+_0x1c0568(0x5f8,0xa46)+'\x20идеально\x20'+_0x1c0568(0x105a,0xd24)+_0x1c0568(0x119a,0x6f2)+_0x18cdf3(0xcdd,0xaac)+_0x1c0568(0xb81,0x865),'cart_pack_secu':_0x18cdf3(0x13d2,0x134e)+'\x20в\x20корзину'+'\x20—\x20350\x20€','guarantees':_0x1c0568(0x5c7,-0x498)+_0x1c0568(0x12c0,0x10ca),'warranty_24':_0x18cdf3(0x123d,0xd4e)+':\x2024\x20месяц'+'а','secure_payment':'✔\x20Безопасн'+'ая\x20оплата','fast_delivery':'✔\x20Быстрая\x20'+'доставка','reviews_title':_0x18cdf3(0x917,0x1157)+_0x1c0568(-0xe6,-0x66b)+'inted)','review_zohra':_0x1c0568(0xe7c,0x9f6),'review_limitless_1':_0x1c0568(0x9b8,0x705)+_0x1c0568(0xfee,0xd2f)+'о,\x20GUILLET'+_0x1c0568(0x108a,0x1700),'review_zlatoff':_0x18cdf3(0xe0d,0x372)+'асибо','review_limitless_2':_0x1c0568(0x7af,0xe3a)+'сть\x20🤲\x20спас'+'ибо','learn_more':_0x1c0568(0x1165,0x18a9)+_0x1c0568(0x785,0xea6),'company_movement':_0x1c0568(0x442,-0x41f)+'\x20Движение\x20'+'·\x20Независи'+'мость','about_intro':_0x1c0568(-0x1d3,0x878)+'\x20—\x20это\x20ком'+'пания\x20и\x20дв'+_0x1c0568(0xb6,0x49d)+_0x1c0568(-0x14d,-0x135)+'льской\x20нез'+_0x18cdf3(0xf0,-0xea)+'.\x20Он\x20защищ'+'ает\x20идею\x20о'+'\x20том,\x20что\x20'+_0x18cdf3(0x9b3,0x8cb)+_0x18cdf3(0x11e4,0x17f0)+'ть\x20свой\x20со'+_0x18cdf3(0x133b,0x905)+_0x18cdf3(0xbcd,0x1ad)+'\x20работу,\x20т'+'ворчество\x20'+'и\x20автономи'+'ю.','about_service':'Я\x20продаю\x20н'+_0x18cdf3(0x6ca,0xae0)+'профиль:\x20l'+'imitless95'+_0x18cdf3(0xb01,0x328)+_0x1c0568(0x249,0xc56)+'ывчивым\x20об'+'служивание'+_0x18cdf3(0xe70,0x958)+_0x18cdf3(0x1246,0xbde)+'м\x20предлага'+'ть\x20серьезн'+_0x1c0568(0x11b0,0xea9)+'\x20представл'+'енные\x20това'+'ры\x20с\x20реаль'+'ным\x20опытом'+_0x1c0568(0x113e,0x1375),'about_contact':'По\x20любым\x20в'+'опросам\x20св'+'яжитесь\x20со'+_0x1c0568(0xeea,0x1215)+_0x18cdf3(0x161,0x1a1)+'\x20Контакты\x20'+_0x18cdf3(0xdf2,0x13e5)+'ую\x20на\x20Vint'+_0x1c0568(-0x279,0x2ff),'contact_me':_0x1c0568(0x981,0x9d6)+_0x1c0568(-0x6e,-0x1ed),'view_my_vinted':'👕\x20Мой\x20Vint'+'ed','back_home':'⬅\x20На\x20главн'+'ую','brand_king':'👑\x20GUILLET\x20'+'IV','back_shop':_0x18cdf3(0x158a,0x2034)+'магазин','parrainage_title':_0x1c0568(0x10fb,0x1b74)+_0x18cdf3(0x4b1,0xee2)+_0x1c0568(0xabc,0x108b),'parrainage_sub':'Boursorama'+_0x1c0568(0x10ad,0x9a3)+'k\x20·\x20Vinted'+'\x20·\x20Crédit\x20'+'Agricole\x20·'+'\x20Octopus\x20E'+_0x1c0568(0x7e5,0x50a),'parrainage_intro':'Откройте\x20с'+'чет,\x20подпи'+_0x1c0568(0x337,-0x58d)+'услугу\x20или'+_0x1c0568(0xb27,0x82e)+_0x18cdf3(0x7fa,0x306)+'а\x20Vinted\x20п'+'о\x20моим\x20реф'+_0x1c0568(0x1022,0xfe5)+'сылкам.\x20Ин'+_0x1c0568(-0x2bc,-0x2ca)+'аполняется'+_0x1c0568(0xae4,0x3f9)+_0x1c0568(0x100c,0x965)+'\x20пользуете'+'сь\x20преимущ'+_0x18cdf3(0x1666,0x158f),'parrainage_boursorama_title':'🏦\x20Рефераль'+_0x18cdf3(0x4b1,0xceb)+'мма\x20Bourso'+_0x18cdf3(0x99e,0x13b2),'parrainage_boursorama_text':_0x18cdf3(0x244,0x815)+_0x1c0568(0x4bd,0x12a)+_0x1c0568(0xe5f,0x159a)+'по\x20моей\x20ре'+_0x1c0568(0x30,0x6be)+_0x1c0568(0xc5a,0x47c)+_0x18cdf3(0x47b,0x861)+'ия\x20заполни'+_0x1c0568(0x7f8,0xbb1)+_0x18cdf3(0x713,0xf90)+_0x1c0568(0x6b2,0xd6c)+'не\x20нужно\x20в'+'водить\x20пов'+_0x18cdf3(0x982,0x29)+_0x1c0568(-0x6c,-0x9e7)+_0x18cdf3(0x1320,0x18df)+'венные\x20бон'+_0x1c0568(0x101d,0x711),'boursorama_b1':_0x18cdf3(0x1018,0x89c)+_0x18cdf3(0x1610,0x1761)+'\x20при\x20откры'+'тии','boursorama_b2':_0x18cdf3(0xbec,0x12bd)+_0x18cdf3(0xaec,0xfcb)+'луживание\x20'+'счета','boursorama_b3':_0x1c0568(0x91e,0x13f5)+'н-регистра'+_0x18cdf3(0x1257,0x1005)+'колько\x20мин'+'ут','parrainage_btn_boursorama':_0x1c0568(0xe03,0x11cc)+_0x18cdf3(0x13c9,0x1dc1)+_0x18cdf3(0xae6,0x8bf),'parrainage_starlink_title':_0x1c0568(0x1ac,-0x1f2)+'ная\x20програ'+'мма\x20Starli'+'nk','parrainage_starlink_text':_0x1c0568(-0xd8,-0xb41)+_0x1c0568(0x2d3,0xd36)+'ink\x20по\x20мое'+_0x1c0568(0xac0,0x95d)+_0x1c0568(0x5ec,0x95)+'\x20и\x20получит'+'е\x20бесплатн'+'ый\x20месяц\x20п'+_0x18cdf3(0x15e,-0x45a)+'ысокоскоро'+'стной\x20инте'+_0x1c0568(0x8aa,-0x1c9)+'\x20спутник,\x20'+_0x18cdf3(0x59c,0xdf5)+'е\x20в\x20изолир'+_0x1c0568(0x9d5,0x198)+'йонах.','starlink_b1':_0x18cdf3(0x5c9,0xe89)+_0x18cdf3(0x1036,0x13ae)+_0x18cdf3(0x131a,0x1200),'starlink_b2':_0x18cdf3(0x926,0xe7f)+_0x1c0568(0x1110,0x708)+'ернет\x20везд'+_0x18cdf3(0x1467,0x13d6)+_0x18cdf3(0x1534,0xfcd)+'ных\x20района'+'х','starlink_b3':'Простая\x20и\x20'+'быстрая\x20ус'+'тановка','parrainage_btn_starlink':_0x1c0568(0x9ea,0x6f8)+_0x18cdf3(0x14e1,0x1065)+_0x1c0568(0x69,0x462),'parrainage_vinted_title':'👕\x20Рефераль'+_0x18cdf3(0x4b1,0xdf8)+'мма\x20Vinted','parrainage_vinted_text':'Зарегистри'+'руйтесь\x20на'+_0x18cdf3(0xdf7,0xbfd)+'\x20моей\x20ссыл'+'ке-приглаш'+'ению\x20и\x20при'+'соединяйте'+_0x1c0568(0x541,-0x32)+'еству.\x20Пок'+_0x1c0568(0x98f,0xb7f)+_0x1c0568(-0x153,-0x6ad)+_0x1c0568(0xdf,-0x561)+_0x1c0568(0x7c7,0xfd0)+'ь\x20своей\x20од'+'ежде,\x20поль'+_0x18cdf3(0x901,0x98b)+'етственным'+_0x18cdf3(0x1549,0x1349)+_0x18cdf3(0x79a,0x42e),'vinted_b1':_0x1c0568(0xc5f,0x1271)+'нное\x20преим'+_0x1c0568(0xca1,0xe5b)+_0x1c0568(-0x9,0x1f9)+'каз','vinted_b2':_0x18cdf3(0x1645,0x18e1)+'\x20одежду\x20в\x20'+_0x1c0568(0x724,0x942)+_0x18cdf3(0x1a9,-0x120),'vinted_b3':_0x1c0568(-0xa4,-0x58f)+'\x20доставка\x20'+'и\x20оплата','parrainage_btn_vinted':_0x18cdf3(0x10ec,0xaf9)+'ниться\x20к\x20V'+_0x18cdf3(0x102a,0x16a5),'parrainage_credit_agricole_title':_0x1c0568(0x81f,0x4d8)+_0x1c0568(0xf8,0x3a9)+_0x1c0568(0xb43,0x129b)+'\x20Agricole','parrainage_credit_agricole_text':'Хотите\x20отк'+'рыть\x20счет\x20'+_0x1c0568(0xa8f,0x1336)+_0x1c0568(0xd8,0x3d7)+'спользуйте'+_0x18cdf3(0x50c,0xe8)+_0x18cdf3(0xc52,0x1044)+'еральный\x20к'+'од\x20и\x20перей'+_0x1c0568(0x1097,0x1a56)+'ылке,\x20чтоб'+'ы\x20узнать\x20о'+'\x20своих\x20пре'+'имуществах'+'.','credit_agricole_b1':_0x18cdf3(0x1018,0x872)+'нные\x20преим'+_0x18cdf3(0x7f5,0xf8e)+'и\x20открытии'+'\x20счета','credit_agricole_b2':_0x1c0568(0x82b,0x7b9)+'нк,\x20присут'+'ствующий\x20п'+_0x1c0568(0x8a8,0x109)+'нции','credit_agricole_b3':'Одноразовы'+_0x18cdf3(0xe79,0x13a1)+'ный\x20код\x20EG'+'YYLFH','parrainage_btn_credit_agricole':'🏛️\x20Открыть\x20'+_0x18cdf3(0x10e2,0xf8e)+'t\x20Agricole','parrainage_octopus_title':'🐙\x20Рефераль'+_0x1c0568(0xf8,0x3ae)+'мма\x20Octopu'+'s\x20Energy','parrainage_octopus_text':_0x1c0568(0x1080,0x805)+_0x1c0568(0xa28,0x1406)+'topus\x20Ener'+'gy\x20по\x20моей'+_0x1c0568(-0x156,-0x77d)+_0x1c0568(0x2c,-0x351)+_0x1c0568(0x1216,0x176e)+_0x18cdf3(0x1622,0x1573)+'тво\x20на\x20сче'+_0x18cdf3(0xefe,0xf8f)+_0x1c0568(0x3b8,0x538)+_0x18cdf3(0x10e0,0x1521)+_0x18cdf3(0xaac,0xf21)+'тая\x20и\x20деше'+'вая\x20энерги'+'я.','octopus_b1':'Приветстве'+'нное\x20преим'+'ущество\x20на'+'\x20счет\x20за\x20э'+'лектроэнер'+_0x1c0568(0xe78,0x1330),'octopus_b2':'100%\x20возоб'+'новляемая\x20'+_0x1c0568(0x938,0x1236)+'справедлив'+_0x1c0568(0x937,0xad5),'octopus_b3':'Отзывчивая'+_0x18cdf3(0x1256,0x1285)+'\x20клиентов\x20'+'и\x20без\x20обяз'+'ательств','parrainage_btn_octopus':_0x1c0568(0x6d0,0x52a)+'ниться\x20к\x20O'+'ctopus\x20Ene'+_0x1c0568(0x447,0x730),'parrainage_step1_title':_0x18cdf3(0x116c,0xaa4)+'\x20ссылку','parrainage_step1_text':'Вы\x20перенап'+_0x1c0568(0xdd7,0x138c)+'\x20на\x20официа'+'льную\x20стра'+'ницу\x20регис'+'трации\x20(Bo'+_0x1c0568(0x508,0x1f8)+_0x1c0568(0x1061,0xd22)+_0x18cdf3(0xf77,0x8ca)+_0x18cdf3(0x13b9,0x1567)+'ole\x20или\x20Oc'+'topus\x20Ener'+'gy)\x20с\x20уже\x20'+_0x18cdf3(0x389,0x180)+'\x20реферальн'+_0x18cdf3(0xe7a,0x154b),'parrainage_step2_title':'Ваша\x20инфор'+_0x18cdf3(0xbc5,0x64b)+_0x18cdf3(0x44b,0xb0b)+'\x20заполнена','parrainage_step2_text':_0x18cdf3(0x1375,0x187a)+_0x18cdf3(0x12b4,0x13ad)+'рмация\x20зап'+_0x1c0568(0xc70,0x371)+'втоматичес'+'ки.\x20Вам\x20ну'+_0x1c0568(-0x22,0x976)+'\x20заполнить'+_0x1c0568(-0x266,-0x85e),'parrainage_step3_title':'Подтвердит'+'е\x20регистра'+_0x18cdf3(0xff3,0xc90),'parrainage_step3_text':'Завершите\x20'+_0x18cdf3(0x693,0x973)+'чета,\x20подп'+'иску\x20или\x20р'+_0x1c0568(0xdb,0x35d)+'\x20за\x20нескол'+'ько\x20минут\x20'+_0x1c0568(0x471,0xdb7)+'уйтесь\x20пре'+_0x18cdf3(0xced,0x109a)+'и.','parrainage_step4_title':_0x1c0568(-0x12,0x2a5)+'рыше','parrainage_step4_text':'Вы\x20получае'+'те\x20приветс'+_0x18cdf3(0x944,-0xf0)+'еимущество'+',\x20и\x20я\x20тоже'+_0x1c0568(0x3de,0x412)+'й\x20беспроиг'+_0x1c0568(-0x126,0x329)+'иант.','parrainage_note_title':'ℹ️\x20Полезно\x20'+'знать:','parrainage_note_text':_0x18cdf3(0x665,0x3a3)+_0x1c0568(0xbb0,0x1127)+_0x1c0568(0xb62,0x817)+'ициальными'+'\x20ссылками\x20'+_0x1c0568(0x874,0xe53)+',\x20Starlink'+',\x20Vinted,\x20'+_0x18cdf3(0x873,0x5a6)+_0x1c0568(0x1158,0xa38)+_0x18cdf3(0x15f4,0x15db)+_0x18cdf3(0x4d0,-0x488)+'ие\x20счета\x20B'+_0x18cdf3(0x1218,0x14b3)+_0x1c0568(0x684,0x28e)+_0x1c0568(0x6ea,0x33a)+_0x18cdf3(0x11ac,0xb5e)+_0x18cdf3(0x13fc,0x1eea)+_0x18cdf3(0xb49,0xe47)+'а\x20зависят\x20'+'от\x20условий'+_0x18cdf3(0x5b7,-0x162)+_0x18cdf3(0x105,0x9bb)+_0x18cdf3(0x12e1,0x1402)+'gricole\x20EG'+'YYLFH\x20явля'+'ется\x20однор'+'азовым.','my_vinted':_0x18cdf3(0xff4,0x989)+'ed','vinted_intro':'Найдите\x20мо'+'и\x20проверен'+_0x1c0568(0x1173,0xfd5)+_0x1c0568(0xa64,0x1113)+'тинги\x205★\x20и'+'\x20мои\x20товар'+'ы,\x20доступн'+_0x1c0568(0xbc1,0xda8)+'ed.','verified_reviews':_0x18cdf3(0x808,0x52f)+'е\x20отзывы\x20V'+'inted','vinted_desc':_0x1c0568(0xd6b,0x180c)+'s95\x20на\x20Vin'+_0x1c0568(-0x100,-0xbcf)+'длагаю\x20сер'+'ьезные,\x20хо'+'рошо\x20предс'+_0x1c0568(0x3b,-0xfe)+_0x1c0568(-0x9e,-0x62e)+'тзывчивым\x20'+'обслуживан'+'ием\x20клиент'+'ов.','view_vinted_profile':'👕\x20Мой\x20проф'+_0x18cdf3(0xca3,0xae8),'beauty_title':'💅\x20Ногти\x20и\x20'+_0x1c0568(0x4f6,0x7ee)+'SHAYNAILS','beauty_sub':_0x18cdf3(0xd45,0xb35)+'ть\x20·\x20Уход\x20'+'·\x20Лично\x20в\x20'+_0x1c0568(0x882,0x10ae),'beauty_intro':'Услуги\x20тол'+_0x1c0568(0x4de,0x5d3)+'в\x20Гиньене.'+'\x20Запись\x20по'+'\x20телефону\x20'+_0x18cdf3(0x15f9,0x166c)+'agram.','beauty_prices_title':'💶\x20Прайс-ли'+'ст','beauty_presentiel_note':'⚠️\x20Услуги\x20т'+'олько\x20личн'+_0x18cdf3(0x126a,0xb2c)+_0x18cdf3(0xfd7,0x67b)+_0x18cdf3(0x353,0xd3a)+'ж.','beauty_gallery_title':'✨\x20Достижен'+_0x1c0568(0x6f5,0x45b)+'в','beauty_video_title':_0x1c0568(0x1252,0x1cdf),'video_fallback':'Ваш\x20браузе'+_0x1c0568(0xdff,0x12c4)+_0x1c0568(0xcae,0x89c)+_0x1c0568(0x244,0x7b7)+'ние\x20видео.','beauty_book_title':_0x1c0568(0x10d2,0x1065)+'ся\x20на\x20услу'+'гу','beauty_book_text':_0x18cdf3(0xd6b,0xe74)+'\x20проводятс'+_0x18cdf3(0x19d,0x28c)+_0x18cdf3(0x1125,0x1932)+_0x1c0568(0xfd,-0x719)+'о\x20телефону'+'\x20или\x20в\x20Ins'+'tagram.','click_photo_zoom':'💡\x20Нажмите\x20'+_0x18cdf3(0xce3,0xd79)+'тобы\x20увели'+'чить','cyber_title':'🛡️\x20Профилак'+'тика\x20кибер'+_0x1c0568(0x10e9,0xc20)+'ти','cyber_subtitle':'Компьютерн'+_0x1c0568(0x10dc,0x6fc)+'о\x20Франции','cyber_intro':'Фишинг,\x20кр'+_0x18cdf3(0x12fc,0x12a0)+',\x20мошеннич'+_0x1c0568(0x61b,0x8e1)+'уп\x20и\x20кража'+_0x1c0568(0xd4b,0xaf1)+'нных:\x20пони'+'мание\x20риск'+'ов\x20помогае'+'т\x20лучше\x20за'+_0x1c0568(0x104e,0x1202)+_0x18cdf3(0x66c,-0x398)+'записи,\x20ус'+'тройства\x20и'+'\x20личную\x20ин'+_0x18cdf3(0x775,0xba),'cyber_intro_2':_0x18cdf3(0x1641,0x1c4d)+_0x18cdf3(0xd76,0x4e6)+'т\x20в\x20себе\x20б'+_0x18cdf3(0x129a,0xa47)+_0x18cdf3(0x6a0,0x1c4)+_0x1c0568(0xc2f,0xde7)+_0x18cdf3(0x6e1,0xff7)+'ехнические'+'\x20средства\x20'+_0x18cdf3(0xc98,0x213)+_0x1c0568(0x3dd,0x3ed)+_0x18cdf3(0x1186,0x1762)+'озникновен'+'ии\x20инциден'+_0x1c0568(0xae7,0x1357),'prevention_themes':'📋\x20Темы\x20про'+_0x18cdf3(0x364,-0x452),'cyber_step1':'🔑\x20Шаг\x201\x20—\x20'+'Сохраненны'+'е\x20пароли','cyber_step2':'🎣\x20Шаг\x202\x20—\x20'+'Социальная'+_0x18cdf3(0x88f,-0x11a)+'\x20и\x20фишинг','cyber_step3':_0x1c0568(-0x169,0xea)+'Атаки\x20на\x20п'+_0x1c0568(0x740,0x88b),'cyber_step4':_0x18cdf3(0x1604,0x1296)+'Фотографии'+'\x20ключей\x20и\x20'+_0x1c0568(0x96a,0xb97)+_0x18cdf3(0x16a7,0x2067)+_0x1c0568(0x3a1,-0x4c2),'cyber_step5':_0x18cdf3(0x1347,0xa9b)+_0x1c0568(0x114e,0x8f7)+_0x18cdf3(0x375,-0x772),'cyber_step6':'⚖️\x20Шаг\x206\x20—\x20'+'Французско'+'е\x20право\x20и\x20'+'хакерство','cyber_step7':_0x1c0568(0x9d6,0x3c4)+'Фишинг,\x20мо'+_0x1c0568(0x1bd,-0x61d)+'о\x20и\x20иденти'+_0x18cdf3(0x49e,0x15d),'cyber_step8':_0x1c0568(0xffa,0x1283)+'Персональн'+_0x18cdf3(0x80b,0xc4a)+_0x1c0568(0x12ba,0x156e),'cyber_step9':'✅\x20Шаг\x209\x20—\x20'+'Авторизова'+_0x18cdf3(0x154e,0x1b6b)+'\x20безопасно'+_0x1c0568(0xb28,0x1157),'cyber_step10':'🚨\x20Шаг\x2010\x20—'+'\x20Что\x20делат'+_0x1c0568(0x1059,0xc0b)+'\x20инцидента'+'?','cyber_conclusion':'🏁\x20Общее\x20за'+'ключение','cyber_s1_title':'🔑\x20Шаг\x201\x20—\x20'+_0x18cdf3(0xf52,0x7f7)+_0x1c0568(-0x227,0x427)+_0x18cdf3(0xf24,0x17d5)+'ащита\x20и\x20бд'+_0x18cdf3(0x4e5,0x8c3),'cyber_s1_p1':_0x1c0568(0xc04,0x165b)+'\x20паролей\x20в'+'\x20текстовом'+'\x20файле,\x20не'+'защищенной'+_0x18cdf3(0x7a0,0x62b)+_0x18cdf3(0x15ac,0xe6a)+_0x18cdf3(0x12a4,0x1285)+_0x18cdf3(0xf50,0x92d)+_0x1c0568(-0x1b4,0x88f)+_0x1c0568(0xa22,0x14df)+_0x18cdf3(0x58a,0x61b)+'и\x20файл\x20укр'+_0x1c0568(0x986,0x118c)+_0x18cdf3(0xe7,0x5e)+_0x1c0568(0xc57,0xd4c)+'ировано.','cyber_s2_title':_0x1c0568(-0x2c2,0x11d)+_0x1c0568(0x12e9,0x83c)+_0x18cdf3(0x88f,0x1150)+'\x20и\x20фишинг:'+'\x20вы\x20можете'+'\x20стать\x20цел'+'ью','cyber_s2_p1':_0x18cdf3(0x934,0x31e)+_0x1c0568(0x246,-0x632)+_0x1c0568(0x569,0x495)+_0x1c0568(0x519,0xe3)+_0x18cdf3(0x166,0x5e4)+'ебя\x20за\x20дов'+'еренное\x20ли'+'цо\x20или\x20орг'+_0x1c0568(0x915,-0x7b)+_0x18cdf3(0xad9,0x1393)+_0x1c0568(0x40b,0xc04)+_0x18cdf3(0x203,-0x32e)+'жа\x20или\x20рис'+_0x18cdf3(0x9b4,0xe82)+_0x18cdf3(0x679,0xd97),'cyber_s3_title':'💻\x20Шаг\x203\x20—\x20'+'Атаки\x20на\x20п'+_0x1c0568(0x740,0x770),'cyber_s3_p1':'Попытки\x20уг'+_0x1c0568(0x7d4,0xfdd)+'повторно\x20и'+_0x18cdf3(0x1240,0x1728)+'ь\x20пароль\x20п'+_0x1c0568(0x12b0,0x1126)+_0x1c0568(-0x155,-0x7cf)+'ормы,\x20и\x20не'+_0x18cdf3(0x14fa,0x1e34)+_0x18cdf3(0x3f1,0xe61)+_0x18cdf3(0x614,0xb61),'cyber_s4_title':'🗝️\x20Шаг\x204\x20—\x20'+'Фотографии'+_0x1c0568(0xe63,0xfa5)+_0x18cdf3(0xd23,0x5ea)+_0x18cdf3(0x16a7,0x17e4)+_0x18cdf3(0x75a,0x787),'cyber_s4_p1':_0x1c0568(0x10d3,0x8b4)+'\x20подробной'+'\x20фотографи'+'и\x20ключа\x20от'+'\x20дома,\x20гар'+'ажа\x20или\x20ав'+_0x18cdf3(0x385,0xca9)+_0x18cdf3(0x220,0x32)+_0x1c0568(0x613,0x8cb)+'еристики,\x20'+'полезные\x20з'+_0x18cdf3(0x314,0x936)+'ику.','cyber_s5_title':_0x1c0568(0xf8e,0xef6)+'Личная\x20инф'+'ормация\x20и\x20'+_0x18cdf3(0x938,0xe4b)+_0x18cdf3(0x1cb,0x819),'cyber_s5_p1':'Избегайте\x20'+'паролей,\x20о'+'снованных\x20'+_0x18cdf3(0x1577,0x1a62)+_0x1c0568(0xb8a,0x75e)+_0x1c0568(0xe69,0xaaf)+'и\x20или\x20угад'+'ать.','cyber_s6_title':'⚖️\x20Шаг\x206\x20—\x20'+'Французско'+'е\x20право:\x20м'+_0x1c0568(0x27f,0x9b4)+'ий\x20доступ,'+'\x20хакерство'+_0x18cdf3(0xfcf,0x706),'cyber_s6_p1':_0x1c0568(0x69c,0x3ae)+_0x1c0568(0x11bc,0x714)+'ьства\x20на\x20а'+_0x18cdf3(0x122b,0x157b)+'ованные\x20си'+_0x1c0568(0xe81,0x5da)+_0x18cdf3(0x4ff,0x59d)+'ых\x20(STAD)\x20'+'в\x20основном'+_0x18cdf3(0xece,0xd18)+'рены\x20стать'+_0x1c0568(0x809,0x168)+_0x18cdf3(0x27a,-0x105)+_0x18cdf3(0x12a6,0x180d)+_0x18cdf3(0x3df,0xb80)+_0x18cdf3(0xeb0,0x973),'cyber_s7_title':_0x1c0568(0x9d6,0xbd7)+'Фишинг,\x20мо'+'шенничеств'+_0x1c0568(-0x1e5,-0x3c7)+_0x1c0568(0x1007,0x83d)+_0x18cdf3(0x4ba,0x687),'cyber_s7_p1':_0x1c0568(0x9c6,0xdf3)+_0x1c0568(0x3c1,-0x65d)+_0x18cdf3(0x1423,0x14dd)+'ам\x20по\x20себе'+'\x20окончател'+'ьную\x20квали'+_0x1c0568(0x5c3,0xebf)+'авонарушен'+'ия.','cyber_s8_title':'🗂️\x20Шаг\x208\x20—\x20'+'Персональн'+'ые\x20данные,'+_0x18cdf3(0x67c,-0x410)+_0x18cdf3(0xdc7,0x118a)+'а\x20по\x20безоп'+'асности','cyber_s8_p1':'Организаци'+'и,\x20обрабат'+'ывающие\x20пе'+'рсональные'+'\x20данные,\x20д'+'олжны,\x20в\x20ч'+_0x1c0568(0x1147,0x17d2)+_0x18cdf3(0xad5,0xf7c)+'оответству'+_0x18cdf3(0x2f7,-0x47f)+'безопаснос'+'ти.','cyber_s9_title':'✅\x20Шаг\x209\x20—\x20'+_0x1c0568(0x73f,0xd13)+'стирование'+'\x20безопасно'+'сти:\x20получ'+_0x1c0568(-0x6d,-0x89b)+_0x1c0568(0x83d,-0xfb)+_0x1c0568(0xf0b,0x121d),'cyber_s9_p1':_0x18cdf3(0xa34,0x868)+_0x18cdf3(0x8fb,0x91a)+_0x18cdf3(0xf8b,0xdc2)+_0x18cdf3(0xaed,0x1332)+_0x1c0568(0x768,0xdf5)+_0x18cdf3(0x13a2,0x1166)+'олжны\x20пров'+'одиться\x20в\x20'+'авторизова'+_0x18cdf3(0x3b6,0x470)+'х.','cyber_s10_title':_0x1c0568(-0xf,-0x50e)+'\x20Что\x20делат'+_0x18cdf3(0x123b,0x19b4)+'етная\x20запи'+_0x1c0568(0x31b,0x653)+'ройство\x20ск'+_0x18cdf3(0x9c4,0x7e)+_0x1c0568(0x783,0xb9f),'cyber_s10_p1':'С\x20чистого\x20'+_0x1c0568(0x51,0x31d)+'\x20смените\x20с'+_0x18cdf3(0x7ba,0xec0)+'ющий\x20парол'+_0x18cdf3(0x34f,-0x4cc)+_0x18cdf3(0x10ae,0xc95)+_0x1c0568(0x1084,0x1a32)+_0x1c0568(0x138,0x22a)+'ны.','cyber_conclusion_title':_0x18cdf3(0xec,0x7b8)+'ключение','cyber_conclusion_p1':'Киберпрест'+'упники\x20мог'+_0x1c0568(0x10de,0x18ed)+'овать\x20техн'+_0x18cdf3(0xa80,0x3f0)+_0x18cdf3(0xe6e,0x1474)+'а\x20также\x20до'+'верие,\x20при'+_0x18cdf3(0xb4b,0xaa5)+'формацию,\x20'+_0x18cdf3(0x78a,0x395)+'лятся\x20в\x20Ин'+_0x18cdf3(0x13ea,0x1020),'legal_notice':_0x1c0568(0x6bb,0x598)+_0x1c0568(0x371,0x2ea)+'я\x20и\x20безопа'+_0x18cdf3(0xb36,0x1350),'legal_info':'1.\x20Правова'+'я\x20информац'+'ия','legal_company':'Название\x20к'+'омпании:','legal_status':_0x1c0568(0xe95,0x161f),'legal_address':'Адрес:','legal_hosting':_0x1c0568(0x8c0,0xd0)+'\x20сайта','legal_ip':_0x18cdf3(0x741,0xa8d)+_0x1c0568(0x358,-0x3ff)+_0x1c0568(0xa5c,0x10db)+'сть','legal_ip_p1':_0x18cdf3(0x10e8,0x646)+_0x1c0568(0x11bd,0x92c)+'тексты,\x20из'+_0x18cdf3(0x11b,0x204)+'\x20дизайн,\x20л'+_0x18cdf3(0x165,-0x3fe)+_0x1c0568(0x1175,0xbf5)+'вляется\x20ис'+'ключительн'+'ой\x20собстве'+'нностью\x20GU'+_0x1c0568(0xc11,0x753),'legal_ip_p2':_0x18cdf3(0xaff,0x4ef)+'роизведени'+_0x1c0568(0xb88,0x926)+_0x1c0568(0xcbd,0xefa)+'ли\x20использ'+'ование\x20без'+'\x20разрешени'+_0x18cdf3(0xb38,0xabb)+'апрещено.','legal_data_title':_0x1c0568(0x841,0x291)+'льные\x20данн'+'ые','legal_data_p1':'Собранные\x20'+_0x18cdf3(0x2f5,-0x58b)+'я,\x20электро'+'нная\x20почта'+_0x18cdf3(0xeed,0x117b)+'елефон)\x20ис'+_0x18cdf3(0xd51,0x127a)+'\x20только\x20дл'+_0x1c0568(0xfe5,0x1674)+'и\x20заказов\x20'+'и\x20поддержк'+_0x18cdf3(0x25a,0xcbc)+'.','legal_data_p2':'Никакие\x20ли'+'чные\x20данны'+'е\x20не\x20перед'+_0x18cdf3(0xa71,0x1c7)+'продаются,'+_0x1c0568(0xf98,0x10c1)+_0x1c0568(-0x45,-0x8a6)+_0x18cdf3(0x125b,0x10cf)+'\x20компаниям'+',\x20платформ'+'ам,\x20сторон'+'ним\x20сервис'+_0x1c0568(-0x144,0x6f3)+'ударственн'+'ым\x20органам'+'\x20во\x20Франци'+_0x1c0568(0x10b8,0x18a1)+'либо\x20еще.','legal_data_p3':'В\x20соответс'+_0x1c0568(-0xd1,0x347)+'R\x20вы\x20может'+_0x18cdf3(0x63c,0x8a4)+'время\x20запр'+_0x1c0568(0x12ea,0x1b1a)+'ение\x20или\x20и'+'зменение\x20с'+_0x1c0568(0x10b7,0xe72)+'х\x20по\x20адрес'+_0x1c0568(0x5a0,0xabe)+_0x1c0568(0x1222,0x1449)+'ail.com.','legal_cookies_title':'5.\x20Файлы\x20c'+'ookie','legal_cookies_p1':'Сайт\x20может'+'\x20использов'+'ать\x20технич'+'еские\x20файл'+'ы\x20cookie\x20д'+'ля\x20улучшен'+'ия\x20пользов'+_0x1c0568(0x232,0x42a)+_0x1c0568(0x1304,0x99e)+'рзина,\x20нас'+_0x1c0568(0x2f3,0x8d)+'бражения).','legal_cookies_p2':'Рекламные\x20'+_0x1c0568(0x443,0xaa3)+'ie\x20не\x20испо'+'льзуются.','legal_liability_title':'6.\x20Ответст'+'венность','legal_liability_p1':_0x1c0568(-0x1d3,-0xc41)+'\x20не\x20несет\x20'+'ответствен'+_0x18cdf3(0x792,0x192)+'щерб,\x20связ'+'анный\x20с\x20ис'+'пользовани'+_0x18cdf3(0xa78,0xc58)+'ли\x20продукт'+'ов,\x20за\x20иск'+'лючением\x20с'+'лучаев\x20док'+'азанной\x20пр'+_0x1c0568(0x80b,0x3d8),'legal_disputes_title':_0x18cdf3(0x66d,0x8e9),'legal_disputes_p1':_0x18cdf3(0x118e,0x9b0)+'пора\x20в\x20пер'+_0x18cdf3(0xa45,0xc19)+_0x1c0568(0x54a,0xb47)+_0x18cdf3(0x2a1,-0x42b)+_0x1c0568(0x1e9,-0x38b)+_0x18cdf3(0x11f4,0x1026)+_0x1c0568(0xafc,0x521)+'.','legal_disputes_p2':_0x1c0568(0x4c8,0x606)+'м\x20случае\x20к'+_0x18cdf3(0x100d,0x1a97)+_0x18cdf3(0x877,0x1ff)+'ранцузские'+'\x20суды.','security_audit_title':_0x1c0568(0x1231,0x18e8)+_0x18cdf3(0xb6d,0xfbf)+_0x1c0568(0x10e9,0x693)+'ти\x20(Nmap\x20&'+'\x20curl)','security_audit_subtitle':_0x1c0568(0x1228,0x17b6)+'ость\x20сайта'+_0x18cdf3(0x802,0x811)+_0x1c0568(0x2bf,0x200),'security_audit_p1':'Безопаснос'+_0x18cdf3(0x3e2,0xeaa)+'елей\x20и\x20кли'+'ентов\x20стро'+_0x1c0568(0x8ec,0x8b7)+'ируется\x20на'+_0x18cdf3(0x802,0x769)+_0x18cdf3(0x1090,0xbff)+'йт\x20применя'+'ет\x20передов'+'ые,\x20строги'+_0x1c0568(-0x1c2,0x438)+_0x18cdf3(0xe81,0x1869)+'бходу\x20меры'+'\x20защиты\x20дл'+_0x1c0568(0xcb,-0xaf)+'ния\x20надежн'+_0x18cdf3(0x7e7,0xc53)+'ии,\x20безопа'+_0x1c0568(0xb31,0x231)+'жей\x20и\x20полн'+_0x18cdf3(0x65e,0xd1e)+'нциальност'+'и.','security_audit_p2':_0x1c0568(0xd5f,0x660)+'ехнический'+_0x18cdf3(0x1f0,-0x2de)+'роведенный'+_0x1c0568(0xe3f,0x1539)+'\x20Nmap\x20и\x20cu'+_0x18cdf3(0x536,0x204)+'рждает,\x20чт'+_0x18cdf3(0x215,-0x6b4)+'имеет\x20недо'+'статков,\x20о'+'пасных\x20эле'+'ментов,\x20ут'+'ечек\x20данны'+_0x1c0568(0xcaa,0x430)+_0x18cdf3(0xe97,0x65d)+'е\x20механизм'+'ы\x20являются'+_0x1c0568(-0x2a2,0x694)+'ми\x20и\x20ожида'+_0x1c0568(0x11e8,0x1876)+'ми\x20защиты.','security_audit_p3':'👉\x20Нет\x20риск'+'а,\x20нет\x20угр'+_0x18cdf3(0xd64,0x98a)+'номалий.','security_audit_1_title':'🔒\x20Безопасн'+'ое\x20соедине'+'ние\x20(HTTPS'+'\x20/\x20TLS\x201.3'+')','security_audit_1_p1':'Сайт\x20испол'+_0x1c0568(0x7aa,-0xbb)+_0x18cdf3(0x4ac,0x9d8)+'стандарты\x20'+'безопаснос'+_0x18cdf3(0xcea,0xd0d),'security_audit_1_l1':_0x1c0568(0x468,0xc54)+_0x18cdf3(0x1ab,0x5e7)+'нных','security_audit_1_l2':'защита\x20от\x20'+'перехвата','security_audit_1_l3':'автоматиче'+'ское\x20перен'+'аправление'+'\x20на\x20HTTPS','security_audit_1_l4':_0x1c0568(0xb1e,0x3e5)+'LS\x201.3,\x20ме'+_0x1c0568(0x2eb,-0x78f)+_0x1c0568(-0x292,-0x48e)+_0x1c0568(0xf79,0x14b4)+'т','security_audit_1_footer':_0x18cdf3(0x6e2,0xb38)+_0x1c0568(0x8bd,0x958)+_0x18cdf3(0x559,0x28f)+'443\x20открыт'+',\x20защищен\x20'+'и\x20не\x20имеет'+'\x20уязвимост'+_0x1c0568(0x1254,0x1499),'security_audit_2_title':_0x1c0568(0xff0,0x1726)+'ная\x20защита'+'\x20от\x20атак\x20('+_0x18cdf3(0xad4,0xfb4),'security_audit_2_p1':_0x1c0568(0x52d,0x55b)+'езопасност'+_0x18cdf3(0xcfe,0x1627)+'\x20сайта\x20бло'+_0x18cdf3(0x332,-0x633),'security_audit_2_l1':_0x1c0568(-0x129,-0x17d)+'е\x20скрипты','security_audit_2_l2':'внедрение\x20'+'кода','security_audit_2_l3':_0x18cdf3(0x719,-0x10)+_0x18cdf3(0x306,-0x189)+_0x18cdf3(0x159e,0xd7d),'security_audit_2_l4':'попытки\x20вз'+'лома','security_audit_2_footer':'👉\x20Сканиров'+'ание\x20http-'+_0x1c0568(0xa3f,0x6d9)+_0x18cdf3(0xb71,0x79f)+_0x18cdf3(0x1551,0xc1a)+'ую,\x20строгу'+'ю\x20и\x20заблок'+'ированную\x20'+_0x1c0568(0x9ed,0xc)+_0x1c0568(0x236,0xb7b)+_0x18cdf3(0x63e,0x822)+_0x18cdf3(0x8ce,-0x18f),'security_audit_3_title':'🧱\x20Анти-мош'+'енничество'+'\x20и\x20анти-кл'+'икджекинг','security_audit_3_footer':_0x18cdf3(0x6be,-0x39)+_0x1c0568(0x979,0x5fe)+_0x1c0568(-0xf8,-0x4c0)+'яся\x20обходу'+',\x20предотвр'+_0x1c0568(0x125d,0x16b0)+'бые\x20попытк'+_0x18cdf3(0xfc2,0x536)+_0x1c0568(-0x24a,0x53d)+'са.','security_audit_4_title':_0x1c0568(0x1228,0xbaf)+_0x1c0568(-0x286,0x32b)+'\x20через\x20Str'+_0x1c0568(-0x94,0x540),'security_audit_4_p1':_0x1c0568(0x12ff,0xe8c)+'рабатывают'+_0x1c0568(-0xeb,-0x12e)+_0x1c0568(-0x1c3,-0x303)+'рованным\x20б'+'анковским\x20'+'решением:','security_audit_4_l1':_0x1c0568(0x586,0xaee)+_0x1c0568(0x8b2,0x7e),'security_audit_4_l2':_0x18cdf3(0x821,0xf2c)+'рование','security_audit_4_l3':'отсутствие'+'\x20хранения\x20'+'банковских'+_0x1c0568(0x107b,0x633),'security_audit_4_l4':'карты\x20нико'+'гда\x20не\x20хра'+'нятся\x20на\x20с'+'айте','security_audit_4_footer':_0x18cdf3(0x6e2,0x810)+'тверждает,'+_0x18cdf3(0x1309,0x1bc2)+'ные\x20точки\x20'+_0x18cdf3(0x58d,0x577)+'опасны,\x20де'+'йствительн'+'ы\x20и\x20не\x20пре'+_0x18cdf3(0xbff,0xe9d)+_0x1c0568(0x56,0x86),'security_audit_5_title':_0x1c0568(0xa66,0x2b6)+_0x18cdf3(0xd3e,0x14a4)+'циальность','security_audit_5_p1':_0x18cdf3(0xb54,0xe4a)+'няет\x20строг'+_0x18cdf3(0xb95,0xff0)+'и:','security_audit_5_l1':_0x1c0568(0x149,0x49a)+_0x1c0568(0xbac,0xf49)+'de>strict-'+_0x1c0568(0x3fd,-0x697)+'n-cross-or'+'igin</code'+'>','security_audit_5_l2':'Permission'+'s\x20Policy:\x20'+'без\x20камеры'+_0x18cdf3(0xe2c,0x6a4)+'офона,\x20без'+_0x1c0568(0x11f0,0xa65)+'и','security_audit_5_l3':'X-Content-'+_0x18cdf3(0xf61,0x191a)+'ns:\x20<code>'+_0x18cdf3(0xdf4,0x183a)+_0x1c0568(0xd21,0x8fc),'security_audit_5_l4':_0x1c0568(0x6cd,0x637)+'in-Opener-'+'Policy:\x20<c'+_0x1c0568(0x10a,-0x864)+'rigin</cod'+'e>','security_audit_5_l5':_0x18cdf3(0xa86,0xa6e)+_0x18cdf3(0x60a,0x973)+_0x1c0568(0x989,0x772)+'<code>cred'+_0x1c0568(0x1196,0x8ad)+_0x1c0568(-0x21a,-0x7bd),'security_audit_5_l6':'Cross-Orig'+'in-Resourc'+_0x18cdf3(0x35d,-0x502)+_0x18cdf3(0x924,0x3fc)+'-origin</c'+'ode>','security_audit_5_footer':'👉\x20Эти\x20меры'+'\x20защиты\x20ак'+'тивны,\x20стр'+'оги\x20и\x20не\x20о'+_0x18cdf3(0x1335,0x100c)+'егативного'+'\x20влияния\x20н'+'а\x20посетите'+'лей.','security_audit_6_title':_0x18cdf3(0xf25,0x127f)+'т\x20внешних\x20'+'сайтов\x20(CO'+_0x18cdf3(0x7eb,0xd5b),'security_audit_6_p1':'Сайт\x20разре'+_0x18cdf3(0xa9d,0x14e0)+_0x1c0568(0x866,0x70f)+'ственный\x20д'+'омен:','security_audit_6_footer':_0x1c0568(0x984,0xf74)+'утечек,\x20ни'+'какого\x20нес'+'анкциониро'+_0x18cdf3(0x153e,0x1f8f)+'ешнего\x20дос'+'тупа.','security_audit_7_title':'🧪\x20Безопасн'+_0x18cdf3(0xebb,0xfa2)+_0x18cdf3(0x168e,0x10fa),'security_audit_7_p1':_0x18cdf3(0x13d8,0x1d3a)+'уется\x20защи'+_0x1c0568(0x559,0x33)+':','security_audit_7_l1':'усиленная\x20'+'безопаснос'+'ть','security_audit_7_l2':_0x18cdf3(0x11c5,0x1ac1)+'ские\x20обнов'+'ления','security_audit_7_l3':'защита\x20от\x20'+_0x1c0568(0xa4e,0x58e),'security_audit_7_l4':_0x18cdf3(0x1368,0x8fb)+_0x18cdf3(0x1570,0xb5b)+_0x18cdf3(0xe98,0x1270)+_0x1c0568(-0x1d4,0x705),'security_audit_7_l5':_0x18cdf3(0x1130,0x1178)+_0x18cdf3(0xa25,0x1281)+_0x18cdf3(0x2bd,0x1d),'security_audit_7_footer':_0x18cdf3(0x167c,0xddb)+'аруживает:'+_0x18cdf3(0xaab,0x1c2)+'Challenge-'+_0x1c0568(0xa7b,0x114)+'ercel-Miti'+_0x1c0568(0x335,0x53b)+_0x1c0568(0xf0d,0x135c)+_0x1c0568(0xb32,0x1fd)+'ity\x20Checkp'+'oint.\x20Эти\x20'+'механизмы\x20'+_0x18cdf3(0x311,0x9)+'\x20автоматич'+_0x1c0568(0xac2,0xc1c)+'да\x20не\x20каса'+'ются\x20людей'+_0x18cdf3(0x31e,0x213)+_0x1c0568(0x1254,0x8e8),'security_audit_8_title':_0x1c0568(0x7f6,0x92)+'ный\x20монито'+'ринг\x20и\x20обс'+'луживание','security_audit_8_p1':_0x1c0568(0xd0d,0x7c5)+'ргается:','security_audit_8_l1':'регулярным'+'\x20аудитам','security_audit_8_l2':'технически'+'м\x20обновлен'+'иям','security_audit_8_l3':_0x18cdf3(0x119a,0x195f)+'SSL','security_audit_8_l4':_0x1c0568(-0x137,-0x74e)+_0x18cdf3(0x6cb,0x111f),'security_audit_8_footer':_0x18cdf3(0x743,0xee6)+_0x18cdf3(0xbd6,0x796)+_0x1c0568(0x5e4,0xee2)+'ную,\x20актив'+'ную\x20безопа'+_0x18cdf3(0xf3e,0x16cf)+'\x20недостатк'+'ов.','security_audit_9_title':'📡\x20Техничес'+_0x1c0568(0xab6,0x1206)+'ка\x20(Nmap\x20&'+_0x18cdf3(0x10a2,0x7b4),'security_audit_9_p1':_0x1c0568(0xc91,0x1718)+'ализы\x20пока'+_0x18cdf3(0x124a,0x15f8),'security_audit_9_l1':_0x18cdf3(0x12b8,0x188c)+_0x18cdf3(0x811,0x24d)+'ов','security_audit_9_l2':_0x1c0568(0xeff,0x108d)+_0x18cdf3(0x110,-0xf6)+'етодов','security_audit_9_l3':'отсутствие'+_0x1c0568(0x11fe,0x1452)+'портов','security_audit_9_l4':'отсутствие'+'\x20утечек\x20ин'+_0x1c0568(0x520,0x957),'security_audit_9_l5':'отсутствие'+'\x20открытых\x20'+'сервисов','security_audit_9_l6':'отсутствие'+_0x1c0568(0x256,0x200)+_0x18cdf3(0x1632,0xe48)+'ия','security_audit_9_l7':_0x18cdf3(0x12b8,0x140a)+_0x1c0568(0xdea,0xb57)+_0x1c0568(-0x70,-0x54e)+'ей','security_audit_9_nmap1_title':_0x18cdf3(0xd20,0xf47)+'ttp-header'+'s','security_audit_9_nmap1_text':'Обнаруженн'+'ые\x20заголов'+_0x18cdf3(0x12d8,0x862)+'\x20CSP,\x20акти'+_0x1c0568(0x1075,0x1338)+_0x18cdf3(0x1026,0x168e)+_0x18cdf3(0x4ad,0xe8e)+_0x1c0568(0x1016,0x1aac)+'Policy,\x20Re'+'ferrer-Pol'+'icy,\x20X-Con'+_0x18cdf3(0x1662,0xc11)+'Options,\x20с'+'трогий\x20COR'+'S,\x20защиты\x20'+_0x1c0568(0xa25,0x13e3),'security_audit_9_nmap1_footer':'👉\x20Все\x20эти\x20'+'элементы\x20я'+_0x1c0568(-0x269,0x635)+_0x1c0568(0x96e,-0x15d)+'сности\x20нет'+'.','security_audit_9_nmap2_title':'✔️\x20Nmap\x20—\x20h'+'ttp-method'+'s','security_audit_9_nmap2_text':'GET,\x20HEAD,'+'\x20POST,\x20OPT'+_0x1c0568(0xe1d,0x1358),'security_audit_9_nmap2_footer':'👉\x20Опасных\x20'+'методов\x20не'+'т.','security_audit_9_nmap3_title':'✔️\x20Nmap\x20—\x20h'+_0x18cdf3(0x44a,0xe40),'security_audit_9_nmap3_text':'Site\x20doesn'+_0x18cdf3(0x1128,0xb06)+_0x1c0568(0x4a4,0x112)+_0x1c0568(0x681,0x1c8),'security_audit_9_nmap3_footer':_0x1c0568(0x6ab,0x113d)+'ый\x20техниче'+'ский\x20ответ'+'.\x20Без\x20влия'+_0x1c0568(0x1078,0x19e9)+_0x18cdf3(0x13d7,0x18b5),'security_audit_9_nmap4_title':_0x18cdf3(0xd20,0x239)+'ttp-securi'+_0x18cdf3(0x7da,0x5f7),'security_audit_9_nmap4_text':_0x1c0568(0xc99,0x1563)+_0x18cdf3(0x11d7,0xd23)+'STS,\x20строг'+'ий\x20CSP,\x20X-'+_0x18cdf3(0x16be,0x2104)+_0x1c0568(0x730,0xf60)+'tent-Type-'+'Options,\x20б'+'езопасный\x20'+'Cache-Cont'+'rol.','security_audit_9_nmap4_footer':'👉\x20Безопасн'+'ость\x20соотв'+'етствует\x20с'+_0x18cdf3(0x1de,-0x773)+_0x18cdf3(0x1022,0x8a8),'security_audit_9_nmap5_title':'✔️\x20Nmap\x20—\x20h'+'ttp-server'+'-header','security_audit_9_nmap5_text':_0x18cdf3(0x20e,0x3e8)+'rcel','security_audit_9_nmap5_footer':'👉\x20Нормальн'+_0x18cdf3(0xb34,0xc9a)+_0x1c0568(-0x95,0x9b0),'security_audit_9_nmap6_title':_0x18cdf3(0xf6a,0x1733)+_0x1c0568(0x1290,0x154c),'security_audit_9_nmap6_text':'400\x20Bad\x20Re'+_0x18cdf3(0x1278,0x1507)+_0x1c0568(0x109c,0x140e)+_0x1c0568(-0x1ef,-0x71b)+_0x18cdf3(0xa76,0x4a4)+_0x1c0568(0x5d0,0x7e0),'security_audit_9_nmap6_footer':_0x18cdf3(0xcab,0xd1c)+'ие\x20ответы\x20'+'Vercel\x20на\x20'+_0x1c0568(0x6b3,-0x395)+_0x1c0568(-0x24e,-0xa0f)+'пасности\x20н'+_0x1c0568(0x93f,0xe6b),'security_audit_9_nmap7_title':_0x1c0568(0x967,0x13b5)+'ttp-enum','security_audit_9_nmap7_text':_0x1c0568(0x4,0x3ee)+_0x1c0568(0xbb7,0xb8b),'security_audit_9_nmap7_footer':_0x18cdf3(0xccf,0x9d0)+_0x1c0568(0x1e,0x87c)+'ых\x20ресурсо'+'в,\x20нет\x20скр'+'ытых\x20стран'+'иц,\x20нет\x20от'+_0x1c0568(0xb89,0xd57)+'висов.','security_audit_9_curl_title':_0x18cdf3(0x16ab,0xcaf)+_0x1c0568(0x838,0xafc),'security_audit_9_curl_text':'Curl\x20отобр'+_0x18cdf3(0xaf3,0x20)+'ко:\x20защиты'+',\x20заголовк'+'и\x20безопасн'+'ости,\x20анти'+_0x1c0568(0xe58,0x15ee)+'измы.','security_audit_9_curl_footer':_0x18cdf3(0xd3d,0x103c)+_0x1c0568(0x4e5,0xf9a)+_0x1c0568(0x646,-0x3c8)+'достатков,'+'\x20никакого\x20'+_0x18cdf3(0x40f,0x8b4),'security_conclusion_title':'🟢\x20Твердое\x20'+_0x18cdf3(0xb92,0xd03),'security_conclusion_p1':'Анализы\x20Nm'+_0x18cdf3(0xab5,0x15)+_0x1c0568(0xebb,0x514)+_0x18cdf3(0xf12,0x168f),'security_conclusion_l1':_0x1c0568(0xb11,0xd7e)+'асен','security_conclusion_l2':_0x1c0568(0x885,0x45a)+_0x18cdf3(0x8cc,0x954),'security_conclusion_l3':'недостатко'+'в\x20нет','security_conclusion_l4':_0x18cdf3(0x2f0,0x172)+_0x1c0568(0xe23,0x1129)+_0x1c0568(0xd07,0xfd3)+'о','security_conclusion_l5':_0x1c0568(0xd7c,0x9d3)+'влияет\x20на\x20'+'посетителе'+'й','security_conclusion_l6':_0x18cdf3(0x10fb,0xf3a)+'ия\x20професс'+'иональная,'+_0x18cdf3(0xd98,0xb44)+'\x20соответст'+'вующая\x20тре'+'бованиям','security_conclusion_final':_0x1c0568(-0x183,-0x405)+'Légende\x20—\x20'+_0x1c0568(0x106d,0x14f0)+'безопасный'+',\x20надежный'+'\x20и\x20защищен'+'ный\x20сайт.','security_engagement_title':_0x18cdf3(0x1582,0x10c7)+_0x18cdf3(0x11e9,0xb66)+_0x18cdf3(0x429,0x8c6),'security_engagement_p1':_0x1c0568(0xfa6,0x7f7)+'g>професси'+'ональный\x20п'+'ентестер</'+'strong>,\x20я'+'\x20владею\x20ин'+_0x18cdf3(0x1147,0x1a7c)+_0x1c0568(0x11c0,0xd7c)+_0x18cdf3(0x8f8,0x1238)+'асности\x20и\x20'+'механизмах'+_0x1c0568(0xd0,0x8d)+_0x1c0568(0x1146,0x7ac)+_0x1c0568(0x5d5,0x5c9)+_0x1c0568(0x739,0xe83)+'аботан\x20и\x20п'+'роверен\x20с\x20'+'теми\x20же\x20тр'+'ебованиями'+',\x20что\x20и\x20ба'+'нковская\x20с'+'реда.','security_engagement_p2':_0x1c0568(0x64f,0x7ab)+'следовател'+_0x18cdf3(0x67e,-0x303)+'и\x20безопасн'+_0x1c0568(0x61c,0xaa8)+'аботчик\x20ил'+_0x1c0568(0x207,0x13d)+'ый\x20пользов'+_0x18cdf3(0xd46,0xc52)+'наружили\x20а'+_0x1c0568(0x1083,0x18f4)+_0x18cdf3(0x482,0x133)+_0x1c0568(0x863,0x239)+'ительное\x20п'+_0x1c0568(0xcb3,0x8b5)+_0x18cdf3(0x760,-0x71)+_0x1c0568(0x3f,-0xce)+'вяжитесь\x20с'+'о\x20мной</st'+_0x1c0568(-0x2d,0x636),'security_engagement_phone':'<strong>Те'+_0x1c0568(0xd6e,0x93d)+'rong>\x20<a\x20h'+'ref=\x22tel:0'+_0x1c0568(0x4a,0x510)+_0x1c0568(0xb37,0x66)+'47.49</a>','security_engagement_email':'<strong>Эл'+_0x18cdf3(0x10ac,0xf4d)+_0x1c0568(0x286,-0x1f5)+_0x18cdf3(0x5b9,0xf32)+'ref=\x22mailt'+'o:lanceglo'+'rieuse@gma'+_0x1c0568(0xcec,0x3bf)+_0x18cdf3(0x1239,0x96f)+'se@gmail.c'+_0x18cdf3(0x95f,0x1163),'security_engagement_thanks':'Заранее\x20бл'+'агодарю\x20за'+'\x20вашу\x20бдит'+_0x18cdf3(0x14e4,0x1cb3)+_0x18cdf3(0x2da,-0x227)+'езопасност'+'ь\x20этого\x20са'+'йта.\x20🙏','terms_sale':'📄\x20Условия\x20'+'продажи\x20–\x20'+_0x18cdf3(0x1e6,-0x2f5),'cgv_object':_0x18cdf3(0xfb0,0x835),'cgv_object_text1':_0x18cdf3(0x13fd,0x11c8)+_0x18cdf3(0xfb4,0xb60)+_0x18cdf3(0x11ad,0x1909)+_0x18cdf3(0x4aa,0x6aa)+'дажу\x20проду'+_0x1c0568(0x54c,-0x247)+_0x1c0568(0x63e,0xf00)+_0x18cdf3(0xc12,0x1c5)+_0x1c0568(-0x1d3,0x39a)+'.','cgv_object_text2':_0x1c0568(0xd19,0x14a0)+_0x1c0568(-0x158,-0x84d)+_0x18cdf3(0xf48,0x8be)+'ое\x20и\x20безог'+'оворочное\x20'+'принятие\x20н'+'астоящих\x20У'+'словий.','cgv_products':'2.\x20Продукт'+'ы','cgv_products_text1':_0x18cdf3(0x108f,0x193a)+_0x18cdf3(0x1108,0xa08)+_0x1c0568(0xdf1,0x1087)+'с\x20максимал'+'ьной\x20точно'+_0x1c0568(0x1223,0x15c2),'cgv_products_text2':'Фотографии'+_0x18cdf3(0x50d,0x1fa)+_0x18cdf3(0x156e,0xd06)+_0x18cdf3(0x77c,0xb2),'cgv_products_text3':'Наличие\x20ук'+'азано\x20на\x20к'+_0x18cdf3(0xd12,0xa44)+'очке\x20товар'+'а.','cgv_price':'3.\x20Цена','cgv_price_text1':'Цены\x20указа'+'ны\x20в\x20евро\x20'+_0x18cdf3(0x1298,0xadd)+'ая\x20все\x20нал'+_0x18cdf3(0x647,0xfee),'cgv_price_text2':_0x18cdf3(0x12ed,0x1cfd)+_0x1c0568(0x12f,-0x6a8)+'а\x20собой\x20пр'+'аво\x20изменя'+_0x18cdf3(0x956,0x8ff)+_0x1c0568(0x277,0x1be)+'я,\x20но\x20прод'+_0x18cdf3(0x4b9,0xc13)+'\x20выставлен'+_0x18cdf3(0x1b8,0x7ec)+'\x20по\x20тарифу'+_0x18cdf3(0x2c4,0xc21)+'щему\x20на\x20мо'+'мент\x20подтв'+'ерждения\x20з'+'аказа.','cgv_order':_0x18cdf3(0xc8f,0x1754),'cgv_order_text1':_0x18cdf3(0x1533,0x1e38)+'ирает\x20прод'+_0x18cdf3(0x103c,0x1297)+'рые\x20хочет\x20'+_0x18cdf3(0x97a,0xc71)+'дтверждает'+_0x18cdf3(0x15aa,0x19d6)+'\x20переходит'+_0x18cdf3(0xe8b,0x1207),'cgv_order_text2':_0x18cdf3(0xe51,0x9ce)+_0x1c0568(0x2f7,-0x75a)+'\x20отправляе'+_0x18cdf3(0xc3c,0xd78)+'ктронной\x20п'+_0x1c0568(0xd66,0xdc0),'cgv_order_text3':'Продавец\x20о'+'ставляет\x20з'+_0x1c0568(0x8d5,0x8cb)+'аво\x20отказа'+'ть\x20в\x20заказ'+'е\x20в\x20случае'+_0x1c0568(-0xc0,-0xa53)+_0x1c0568(0x11d9,0x12fc)+_0x18cdf3(0x7bf,0xf47)+_0x1c0568(0x8fb,0xde2)+'а.','cgv_payment':'5.\x20Оплата','cgv_payment_text1':_0x1c0568(0xe60,0x130b)+'опасна\x20чер'+'ез\x20<a\x20href'+'=\x22https://'+'stripe.com'+_0x1c0568(0x137,0x48e)+_0x18cdf3(0xf74,0x1a06)+'\x20rel=\x22noop'+'ener\x22>Stri'+'pe</a>\x20или'+_0x18cdf3(0xcb0,0x12b4)+'ии,\x20предла'+_0x1c0568(0x247,-0x115)+'href=\x22http'+'s://www.vi'+_0x18cdf3(0xb9f,0xe79)+'arget=\x22_bl'+'ank\x22\x20rel=\x22'+_0x1c0568(0x187,0x463)+_0x1c0568(0x1ab,0x670)+'.','cgv_payment_text2':_0x1c0568(0x125b,0xbb4)+'\x20данные\x20ни'+'когда\x20не\x20х'+_0x1c0568(0x33a,0x6c3)+_0x1c0568(0xc11,0x5b7),'cgv_delivery':_0x1c0568(0xeb4,0x863)+'а','cgv_delivery_text1':'Продукты\x20о'+'тправляютс'+_0x1c0568(0x9a,0x84b)+_0x18cdf3(0x273,0x6a5)+_0x18cdf3(0x37e,0xa1d)+_0x1c0568(0xa58,0xd43),'cgv_delivery_text2':'Ориентиров'+_0x1c0568(0x24f,-0x1b5)+_0x1c0568(0xf8a,0x1159)+_0x1c0568(0x461,-0x42e),'cgv_delivery_text3':_0x18cdf3(0x819,0x960)+_0x18cdf3(0x462,0x4e3)+_0x1c0568(0xcbb,0x961)+_0x18cdf3(0x9a9,0x6c)+'анция.','cgv_delivery_text4':'Номер\x20отсл'+_0x1c0568(-0x1d6,0x6b1)+_0x18cdf3(0xf47,0x11fb)+_0x18cdf3(0x940,0x570)+'ен\x20при\x20нал'+_0x1c0568(0x3f3,0xe88),'cgv_delivery_text5':_0x18cdf3(0x10f0,0x9b0)+_0x1c0568(0x38e,0x469)+_0x1c0568(0xdd4,0x1356)+'лиент\x20долж'+'ен\x20связать'+_0x1c0568(0x37d,0xddd)+'вцом\x20для\x20п'+'олучения\x20п'+_0x1c0568(-0xba,-0xa6c),'cgv_retractation':_0x18cdf3(0x1449,0xbd9)+'а\x20отказ\x20(1'+'4\x20дней)','cgv_retractation_text1':_0x1c0568(0x27d,-0xa0)+_0x1c0568(0x1280,0x173c)+'\x20href=\x22htt'+_0x18cdf3(0x86d,0xcd)+_0x18cdf3(0xb41,0x390)+'gouv.fr/co'+_0x18cdf3(0xb4d,0x8c0)+'e_lc/LEGIA'+'RTI0000322'+_0x1c0568(0xc1d,0xf72)+_0x1c0568(0x1233,0x11dd)+_0x18cdf3(0xaa8,0x869)+_0x1c0568(-0x1d1,-0xa2f)+'татьей\x20L22'+_0x1c0568(0xa1f,0x104b)+'бительског'+'о\x20кодекса<'+'/a>,\x20клиен'+'т\x20имеет\x2014'+'\x20дней\x20для\x20'+'осуществле'+'ния\x20своего'+'\x20права\x20на\x20'+'отказ\x20без\x20'+'объяснения'+_0x18cdf3(0x1165,0x1a55),'cgv_retractation_text2':'Продукт\x20до'+_0x1c0568(0x10ce,0x1127)+_0x18cdf3(0x1035,0x794)+_0x18cdf3(0xfcc,0x1631)+'\x20состоянии'+'.','cgv_retractation_text3':_0x18cdf3(0x636,-0x215)+_0x18cdf3(0x1639,0x1b8c)+_0x1c0568(0xddc,0x14e6)+_0x18cdf3(0x86d,0xb06)+'egifrance.'+_0x18cdf3(0x998,0xf88)+'des/articl'+_0x18cdf3(0x1030,0x626)+_0x1c0568(0x549,0x1002)+'26830/2016'+_0x18cdf3(0x5e8,0xe10)+_0x18cdf3(0x15ec,0x1626)+'nk\x22\x20rel=\x22n'+'oopener\x22>с'+'татьей\x20L22'+'1-23\x20Потре'+'бительског'+_0x1c0568(0x293,-0x493)+'/a>,\x20прямы'+'е\x20расходы\x20'+_0x18cdf3(0x1271,0xcf9)+_0x18cdf3(0x304,0x994)+_0x18cdf3(0x1273,0xb9c)+'ключением\x20'+'ошибки\x20про'+_0x1c0568(0xf39,0x1063),'cgv_retractation_text4':_0x18cdf3(0x636,0x72c)+_0x1c0568(0x1280,0xa66)+_0x1c0568(0xddc,0x7ae)+_0x18cdf3(0x86d,0x5da)+_0x1c0568(0x788,0xdb8)+'gouv.fr/co'+'des/articl'+_0x1c0568(0xc77,0x40d)+_0x1c0568(0x549,0x6a7)+_0x18cdf3(0xebc,0x128a)+'-11-16\x22\x20ta'+'rget=\x22_bla'+'nk\x22\x20rel=\x22n'+_0x1c0568(-0x1d1,0x7af)+'татьей\x20L22'+_0x1c0568(-0xa6,0x547)+'бительског'+'о\x20кодекса<'+_0x1c0568(0x382,0xd4)+'ат\x20средств'+'\x20производи'+'тся\x20в\x20тече'+'ние\x20максим'+_0x1c0568(0xa45,0x794)+'\x20с\x20момента'+_0x18cdf3(0x391,0x16)+_0x18cdf3(0xd2f,0x817)+_0x18cdf3(0x131e,0xb92)+_0x18cdf3(0x11a5,0x1a9c)+'\x20после\x20пол'+_0x1c0568(0x12e2,0x8b7)+'дукта\x20или\x20'+'доказатель'+'ства\x20его\x20о'+_0x1c0568(-0x209,-0x563),'cgv_return':'8.\x20Возврат'+'\x20и\x20возврат'+'\x20средств','cgv_return_text1':_0x1c0568(0x4b0,0x245)+'олжны\x20быть'+'\x20отправлен'+'ы\x20по\x20адрес'+_0x18cdf3(0x799,0x550)+'ому\x20продав'+_0x18cdf3(0x53b,0x6a8),'cgv_return_text2':'Возврат\x20ср'+'едств\x20осущ'+'ествляется'+_0x18cdf3(0x10ee,0x1293)+'ам\x20Vinted\x20'+'или\x20Stripe'+'\x20в\x20зависим'+_0x1c0568(-0x19a,-0x410)+'особа\x20поку'+_0x18cdf3(0xff6,0x11a4),'cgv_return_text3':_0x18cdf3(0x1514,0x1997)+'едств\x20не\x20п'+_0x18cdf3(0x5f9,0xece)+_0x1c0568(0x21c,0xb63)+_0x18cdf3(0x720,0xa1)+_0x1c0568(0x1142,0x1957)+_0x18cdf3(0x72e,0x10ee),'cgv_legal_warranties':_0x18cdf3(0x1163,0x1095)+'е\x20гарантии','cgv_legal_warranties_text':_0x18cdf3(0x11f,-0xf8)+'рименяет\x20о'+'бязательны'+'е\x20законные'+_0x1c0568(0x726,0x967)+'\x20предусмот'+'ренные\x20<a\x20'+_0x1c0568(0x4df,0x1ab)+'s://www.le'+'gifrance.g'+_0x1c0568(0x73e,0xa3d)+'a/id/LEGIT'+_0x18cdf3(0x1066,0xe7d)+_0x18cdf3(0x166f,0xd7c)+_0x1c0568(0x9fa,0x146)+'k\x22\x20rel=\x22no'+'opener\x22>По'+'требительс'+'ким\x20кодекс'+_0x1c0568(-0x47,-0x343)+'a\x20href=\x22ht'+_0x18cdf3(0xe5b,0x60f)+'legifrance'+_0x18cdf3(0x681,-0x133)+_0x1c0568(0xbeb,0xbcd)+'le_lc/LEGI'+'ARTI000006'+_0x1c0568(0x11ca,0x1c8a)+'6-01-01\x22\x20t'+'arget=\x22_bl'+'ank\x22\x20rel=\x22'+_0x1c0568(0x187,0x93d)+'Граждански'+_0x18cdf3(0x6c8,0x934)+'</a>.','cgv_conformity':_0x18cdf3(0x143a,0x1491)+_0x1c0568(0xd73,0x632)+'и','cgv_conformity_text1':'<strong>За'+_0x18cdf3(0x5f5,0x1fc)+_0x18cdf3(0xcd8,0xb0f)+'ветствия\x20('+'2\x20года):</'+_0x1c0568(0x158,0x472)+'соответств'+_0x18cdf3(0x1512,0x134f)+'ref=\x22https'+'://www.leg'+'ifrance.go'+_0x18cdf3(0xf3d,0xfb0)+_0x1c0568(-0x164,0x5f2)+'lc/LEGIART'+'I000044142'+_0x1c0568(0xbc7,0x6a8)+_0x1c0568(0xbbb,0x14ba)+'\x20rel=\x22noop'+_0x1c0568(0x2d8,-0x716)+'ьями\x20L217-'+_0x18cdf3(0xb13,0x1388)+'ующими\x20Пот'+_0x1c0568(-0x24d,0x503)+_0x1c0568(0x6e3,0x38e)+'а</a>,\x20кли'+'ент\x20пользу'+'ется\x20гаран'+'тией,\x20покр'+_0x1c0568(0x648,-0x163)+_0x1c0568(0x908,0x1160)+'ветствия,\x20'+_0x1c0568(-0x15,0x656)+_0x18cdf3(0x4a0,0xf20)+'мент\x20доста'+'вки\x20товара'+'.','cgv_conformity_text2':'<strong>Га'+'рантия\x20скр'+'ытых\x20дефек'+'тов:</stro'+'ng>\x20в\x20соот'+'ветствии\x20с'+_0x1c0568(0xc2d,0x73c)+'\x22https://w'+'ww.legifra'+'nce.gouv.f'+_0x1c0568(0x71a,0xb63)+_0x18cdf3(0x15a2,0x1d70)+'EGIARTI000'+_0x1c0568(0x2a8,0x860)+'1976-01-01'+_0x18cdf3(0x1609,0xec5)+'_blank\x22\x20re'+'l=\x22noopene'+_0x1c0568(0x7f3,0xad9)+'\x201641\x20Граж'+'данского\x20к'+'одекса</a>'+_0x1c0568(0x1100,0xc87)+'\x20обязан\x20га'+_0x18cdf3(0x487,0x8a)+'ь\x20скрытые\x20'+'дефекты,\x20д'+_0x1c0568(-0xd9,-0x387)+_0x18cdf3(0x125e,0x1b80)+'игодным\x20дл'+_0x18cdf3(0x1318,0x108f)+_0x18cdf3(0x164d,0x1d2d)+'пользовани'+'я\x20или\x20знач'+_0x1c0568(0xf2e,0x133b)+_0x1c0568(0x11e3,0x196f)+'о\x20использо'+'вание.','cgv_conformity_text3':'<strong>Во'+'зможная\x20ко'+'ммерческая'+'\x20гарантия:'+_0x1c0568(0xcb0,0x13f2)+'если\x20GUILL'+'ET\x20IV\x20пред'+'лагает\x20ком'+'мерческую\x20'+_0x1c0568(0x1260,0x9d7)+_0x18cdf3(0x105f,0x9eb)+',\x20продолжи'+'тельность,'+'\x20объем\x20и\x20р'+'еализация\x20'+'указаны\x20на'+_0x1c0568(0x82,0x3c6)+'товара\x20или'+_0x1c0568(0x1012,0xa94)+_0x18cdf3(0xffb,0x1727)+_0x1c0568(0xbf9,0xc47)+'одукту.','cgv_conformity_exclude_title':_0x1c0568(0xbff,0x10c1)+'арантии\x20не'+_0x18cdf3(0x12b7,0x1645)+':','cgv_conformity_exclude1':'нормальный'+'\x20износ;','cgv_conformity_exclude2':'ущерб,\x20выз'+'ванный\x20неп'+_0x18cdf3(0xc72,0x3c5)+'использова'+_0x1c0568(0x430,0x83f),'cgv_conformity_exclude3':'модификаци'+_0x18cdf3(0x1503,0xe17)+'.','cgv_data':_0x18cdf3(0x58b,0x507)+_0x18cdf3(0xc91,0x1537)+'ные\x20(GDPR)','cgv_data_text1':'Собранные\x20'+'данные\x20(им'+'я,\x20электро'+_0x1c0568(0x3d5,-0x136)+',\x20адрес,\x20т'+'елефон)\x20ис'+_0x1c0568(0x998,0x83b)+_0x1c0568(-0x73,-0x2de)+_0x1c0568(0xfe5,0xe4d)+_0x1c0568(0x61a,0xb3d)+_0x18cdf3(0x14e0,0x1750)+_0x18cdf3(0x25a,0x9bf)+'\x20в\x20соответ'+_0x1c0568(0x254,0xa84)+_0x18cdf3(0x1195,0xf9a)+'ps://eur-l'+_0x18cdf3(0x156a,0x1da1)+'eu/legal-c'+'ontent/FR/'+_0x18cdf3(0x13f8,0xff2)+_0x18cdf3(0x120b,0xccc)+_0x18cdf3(0x12b9,0x139b)+'arget=\x22_bl'+'ank\x22\x20rel=\x22'+_0x1c0568(0x187,-0x846)+'GDPR</a>.','cgv_data_text2':_0x18cdf3(0x113a,0x19ac)+_0x1c0568(0xe29,0x49c)+'и\x20не\x20перед'+_0x1c0568(0x7ac,0x76a),'cgv_data_text3':_0x18cdf3(0x1027,0x14e5)+'ет\x20запроси'+_0x1c0568(0x488,0x71)+_0x18cdf3(0x149a,0x1ec3)+_0x18cdf3(0x10e5,0xdbb)+'симость\x20ил'+'и\x20удаление'+_0x1c0568(-0x11b,-0x7a7)+'ных\x20по\x20адр'+_0x18cdf3(0x12d9,0x996)+'f=\x22mailto:'+_0x1c0568(0xb21,0x12d4)+'euse@gmail'+_0x18cdf3(0x13d,0x7d4)+'eglorieuse'+_0x18cdf3(0x9ba,0x333)+_0x18cdf3(0xb07,0x925),'cgv_liability':'12.\x20Ответс'+'твенность','cgv_liability_text1':_0x18cdf3(0x40c,0xc45)+_0x18cdf3(0x5e1,0xb95)+_0x18cdf3(0x405,-0xec)+'\x20только\x20за'+'\x20прямой\x20ущ'+'ерб,\x20связа'+'нный\x20с\x20деф'+_0x1c0568(0xdba,0x15a3)+_0x18cdf3(0x118c,0x1929),'cgv_liability_text2':'Он\x20не\x20може'+'т\x20нести\x20от'+_0x18cdf3(0x1337,0x1c56)+_0x1c0568(0x7a5,-0x33)+'венный\x20уще'+_0x1c0568(-0x29b,-0x506)+_0x1c0568(0x12d,0x159)+'инансовые\x20'+_0x18cdf3(0xb5b,0x87b)+'.д.).','cgv_service':_0x18cdf3(0x117f,0x6d0)+_0x1c0568(0x282,0x2f6)+'ентов','cgv_service_text':'По\x20любым\x20в'+'опросам:\x20<'+'a\x20href=\x22ma'+'ilto:lance'+'glorieuse@'+_0x1c0568(0x1b1,0x658)+'>lanceglor'+_0x1c0568(0x1246,0x1b0e)+'l.com</a>\x20'+_0x18cdf3(0xc21,0x12b2)+_0x18cdf3(0x1376,0x1932)+'\x20часов.','cgv_mediation':_0x18cdf3(0xf4b,0x19ec)+'ия','cgv_mediation_text1':'В\x20случае\x20с'+'пора\x20в\x20пер'+_0x18cdf3(0xa45,0x613)+_0x18cdf3(0x903,0x459)+_0x1c0568(-0x118,0x6b2)+'попытка\x20ми'+'рного\x20урег'+_0x18cdf3(0xeb5,0x6a7)+'.','cgv_mediation_text2':'Если\x20согла'+_0x1c0568(0x1130,0x9e5)+'удет\x20дости'+_0x18cdf3(0xb76,0x841)+'ент\x20может\x20'+'бесплатно\x20'+'обратиться'+_0x18cdf3(0xaaf,0x717)+_0x18cdf3(0xf3c,0xf32)+_0x1c0568(0xd96,0x73c)+_0x1c0568(0x120f,0x16b1)+_0x18cdf3(0x1153,0x75a)+_0x1c0568(0xf3e,0x1996)+'nomie.gouv'+'.fr/mediat'+_0x18cdf3(0x1003,0x886)+_0x18cdf3(0x684,0xae9)+_0x1c0568(-0x91,-0x6d1)+_0x1c0568(0x84a,0x9b8)+_0x18cdf3(0x1315,0xff5)+'.gouv.fr/m'+'ediation-c'+'onso</a>.','cgv_law':'15.\x20Примен'+'имое\x20право','cgv_law_text1':_0x1c0568(0x1044,0x1116)+'Условия\x20ре'+'гулируются'+_0x18cdf3(0xb16,0xf53)+_0x1c0568(0x1014,0x15a6)+'ательством'+'.','cgv_law_text2':'В\x20случае\x20с'+'пора\x20компе'+_0x18cdf3(0xd4a,0xcb7)+'удут\x20франц'+_0x18cdf3(0x12b5,0xb9f)+'ы\x20в\x20соотве'+_0x18cdf3(0x95d,0x100d)+'равилами\x20п'+_0x18cdf3(0x13e8,0x17a6)+',\x20применим'+'ыми\x20к\x20потр'+'ебителям.','privacy_title':_0x1c0568(-0x1e1,-0x560)+_0x18cdf3(0x8d3,0x125d)+_0x18cdf3(0x813,-0x26e)+'(GDPR)','privacy_intro':_0x1c0568(0x13d,-0x601)+'их\x20персона'+_0x1c0568(0x4e4,0xe94)+'ых\x20являетс'+_0x1c0568(0xd88,0x175c)+_0x18cdf3(0xf93,0x9cf)+_0x1c0568(0x1114,0x11e2)+_0x1c0568(-0x1d8,0x2e8)+'ся,\x20какие\x20'+'данные\x20соб'+_0x18cdf3(0x857,0x241)+'очему,\x20как'+_0x18cdf3(0xfb5,0x857)+_0x18cdf3(0x1655,0xd72)+_0x18cdf3(0xead,0x1168)+'осуществит'+'ь\x20свои\x20пра'+'ва.','privacy_s1_title':_0x18cdf3(0x125c,0xe53)+_0x1c0568(-0x265,0x535),'privacy_s1_intro':'Мы\x20собирае'+'м\x20только\x20д'+_0x18cdf3(0xcc0,0x16df)+_0x1c0568(0xc5,0x972)+_0x18cdf3(0x1145,0x1c07)+_0x1c0568(0x4bb,-0xd5)+'работки\x20за'+_0x1c0568(0x324,0x3f8),'privacy_s1_l1':'фамилия,\x20и'+'мя','privacy_s1_l2':'почтовый\x20а'+_0x18cdf3(0x14d2,0x1135),'privacy_s1_l3':_0x1c0568(0xe1,-0x5db)+'я\x20почта','privacy_s1_l4':'номер\x20теле'+'фона','privacy_s1_l5':_0x18cdf3(0xbe9,0x1034)+_0x18cdf3(0x134b,0x1485),'privacy_s1_l6':'IP-адрес\x20('+'безопаснос'+'ть\x20и\x20предо'+'твращение\x20'+'мошенничес'+'тва)','privacy_s1_note':_0x1c0568(0x826,-0x16c)+'альные\x20дан'+'ные\x20не\x20соб'+_0x1c0568(0xc3,0x431),'privacy_s2_title':'2.\x20Цели\x20об'+'работки','privacy_s2_intro':'Ваши\x20данны'+'е\x20использу'+_0x18cdf3(0x218,0xbb6),'privacy_s2_l1':_0x1c0568(0xd06,0x293)+_0x1c0568(0xa36,0x122d)+'\x20ваших\x20зак'+_0x1c0568(-0x2a0,-0xa2d),'privacy_s2_l2':_0x1c0568(0x9c2,-0x114)+'я\x20поддержк'+_0x1c0568(-0x15f,0x897),'privacy_s2_l3':_0x1c0568(0x10d8,0xd12)+_0x1c0568(0x73d,0xf67)+'тной\x20запис'+'ью\x20клиента','privacy_s2_l4':'защиты\x20сай'+'та\x20и\x20предо'+_0x1c0568(0xfe,0x93)+'мошенничес'+'тва','privacy_s2_l5':'соблюдения'+'\x20юридическ'+'их\x20обязате'+_0x18cdf3(0x103b,0xff9)+_0x1c0568(0xcf,-0x3a4)+_0x1c0568(-0xc3,0x856),'privacy_s3_title':_0x1c0568(0x634,-0x108)+_0x1c0568(0x325,-0x556),'privacy_s3_intro':'Обработка\x20'+'основана\x20н'+'а:','privacy_s3_l1':'исполнении'+_0x1c0568(0xf31,0x1791)+_0x18cdf3(0xc6d,0x913),'privacy_s3_l2':'законном\x20и'+_0x18cdf3(0x387,0x454)+'езопасност'+'ь,\x20борьба\x20'+_0x1c0568(0xdb5,0x46c)+'еством)','privacy_s3_l3':_0x18cdf3(0x14a3,0xad7)+'несуществе'+'нные\x20файлы'+'\x20cookie)','privacy_s4_title':_0x1c0568(0x6be,0xca8)+_0x1c0568(0x165,0x963),'privacy_s4_intro':'Для\x20обеспе'+_0x18cdf3(0xae4,0xcb0)+'ты\x20сайта\x20н'+'екоторые\x20п'+_0x1c0568(0x884,0xdc3)+_0x1c0568(0xd7b,0x142b)+'батывать\x20в'+_0x1c0568(0xb47,0x3cd)+':','privacy_s4_l1':'Vercel\x20(хо'+'стинг\x20сайт'+'а)','privacy_s4_l2':'Stripe\x20/\x20P'+'ayPal\x20(без'+_0x18cdf3(0x9b2,0x2cf)+_0x1c0568(0xd64,0xb27),'privacy_s4_l3':'Служба\x20эле'+'ктронной\x20п'+_0x18cdf3(0x39d,-0x6a1)+_0x1c0568(0xb6a,0xeef)+_0x18cdf3(0x136e,0x1981),'privacy_s4_note':_0x1c0568(0x858,0x3ba)+_0x18cdf3(0x5e6,0xde3)+_0x1c0568(0xac7,0x105a)+_0x1c0568(0x8e1,0x12cc)+'эквивалент'+'ные\x20гарант'+_0x18cdf3(0xae3,0x158),'privacy_s5_title':'5.\x20Срок\x20хр'+'анения','privacy_s5_l1':_0x18cdf3(0x73c,0x3ec)+_0x1c0568(0xca9,0xe19)+'для\x20обрабо'+_0x18cdf3(0x13a6,0x1b77)+_0x1c0568(0x10f9,0x139f)+'етов\x20по\x20за'+_0x18cdf3(0xce4,0x83c)+_0x1c0568(0x1113,0x1368)+'тветствии\x20'+'со\x20<a\x20href'+_0x1c0568(0x5a2,0x838)+'www.legifr'+'ance.gouv.'+_0x1c0568(0x1272,0x147b)+_0x18cdf3(0x10ab,0x16f5)+_0x1c0568(-0xb1,0xa24)+'0006316689'+_0x18cdf3(0xdf9,0xe7e)+_0x1c0568(0x116e,0x1245)+_0x18cdf3(0xa27,0x14ec)+'er\x22>статье'+'й\x20L123-22\x20'+_0x1c0568(0x7a9,0xb4f)+_0x18cdf3(0xa9c,0x1409)+'а</a>.','privacy_s5_l2':'Данные\x20неа'+'ктивных\x20кл'+'иентов:\x203\x20'+'года','privacy_s5_l3':_0x1c0568(0x1301,0xf52)+_0x18cdf3(0xa66,0x1135)+_0x18cdf3(0x1113,0xc77)+_0x1c0568(0xec3,0xd1b),'privacy_s6_title':_0x18cdf3(0xd1c,0xaae)+'ава','privacy_s6_intro':'В\x20соответс'+_0x18cdf3(0x2e8,-0x678)+_0x18cdf3(0x1348,0x102a)+_0x1c0568(0xba2,0xd5c)+_0x1c0568(-0x2b9,-0x655),'privacy_s6_l1':'доступ\x20к\x20в'+_0x18cdf3(0x1620,0x1b03)+'м','privacy_s6_l2':_0x18cdf3(0xfce,0x16f2)+'е','privacy_s6_l3':_0x1c0568(0xe46,0x780),'privacy_s6_l4':_0x18cdf3(0x24e,0x8f2),'privacy_s6_l5':_0x1c0568(0x781,0x5fc)+_0x1c0568(0x3a1,0x981),'privacy_s6_contact':_0x18cdf3(0xc9b,0x1041)+_0x18cdf3(0xf09,0x83e)+'ои\x20права:\x20'+_0x1c0568(0xb21,0x93d)+'euse@gmail'+_0x18cdf3(0x201,0xa08),'privacy_s7_title':'7.\x20Файлы\x20c'+'ookie','privacy_s7_intro':_0x1c0568(0x186,-0x759)+'ьзует\x20толь'+'ко:','privacy_s7_l1':'технически'+_0x1c0568(0x6ad,0x644)+_0x18cdf3(0x5d2,0xb2f)+'ина,\x20сесси'+'я,\x20безопас'+_0x1c0568(0xcb5,0x15f1),'privacy_s7_note':_0x18cdf3(0x112,-0x1e3)+_0x18cdf3(0xb20,0xfd0)+'инговые\x20фа'+_0x18cdf3(0xa09,0xe7)+_0x18cdf3(0x33d,0x137)+'живания\x20не'+_0x1c0568(0xaa7,0x1161)+'тся.\x20При\x20п'+_0x18cdf3(0x11fb,0x7b1)+_0x1c0568(0xf0,0x4e)+'т\x20появитьс'+'я\x20информац'+'ионный\x20бан'+'нер.','privacy_s8_title':'8.\x20Безопас'+'ность','privacy_s8_intro':'Мы\x20применя'+_0x1c0568(0x71f,0x57)+'\x20меры\x20для\x20'+'защиты\x20ваш'+'их\x20данных:','privacy_s8_l1':_0x1c0568(0xb07,0xa81)+_0x18cdf3(0xca1,0x5cb)+_0x1c0568(0x107e,0x5a6),'privacy_s8_l2':_0x1c0568(0x50f,0x568)+'ащиты','privacy_s8_l3':'расширенны'+'е\x20заголовк'+'и\x20безопасн'+'ости\x20(CSP,'+_0x18cdf3(0xbd4,0x78c)+_0x1c0568(0xcd5,0x9c9)+_0x1c0568(0x492,0x61),'privacy_s8_l4':_0x1c0568(0x10b1,0x14c3)+'\x20инфрастру'+'ктура\x20Verc'+'el','privacy_s8_l5':'платежи,\x20с'+'ертифициро'+'ванные\x20PCI'+_0x18cdf3(0x126,-0x36)+'з\x20Stripe','privacy_s8_note':_0x18cdf3(0x1614,0x1eec)+'\x20данные\x20не'+'\x20хранятся\x20'+_0x18cdf3(0x28c,0x473),'privacy_s9_title':_0x1c0568(0x121a,0xe7c)+'а\x20за\x20преде'+_0x18cdf3(0x26d,0x307),'privacy_s9_text':'Хостинг\x20Ve'+_0x18cdf3(0xb8e,0x155c)+'\x20включать\x20'+'обработку\x20'+_0x18cdf3(0x154a,0x123b)+'ми\x20Европей'+_0x18cdf3(0xc0b,0xc81)+'а.\x20Эти\x20пер'+_0x18cdf3(0x10e1,0x1a21)+_0x18cdf3(0xb17,0x134d)+'арантиями,'+'\x20соответст'+_0x18cdf3(0xc18,0x1126)+_0x18cdf3(0x3c2,-0x6cc),'privacy_s10_title':'10.\x20Контак'+'т','privacy_s10_text':'По\x20любым\x20в'+_0x18cdf3(0xbfc,0xbe2)+_0x18cdf3(0xa4d,0x4fb)+'ваших\x20перс'+_0x18cdf3(0x92a,-0x6f)+'анных:','privacy_s11_title':'11.\x20Правов'+'ые\x20ссылки\x20'+'и\x20жалобы','privacy_s11_text1':'Эта\x20полити'+'ка\x20составл'+'ена\x20в\x20соот'+'ветствии\x20с'+'\x20<a\x20href=\x22'+_0x1c0568(0xb09,0xa1b)+'r-lex.euro'+'pa.eu/lega'+'l-content/'+_0x18cdf3(0xa2c,0x10d0)+'i=CELEX%3A'+'32016R0679'+_0x18cdf3(0x1609,0x20e1)+_0x18cdf3(0xf66,0x1712)+_0x18cdf3(0xbe6,0x914)+'r\x22>Общим\x20р'+'егламентом'+_0x1c0568(0x110f,0x11d0)+_0x1c0568(0x5c6,0x6a6)+'DPR)</a>\x20и'+_0x18cdf3(0x2e6,0x338)+_0x18cdf3(0x301,0x172)+_0x18cdf3(0x662,0xeb0)+_0x1c0568(-0x97,-0x315)+'/loda/id/J'+_0x18cdf3(0x49d,0x683)+'031701594\x22'+'\x20target=\x22_'+_0x18cdf3(0x328,0x8f3)+_0x18cdf3(0xc03,0x36e)+'\x22>Законом\x20'+'о\x20защите\x20д'+_0x18cdf3(0x14ed,0x1689),'privacy_s11_text2':_0x1c0568(0x383,0xafa)+'обходимые\x20'+'для\x20выстав'+_0x18cdf3(0x12f5,0x13df)+_0x18cdf3(0x1404,0x1025)+_0x1c0568(0xb79,0x484)+_0x1c0568(0x3ff,0x7bd)+'в\x20соответс'+'твии\x20со\x20<a'+_0x18cdf3(0x1195,0x19ba)+_0x18cdf3(0x86d,0xdbb)+_0x18cdf3(0xb41,0xcdf)+'gouv.fr/co'+'des/articl'+'e_lc/LEGIA'+'RTI0000063'+'16689/\x22\x20ta'+_0x18cdf3(0x15ec,0xf98)+'nk\x22\x20rel=\x22n'+'oopener\x22>с'+'татьей\x20L12'+_0x1c0568(-0x172,-0xc4b)+'рческого\x20к'+_0x1c0568(0x9e1,0x10d5)+'.','privacy_s11_text3':_0x1c0568(-0x27d,-0xbe2)+_0x1c0568(0x195,-0x725)+_0x18cdf3(0x19b,-0x587)+'ref=\x22https'+'://www.cni'+_0x18cdf3(0x12bd,0x11b8)+'aintes\x22\x20ta'+'rget=\x22_bla'+_0x18cdf3(0xaa8,0x725)+_0x18cdf3(0x7f3,0xf43)+'NIL</a>.','faq_title':'❓\x20Часто\x20за'+'даваемые\x20в'+'опросы','faq_delivery':'📦\x20Доставка','faq_ship_time':_0x1c0568(0x4bf,0x811)+'я\x20отправки'+'?','faq_ship_time_text':'Товары\x20отп'+_0x18cdf3(0x1ae,0xc69)+_0x1c0568(0xd8d,0x1161)+_0x18cdf3(0x2ba,0xc6)+'ение\x2024-48'+'\x20часов\x20в\x20з'+'ависимости'+'\x20от\x20их\x20нал'+_0x1c0568(0x6f4,0x692),'faq_delivery_time':_0x18cdf3(0x4a4,0x366)+_0x18cdf3(0x94e,0x2cb)+'и?','faq_delivery_time_text':'Доставка\x20з'+_0x18cdf3(0x8c4,0xfa5)+_0x18cdf3(0x35a,0x199)+'5\x20рабочих\x20'+_0x18cdf3(0x11b7,0x1a91)+'\x20отправки,'+_0x18cdf3(0x941,0x11aa)+_0x18cdf3(0x115d,0x100c)+_0x18cdf3(0xd72,0x6be)+_0x1c0568(0xbea,0x100f)+'оставки.','faq_zones':_0x1c0568(-0x110,-0x15f)+_0x1c0568(0x10e6,0x1807)+_0x1c0568(0xe0a,0x7df),'faq_zones_text':_0x1c0568(-0x215,-0x66b)+_0x1c0568(0x93a,0x10d)+'тся\x20в\x20конт'+'инентальну'+_0x18cdf3(0x830,0xc34)+_0x18cdf3(0xde0,0x1732)+'и,\x20предлаг'+_0x1c0568(-0x281,0x24b)+_0x1c0568(0x10b5,0x73f)+'тупными\x20пе'+'ревозчикам'+'и.','faq_tracking':_0x1c0568(0xf40,0x1845)+'ить\x20мою\x20по'+_0x1c0568(0x3cb,-0x5cf),'faq_tracking_text':_0x1c0568(0x533,0x101)+_0x18cdf3(0xf75,0x18c1)+_0x1c0568(0x276,0x68f)+_0x18cdf3(0x14cb,0xc88)+'тправке,\x20к'+'огда\x20он\x20до'+_0x18cdf3(0x169e,0x1a5d)+'\x20можете\x20от'+_0x18cdf3(0x1244,0x1700)+'свою\x20посыл'+_0x18cdf3(0x13e0,0x1501)+_0x18cdf3(0x1282,0x164e)+'йт\x20перевоз'+'чика\x20или\x20ч'+_0x18cdf3(0x127e,0x1627)+'d.','faq_delay_lost':_0x18cdf3(0xa47,0x879)+'\x20в\x20случае\x20'+'задержки\x20и'+_0x1c0568(0x91b,0xced)+'посылки?','faq_delay_lost_text':'Свяжитесь\x20'+'со\x20службой'+_0x1c0568(0xa6b,0x81)+'\x20клиентов\x20'+_0x18cdf3(0x1e6,0x863)+'.\x20С\x20перево'+_0x18cdf3(0x159a,0x13fa)+'ет\x20открыто'+'\x20расследов'+'ание.','faq_payment':'🔒\x20Безопасн'+_0x1c0568(0x974,0x4f9),'faq_payment_q':_0x18cdf3(0x187,0x9d5)+'одит\x20оплат'+'а?','faq_payment_text':_0x1c0568(0x124e,0x10db)+_0x1c0568(-0xd6,0x3d7)+'асны\x20и\x20осу'+'ществляютс'+'я\x20через\x20Vi'+_0x18cdf3(0x142,0xfd)+_0x18cdf3(0x8ca,0x4ff),'faq_bank_protection':_0x18cdf3(0xfd3,0xb29)+_0x18cdf3(0x225,-0x492)+_0x1c0568(0x215,-0x7a3)+_0x1c0568(0xe27,0x1479),'faq_bank_protection_text':'Да.\x20Ваши\x20б'+_0x18cdf3(0xedb,0x138a)+'данные\x20ник'+_0x18cdf3(0x84e,0x922)+'анятся\x20GUI'+_0x1c0568(0xbd9,0xb7c)+_0x1c0568(0x67f,0x911)+'олностью\x20у'+_0x1c0568(0x1293,0xbc0)+'\x20безопасны'+'ми\x20платежн'+'ыми\x20платфо'+_0x1c0568(0x124d,0x17ff),'faq_payment_methods':'Какие\x20спос'+'обы\x20оплаты'+_0x1c0568(0x1203,0x12d0)+_0x18cdf3(0xa58,0x784),'faq_payment_methods_intro':_0x18cdf3(0x894,-0x95)+'сти\x20от\x20пла'+'тформы:','faq_payment_card':'Кредитная\x20'+_0x1c0568(0x100d,0x558),'faq_payment_apple_google':_0x18cdf3(0x849,0x416)+_0x1c0568(0x4fb,0x3ea)+_0x18cdf3(0xfd1,0x84e)+')','faq_payment_vinted':_0x1c0568(0x4cc,0x5e7)+'\x20оплата\x20Vi'+_0x18cdf3(0xa2f,0x258),'faq_refund':'🔁\x20Возврат\x20'+'и\x20возврат\x20'+_0x1c0568(0x6e9,0xc36),'faq_return_q':_0x18cdf3(0xe33,0x1819)+'вернуть\x20то'+'вар?','faq_return_text':'Да.\x20В\x20соот'+'ветствии\x20с'+'о\x20<a\x20href='+_0x1c0568(0x81c,0x10dc)+'ww.legifra'+_0x1c0568(-0x11d,0x296)+'r/codes/ar'+_0x18cdf3(0x15a2,0x17f8)+_0x18cdf3(0x165f,0xd9c)+'032226842/'+_0x1c0568(0x1250,0xd91)+'_blank\x22\x20re'+'l=\x22noopene'+_0x18cdf3(0xbac,0x715)+'\x20L221-18\x20П'+_0x1c0568(0xe57,0x5d6)+_0x1c0568(0x695,0x112b)+_0x1c0568(0x6e0,0xd3a)+_0x1c0568(0xad6,0x11bc)+'4\x20дней,\x20чт'+_0x18cdf3(0x15ae,0x1805)+'ить\x20возвра'+'т.','faq_how_return':_0x1c0568(0x762,0xd59)+'ь\x20возврат?','faq_how_return_text':'Свяжитесь\x20'+'с\x20продавцо'+_0x18cdf3(0x588,0xaa7)+_0x18cdf3(0xd99,0x527)+_0x1c0568(0x122e,0xfdd)+_0x18cdf3(0x16ac,0x20f9)+'врата.\x20Про'+'дукт\x20долже'+'н\x20быть\x20воз'+'вращен\x20в\x20и'+_0x1c0568(-0xe5,0x33)+'стоянии.','faq_return_fees':'Расходы\x20на'+'\x20возврат\x20з'+'а\x20мой\x20счет'+'?','faq_return_fees_text':'В\x20соответс'+_0x18cdf3(0x1639,0x151a)+_0x18cdf3(0x1195,0x1a4c)+_0x1c0568(0x4b4,0xd8d)+_0x18cdf3(0xb41,0x131a)+'gouv.fr/co'+'des/articl'+_0x1c0568(0xc77,0x900)+_0x18cdf3(0x902,0x45f)+'26830/2016'+'-08-10\x22\x20ta'+_0x18cdf3(0x15ec,0x165d)+'nk\x22\x20rel=\x22n'+_0x1c0568(-0x1d1,0x7b4)+'татьей\x20L22'+'1-23\x20Потре'+'бительског'+_0x1c0568(0x293,0x277)+'/a>\x20расход'+_0x18cdf3(0x1350,0x188b)+'ат\x20несет\x20к'+_0x18cdf3(0x816,0x471)+'исключение'+'м\x20ошибки\x20п'+'родавца\x20ил'+'и\x20дефектно'+_0x1c0568(0xba7,0x713)+'а.','faq_refund_q':'Как\x20происх'+_0x1c0568(-0x27,0xa17)+_0x18cdf3(0x144f,0x19ec)+'?','faq_refund_text':'Возврат\x20ср'+'едств\x20обра'+_0x1c0568(0x7eb,0xac7)+_0x1c0568(0x2e3,-0x5ae)+_0x18cdf3(0x11d2,0x13ab)+_0x18cdf3(0x7d6,0x1c7)+'напрямую\x20п'+_0x1c0568(0xea0,0x1890)+_0x1c0568(0x27d,0x6e5)+_0x18cdf3(0x1639,0x1b80)+'\x20href=\x22htt'+_0x1c0568(0x4b4,0xbaa)+'egifrance.'+_0x1c0568(0x5df,0x806)+_0x18cdf3(0xb4d,0xdd6)+_0x1c0568(0xc77,0x4f7)+'RTI0000322'+'26828/2024'+'-11-16\x22\x20ta'+_0x1c0568(0x1233,0xb33)+_0x1c0568(0x6ef,0x340)+_0x1c0568(-0x1d1,0x69b)+_0x1c0568(0x9cf,0x767)+'1-24\x20Потре'+'бительског'+'о\x20кодекса<'+'/a>\x20возвра'+_0x18cdf3(0x1584,0x10ce)+_0x1c0568(0x682,0xac6)+'\x20в\x20течение'+'\x20максимум\x20'+'14\x20дней\x20с\x20'+'момента\x20ув'+'едомления\x20'+_0x1c0568(0xe68,0x3b1)+'и\x20не\x20поздн'+'ее,\x20чем\x20по'+'сле\x20получе'+'ния\x20продук'+_0x18cdf3(0x1435,0x9a8)+_0x1c0568(0xa26,0x283)+_0x1c0568(0x737,-0x282)+'авки.','faq_refund_refused_q':_0x1c0568(0xca5,0xe02)+'учаях\x20може'+'т\x20быть\x20отк'+_0x1c0568(0x90e,-0x14b)+_0x18cdf3(0x8df,0x342)+'дств?','faq_refund_refused_1':_0x1c0568(0x491,-0x238)+'врежден\x20кл'+'иентом','faq_refund_refused_2':_0x18cdf3(0x143f,0xc7c)+_0x18cdf3(0x2b6,0x22a),'faq_refund_refused_3':'Продукт\x20ис'+'пользовалс'+_0x18cdf3(0x116b,0x1993)+_0x18cdf3(0x6d1,0x13e),'faq_warranty':_0x1c0568(-0x21f,0x7b6),'faq_warranty_q':'Что\x20покрыв'+_0x18cdf3(0x15c1,0x1205)+'ячная\x20гара'+_0x1c0568(-0xb9,0x3f3),'faq_warranty_text':_0x1c0568(0x7a9,-0x212)+'ая\x20гаранти'+'я\x20покрывае'+_0x18cdf3(0x46c,0xe)+_0x18cdf3(0x164a,0x1c35)+_0x1c0568(0x12af,0x18c2)+_0x18cdf3(0x15bb,0x11cd)+'ти,\x20не\x20свя'+'занные\x20с\x20п'+_0x1c0568(0x696,0x5cc)+_0x1c0568(-0x1e0,0x58),'faq_legal_warranty_q':_0x18cdf3(0x624,0x5d0)+'онные\x20гара'+_0x1c0568(0x9bb,0xf6f),'faq_legal_warranty_intro':'Все\x20продук'+_0x18cdf3(0x339,0x131)+'ически\x20пол'+'ьзуются:','faq_legal_warranty_1':'<a\x20href=\x22h'+'ttps://www'+_0x18cdf3(0x1db,-0x784)+_0x1c0568(0x1111,0x1508)+_0x18cdf3(0x1457,0x1e82)+'cle_lc/LEG'+'IARTI00004'+'4142579\x22\x20t'+_0x18cdf3(0x5fb,0xddb)+_0x1c0568(-0x10,0x743)+'noopener\x22>'+_0x18cdf3(0x7af,0x7cf)+'аконной\x20га'+_0x1c0568(0x37,-0x3c9)+_0x1c0568(0xe86,0x12d4)+_0x18cdf3(0xf2e,0x950),'faq_legal_warranty_2':_0x1c0568(0x127c,0x1d27)+_0x18cdf3(0x1065,0x7be)+_0x1c0568(-0x1de,-0xb7a)+'e.gouv.fr/'+'codes/arti'+_0x18cdf3(0x82c,0x71a)+'IARTI00000'+'6441924/19'+_0x1c0568(0xdd9,0x723)+'target=\x22_b'+_0x1c0568(0x346,0x5d2)+_0x1c0568(0x129a,0x8cd)+'>гарантией'+'\x20скрытых\x20д'+'ефектов</a'+'>.','faq_not_covered_q':'Что\x20не\x20пок'+'рывается?','faq_not_covered_1':'Нормальный'+'\x20износ','faq_not_covered_2':'Ущерб,\x20выз'+'ванный\x20неп'+_0x1c0568(0x8b9,0xb75)+_0x1c0568(0x138,0x5ca)+_0x18cdf3(0x127b,0x17b4),'faq_not_covered_3':_0x1c0568(-0xf9,0x258)+'кости,\x20неб'+'режность','faq_not_covered_4':_0x18cdf3(0x89a,0x567)+'ированные\x20'+'модификаци'+_0x1c0568(0x11c,0x917)+'нт','faq_claim_warranty_q':_0x18cdf3(0x11bd,0xb11)+_0x1c0568(0xaf2,0x871)+_0x1c0568(-0x2c4,0x472),'faq_claim_warranty_intro':_0x1c0568(0x55b,0x3a6)+'со\x20службой'+'\x20поддержки'+_0x1c0568(0x68,-0x685)+'с:','faq_claim_warranty_1':'вашим\x20номе'+'ром\x20заказа'+',','faq_claim_warranty_2':_0x1c0568(0xc53,0x38b)+_0x1c0568(0x3a8,0xd6d),'faq_claim_warranty_3':_0x1c0568(0x163,-0x95f)+'ми\x20или\x20вид'+_0x1c0568(-0x184,-0x520)+'.','faq_service':_0x18cdf3(0x1200,0x1a0a)+'ание\x20клиен'+'тов','faq_contact_q':'Как\x20связат'+'ься\x20с\x20GUIL'+_0x1c0568(0x425,0x3f1),'faq_contact_text':'📧\x20Электрон'+'ная\x20почта:'+_0x1c0568(-0x63,0x492)+'ieuse@gmai'+'l.com\x20—\x20От'+'вет\x20в\x20тече'+'ние\x2048\x20час'+'ов.','contact_title':'✉️\x20Свяжитес'+_0x18cdf3(0x1506,0x18c3),'contact_intro':'Вопрос?\x20Пр'+'оект?\x20Не\x20с'+_0x1c0568(0x1026,0x1149)+_0x1c0568(-0x26f,-0xa73)+'м.','phone':_0x1c0568(0xc0d,0x5c1),'location':'Местополож'+'ение','france_ille':'Франция,\x20И'+_0x18cdf3(0xc81,0xfe2),'hours':_0x18cdf3(0x2a3,0xb97)+'ы','your_name':_0x18cdf3(0xf4a,0x91a),'your_email':'Ваш\x20адрес\x20'+_0x1c0568(0xace,0x78f)+'й\x20почты','your_message':_0x18cdf3(0x8cf,0x629)+'ение...','send_message':_0x1c0568(0x47f,0xdb8)+_0x18cdf3(0x102,0x7e8),'message_prepared':_0x1c0568(0x516,-0x27b)+'ение\x20подго'+'товлено.\x20Т'+_0x1c0568(0x1253,0x130e)+_0x1c0568(0x108b,0x761)+_0x18cdf3(0x4e3,0xb4f)+_0x18cdf3(0x12fb,0x1615)+_0x18cdf3(0xda0,0xc5a)+_0x18cdf3(0x69e,0xa52)+_0x18cdf3(0x913,0x126),'footer_location':_0x1c0568(0x28a,0x18f)+_0x1c0568(0x9ef,0xcea)+'00\x20–\x2020:00','footer_payment':_0x18cdf3(0x15ab,0x1210)+'ая\x20оплата\x20'+_0x18cdf3(0x5b1,-0x76)+'я\x20доставка','copyright':'©\x202026\x20GUI'+'LLET\x20IV\x20—\x20'+_0x1c0568(0x668,0x4f)+'висимости','follow_tiktok':'🎵\x20Подписыв'+_0x1c0568(0x53a,-0x3c4)+'нас\x20в\x20TikT'+'ok','back_top':_0x1c0568(0xf93,0xa29),'open_chat':_0x18cdf3(0x12e,0x829)+'т\x20советов','advice_chat':_0x18cdf3(0x11cb,0x133c)+'UILLET\x20IV','ask_question':'Задайте\x20мн'+'е\x20вопрос..'+'.','prevention_harassment':'🛡️\x20Профилак'+'тика\x20харас'+'смента','harassment_is_crime':_0x18cdf3(0x1548,0xc30)+_0x1c0568(-0xb,-0x75c)+'ступление.'+'\x20Это\x20разру'+_0x1c0568(0x1041,0xfd4)+'.','harassment_intro_2':'Будь\x20то\x20фи'+'зический,\x20'+_0x18cdf3(0x1629,0x1474)+'еский\x20или\x20'+'виртуальны'+_0x18cdf3(0xe08,0x418)+_0x1c0568(0x11a0,0xc77)+_0x18cdf3(0x104f,0xd6e)+_0x1c0568(0x1168,0x11f4)+_0x1c0568(0xae6,0x11bf),'harassment_intro_3':'Вот\x20наказа'+_0x18cdf3(0x14f9,0x1b10)+_0x18cdf3(0x11a,0x3be)+_0x1c0568(0x250,-0x815)+'у\x20или\x20в\x20ор'+'ганизованн'+_0x1c0568(0x10cc,0x122e),'moral_harassment':_0x18cdf3(0x1563,0x1fd4)+'й\x20харассме'+'нт','school_harassment':_0x18cdf3(0x154c,0x1749)+_0x1c0568(0x130,-0x898)+'т','sexual_harassment':_0x1c0568(-0x224,0x145)+_0x18cdf3(0x414,-0x2cf)+'мент','organized_group':'🚨\x20В\x20органи'+'зованной\x20г'+_0x18cdf3(0x1389,0x1159),'where_help':_0x18cdf3(0x5cd,0x779)+'и\x20помощь?','moral_harassment_desc':_0x1c0568(0x817,0x84a)+'еся\x20слова\x20'+'или\x20поведе'+_0x18cdf3(0xc7d,0x6fe)+'ющие\x20услов'+_0x18cdf3(0x12c9,0x17b1)+'вызывающие'+_0x18cdf3(0x86b,0xbd2)+_0x1c0568(0x83c,0xf60)+_0x18cdf3(0x268,0x6ed)+'хического\x20'+_0x1c0568(0x1292,0xfc2),'basic_penalty':_0x1c0568(0x5b3,0x490)+'казание','aggravating_simple':'Простое\x20от'+_0x1c0568(0x28f,-0x286)+_0x1c0568(0x78b,0xcbe)+'тво','two_aggravating':_0x18cdf3(0x165c,0x1b07)+_0x1c0568(0x663,0xc21)+_0x18cdf3(0x232,0x8df)+_0x18cdf3(0x920,0x916),'up_to_10_years':_0x18cdf3(0x228,0x4f2)+'+\x20300\x20000\x20'+'€','organized_group_desc':'каждый\x20уча'+'стник\x20може'+_0x18cdf3(0x198,-0x58b)+_0x1c0568(0x796,0x401)+_0x18cdf3(0x893,0x46f)+_0x18cdf3(0x4dc,0x5ab)+'\x20за\x20одно\x20с'+'ообщение,\x20'+_0x1c0568(0x16b,-0x907)+'овлен\x20колл'+_0x1c0568(0x550,0xab7)+_0x18cdf3(0x14b6,0xb51)+'рассмента.','school_harassment_desc':_0x1c0568(0x380,0x506)+'харассмент'+_0x18cdf3(0xde4,0x15cd)+'ный\x20ученик'+_0x1c0568(0x17f,0xdf)+'рудником\x20в'+'\x20отношении'+'\x20ученика\x20т'+'ого\x20же\x20уче'+_0x18cdf3(0x85e,0x132b)+_0x18cdf3(0xf37,0x163a),'itt_over_8':_0x1c0568(0x3a4,0x4a1)+'ей','victim_suicide':_0x18cdf3(0x5dc,0xd66)+'а\x20совершае'+_0x18cdf3(0xd61,0x1323)+_0x18cdf3(0x512,-0xe4)+'ытается\x20по'+'кончить\x20с\x20'+'собой','school_harassment_note':'Факты\x20оста'+'ются\x20наказ'+_0x1c0568(0x36b,0x2c4)+'е\x20после\x20ок'+_0x1c0568(-0x259,-0x332)+'ебы.','sexual_harassment_desc':'Повторяющи'+'еся\x20слова\x20'+_0x18cdf3(0x6a8,0xc31)+'ние\x20сексуа'+_0x18cdf3(0xcff,0xc7f)+_0x18cdf3(0x1684,0xf79)+_0x18cdf3(0x550,0x387)+'ера,\x20унижа'+'ющие\x20досто'+_0x1c0568(0xfc9,0x14e2)+_0x1c0568(0x11d,0x7e1)+_0x18cdf3(0xf64,0x1838)+'щую,\x20вражд'+'ебную\x20или\x20'+'оскорбител'+'ьную\x20ситуа'+_0x18cdf3(0xe77,0x6de),'organized_group_law':_0x18cdf3(0x4a1,0xe66)+'зованной\x20г'+'руппе:\x20что'+'\x20говорит\x20з'+'акон','collective_responsibility':_0x1c0568(0x97d,0xc35)+_0x18cdf3(0x13a,0x46f)+'ственность','collective_desc':_0x18cdf3(0x1548,0x122d)+_0x18cdf3(0x13a0,0x16a9)+'те\x20или\x20в\x20г'+'руппе\x20явля'+'ется\x20отягч'+_0x18cdf3(0x390,0x2b8)+_0x18cdf3(0x968,0x9e2)+'м.\x20Даже\x20ес'+'ли\x20вы\x20отпр'+'авили\x20толь'+_0x1c0568(0x21a,-0x25f)+_0x1c0568(0xee2,0x1941)+'оставили\x20л'+'айк\x20или\x20по'+_0x18cdf3(0x7d1,0x80a)+'онтентом\x20х'+_0x18cdf3(0x207,-0x1e7)+_0x1c0568(0x9cc,0x51d)+_0x1c0568(0x1133,0x167b)+_0x18cdf3(0xc41,0x6b0)+'ответствен'+'ности.','online_moral_harassment':'Моральный\x20'+_0x1c0568(0x26c,-0x565)+_0x1c0568(0xfe7,0x1366)+'те','sexual_harassment_multiple':'Сексуальны'+'й\x20харассме'+'нт\x20несколь'+'кими\x20людьм'+'и','multiple_aggravating':_0x18cdf3(0x1548,0x1a80)+'\x20с\x20несколь'+_0x18cdf3(0x1331,0x15fc)+_0x1c0568(0x67c,0x35b)+'тоятельств'+_0x1c0568(0xfd3,0x122f),'law_punishes_each':_0x18cdf3(0xf15,0xecb)+'зывает\x20каж'+'дого\x20участ'+'ника,\x20а\x20не'+'\x20только\x20ли'+'дера.','dont_stay_alone':_0x18cdf3(0xd5e,0x16ea)+'айтесь\x20оди'+_0x1c0568(0xf72,0x1434)+'е.','call_3018':_0x1c0568(0xa7f,0x156e)+'есплатный,'+'\x20анонимный'+'\x20номер,\x207\x20'+_0x1c0568(-0x141,-0x36a)+_0x1c0568(0xa6c,0x257)+_0x1c0568(0xe3a,0x72b),'report_17cyber':'🌐\x2017Cyber.'+_0x1c0568(-0x68,-0x3b3)+_0x18cdf3(0x659,0x833)+_0x1c0568(0x79,-0x4c2),'report_17cyber_btn':'🚨\x20Сообщить'+_0x18cdf3(0x3f6,0x9ce)+'r','call_3018_btn':'📞\x20Позвонит'+'ь\x203018','prevention_footer_note':_0x18cdf3(0x159d,0x1d60)+'\x20из\x20францу'+_0x1c0568(0x62f,0x911)+'ловного\x20ко'+_0x18cdf3(0xa5c,0xe46)+'ifrance).\x20'+'Последнее\x20'+'обновление'+':\x202026.','chat_hello':'👋\x20Здравств'+_0x1c0568(0xc0a,0x16de)+_0x18cdf3(0x1143,0x1903)+_0x1c0568(0x593,0xb86)+'ong>GUILLE'+'T\x20IV</stro'+_0x18cdf3(0x120c,0xf40),'chat_prompt':_0x1c0568(0xaf0,0x977)+_0x18cdf3(0x119c,0xeef),'chat_unknown':'Я\x20не\x20увере'+_0x1c0568(0xbb,-0x2c2)+'имаю\x20🤔','chat_menu_title':_0x18cdf3(0xdbe,0x15a2)+_0x1c0568(0x1a4,0x2a9)+'а:','chat_parrainage_reply':'🤝\x20Откройте'+'\x20счет\x20Bour'+'sorama,\x20по'+'дпишитесь\x20'+_0x1c0568(0x1132,0xf72)+_0x18cdf3(0xcfb,0x16c4)+_0x1c0568(0x8ca,0xf3c)+_0x1c0568(0xf35,0xedc)+',\x20в\x20Crédit'+'\x20Agricole\x20'+_0x1c0568(-0x297,-0x186)+'s\x20Energy\x20п'+'о\x20моим\x20реф'+_0x18cdf3(0x13db,0x133d)+'сылкам:\x20ин'+'формация\x20з'+'аполняется'+_0x1c0568(0xae4,0xe99)+'ески!','chat_contact_reply':_0x1c0568(0xa49,0x30b)+_0x1c0568(0x3d4,0xe42)+_0x1c0568(-0x78,-0x546)+_0x18cdf3(0xe69,0xb87)+'у\x20<strong>'+_0x18cdf3(0xc25,0xed9)+'7.49</stro'+_0x1c0568(-0x22a,0x3be),'chat_delivery_reply':_0x1c0568(-0x17d,0x53c)+_0x18cdf3(0x7fe,0x885)+_0x18cdf3(0x157f,0xf55)+_0x18cdf3(0x6b3,0x1016)+_0x18cdf3(0x4f9,0x2ad),'chat_drone_reply':_0x18cdf3(0x988,0x1ae)+_0x18cdf3(0xd5c,0x1264)+'</strong>\x20'+_0x1c0568(0x82c,0x327),'chat_proj_reply':'💡\x20<strong>'+_0x1c0568(0x10d6,0xfa7)+'светодиодн'+'ый\x20прожект'+_0x1c0568(0x1106,0x16e5)+'>\x20(35€).','chat_endo_reply':'🔍\x20<strong>'+'Эндоскоп</'+'strong>\x20(9'+_0x1c0568(0xbb5,0x44c),'chat_beauty_reply':_0x18cdf3(0xbab,0x1487)+'strong>Ног'+_0x18cdf3(0x1117,0x665)+_0x18cdf3(0xa00,0x339)+'>.','chat_price_reply':_0x1c0568(-0x273,0x5ca)+'€\x20•\x20Прожек'+'тор:\x2035€\x20•'+_0x1c0568(-0x263,-0x23b)+'бор:\x2099,99'+'€\x20•\x20Эндоск'+'оп:\x2095€\x20•\x20'+'Премиум\x20на'+_0x1c0568(0x703,0xd50)+_0x18cdf3(0x1329,0xc19)+'0€','chat_thanks_reply':'Пожалуйста'+'!\x20🙏','chat_btn_home':_0x1c0568(0xb3a,0x93f),'chat_btn_shop':'🛒\x20Магазин','chat_btn_vinted':'👕\x20Vinted','chat_btn_beauty':_0x18cdf3(0xb1e,0x185)+_0x1c0568(-0x22b,0x81e),'chat_btn_parrainage':_0x18cdf3(0x14b4,0xa30)+'ная\x20програ'+'мма','chat_btn_about':'📜\x20О\x20нас','chat_btn_contact':_0x1c0568(0x1189,0xb9e),'chat_btn_faq':'❓\x20FAQ','chat_btn_cyber':_0x18cdf3(0xf59,0x545)+'опасность','chat_btn_harass':'🚨\x20Харассме'+'нт','chat_btn_see':_0x1c0568(0x448,0x1c8),'chat_btn_see_section':_0x18cdf3(0x801,0x1052)+_0x18cdf3(0x8a0,0x79d),'chat_btn_all_pages':'📋\x20Все\x20стра'+_0x18cdf3(0x7cc,0x133),'chat_btn_prices':'💶\x20Посмотре'+'ть\x20цены','chat_btn_contact_me':'📞\x20Связатьс'+'я\x20с\x20вами','chat_btn_delivery':_0x1c0568(-0x17d,-0x3ff),'chat_btn_menu':'📋\x20Меню\x20стр'+_0x18cdf3(0x87c,0x84e)},'zh':{'maintenance':'维护中','maintenance_motto':'GUILLET\x20IV'+_0x18cdf3(0x1695,0x163d)+'。我们将很快回来。','maintenance_info':'⏳\x20正在施工\x20—\x20感'+_0x18cdf3(0xa17,0x10ef),'contact_us':_0x18cdf3(0x30c,0x10b),'order_independence':_0x18cdf3(0xf0b,0x1251),'search_product':'搜索产品','clear_search':_0x18cdf3(0x8e5,0x8d7),'matching_products':_0x18cdf3(0x76c,0x1d),'toggle_mode':_0x18cdf3(0x1260,0x10e1),'nav_home':_0x18cdf3(0x2ea,-0x7cc),'nav_about':'📜\x20关于','nav_shop':_0x18cdf3(0x17a,0x491),'nav_vinted':'👕\x20Vinted','nav_beauty':_0x18cdf3(0x972,0x55e),'nav_parrainage':_0x1c0568(-0x193,-0x841),'nav_cyber':_0x18cdf3(0x1180,0x970),'nav_harassment':_0x18cdf3(0x248,0x563),'nav_contact':_0x18cdf3(0x1544,0x1c78),'nav_faq':'❓\x20常见问题','nav_cgv':'📄\x20条款','nav_privacy':_0x18cdf3(0x26a,0x46d),'nav_legal':'⚖️\x20法律与安全','marquee_welcome':_0x1c0568(0x426,0x7d0)+_0x18cdf3(0xf55,0x1801)+_0x18cdf3(0x243,-0x1a5),'marquee_delivery':'🚚\x20快速安全的配送','marquee_payment':_0x18cdf3(0xe71,0x1641)+'付','marquee_motto':'👑\x20创造你的道路。捍'+_0x1c0568(0x117f,0x163c)+'来。','marquee_products':'💎\x20为自主和实用生活'+'挑选的产品','marquee_warranty':_0x18cdf3(0xb91,0xcb6)+'\x202\x20年保修','marquee_music':_0x1c0568(0xc4f,0x1287)+_0x18cdf3(0x11f6,0x121d),'site_music':'🎵\x20网站音乐','choose_music':_0x1c0568(0xf52,0x160b),'track_genetiquement':_0x18cdf3(0x14f6,0x1f3c)+'étiquement'+_0x1c0568(0x11f4,0x14a3),'track_polygone':'[FR]\x20🔷\x20Pol'+'ygone','track_quelques_notes':'[FR]\x20🎵\x20Que'+'lques\x20note'+'s','track_bilar_phoenix':_0x1c0568(0x2d9,-0x226)+_0x18cdf3(0xafe,0x585)+'x','track_cenza':'[FR]\x20🕶️\x20Cen'+'za\x20–\x20Incon'+'nu','track_confinement':_0x18cdf3(0xfbf,0x580)+_0x18cdf3(0xb57,0x15c6)+'nement\x20n°2','track_dark_blues':'[EN]\x20🌑\x20Dar'+'k\x20Blues.Vo'+'l','track_iam':_0x1c0568(-0xd,0x236)+_0x18cdf3(0x365,-0x5f6)+_0x1c0568(0x86b,0x561)+'nde','track_issaba':_0x1c0568(0x416,0x9c0)+'aba\x20–\x20Tu\x20c'+_0x1c0568(0xb68,0xe38),'track_kery':'[FR]\x20📜\x20Ker'+'y\x20James\x20–\x20'+_0x1c0568(0xd52,0x480)+_0x18cdf3(0x1ba,0x37b),'track_exit':_0x1c0568(0x8ba,0x1ca)+_0x1c0568(0xc97,0x91e)+'om\x20Zirko\x20/'+'\x20HYPERTHYM'+'ÉSIE','track_sakage':'[FR]\x20🌒\x20Sak'+'age\x20–\x20Prém'+_0x1c0568(-0x17e,-0xb1),'track_sks_tsunami_2':_0x18cdf3(0x3e6,0x847)+_0x1c0568(0x110,0x23f)+'unami\x202','track_sks_tsunami':'[FR]\x20🌊\x20SKS'+'\x20Crew\x20–\x20Ts'+'unami','track_sks':'[FR]\x20💥\x20SKS'+_0x1c0568(0xf25,0x662),'track_mysa_ralliement':'[FR]\x20🚩\x20Mys'+'a\x20–\x20Le\x20Ral'+_0x1c0568(0x24b,-0x4e),'track_rockin_luta':'[FR]\x20✊\x20Roc'+_0x18cdf3(0x4b5,0xcc5)+'–\x20A\x20Luta\x20C'+_0x1c0568(0xab,-0xa3a),'track_rockin_eternel':_0x18cdf3(0xea1,0x486)+'kin\x27Squat\x20'+'–\x20Eternel\x20'+_0x1c0568(0x750,0x110d),'track_rcknsqt_verlaine':'[FR]\x20🖋️\x20RCK'+_0x18cdf3(0xbee,0x13fd)+_0x18cdf3(0x11c9,0xa82),'track_mysa_autopsy':_0x18cdf3(0xc20,0x1350)+_0x1c0568(0x501,0x45c)+'y','track_fourmiliere':'[FR]\x20🐜\x20La\x20'+_0x1c0568(0x205,-0x1cb)+'e\x20–\x20Sourir'+'e','track_shurikn':'[FR]\x20🗡️\x20Shu'+_0x1c0568(0xbdf,0x78d)+'ouraï','track_proser':'[FR]\x20🔥\x20Pro'+'ser\x20–\x20La\x20R'+_0x1c0568(0xa3c,0x8bd)+'x\x20Poups)','track_rohff':'[FR]\x20⚔️\x20Roh'+'ff\x20–\x20Fitna','track_mysa_fou':_0x18cdf3(0x142b,0x11b7)+'a\x20–\x20Comme\x20'+'Un\x20Fou','track_mysa_dystopie':_0x1c0568(0x1307,0xc36)+'a\x20–\x20Dystop'+'ie19','track_mysa_mortel':'[FR]\x20💀\x20Mys'+'a\x20–\x20Mortel','track_mysa_piqure':_0x1c0568(0xbf2,0x50f)+'a\x20–\x20Piqûre'+'\x20de\x20Rappel','track_mysa_revolu':_0x18cdf3(0xebe,0xdbc)+'a\x20–\x20Révolu','track_millesime':'[FR]\x20🏛️\x20Mil'+'lésime\x20K\x20–'+'\x20Républiqu'+'e','track_rockin_aimer':_0x1c0568(0x951,0xcd0)+'kin\x27Squat\x20'+_0x1c0568(0xea,-0x1a6)+'ns\x20Posséde'+'r','track_rockin_ils':'[FR]\x20💔\x20Roc'+_0x18cdf3(0x4b5,0x404)+_0x18cdf3(0x556,0x20)+'eulent\x20Pas'+'\x20Aimer','track_rcknsqt_vocab':_0x1c0568(0x26d,0x608)+_0x1c0568(-0x28d,0x46e)+'AB','track_miyagi_kosandra':_0x1c0568(0x1166,0x1475)+'agi\x20&\x20Andy'+_0x18cdf3(0x229,0xc58)+'osandra','track_miyagi_capitaine':'[RU]\x20⚓\x20Miy'+_0x1c0568(0xbb2,0xff2)+_0x18cdf3(0x15c,0x709),'track_miyagi_tumani':_0x1c0568(0x291,-0x6ad)+_0x1c0568(0x120c,0x1909)+_0x1c0568(0x982,0x7c6)+_0x18cdf3(0x7f2,0xd12)+_0x18cdf3(0x1574,0x17df),'motto':'“创造你的道路。捍卫'+_0x1c0568(0x9b6,0x432)+'。”','baseline':'企业\x20·\x20创业独立运'+_0x1c0568(0x12b2,0x1548),'doctrine_title':_0x1c0568(0x379,0x9a3)+_0x1c0568(0x118e,0x1196),'doctrine_desc':'GUILLET\x20IV'+_0x1c0568(0x112e,0xb4d)+_0x18cdf3(0x190,-0x20e)+'景。我们的创始原则：'+'不要等待你的位置，而'+'是通过行动、纪律和创'+'造来建立它。','authority':'🖤\x20权威','authority_desc':'黑色代表自我控制、严'+_0x1c0568(0x4d7,0x182),'willpower':_0x1c0568(0xdd0,0xe33),'willpower_desc':_0x18cdf3(0x15be,0x11f6)+'决心。','legitimacy':'👑\x20合法性','legitimacy_desc':'金色象征创造的价值、'+'要求和认可。','vision':_0x18cdf3(0xf1c,0x1481),'vision_desc':'蓝色开启创新和未来之'+'路。','authenticity':_0x18cdf3(0xb53,0x3a4),'authenticity_desc':_0x1c0568(0x9ba,0x30e)+'毫不掩饰或妥协的你。','revelation':'✨\x20启示','revelation_desc':'揭示隐藏事物的光。觉'+_0x1c0568(0x1024,0x8f5),'truth':'⚡\x20真理','truth_desc':_0x18cdf3(0x1385,0x1045)+_0x18cdf3(0x5a5,0xaaf),'awareness':_0x18cdf3(0x7e1,0x823),'awareness_desc':'清醒，高度，看清外表'+_0x18cdf3(0x2a8,-0x810),'power':'🜂\x20力量','power_desc':_0x18cdf3(0x1480,0x16ab)+_0x1c0568(0xbc,-0x7af),'discipline':'🜁\x20纪律','discipline_desc':_0x1c0568(-0x242,0x744)+'的恒心。','creation':_0x18cdf3(0x85a,0x95d),'creation_desc':'生产、创新、建造尚不'+_0x1c0568(0xcfb,0x3e6),'ascension':_0x18cdf3(0x1281,0x1387),'ascension_desc':'上升、进化、超越自我'+_0x18cdf3(0x1587,0xba6),'shop_title':'🛒\x20GUILLET\x20'+_0x1c0568(0x659,-0x316),'shop_intro':'为自主、安全、户外和'+'实用生活挑选的产品。','no_products':'没有产品符合此搜索。','see_more':_0x18cdf3(0x6ba,0xf76),'see_less':'收起','full_desc':'完整描述','details':'详情','utility':'实用性','how_to_use':_0x18cdf3(0x1d5,0x2fb),'features':'功能','drone_title':_0x18cdf3(0xcd9,0x16bd)+_0x1c0568(0x1167,0x1792)+_0x18cdf3(0x937,0x1086),'drone_tagline':_0x1c0568(0xc3e,0x1487)+_0x18cdf3(0x1051,0x118f)+'见的眼睛。','drone_desc':_0x18cdf3(0x1019,0x17ab)+_0x1c0568(0xf7d,0x15c9)+'的无人机。以手术般的'+_0x1c0568(-0x10c,-0x134),'drone_full_1':_0x1c0568(0xafe,0x134)+_0x18cdf3(0xada,0xcbb)+_0x1c0568(-0x4d,0x864)+_0x1c0568(0xfb4,0xfdb)+'变成未来体验的空中盟'+'友。','drone_full_2':_0x18cdf3(0x906,0xfc)+'90\x20倍变焦、全向避'+'障和无刷电机，它为您'+_0x18cdf3(0x1603,0x1e4c)+'无人机能匹敌的稳定性'+'和动力。','drone_full_3':'可折叠、紧凑、智能：'+'KY108\x20随时准备'+'跟随你到任何地方。','drone_detail_1':'带\x2090\x20倍变焦的双'+'高清摄像头','drone_detail_2':_0x18cdf3(0x13d5,0xf95),'drone_detail_3':'强大耐用的无刷电机','drone_detail_4':_0x1c0568(0xc8e,0x2db)+'的遥控器','drone_detail_5':'可折叠无人机，易于运'+'输','drone_util_1':_0x18cdf3(0x11b1,0x1083),'drone_util_2':_0x1c0568(0x108c,0xf74)+'\x20Instagram'+'\x20创作内容','drone_util_3':'在尊重隐私的情况下监'+_0x1c0568(-0x2a3,0x537),'drone_util_4':_0x18cdf3(0x10e4,0x15a7),'drone_util_5':_0x1c0568(0x820,0x11b3),'drone_use_1':'展开无人机并检查螺旋'+'桨。','drone_use_2':'打开遥控器。','drone_use_3':_0x1c0568(0x3c0,0x398),'drone_use_4':'在辅助模式下起飞。','drone_use_5':'通过集成的\x20FPV\x20'+'屏幕驾驶。','drone_use_note':_0x1c0568(0x1d8,-0x24a)+_0x1c0568(0xe56,0xf0c)+'。','cart_89':'💳\x20加入购物车\x20—\x20'+'89\x20€','proj_title':_0x1c0568(0x5d,-0x719)+_0x18cdf3(0x104e,0x1618),'proj_desc':'带\x20PIR\x20传感器和'+'旋转面板的户外太阳能'+'\x20LED\x20投影仪。','proj_full_1':_0x1c0568(0xc1,0xa0c)+'户外\x20LED\x20投影仪'+_0x18cdf3(0x13e2,0x1a4a)+_0x1c0568(0x1de,0x508),'proj_util_1':'保护入口安全','proj_util_2':_0x18cdf3(0x1498,0xb02),'proj_util_3':'阻止入侵','proj_util_4':_0x18cdf3(0x818,0x3e8),'proj_use_1':'将投影仪固定在墙上','proj_use_2':_0x18cdf3(0xf57,0x19e5)+'方向','proj_use_3':_0x1c0568(0xa8e,0x1110),'proj_use_4':_0x1c0568(0x605,0xe0e),'cart_35':_0x18cdf3(0xb96,0x148d)+'35\x20€','badge_winter':_0x18cdf3(0x1025,0x6c4),'pack_title':'冬季生存包\x20–\x20高级'+'版','pack_desc':'应对冬季、保持温暖、'+'照明和自主的终极套装'+'。','pack_item_1':_0x1c0568(0x12a0,0xc82)+'手套\x20(USB)','pack_item_1_desc':_0x18cdf3(0x14e,0x711)+_0x1c0568(-0x2a,-0x210)+'。','pack_item_1_b1':_0x1c0568(0x892,-0x156),'pack_item_1_b2':_0x1c0568(0x10ed,0x9c5),'pack_item_1_b3':'触摸屏设计','pack_item_1_b4':'USB\x20接口操作，兼'+_0x18cdf3(0x204,0x210),'pack_item_2':'🔦\x202.\x20强力\x20LE'+_0x1c0568(0x8a0,0x405)+_0x18cdf3(0x10de,0x714),'pack_item_2_desc':'超亮战术灯，适用于停'+_0x1c0568(0x59a,0xa94),'pack_item_2_b1':'7\x20种灯光模式','pack_item_2_b2':_0x1c0568(0x1ff,0x4de),'pack_item_2_b3':'内置电池','pack_item_2_b4':'耐候性','pack_item_3':_0x18cdf3(0xc9f,0xbbb)+_0x18cdf3(0x13b6,0x1178)+_0x18cdf3(0x8f7,0x80c),'pack_item_3_desc':'高容量充电宝，兼容所'+'有\x20USB\x20设备和加'+'热服装。','pack_item_3_b1':'12,000\x20mAh'+'\x20→\x20持久续航','pack_item_3_b2':'5V\x202.4A\x20输出','pack_item_3_b3':_0x1c0568(0xb5a,0x588)+_0x18cdf3(0xc60,0x864)+'/\x20iPad','pack_item_4':'🛏️\x204.\x20多季木乃伊'+'睡袋\x20(210\x20×\x20'+_0x18cdf3(0x5c7,0x91a),'pack_item_4_desc':'轻便、紧凑、舒适的睡'+_0x18cdf3(0xa0e,0x4c1)+_0x1c0568(0x10f3,0xefa),'pack_item_4_b1':_0x1c0568(0x466,0x8fb),'pack_item_4_b2':_0x1c0568(0xf95,0xc8f)+'纶','pack_item_4_b3':_0x18cdf3(0x8e9,0x1331)+'子','pack_item_4_b4':_0x18cdf3(0xcd0,0x1165),'cart_9999':'💳\x20加入购物车\x20—\x20'+'99,99\x20€','badge_new':'新品','endo_title':_0x18cdf3(0x5ab,0xc2e)+'窥镜','endo_desc':_0x18cdf3(0x548,0xade)+_0x1c0568(0xb76,0x11f5)+_0x1c0568(0xf5a,0x172d)+'刚性电缆、200\x20万'+_0x1c0568(0x4ab,-0x1f)+_0x1c0568(0x604,0xd0)+'8\x20防水设计。','endo_full_1':_0x18cdf3(0xf6d,0x49f)+_0x1c0568(0x9e5,0x92)+_0x18cdf3(0x14f1,0x19c2)+'间）的必备工具。','endo_util_1':'检查发动机、管道和管'+'道','endo_util_2':'家庭装修：管道、通风'+'、布线','endo_util_3':'快速机械诊断','endo_util_4':_0x18cdf3(0x130a,0x1c74)+'制','endo_feat_1':'全高清\x201080P\x20'+'分辨率','endo_feat_2':_0x1c0568(0xf,0x629)+_0x1c0568(0x6ce,0x1108)+'明','endo_feat_3':_0x18cdf3(0xda1,0x591),'endo_feat_4':_0x18cdf3(0xfa9,0x1279),'endo_feat_5':'IP68\x20防水认证','cart_95':_0x18cdf3(0xb96,0x85e)+_0x18cdf3(0x599,-0x270),'badge_security':_0x18cdf3(0x1a7,0x4fb),'pack_secu_title':_0x1c0568(0xd9e,0x1404),'pack_secu_tagline':_0x1c0568(0xefd,0xfdb)+_0x18cdf3(0x4c5,0x221),'pack_secu_promo':_0x1c0568(0x6a2,-0x363),'pack_secu_desc':'使用\x20AI\x20摄像头、'+'完整警报器、4\x20个传'+'感器和即用型系统保护'+_0x18cdf3(0x13af,0xd13)+_0x18cdf3(0xc9d,0xd04),'pack_secu_full_1':_0x18cdf3(0x157d,0x19f2)+_0x1c0568(0x590,0xec)+'车库、地窖或办公室所'+_0x1c0568(0x1a7,0x92e)+_0x18cdf3(0x13b0,0xbd8)+'均已配置好：您安装、'+'连接，10\x20分钟即可'+_0x1c0568(0x4e,0x716),'pack_secu_contents':'📦\x20套装内容（确切）','pack_secu_c1':'1\x20个\x20Tiiwee'+'\x20警报器（警笛\x20+\x20'+_0x1c0568(0x123e,0x18b4),'pack_secu_c2':'1\x20个\x20TP-Lin'+_0x1c0568(0x10e4,0xba9)+'5D\x20AI\x20摄像头（'+'夜视\x20+\x20检测）','pack_secu_c3':_0x18cdf3(0xef7,0xa29)+_0x1c0568(-0x1dd,-0x7eb)+'\x20窗\x20/\x20车库\x20/\x20'+_0x18cdf3(0x8a1,0x2da),'pack_secu_c4':'安装指南','pack_secu_c5':'30\x20天协助','pack_secu_f1':'智能手机即时警报','pack_secu_f2':_0x1c0568(0x2b,0x163),'pack_secu_f3':'强力警笛','pack_secu_f4':_0x1c0568(0x9d4,0x801),'pack_secu_f5':'实时监控','pack_secu_f6':_0x18cdf3(0xcbd,0xe71),'pack_secu_secure_for':'保护','pack_secu_s1':_0x18cdf3(0x146d,0xcf6),'pack_secu_s2':_0x18cdf3(0xf71,0xfab),'pack_secu_s3':_0x1c0568(0xa92,0x762),'pack_secu_s4':'🚗\x20车库','pack_secu_s5':'🕳️\x20地窖','pack_secu_s6':'💼\x20办公室','pack_secu_use_1':'插入\x20Tiiwee\x20'+'警报器和\x20Tapo\x20'+_0x18cdf3(0xcac,0x1370),'pack_secu_use_2':'将\x204\x20个\x20SONO'+'FF\x20传感器粘贴在门'+'\x20/\x20窗\x20/\x20车库\x20'+'/\x20阳台上。','pack_secu_use_3':_0x18cdf3(0x3cd,-0x2fa)+_0x1c0568(0xfbf,0x5fd)+_0x1c0568(0xfa,0xb54),'pack_secu_use_4':'配置智能手机警报。','pack_secu_use_5':'测试警笛和检测。10'+_0x1c0568(0xd57,0xc10),'pack_secu_warranty_support':'保修与支持','pack_secu_ws1':'24\x20个月保修','pack_secu_ws2':'30\x20天客户支持','pack_secu_ws3':'需要时提供安装协助','pack_secu_why':'为什么选择此套装？','pack_secu_why_text':'因为它通过\x20AI\x20摄'+'像头、完整警报器、4'+_0x1c0568(0x7e8,0x504)+'统保护您的整个家庭。'+'交钥匙套装\x20—\x20非常'+_0x18cdf3(0x7ef,0x281),'cart_pack_secu':'💳\x20加入购物车\x20—\x20'+_0x1c0568(-0x14,-0x53f),'guarantees':'🛡️\x20保修与服务','warranty_24':_0x1c0568(0xed8,0x984),'secure_payment':_0x1c0568(0xcf1,0xff6),'fast_delivery':'✔\x20快速配送','reviews_title':'⭐\x20客户评价\x20(Vi'+_0x1c0568(0x1211,0x1504),'review_zohra':'谢谢','review_limitless_1':_0x1c0568(0xe40,0x18b8)+'ILLET\x20IV\x20🔥','review_zlatoff':_0x1c0568(0xcb4,0xa95),'review_limitless_2':_0x1c0568(0x8fc,0x4d2),'learn_more':'🏢\x20了解更多','company_movement':'企业\x20·\x20运动\x20·\x20'+'独立','about_intro':_0x18cdf3(0x1e6,0xa37)+_0x1c0568(0x410,-0x658)+'立运动。它捍卫每个人'+'都能够通过工作、创造'+_0x1c0568(0xe75,0xcfd)+'路的理念。','about_service':_0x18cdf3(0x57a,0x8be)+_0x18cdf3(0x5f0,0x1db)+'imitless95'+'），拥有\x205\x20星评价'+'、响应迅速的客户服务'+'，并致力于提供严肃、'+'展示良好的产品和真正'+'的商店体验。','about_contact':_0x18cdf3(0x552,0xc66)+_0x18cdf3(0x15a6,0x1b08)+'接在\x20Vinted\x20'+_0x1c0568(0x91d,0x6c6),'contact_me':'✉️\x20联系我','view_my_vinted':'👕\x20查看我的\x20Vin'+_0x1c0568(0xd2,-0x9f1),'back_home':_0x18cdf3(0xc43,0xd6e),'brand_king':'👑\x20GUILLET\x20'+'IV','back_shop':_0x1c0568(0x849,0xdfe),'parrainage_title':_0x18cdf3(0x226,-0x18b),'parrainage_sub':'Boursorama'+_0x18cdf3(0x1466,0x111e)+'k\x20·\x20Vinted'+'\x20·\x20Crédit\x20'+_0x1c0568(-0x244,-0x98b)+_0x1c0568(-0x154,-0x68f)+'nergy','parrainage_intro':'使用我的推荐链接开设'+_0x18cdf3(0x7a7,-0x244)+_0x1c0568(0xeb3,0x83b)+_0x18cdf3(0x1086,0x711)+_0x18cdf3(0x285,-0x4e7),'parrainage_boursorama_title':_0x1c0568(0x12cc,0xcd9)+'ma\x20推荐','parrainage_boursorama_text':_0x18cdf3(0xd07,0xf93)+'您的\x20Boursor'+'ama\x20账户：我的信'+_0x18cdf3(0x6a3,0x9f1)+_0x18cdf3(0xa06,0x10da)+'享受欢迎奖金！','boursorama_b1':'开户即赠欢迎奖金','boursorama_b2':_0x1c0568(0xd54,0x290),'boursorama_b3':_0x18cdf3(0x682,0xeb6)+_0x1c0568(0x656,0x102c),'parrainage_btn_boursorama':_0x1c0568(0x457,0x117)+_0x1c0568(0x12f1,0x1ccf),'parrainage_starlink_title':_0x1c0568(-0x1a,0x5fb)+_0x1c0568(0x96b,0xa54),'parrainage_starlink_text':_0x18cdf3(0x1023,0x13e9)+'\x20Starlink，'+_0x18cdf3(0xe19,0x9a6)+_0x18cdf3(0x3ec,0x234)+_0x1c0568(0x1258,0x1a55)+_0x1c0568(0xd75,0xddc)+'此。','starlink_b1':'一个月免费订阅','starlink_b2':_0x18cdf3(0x3de,0x8d2)+_0x18cdf3(0x1061,0xb05),'starlink_b3':_0x1c0568(0x90b,-0x11f),'parrainage_btn_starlink':'🛰️\x20订阅\x20Starl'+_0x1c0568(0x1cd,-0x868),'parrainage_vinted_title':'👕\x20Vinted\x20推'+'荐','parrainage_vinted_text':_0x18cdf3(0x9b5,0x76b)+'Vinted\x20上注册'+_0x1c0568(0x992,0x143f)+'售并赋予您的衣服第二'+'次生命，同时享受欢迎'+_0x1c0568(0x377,0x60),'vinted_b1':_0x18cdf3(0x15b,-0x5f2),'vinted_b2':_0x18cdf3(0x102c,0x1318)+_0x1c0568(0x7f,-0x759),'vinted_b3':'安全的配送和支付','parrainage_btn_vinted':'👕\x20加入\x20Vinte'+'d','parrainage_credit_agricole_title':'🏛️\x20Crédit\x20A'+'gricole\x20推荐','parrainage_credit_agricole_text':'您想在\x20Crédit'+'\x20Agricole\x20'+'开户吗？使用我的一次'+_0x18cdf3(0x1499,0x1160)+_0x18cdf3(0x15a5,0x1db5),'credit_agricole_b1':'开户即享欢迎优惠','credit_agricole_b2':'遍布法国的本地银行','credit_agricole_b3':_0x1c0568(0x189,-0x5f4)+'YLFH','parrainage_btn_credit_agricole':_0x18cdf3(0x1558,0x1143)+_0x18cdf3(0xa7f,0x4c3)+'le\x20账户','parrainage_octopus_title':'🐙\x20Octopus\x20'+_0x18cdf3(0x1388,0x1cfa),'parrainage_octopus_text':'使用我的推荐链接加入'+_0x18cdf3(0x265,-0x7cc)+'nergy，享受电费'+'优惠。更绿色、更简单'+_0x1c0568(0x18e,-0x2aa),'octopus_b1':_0x1c0568(0x5d1,0x4bc),'octopus_b2':'100%\x20可再生能源'+'和公平的价格','octopus_b3':'响应迅速的客户服务，'+_0x1c0568(0xfdb,0x1807),'parrainage_btn_octopus':_0x18cdf3(0x583,0xfbd)+_0x18cdf3(0x911,0x453),'parrainage_step1_title':_0x1c0568(0x10e8,0x17e4),'parrainage_step1_text':_0x1c0568(0xf2f,0x1402)+'册页面（Bourso'+_0x1c0568(0x102a,0xbaf)+'ink、Vinted'+_0x18cdf3(0x34a,0x3f6)+_0x1c0568(0x1236,0x194a)+'ctopus\x20Ene'+'rgy），并且已经集'+'成了我的推荐码。','parrainage_step2_title':_0x1c0568(0x122d,0x12ee),'parrainage_step2_text':'我的推荐信息会自动填'+_0x1c0568(0xd8b,0x132c)+_0x1c0568(0x9db,0x604),'parrainage_step3_title':'验证您的注册','parrainage_step3_text':'在几分钟内完成您的开'+_0x18cdf3(0x42d,0x24b)+'受优惠。','parrainage_step4_title':'双赢','parrainage_step4_text':_0x18cdf3(0xbfd,0x791)+'获得。真正的双赢。','parrainage_note_title':'ℹ️\x20了解详情：','parrainage_note_text':'推荐链接是\x20Bour'+_0x1c0568(0xf53,0x17c1)+_0x1c0568(-0x231,0x5ba)+_0x18cdf3(0x11db,0x164d)+'Agricole\x20和'+_0x1c0568(-0x154,-0x570)+_0x1c0568(0x7ae,0x1032)+_0x18cdf3(0x335,0xa36)+'orama\x20账户免费'+_0x18cdf3(0x1643,0xc13)+'受每项服务的条件约束'+'。Crédit\x20Ag'+'ricole\x20代码\x20'+_0x18cdf3(0x520,0xf43)+_0x18cdf3(0x19c,0x8ec),'my_vinted':_0x1c0568(0x5,0x328)+'d','vinted_intro':_0x1c0568(0xd67,0xb0e)+_0x1c0568(0xd7d,0x46d)+'nted\x20上的可用产'+'品。','verified_reviews':_0x18cdf3(0x1516,0x13e2)+'d\x20评价','vinted_desc':_0x1c0568(0x1c1,-0x73c)+_0x1c0568(0x79d,0xa2)+_0x1c0568(0x117e,0x14c9)+_0x1c0568(0x12df,0x1804)+'提供响应迅速的客户服'+'务。','view_vinted_profile':_0x1c0568(-0x223,-0x6e1)+_0x18cdf3(0x16b5,0x1cf7),'beauty_title':_0x18cdf3(0x1162,0x1886)+_0x18cdf3(0x376,0xb72),'beauty_sub':'优雅\x20·\x20呵护\x20·\x20'+'在\x20Guignen\x20'+'线下','beauty_intro':_0x1c0568(0x7d7,0x54)+'\x20线下提供服务。通过'+'电话或\x20Instag'+'ram\x20预约。','beauty_prices_title':'💶\x20价目表','beauty_presentiel_note':'⚠️\x20仅在\x20Guign'+'en\x20线下提供服务\x20'+'—\x20不进行在线销售。','beauty_gallery_title':_0x1c0568(0x3c9,-0x610),'beauty_video_title':_0x1c0568(0x4b6,-0x5a7),'video_fallback':_0x18cdf3(0xdb1,0x6fc)+'播放。','beauty_book_title':'📅\x20预约服务','beauty_book_text':'所有服务均在\x20Gui'+'gnen\x20线下进行。'+_0x18cdf3(0x1122,0xa4a)+'Instagram\x20'+'预约。','click_photo_zoom':_0x18cdf3(0xbad,0x657),'cyber_title':'🛡️\x20网络安全防范','cyber_subtitle':'法国的计算机攻击','cyber_intro':'网络钓鱼、数据盗窃、'+_0x18cdf3(0x36a,0x38a)+'了解风险有助于更好地'+_0x18cdf3(0xe42,0x1105)+_0x1c0568(0xad0,0x1142),'cyber_intro_2':_0x1c0568(0x547,0x8f0)+_0x1c0568(0x3a6,-0x420)+_0x1c0568(0x2ad,0x55d)+'。','prevention_themes':_0x18cdf3(0x36e,0x346),'cyber_step1':'🔑\x20第\x201\x20步\x20—\x20'+_0x1c0568(0xa93,0x483),'cyber_step2':'🎣\x20第\x202\x20步\x20—\x20'+_0x1c0568(0x1082,0x13af),'cyber_step3':'💻\x20第\x203\x20步\x20—\x20'+_0x1c0568(0xbee,0x15b1),'cyber_step4':'🗝️\x20第\x204\x20步\x20—\x20'+'钥匙照片与物理安全','cyber_step5':'👤\x20第\x205\x20步\x20—\x20'+_0x18cdf3(0x611,0x94d),'cyber_step6':_0x1c0568(0x57d,-0x210)+'法国法律与黑客行为','cyber_step7':'📨\x20第\x207\x20步\x20—\x20'+_0x1c0568(-0x139,-0xac6),'cyber_step8':_0x1c0568(0x1164,0xb73)+'个人数据与\x20GDPR','cyber_step9':_0x1c0568(0x356,0x41a)+_0x18cdf3(0x12f8,0x1bcf),'cyber_step10':_0x18cdf3(0x1170,0x138a)+_0x1c0568(-0x77,0x7dc)+'？','cyber_conclusion':_0x1c0568(0x60e,0xf70),'cyber_s1_title':_0x18cdf3(0x5d4,0x263)+_0x18cdf3(0xc46,0xd99)+_0x1c0568(0x160,0x175),'cyber_s1_p1':'将密码保存在文本文件'+'、未受保护的笔记或共'+'享文档中，如果文件被'+'盗或设备被入侵，就会'+'暴露您的账户。','cyber_s2_title':_0x1c0568(0x255,0x2d4)+'社会工程与网络钓鱼：'+'您可能是目标','cyber_s2_p1':'网络钓鱼是一种技术，'+_0x1c0568(0x727,0x11be)+'组织，以获取信息、付'+'款或冒险行动。','cyber_s3_title':_0x1c0568(0x8d9,0x40a)+_0x1c0568(0xbee,0xff7),'cyber_s3_p1':_0x1c0568(0xb58,0x1446)+'有多种形式，并非所有'+'形式都以相同方式起作'+'用。','cyber_s4_title':_0x1c0568(0xa30,0x720)+_0x1c0568(0x1da,0x2bc),'cyber_s4_p1':_0x1c0568(0xcd,-0x306)+'钥匙的详细照片可能会'+'泄露对恶意人员有用的'+'特征。','cyber_s5_title':'👤\x20第\x205\x20步\x20—\x20'+_0x18cdf3(0x5d6,0x73f),'cyber_s5_p1':'避免使用基于容易找到'+'或猜测的细节的密码。','cyber_s6_title':'⚖️\x20第\x206\x20步\x20—\x20'+_0x18cdf3(0x337,0x900)+'黑客行为与制裁','cyber_s6_p1':'在法国，对自动化数据'+_0x1c0568(0xc56,0xd50)+_0x1c0568(0xafd,0x1388)+_0x18cdf3(0x13ac,0xea8)+_0x18cdf3(0x8c5,0x358),'cyber_s7_title':'📨\x20第\x207\x20步\x20—\x20'+_0x18cdf3(0x280,-0x6c3)+'盗窃','cyber_s7_p1':'网络钓鱼描述了一种方'+_0x18cdf3(0x98f,0xe46)+_0x1c0568(0x32e,0x73c),'cyber_s8_title':_0x18cdf3(0x151d,0x1801)+'个人数据、GDPR\x20'+'与安全义务','cyber_s8_p1':_0x18cdf3(0x1199,0x1a69)+_0x18cdf3(0x970,0x1238)+_0x18cdf3(0x871,0x6a9),'cyber_s9_title':_0x18cdf3(0x70f,0x10e8)+_0x1c0568(0x1275,0x1bfe)+'明确授权','cyber_s9_p1':'审计、渗透测试或漏洞'+_0x18cdf3(0xbfe,0x939)+'内进行。','cyber_s10_title':_0x1c0568(0xdb7,0xb9a)+_0x1c0568(0x82e,0x225)+_0x18cdf3(0x1247,0x789),'cyber_s10_p1':_0x1c0568(-0xe3,0x4ca)+_0x1c0568(0xc14,0x1209)+'。','cyber_conclusion_title':'🏁\x20总体结论','cyber_conclusion_p1':'网络犯罪分子可以利用'+_0x18cdf3(0x3d4,0x3ae)+_0x18cdf3(0x1671,0x1f16)+'的信息。','legal_notice':_0x18cdf3(0x12e0,0x104c),'legal_info':_0x1c0568(0x12f0,0x12a0),'legal_company':_0x1c0568(0xf59,0x1a1b),'legal_status':'状态：','legal_address':'地址：','legal_hosting':'2.\x20网站托管','legal_ip':'3.\x20知识产权','legal_ip_p1':'网站的所有内容（文本'+_0x18cdf3(0xe16,0xeb7)+'结构）均为\x20GUIL'+_0x18cdf3(0x61b,-0x31a)+'财产。','legal_ip_p2':'严禁未经授权复制、分'+_0x18cdf3(0x456,-0x81),'legal_data_title':'4.\x20个人数据','legal_data_p1':'收集的数据（姓名、电'+'子邮件、地址、电话）'+_0x18cdf3(0x1565,0x13c9)+_0x18cdf3(0x61d,-0x35),'legal_data_p2':_0x1c0568(-0xf3,0x578)+_0x1c0568(0x1ae,0x2b6)+_0x1c0568(0xfce,0xe20)+'公司、平台、第三方服'+'务或国家机构。','legal_data_p3':'根据\x20GDPR，您可'+'以随时通过以下方式请'+_0x1c0568(0xbf3,0x11a2)+'：lanceglor'+'ieuse@gmai'+_0x18cdf3(0x704,-0x310),'legal_cookies_title':_0x18cdf3(0x4f2,0xee7),'legal_cookies_p1':_0x18cdf3(0x1578,0x18a0)+_0x18cdf3(0xf46,0x11d6)+_0x18cdf3(0x1179,0x1bfb)+_0x18cdf3(0xd01,0x584),'legal_cookies_p2':_0x1c0568(0x63d,-0x494)+'ie。','legal_liability_title':_0x18cdf3(0x515,0xd7f),'legal_liability_p1':_0x1c0568(-0x48,-0x39d)+_0x18cdf3(0xa9b,0x775)+'T\x20IV\x20不对与使用'+'网站或产品相关的损害'+'承担责任。','legal_disputes_title':_0x18cdf3(0x161a,0x2059),'legal_disputes_p1':'如果发生争议，将优先'+'寻求友好解决方案。','legal_disputes_p2':'否则，法国法院将具有'+_0x18cdf3(0x7bc,0xa45),'security_audit_title':_0x1c0568(0x1023,0x8fe)+'Nmap\x20&\x20cur'+'l)','security_audit_subtitle':'🔐\x20Shop\x20de\x20'+'Légende\x20网站'+'的安全性','security_audit_p1':'Shop\x20de\x20Lé'+'gende\x20严格监控'+_0x1c0568(-0x102,0x18b)+'站应用了先进、严格且'+'不可绕过的保护措施，'+'以保证可靠的导航、安'+_0x1c0568(0x1032,0x158c)+'性。','security_audit_p2':_0x18cdf3(0x641,0x46c)+_0x1c0568(0x12b4,0xbf5)+_0x18cdf3(0x1518,0x11fe)+_0x18cdf3(0xac7,0x114c)+_0x1c0568(0x8bb,0x159)+'检测到的所有机制都是'+_0x18cdf3(0x14d8,0x15d2)+'。','security_audit_p3':'👉\x20没有风险，没有威'+_0x1c0568(0x7cf,0x2b5),'security_audit_1_title':'🔒\x20安全连接\x20(HT'+'TPS\x20/\x20TLS\x20'+'1.3)','security_audit_1_p1':'网站使用最严格的安全'+_0x18cdf3(0x1648,0x1b0f),'security_audit_1_l1':_0x18cdf3(0x3ba,-0x382),'security_audit_1_l2':_0x1c0568(0x7f1,0xe2f),'security_audit_1_l3':_0x18cdf3(0x116d,0xf45)+'PS','security_audit_1_l4':'TLS\x201.3\x20协议'+_0x1c0568(0xf46,0xda6),'security_audit_1_footer':_0x18cdf3(0x224,-0x388)+_0x1c0568(0x940,0xdb8)+'安全且不存在漏洞。','security_audit_2_title':_0x1c0568(0x3ed,0xda7)+_0x18cdf3(0x6a6,0xb8a),'security_audit_2_p1':'网站的\x20Conten'+'t\x20Security'+'\x20Policy\x20阻止'+'：','security_audit_2_l1':_0x1c0568(0x9ee,0x4e),'security_audit_2_l2':_0x1c0568(0xdd2,0x9b2),'security_audit_2_l3':_0x1c0568(-0x1f6,-0xc17),'security_audit_2_l4':_0x18cdf3(0xa32,-0xa4),'security_audit_2_footer':_0x18cdf3(0xdd7,0xff0)+_0x1c0568(0x10a2,0x148d)+_0x1c0568(0x12e,-0x511)+'严格且锁定的\x20CSP'+'。未检测到危险行为。','security_audit_3_title':_0x1c0568(0xeb5,0x16f9)+'持','security_audit_3_footer':'👉\x20主动保护，不可绕'+_0x1c0568(0x97e,0x92e)+_0x18cdf3(0x413,0xb55),'security_audit_4_title':_0x18cdf3(0x67f,0x694)+_0x18cdf3(0x595,-0x14a),'security_audit_4_p1':'支付由认证银行解决方'+'案\x20Stripe\x20处'+'理：','security_audit_4_l1':_0x18cdf3(0x861,0x7ef),'security_audit_4_l2':'完整加密','security_audit_4_l3':_0x18cdf3(0xa8c,0x268),'security_audit_4_l4':_0x18cdf3(0xd5f,0x1647),'security_audit_4_footer':'👉\x20Nmap\x20确认\x20'+'Stripe\x20端点安'+_0x18cdf3(0x67b,0xca0),'security_audit_5_title':'🧭\x20增强隐私','security_audit_5_p1':'网站应用严格政策：','security_audit_5_l1':_0x18cdf3(0x502,0xf2)+_0x18cdf3(0xf65,0x4ec)+'de>strict-'+'origin-whe'+'n-cross-or'+_0x1c0568(0x18,0xa7c)+'>','security_audit_5_l2':_0x1c0568(-0xf6,0x81f)+'s\x20Policy:\x20'+'无摄像头、无麦克风、'+'无地理定位','security_audit_5_l3':_0x18cdf3(0x12ac,0x1d44)+_0x1c0568(0xba8,0x10cb)+_0x1c0568(0x1051,0xb82)+'nosniff</c'+_0x18cdf3(0x10da,0x13e5),'security_audit_5_l4':_0x1c0568(0x6cd,0xf15)+_0x18cdf3(0x637,0xd07)+'Policy:\x20<c'+'ode>same-o'+'rigin</cod'+'e>','security_audit_5_l5':_0x18cdf3(0xa86,0xcda)+'in-Embedde'+_0x1c0568(0x989,0x4d6)+'<code>cred'+_0x18cdf3(0x154f,0x195b)+_0x18cdf3(0x19f,0xbb4),'security_audit_5_l6':'Cross-Orig'+_0x18cdf3(0x10f5,0x16c3)+_0x18cdf3(0x35d,0x280)+_0x18cdf3(0x924,0x8ad)+_0x18cdf3(0xdeb,0xe6c)+'ode>','security_audit_5_footer':_0x1c0568(0xf29,0xda7)+_0x18cdf3(0xa1e,0x12)+_0x18cdf3(0xed0,0x125e),'security_audit_6_title':'🌍\x20防止外部网站访问'+'\x20(CORS)','security_audit_6_p1':'网站仅允许其自己的域'+'名：','security_audit_6_footer':'👉\x20无泄露，无未经授'+_0x18cdf3(0xb84,0x15c5),'security_audit_7_title':_0x1c0568(0x208,-0x8ba)+_0x18cdf3(0x87a,-0x1d8),'security_audit_7_p1':_0x18cdf3(0x80c,0xe4f)+'el\x20的保护：','security_audit_7_l1':'增强的安全性','security_audit_7_l2':'自动更新','security_audit_7_l3':_0x1c0568(0x4f,0x42a),'security_audit_7_l4':'可靠的全球基础设施','security_audit_7_l5':_0x1c0568(0x222,0x71f),'security_audit_7_footer':'👉\x20Nmap\x20检测到'+'：X-Vercel-'+_0x1c0568(0xa81,0x55f)+_0x1c0568(0xd0c,0xb5e)+'rcel-Mitig'+'ated:\x20chal'+'lenge、Verc'+_0x1c0568(0x1d7,0xaad)+_0x1c0568(0x55f,0x1c7)+'nt。这些机制是正常'+'的、自动的，并且从不'+_0x18cdf3(0xdad,0xbda),'security_audit_8_title':'🛠️\x20持续监控与维护','security_audit_8_p1':_0x1c0568(0xa02,0x99d),'security_audit_8_l1':_0x18cdf3(0xf9f,0xf40),'security_audit_8_l2':_0x18cdf3(0xa83,0xe73),'security_audit_8_l3':_0x18cdf3(0x433,0x7de),'security_audit_8_l4':'反攻击测试','security_audit_8_footer':_0x18cdf3(0x12f4,0x14ff)+'积极的安全，没有缺陷'+'。','security_audit_9_title':'📡\x20技术验证\x20(Nm'+'ap\x20&\x20curl)','security_audit_9_p1':_0x18cdf3(0x1324,0x191e),'security_audit_9_l1':'没有缺陷','security_audit_9_l2':'没有危险方法','security_audit_9_l3':_0x18cdf3(0xe44,0x1764),'security_audit_9_l4':'没有信息泄露','security_audit_9_l5':'没有暴露的服务','security_audit_9_l6':_0x18cdf3(0x16a5,0x1598),'security_audit_9_l7':'对访客没有风险','security_audit_9_nmap1_title':'✔️\x20Nmap\x20—\x20h'+'ttp-header'+'s','security_audit_9_nmap1_text':_0x18cdf3(0x1058,0xd73)+_0x18cdf3(0x62b,0xaa4)+_0x18cdf3(0x6a1,0xba4)+_0x18cdf3(0x165a,0x1324)+'Permission'+_0x1c0568(0x12e6,0x157c)+_0x18cdf3(0x1b5,0x37e)+_0x1c0568(0x592,-0x510)+'tent-Type-'+'Options、严格'+_0x1c0568(0xc7,0x115)+'cel\x20保护。','security_audit_9_nmap1_footer':'👉\x20所有这些元素都是'+'保护措施。没有危险。','security_audit_9_nmap2_title':'✔️\x20Nmap\x20—\x20h'+_0x18cdf3(0xf39,0x8ab)+'s','security_audit_9_nmap2_text':'GET,\x20HEAD,'+_0x18cdf3(0x1400,0x1414)+_0x18cdf3(0x11d6,0x137c),'security_audit_9_nmap2_footer':_0x18cdf3(0xc8d,0xc76),'security_audit_9_nmap3_title':_0x1c0568(0x967,0xf61)+'ttp-title','security_audit_9_nmap3_text':_0x18cdf3(0x7ff,0x9e2)+_0x1c0568(0xd6f,0xa29)+_0x18cdf3(0x85d,0x112f)+'t/plain)','security_audit_9_nmap3_footer':_0x1c0568(0x3bf,0xe6d)+'对访客没有影响。','security_audit_9_nmap4_title':_0x1c0568(0x967,0xdbd)+_0x1c0568(0x6d,0x4d1)+'ty-headers','security_audit_9_nmap4_text':'Nmap\x20确认：HS'+_0x1c0568(0x331,-0xca)+_0x1c0568(0xaec,0xd01)+_0x18cdf3(0x67d,0xbd6)+'ontent-Typ'+'e-Options、'+'安全的\x20Cache-'+'Control。','security_audit_9_nmap4_footer':_0x1c0568(0x141,0x26c)+'\x20标准的安全性。','security_audit_9_nmap5_title':_0x1c0568(0x967,0x2b7)+_0x18cdf3(0xe32,0x470)+'-header','security_audit_9_nmap5_text':'Server:\x20Ve'+_0x1c0568(-0x188,-0x562),'security_audit_9_nmap5_footer':_0x1c0568(0xee0,0xfa8),'security_audit_9_nmap6_title':'✔️\x20Nmap\x20—\x20f'+'ingerprint','security_audit_9_nmap6_text':_0x18cdf3(0x37c,-0x597)+_0x1c0568(0xebf,0x1688)+'4\x20Not\x20Foun'+'d\x20·\x20DEPLOY'+_0x1c0568(0x6bd,0xc43)+_0x18cdf3(0x989,0x2f3),'security_audit_9_nmap6_footer':'👉\x20Vercel\x20对'+'异常请求的内部响应。'+'没有危险。','security_audit_9_nmap7_title':'✔️\x20Nmap\x20—\x20h'+'ttp-enum','security_audit_9_nmap7_text':'443/tcp\x20op'+'en\x20https','security_audit_9_nmap7_footer':_0x1c0568(-0x14e,-0x786)+_0x18cdf3(0x1c2,-0x246)+'的服务。','security_audit_9_curl_title':_0x1c0568(0x63,-0x9c9),'security_audit_9_curl_text':_0x18cdf3(0x97e,0xa23)+'护措施、安全标头、反'+_0x18cdf3(0x61c,-0x26c),'security_audit_9_curl_footer':'👉\x20没有异常，没有缺'+_0x18cdf3(0x14f5,0x1aa0),'security_conclusion_title':'🟢\x20坚定结论','security_conclusion_p1':_0x1c0568(-0xda,0x6f9)+'l\x20分析证明：','security_conclusion_l1':_0x18cdf3(0x513,0x97),'security_conclusion_l2':_0x1c0568(0x96f,0x12e5),'security_conclusion_l3':_0x18cdf3(0x834,0xb06),'security_conclusion_l4':_0x18cdf3(0x74e,0x4c),'security_conclusion_l5':_0x1c0568(0xfdf,0x165e),'security_conclusion_l6':'配置是专业的、严格的'+'且合规的','security_conclusion_final':_0x18cdf3(0x236,-0x183)+_0x18cdf3(0xe21,0xb80)+_0x1c0568(0x450,0x351)+_0x1c0568(0x5c2,0x4c),'security_engagement_title':_0x1c0568(-0x24c,-0x271),'security_engagement_p1':_0x18cdf3(0xcad,0x16a5)+_0x1c0568(0xc6,0x6cf)+'/strong>，我'+_0x18cdf3(0xe0a,0x17ef)+'制。该网站的设计、开'+'发和审计要求与银行环'+'境相同。','security_engagement_p2':_0x18cdf3(0xd3c,0xd64)+_0x1c0568(0xb95,0x268)+_0x1c0568(-0x1f8,-0x7d)+_0x1c0568(0x6f0,-0x3a9)+'strong>立即联'+'系我</strong'+'>：','security_engagement_phone':'<strong>电话'+_0x18cdf3(0x11d0,0x1119)+'\x20<a\x20href=\x22'+'tel:078020'+'4749\x22>07.8'+'0.20.47.49'+_0x1c0568(0x307,0x58b),'security_engagement_email':_0x18cdf3(0x340,0x9ed)+'邮件：</stron'+'g>\x20<a\x20href'+'=\x22mailto:l'+'anceglorie'+'use@gmail.'+_0x18cdf3(0x64f,0x977)+_0x18cdf3(0x6b1,0x10b1)+'gmail.com<'+_0x18cdf3(0xad0,0x6b7),'security_engagement_thanks':'提前感谢您的警惕和对'+_0x1c0568(0x95b,0x1b4),'terms_sale':_0x18cdf3(0xfa8,0x12f4)+_0x1c0568(0x469,0x1ae),'cgv_object':_0x1c0568(0x95f,0x547),'cgv_object_text1':'本销售条款规范\x20GU'+_0x18cdf3(0x71a,0x7e2)+'店提供的产品销售。','cgv_object_text2':'任何订单均意味着完全'+_0x18cdf3(0x13bd,0x1b93),'cgv_products':_0x1c0568(0xfe1,0x1964),'cgv_products_text1':'所提供的产品描述尽可'+'能精确。','cgv_products_text2':_0x18cdf3(0x1314,0x19b2),'cgv_products_text3':'每个产品页面上均标明'+_0x18cdf3(0x8a4,0xe6f),'cgv_price':_0x1c0568(0x1bf,0x41f),'cgv_price_text1':'价格以欧元\x20(€)\x20'+_0x18cdf3(0x56c,0xc8e)+'TTC)。','cgv_price_text2':_0x18cdf3(0x1171,0xd5e)+_0x18cdf3(0xca4,0x148b)+'单验证时生效的价格计'+'费。','cgv_order':_0x18cdf3(0x789,-0x29b),'cgv_order_text1':_0x18cdf3(0x95c,0x496)+_0x1c0568(0xdae,0x16ce)+_0x18cdf3(0x115a,0xc7f),'cgv_order_text2':'订单确认将通过电子邮'+_0x18cdf3(0x7a2,-0x51),'cgv_order_text3':'如果出现付款问题或先'+'前发生争议，卖家保留'+'拒绝订单的权利。','cgv_payment':'5.\x20付款','cgv_payment_text1':_0x1c0568(0xff2,0x15e1)+_0x18cdf3(0x95b,0xe25)+_0x18cdf3(0x7e2,0x58f)+_0x1c0568(0x137,-0x134)+'t=\x22_blank\x22'+_0x1c0568(0x100b,0x62e)+'ener\x22>Stri'+'pe</a>\x20或\x20<'+_0x1c0568(0x0,-0x5b5)+_0x1c0568(0xaa2,0x848)+_0x18cdf3(0x4d1,-0x225)+_0x1c0568(0x2cb,0xa91)+'blank\x22\x20rel'+_0x1c0568(0x84a,0x11d6)+_0x1c0568(0x44a,0xd2f)+'a>\x20提供的选项进行'+'安全付款。','cgv_payment_text2':_0x1c0568(-0x1d3,-0x8cf)+_0x18cdf3(0x417,0xb47),'cgv_delivery':'6.\x20配送','cgv_delivery_text1':_0x18cdf3(0x5cf,0x574)+_0x1c0568(0x12ae,0x1474),'cgv_delivery_text2':'指示性时间：2\x20至\x20'+'5\x20个工作日。','cgv_delivery_text3':_0x18cdf3(0x3d6,0xe4a),'cgv_delivery_text4':'在可用时可以提供追踪'+'号码。','cgv_delivery_text5':_0x18cdf3(0xde2,0x462)+_0x1c0568(0x779,0xe93)+'帮助。','cgv_retractation':_0x1c0568(0x9b3,-0x103)+'天）','cgv_retractation_text1':_0x18cdf3(0x500,0xbc2)+'\x22https://w'+'ww.legifra'+_0x18cdf3(0x29c,-0x28)+_0x1c0568(0x71a,0xe91)+_0x1c0568(0x11e9,0x1568)+_0x1c0568(0x12a6,0x1905)+'032226842/'+'\x22\x20target=\x22'+'_blank\x22\x20re'+_0x18cdf3(0xbe6,0x1290)+_0x1c0568(0xeab,0xe36)+_0x1c0568(0x268,0xcf4)+_0x1c0568(0xec7,0x1178)+'14\x20天的时间行使撤'+_0x1c0568(0x12a4,0x883),'cgv_retractation_text2':'产品必须以其原始状态'+_0x18cdf3(0x1184,0x834),'cgv_retractation_text3':'根据<a\x20href='+'\x22https://w'+'ww.legifra'+'nce.gouv.f'+'r/codes/ar'+'ticle_lc/L'+'EGIARTI000'+_0x18cdf3(0xf20,0x186b)+'2016-08-10'+_0x1c0568(0x1250,0x1676)+'_blank\x22\x20re'+_0x1c0568(0x82d,0x523)+'r\x22>《消费者法典》'+_0x18cdf3(0xba9,0x4b8)+_0x1c0568(0x798,0x7b)+'费用由客户承担，除非'+_0x1c0568(0x434,0x51c),'cgv_retractation_text4':'根据<a\x20href='+_0x18cdf3(0xbd5,0x132d)+'ww.legifra'+_0x1c0568(-0x11d,-0x6f6)+_0x18cdf3(0xad3,0xf3e)+_0x18cdf3(0x15a2,0x1f36)+_0x1c0568(0x12a6,0x1d46)+'032226828/'+_0x18cdf3(0x121a,0x1714)+_0x18cdf3(0x1609,0x1ab6)+_0x1c0568(0xbad,0xd68)+_0x1c0568(0x82d,0x1249)+'r\x22>《消费者法典》'+_0x1c0568(0xf17,0xdd3)+_0x18cdf3(0xdab,0x1081)+'通知撤销后最多\x2014'+'\x20天内完成，最迟在收'+'回产品或证明其已发货'+'后完成。','cgv_return':_0x1c0568(0x664,0xd25),'cgv_return_text1':'退货必须发送至卖家提'+'供的地址。','cgv_return_text2':_0x18cdf3(0x15c9,0xb46)+_0x1c0568(0x517,0x603)+'\x20规则，具体取决于购'+_0x18cdf3(0xafd,0xa4),'cgv_return_text3':'对于客户损坏的产品，'+_0x18cdf3(0xb9b,0x29e),'cgv_legal_warranties':_0x1c0568(0xdd6,0x2e8),'cgv_legal_warranties_text':'卖家适用<a\x20hre'+'f=\x22https:/'+'/www.legif'+_0x18cdf3(0xbf8,0xa7d)+_0x1c0568(0x12c6,0xd0e)+_0x18cdf3(0xd19,0x145a)+'0000060695'+'65\x22\x20target'+_0x18cdf3(0x4fe,0x5cd)+_0x1c0568(0xa69,0x6b1)+'ner\x22>《消费者法'+'典》</a>和<a\x20'+_0x1c0568(0x4df,0x1e3)+_0x1c0568(0x688,0x116)+'gifrance.g'+'ouv.fr/cod'+'es/article'+_0x18cdf3(0x3db,0x2df)+_0x1c0568(0x988,0x945)+_0x1c0568(0x823,0x9bc)+'01-01\x22\x20tar'+_0x1c0568(0x9fa,0x12ac)+_0x18cdf3(0x39c,0xb46)+_0x1c0568(0x25a,0x147)+_0x18cdf3(0x10a7,0xe2b)+'强制性法定保证。','cgv_conformity':_0x1c0568(0x8d2,0xd1f),'cgv_conformity_text1':_0x1c0568(-0x233,-0x90b)+'合规保证（2\x20年）：'+_0x1c0568(0xe70,0x496)+'据<a\x20href=\x22'+_0x1c0568(-0xb8,0x21e)+_0x1c0568(0x2a9,0x5d7)+'ce.gouv.fr'+_0x1c0568(0xb66,0x3d4)+'icle_lc/LE'+_0x1c0568(0xf4b,0x14dd)+'44142579\x22\x20'+'target=\x22_b'+_0x1c0568(0x346,-0x21b)+_0x18cdf3(0x1653,0xf13)+_0x1c0568(0x78f,0x764)+_0x1c0568(0x865,0x9d)+_0x1c0568(0x3ba,0xb97)+_0x1c0568(0x119c,0x1c31)+_0x1c0568(0xbd5,0xca2),'cgv_conformity_text2':_0x18cdf3(0x744,0x10e4)+_0x1c0568(0x1a9,-0x81b)+_0x18cdf3(0x1119,0xe25)+_0x1c0568(0xd9a,0x1432)+'://www.leg'+'ifrance.go'+_0x1c0568(0xb84,0x15e3)+'s/article_'+'lc/LEGIART'+_0x18cdf3(0xf4c,0xc30)+_0x1c0568(0xde7,0x115e)+_0x1c0568(0xdcc,0xdc4)+'et=\x22_blank'+'\x22\x20rel=\x22noo'+'pener\x22>《民法'+_0x1c0568(0xcf7,0xa60)+'</a>，卖家必须保'+'证使产品不适合其预期'+_0x18cdf3(0x357,0x2d3)+'途的隐藏缺陷。','cgv_conformity_text3':'<strong>可能'+_0x18cdf3(0x3b4,-0x416)+_0x1c0568(0x9ff,0x8aa)+_0x18cdf3(0x7bd,0x50b)+'供商业保证，其条件、'+'期限、范围和实施将在'+'产品页面或随产品提供'+'的文件中说明。','cgv_conformity_exclude_title':_0x18cdf3(0x206,-0x7c1),'cgv_conformity_exclude1':'正常磨损；','cgv_conformity_exclude2':_0x18cdf3(0x9fa,0x737),'cgv_conformity_exclude3':_0x1c0568(0xcf8,0xff8),'cgv_data':_0x1c0568(0x92f,0x1015)+_0x18cdf3(0x83a,0x1ad),'cgv_data_text1':'收集的数据（姓名、电'+'子邮件、地址、电话）'+'仅用于订单处理和客户'+'支持，符合<a\x20hr'+'ef=\x22https:'+_0x1c0568(0x70c,0x138)+'europa.eu/'+_0x1c0568(0xf26,0x18e9)+_0x1c0568(0x109f,0x7ae)+'/?uri=CELE'+_0x1c0568(0xc7e,0xd4b)+'0679\x22\x20targ'+'et=\x22_blank'+'\x22\x20rel=\x22noo'+_0x1c0568(0xe5c,0x8f1)+_0x18cdf3(0x3c3,-0x522),'cgv_data_text2':'数据不出售或共享。','cgv_data_text3':'客户可以通过\x20<a\x20'+'href=\x22mail'+'to:lancegl'+_0x18cdf3(0x15db,0xbb8)+'ail.com\x22>l'+_0x18cdf3(0x276,-0x272)+_0x1c0568(0x49a,0x58e)+'com</a>\x20请求'+'访问、更正、可携带性'+_0x18cdf3(0x1674,0xda5),'cgv_liability':_0x18cdf3(0x852,0x55c),'cgv_liability_text1':'卖家仅对与缺陷产品相'+'关的直接损害负责。','cgv_liability_text2':_0x18cdf3(0x1447,0xea9)+_0x18cdf3(0x48d,0x2c2)+_0x1c0568(0x621,0x66a),'cgv_service':_0x18cdf3(0x94a,0x6f4),'cgv_service_text':'如有任何问题：<a\x20'+_0x18cdf3(0x1419,0x1283)+'to:lancegl'+_0x18cdf3(0x15db,0x1b9c)+_0x18cdf3(0xfff,0x5e9)+'anceglorie'+_0x1c0568(0x49a,-0x7e)+_0x1c0568(-0x20c,-0xf7)+_0x1c0568(0x40d,-0x27f),'cgv_mediation':_0x18cdf3(0x139f,0x1823),'cgv_mediation_text1':'如果发生争议，将优先'+'寻求友好解决方案。','cgv_mediation_text2':'如果未达成协议，客户'+'可以通过\x20<a\x20hr'+_0x18cdf3(0x617,0xcde)+_0x1c0568(0xf8c,0x15a9)+_0x1c0568(-0x20,-0x1be)+'fr/mediati'+_0x18cdf3(0x12d3,0x81a)+'target=\x22_b'+_0x18cdf3(0x6ff,0x1070)+_0x1c0568(0x129a,0x184c)+_0x1c0568(0x435,0xac6)+_0x1c0568(-0x26a,0x7bf)+_0x1c0568(0xe59,0xce4)+_0x1c0568(0x872,0x819)+_0x1c0568(0xe4f,0x8f2),'cgv_law':_0x18cdf3(0x12ad,0x1078),'cgv_law_text1':'本条款受法国法律管辖'+'。','cgv_law_text2':'如果发生争议，法国法'+_0x1c0568(0xb8b,0x519)+_0x18cdf3(0x157,0x6d4)+'权规则。','privacy_title':'📄\x20隐私政策\x20(GD'+_0x1c0568(0x3fc,-0x68),'privacy_intro':_0x1c0568(0x504,0x8ed)+_0x1c0568(0x47a,0xe3b)+'说明了收集了哪些数据'+_0x18cdf3(0xd57,0x12d5)+_0x18cdf3(0x13c7,0xc2f)+'利。','privacy_s1_title':'1.\x20收集的数据','privacy_s1_intro':'我们仅收集网站运营和'+'订单处理所必需的数据'+'：','privacy_s1_l1':'姓氏、名字','privacy_s1_l2':'邮政地址','privacy_s1_l3':_0x1c0568(0x202,0x78d),'privacy_s1_l4':'电话号码','privacy_s1_l5':_0x18cdf3(0xa15,0x103d),'privacy_s1_l6':_0x18cdf3(0x269,0x8cf)+_0x18cdf3(0x117d,0x1ba7),'privacy_s1_note':'不收集敏感数据。','privacy_s2_title':_0x18cdf3(0x6ce,-0x1ed),'privacy_s2_intro':_0x18cdf3(0xe17,0x1832),'privacy_s2_l1':_0x18cdf3(0xcae,0x51c),'privacy_s2_l2':_0x1c0568(0x352,-0x752),'privacy_s2_l3':'管理您的客户账户','privacy_s2_l4':'保护网站安全并防止欺'+'诈','privacy_s2_l5':_0x18cdf3(0xdc2,0x397)+'票）','privacy_s3_title':_0x18cdf3(0x8e8,0x5bd),'privacy_s3_intro':_0x18cdf3(0x11b5,0x1a47),'privacy_s3_l1':_0x18cdf3(0xed2,0x14b2),'privacy_s3_l2':_0x1c0568(0x11b3,0x1a57)+'诈）','privacy_s3_l3':'同意（非必要\x20Coo'+'kie）','privacy_s4_title':_0x18cdf3(0x718,0x6cc),'privacy_s4_intro':_0x18cdf3(0x71c,0xcdf)+'提供商可能会处理您的'+'数据：','privacy_s4_l1':_0x1c0568(0xe3c,0x7cf)+'管）','privacy_s4_l2':'Stripe\x20/\x20P'+_0x1c0568(0x8f,-0x39f)+'）','privacy_s4_l3':_0x18cdf3(0xe2a,0xa89)+'认）','privacy_s4_note':_0x18cdf3(0x15e0,0x190b)+'PR\x20或具有同等的保'+'证。','privacy_s5_title':_0x18cdf3(0x14c7,0xed1),'privacy_s5_l1':'处理和开具订单发票所'+_0x18cdf3(0x1220,0x1469)+_0x18cdf3(0x500,0x119)+'\x22https://w'+_0x1c0568(0x763,0x42c)+_0x1c0568(-0x11d,-0x62b)+_0x1c0568(0x71a,0xec2)+_0x18cdf3(0x15a2,0x1607)+_0x1c0568(0x12a6,0xb8f)+'006316689/'+_0x18cdf3(0x1609,0x1b28)+'_blank\x22\x20re'+'l=\x22noopene'+'r\x22>《商法典》第\x20'+_0x1c0568(0xdfa,0x1135)+'/a>。','privacy_s5_l2':_0x1c0568(0x706,-0x194)+'年','privacy_s5_l3':'技术性\x20Cookie'+'：13\x20个月','privacy_s6_title':'6.\x20您的权利','privacy_s6_intro':_0x18cdf3(0x827,0xa46)+_0x1c0568(0x5a9,-0x3bf),'privacy_s6_l1':_0x18cdf3(0x5df,0xa4c),'privacy_s6_l2':'更正','privacy_s6_l3':'删除','privacy_s6_l4':'反对','privacy_s6_l5':'可携带性','privacy_s6_contact':_0x1c0568(-0x117,0x746)+_0x1c0568(0x2fc,-0xe2)+'e@gmail.co'+'m','privacy_s7_title':'7.\x20Cookie','privacy_s7_intro':_0x18cdf3(0x6df,0xd98),'privacy_s7_l1':'技术性\x20Cookie'+_0x1c0568(0x2a6,-0x1dc)+'）','privacy_s7_note':_0x18cdf3(0x568,0xf00)+'\x20Cookie。首次'+_0x1c0568(0xea8,0x100d)+'横幅。','privacy_s8_title':'8.\x20安全','privacy_s8_intro':_0x1c0568(0x112d,0x1778)+'您的数据：','privacy_s8_l1':'HTTPS\x20/\x20TL'+'S\x201.3\x20加密','privacy_s8_l2':'反机器人保护','privacy_s8_l3':'高级安全标头（CSP'+_0x18cdf3(0x159f,0x1155)+'ame-Option'+_0x1c0568(0xee9,0x13d8),'privacy_s8_l4':_0x1c0568(0xaa,0x297)+_0x1c0568(0x1169,0xe5a),'privacy_s8_l5':_0x1c0568(0xdbe,0xe48)+_0x18cdf3(0x9e0,0x13f2)+'\x20认证的支付','privacy_s8_note':_0x18cdf3(0x1562,0x15cf)+'数据。','privacy_s9_title':_0x1c0568(0x5e0,-0x245),'privacy_s9_text':_0x18cdf3(0x14ae,0x1b1e)+_0x1c0568(0x109,0x83e)+_0x1c0568(-0x135,-0x8ed)+'DPR\x20的保证框架约'+'束。','privacy_s10_title':_0x1c0568(0x3f2,-0x2f4),'privacy_s10_text':'有关您的个人数据的任'+_0x18cdf3(0xc7c,0xb03),'privacy_s11_title':_0x18cdf3(0x75c,0x47)+'诉','privacy_s11_text1':_0x1c0568(0x11b4,0x6c5)+'ef=\x22https:'+'//eur-lex.'+'europa.eu/'+'legal-cont'+_0x1c0568(0x109f,0x150f)+'/?uri=CELE'+'X%3A32016R'+'0679\x22\x20targ'+_0x1c0568(0xfca,0x1700)+_0x18cdf3(0xd62,0x9ad)+_0x18cdf3(0x434,0xadd)+'数据保护条例》(GD'+_0x18cdf3(0x580,-0x167)+'\x20href=\x22htt'+_0x1c0568(0x4b4,0x484)+'egifrance.'+_0x1c0568(0x99c,0x8d8)+'da/id/JORF'+'TEXT000031'+'701594\x22\x20ta'+_0x1c0568(0x1233,0xdca)+_0x1c0568(0x6ef,0xa17)+'oopener\x22>《'+_0x18cdf3(0x1251,0xc36)+'制定。','privacy_s11_text2':_0x1c0568(-0x6,0x4b1)+'留\x2010\x20年，根据<'+'a\x20href=\x22ht'+_0x18cdf3(0xe5b,0xcd5)+_0x18cdf3(0xa6d,0x2c5)+_0x1c0568(0x2c8,-0x658)+_0x1c0568(0xbeb,0x6b9)+_0x1c0568(0x112a,0x1277)+'ARTI000006'+'316689/\x22\x20t'+'arget=\x22_bl'+_0x18cdf3(0x3a9,0x508)+'noopener\x22>'+'《商法典》第\x20L12'+_0x1c0568(0x8ce,-0x7)+'。','privacy_s11_text3':_0x18cdf3(0x141e,0xf1d)+_0x18cdf3(0x617,0xc22)+_0x18cdf3(0x66f,-0x24b)+'.fr/fr/pla'+_0x1c0568(-0xb0,0x79a)+_0x18cdf3(0xdb3,0xfd3)+_0x1c0568(-0x1d,-0x8e9)+'opener\x22>CN'+_0x18cdf3(0xeae,0xd4e)+'诉。','faq_title':_0x18cdf3(0xfe5,0x1887),'faq_delivery':'📦\x20配送','faq_ship_time':_0x1c0568(0xda0,0xa5a),'faq_ship_time_text':_0x1c0568(0x70b,-0x3dc)+'据其可用性在\x2024\x20'+_0x1c0568(0xcd8,0xa4a)+'。','faq_delivery_time':_0x1c0568(0xa63,-0x34),'faq_delivery_time_text':_0x1c0568(0xfa7,0x512)+_0x18cdf3(0x947,0x125d)+'要\x202\x20到\x205\x20个工'+'作日送达。','faq_zones':_0x1c0568(0x8b1,0x158),'faq_zones_text':'通过\x20Vinted\x20'+_0x1c0568(0x5e7,0x3d0)+_0x1c0568(0xab9,0x1153)+_0x1c0568(-0x247,-0x689),'faq_tracking':_0x1c0568(-0xbe,0xc7),'faq_tracking_text':_0x18cdf3(0xd96,0x815)+'（如果有）。您可以直'+'接通过承运人的网站或'+'通过\x20Vinted\x20'+'追踪您的包裹。','faq_delay_lost':'如果发生延迟或包裹丢'+'失怎么办？','faq_delay_lost_text':_0x18cdf3(0x57d,0x86a)+'\x20IV\x20客户服务。将'+_0x18cdf3(0x1228,0x184a),'faq_payment':_0x1c0568(0xc35,0x3c6),'faq_payment_q':'付款如何进行？','faq_payment_text':_0x18cdf3(0x948,0x5ed)+'nted\x20或\x20Str'+_0x1c0568(0xb4e,0x4d3),'faq_bank_protection':'我的银行数据受到保护'+'吗？','faq_bank_protection_text':_0x1c0568(0x76a,0x824)+_0x1c0568(0xc51,0x1489)+_0x1c0568(0xbcb,0xa5e)+'安全的支付平台管理。','faq_payment_methods':_0x1c0568(-0xbd,-0x909),'faq_payment_methods_intro':_0x1c0568(-0xdc,-0x604),'faq_payment_card':'信用卡','faq_payment_apple_google':'Apple\x20Pay\x20'+_0x18cdf3(0x8b4,0x1a)+_0x1c0568(0xc18,0xcd1)+')','faq_payment_vinted':'集成\x20Vinted\x20'+'支付','faq_refund':_0x18cdf3(0xb8b,0x82f),'faq_return_q':'我可以退货吗？','faq_return_text':'是的。根据<a\x20hr'+_0x18cdf3(0x617,0x3d9)+_0x1c0568(0xa59,0x314)+_0x18cdf3(0x1557,0xe2e)+'v.fr/codes'+_0x1c0568(0x12e8,0x19c5)+_0x1c0568(0xc1c,0x84f)+'0000322268'+_0x1c0568(0x347,0x163)+_0x1c0568(0xbbb,0x127a)+_0x1c0568(0x100b,0xcfb)+'ener\x22>《消费者'+'法典》第\x20L221-'+'18\x20条</a>，您'+_0x18cdf3(0x7f8,0x747)+'求退货。','faq_how_return':'如何退货？','faq_how_return_text':_0x18cdf3(0x553,0xd30)+'退货地址。产品必须以'+'其原始状态退回。','faq_return_fees':'退货运费由我承担吗？','faq_return_fees_text':_0x1c0568(0x147,-0xf6)+_0x1c0568(0x81c,-0x228)+_0x18cdf3(0xb1c,0xd11)+'nce.gouv.f'+'r/codes/ar'+_0x18cdf3(0x15a2,0xf4b)+_0x1c0568(0x12a6,0x981)+'032226830/'+_0x1c0568(0xd85,0xacf)+'\x22\x20target=\x22'+_0x18cdf3(0xf66,0x83d)+'l=\x22noopene'+_0x18cdf3(0x1264,0x143e)+'第\x20L221-23\x20'+_0x18cdf3(0xe86,0x102d)+'由客户承担，除非是卖'+_0x18cdf3(0x3f5,0x464),'faq_refund_q':'退款如何进行？','faq_refund_text':_0x18cdf3(0x144e,0x1d6b)+_0x18cdf3(0x140d,0x14a0)+'处理。根据<a\x20hr'+'ef=\x22https:'+'//www.legi'+_0x1c0568(0x119e,0xb73)+_0x18cdf3(0x65c,-0x2e6)+'/article_l'+_0x18cdf3(0xfd5,0x180d)+'0000322268'+_0x18cdf3(0x6a7,0xee5)+'-16\x22\x20targe'+'t=\x22_blank\x22'+'\x20rel=\x22noop'+_0x1c0568(0xd93,0x8ec)+'法典》第\x20L221-'+_0x18cdf3(0x1160,0x1497)+_0x1c0568(0x1055,0xc43)+_0x18cdf3(0x84d,0x10d0)+_0x1c0568(0xe94,0x1323)+'发货后进行。','faq_refund_refused_q':_0x1c0568(0x85c,0x372)+_0x18cdf3(0x1201,0xa12),'faq_refund_refused_1':'客户损坏的产品','faq_refund_refused_2':'不完整的产品','faq_refund_refused_3':_0x18cdf3(0x16bf,0x107c),'faq_warranty':_0x18cdf3(0x1349,0x1bb3),'faq_warranty_q':_0x1c0568(0xb3f,0xa02)+_0x1c0568(0xfa2,0xcb5),'faq_warranty_text':_0x18cdf3(0x139,0x54d)+'成的制造缺陷和故障。','faq_legal_warranty_q':_0x18cdf3(0x8e3,0xcc3),'faq_legal_warranty_intro':'所有产品自动享有：','faq_legal_warranty_1':_0x1c0568(0x127c,0x1c60)+'ttps://www'+'.legifranc'+_0x18cdf3(0x14ca,0x1d99)+'codes/arti'+'cle_lc/LEG'+_0x18cdf3(0x2c9,0x520)+'4142579\x22\x20t'+'arget=\x22_bl'+'ank\x22\x20rel=\x22'+'noopener\x22>'+'2\x20年法定合规保证<'+_0x18cdf3(0xe93,0xa5e),'faq_legal_warranty_2':'<a\x20href=\x22h'+'ttps://www'+'.legifranc'+_0x1c0568(0x1111,0x65a)+'codes/arti'+_0x1c0568(0x473,0x72)+_0x18cdf3(0xbb4,0x135d)+_0x18cdf3(0xc0c,0x7bb)+_0x1c0568(0xdd9,0xc95)+_0x18cdf3(0x136f,0x11e8)+_0x18cdf3(0x6ff,0x877)+_0x18cdf3(0x1653,0x18e5)+'>隐藏缺陷保证</a'+'>。','faq_not_covered_q':_0x1c0568(0xf4f,0x8fd),'faq_not_covered_1':'正常磨损','faq_not_covered_2':'因误用造成的损坏','faq_not_covered_3':_0x1c0568(0x3c6,0x8e),'faq_not_covered_4':'未经授权的修改或维修','faq_claim_warranty_q':_0x18cdf3(0x138e,0x14a8),'faq_claim_warranty_intro':_0x1c0568(0x629,0x7d0),'faq_claim_warranty_1':'您的订单号，','faq_claim_warranty_2':_0x18cdf3(0x3c5,-0x300),'faq_claim_warranty_3':'缺陷的照片或视频。','faq_service':'📞\x20客户服务','faq_contact_q':'如何联系\x20GUILL'+_0x1c0568(-0xa9,-0x789),'faq_contact_text':'📧\x20电子邮件：lan'+_0x1c0568(0x2fc,0x6cd)+'e@gmail.co'+'m\x20—\x2048\x20小时内'+_0x1c0568(0xba1,0x25e),'contact_title':_0x1c0568(0xf6a,0x18eb),'contact_intro':'有疑问？有项目？请随'+'时给我们写信。','phone':'电话','location':'位置','france_ille':'法国，伊勒-维莱讷省','hours':_0x18cdf3(0x5ee,-0x28a),'your_name':_0x1c0568(-0x145,-0x439),'your_email':'您的电子邮件地址','your_message':_0x18cdf3(0x154d,0xb1e),'send_message':_0x1c0568(0x44e,0x6fd),'message_prepared':'您的消息已准备好。您'+_0x18cdf3(0xfae,0x1674)+_0x1c0568(0x94b,0xfff),'footer_location':'📍\x20伊勒-维莱讷省\x20'+_0x1c0568(-0x25f,-0xb74)+'\x20–\x20晚上\x208\x20点','footer_payment':_0x1c0568(-0x108,-0x3a3)+_0x1c0568(0xc0b,0x455),'copyright':'©\x202026\x20GUI'+_0x1c0568(0xb9c,0x1412)+_0x18cdf3(0xf0b,0x10b4),'follow_tiktok':_0x18cdf3(0x102b,0xd10)+_0x18cdf3(0x8b1,0xec8),'back_top':_0x1c0568(0x1192,0x1992),'open_chat':_0x18cdf3(0x1364,0x19ec),'advice_chat':_0x1c0568(-0x2c3,-0x25f)+_0x18cdf3(0xd06,0x2b9),'ask_question':_0x1c0568(0x340,0x859),'prevention_harassment':_0x18cdf3(0x221,0xa82),'harassment_is_crime':'骚扰是一种犯罪。它摧'+'毁生命。','harassment_intro_2':'无论是身体上、心理上'+'还是虚拟的，法国法律'+'都会严厉惩罚肇事者。','harassment_intro_3':_0x1c0568(0xbd6,0x136b)+'所面临的刑罚。','moral_harassment':_0x1c0568(0xbbf,0x1104),'school_harassment':_0x18cdf3(0x80e,0x71b),'sexual_harassment':'🤬\x20性骚扰','organized_group':_0x1c0568(0x654,0x391),'where_help':'📞\x20去哪里寻求帮助？','moral_harassment_desc':_0x1c0568(0xcc3,0x566)+_0x18cdf3(0x875,0xf11)+_0x18cdf3(0x59d,0xe31),'basic_penalty':_0x1c0568(0x9ce,0xb61),'aggravating_simple':'简单加重情节','two_aggravating':'两个累积加重情节','up_to_10_years':'最高\x2010\x20年\x20+\x20'+'300,000\x20€','organized_group_desc':'如果确立了骚扰的集体'+_0x1c0568(0x628,0x86)+_0x18cdf3(0xc39,0x1017)+'一条消息。','school_harassment_desc':_0x1c0568(0x2ec,0x267)+'学校的学生实施的精神'+_0x18cdf3(0x13f9,0x1e6e),'itt_over_8':'ITT\x20>\x208\x20天','victim_suicide':'如果受害者自杀或企图'+'自杀','school_harassment_note':'即使在学业结束后，事'+_0x18cdf3(0xe78,0x4fe),'sexual_harassment_desc':'反复带有性意味或性别'+'歧视的言语或行为，损'+_0x18cdf3(0x1301,0xac4)+_0x1c0568(0x12f6,0x15c5),'organized_group_law':_0x1c0568(0xc94,0x1458)+'何规定','collective_responsibility':'⚖️\x20集体责任','collective_desc':_0x1c0568(0x1f5,-0x7f7)+'情节。即使您只发了一'+'条消息、点赞或分享了'+_0x18cdf3(0x116f,0xf68)+_0x18cdf3(0x257,0x354),'online_moral_harassment':_0x1c0568(-0x1fe,-0x821),'sexual_harassment_multiple':'多人性骚扰','multiple_aggravating':_0x18cdf3(0x672,0x766)+'扰','law_punishes_each':_0x1c0568(0x90c,0x3b2)+_0x1c0568(0x8d3,0x529),'dont_stay_alone':_0x1c0568(0xc3c,0x97f)+_0x18cdf3(0x134f,0x89b),'call_3018':_0x18cdf3(0xdc5,0x1255)+'费、匿名电话，每周\x20'+'7\x20天（上午\x209\x20点'+_0x1c0568(0x897,0x127c),'report_17cyber':'🌐\x2017Cyber.'+'gouv.fr\x20—\x20'+'在线报告','report_17cyber_btn':'🚨\x20在\x2017Cybe'+_0x1c0568(0xf73,0x680),'call_3018_btn':'📞\x20拨打\x203018','prevention_footer_note':'信息来自法国刑法典\x20'+'(Légifranc'+'e)。最后更新：20'+_0x18cdf3(0x7a4,0xea5),'chat_hello':'👋\x20您好，欢迎来到\x20'+'<strong>GU'+_0x18cdf3(0x15df,0xb62)+_0x18cdf3(0x3e0,-0x37e),'chat_prompt':_0x1c0568(0xdf5,0xac8),'chat_unknown':_0x1c0568(-0x98,0x9d8),'chat_menu_title':_0x1c0568(0x353,0xe2f)+'：','chat_parrainage_reply':_0x18cdf3(0xf3f,0x8be)+'开设\x20Boursor'+_0x1c0568(0x89f,0x126a)+'Starlink、在'+'\x20Vinted、Cr'+_0x1c0568(0x1000,0x628)+'ole\x20或\x20Octo'+'pus\x20Energy'+'\x20上注册：信息会自动'+'预填！','chat_contact_reply':_0x1c0568(0x177,-0x8dd)+_0x18cdf3(0xb8a,0x1142)+'8\x20点，电话\x20<st'+_0x18cdf3(0xadb,0x96)+'.20.47.49<'+'/strong>。','chat_delivery_reply':'🚚\x20配送<stron'+'g>快速且安全</s'+'trong>。','chat_drone_reply':'🎥\x20<strong>'+'KY108\x20无人机<'+'/strong>（8'+_0x1c0568(-0x218,-0x2bf),'chat_proj_reply':_0x18cdf3(0x23d,-0x2d7)+_0x18cdf3(0xdd9,0x1807)+'仪</strong>'+'（35€）。','chat_endo_reply':_0x1c0568(0x996,0xd5f)+'内窥镜</stron'+'g>（95€）。','chat_beauty_reply':_0x1c0568(0xfcb,0x137f)+'美甲与美容</str'+_0x18cdf3(0x1372,0x115b),'chat_price_reply':_0x18cdf3(0x142d,0xa0c)+_0x18cdf3(0xaa5,0xa2c)+_0x18cdf3(0x14aa,0x1b8d)+'99€\x20•\x20内窥镜：'+_0x1c0568(0xcd9,0xfa8)+'套装：350€','chat_thanks_reply':_0x1c0568(-0x10f,-0x10b),'chat_btn_home':'🏠\x20首页','chat_btn_shop':_0x18cdf3(0x17a,0x174),'chat_btn_vinted':'👕\x20Vinted','chat_btn_beauty':_0x18cdf3(0x972,0x11dc),'chat_btn_parrainage':_0x18cdf3(0x226,0xb63),'chat_btn_about':_0x1c0568(-0x243,-0x17e),'chat_btn_contact':'✉️\x20联系方式','chat_btn_faq':'❓\x20常见问题','chat_btn_cyber':_0x18cdf3(0x1180,0x132c),'chat_btn_harass':_0x18cdf3(0x248,0x7f),'chat_btn_see':'查看','chat_btn_see_section':_0x18cdf3(0x82e,0x49d),'chat_btn_all_pages':_0x1c0568(0x1287,0x1228),'chat_btn_prices':_0x1c0568(0x2bb,-0x540),'chat_btn_contact_me':'📞\x20联系您','chat_btn_delivery':_0x18cdf3(0x7b9,0x47e),'chat_btn_menu':_0x1c0568(0xafa,0x10fa)}},(function(){'use strict';var _0x2c37c5={'mXzSr':function(_0x33ee30,_0xd869d0){return _0x33ee30===_0xd869d0;},'evftU':_0x4fd693(0x1213,0x841),'dYAsw':'NOSCRIPT','liqAw':function(_0xbf9e7a,_0x254ac3){return _0xbf9e7a(_0x254ac3);},'IGWuo':function(_0x49223a){return _0x49223a();},'Cukrr':function(_0x4599b8,_0x5cf1bb){return _0x4599b8==_0x5cf1bb;},'SqxAB':'function','OqQaB':_0x4fd693(0xe4f,0xca8),'aZzpR':_0xeb6962(0x8b5,0xfd8)+'ng'};function _0xeb6962(_0x164f6f,_0x3c3a09){return _0x1c0568(_0x3c3a09-0x2fa,_0x164f6f);}var _0x46f639=new WeakMap(),_0x1f9045=new WeakMap(),_0x48c9eb=new WeakMap(),_0x3ae97a='fr';function _0x44d93d(_0x5b3761){function _0x4bc6bb(_0x5a4130,_0x1485ff){return _0xeb6962(_0x5a4130,_0x1485ff-0x3a5);}return _0x2c37c5['mXzSr']('fr',_0x5b3761)?null:window[_0x4bc6bb(0x105b,0xdf7)+'NS'][_0x5b3761]||null;}function _0x39e4b1(){var _0x486d8a={'EdSjO':function(_0x586b49,_0x5f4312){return _0x586b49!==_0x5f4312;},'iaXRk':_0x2c37c5['dYAsw'],'FBGxB':function(_0xb5cc10,_0x5a2789){return _0xb5cc10+_0x5a2789;}},_0x216ca8=_0x2c37c5['liqAw'](_0x44d93d,_0x3ae97a);function _0x1d5c99(_0x562a52,_0x53b13b){return _0x4fd693(_0x562a52- -0xaf,_0x53b13b);}function _0x3d33dc(_0x855b1e,_0x5b3cff){return _0x4fd693(_0x855b1e- -0x1f4,_0x5b3cff);}document[_0x3d33dc(0x514,0x24c)+_0x3d33dc(0x1c7,0xc1c)]('[data-i18n'+']')[_0x1d5c99(0x14d4,0x11c3)](function(_0x3463f9){function _0x22f227(_0x1ecebb,_0x2f9879){return _0x1d5c99(_0x2f9879-0x1b8,_0x1ecebb);}var _0x4b6c21=_0x3463f9['dataset']['i18n'];function _0x38c21f(_0x463806,_0x18ec1b){return _0x1d5c99(_0x18ec1b- -0x23a,_0x463806);}_0x48c9eb[_0x38c21f(-0x396,-0x152)](_0x3463f9)||_0x48c9eb['set'](_0x3463f9,_0x3463f9['innerHTML']),'fr'===_0x3ae97a?_0x3463f9[_0x38c21f(-0x6f2,0x53)]=_0x48c9eb['get'](_0x3463f9):_0x216ca8&&_0x216ca8[_0x4b6c21]?_0x3463f9['textConten'+'t']=_0x216ca8[_0x4b6c21]:_0x3463f9['innerHTML']=_0x48c9eb[_0x22f227(0x1d8,0x17a)](_0x3463f9);}),document[_0x3d33dc(0x514,-0x568)+_0x1d5c99(0x30c,0x403)](_0x3d33dc(0xf00,0x691)+'-placehold'+'er]')['forEach'](function(_0x3dada9){var _0x424ada=_0x3dada9['dataset'][_0x21ae32(0x127a,0x89a)+_0x44642f(0x1127,0x727)];function _0x21ae32(_0x4bbd0c,_0x32cdb5){return _0x3d33dc(_0x32cdb5- -0x120,_0x4bbd0c);}_0x1f9045['has'](_0x3dada9)||_0x1f9045['set'](_0x3dada9,{'ph':_0x3dada9['placeholde'+'r'],'aria':_0x3dada9[_0x21ae32(0x82,-0xc)+'te'](_0x2c37c5['evftU'])});var _0x85c598=_0x1f9045['get'](_0x3dada9);function _0x44642f(_0x2280cf,_0x53c17b){return _0x3d33dc(_0x2280cf- -0xf4,_0x53c17b);}_0x2c37c5['mXzSr']('fr',_0x3ae97a)?_0x3dada9[_0x44642f(0x128,0x914)+'r']=_0x85c598['ph']:_0x216ca8&&_0x216ca8[_0x424ada]?_0x3dada9[_0x44642f(0x128,-0x964)+'r']=_0x216ca8[_0x424ada]:_0x3dada9[_0x21ae32(-0x2a4,0xfc)+'r']=_0x85c598['ph'];}),document[_0x3d33dc(0x514,0xba5)+_0x1d5c99(0x30c,-0x798)](_0x3d33dc(0xf00,0xe03)+'-aria]')[_0x3d33dc(0x138f,0x139f)](function(_0x495e53){var _0x55ecfe=_0x495e53['dataset'][_0x5de068(0xa05,0x409)];_0x1f9045['has'](_0x495e53)||_0x1f9045[_0x5de068(0xd53,0xf7c)](_0x495e53,{'aria':_0x495e53[_0x5de068(0xa2c,0x618)+'te'](_0x2c37c5[_0x5de068(0x1b8,0x8d4)])});var _0x412446=_0x1f9045[_0x5de068(-0x531,0x381)](_0x495e53);function _0xd49c6a(_0x4a8c6e,_0x211561){return _0x3d33dc(_0x211561-0x9b,_0x4a8c6e);}function _0x5de068(_0x4144cb,_0x19cae1){return _0x3d33dc(_0x19cae1-0x504,_0x4144cb);}'fr'===_0x3ae97a?_0x495e53['setAttribu'+'te'](_0x2c37c5[_0xd49c6a(-0x39b,0x46b)],_0x412446[_0x5de068(0x513,0xd2e)]):_0x216ca8&&_0x216ca8[_0x55ecfe]?_0x495e53['setAttribu'+'te'](_0x2c37c5[_0xd49c6a(0x110,0x46b)],_0x216ca8[_0x55ecfe]):_0x495e53['setAttribu'+'te'](_0xd49c6a(0x18f0,0x10ba),_0x412446['aria']);}),function(_0xaf0747,_0xf8ac89){function _0x2db2ff(_0x14be1e,_0x568a05){return _0x3d33dc(_0x14be1e-0x42b,_0x568a05);}function _0x26392a(_0x32ef24,_0x543a5e){return _0x3d33dc(_0x32ef24-0x488,_0x543a5e);}if(_0xaf0747){for(var _0x1012cc,_0x516057=document[_0x26392a(0x1721,0x1bdb)+_0x2db2ff(0x935,0x498)](_0xaf0747,NodeFilter['SHOW_TEXT'],{'acceptNode':function(_0x110438){var _0x3a45f7=_0x110438['parentElem'+'ent'];function _0x12666a(_0x4c12ea,_0x2d2fd4){return _0x26392a(_0x4c12ea- -0x266,_0x2d2fd4);}if(!_0x3a45f7)return NodeFilter['FILTER_REJ'+'ECT'];var _0x579573=_0x3a45f7['tagName'];function _0x365b76(_0x4e519e,_0x1dd16f){return _0x26392a(_0x1dd16f- -0x2e,_0x4e519e);}return _0x486d8a[_0x12666a(0x4d2,0x686)](-(0x1d5*0x5+0x30+-0x958),['SCRIPT','STYLE',_0x486d8a[_0x12666a(0xe77,0x154b)],'CODE',_0x365b76(0x15e8,0x1022)][_0x365b76(0xc61,0xc94)](_0x579573))?NodeFilter[_0x12666a(0x9a4,0x1302)+'ECT']:NodeFilter[_0x365b76(0x183f,0x1847)+'EPT'];}}),_0x3bf042=[];_0x1012cc=_0x516057['nextNode']();)_0x3bf042['push'](_0x1012cc);_0x3bf042['forEach'](function(_0x21d4cd){var _0x275b74={'VfcmW':function(_0x500de3,_0x398349){return _0x500de3!==_0x398349;},'jFWEX':function(_0x3b2ef8,_0xc19da1){function _0x2c8eb3(_0x35fd0c,_0x10079c){return _0xfb09(_0x35fd0c- -0x1f8,_0x10079c);}return _0x486d8a[_0x2c8eb3(-0xa3,0x86)](_0x3b2ef8,_0xc19da1);}};!function(_0x356158,_0x7b8742){function _0x485faf(_0x4a8215,_0x580dac){return _0xfb09(_0x580dac-0x1fb,_0x4a8215);}_0x46f639['has'](_0x356158)||_0x46f639['set'](_0x356158,_0x356158[_0xbb81b5(0x62b,0xe4d)]);function _0xbb81b5(_0x4a8798,_0x1453ce){return _0xfb09(_0x4a8798-0x312,_0x1453ce);}var _0x2eaebd=_0x46f639[_0x485faf(-0x775,0x2dd)](_0x356158);if(_0x2eaebd&&_0x2eaebd['trim']()){if(_0x275b74[_0xbb81b5(0xc69,0xd8f)]('fr',_0x3ae97a)){var _0x4493e6=_0x356158[_0x485faf(0x457,0xbce)+'ent'];if(_0x4493e6&&_0x4493e6[_0xbb81b5(0x1919,0x1f9b)]&&_0x4493e6[_0xbb81b5(0x1919,0xe4e)]['i18n']&&_0x7b8742&&_0x7b8742[_0x4493e6[_0xbb81b5(0x1919,0xf4e)][_0xbb81b5(0xfac,0x16ed)]])_0x356158['nodeValue']=_0x7b8742[_0x4493e6['dataset']['i18n']];else{var _0x560093=_0x2eaebd[_0x485faf(0x4b4,0x5bf)]();if(_0x7b8742&&Object[_0x485faf(0x65,0x583)][_0xbb81b5(0x152e,0x1c58)+'erty']['call'](_0x7b8742,_0x560093)){var _0x5f07bd=_0x2eaebd[_0xbb81b5(0xbb9,0xd8d)](/^\s*/)[-0x6*0x4fb+0xb7a*-0x1+0x295c],_0x1cfdbe=_0x2eaebd[_0x485faf(0x63b,0xaa2)](/\s*$/)[0x266a+0x2*-0xedb+0x2*-0x45a];_0x356158['nodeValue']=_0x275b74[_0xbb81b5(0xbf8,0x583)](_0x5f07bd,_0x7b8742[_0x560093])+_0x1cfdbe;}else _0x356158[_0x485faf(0x914,0x514)]=_0x2eaebd;}}else _0x356158[_0x485faf(0x269,0x514)]=_0x2eaebd;}}(_0x21d4cd,_0xf8ac89);});}}(document[_0x1d5c99(0x8b6,0xc56)],_0x216ca8);}function _0x4fd693(_0x3eafbc,_0x4b4dd8){return _0x1c0568(_0x3eafbc-0x319,_0x4b4dd8);}window['__getDict']=function(){return _0x2c37c5['liqAw'](_0x44d93d,_0x3ae97a);},window[_0xeb6962(0x69a,0x1096)+'guage']=function(){function _0x1e57c9(_0x309914,_0x2d4140){return _0x4fd693(_0x309914- -0x147,_0x2d4140);}_0x2c37c5[_0x1e57c9(0x893,0x91)](_0x39e4b1);},window[_0xeb6962(-0x8bf,0x143)+'age']=function(_0x3ccde1){function _0x693178(_0x4c202b,_0x1fb7af){return _0xeb6962(_0x4c202b,_0x1fb7af- -0x25);}'fr'===_0x3ccde1||window['TRANSLATIO'+'NS'][_0x3ccde1]||(_0x3ccde1='fr'),_0x3ae97a=_0x3ccde1,document[_0x693178(0xf86,0x613)+'ement']['lang']=_0x3ccde1,_0x2c37c5[_0x693178(0xbbb,0x10c0)](_0x2c37c5['SqxAB'],typeof window[_0x1bf417(0x60a,0x664)+'eChat'])&&window['retranslat'+_0x693178(0x18b4,0xe74)](),_0x2c37c5[_0x693178(0x127,0x996)](_0x39e4b1);var _0x347496=document['getElement'+_0x693178(0x3f,0x4e)](_0x2c37c5['OqQaB']);function _0x1bf417(_0x306f8a,_0x58e8f8){return _0xeb6962(_0x58e8f8,_0x306f8a-0x215);}_0x347496&&(_0x347496[_0x1bf417(0x14d7,0x1856)]=_0x3ccde1);try{localStorage[_0x693178(0x1216,0xde4)](_0x2c37c5[_0x693178(0xca8,0x619)],_0x3ccde1);}catch(_0x5e35c6){}},window['changeLang'+'uage']=function(_0x26246a){function _0x15bd74(_0x32f5ff,_0x474d94){return _0xeb6962(_0x474d94,_0x32f5ff- -0x316);}window['applyLangu'+_0x15bd74(0x117d,0x186f)](_0x26246a);},document[_0x4fd693(0xcd7,0xb3c)+'stener']('DOMContent'+'Loaded',function(){var _0x16b52a=document['getElement'+_0x401108(0x2c6,0xb17)](_0x2c37c5[_0x401108(0x1116,0x152a)]);_0x16b52a&&_0x16b52a['addEventLi'+_0x5cc642(0x1b21,0x1855)](_0x5cc642(0x127f,0xe68),function(_0x4d5cd9){function _0x379136(_0x3560f0,_0x4869be){return _0x5cc642(_0x4869be,_0x3560f0- -0x4c1);}function _0x3b37e0(_0xdabf3d,_0x51aabf){return _0x5cc642(_0xdabf3d,_0x51aabf-0xb5);}window[_0x3b37e0(0x17e0,0x14ae)+_0x379136(0x112a,0x1be8)](_0x4d5cd9['target']['value']);});function _0x401108(_0x508206,_0x223d57){return _0xeb6962(_0x223d57,_0x508206-0x253);}var _0x6dbec2='fr';try{_0x6dbec2=localStorage[_0x401108(0x9b2,0x5b6)]('guillet_la'+'ng')||'fr';}catch(_0x2e4045){}function _0x5cc642(_0x4c5950,_0x27bc1f){return _0xeb6962(_0x4c5950,_0x27bc1f-0x319);}window[_0x401108(0xca5,0x122b)+'NS'][_0x6dbec2]||'fr'===_0x6dbec2||(_0x6dbec2='fr'),'fr'!==_0x6dbec2&&setTimeout(function(){function _0x4b410a(_0x5196ef,_0x511962){return _0x401108(_0x511962- -0x229,_0x5196ef);}window['applyLangu'+_0x4b410a(0x1b4b,0x14bd)](_0x6dbec2);},0xa77*0x1+0x1b28+-0x2509);});}()),(function(){'use strict';function _0x57d8fb(_0xeb39a9,_0x45afad){return _0x18cdf3(_0x45afad-0x75,_0xeb39a9);}function _0x4c659c(_0xf0b488,_0x48cde5){return _0x18cdf3(_0xf0b488-0x29a,_0x48cde5);}var _0x12e1f5={'GPsGV':_0x4c659c(0xb00,0x46b)+'1','CnnCw':function(_0x77511e,_0x1ae5a,_0x216340){return _0x77511e(_0x1ae5a,_0x216340);},'wmxSs':'function','rJQHH':_0x4c659c(0xf81,0x8c6)+'ion','aIjgm':'active','stkCM':'page-','SWfHh':_0x4c659c(0xad1,0x6d)+'de','RthTX':_0x57d8fb(0x78,0x4c2),'cbOue':_0x4c659c(0x13ab,0xb52),'QiXrq':_0x57d8fb(0x1716,0xeb1),'nPVUG':_0x4c659c(0xa9e,0x137e),'HEOFp':function(_0x3b27e0,_0x539610){return _0x3b27e0>_0x539610;},'TaKUY':_0x4c659c(0x86b,0x4b9),'AVzkK':function(_0x2bcda6){return _0x2bcda6();},'Rfutd':function(_0x3c4aa6,_0x1893b6){return _0x3c4aa6/_0x1893b6;},'zYrUr':_0x57d8fb(0xc61,0x1691)+'lume','FmvjK':function(_0x1fd067,_0x31bc52){return _0x1fd067+_0x31bc52;},'lzrSA':'mailto:lan'+'ceglorieus'+'e@gmail.co'+_0x4c659c(0x1955,0x1b39),'RMksZ':function(_0x31d2a5,_0x3c364f){return _0x31d2a5(_0x3c364f);},'sQqIA':_0x4c659c(0xb3f,0x80b),'APXrO':function(_0x57c7a1,_0x18e31c){return _0x57c7a1(_0x18e31c);},'sBHdz':'.desc','COquA':'.details','OBYli':function(_0x13bbc4,_0x13c31b){return _0x13bbc4+_0x13c31b;},'duWbp':function(_0x4a3e7a,_0x4ca602){return _0x4a3e7a+_0x4ca602;},'EAlvk':function(_0x12a508,_0x5cb789){return _0x12a508+_0x5cb789;},'qSUuM':function(_0x58a13c){return _0x58a13c();},'gwkOr':_0x57d8fb(-0x3b4,0x16e),'PwmAu':'smooth','ysTGd':_0x57d8fb(0x65c,0x579)+_0x57d8fb(0x1a1c,0x16a2),'valhm':function(_0x3404c0,_0x44b307){return _0x3404c0===_0x44b307;},'cyvjg':'Aucun\x20prod'+'uit\x20trouvé'+'.','jETzM':_0x57d8fb(0x18b8,0x14ce)+'ty','fbNlr':'Aucun\x20prod'+_0x4c659c(0x523,0x94c)+_0x4c659c(0xff4,0xdcf)+'n\x20autre\x20mo'+'t.','gycKl':function(_0x39a119){return _0x39a119();},'FZGFb':'div','RNMmR':'prix','zwGSw':_0x4c659c(0x5c4,0x9d4)+_0x57d8fb(0x1119,0xb2d),'SEPCt':'chat_hello','WnOCj':_0x57d8fb(0x9ac,0x239),'GJugU':_0x4c659c(0xbbd,0x349),'sPAtg':_0x4c659c(0x9b0,0xcd4),'NcCCN':_0x57d8fb(0x521,0x7eb),'XMucT':function(_0x2df8e4){return _0x2df8e4();},'fUTHd':'parrainage','JYadW':function(_0x2fc06a,_0x1eea5f,_0x1b4ca2){return _0x2fc06a(_0x1eea5f,_0x1b4ca2);},'mlwUw':function(_0x533b29,_0x2fbc09){return _0x533b29(_0x2fbc09);},'MkTdW':function(_0x3d5465,_0x3c1c77){return _0x3d5465-_0x3c1c77;},'DqXSb':_0x4c659c(0x1815,0x1ad9)+'ntion-cybe'+'r','fIHeR':function(_0x22567e,_0x5b84ad){return _0x22567e==_0x5b84ad;},'OyhgB':'[data-nav]','iKiyW':_0x57d8fb(0xc39,0x8e3)+'on','xXJMK':function(_0x1d4cf9,_0x47f921){return _0x1d4cf9(_0x47f921);},'SLoXs':function(_0x33fa02,_0x3d88bd){return _0x33fa02<=_0x3d88bd;},'qczld':'playing','LcNXs':_0x57d8fb(-0x5e5,0x242),'aHmlK':_0x57d8fb(0x162,0x7a8)+_0x57d8fb(0x16e9,0x1581)+']','gmABo':_0x4c659c(0x556,0xd9e),'wyppe':'flex','pIATV':_0x4c659c(0x1690,0x1c30),'vVRsP':'NFD','GqBGD':function(_0x483790,_0x403a50,_0x48ca7c){return _0x483790(_0x403a50,_0x48ca7c);},'OBNWW':function(_0x405f2d,_0x2bd111){return _0x405f2d+_0x2bd111;},'kZtoH':'click','HscyK':'chat-msg\x20','IjjYR':function(_0x1ca179,_0x4d56ff){return _0x1ca179===_0x4d56ff;},'iQcGn':_0x57d8fb(0xa4c,0x9e2),'ujvdx':function(_0x3ed344,_0x5e934c,_0x402cc8,_0x48e5e5){return _0x3ed344(_0x5e934c,_0x402cc8,_0x48e5e5);},'QwCej':_0x4c659c(0xf5c,0xeb7)+_0x4c659c(0x11cb,0x14c6)+_0x57d8fb(0x116f,0xa4d),'AAbVH':'📞\x20Vous\x20con'+_0x4c659c(0x6d9,-0x3ba),'eyNld':'🚚\x20Livraiso'+'n','kDRSI':function(_0x568b88,_0x5b8122){return _0x568b88(_0x5b8122);},'hPGQP':_0x4c659c(0xcd1,0x7e2)+_0x57d8fb(0xf90,0x4ac),'XzARC':function(_0xeb394b,_0x444d13){return _0xeb394b!==_0x444d13;},'pKQCH':'active-lin'+'k','XGjES':'themeToggl'+_0x57d8fb(0xb14,0x902),'hkPnx':_0x57d8fb(-0x30d,0x434)+'elect','npBRH':_0x4c659c(0x5cb,-0x25c)+'n','GCHba':'volumeSlid'+'er','rICXs':function(_0x4b58c6,_0x17e2c9){return _0x4b58c6*_0x17e2c9;},'bJTNv':_0x57d8fb(0x1366,0xc83),'Yacnc':_0x57d8fb(0x8f1,0x962)+'ge','lqlqb':'submit','DSHKN':_0x4c659c(0x8f1,0xe1c)+'t','YjvIu':'clearSearc'+'h','dQvSe':_0x57d8fb(0xcd5,0xa9f)+'lts','OjZEj':'fr-FR','YxLhN':'.product-c'+'ard','WeaiI':'chatbot-wi'+'ndow','VAdrv':_0x57d8fb(0x6d2,0x409)+'ges','wkLVs':_0x4c659c(0xe60,0x3d6)+'ggle','WyhBg':'.chat-clos'+'e','IkORq':'chat-send','mBUex':'keydown','UZsRZ':_0x57d8fb(0x17c9,0xe2a),'vjKOl':_0x4c659c(0xebd,0x13c5),'AfWiP':'chat_btn_h'+_0x57d8fb(0xa03,0x10e8),'juMJh':'🏠\x20Accueil','vjoBX':_0x4c659c(0x8b3,0xd37)+_0x57d8fb(0x711,0x101f),'DfkYt':_0x4c659c(0x10df,0xc79)+'\x20Beauté','LfkzU':'chat_btn_p'+'arrainage','plzRF':'chat_btn_a'+_0x4c659c(0xf22,0x1799),'TWpaw':_0x57d8fb(0xd6b,0xe95),'LLWeA':'✉️\x20Contact','UPOpe':'chat_btn_c'+_0x4c659c(0x14b7,0xdfb),'hybTC':_0x4c659c(0xee1,0xc2a)+_0x4c659c(0xe4a,0xf07),'LKeJL':'banque','hYyel':_0x4c659c(0x4f5,0x213),'YFThT':'satellite','ONjkY':'invitation','cseNl':_0x57d8fb(-0x837,0x173),'kBGoG':'électricit'+'é','rRxMa':_0x4c659c(0x774,0xd01)+_0x4c659c(0x1194,0x193b)+_0x57d8fb(0x760,0x936)+'souscris\x20à'+_0x57d8fb(0x1175,0x1588)+_0x4c659c(0x9b8,0x10ac)+'oi\x20sur\x20Vin'+'ted,\x20au\x20Cr'+_0x57d8fb(0x1921,0x142e)+'ole\x20ou\x20che'+'z\x20Octopus\x20'+_0x57d8fb(0xc20,0x15d6)+_0x4c659c(0x1213,0x1cf9)+'s\x20de\x20parra'+_0x4c659c(0xbcf,0x402)+_0x4c659c(0x9e0,0x1f3)+_0x57d8fb(-0x210,0x36d)+_0x57d8fb(0xeeb,0x14ec)+_0x4c659c(0xe2e,0x494)+_0x57d8fb(0x1054,0xeac),'LZPxf':'contact','GYMkM':_0x57d8fb(0xf0d,0x7c8),'zbvAz':'chat_conta'+_0x4c659c(0x830,0x756),'AWNgn':_0x4c659c(0x607,0x25c),'oCquK':_0x4c659c(0x61b,0x10),'ykzFq':_0x4c659c(0x525,-0x386),'wSyYt':'drone','cXbCg':_0x57d8fb(0x13d4,0xa70),'ivrRn':_0x57d8fb(0x13af,0x137b),'CKldc':_0x4c659c(0xfea,0x1136),'qovPi':_0x57d8fb(0xfa5,0x1035),'MNRrF':'pir','BJkCQ':_0x57d8fb(0x1623,0x1384),'YrvQe':_0x4c659c(0x1616,0x16f7)+'reply','EavOJ':_0x4c659c(0x7a8,0x1c2)+_0x4c659c(0xd04,0x11e5)+'eur\x20LED\x20so'+_0x4c659c(0x3d8,0x622)+_0x4c659c(0xf7c,0x5c5)+'.','csMKK':'chat_btn_s'+'ee','PMRST':'endoscope','uyzqY':_0x57d8fb(0x1158,0xfd3),'rdVjz':_0x57d8fb(0x1177,0x903),'GtvVw':'beaute','GUGIo':'ongle','nJhdj':'chat_beaut'+_0x4c659c(0x7e9,0x7ed),'dpEBA':'💅\x20La\x20secti'+_0x57d8fb(-0x397,0x467)+'>Ongles\x20&\x20'+'Beauté</st'+'rong>.','zaUdr':_0x4c659c(0x8b3,0xd47)+'ee_section','dWWtm':_0x57d8fb(0x945,0x71f)+_0x57d8fb(0x990,0x1d8),'oQuQt':'tarif','BGZPi':_0x4c659c(0xcc8,0x17a6),'NADTg':_0x4c659c(0xde4,0x13ae)+_0x4c659c(0x486,0x3c)+_0x57d8fb(0x9e7,0x13dc)+'\x20•\x20Pack\x20Hi'+'ver:\x2099,99'+_0x57d8fb(0xccc,0x8b5)+_0x57d8fb(0x277,0xcbe)+'\x20Pack\x20Sécu'+'rité\x20Premi'+'um:\x20350€','XUTyB':_0x4c659c(0xcf4,0xf93),'MRWul':'parfait','aeBrN':_0x57d8fb(0x271,0x2c1)+_0x57d8fb(0xd4b,0x568),'hcRPp':'Avec\x20plais'+_0x57d8fb(0x10c7,0xb79),'LnObJ':'prevention'+_0x57d8fb(-0x187,0x589),'YILXN':'harcelemen'+'t','qaIOh':'faq','EXzwA':'mots-de-pa'+_0x57d8fb(-0x69f,0x1a0),'Jlovs':'phishing','vxdFK':_0x4c659c(0xaf9,0x25e)+'s','lsVya':_0x4c659c(0xe32,0xdb9)+_0x57d8fb(0x166a,0x132f),'ywHQw':_0x57d8fb(0x1115,0x131f)+_0x4c659c(0x9d2,0x971),'GsNWI':_0x57d8fb(-0xbd,0x2ff),'OGYfb':_0x4c659c(0x1530,0xe26)+_0x57d8fb(0xc28,0xa05),'yyxPP':'prevention'+'-sexuel','PYjVo':function(_0x5d0a5d,_0x51ed6b){return _0x5d0a5d(_0x51ed6b);},'NBcCo':function(_0x308aa4,_0x110c31,_0x67f711){return _0x308aa4(_0x110c31,_0x67f711);},'EUNuE':function(_0x227d54,_0x4bff90){return _0x227d54===_0x4bff90;},'fEcpJ':_0x57d8fb(0x1401,0xf85)+_0x57d8fb(0x1ce1,0x15a5),'bULWR':'option[val'+_0x4c659c(0x191c,0x1946),'SGVDO':function(_0x493531,_0xcc831f){return _0x493531(_0xcc831f);},'eZpOK':_0x57d8fb(0xde9,0x1304),'mRFNX':'chatbot-ba'+_0x57d8fb(0x1c80,0x1341),'xRFsD':_0x4c659c(0x1230,0x1331)+'at_opened','HZoor':'block'};document['addEventLi'+_0x4c659c(0x1895,0x1c20)](_0x57d8fb(-0x134,0x228)+'Loaded',()=>{function _0x21783d(_0x44f97a,_0xf994c9){return _0x57d8fb(_0xf994c9,_0x44f97a- -0x302);}var _0x18ec6d={'fcwPK':_0x12e1f5[_0xae05d2(0xc2e,0xb6a)],'ggUHU':_0x12e1f5['OyhgB'],'TSxam':'data-nav','IyqHl':'[data-zoom'+']','jRtTt':function(_0x32fcde,_0x16d32e){return _0x32fcde===_0x16d32e;},'pMRBU':_0xae05d2(0x87c,0x269),'csxNK':_0x12e1f5[_0x21783d(0x1154,0x1ac1)],'LfWIj':function(_0x3c84ae,_0x20c6e5){function _0x21b1c6(_0x453056,_0x1f9b6d){return _0xae05d2(_0x1f9b6d-0x55,_0x453056);}return _0x12e1f5[_0x21b1c6(0x16be,0xe6e)](_0x3c84ae,_0x20c6e5);},'OfXAD':_0x12e1f5['zYrUr'],'ryCoG':function(_0x51aa64,_0x6ecb14){return _0x51aa64>=_0x6ecb14;},'SOJCc':function(_0x5f5781,_0x5552ab){function _0xfe321a(_0x2605bf,_0x905e0e){return _0x21783d(_0x905e0e-0x5e4,_0x2605bf);}return _0x12e1f5[_0xfe321a(0x11c4,0x1198)](_0x5f5781,_0x5552ab);},'RJaQU':_0x12e1f5['qczld'],'gaeQj':function(_0x1d0c78,_0x5b236d){return _0x1d0c78+_0x5b236d;},'dXCyv':_0x12e1f5['LcNXs'],'qREJk':function(_0x3fa491,_0x486aca){return _0x3fa491(_0x486aca);},'LPUgc':_0x12e1f5['aHmlK'],'BrwiH':_0x12e1f5['gmABo'],'JGbjy':_0x21783d(0x94e,0x37b),'tcDkH':_0x21783d(0x9e2,0x502),'FKZoY':_0x12e1f5[_0xae05d2(0x185a,0x18dd)],'vgSmN':_0x12e1f5[_0x21783d(0x4bf,-0x5af)],'wcQYr':'none','KoIPD':_0x12e1f5['vVRsP'],'hikwB':function(_0x23916c){function _0xbad279(_0xa36e76,_0x51588f){return _0xae05d2(_0x51588f- -0x54d,_0xa36e76);}return _0x12e1f5[_0xbad279(0xb49,0x45a)](_0x23916c);},'yLGPV':_0x21783d(0x283,-0x16),'xAxLB':function(_0x437b44,_0x26e7a1){return _0x437b44===_0x26e7a1;},'ilWnq':'smooth','bpzDm':_0x21783d(0x126f,0x12f8),'etwAP':function(_0x4379bc,_0x186472){return _0x4379bc===_0x186472;},'GhwVv':function(_0x4eaa00,_0x4b3ebe,_0x5a2dff){return _0x12e1f5['GqBGD'](_0x4eaa00,_0x4b3ebe,_0x5a2dff);},'dYUmv':function(_0x2c2f17,_0x248174){return _0x12e1f5['xXJMK'](_0x2c2f17,_0x248174);},'LgNYp':function(_0x4c35ec,_0x1cc8d1){return _0x12e1f5['OBNWW'](_0x4c35ec,_0x1cc8d1);},'JGdRs':function(_0x40d3be,_0x5a9b69){return _0x40d3be||_0x5a9b69;},'gRYhQ':_0xae05d2(0x10af,0x17a2),'XruSI':'button','HKlJF':_0x21783d(0x133a,0xd38)+'n','JfztF':_0x12e1f5['kZtoH'],'soiVI':'div','gWHQA':_0x12e1f5[_0x21783d(0x52a,0x488)],'RTGHN':function(_0x5a254a,_0x21cc13){return _0x5a254a||_0x21cc13;},'JUnfL':function(_0x2ec465,_0x47866c){return _0x12e1f5['IjjYR'](_0x2ec465,_0x47866c);},'wYcMY':_0x12e1f5[_0x21783d(0x9a1,0x4bb)],'rZVro':'contact','Ivsto':_0x21783d(0x12,-0x459)+'wn','sJjCl':function(_0x4fcce4,_0x171ff7,_0x191eab,_0x39e7ea){function _0x44829d(_0x40c3e3,_0x272949){return _0xae05d2(_0x40c3e3- -0xeb,_0x272949);}return _0x12e1f5[_0x44829d(0x15a3,0x1400)](_0x4fcce4,_0x171ff7,_0x191eab,_0x39e7ea);},'OWRnI':_0x12e1f5[_0xae05d2(0xe84,0x9b1)],'CcWcG':_0x12e1f5[_0xae05d2(0x5e6,-0x4f0)],'kSLMh':_0x12e1f5[_0xae05d2(0xeb5,0x157f)],'MuCqz':_0xae05d2(0xedc,0x75f),'eMKwZ':function(_0x3ac9b0,_0x5c51fc){return _0x3ac9b0(_0x5c51fc);},'mokda':_0x12e1f5['gwkOr'],'ZyrcF':function(_0x5afcb7,_0x26f9f9){function _0x551e1a(_0x1e47e0,_0x3937ff){return _0xae05d2(_0x1e47e0- -0x22d,_0x3937ff);}return _0x12e1f5[_0x551e1a(0x51d,0x2f9)](_0x5afcb7,_0x26f9f9);},'DkCeg':_0xae05d2(0xe8b,0x1298)+'ute','jVmOu':function(_0x28c9d2,_0x1fa97b){return _0x28c9d2(_0x1fa97b);},'gUuCL':_0xae05d2(0xc94,0x719),'SkoHc':function(_0x4db863){return _0x4db863();},'iCJQR':function(_0x3cd6c0,_0x1a31aa){return _0x3cd6c0(_0x1a31aa);},'LaYjZ':_0xae05d2(0x401,-0x4e6)+'t','eUGWP':_0x12e1f5['hPGQP'],'ABMJM':function(_0x5e82d9,_0x173659){return _0x5e82d9!==_0x173659;},'AvUiF':_0x21783d(0xf42,0xa2c),'cwZqs':function(_0x352e25,_0x4f5c50,_0x681afb){function _0x53f9b6(_0x2efbf6,_0x32e372){return _0x21783d(_0x2efbf6-0x107,_0x32e372);}return _0x12e1f5[_0x53f9b6(0xe85,0x11e2)](_0x352e25,_0x4f5c50,_0x681afb);},'lUaBQ':function(_0x50ca65,_0x47c17b,_0x2a2da3){return _0x50ca65(_0x47c17b,_0x2a2da3);},'zLcbW':function(_0x5dc4b1,_0x3cdb3f){return _0x12e1f5['XzARC'](_0x5dc4b1,_0x3cdb3f);},'gegFe':function(_0x24a334,_0x3d3a5d){return _0x24a334(_0x3d3a5d);},'KQLXA':function(_0x99bc30,_0x2453f2){return _0x99bc30(_0x2453f2);},'kxnAv':function(_0x4048b8,_0x3ba123){return _0x4048b8===_0x3ba123;},'ArMGM':function(_0x45416b,_0x50a2da){function _0x221b2e(_0x5e105d,_0x2b84e1){return _0xae05d2(_0x2b84e1-0x171,_0x5e105d);}return _0x12e1f5[_0x221b2e(0x1309,0xdb3)](_0x45416b,_0x50a2da);},'wCdJy':function(_0x30ba32,_0x69a79e){return _0x30ba32%_0x69a79e;},'pwfzQ':_0x12e1f5[_0x21783d(0x92,0x538)]};window[_0x21783d(0x899,-0x94)]=function(_0x14f5b1,_0x38e005){var _0x1fe7dd=_0x12e1f5['GPsGV']['split']('|');function _0x5adab3(_0x42d170,_0x1f1eea){return _0xae05d2(_0x1f1eea- -0x2ba,_0x42d170);}var _0x50e500=0xcd8*0x1+-0x1fd7+-0x12ff*-0x1;function _0x11e443(_0x10c712,_0xb1f3a1){return _0xae05d2(_0x10c712- -0x26e,_0xb1f3a1);}while(!![]){switch(_0x1fe7dd[_0x50e500++]){case'0':var _0x1a2e6={'GpwUR':'active-lin'+'k'};continue;case'1':location[_0x5adab3(0xe05,0x1127)]!==_0x75131e&&history['pushState'](null,null,_0x75131e),document['querySelec'+_0x11e443(0x40f,0x9e9)](_0x5adab3(0x4fe,0x94f))[_0x5adab3(0xdcb,0x158b)](function(_0x496cd2){function _0x4829ef(_0x4cfffa,_0x4cdfd0){return _0x11e443(_0x4cdfd0-0x2fa,_0x4cfffa);}function _0x176276(_0x51304d,_0x3eb50f){return _0x11e443(_0x51304d-0x2f9,_0x3eb50f);}_0x496cd2[_0x176276(0x13de,0x1c69)][_0x4829ef(0x1e42,0x1417)](_0x1a2e6['GpwUR']),_0x496cd2[_0x4829ef(0x183,0x656)+'te']('href')===_0x75131e&&_0x496cd2[_0x4829ef(0x10a2,0x13df)][_0x176276(0x1027,0x83f)](_0x1a2e6['GpwUR']);}),_0x38e005?_0x12e1f5[_0x11e443(0xfbf,0xe5d)](setTimeout,function(){function _0x4951dd(_0x1f384b,_0x148db4){return _0x11e443(_0x1f384b-0x277,_0x148db4);}var _0x342e88=document[_0x166ccc(0x25c,0x794)+_0x4951dd(0x35d,-0x27c)](_0x38e005);function _0x166ccc(_0x2f18df,_0x24db5d){return _0x11e443(_0x24db5d- -0x45,_0x2f18df);}_0x342e88&&_0x342e88[_0x4951dd(0x7b9,0x5f5)+_0x4951dd(0x39e,0xc82)]({'behavior':'smooth','block':'start'});},0x2d*0x1b+0x3*-0x8d9+0x1630):window[_0x11e443(0xec8,0x8e0)]({'top':0x0,'behavior':'smooth'}),_0x12e1f5[_0x5adab3(0x1f7,0xa7d)]==typeof window['reapplyLan'+'guage']&&setTimeout(window['reapplyLan'+'guage'],-0x1*-0xae8+-0xa1b*0x1+-0x55);continue;case'2':void(0x142*-0x2+-0x1f01+0x2185)===_0x38e005&&(_0x38e005=null),document['querySelec'+'torAll'](_0x12e1f5[_0x11e443(0x6d1,0x4e)])[_0x5adab3(0x1efd,0x158b)](function(_0xeb19f5){function _0x20760f(_0x5a2dd9,_0x2d80ab){return _0x11e443(_0x2d80ab-0x1bf,_0x5a2dd9);}function _0x497a61(_0x3f6bf2,_0x18b958){return _0x11e443(_0x18b958-0x1f3,_0x3f6bf2);}_0xeb19f5[_0x20760f(0x1849,0x12a4)][_0x497a61(0x15d3,0x1310)](_0x18ec6d[_0x497a61(0x5bd,0x7c1)]);});continue;case'3':_0x59bd73&&_0x59bd73['classList']['add'](_0x12e1f5['aIjgm']);continue;case'4':var _0x75131e='#'+_0x14f5b1;continue;case'5':var _0x59bd73=document[_0x5adab3(0x14d,0x78d)+'ById'](_0x12e1f5[_0x5adab3(0x1849,0x1389)]+_0x14f5b1);continue;}break;}},document[_0x21783d(0x778,0xdfa)]['addEventLi'+'stener'](_0x12e1f5[_0xae05d2(0x3d4,0xccd)],_0x666702=>{const _0x12e953=_0x666702['target'][_0x2d9ef2(0xab8,0xa12)](_0x18ec6d['ggUHU']);function _0x57db0b(_0x3d4316,_0x75a175){return _0xae05d2(_0x75a175-0x32,_0x3d4316);}function _0x2d9ef2(_0x4c4d51,_0x30c3c5){return _0xae05d2(_0x30c3c5- -0x195,_0x4c4d51);}if(_0x12e953){_0x666702[_0x2d9ef2(0x151d,0xdc5)+'ault']();const _0x283dca=_0x12e953['getAttribu'+'te'](_0x18ec6d[_0x57db0b(0x999,0xf5f)]),_0x2b28f9=_0x12e953[_0x2d9ef2(0xd55,0x435)+'te']('data-secti'+'on');window[_0x2d9ef2(0x1376,0xbb3)](_0x283dca,_0x2b28f9);}const _0x215444=_0x666702[_0x57db0b(0x4d1,0x67f)][_0x57db0b(0x1141,0xbd9)](_0x18ec6d['IyqHl']);_0x215444&&(_0x666702[_0x57db0b(0x1780,0xf8c)+'ault'](),window[_0x2d9ef2(-0x154,0x313)](_0x215444['src']));}),document[_0x21783d(0x778,-0x73)][_0xae05d2(0xf99,0xf21)+'stener']('keydown',_0x172ea2=>{function _0x4efb79(_0x315ece,_0x1af45b){return _0xae05d2(_0x315ece- -0x2c0,_0x1af45b);}function _0x4f2a40(_0x498866,_0x1d083c){return _0xae05d2(_0x498866- -0x55b,_0x1d083c);}if(_0x18ec6d['jRtTt'](_0x18ec6d[_0x4f2a40(0x909,0x1083)],_0x172ea2[_0x4efb79(0x145f,0x1186)])){const _0x5ec938=_0x172ea2['target'][_0x4efb79(0x8e7,0x123d)](_0x18ec6d[_0x4f2a40(0x1a8,-0x4b7)]);_0x5ec938&&(_0x172ea2['preventDef'+_0x4f2a40(0xf77,0x182e)](),window['navigateTo'](_0x5ec938['getAttribu'+'te']('data-nav'),_0x5ec938['getAttribu'+'te'](_0x18ec6d[_0x4efb79(0xe64,0x1432)])));const _0x116a03=_0x172ea2[_0x4f2a40(0xf2,0x8da)][_0x4efb79(0x8e7,0x25b)](_0x18ec6d['IyqHl']);_0x116a03&&(_0x172ea2[_0x4f2a40(0x9ff,0x12a3)+'ault'](),window[_0x4efb79(0x1e8,0x6c0)](_0x116a03[_0x4f2a40(0x817,0xc25)]));}});const _0x257e18=document[_0x21783d(0x598,-0x319)+_0xae05d2(0x354,-0xfb)](_0x12e1f5['XGjES']);_0x257e18&&_0x257e18[_0xae05d2(0xf99,0x10b0)+'stener'](_0x12e1f5['kZtoH'],()=>{document[_0x358fdb(0x93a,0x956)][_0x2229e4(0x1443,0x1b60)][_0x358fdb(0xb9c,0xf3)](_0x358fdb(0x695,0x39e));function _0x2229e4(_0x3edd0c,_0xf739bb){return _0x21783d(_0x3edd0c-0x59f,_0xf739bb);}function _0x358fdb(_0x145624,_0x1329e6){return _0x21783d(_0x1329e6-0x1de,_0x145624);}try{localStorage['setItem'](_0x12e1f5['SWfHh'],document['body'][_0x358fdb(0x17e0,0x1082)]['contains'](_0x12e1f5[_0x2229e4(0x5a9,0x6ed)])?_0x12e1f5['cbOue']:_0x12e1f5[_0x2229e4(0x80f,0x20a)]);}catch(_0x3beb0a){}});const _0xb03796=document['getElement'+_0xae05d2(0x354,0x33c)](_0x21783d(0x577,0xb3a));_0xb03796&&_0xb03796[_0xae05d2(0xf99,0x7e2)+_0xae05d2(0x181d,0x170a)]('click',()=>{window['scrollTo']({'top':0x0,'behavior':'smooth'});}),window['actualiser'+'BoutonHaut']=function(){function _0x1501de(_0x3bbd89,_0x132cc8){return _0xae05d2(_0x132cc8- -0x32b,_0x3bbd89);}var _0x5d3a63=document['getElement'+_0x1501de(-0x38,0x29)](_0x12e1f5['nPVUG']);function _0x555f85(_0x58c199,_0x40647d){return _0xae05d2(_0x40647d- -0x2ac,_0x58c199);}_0x5d3a63&&(_0x12e1f5[_0x1501de(0xda3,0x991)](window[_0x1501de(-0x257,0x3ca)],0x2570+0x1*-0x542+-0x2*0xfb3)?_0x5d3a63[_0x1501de(0xa85,0x1028)]['add'](_0x12e1f5[_0x1501de(0x747,0x770)]):_0x5d3a63['classList']['remove'](_0x12e1f5[_0x1501de(0x119b,0x770)]));},window[_0x21783d(0xaea,0x1200)+_0xae05d2(0x181d,0x12e8)](_0xae05d2(0x893,0x5b9),window[_0xae05d2(0x147c,0x1192)+_0xae05d2(0x7dc,0x1011)],{'passive':!(-0x512+-0x7d*-0x2d+-0x10e7*0x1)});var _0x163776=document[_0xae05d2(0xa47,0xa7a)+_0x21783d(-0x15b,0x2b6)]('player'),_0x459775=document[_0x21783d(0x598,0x811)+_0x21783d(-0x15b,0x150)]('musicSelec'+'t'),_0x1bfcb4=document['getElement'+_0x21783d(-0x15b,-0xa2d)](_0x12e1f5['hkPnx']),_0x23a76d=document[_0xae05d2(0xa47,-0x7d)+_0x21783d(-0x15b,0x213)](_0x12e1f5['npBRH']),_0x473cc2=document['getElement'+_0xae05d2(0x354,0x27c)](_0x12e1f5['GCHba']),_0x4901d6=document['getElement'+_0x21783d(-0x15b,0x79d)]('musicEq'),_0x9aa9be=(function(){function _0x594da3(_0x854b08,_0x11b12b){return _0x21783d(_0x854b08-0x1b5,_0x11b12b);}function _0x3bc43d(_0x39c149,_0x294934){return _0x21783d(_0x39c149-0x244,_0x294934);}try{var _0x4b66c5=_0x18ec6d[_0x3bc43d(0x3a4,0x935)](parseFloat,localStorage['getItem'](_0x18ec6d[_0x3bc43d(0xc08,0x1350)]));return!isNaN(_0x4b66c5)&&_0x18ec6d[_0x594da3(0x6ea,0x491)](_0x4b66c5,-0x1*-0xc1+-0x8a9*-0x1+-0x4b5*0x2)&&_0x18ec6d[_0x3bc43d(0xcbf,0x1422)](_0x4b66c5,0x62e*0x1+-0x2410+0x445*0x7)?_0x4b66c5:-0x1*0x713+-0xbc3+-0x12d7*-0x1;}catch(_0x43d5fa){return-0xe2*-0x8+0x10*-0xdf+-0x24b*-0x3;}}());function _0xae05d2(_0x4a1b94,_0x24de7a){return _0x57d8fb(_0x24de7a,_0x4a1b94-0x1ad);}function _0x228701(){function _0x12e1f3(_0x2c82d3,_0x49c742){return _0xae05d2(_0x2c82d3- -0x3f3,_0x49c742);}function _0x18e221(_0x3c4974,_0x249c48){return _0xae05d2(_0x249c48-0x13,_0x3c4974);}_0x23a76d&&(_0x163776['paused']?(_0x23a76d[_0x18e221(0x67a,0x889)+'t']='▶',_0x23a76d['classList'][_0x12e1f3(0xf98,0x524)](_0x18e221(0x10f2,0x1058)),_0x4901d6&&_0x4901d6[_0x18e221(0xb19,0x1366)]['remove'](_0x18e221(0x6b7,0x806))):(_0x23a76d[_0x18e221(0x29a,0x889)+'t']='⏸',_0x23a76d[_0x18e221(0xc8a,0x1366)][_0x18e221(0x1a94,0xfaf)](_0x18ec6d['RJaQU']),_0x4901d6&&_0x4901d6[_0x12e1f3(0xf60,0x843)]['add'](_0x18e221(0x244,0x806))));}_0x163776&&(_0x163776[_0x21783d(0x840,0x896)]=_0x9aa9be),_0x473cc2&&(_0x473cc2['value']=Math[_0xae05d2(0x3f8,0xd56)](_0x12e1f5[_0x21783d(0xef6,0xddc)](-0x154*0x16+-0xedd+0x2c79,_0x9aa9be))),_0x459775&&_0x1bfcb4&&(_0x1bfcb4['innerHTML']=_0x459775[_0x21783d(0x14f,0x13e)],_0x1bfcb4[_0x21783d(0x10f4,0x14d5)]=_0x459775[_0xae05d2(0x15a3,0xb05)]),window[_0xae05d2(0xcc3,0x12d6)+'ique']=function(_0x30f1e7){function _0x6f336e(_0xac006e,_0x4f8e21){return _0xae05d2(_0x4f8e21- -0x11e,_0xac006e);}try{localStorage[_0x6f336e(0x790,0xfcc)]('guillet_tr'+'ack',_0x30f1e7);}catch(_0x22ff3c){}function _0x4cef4d(_0x38536b,_0x43f4ef){return _0xae05d2(_0x38536b- -0x218,_0x43f4ef);}var _0x17d8dd=!_0x163776[_0x6f336e(0x669,0x229)]&&!_0x163776['ended'];_0x163776['src']=_0x18ec6d[_0x6f336e(0xd91,0x10d8)](_0x18ec6d['dXCyv'],_0x18ec6d['qREJk'](encodeURIComponent,_0x30f1e7)),_0x163776[_0x6f336e(0x9b4,0x5a0)](),_0x459775&&(_0x459775[_0x4cef4d(0x138b,0xbc1)]=_0x30f1e7),_0x1bfcb4&&(_0x1bfcb4[_0x4cef4d(0x138b,0xdcc)]=_0x30f1e7),_0x163776[_0x4cef4d(0xad7,0x154a)]=_0x9aa9be,_0x17d8dd&&_0x163776[_0x4cef4d(0xa0d,0x100d)]()[_0x6f336e(0xe2b,0x1106)](function(){}),_0x228701();},window['togglePlay'+'Musique']=function(){function _0x1aa2b6(_0x4d4b27,_0x4bf433){return _0x21783d(_0x4d4b27-0x643,_0x4bf433);}function _0x216978(_0x326b51,_0x302405){return _0x21783d(_0x326b51-0x11a,_0x302405);}_0x163776['paused']?_0x163776[_0x216978(0x890,0x452)]()['catch'](function(){}):_0x163776[_0x216978(0x3be,0x675)](),_0x12e1f5[_0x216978(0x612,-0x276)](_0x228701);},_0x23a76d&&_0x23a76d['addEventLi'+_0x21783d(0x136e,0x1969)](_0x21783d(0xd8a,0x1772),window[_0xae05d2(0xb96,0x1644)+_0x21783d(0x99f,0xd1d)]),_0x459775&&_0x459775[_0x21783d(0xaea,0xfed)+'stener']('change',_0x321175=>window['changerMus'+'ique'](_0x321175['target']['value'])),_0x1bfcb4&&_0x1bfcb4[_0xae05d2(0xf99,0x4c5)+'stener'](_0x12e1f5[_0x21783d(0xf14,0x1197)],_0x32acc9=>window['changerMus'+'ique'](_0x32acc9['target']['value'])),_0x473cc2&&_0x473cc2['addEventLi'+'stener'](_0xae05d2(0x1754,0x21d1),function(_0x3c02d6){function _0x1b2690(_0x441217,_0x3aba38){return _0xae05d2(_0x3aba38-0xce,_0x441217);}_0x9aa9be=_0x12e1f5[_0xe1fa1c(0x109c,0x13f3)](_0x3c02d6['target'][_0xe1fa1c(0xcb2,0x12f6)],-0x1b6b*-0x1+-0x1*0xdeb+-0xd1c),_0x163776[_0xe1fa1c(0xb26,0xa42)]=_0x9aa9be;function _0xe1fa1c(_0x13041d,_0x277dd9){return _0xae05d2(_0x277dd9- -0x2ad,_0x13041d);}try{localStorage[_0xe1fa1c(0x13eb,0xe3d)](_0x12e1f5['zYrUr'],String(_0x9aa9be));}catch(_0x44312c){}}),_0x163776&&(_0x163776['addEventLi'+_0xae05d2(0x181d,0x1999)](_0x12e1f5['Yacnc'],function(){_0x473cc2&&(_0x473cc2['value']=Math['round']((0x3*0x582+0xb2*0x7+-0x1500)*_0x163776['volume']));}),_0x163776[_0x21783d(0xaea,0xee9)+'stener']('play',_0x228701),_0x163776[_0xae05d2(0xf99,0x690)+'stener'](_0xae05d2(0x753,0x54a),_0x228701),_0x163776['addEventLi'+_0x21783d(0x136e,0x179a)]('ended',_0x228701)),_0x228701(),document['body']['addEventLi'+_0xae05d2(0x181d,0x1382)](_0x21783d(0xd8a,0xb3c),_0x745d30=>{function _0x482c27(_0x2c159a,_0xdab44f){return _0x21783d(_0x2c159a-0x583,_0xdab44f);}function _0xde5b21(_0x5e087b,_0x1b1d62){return _0x21783d(_0x5e087b-0x4cb,_0x1b1d62);}const _0x3392e7=_0x745d30['target'][_0xde5b21(0xbc3,0x85e)](_0x18ec6d['LPUgc']);if(_0x3392e7){const _0x13afad=_0x3392e7[_0xde5b21(0xfa6,0xfe8)+'tSibling'],_0x27a164=_0x18ec6d[_0xde5b21(0xa3b,0x86d)]!==_0x3392e7['getAttribu'+'te']('aria-expan'+'ded');_0x13afad['style'][_0x482c27(0x530,-0x2f6)]=_0x27a164?_0x18ec6d['JGbjy']:'none',_0x3392e7[_0xde5b21(0xc59,0x2c1)+'te']('aria-expan'+_0x482c27(0x79b,0xe02),String(_0x27a164));var _0x107aeb=window['__getDict']?window[_0x482c27(0x11ef,0xaeb)]():null,_0x248ae2=_0x27a164?_0xde5b21(0x1416,0xf45):_0x18ec6d['tcDkH'],_0x346423=_0x27a164?_0x482c27(0xfb1,0x1a3c):'Voir\x20plus';_0x3392e7[_0xde5b21(0x892,0x128e)+'t']=_0x107aeb&&_0x107aeb[_0x248ae2]||_0x346423;}});const _0x48c96f=document[_0xae05d2(0xa47,0x837)+'ById']('contactFor'+'m');_0x48c96f&&_0x48c96f['addEventLi'+'stener'](_0x12e1f5['lqlqb'],_0x3d7798=>{function _0x2fd3da(_0x560f1e,_0x37c6f9){return _0xae05d2(_0x37c6f9- -0x558,_0x560f1e);}function _0x1dd18a(_0x1daa27,_0x49a9eb){return _0xae05d2(_0x1daa27- -0x267,_0x49a9eb);}_0x3d7798[_0x2fd3da(0x750,0xa02)+'ault']();var _0x50eb76=document[_0x2fd3da(-0xe1,0x4ef)+_0x2fd3da(-0x4b9,-0x204)](_0x2fd3da(0xd00,0x917)),_0x50fc49=document['getElement'+'ById'](_0x2fd3da(0xf35,0x920)),_0x5732db=document['getElement'+_0x2fd3da(-0xbed,-0x204)]('message');if(_0x50eb76&&_0x50fc49&&_0x5732db){var _0x20fd18=_0x50eb76['value']['trim'](),_0xaf176=_0x50fc49['value']['trim'](),_0x96ea03=_0x5732db[_0x1dd18a(0x133c,0xaa3)]['trim'](),_0x465e24=window[_0x2fd3da(0xac2,0xbc3)]?window[_0x2fd3da(0x983,0xbc3)]():null;if(_0x20fd18&&_0xaf176&&_0x96ea03){if(/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/[_0x2fd3da(0x10f8,0x81c)](_0xaf176)){var _0x5bb458=_0x12e1f5[_0x2fd3da(0x13cb,0xad9)](_0x12e1f5[_0x1dd18a(0xdca,0x9a9)](_0x12e1f5['lzrSA']+_0x12e1f5['RMksZ'](encodeURIComponent,'Message\x20de'+'\x20'+_0x20fd18),'&body='),encodeURIComponent(_0x12e1f5[_0x1dd18a(0xdca,0x131e)](_0x12e1f5['FmvjK'](_0x12e1f5['sQqIA']+_0xaf176,'\x0a\x0a'),_0x96ea03))),_0x56c9d1=document[_0x1dd18a(0x7e0,0x2e6)+'ById'](_0x2fd3da(0x9ce,-0xbd)+'on');_0x56c9d1&&(_0x56c9d1['hidden']=!(0xe6d+-0x676+-0x7f6),_0x56c9d1[_0x1dd18a(0x2f9,-0x516)]['display']='block'),window['location'][_0x1dd18a(0x118a,0xfbb)]=_0x5bb458;}else _0x12e1f5[_0x1dd18a(0xe49,0x12f0)](alert,_0x465e24&&_0x465e24['invalid_em'+'ail']||_0x2fd3da(-0x399,0x4de)+_0x1dd18a(0xb01,0x141a)+_0x1dd18a(0x338,0xc2e));}else _0x12e1f5[_0x1dd18a(0xa1c,0xfb9)](alert,_0x465e24&&_0x465e24[_0x2fd3da(0x5fa,0x881)+'ields']||_0x1dd18a(0x195,-0x507)+'emplir\x20tou'+_0x1dd18a(0x1633,0x209e)+'ps.');}}),window[_0xae05d2(0x4a8,0x836)]=function(_0x1960af){function _0xfd9680(_0x14a46c,_0x594967){return _0x21783d(_0x594967-0x397,_0x14a46c);}function _0x26b906(_0x2e6b8b,_0x12fa1f){return _0x21783d(_0x12fa1f-0x5a7,_0x2e6b8b);}window['ancienFocu'+'s']=document['activeElem'+'ent'],document['getElement'+'ById']('zoomImg')['src']=_0x1960af,document[_0x26b906(0x1215,0xb3f)+'ById'](_0xfd9680(0x167d,0x1500))[_0x26b906(0x89f,0x658)]['display']=_0x18ec6d['FKZoY'],document['querySelec'+'tor'](_0xfd9680(0x1369,0x1475)+'e')[_0x26b906(0xce6,0x1084)]();},window['fermerZoom']=function(){function _0x4eb69b(_0xb109a7,_0x25fb47){return _0x21783d(_0x25fb47-0x36e,_0xb109a7);}function _0x36de39(_0x34c026,_0x1b77ad){return _0x21783d(_0x34c026- -0xac,_0x1b77ad);}document['getElement'+_0x4eb69b(0x354,0x213)](_0x18ec6d[_0x36de39(0xe51,0xb04)])['style']['display']=_0x18ec6d['wcQYr'],window['ancienFocu'+'s']&&(window['ancienFocu'+'s']['focus'](),window[_0x36de39(-0x1b0,0x13f)+'s']=null);};const _0x56ff71=document[_0x21783d(0x598,0xa67)+_0x21783d(-0x15b,0x789)](_0x12e1f5['pIATV']);_0x56ff71&&_0x56ff71['addEventLi'+'stener'](_0x12e1f5['kZtoH'],_0x30c988=>{function _0x171360(_0x15fee1,_0x370826){return _0xae05d2(_0x15fee1- -0xd2,_0x370826);}function _0x4d7125(_0x4f9e79,_0x2570d6){return _0xae05d2(_0x2570d6- -0x31b,_0x4f9e79);}(_0x18ec6d[_0x171360(0x82c,0x2b2)](_0x30c988[_0x4d7125(0xc66,0x332)],_0x56ff71)||_0x30c988[_0x171360(0x57b,-0x5f)]['classList'][_0x4d7125(0x959,0x859)]('zoom-close'))&&window[_0x171360(0xab1,0xee3)]();});const _0x4c2cf4=document[_0x21783d(0x598,-0x4ba)+'ById'](_0xae05d2(0x7e6,0x41)),_0x55ee9a=document[_0xae05d2(0xa47,0x863)+_0xae05d2(0x354,-0x39c)](_0x12e1f5['DSHKN']),_0x1b3321=document[_0xae05d2(0xa47,0xc85)+'ById'](_0x12e1f5[_0xae05d2(0x122b,0x14a6)]),_0x5412ba=document['getElement'+_0x21783d(-0x15b,-0x8b9)](_0x21783d(0x770,0xeaf)+'estions'),_0xdea881=document['getElement'+_0x21783d(-0x15b,0x3b)](_0x12e1f5['dQvSe']),_0x3cbc5e=document['getElement'+_0xae05d2(0x354,0x3e7)](_0xae05d2(0xe0a,0xdf6)+'us'),_0x511c9a=document[_0xae05d2(0xa47,0x12ac)+_0x21783d(-0x15b,0x63c)]('noProducts');if(_0x4c2cf4&&_0x55ee9a){var _0x15bfc0=new Intl[(_0xae05d2(0xa42,0xfd0))+'at'](_0x12e1f5['OjZEj'],{'style':_0xae05d2(0x12df,0x1cde),'currency':'EUR'});function _0x5be82b(_0x5d0804){function _0x4515be(_0x12e183,_0x410534){return _0xae05d2(_0x12e183- -0x464,_0x410534);}function _0x2e647c(_0x1e2868,_0x38c9cd){return _0xae05d2(_0x1e2868- -0x563,_0x38c9cd);}return _0x18ec6d['qREJk'](String,_0x5d0804)['normalize'](_0x18ec6d[_0x4515be(0x825,0x850)])['replace'](/[\u0300-\u036f]/g,'')[_0x2e647c(0x4db,0x7b0)+'werCase']('fr')['replace'](/[’']/g,'\x20')['replace'](/[^\p{L}\p{N}]+/gu,'\x20')[_0x2e647c(0xb2,0x1c7)]();}var _0x2bb2b5,_0xfcd321=Array['from'](document[_0x21783d(0x51b,-0x4e)+_0xae05d2(0x67d,0xe53)](_0x12e1f5[_0xae05d2(0x980,-0x15b)]))['map'](function(_0x309496){var _0x22fe36=_0x309496[_0x50e0f5(0x1056,0x131d)][_0x50e0f5(0x149e,0x11c9)]||'',_0x5143ff=_0x309496['querySelec'+'tor'](_0x12e1f5[_0x58385e(0xf2e,0x190b)])?_0x309496[_0x50e0f5(0xb72,0x48f)+_0x58385e(0x2f9,0x69b)](_0x58385e(0x18df,0x1219))['textConten'+'t']:'',_0x59d1c3=_0x309496[_0x50e0f5(-0x4f5,0x48f)+'tor'](_0x12e1f5[_0x50e0f5(0xd6,0x1b2)])?_0x309496['querySelec'+_0x50e0f5(-0x938,-0x1)](_0x12e1f5['COquA'])[_0x58385e(0x2fa,0x9d7)+'t']:'';function _0x50e0f5(_0x27e599,_0x19ca1f){return _0xae05d2(_0x19ca1f- -0x53b,_0x27e599);}function _0x58385e(_0x2417cf,_0x53efa2){return _0xae05d2(_0x53efa2-0x161,_0x2417cf);}return{'carte':_0x309496,'nom':_0x22fe36,'prix':Number(_0x309496[_0x58385e(0x1ec5,0x19b9)]['price']),'texte':_0x5be82b(_0x12e1f5['OBYli'](_0x12e1f5['duWbp'](_0x12e1f5[_0x50e0f5(0x16ce,0xca0)](_0x22fe36,'\x20')+_0x5143ff,'\x20'),_0x59d1c3))};}),_0x208e9c=[];function _0x254cb3(){function _0x301606(_0x43d64c,_0x307e57){return _0x21783d(_0x43d64c-0x5a0,_0x307e57);}function _0x4576b7(_0x5bfe70,_0x7c2585){return _0x21783d(_0x5bfe70-0x2f5,_0x7c2585);}_0x5412ba&&(_0x5412ba[_0x301606(0x712,0xdc9)]=!(0x2*-0xa9+0x67+0xeb),_0x55ee9a[_0x301606(0xd2e,0x12c5)+'te'](_0x301606(0xe6c,0x1692)+_0x301606(0x7b8,0x991),'false'));}function _0x98a5f4(){function _0xa50bc(_0x57cbd9,_0x1718a3){return _0xae05d2(_0x1718a3-0x13c,_0x57cbd9);}function _0x28487e(_0x2595a8,_0x3db2c7){return _0xae05d2(_0x2595a8- -0x50,_0x3db2c7);}_0x55ee9a[_0x28487e(0x1553,0xc46)]['trim']()?_0x5412ba&&(_0x5412ba['hidden']=!(-0x6b7*0x1+0x1*0x2291+-0x1bd9),_0x55ee9a[_0xa50bc(0x1360,0xd79)+'te'](_0xa50bc(0x1823,0xeb7)+'ded','true')):_0x12e1f5[_0xa50bc(0x18de,0x162b)](_0x254cb3);}function _0x1f6fc7(_0x1529ab){var _0x3662d1={'TqCXs':_0x4f6237(0x10ec,0x726)+'hlight','ERPwK':_0x12e1f5[_0xdc29a6(0x117f,0xa81)],'NyDbU':function(_0x164bc7,_0x1a96b6){return _0x164bc7(_0x1a96b6);},'WQuEo':function(_0x12981f){return _0x12981f();},'WlLWa':function(_0x81e93c,_0x1584f0,_0xf7717d){return _0x12e1f5['CnnCw'](_0x81e93c,_0x1584f0,_0xf7717d);},'XqMSd':_0x12e1f5[_0xdc29a6(0x414,-0x4af)],'ofMgg':_0xdc29a6(0x58c,0x141),'ErbSK':_0x12e1f5[_0x4f6237(0x439,0xe5b)]};void(0x6*0xa3+0x800*-0x3+0x142e)===_0x1529ab&&(_0x1529ab=!(-0x18f3+0x575+0x137e));var _0xce0e76=_0x5be82b(_0x55ee9a[_0x4f6237(0x107d,0x126c)])[_0xdc29a6(0x10e9,0xacf)](/\s+/)['filter'](Boolean);function _0xdc29a6(_0x2ae189,_0x560794){return _0x21783d(_0x2ae189-0x56a,_0x560794);}if(_0x208e9c=_0xfcd321[_0x4f6237(0x77e,0x8c5)](function(_0x4daad7){function _0x4c219c(_0x44ec6e,_0x4c68cf){return _0xdc29a6(_0x44ec6e- -0x319,_0x4c68cf);}return _0xce0e76[_0x4c219c(0x75f,0x28c)](function(_0x24ddba){function _0x4705d8(_0x3b8d83,_0x3793f7){return _0x4c219c(_0x3793f7- -0x267,_0x3b8d83);}function _0x14a14c(_0x39acda,_0x551d25){return _0x4c219c(_0x551d25- -0x2ff,_0x39acda);}return _0x4daad7[_0x14a14c(0x19a5,0x106a)][_0x4705d8(0x3e5,0x81f)](_0x24ddba);});}),_0xfcd321['forEach'](function(_0x340ee8){function _0x4243a7(_0x4af447,_0x217e2){return _0xdc29a6(_0x4af447- -0x217,_0x217e2);}_0x340ee8[_0x4243a7(0x1554,0x1564)]['hidden']=-(-0xa*0x298+-0xec9+0x28ba)===_0x208e9c['indexOf'](_0x340ee8);}),_0x1b3321&&(_0x1b3321['hidden']=0xa15+0x139e+0x1*-0x1db3===_0x55ee9a['value'][_0xdc29a6(0x5b9,0x1f1)]),_0x511c9a&&(_0x511c9a['hidden']=_0x12e1f5['valhm'](-0x1a72+0x1ca9+-0x1*0x237,_0xce0e76['length'])||_0x208e9c[_0x4f6237(-0x28,0x72f)]>0x32+0xe0+-0x112),_0xdea881&&_0xdea881['replaceChi'+_0xdc29a6(0xd67,0xf53)](),!_0xce0e76[_0x4f6237(-0x28,0x4ba)])return _0x3cbc5e&&(_0x3cbc5e[_0x4f6237(0x350,0xa6e)+'t']=''),void _0x254cb3();var _0x56dd3e=window['__getDict']?window[_0xdc29a6(0x11d6,0xeb8)]():null;function _0x4f6237(_0xaaf1df,_0x325736){return _0x21783d(_0xaaf1df- -0x77,_0x325736);}if(_0x3cbc5e&&(_0x3cbc5e['textConten'+'t']=0x1*-0x613+-0x1*-0x24d4+0x1*-0x1ec1===_0x208e9c[_0x4f6237(-0x28,-0x4e5)]?_0x56dd3e&&_0x56dd3e['no_product'+_0x4f6237(0xc93,0x1441)]||_0x12e1f5[_0x4f6237(0x87e,-0x17c)]:_0x208e9c['length']+'\x20'+(_0x56dd3e&&_0x56dd3e[_0xdc29a6(0x7ac,0xb1f)+_0x4f6237(0x113c,0x186c)]||'produit(s)'+'\x20trouvé(s)'+'.')),_0x208e9c['length'])_0x208e9c['forEach'](function(_0x284325){function _0x607a2d(_0x207dae,_0x133e0d){return _0xdc29a6(_0x207dae- -0x39b,_0x133e0d);}var _0x33ebf7={'gDlqE':_0x3662d1[_0x607a2d(0x14a6,0x1bc1)]},_0x5306bc=document['createElem'+_0x607a2d(0xaf2,0xfd0)]('li'),_0x52079e=document['createElem'+_0x2ce3d2(-0x44,0xa53)]('a'),_0x49268c=document['createElem'+_0x2ce3d2(0x1304,0xa53)](_0x3662d1['ofMgg']),_0x59f783=document['createElem'+_0x2ce3d2(0xdac,0xa53)](_0x3662d1['ofMgg']);function _0x2ce3d2(_0x4ee6db,_0x42625d){return _0xdc29a6(_0x42625d- -0x43a,_0x4ee6db);}_0x52079e[_0x2ce3d2(0x16bd,0x151a)]='search-res'+'ult',_0x52079e[_0x2ce3d2(0x1a93,0x1072)]='#'+_0x284325['carte']['id'],_0x49268c['textConten'+'t']=_0x284325['nom'],_0x59f783['textConten'+'t']=_0x15bfc0['format'](_0x284325[_0x2ce3d2(-0x795,0x2ec)]),_0x59f783[_0x2ce3d2(0x139b,0x151a)]=_0x3662d1['ErbSK'],_0x52079e[_0x607a2d(0x736,-0x2dd)](_0x49268c,_0x59f783),_0x5306bc['appendChil'+'d'](_0x52079e),_0xdea881&&_0xdea881['appendChil'+'d'](_0x5306bc),_0x52079e[_0x607a2d(0xcb9,0x1536)+'stener']('click',function(_0x3b010a){function _0x39d3df(_0x342468,_0x7c0820){return _0x607a2d(_0x7c0820- -0x12b,_0x342468);}function _0x8bcf7(_0x5412fc,_0x46730d){return _0x607a2d(_0x46730d-0x1bd,_0x5412fc);}var _0x2e343b={'tgtlS':_0x3662d1['TqCXs']};_0x3b010a['preventDef'+'ault'](),window['navigateTo'](_0x3662d1['ERPwK']),_0x55ee9a['value']=_0x284325['nom'],_0x3662d1['NyDbU'](_0x1f6fc7,!(0x714+0x14cc+0x593*-0x5)),_0x3662d1[_0x39d3df(0x610,0xfe4)](_0x254cb3),_0xfcd321['forEach'](function(_0x384feb){function _0x3299db(_0x29bf9c,_0x18ea62){return _0x39d3df(_0x18ea62,_0x29bf9c-0x31b);}function _0xcc62c5(_0x16d422,_0x4fb1bd){return _0x39d3df(_0x4fb1bd,_0x16d422-0x322);}_0x384feb[_0x3299db(0x15c0,0x1417)][_0xcc62c5(0x126a,0x16c8)][_0xcc62c5(0x12a2,0xa5e)](_0x2e343b['tgtlS']);}),_0x284325['carte']['classList']['add'](_0x3662d1['TqCXs']),_0x3662d1[_0x39d3df(0xa8a,0x246)](setTimeout,function(){function _0x21c90d(_0x23584a,_0x52acbe){return _0x8bcf7(_0x23584a,_0x52acbe- -0xea);}function _0x50177d(_0x177a66,_0x234697){return _0x8bcf7(_0x177a66,_0x234697-0x172);}_0x284325['carte'][_0x50177d(0x68f,0xfdb)]({'preventScroll':!(0x171+-0xc4a+0xad9*0x1)}),_0x284325['carte'][_0x21c90d(-0x12e,0x5a3)+'View']({'behavior':_0x33ebf7['gDlqE'],'block':_0x21c90d(0x155b,0x1511)});},-0x565*0x4+-0x2455+0x136f*0x3),setTimeout(function(){function _0x5e1500(_0x325fe4,_0x1fceaa){return _0x8bcf7(_0x325fe4,_0x1fceaa-0x53);}_0x284325[_0x5e1500(0xfa4,0x15e0)]['classList']['remove']('search-hig'+'hlight');},0x528+-0xe9e+0x133a);});});else{var _0x3b2449=document['createElem'+_0xdc29a6(0xe8d,0x1300)]('li');_0x3b2449['className']=_0x12e1f5['jETzM'],_0x3b2449[_0x4f6237(0x350,0xd18)+'t']=_0x56dd3e&&_0x56dd3e['no_product'+_0x4f6237(0xded,0x521)]||_0x12e1f5[_0xdc29a6(0x13c0,0x10d6)],_0xdea881&&_0xdea881['appendChil'+'d'](_0x3b2449);}_0x1529ab&&_0x12e1f5['gycKl'](_0x98a5f4);}_0x55ee9a['addEventLi'+_0x21783d(0x136e,0x1122)](_0x21783d(0x12a5,0x16ed),function(){clearTimeout(_0x2bb2b5),_0x2bb2b5=setTimeout(function(){_0x18ec6d['hikwB'](_0x1f6fc7);},0xe1f+0x1457+-0x21ae);}),_0x55ee9a[_0xae05d2(0xf99,0xb58)+'stener']('focus',function(){function _0x20866f(_0x21a083,_0x5b15ae){return _0xae05d2(_0x21a083- -0x265,_0x5b15ae);}_0x55ee9a['value']['trim']()&&_0x12e1f5[_0x20866f(0x742,0xf65)](_0x1f6fc7);}),_0x55ee9a[_0x21783d(0xaea,0xe3d)+_0x21783d(0x136e,0xabc)](_0x21783d(0x11fc,0x1280),function(_0x4d6530){function _0xdd5007(_0xdc8724,_0x22c6ce){return _0xae05d2(_0xdc8724- -0x596,_0x22c6ce);}function _0x2ef7e5(_0x5006f0,_0xe599a8){return _0xae05d2(_0xe599a8-0x139,_0x5006f0);}if(_0x18ec6d['jRtTt'](_0x18ec6d[_0xdd5007(0x10ae,0xc9d)],_0x4d6530[_0xdd5007(0x1189,0x991)])){var _0x9f6990=_0xdea881?_0xdea881[_0xdd5007(0x434,-0x2af)+_0xdd5007(-0x5c,-0x624)]('a'):null;_0x9f6990&&(_0x4d6530['preventDef'+_0xdd5007(0xf3c,0x9f7)](),_0x18ec6d['hikwB'](_0x98a5f4),_0x9f6990[_0x2ef7e5(0x6f8,0x10c5)]());}_0x18ec6d['xAxLB'](_0x2ef7e5(0x156d,0x1581),_0x4d6530['key'])&&_0x18ec6d['hikwB'](_0x254cb3);}),_0x4c2cf4[_0xae05d2(0xf99,0x1586)+_0xae05d2(0x181d,0x1ae6)](_0x12e1f5[_0xae05d2(0x83a,0x825)],function(_0x3d1e3a){function _0x2d05bc(_0x5a3949,_0x4e160e){return _0xae05d2(_0x4e160e- -0x1f6,_0x5a3949);}function _0x138fb0(_0x4fb0c5,_0x3068a2){return _0xae05d2(_0x3068a2- -0x546,_0x4fb0c5);}_0x3d1e3a['preventDef'+_0x138fb0(0xae7,0xf8c)](),_0x1f6fc7(!(0x470+-0x215e*-0x1+-0x25cd)),_0x18ec6d['hikwB'](_0x254cb3),_0x55ee9a[_0x138fb0(0xb1e,0x105d)]['trim']()&&(_0x18ec6d['etwAP'](-0x8c1+0x200*-0xc+0x1*0x20c2,_0x208e9c['length'])?(window['navigateTo']('accueil'),_0x55ee9a[_0x2d05bc(0x1515,0x13ad)]=_0x208e9c[-0x5d2+-0x1*-0x8d7+-0x305]['nom'],_0x1f6fc7(!(0xb*-0x341+0x783+0x1*0x1c49)),_0x254cb3(),_0x208e9c[0x1*0x21a0+-0x1*0x2434+0x294]['carte'][_0x138fb0(0x973,0x26a)+'View']({'behavior':'smooth','block':_0x18ec6d[_0x2d05bc(0x39e,0xbfa)]})):(window[_0x138fb0(-0x2ee,0x802)]('accueil'),_0x18ec6d['GhwVv'](setTimeout,function(){function _0x164a27(_0x1a2871,_0x4f4c27){return _0x138fb0(_0x1a2871,_0x4f4c27-0x663);}var _0xab37e2=document[_0x164a27(0xa5c,0xb64)+'ById'](_0x15efb1(0xdb7,0xf5f));function _0x15efb1(_0xa1d703,_0x2f1572){return _0x138fb0(_0xa1d703,_0x2f1572-0x5c9);}_0xab37e2&&_0xab37e2[_0x164a27(0x5a9,0x8cd)+_0x15efb1(0x7de,0x418)]({'behavior':_0x18ec6d[_0x15efb1(0x1127,0xb24)],'block':_0x18ec6d[_0x164a27(0x976,0xf0d)]});},-0x245f*0x1+-0x9ed+0x2eb0)));}),_0x1b3321&&_0x1b3321[_0xae05d2(0xf99,0xf83)+'stener'](_0xae05d2(0x1239,0x1177),function(){function _0x3803ed(_0x231f2d,_0x5e913d){return _0x21783d(_0x5e913d-0x35b,_0x231f2d);}function _0x32608b(_0x291d41,_0x1eed0d){return _0x21783d(_0x1eed0d-0x47c,_0x291d41);}_0x55ee9a['value']='',_0x18ec6d[_0x32608b(0x349,0x35f)](_0x1f6fc7,!(-0x5f*0x9+0x1a4d*-0x1+0x1da5)),_0x55ee9a[_0x32608b(0x8ad,0xf59)]();}),document['addEventLi'+_0xae05d2(0x181d,0x1925)](_0x21783d(0xd8a,0xc2f),function(_0x1435ba){_0x4c2cf4&&!_0x4c2cf4['contains'](_0x1435ba['target'])&&_0x12e1f5['gycKl'](_0x254cb3);});}const _0x6bb835=document['getElement'+'ById'](_0x12e1f5[_0xae05d2(0x130c,0x1177)]),_0xa00c9d=document['getElement'+_0xae05d2(0x354,0x976)](_0x12e1f5['VAdrv']),_0x3ae4c4=document['getElement'+'ById']('chat-input'),_0x310607=document[_0xae05d2(0xa47,0x68a)+_0x21783d(-0x15b,-0x5d)](_0x12e1f5[_0xae05d2(0x976,0x96a)]),_0x1c48d4=document[_0x21783d(0x51b,0xf56)+_0x21783d(0x8b,0x8d8)](_0x12e1f5[_0x21783d(0x26b,0x52e)]),_0x10e195=document[_0x21783d(0x598,0x51a)+_0x21783d(-0x15b,0x7b9)](_0x12e1f5[_0x21783d(0x121a,0xe05)]);function _0xf06f84(_0xa92c64,_0x1ae369){function _0x211766(_0x40bdd7,_0x7bc73d){return _0x21783d(_0x7bc73d- -0x1b,_0x40bdd7);}function _0x2c25d9(_0x433b2d,_0x1fee5c){return _0x21783d(_0x433b2d- -0x11,_0x1fee5c);}if(_0xa00c9d){var _0x3baa90=document[_0x211766(0x6dd,0x1b1)+_0x211766(0x413,0x908)](_0x2c25d9(0xc8c,0xfb2));_0x3baa90[_0x211766(0x1388,0x13cf)]=_0x18ec6d[_0x211766(-0x2d5,0x64c)](_0x2c25d9(0x12e8,0x80f),_0x18ec6d['JGdRs'](_0x1ae369,_0x18ec6d[_0x211766(-0xf,0x146)])),_0x3baa90[_0x211766(-0x4c9,0x3ac)+'t']=_0xa92c64,_0xa00c9d['appendChil'+'d'](_0x3baa90),_0xa00c9d[_0x2c25d9(0x3fb,0xbc6)]=_0xa00c9d[_0x211766(0x40b,0x44e)+'ht'];}}function _0x407ef6(_0x9c55a,_0x272a1b,_0xe4fea0,_0x1767d7){function _0x235719(_0x128c61,_0x4fba2c){return _0xae05d2(_0x128c61- -0x40e,_0x4fba2c);}function _0x264391(_0x123582,_0x51d84b){return _0xae05d2(_0x51d84b- -0x1fe,_0x123582);}var _0x1f6aef={'MHqKe':'user','rmiiD':_0x18ec6d[_0x235719(0x80d,0x108f)],'vqhRI':_0x18ec6d[_0x235719(0x91f,0x223)],'laVUK':_0x18ec6d[_0x264391(0xc99,0x16ac)]};if(_0xa00c9d){var _0x3ea9e1=document['createElem'+_0x235719(0x9c4,0x688)](_0x18ec6d['soiVI']);if(_0x3ea9e1['className']=_0x18ec6d['gaeQj'](_0x18ec6d['gWHQA'],_0x18ec6d['RTGHN'](_0x272a1b,'bot')),_0x1767d7&&(_0x3ea9e1[_0x264391(0x12a5,0x165a)]['i18nKey']=_0x1767d7),_0x3ea9e1[_0x264391(0xdf7,0x400)]=_0x9c55a,_0xa00c9d['appendChil'+'d'](_0x3ea9e1),_0xe4fea0&&_0xe4fea0[_0x235719(0xf0,0xf4)]){var _0x550629=document[_0x264391(0x7b4,0x47d)+_0x235719(0x9c4,0x37d)](_0x235719(0xd3e,0x1252));_0x550629[_0x235719(0x148b,0x1052)]='chat-optio'+'ns',_0xe4fea0['forEach'](function(_0x1c3f21){function _0x4c79f2(_0x5a4e5d,_0x186a60){return _0x235719(_0x186a60-0xac,_0x5a4e5d);}function _0x4d4d5c(_0x4d4785,_0x5e3833){return _0x235719(_0x4d4785- -0x1a6,_0x5e3833);}var _0x53a0cc={'nSQYX':function(_0x67a839,_0x8c159,_0x28cd00){return _0x67a839(_0x8c159,_0x28cd00);},'SCmoL':_0x1f6aef['MHqKe']},_0x3e9bf7=document['createElem'+'ent'](_0x1f6aef[_0x4c79f2(0x1562,0x14d3)]);_0x3e9bf7['type']=_0x4c79f2(0x74,0x9d2),_0x3e9bf7[_0x4c79f2(0xf94,0x1537)]=_0x1f6aef[_0x4d4d5c(0xf44,0xe6c)],_0x3e9bf7['textConten'+'t']=_0x1c3f21[_0x4c79f2(0xe59,0x14ab)],_0x1c3f21[_0x4d4d5c(0x1061,0x894)]&&(_0x3e9bf7['dataset']['i18nKey']=_0x1c3f21[_0x4c79f2(0xbea,0x12b3)]),_0x3e9bf7['addEventLi'+'stener'](_0x1f6aef['laVUK'],()=>{function _0x2af4c1(_0x3d9a4a,_0x41227f){return _0x4c79f2(_0x41227f,_0x3d9a4a-0x3fc);}_0x53a0cc['nSQYX'](_0xf06f84,_0x1c3f21[_0x2af4c1(0x18a7,0x123c)],_0x53a0cc['SCmoL']),_0x1c3f21['action']();}),_0x550629[_0x4c79f2(0x1bf8,0x141a)+'d'](_0x3e9bf7);}),_0xa00c9d['appendChil'+'d'](_0x550629);}_0xa00c9d[_0x264391(0x60e,0x6bd)]=_0xa00c9d[_0x264391(0xb41,0x71a)+'ht'];}}function _0x7b9029(_0x4ed6dc,_0x1842a1,_0x2052ba){function _0x21d5c7(_0x5c3a82,_0x3ac904){return _0x21783d(_0x3ac904-0x46,_0x5c3a82);}function _0x37f359(_0x3be803,_0xc64041){return _0x21783d(_0x3be803-0x2f0,_0xc64041);}if(_0xa00c9d){var _0x4d9cac=document['createElem'+_0x21d5c7(0xef9,0x969)](_0x12e1f5['FZGFb']);_0x4d9cac[_0x37f359(0x16da,0xdcc)]=_0x21d5c7(0xd85,0x329)+'ot',_0x4d9cac['innerHTML']=_0x37f359(0x133d,0x1192)+_0x37f359(0x854,0xf57)+_0x21d5c7(0x1767,0xdf6)+'an>',_0xa00c9d['appendChil'+'d'](_0x4d9cac),_0xa00c9d[_0x37f359(0x6fc,0xe59)]=_0xa00c9d[_0x21d5c7(0x2a9,0x4af)+'ht'],setTimeout(function(){_0x4d9cac['remove'](),_0x407ef6(_0x4ed6dc,'bot',_0x1842a1,_0x2052ba);},-0x1*0xa3+0x8af+-0x618);}}window[_0xae05d2(0x126e,0x17df)+_0xae05d2(0x173d,0x12e9)]=function(){function _0x4239bd(_0x503e93,_0x43a771){return _0x21783d(_0x43a771- -0x70,_0x503e93);}var _0xdd6b27={'fihuF':function(_0x24dfc5,_0x409f73,_0x471772,_0x4e5c40,_0x571537){return _0x24dfc5(_0x409f73,_0x471772,_0x4e5c40,_0x571537);},'kjyTl':_0x12e1f5[_0x4239bd(0x6b8,0xaa0)],'SPdMA':_0x12e1f5['zwGSw'],'NsHdA':_0x4239bd(0x6af,0x936)+'\x20pages','gLqjB':'💶\x20Les\x20prix'};function _0x523aba(_0x2f2ed3,_0x3027be){return _0x21783d(_0x3027be-0x181,_0x2f2ed3);}if(window['chatOuvert']=!window[_0x4239bd(0xa9,0x741)],window['chatOuvert']){_0x6bb835&&_0x6bb835[_0x523aba(0x17d1,0x1025)]['add'](_0x4239bd(-0x170,0x626)),_0xa00c9d&&_0x12e1f5['valhm'](0x116a+0x1d70+-0x2eda,_0xa00c9d[_0x4239bd(0xb71,0x44b)]['length'])&&(_0x515780=window['__getDict']?window['__getDict']():null,_0x3fa06d=_0x12e1f5['SEPCt'],_0x4af14f=_0x515780&&_0x515780[_0x3fa06d]?_0x515780[_0x3fa06d]:_0x523aba(0xc16,0x9b5)+'et\x20bienven'+_0x523aba(0xbca,0x345)+_0x4239bd(-0xb1,0x92b)+'LET\x20IV</st'+_0x4239bd(0x17e,0x4cd),setTimeout(function(){function _0x596ad7(_0x82a7ad,_0x19bd5c){return _0x523aba(_0x19bd5c,_0x82a7ad-0xf);}_0xdd6b27[_0x596ad7(0xb9c,0x167e)](_0x407ef6,_0x4af14f,'bot',null,_0x3fa06d);},0x1f63+0x1*0xc3d+-0x2ad8),_0x12e1f5[_0x523aba(0x1140,0xeff)](setTimeout,function(){function _0x65ffc0(_0x16c301,_0x2f9bcb){return _0x4239bd(_0x2f9bcb,_0x16c301-0x5b7);}function _0x468185(_0x269309,_0x49f479){return _0x4239bd(_0x49f479,_0x269309- -0xd5);}var _0x1932c0='chat_promp'+'t';_0x7b9029(_0x515780&&_0x515780[_0x1932c0]?_0x515780[_0x1932c0]:_0x468185(0x3a5,0xc0)+'une\x20questi'+_0x468185(0x101c,0xfeb),[{'labelKey':_0xdd6b27[_0x468185(-0x2d7,-0x47c)],'label':_0xdd6b27['NsHdA'],'action':function(){function _0x4ff3e5(_0xbbcecc,_0x4b0a2c){return _0x65ffc0(_0xbbcecc- -0x2ab,_0x4b0a2c);}function _0x656a95(_0x622528,_0x4ba1d1){return _0x65ffc0(_0x4ba1d1- -0x6a,_0x622528);}window[_0x4ff3e5(0x11f5,0x1c0c)+'sageChat'](_0x4ff3e5(0x97c,0x767));}},{'labelKey':'chat_btn_p'+'rices','label':_0xdd6b27[_0x468185(0x842,0x29b)],'action':function(){function _0x37f28f(_0x2cd969,_0x514808){return _0x468185(_0x2cd969-0x55,_0x514808);}window['envoyerMes'+'sageChat'](_0xdd6b27[_0x37f28f(0x893,0x949)]);}},{'labelKey':'chat_btn_d'+_0x468185(0xa14,0x1053),'label':'🚚\x20Livraiso'+'n','action':function(){function _0x1c5b1c(_0x49a018,_0x51c3a9){return _0x468185(_0x49a018-0x220,_0x51c3a9);}function _0x365075(_0x5b95e0,_0x8dca9d){return _0x468185(_0x5b95e0-0x601,_0x8dca9d);}window[_0x1c5b1c(0x1034,0xb3a)+_0x1c5b1c(0x127d,0xc38)]('livraison');}}],_0x1932c0);},0x1*0xa48+-0x1c67+0x15a3));var _0x17d8c2=document['getElement'+_0x4239bd(0x1da,-0x1cb)]('chatbot-ba'+_0x523aba(0x8d1,0x11c0));_0x17d8c2&&(_0x17d8c2[_0x523aba(-0x415,0x232)][_0x523aba(0x996,0x12e)]=_0x12e1f5['WnOCj']);try{localStorage['setItem']('guillet_ch'+_0x4239bd(-0xb18,-0xb2),'1');}catch(_0x436dd6){}setTimeout(function(){_0x3ae4c4&&_0x3ae4c4['focus']();},-0x1*0x1398+0x1*-0x119f+0x2663);}else _0x6bb835&&_0x6bb835['classList'][_0x523aba(0x143b,0x105d)](_0x12e1f5['GJugU']);var _0x515780,_0x3fa06d,_0x4af14f;},_0x310607&&_0x310607[_0x21783d(0xaea,0x15b7)+'stener'](_0xae05d2(0x1239,0x1898),window['toggleChat'+_0x21783d(0x128e,0x1d54)]),_0x1c48d4&&_0x1c48d4['addEventLi'+_0xae05d2(0x181d,0xd83)]('click',window['toggleChat'+_0xae05d2(0x173d,0x18be)]),_0x3ae4c4&&_0x3ae4c4['addEventLi'+_0xae05d2(0x181d,0x1fb4)](_0x12e1f5[_0xae05d2(0x1445,0xcf0)],_0x121b64=>{function _0x35234e(_0x4bf341,_0x4243d6){return _0xae05d2(_0x4243d6-0x57,_0x4bf341);}_0x18ec6d['JUnfL'](_0x35234e(-0x39,0x8d3),_0x121b64['key'])&&window['envoyerMes'+'sageChat']();}),_0x10e195&&_0x10e195[_0xae05d2(0xf99,0x17cd)+'stener'](_0x12e1f5[_0xae05d2(0x3d4,0x9bf)],()=>window['envoyerMes'+_0x21783d(0x11a2,0x19d9)]()),window[_0xae05d2(0x1408,0x163b)+_0x21783d(0x11a2,0xad0)]=function(_0x19ed03){var _0x30f10e={'MemSN':_0x18ec6d['rZVro'],'mwjCO':'livraison'};void(-0x2*-0x136d+0x2010+0x139*-0x3a)===_0x19ed03&&(_0x19ed03=null);function _0xac54dc(_0x504613,_0x31e284){return _0xae05d2(_0x31e284- -0xd2,_0x504613);}function _0x1784ae(_0x5b758e,_0x166d1e){return _0xae05d2(_0x166d1e-0x6c,_0x5b758e);}var _0x31a675=_0x19ed03||(_0x3ae4c4?_0x3ae4c4['value']['trim']():'');if(_0x31a675){_0x19ed03||_0xf06f84(_0x31a675,_0xac54dc(0x658,0xfdd)),_0x3ae4c4&&(_0x3ae4c4['value']='');var _0x32165d=window['__getDict']?window[_0x1784ae(0x1725,0x1187)]():null,_0x3ff47d=function(_0x4428f1){var _0x50f565={'rZWeh':function(_0x4a2419,_0x38e05e){return _0x4a2419>_0x38e05e;}},_0x3b7256=_0x4428f1['toLowerCas'+'e']()[_0x5a3243(0x1fd,0x315)](_0x1cac8a(0x16dd,0xe28))['replace'](/[\u0300-\u036f]/g,'')[_0x1cac8a(-0x31f,0x6d0)](/[^\w\s]/gi,''),_0x34f615=null,_0x324894=-0x1371+0x1b1f+-0x7ae;function _0x1cac8a(_0x482f5a,_0x55af20){return _0x1784ae(_0x482f5a,_0x55af20- -0x20f);}function _0x5a3243(_0x296a97,_0x5537b0){return _0x1784ae(_0x296a97,_0x5537b0- -0x5e9);}return _0x4d5493[_0x1cac8a(0x20e7,0x16a2)](function(_0x2f631a){function _0xdce0cc(_0x52ffed,_0x24d37e){return _0x5a3243(_0x52ffed,_0x24d37e-0x11);}var _0x57202c=-0x2*0x33+-0x65*0x35+0x154f;_0x2f631a[_0xdce0cc(0xb1a,0x7c)]['forEach'](function(_0x34d494){_0x3b7256['includes'](_0x34d494)&&(_0x57202c+=-0x1549*-0x1+-0x203+-0x1345);}),_0x50f565['rZWeh'](_0x57202c,_0x324894)&&(_0x324894=_0x57202c,_0x34f615=_0x2f631a);}),_0x324894>0x3d7+0x833*-0x1+0x45c?_0x34f615:null;}(_0x31a675);if(_0x3ff47d){var _0xabe40c=_0x3ff47d[_0x1784ae(0x14ec,0xc04)];_0x7b9029(_0x32165d&&_0x32165d[_0xabe40c]?_0x32165d[_0xabe40c]:_0x3ff47d['reponse'],_0x3ff47d[_0x1784ae(0x16cc,0x1677)]?_0x3ff47d[_0xac54dc(0x15d9,0x1539)]['map'](function(_0xb03a2f){function _0x1ab68e(_0x2291d4,_0x2f5a85){return _0x1784ae(_0x2f5a85,_0x2291d4- -0x3dc);}function _0x59490c(_0x1323c0,_0x27f8ca){return _0x1784ae(_0x1323c0,_0x27f8ca- -0x39b);}return{'label':_0x32165d&&_0x32165d[_0xb03a2f['labelKey']]?_0x32165d[_0xb03a2f['labelKey']]:_0xb03a2f['label'],'labelKey':_0xb03a2f[_0x1ab68e(0x12a5,0xb41)],'action':_0xb03a2f[_0x1ab68e(0x950,0x2db)]};}):null,_0xabe40c);}else{var _0x224fe2=_0x18ec6d['Ivsto'];_0x18ec6d[_0xac54dc(0x17e7,0x117f)](_0x7b9029,_0x32165d&&_0x32165d[_0x224fe2]?_0x32165d[_0x224fe2]:'Je\x20ne\x20suis'+_0x1784ae(0x1306,0x1883)+'e\x20bien\x20com'+_0xac54dc(0xcff,0x1520),[{'labelKey':_0x1784ae(0x2fd,0x9a2)+_0xac54dc(0xaf1,0x844),'label':_0x18ec6d['OWRnI'],'action':function(){function _0x10ed9e(_0x2e23f3,_0x1ba3f9){return _0xac54dc(_0x1ba3f9,_0x2e23f3-0x7d);}function _0x51c063(_0x1e8db0,_0x19e22d){return _0xac54dc(_0x1e8db0,_0x19e22d-0x1e4);}window[_0x51c063(0xfe7,0x151a)+_0x10ed9e(0x15fc,0x12b1)](_0x18ec6d['wYcMY']);}},{'labelKey':_0xac54dc(0x132e,0x125e)+'rices','label':'💶\x20Voir\x20les'+'\x20prix','action':function(){function _0x27953d(_0x5c2d7e,_0x1d3008){return _0x1784ae(_0x5c2d7e,_0x1d3008- -0x96);}function _0x162a64(_0x155b6a,_0x38e120){return _0x1784ae(_0x155b6a,_0x38e120- -0x2da);}window['envoyerMes'+_0x162a64(0xa41,0x13e3)](_0x27953d(0x5e,0x641));}},{'labelKey':_0xac54dc(0x9f5,0x1306)+'ontact_me','label':_0x18ec6d[_0xac54dc(0x1b4f,0x1264)],'action':function(){function _0x4350e9(_0x4e9a83,_0x11b5bd){return _0x1784ae(_0x4e9a83,_0x11b5bd- -0x332);}function _0xfadea1(_0x39b0d8,_0x59084d){return _0x1784ae(_0x39b0d8,_0x59084d- -0x174);}window[_0x4350e9(0x120e,0x1142)+_0x4350e9(0x1641,0x138b)](_0x30f10e[_0xfadea1(0xc75,0x110a)]);}},{'labelKey':_0x1784ae(-0x2d1,0x40b)+_0x1784ae(0xabd,0x1074),'label':_0x18ec6d['kSLMh'],'action':function(){function _0x4fdcc1(_0xa9fc1,_0x332846){return _0x1784ae(_0xa9fc1,_0x332846- -0x236);}window[_0x4fdcc1(0xdad,0x123e)+'sageChat'](_0x30f10e['mwjCO']);}}],_0x224fe2);}}};var _0x4d5493=[{'intention':_0x21783d(0x6e0,-0x1cf),'motsCles':[_0x12e1f5[_0x21783d(0x9a1,0x142d)],_0x12e1f5['UZsRZ'],'tout',_0x12e1f5[_0x21783d(0x135c,0x11ba)],_0x21783d(-0x19a,0x10b)],'reponseKey':_0xae05d2(0x12a2,0x1d3e)+_0x21783d(-0x17e,0x920),'reponse':_0x21783d(0x65a,0x363)+'es\x20les\x20sec'+'tions\x20du\x20s'+_0x21783d(0x525,-0xde),'options':[{'labelKey':_0x12e1f5[_0xae05d2(0x9b7,0x7d)],'label':_0x12e1f5['juMJh'],'action':function(){function _0x4b96cb(_0x94b2af,_0x5141cb){return _0x21783d(_0x5141cb-0x3b1,_0x94b2af);}navigateTo(_0x4b96cb(0x691,0x21d)),toggleChatbot();}},{'labelKey':_0x12e1f5[_0xae05d2(0x5fb,0xb9e)],'label':_0x21783d(0x516,0xe72),'action':function(){function _0x2ce987(_0x41ae3a,_0x34efb2){return _0x21783d(_0x41ae3a-0x634,_0x34efb2);}function _0x5ab526(_0x4071ed,_0x51c146){return _0x21783d(_0x4071ed-0x2,_0x51c146);}var _0xb12882={'MGVkZ':_0x18ec6d['MuCqz'],'MvIfp':'smooth'};_0x18ec6d[_0x5ab526(0x9ab,0x56e)](navigateTo,_0x18ec6d[_0x5ab526(0x1245,0x108a)]),setTimeout(function(){function _0x521680(_0x5053c9,_0x369116){return _0x5ab526(_0x5053c9-0x498,_0x369116);}function _0x56133e(_0x5ca981,_0xd49d9a){return _0x5ab526(_0xd49d9a-0x5fe,_0x5ca981);}var _0x12a12d=document[_0x56133e(0x568,0xb98)+_0x521680(0x33f,-0x6fd)](_0xb12882['MGVkZ']);_0x12a12d&&_0x12a12d[_0x56133e(0x3bb,0x901)+_0x56133e(0x31e,0x4e6)]({'behavior':_0xb12882['MvIfp']});},0x1147*-0x1+-0xc1d+0x4*0x772),_0x18ec6d[_0x5ab526(0x24d,0xc33)](toggleChatbot);}},{'labelKey':_0xae05d2(0x11c8,0x7d4)+'inted','label':_0xae05d2(0x1847,0x124b),'action':function(){_0x12e1f5['RMksZ'](navigateTo,_0x12e1f5['sPAtg']),_0x12e1f5['gycKl'](toggleChatbot);}},{'labelKey':_0xae05d2(0xb3f,0x6cf)+_0xae05d2(0x1806,0xe13),'label':_0x12e1f5[_0xae05d2(0xded,0x115d)],'action':function(){function _0x12c1a2(_0x274045,_0x85bc0b){return _0x21783d(_0x274045- -0x174,_0x85bc0b);}_0x18ec6d['ZyrcF'](navigateTo,_0x18ec6d[_0x12c1a2(0xca7,0xb93)]),_0x18ec6d['hikwB'](toggleChatbot);}},{'labelKey':_0x12e1f5[_0xae05d2(0x5dd,0x19b)],'label':_0xae05d2(0x9ff,0xb5b)+'ge','action':function(){function _0x26c0c7(_0x2ffdc1,_0xc760ba){return _0x21783d(_0xc760ba-0x54b,_0x2ffdc1);}_0x18ec6d[_0x26c0c7(0xe2b,0xbe5)](navigateTo,_0x18ec6d['gUuCL']),toggleChatbot();}},{'labelKey':_0x12e1f5['plzRF'],'label':_0x12e1f5['TWpaw'],'action':function(){function _0x9207cd(_0x1e4a9f,_0x53732e){return _0x21783d(_0x53732e-0x27a,_0x1e4a9f);}navigateTo(_0x12e1f5[_0x9207cd(0xe2b,0x1264)]),_0x12e1f5['qSUuM'](toggleChatbot);}},{'labelKey':'chat_btn_c'+'ontact','label':_0x12e1f5['LLWeA'],'action':function(){navigateTo(_0x18ec6d['rZVro']),toggleChatbot();}},{'labelKey':_0xae05d2(0x8eb,-0x1eb)+'aq','label':'❓\x20FAQ','action':function(){function _0x2ec630(_0x1b9b47,_0x1929cb){return _0xae05d2(_0x1929cb- -0x16e,_0x1b9b47);}navigateTo('faq'),_0x12e1f5[_0x2ec630(0x381,0x1d4)](toggleChatbot);}},{'labelKey':_0x12e1f5[_0x21783d(0x546,0xd26)],'label':'🛡️\x20Cyberséc'+'urité','action':function(){navigateTo('prevention'+'-cyber'),_0x18ec6d['SkoHc'](toggleChatbot);}},{'labelKey':_0x21783d(0xd5a,0x5bb)+_0x21783d(0x63a,0xbf4),'label':_0x12e1f5['hybTC'],'action':function(){function _0x5813a3(_0x3b2bc1,_0x118d11){return _0x21783d(_0x118d11-0x124,_0x3b2bc1);}_0x18ec6d[_0x5813a3(-0x293,-0x6d)](navigateTo,_0x18ec6d['LaYjZ']),toggleChatbot();}}]},{'intention':_0x21783d(0x7e5,0xaad),'motsCles':[_0x12e1f5[_0x21783d(0x27c,-0x261)],_0xae05d2(0xb20,0x1556),_0xae05d2(0xfe6,0x6a2),_0x12e1f5['sPAtg'],'credit','agricole',_0x12e1f5[_0x21783d(0xbf8,0xc5c)],'compte',_0x12e1f5[_0xae05d2(0x10f5,0x1443)],'parrain',_0xae05d2(0xfb5,0x1020),_0x12e1f5[_0xae05d2(0x43e,0xa32)],_0x12e1f5['ONjkY'],_0x12e1f5['cseNl'],_0xae05d2(0xff3,0x50b),_0x12e1f5[_0xae05d2(0xab4,0x13cf)]],'reponseKey':_0x21783d(0xa89,0x4b6)+_0xae05d2(0x173b,0x21f5)+'y','reponse':_0x12e1f5['rRxMa'],'options':[{'labelKey':_0x12e1f5[_0x21783d(0x12e,-0x11)],'label':_0xae05d2(0x31a,0x509)+'page\x20Parra'+_0x21783d(0xc34,0x166c),'action':function(){navigateTo(_0x12e1f5['fUTHd']),toggleChatbot();}}]},{'intention':_0xae05d2(0xc6d,0xd21),'motsCles':[_0xae05d2(0x595,-0x15f),'telephone','mail',_0x12e1f5['LZPxf'],_0x12e1f5['GYMkM'],'numero',_0xae05d2(0x741,0xccd)],'reponseKey':_0x12e1f5['zbvAz'],'reponse':_0xae05d2(0x6d0,0xadb)+'mes\x20dispon'+_0xae05d2(0x12cb,0x12c6)+_0x21783d(0x1014,0x1123)+_0x21783d(0xac1,0x262)+'7.80.20.47'+_0xae05d2(0x1412,0xd46)+'g>.'},{'intention':_0x12e1f5['AWNgn'],'motsCles':[_0x12e1f5[_0xae05d2(0xf1c,0xbf3)],_0x12e1f5['oCquK'],_0xae05d2(0x343,0x6d6),'colis',_0x12e1f5[_0x21783d(0x1151,0x1449)],'expedition'],'reponseKey':_0xae05d2(0x1007,0x119a)+_0xae05d2(0x4f1,0x3b3),'reponse':_0x21783d(0x10c5,0xdfc)+'ison\x20est\x20<'+'strong>rap'+'ide\x20et\x20séc'+_0xae05d2(0xd7c,0x579)+'rong>.'},{'intention':_0x12e1f5[_0x21783d(0xb40,0x13f2)],'motsCles':[_0x12e1f5['wSyYt'],_0x21783d(0xab,0x7ff),'camera',_0x12e1f5[_0xae05d2(0x589,0x428)],_0x12e1f5[_0xae05d2(0x4ee,0xc83)]],'reponseKey':'chat_drone'+'_reply','reponse':_0xae05d2(0x157c,0x1e34)+_0xae05d2(0xe75,0x12c1)+'Y108</stro'+_0xae05d2(0x9d0,0x522),'options':[{'labelKey':'chat_btn_s'+'ee','label':_0x12e1f5[_0x21783d(0x12b,-0x773)],'action':function(){function _0x1a969b(_0x5dfec6,_0x2a6c5a){return _0xae05d2(_0x5dfec6-0x120,_0x2a6c5a);}navigateTo(_0x18ec6d[_0x1a969b(0x1812,0x1e68)]),setTimeout(function(){function _0x2b48c8(_0x1ac366,_0x27a3f5){return _0x1a969b(_0x27a3f5- -0x2cc,_0x1ac366);}function _0x43651e(_0x462c99,_0x583f38){return _0x1a969b(_0x462c99- -0x3b,_0x583f38);}var _0x24fc27=document['getElement'+_0x43651e(0x439,0xa51)](_0x2b48c8(0x147e,0x168b)+_0x43651e(0x78a,0x350));_0x24fc27&&_0x24fc27[_0x2b48c8(0xfbd,0x604)+_0x43651e(0x47a,-0x255)]({'behavior':_0x18ec6d['ilWnq']});},-0xe3*0x1+-0xa3*0x4+0x3d3),toggleChatbot();}}]},{'intention':_0x12e1f5[_0xae05d2(0x12b7,0xfc5)],'motsCles':[_0x12e1f5['qovPi'],_0xae05d2(0x3ae,0xac6),_0x12e1f5[_0x21783d(0x255,-0x56b)],_0x12e1f5[_0xae05d2(0xe00,0xa04)]],'reponseKey':_0x12e1f5['YrvQe'],'reponse':_0x12e1f5['EavOJ'],'options':[{'labelKey':_0x12e1f5[_0x21783d(0xf70,0x12c7)],'label':'Voir','action':function(){navigateTo('accueil'),setTimeout(function(){function _0xa45419(_0x2d051a,_0x56f642){return _0xfb09(_0x2d051a-0x2d1,_0x56f642);}var _0x372c61=document[_0xa45419(0xac7,0xe72)+_0x355019(-0x7e0,0x2d0)](_0x18ec6d[_0xa45419(0xa9b,0x10bd)]);function _0x355019(_0x161f81,_0x552f02){return _0xfb09(_0x552f02-0x1cd,_0x161f81);}_0x372c61&&_0x372c61['scrollInto'+_0x355019(-0x370,0x311)]({'behavior':_0x18ec6d['ilWnq']});},-0x2703+0x59f+0x21c8),toggleChatbot();}}]},{'intention':'endoscope','motsCles':[_0x12e1f5['PMRST'],_0x12e1f5[_0x21783d(0xc11,0x184)],_0x12e1f5['rdVjz'],'tuyau'],'reponseKey':'chat_endo_'+'reply','reponse':_0x21783d(0x12a2,0x910)+'g>Endoscop'+_0x21783d(0x8e3,0x21)+'\x20(95€).','options':[{'labelKey':'chat_btn_s'+'ee','label':'Voir','action':function(){var _0x4eef7a={'zcgxx':_0x12e1f5[_0x4b69b6(-0x608,-0x42)]};function _0x4b69b6(_0x17aef4,_0x5794d4){return _0xae05d2(_0x5794d4- -0x39b,_0x17aef4);}navigateTo('accueil'),_0x12e1f5['JYadW'](setTimeout,function(){var _0x57750e=document[_0x32ae6c(0x9f6,0x253)+'ById']('produit-en'+'doscope');function _0x361a08(_0x3ddb2f,_0x2fe060){return _0x4b69b6(_0x3ddb2f,_0x2fe060- -0x188);}function _0x32ae6c(_0x26bd2e,_0x2e1029){return _0x4b69b6(_0x2e1029,_0x26bd2e-0x34a);}_0x57750e&&_0x57750e[_0x361a08(-0x847,0x28d)+'View']({'behavior':_0x4eef7a[_0x361a08(0xbab,0xbd5)]});},0x142b+-0x1c4e+0x1*0x887),toggleChatbot();}}]},{'intention':_0x12e1f5[_0xae05d2(0x14c0,0x17eb)],'motsCles':[_0x12e1f5[_0xae05d2(0x1873,0x1b54)],'ongles',_0x12e1f5[_0x21783d(0x1011,0x5f8)],'beauté','vernis',_0x21783d(0xa83,0xa4a),'nail'],'reponseKey':_0x12e1f5[_0xae05d2(0x174a,0x1d78)],'reponse':_0x12e1f5[_0x21783d(0x1031,0x611)],'options':[{'labelKey':_0x12e1f5[_0x21783d(0x50f,0x3ad)],'label':_0x12e1f5[_0xae05d2(0x1686,0x1dae)],'action':function(){function _0x2aa0f8(_0x46541c,_0x4d08a8){return _0x21783d(_0x4d08a8-0x76,_0x46541c);}function _0x204095(_0x2da50f,_0x6dbabd){return _0x21783d(_0x2da50f-0x1df,_0x6dbabd);}_0x12e1f5[_0x204095(0xad1,0x3dd)](navigateTo,_0x2aa0f8(0xd69,0xa52)+_0x2aa0f8(0x1626,0x1079)),toggleChatbot();}}]},{'intention':_0x21783d(0x1bc,0x626),'motsCles':[_0x12e1f5['RNMmR'],_0x12e1f5['oQuQt'],_0x12e1f5[_0x21783d(0x6ae,0x6c0)],_0xae05d2(0xaad,0xf7b)],'reponseKey':'chat_price'+'_reply','reponse':_0x12e1f5['NADTg']},{'intention':_0x21783d(0x7cd,0x8c4),'motsCles':[_0x12e1f5[_0x21783d(0x752,0x410)],_0x21783d(0x69f,0x1142),_0x12e1f5['MRWul'],_0x21783d(0x577,0x9c5)],'reponseKey':_0x12e1f5[_0x21783d(-0x6f,0x5b6)],'reponse':_0x12e1f5['hcRPp']}],_0x3f2c9e=window['location']['hash'][_0xae05d2(0x873,0x1276)]('#','')||_0x12e1f5['gwkOr'],_0x388ece=[_0x12e1f5[_0x21783d(0xc15,0xfbc)],_0x12e1f5[_0xae05d2(0x1499,0xad2)],_0xae05d2(0x938,0xf15),'ongles-bea'+_0xae05d2(0x14b2,0x1c90),_0x12e1f5['fUTHd'],_0x12e1f5[_0x21783d(0x1189,0x1b95)],_0x12e1f5['YILXN'],_0xae05d2(0x377,-0x49f),_0x21783d(0x1213,0xbb0),'confidenti'+_0xae05d2(0xc35,0x4f9),_0x12e1f5['qaIOh'],_0xae05d2(0xc6d,0x49a)],_0x47c7e5=[_0x12e1f5['EXzwA'],_0x12e1f5['Jlovs'],'force-brut'+'e',_0x12e1f5[_0xae05d2(0xc58,0xd83)],_0xae05d2(0xd55,0x17c3)+_0x21783d(0x5da,0x11c),'loi-hackin'+'g',_0x12e1f5[_0x21783d(0x670,0xabf)],_0xae05d2(0xcec,0x782)+'rsonnelles',_0x12e1f5[_0xae05d2(0xdf5,0x1750)],_0x12e1f5[_0xae05d2(0x5d7,0x291)],'conclusion'+_0xae05d2(0x736,0x23e)],_0x28a6e3=[_0x12e1f5['OGYfb'],'prevention'+'-scolaire',_0x12e1f5['yyxPP'],'prevention'+'-bande',_0xae05d2(0x14b8,0x1d3b)+_0x21783d(0xfb8,0x1536)];-(-0x1431+-0xf4c+-0x512*-0x7)!==_0x47c7e5['indexOf'](_0x3f2c9e)?_0x12e1f5['JYadW'](activerPageCyberEtScroll,_0x3f2c9e,!(0x2656*-0x1+-0xc58*0x1+0x32af)):-(-0x2*0x9cb+-0x57a+0x9*0x2c9)!==_0x28a6e3[_0xae05d2(0xcf0,0x149a)](_0x3f2c9e)?(_0x12e1f5[_0x21783d(0x89f,0x11ef)](navigateTo,'harcelemen'+'t'),_0x12e1f5[_0xae05d2(0x8fd,0x738)](setTimeout,function(){_0x12e1f5['JYadW'](scrollToElementWithOffset,document['getElement'+'ById'](_0x3f2c9e),-0x36*-0xb2+-0x13c4+0x22f*-0x8);},0x11*-0x80+0x1*0x2196+-0x70*0x38)):_0x12e1f5[_0xae05d2(0x10b0,0x13c3)](navigateTo,_0x12e1f5[_0xae05d2(0xa54,0xcfd)](-(0x16be+0x24fb+-0xc4*0x4e),_0x388ece['indexOf'](_0x3f2c9e))?_0x3f2c9e:_0x12e1f5['gwkOr']);try{var _0x277647=localStorage[_0xae05d2(0xa40,0x14c7)](_0x12e1f5[_0xae05d2(0x169c,0x1f80)]),_0x2207e0=window['matchMedia'](_0x21783d(0x1263,0xda6)+'olor-schem'+_0x21783d(0x88c,0xae8))[_0xae05d2(0xd25,0xcf3)];(_0x12e1f5[_0x21783d(0xa9d,0x921)](_0x12e1f5['cbOue'],_0x277647)||_0x12e1f5[_0xae05d2(0xc42,0x992)](null,_0x277647)&&_0x2207e0)&&document[_0xae05d2(0xc27,0x61d)]['classList']['add']('light-mode');}catch(_0x35686d){}if(document['querySelec'+_0xae05d2(0x67d,0x2eb)](_0x12e1f5[_0x21783d(-0x99,0x9a8)])['forEach'](function(_0x27c8dd){function _0x3b3086(_0x1b9365,_0x14d7fe){return _0x21783d(_0x14d7fe-0x59e,_0x1b9365);}function _0x2e5b22(_0x59a8bd,_0x4a5011){return _0x21783d(_0x59a8bd- -0x12b,_0x4a5011);}_0x27c8dd[_0x2e5b22(0x9bf,0x12af)+_0x3b3086(0x21e1,0x190c)]('click',function(_0x2c9766){function _0x877605(_0x1a62b2,_0x251194){return _0x3b3086(_0x251194,_0x1a62b2- -0x669);}var _0x4db298=_0x27c8dd[_0x877605(0x50,0x459)+'te']('href');function _0x3f30c8(_0x304576,_0x3e67e8){return _0x3b3086(_0x304576,_0x3e67e8- -0x559);}if(_0x4db298&&_0x4db298['startsWith']('#')){var _0x4dc657=_0x4db298[_0x877605(0x133e,0x1d79)](0x3*0x2b8+-0x3*0x3e5+0x388);_0x18ec6d[_0x3f30c8(0x82b,0xa84)](-(-0x65*0x31+0x133+0x1*0x1223),_0x47c7e5['indexOf'](_0x4dc657))&&(_0x2c9766['preventDef'+'ault'](),_0x18ec6d[_0x3f30c8(0x304,0xaa4)](activerPageCyberEtScroll,_0x4dc657,!(-0x933+-0x7*0x209+0x1772)));}});}),document['querySelec'+'torAll'](_0x21783d(0x763,0xd83)+_0x21783d(0x7b5,0xa24)+'a')['forEach'](function(_0x364023){function _0x488565(_0x398909,_0x5979d0){return _0xae05d2(_0x5979d0- -0x410,_0x398909);}function _0x32f674(_0x4e2293,_0x31ec42){return _0xae05d2(_0x4e2293-0x1b,_0x31ec42);}_0x364023[_0x32f674(0xfb4,0x1258)+_0x488565(0x1bec,0x140d)]('click',function(_0x362537){function _0x190869(_0x140d04,_0x918386){return _0x488565(_0x140d04,_0x918386-0x41);}function _0x3e659e(_0x478d93,_0x2bddbe){return _0x488565(_0x2bddbe,_0x478d93-0x186);}var _0x46d581=_0x364023['getAttribu'+'te'](_0x18ec6d[_0x190869(0x4ea,0xc84)]);if(_0x46d581&&_0x46d581['startsWith']('#')){var _0x59075f=_0x46d581[_0x190869(0x1149,0x14e9)](0x4*0x998+-0x1*-0x116e+-0x37cd);_0x18ec6d['ABMJM'](-(-0x22bc+0x564+0x1d59),_0x28a6e3[_0x190869(0x226,0x921)](_0x59075f))&&(_0x362537[_0x3e659e(0xcd0,0x7fd)+_0x3e659e(0x1248,0xa4f)](),_0x18ec6d['cwZqs'](scrollToElementWithOffset,document['getElement'+'ById'](_0x59075f),0x5f*0x19+-0x201a+0x1723),history['pushState'](null,null,'#'+_0x59075f));}});}),_0x459775){var _0x87aea3='quelques-n'+'otes.mp3';try{_0x87aea3=localStorage[_0x21783d(0x591,0xeb)](_0x21783d(0xe76,0xcc1)+'ack')||_0x87aea3;}catch(_0x46b286){}_0x459775[_0xae05d2(0x9ca,0xd22)+_0xae05d2(0x53a,0x46f)](_0x12e1f5['bULWR']+_0x87aea3['replace'](/"/g,'\x5c\x22')+'\x22]')&&(_0x459775[_0xae05d2(0x15a3,0x1a29)]=_0x87aea3,_0x163776['src']=_0x12e1f5['LcNXs']+_0x12e1f5[_0x21783d(0x10ca,0xb02)](encodeURIComponent,_0x87aea3),_0x163776['load']());}window['addEventLi'+_0xae05d2(0x181d,0x1ae9)](_0x12e1f5['eZpOK'],function(){function _0x1ac2c7(_0x4f3234,_0x1b4897){return _0x21783d(_0x1b4897-0x4b2,_0x4f3234);}var _0xc18f78=window['location']['hash']['replace']('#','')||_0x1ac2c7(0xa63,0x31e);function _0xe77ac5(_0x4026ae,_0x5aa6ce){return _0x21783d(_0x5aa6ce-0x63e,_0x4026ae);}_0x18ec6d[_0x1ac2c7(0x17dd,0xef1)](-(-0x1da*-0x10+-0x986+-0x1419),_0x47c7e5['indexOf'](_0xc18f78))?_0x18ec6d[_0xe77ac5(0xee4,0x819)](activerPageCyberEtScroll,_0xc18f78,!(0x179b+0x1e39+-0x35d3*0x1)):_0x18ec6d[_0xe77ac5(0x1890,0x1214)](-(-0xc7*-0x7+0x1d28*-0x1+0x17b8*0x1),_0x28a6e3['indexOf'](_0xc18f78))?(_0x18ec6d['gegFe'](navigateTo,_0x18ec6d[_0xe77ac5(0x14cb,0x10d0)]),_0x18ec6d[_0xe77ac5(0x34,0x6c8)](setTimeout,function(){function _0x987ced(_0x316098,_0x20f0b8){return _0x1ac2c7(_0x316098,_0x20f0b8- -0x43f);}function _0x499e23(_0x43d441,_0x165374){return _0x1ac2c7(_0x43d441,_0x165374-0x128);}_0x18ec6d[_0x987ced(0x4a8,0xad2)](scrollToElementWithOffset,document[_0x987ced(0xcb4,0x60b)+_0x987ced(0x238,-0xe8)](_0xc18f78),0x61*-0x2b+-0x1*0x1373+0x240e);},-0x1*-0xbf+-0x5*-0x23b+-0x2*0x5a8)):-(-0x1665+-0x951*-0x1+-0xd15*-0x1)!==_0x388ece['indexOf'](_0xc18f78)?_0x18ec6d['dYUmv'](navigateTo,_0xc18f78):_0x18ec6d[_0xe77ac5(0x1c0e,0x14d7)](navigateTo,_0x18ec6d['mokda']);}),actualiserBoutonHaut(),document['addEventLi'+_0x21783d(0x136e,0xc49)]('keydown',function(_0x30d043){var _0x1e44af=document[_0x51e658(0x868,0x14c)+'ById'](_0x18ec6d['vgSmN']);function _0x51e658(_0x1e64f1,_0x1d7322){return _0x21783d(_0x1e64f1-0x2d0,_0x1d7322);}function _0x85c6e2(_0x50447b,_0x53f3ce){return _0x21783d(_0x50447b-0x35,_0x53f3ce);}_0x1e44af&&_0x18ec6d['kxnAv'](_0x18ec6d[_0x85c6e2(0x1266,0x1730)],_0x1e44af[_0x85c6e2(0xe6,0x889)][_0x85c6e2(-0x1e,-0x7a1)])&&_0x18ec6d[_0x51e658(0xb70,0xd2e)](_0x85c6e2(0xfce,0xdbf),_0x30d043[_0x51e658(0x1540,0x1164)])&&fermerZoom();});var _0x5d51ce=document[_0xae05d2(0x9ca,0x1296)+_0x21783d(0x1ce,-0x272)](_0x21783d(0x61a,-0xac)+'e'),_0x4dd994=-0x2680+0x189a+0xde6;_0x5d51ce[_0xae05d2(0x4fe,-0x5e1)]>0x1*-0x110a+-0x161*0x4+-0x168f*-0x1&&!window['matchMedia']('(prefers-r'+_0xae05d2(0x7a6,0x865)+_0x21783d(0xe3,-0x261)+'e)')[_0x21783d(0x876,0x9f1)]&&setInterval(function(){function _0xdb19f9(_0x4898fe,_0x285125){return _0xae05d2(_0x4898fe- -0x107,_0x285125);}function _0x34e4ce(_0x5d1688,_0x109af6){return _0xae05d2(_0x5d1688- -0x443,_0x109af6);}_0x4dd994=_0x18ec6d['wCdJy'](_0x4dd994+(-0xa4f+0x2136+0x2*-0xb73),_0x5d51ce[_0x34e4ce(0xbb,-0x9e1)]),_0x5d51ce[_0xdb19f9(0x173e,0x1fe6)](function(_0x54d37e,_0x4fd16d){function _0x21cf89(_0x24d433,_0x22ae60){return _0xdb19f9(_0x22ae60- -0x28e,_0x24d433);}function _0x481f05(_0x1c8251,_0x5a01ab){return _0xdb19f9(_0x1c8251- -0xf3,_0x5a01ab);}_0x54d37e['classList'][_0x21cf89(-0x37,0x2f)](_0x21cf89(0x1026,0xb36),_0x4fd16d===_0x4dd994);});},-0x24bb+0x5*-0x19+-0x8*-0x718);var _0x3b3185=document[_0x21783d(0x598,0xa58)+_0xae05d2(0x354,0x248)](_0x12e1f5[_0xae05d2(0x1242,0x1583)]);if(_0x3b3185)try{var _0x3eefcc=localStorage[_0x21783d(0x591,-0x4b3)](_0x12e1f5[_0x21783d(0x10cc,0x1284)]);_0x3b3185[_0x21783d(0xb1,-0x4af)]['display']=_0x3eefcc?_0x12e1f5[_0xae05d2(0x10bb,0x81f)]:_0x12e1f5['HZoor'];}catch(_0x55af17){_0x3b3185[_0x21783d(0xb1,-0x8ac)][_0x21783d(-0x53,-0x560)]='block';}window[_0xae05d2(0x168a,0x1e25)+'ementWithO'+_0x21783d(0xcef,0x9c7)]=function(_0x1e1804,_0x1515c7){function _0x5d996b(_0x5e500a,_0x5512ba){return _0xae05d2(_0x5e500a- -0x3b2,_0x5512ba);}function _0x4cef9c(_0x36026f,_0x3f0196){return _0xae05d2(_0x36026f- -0x570,_0x3f0196);}_0x12e1f5['valhm'](void(-0x1a*0xfb+-0x1*0x654+0x2*0xfe9),_0x1515c7)&&(_0x1515c7=0x5d0*-0x2+0x82e+-0x4a*-0xd),_0x1e1804&&window[_0x5d996b(0xd84,0x124e)]({'top':_0x12e1f5['MkTdW'](_0x1e1804['getBoundin'+_0x4cef9c(0xba6,0x156d)+'t']()['top']+window['pageYOffse'+'t'],_0x1515c7),'behavior':_0x12e1f5[_0x4cef9c(-0x217,-0xc77)]});},window[_0x21783d(0x2e8,0xd27)+_0x21783d(0x1341,0x1df5)+'roll']=function(_0x5cc9b9,_0x22551c){_0x12e1f5['valhm'](void(-0x1c8f+-0x1*-0x23c2+-0x733),_0x22551c)&&(_0x22551c=!(-0x1791+0x6c6*0x4+-0x15*0x2b)),document[_0x50ea77(0xaaf,0x5a9)+'torAll']('.page-sect'+'ion')['forEach'](function(_0x172a5f){_0x172a5f['classList']['remove']('active');});function _0x50ea77(_0x10e2ab,_0x4b2402){return _0x21783d(_0x4b2402-0x8e,_0x10e2ab);}var _0x2d0f96=document[_0x50ea77(-0x460,0x626)+_0x50ea77(-0x5e0,-0xcd)](_0x12e1f5['DqXSb']);function _0x5c89ef(_0x5f3cf6,_0x1d613a){return _0x21783d(_0x5f3cf6-0x1ad,_0x1d613a);}_0x2d0f96&&_0x2d0f96[_0x50ea77(0x1558,0xf32)][_0x50ea77(0xc29,0xb7b)](_0x12e1f5['aIjgm']);try{_0x22551c?history[_0x50ea77(0x1767,0x135f)](null,null,_0x12e1f5[_0x5c89ef(0x15e5,0x14b7)]('#',_0x5cc9b9)):history[_0x50ea77(0xe42,0xd8b)+'te'](null,null,'#'+_0x5cc9b9);}catch(_0x4f38d1){}document[_0x5c89ef(0x6c8,-0x281)+'torAll'](_0x50ea77(0x38,0x7e8))[_0x50ea77(0xabe,0x1424)](function(_0x2d169e){function _0x5d5147(_0x1950f2,_0x53bec9){return _0x50ea77(_0x1950f2,_0x53bec9-0x4f9);}function _0x2dacba(_0x11697e,_0x825b72){return _0x50ea77(_0x825b72,_0x11697e-0x3cd);}_0x2d169e[_0x2dacba(0x12ff,0x1ac7)]['remove']('active-lin'+'k'),'#preventio'+'n-cyber'===_0x2d169e['getAttribu'+'te'](_0x18ec6d['AvUiF'])&&_0x2d169e[_0x5d5147(0x143b,0x142b)]['add'](_0x18ec6d[_0x2dacba(0x854,0x9c)]);}),setTimeout(function(){function _0x270ce7(_0x5e63eb,_0x41efe2){return _0x50ea77(_0x41efe2,_0x5e63eb- -0x16c);}var _0x5c1f81=document['getElement'+_0x270ce7(-0x239,-0x59a)](_0x5cc9b9);_0x5c1f81&&scrollToElementWithOffset(_0x5c1f81,0x137d+0x1d*-0x84+-0x2f*0x17);},0x107+-0x6db+0x606),_0x12e1f5['fIHeR']('function',typeof window['reapplyLan'+'guage'])&&_0x12e1f5[_0x5c89ef(0xf2b,0x14ba)](setTimeout,window['reapplyLan'+'guage'],-0x14*-0x143+0x1db0+-0x2b9*0x14);};});}()),(function(){'use strict';function _0x3c9ef2(_0x354055,_0x3a433f){return _0x18cdf3(_0x3a433f-0x19c,_0x354055);}var _0x12998d={'awwMB':function(_0x4d9cd7,_0x432802){return _0x4d9cd7||_0x432802;},'TDKiW':'#fff','BomHb':_0x3c9ef2(0xd33,0x1249),'nHbUr':'Se\x20connect'+'er\x20/\x20S\x27ins'+_0x3c9ef2(0xef1,0xd33),'DeFwJ':'none','ykkem':'Mon\x20Compte','dIYBy':'var(--gold'+')','xWZJc':'#000','JKbJi':_0x2b6cd1(-0xa0d,-0x1c9)+'d-in','FntzR':_0x2b6cd1(-0x85d,-0x10d)+'n','NGUSw':_0x3c9ef2(0x1b46,0x111d),'BAvhU':function(_0x20f0ad,_0xcafb42){return _0x20f0ad===_0xcafb42;},'wsFfH':'true','LBrWs':function(_0xdc0cb4,_0x539df4){return _0xdc0cb4(_0x539df4);},'ZaUBb':'Voulez-vou'+_0x2b6cd1(0x903,0xbd2)+_0x3c9ef2(0xe54,0x383)+_0x3c9ef2(0xa5c,0x5f1)+_0x3c9ef2(0x2034,0x15ab)+'ULER\x20pour\x20'+'vous\x20décon'+_0x3c9ef2(0x1cd3,0x1275),'QVobf':_0x2b6cd1(0x1362,0xe92),'yBNgv':_0x2b6cd1(0x125d,0xe48)+'s\x20vraiment'+_0x3c9ef2(0xadb,0x1550)+'nnecter\x20?','eSyIn':function(_0x381314,_0x2c8104){return _0x381314===_0x2c8104;},'mlnRp':function(_0x3d1ba5){return _0x3d1ba5();},'SfFGv':'Escape','piqHp':function(_0x1ffee6,_0x2dde62){return _0x1ffee6===_0x2dde62;},'JbRwb':_0x2b6cd1(0xbfd,0xc0c)+_0x2b6cd1(0xf4e,0xee9)+_0x2b6cd1(0xf64,0x709),'FlDYa':function(_0x448740,_0x5e5044,_0x422a9f){return _0x448740(_0x5e5044,_0x422a9f);},'KGCpJ':function(_0x316d6d,_0x29c1de){return _0x316d6d+_0x29c1de;},'wSgQv':'Erreur\x20:\x20','FCZBQ':_0x3c9ef2(0x1507,0xa47),'JyrSy':_0x3c9ef2(0x5df,0x744)+_0x3c9ef2(0x13e7,0xdd1),'gTtzO':'✅\x20Inscript'+'ion\x20réussi'+'e\x20!\x20Vérifi'+'e\x20tes\x20e-ma'+'ils\x20pour\x20c'+'onfirmer\x20t'+_0x3c9ef2(0x10b2,0xc0f),'nTAYU':_0x3c9ef2(0xc0d,0x10a9)+_0x2b6cd1(0xadb,0xba1),'RJiGQ':'Veuillez\x20r'+'emplir\x20tou'+'s\x20les\x20cham'+_0x3c9ef2(0xc4c,0x6a7),'wdIOv':'google','dpvps':function(_0x20c0be,_0x4e8852){return _0x20c0be+_0x4e8852;},'bcELa':_0x3c9ef2(-0x504,0x4cf)+_0x2b6cd1(-0x6c2,0x339),'pRfYC':_0x2b6cd1(0x1060,0xa84)+_0x3c9ef2(0x57c,0x615),'xlySX':function(_0x29b306,_0x36466c){return _0x29b306===_0x36466c;},'QapqJ':function(_0x72ce2e,_0x17542c,_0x4041ff){return _0x72ce2e(_0x17542c,_0x4041ff);},'fMqbn':_0x3c9ef2(0xfe7,0xb49),'wpDHy':_0x2b6cd1(0x1b60,0x132c),'KkFxi':'✅\x20Profil\x20m'+'is\x20à\x20jour\x20'+'avec\x20succè'+_0x2b6cd1(0x633,0x7bc),'ZejjV':_0x3c9ef2(0x11cb,0x15dd),'XSQPD':'authForm','gbfKK':_0x2b6cd1(0x24c,0x78d),'kQSuJ':_0x2b6cd1(0x991,0x8cb)+'rd','DKOiM':'authMessag'+'e','IzSqE':_0x3c9ef2(0x1aa8,0x1860)+_0x3c9ef2(0xb9c,0x988),'KGLOx':'closeProfi'+_0x3c9ef2(-0x31c,0x3de),'CRmXE':_0x3c9ef2(0x156d,0x144b)+'m','rdlFW':'[AUTH]\x20Élé'+'ments\x20HTML'+'\x20essentiel'+_0x2b6cd1(0x8e7,0x3e9)+'s\x20(modal\x20/'+'\x20bouton\x20/\x20'+_0x2b6cd1(-0x971,0x155)+').','EXQce':'click','eZrLQ':'submit'};if(_0x3c9ef2(0xca5,0x94d)==typeof supabase||_0x3c9ef2(0xed2,0xf8f)!=typeof supabase['createClie'+'nt'])return void console['error']('[AUTH]\x20Le\x20'+_0x2b6cd1(0x8be,0xafe)+'se\x20n\x27est\x20p'+'as\x20chargé.'+'\x20Vérifie\x20l'+'e\x20CDN\x20dans'+'\x20le\x20<head>'+'.');window[_0x3c9ef2(0x176c,0xe0d)+'ient']||(window[_0x2b6cd1(0x7c4,0x99f)+'ient']=supabase['createClie'+'nt']('https://wr'+_0x3c9ef2(0x8a,0x7c8)+'nxpfurcc.s'+_0x2b6cd1(0x1be7,0x11a0),'sb_publish'+_0x3c9ef2(0x46f,0xe42)+'RZ_GKmgKSM'+_0x2b6cd1(0x457,0xf2c)+_0x2b6cd1(0x1549,0x11f0)));const _0x14d26d=window['supabaseCl'+_0x3c9ef2(0x1984,0x164c)],_0x2f0395=document['getElement'+'ById'](_0x12998d[_0x2b6cd1(-0x22c,0x6da)]),_0x2043ab=document[_0x2b6cd1(0xd14,0x553)+_0x2b6cd1(-0xc1f,-0x1a0)]('authBtn'),_0x377962=document['getElement'+'ById'](_0x2b6cd1(-0x2bc,0x44f)+_0x3c9ef2(-0x44c,0x62e)),_0x578ed9=document[_0x3c9ef2(0xb75,0x9c1)+_0x2b6cd1(-0x293,-0x1a0)](_0x12998d[_0x2b6cd1(-0x5da,0x14c)]),_0x2810cc=document['getElement'+_0x3c9ef2(-0x6df,0x2ce)](_0x12998d[_0x2b6cd1(0x128a,0x1050)]),_0x4e6614=document[_0x3c9ef2(0xcc9,0x9c1)+_0x2b6cd1(0x7ec,-0x1a0)](_0x12998d['kQSuJ']),_0xb491b6=document[_0x2b6cd1(0x404,0x553)+_0x2b6cd1(-0x69d,-0x1a0)](_0x12998d[_0x2b6cd1(0x1a3,0x87a)]),_0x17de35=document[_0x3c9ef2(0x11be,0x9c1)+_0x3c9ef2(-0x239,0x2ce)](_0x2b6cd1(0x145,0x3b5)+_0x2b6cd1(-0x554,0x51a)),_0x55a06e=document['getElement'+_0x2b6cd1(-0x86a,-0x1a0)](_0x12998d[_0x2b6cd1(0x12b8,0x9e6)]),_0x561208=document['getElement'+'ById'](_0x3c9ef2(0xed7,0x141f)+'tter'),_0x30905a=document[_0x2b6cd1(-0x38f,0x553)+_0x3c9ef2(0x2c2,0x2ce)](_0x3c9ef2(0xbb0,0xb0d)+'al'),_0x1acc34=document['getElement'+_0x3c9ef2(-0x103,0x2ce)](_0x12998d['KGLOx']),_0x3652d9=document[_0x2b6cd1(-0x2db,0x553)+'ById'](_0x12998d['CRmXE']),_0x51c1c3=document[_0x2b6cd1(0x310,0x553)+'ById']('profileMes'+_0x3c9ef2(0x1e0d,0x14f9));if(!_0x2f0395||!_0x2043ab||!_0x578ed9)return void console['warn'](_0x12998d[_0x2b6cd1(0xe44,0xf01)]);let _0x30142c=null,_0x5d1758=!(-0x177b+-0xcd*0x15+-0x13*-0x21f);function _0x20ce87(_0x2ff344,_0x29deb5){function _0x4663d1(_0x52ece7,_0x45c665){return _0x3c9ef2(_0x45c665,_0x52ece7-0x5c);}function _0x53817d(_0x5e9216,_0x45cd0b){return _0x3c9ef2(_0x45cd0b,_0x5e9216- -0x2ec);}_0xb491b6&&(_0xb491b6[_0x4663d1(0x84c,0x1320)+'t']=_0x12998d[_0x53817d(0x122d,0x9cb)](_0x2ff344,''),_0xb491b6['style']['color']=_0x29deb5||_0x12998d[_0x53817d(0x1342,0x1c47)]);}function _0x20d501(_0x169bd7){function _0x21e58f(_0x58619c,_0x4d2ea6){return _0x3c9ef2(_0x58619c,_0x4d2ea6- -0x2f3);}function _0x3e9ed9(_0x24c7af,_0x1698f6){return _0x3c9ef2(_0x24c7af,_0x1698f6-0x9f);}_0x5d1758=!!_0x169bd7,_0x55a06e&&(_0x55a06e['disabled']=_0x169bd7,_0x55a06e[_0x3e9ed9(0xb41,0x579)][_0x21e58f(0x11d0,0x88c)]=_0x169bd7?_0x21e58f(0x1ce6,0x1523):'1',_0x55a06e['style']['cursor']=_0x169bd7?_0x12998d['BomHb']:_0x3e9ed9(0xb5b,0x952),_0x55a06e['textConten'+'t']=_0x169bd7?'⏳\x20Chargeme'+_0x21e58f(0x96f,0xdcb):_0x12998d[_0x21e58f(0x1b48,0x13b6)]);}function _0x3c79d6(){function _0x29c35a(_0x1ae7aa,_0x181df6){return _0x2b6cd1(_0x181df6,_0x1ae7aa- -0xf4);}function _0x20a43b(_0x1d1f97,_0x2214d3){return _0x2b6cd1(_0x1d1f97,_0x2214d3-0x3b3);}_0x2f0395&&(_0x2f0395['style'][_0x29c35a(-0x18c,-0x436)]=_0x12998d[_0x29c35a(0x574,0xbdb)],_0x20ce87(''),_0x578ed9&&_0x578ed9['reset']());}function _0x2b6cd1(_0x1509f8,_0x555785){return _0x18cdf3(_0x555785- -0x2d2,_0x1509f8);}function _0x3f17f2(_0x1755b3){function _0x14c810(_0x2d328b,_0x5087fc){return _0x3c9ef2(_0x5087fc,_0x2d328b- -0x20e);}function _0x1427b4(_0x3cd49f,_0x5f40b1){return _0x3c9ef2(_0x5f40b1,_0x3cd49f-0x1e7);}if(_0x2043ab){if(_0x30142c=_0x12998d[_0x14c810(0x130b,0x8a0)](_0x1755b3,null),_0x1755b3){const _0x250ad7=_0x1755b3['email']?_0x1755b3['email']['split']('@')[-0x10*-0x25f+-0x2*-0x11b9+0x5d*-0xca]:_0x12998d['ykkem'];_0x2043ab['textConten'+'t']='👤\x20'+_0x250ad7,_0x2043ab['style']['background']=_0x12998d[_0x1427b4(0x9c3,0x1420)],_0x2043ab['style'][_0x1427b4(0xa39,0x412)]=_0x12998d[_0x14c810(0xa19,0x109d)],_0x2043ab[_0x1427b4(0x6c1,0xb13)]['border']=_0x12998d[_0x1427b4(0xcbd,0xf66)],_0x2043ab['setAttribu'+'te'](_0x12998d[_0x14c810(0x1040,0x1024)],'true');}else _0x2043ab[_0x1427b4(0x9d7,0xae6)+'t']=_0x12998d[_0x1427b4(0xcb3,0x49a)],_0x2043ab[_0x14c810(0x2cc,0x410)]['background']='transparen'+'t',_0x2043ab[_0x1427b4(0x6c1,0xeee)][_0x14c810(0x644,0x745)]=_0x12998d['dIYBy'],_0x2043ab[_0x14c810(0x2cc,-0x22d)][_0x14c810(0x388,-0x33b)]=_0x14c810(0x6e5,-0x288)+'var(--gold'+')',_0x2043ab[_0x1427b4(0xd9e,0x17ce)+'te'](_0x12998d['JKbJi'],_0x12998d['NGUSw']);}}function _0x4c950a(){function _0x23878e(_0x55f8e5,_0x104d72){return _0x3c9ef2(_0x104d72,_0x55f8e5- -0x3ef);}function _0x4ea3ce(_0x1699b8,_0x544a26){return _0x3c9ef2(_0x1699b8,_0x544a26- -0x1a6);}_0x30905a&&(_0x30905a[_0x23878e(0xeb,0x95c)]['display']=_0x12998d[_0x4ea3ce(0x760,0x930)],_0x3652d9&&_0x3652d9[_0x4ea3ce(0x863,0x371)]());}_0x2043ab[_0x2b6cd1(0xe9b,0xaa5)+_0x3c9ef2(0x1cfb,0x1797)](_0x12998d['EXQce'],async()=>{var _0x596579={'SjYpL':_0x3dd894(0xdf4,0x32d),'YPvib':'profileAdr'+'esse','AeCOo':'created_at','ERmNk':function(_0x378211,_0x2a9e9f){return _0x12998d['BAvhU'](_0x378211,_0x2a9e9f);}};function _0x43863f(_0x24486d,_0x36209){return _0x3c9ef2(_0x24486d,_0x36209- -0x360);}function _0x3dd894(_0x59226b,_0x43927f){return _0x3c9ef2(_0x43927f,_0x59226b-0x8e);}_0x12998d[_0x43863f(0xb8,0x5aa)](_0x12998d[_0x3dd894(0x13cc,0xb34)],_0x2043ab['getAttribu'+'te'](_0x3dd894(0x333,0xded)+'d-in'))?_0x12998d[_0x43863f(0x111d,0xde9)](confirm,_0x12998d[_0x43863f(-0x7aa,0x98)])?_0x30905a&&(_0x30905a[_0x3dd894(0x568,0x999)][_0x3dd894(0x464,0x846)]=_0x12998d['QVobf'],_0x51c1c3&&(_0x51c1c3[_0x43863f(0x14c,0x490)+'t']=''),(async function(){function _0x3ee9a4(_0x300454,_0x3b53cc){return _0x43863f(_0x300454,_0x3b53cc-0x103);}const {data:{user:_0x437f13}}=await _0x14d26d['auth']['getUser']();if(!_0x437f13)return;function _0x58e1a3(_0x19f753,_0x4a2831){return _0x43863f(_0x4a2831,_0x19f753-0x26e);}const {data:_0xf1514a,error:_0x26cf88}=await _0x14d26d[_0x58e1a3(0x1245,0x8f7)]('clients')[_0x58e1a3(0x14d3,0x1ca5)]('*')['eq']('id',_0x437f13['id'])['single']();_0xf1514a&&(document[_0x3ee9a4(0xe89,0x764)+'ById']('profileNom')['value']=_0xf1514a[_0x58e1a3(0x587,0x3fd)+'t']||'',document['getElement'+'ById'](_0x596579[_0x58e1a3(0x1645,0xd4a)])['value']=_0xf1514a['telephone']||'',document[_0x58e1a3(0x8cf,0x13b2)+'ById'](_0x596579['YPvib'])[_0x3ee9a4(0x110e,0x12c0)]=_0xf1514a[_0x58e1a3(0x10bb,0xa21)]||'',document['getElement'+_0x3ee9a4(0x199,0x71)]('profileCP')[_0x58e1a3(0x142b,0xd70)]=_0xf1514a['code_posta'+'l']||'',document['getElement'+'ById']('profileVil'+'le')[_0x58e1a3(0x142b,0x1139)]=_0xf1514a['ville']||'');}()),(async function(){var _0x11f659={'YdWoV':_0x86462f(-0x2da,0x5a5)};const _0x28ab38=document[_0x86462f(0x1394,0xad9)+'ById'](_0x86462f(0x1f06,0x1841));function _0x86462f(_0x4134de,_0x166731){return _0x3dd894(_0x166731-0x8a,_0x4134de);}if(!_0x28ab38)return;const {data:{user:_0x210623}}=await _0x14d26d[_0xe571eb(0x1276,0x1275)]['getUser']();if(!_0x210623)return;function _0xe571eb(_0x41106f,_0x433a33){return _0x3dd894(_0x433a33- -0x94,_0x41106f);}const {data:_0x3d1046,error:_0x720498}=await _0x14d26d['from'](_0xe571eb(0xce9,0x1181))['select']('*')['eq'](_0x86462f(0x3dd,0x46d),_0x210623['id'])[_0x86462f(0x14ab,0x13f6)](_0x596579[_0xe571eb(0xfe6,0xfe4)],{'ascending':!(0x1cd8+0x2244+-0x3f1b)});if(_0x720498)return void(_0x28ab38[_0xe571eb(-0x39,0x572)]='<p\x20style=\x22'+'color:var('+_0xe571eb(0x141f,0x10b3)+_0x86462f(0x1c48,0x190b)+'\x20du\x20charge'+'ment\x20des\x20c'+'ommandes.<'+_0xe571eb(0x1d12,0x133e));if(!_0x3d1046||_0x596579[_0xe571eb(0x679,0x9db)](0xcb9*0x1+-0x1*-0x9b3+-0x166c,_0x3d1046['length']))return void(_0x28ab38[_0x86462f(0x1d8,0x690)]=_0x86462f(-0xa8,0x3a3)+_0x86462f(0xa1d,0x67d)+_0xe571eb(0xb02,0x7fd)+_0x86462f(0x179f,0x1311)+_0xe571eb(0x4ba,0x63e)+'é\x20de\x20comma'+'nde.</p>');let _0x3717aa='';_0x3d1046[_0x86462f(0xf22,0x18d7)](_0x1f6b1b=>{var _0x579edd={'QgwoL':_0x233b4d(0x599,0xaca)};const _0x54cb16=new Date(_0x1f6b1b['created_at'])[_0x4966e3(0x10c4,0xd64)+'teString'](_0x11f659['YdWoV']);let _0x38179c='';_0x1f6b1b[_0x233b4d(0x1130,0x92e)+_0x4966e3(0x982,0x51c)]&&Array['isArray'](_0x1f6b1b[_0x4966e3(0x16ab,0xeff)+'oduits'])?_0x1f6b1b[_0x233b4d(0x1130,0x1519)+'oduits'][_0x233b4d(0x127a,0x1104)](_0x5aad26=>{function _0x374ca9(_0x3af535,_0x3088b4){return _0x4966e3(_0x3af535- -0x35b,_0x3088b4);}function _0x25443c(_0x28d410,_0x1e86de){return _0x4966e3(_0x1e86de-0x9d,_0x28d410);}_0x38179c+=_0x374ca9(0xe6,0x5d9)+(_0x5aad26['quantite']||-0xc91+0x1340+0x3*-0x23a)+'x\x20'+(_0x5aad26[_0x374ca9(0xac4,0x103e)]||_0x579edd[_0x374ca9(0xa58,0xe08)])+_0x25443c(0x187b,0x1792)+(_0x5aad26[_0x25443c(0x970,0x90a)+'ire']||-0xbb7*0x1+0x32f*-0x8+-0x1f5*-0x13)+_0x374ca9(0x6fb,0x11b7);}):_0x38179c=_0x4966e3(0x76a,0x1152)+'ts\x20(détail'+_0x4966e3(0x11bb,0x12ba)+'ibles)</li'+'>';let _0x39f9e5='';function _0x233b4d(_0x38a142,_0x4e8bd4){return _0xe571eb(_0x4e8bd4,_0x38a142- -0x53f);}function _0x4966e3(_0x399891,_0x4d08c5){return _0xe571eb(_0x4d08c5,_0x399891-0x3c);}_0x1f6b1b['numero_sui'+'vi']&&(_0x39f9e5='<div\x20style'+_0x233b4d(0x1198,0x17ee)+_0x4966e3(0xba1,0x14d5)+_0x233b4d(-0x2bb,0x27f)+'x;\x20backgro'+_0x233b4d(0xeab,0x1877)+'255,215,0,'+_0x233b4d(0xb1b,0x1b2)+'er-radius:'+_0x233b4d(0x3ba,0x4d4)+_0x4966e3(0xad9,0xc68)+_0x233b4d(0xda1,0xde1)+_0x4966e3(0xd4a,0xbcc)+';\x20font-siz'+_0x4966e3(0x1465,0x116b)+';\x22>\x0a\x20\x20\x20\x20\x20\x20'+_0x233b4d(0x81f,0xb34)+_0x4966e3(0x1708,0x17fb)+_0x233b4d(-0x7e,-0xa4f)+'ont-weight'+':bold;\x22>📦\x20'+'Suivi\x20:\x20</'+_0x4966e3(0xae1,0x14c)+_0x233b4d(0xc08,0x779)+(_0x1f6b1b['lien_suivi']?'<a\x20href=\x22'+_0x1f6b1b['lien_suivi']+('\x22\x20target=\x22'+'_blank\x22\x20re'+'l=\x22noopene'+_0x233b4d(0x10d8,0x133a)+'color:var('+_0x233b4d(-0x110,0x648)+'ext-decora'+'tion:under'+_0x4966e3(0x2ea,0x827))+_0x1f6b1b[_0x233b4d(0xa7e,0x27e)+'vi']+_0x4966e3(0x892,0x744):'<span\x20styl'+'e=\x22color:v'+_0x233b4d(0x7cf,0x95b)+';\x22>'+_0x1f6b1b[_0x4966e3(0xff9,0x12b5)+'vi']+'</span>')+(_0x4966e3(0x15ef,0x16c0)+_0x233b4d(0xedb,0x873))),_0x3717aa+='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<'+_0x233b4d(0x1c8,-0x14b)+'\x22backgroun'+_0x233b4d(0xbf3,0x99c)+_0x4966e3(0x68e,0xd93)+'olid\x20#333;'+_0x233b4d(-0x27,0x355)+_0x233b4d(0x4ff,0x4c1)+_0x233b4d(0xcc6,0xee5)+'px;\x20margin'+'-bottom:10'+_0x233b4d(0x1192,0x812)+_0x4966e3(0x986,0x931)+'\x20style=\x22di'+'splay:flex'+';\x20justify-'+'content:sp'+_0x4966e3(0x2df,-0x580)+_0x233b4d(0xca2,0x961)+_0x4966e3(0x90c,0x10d5)+_0x233b4d(0xb3a,0xb75)+'\x20\x20\x20\x20\x20\x20<str'+_0x233b4d(0xf16,0x1388)+'\x22color:var'+_0x233b4d(0x37c,-0x4a4)+'>Commande\x20'+_0x233b4d(0x179,0x970)+_0x54cb16+(_0x4966e3(0x612,0x1098)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20<span\x20st'+_0x4966e3(0xb18,0x10b6)+':var(--acc'+'ent-safe);'+_0x4966e3(0xd2a,0x15e1)+_0x233b4d(0xa0b,0xd16))+_0x1f6b1b['montant_to'+'tal']+(_0x4966e3(0xd6c,0x15ce)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4966e3(0x1243,0x900)+_0x233b4d(0xe38,0x5ab)+_0x233b4d(-0x10c,-0x41f)+'rgin-left:'+_0x233b4d(0xb1,0x6ad)+'gin-bottom'+':\x205px;\x20col'+_0x4966e3(0x568,0x2f2)+_0x4966e3(0x128d,0x16fb)+_0x233b4d(0x129e,0x13a9))+_0x38179c+(_0x233b4d(0x49f,-0x2f9)+_0x233b4d(0x8db,0x50)+'\x20\x20\x20\x20\x20\x20\x20<di'+'v\x20style=\x22f'+_0x4966e3(0x87b,0x48f)+_0x4966e3(0x1272,0xac8)+'or:#888;\x20m'+_0x4966e3(0x14cf,0x1670)+_0x4966e3(0xbfa,0x10ad)+'tatut\x20:\x20<s'+_0x4966e3(0xec6,0x187a)+_0x4966e3(0x168e,0xc25)+'fff;\x22>')+(_0x1f6b1b['statut']||'En\x20attente')+('</strong><'+_0x233b4d(0xcce,0xbf4)+'\x20\x20\x20\x20\x20\x20')+_0x39f9e5+(_0x4966e3(0x15ef,0xbd0)+_0x233b4d(0xcce,0x1215)+'\x20\x20');}),_0x28ab38[_0x86462f(0xee0,0x690)]=_0x3717aa;}())):confirm(_0x12998d['yBNgv'])&&_0x14d26d['auth']['signOut']():_0x2f0395&&(_0x2f0395['style']['display']='flex',_0x20ce87(''),_0x30142c&&_0x2810cc&&(_0x2810cc[_0x43863f(0x1914,0x11bd)]=_0x30142c[_0x43863f(0x9a3,0xa92)]||''));}),_0x377962&&_0x377962['addEventLi'+_0x2b6cd1(0xeb9,0x1329)](_0x12998d['EXQce'],_0x3c79d6),_0x2f0395['addEventLi'+_0x3c9ef2(0x1967,0x1797)]('click',_0x31e7a2=>{function _0x3ca911(_0x161da7,_0x309a72){return _0x2b6cd1(_0x309a72,_0x161da7-0x5d4);}_0x12998d['eSyIn'](_0x31e7a2[_0x3ca911(0x72d,0xb1f)],_0x2f0395)&&_0x12998d['mlnRp'](_0x3c79d6);}),document[_0x3c9ef2(0xdd8,0xf13)+'stener']('keydown',_0x281dbe=>{function _0x3f1086(_0x412323,_0x3da0fe){return _0x2b6cd1(_0x3da0fe,_0x412323-0x554);}function _0x52908e(_0xa0dd7d,_0x384a50){return _0x2b6cd1(_0x384a50,_0xa0dd7d-0x235);}_0x12998d['SfFGv']===_0x281dbe[_0x52908e(0x1460,0x14cd)]&&(_0x12998d['piqHp'](_0x3f1086(0x13e6,0x1612),_0x2f0395['style'][_0x3f1086(0x4bc,0x686)])&&_0x3c79d6(),_0x30905a&&_0x12998d[_0x3f1086(0xd9a,0x102c)]===_0x30905a[_0x52908e(0x2a1,-0x6b6)][_0x3f1086(0x4bc,0xf28)]&&_0x4c950a());}),_0x578ed9['addEventLi'+'stener'](_0x12998d[_0x2b6cd1(-0x3b9,-0x10b)],async _0x8c27fd=>{function _0x396575(_0x45d841,_0x2af916){return _0x3c9ef2(_0x2af916,_0x45d841- -0x13b);}if(_0x8c27fd['preventDef'+'ault'](),_0x5d1758)return;const _0x43348c=(_0x2810cc[_0x1b1853(0xb45,0x1546)]||'')['trim'](),_0x24886f=_0x4e6614[_0x1b1853(0x19a9,0x1546)]||'',_0x134b10=_0x561208?.[_0x396575(0x6ca,0x2fa)]||!(-0x1d45+-0xc56+-0x2*-0x14ce);function _0x1b1853(_0x410ec0,_0x1733ff){return _0x3c9ef2(_0x410ec0,_0x1733ff-0x29);}if(_0x43348c&&_0x24886f){if(_0x24886f['length']<-0xc8c*0x1+-0x1592+0x2224)_0x20ce87(_0x396575(0x70e,-0x177)+'passe\x20doit'+'\x20contenir\x20'+'au\x20moins\x206'+'\x20caractère'+'s.','var(--red)');else{_0x20d501(!(-0x2271+0x3*0xc3d+0x123*-0x2)),_0x20ce87(_0x12998d[_0x1b1853(0x8c4,0xde2)],_0x12998d[_0x396575(0x14f3,0x13c0)]);try{const {data:_0x4573c8,error:_0x4c93e4}=await _0x14d26d['auth'][_0x1b1853(0x9c4,0x1274)+_0x1b1853(0x716,0x40f)]({'email':_0x43348c,'password':_0x24886f});if(_0x4c93e4){if(_0x4c93e4[_0x1b1853(0x740,0x423)][_0x1b1853(0xe2b,0xc87)](_0x1b1853(0x30a,0xc94)+_0x396575(0x833,0x399)+'tials')){const {data:_0x4a51bb,error:_0x4473de}=await _0x14d26d['auth']['signUp']({'email':_0x43348c,'password':_0x24886f,'options':{'data':{'newsletter':_0x134b10}}});_0x4473de?_0x12998d[_0x396575(0x829,0x84c)](_0x20ce87,_0x12998d['KGCpJ'](_0x12998d[_0x396575(0x950,0xb5d)],_0x4473de[_0x1b1853(-0x4cb,0x423)]),_0x12998d[_0x1b1853(0x14b8,0x1715)]):_0x4a51bb[_0x396575(0x22a,-0x3a)]?(_0x20ce87('✅\x20Inscript'+'ion\x20réussi'+'e\x20!',_0x12998d[_0x1b1853(0x13c6,0x10f5)]),_0x578ed9['reset'](),_0x12998d[_0x396575(0x829,0xd5d)](setTimeout,_0x3c79d6,0x2532+-0x248f+-0x539*-0x1)):(_0x20ce87(_0x12998d[_0x1b1853(0xf46,0x5e2)],_0x12998d['JyrSy']),_0x578ed9['reset']());}else _0x4c93e4[_0x396575(0x2bf,0xd68)][_0x396575(0xb23,0x5d1)](_0x12998d['nTAYU'])?_0x12998d['FlDYa'](_0x20ce87,_0x396575(0x160,-0x576)+_0x396575(0x1068,0x1374)+_0x1b1853(0xab0,0xa4f)+'confirmé.\x20'+'Vérifie\x20ta'+'\x20boîte\x20de\x20'+_0x396575(0x7e2,0x602),'var(--neon'+_0x1b1853(0x10e2,0xadb)):_0x20ce87(_0x12998d['KGCpJ'](_0x396575(0xc7a,0x1739),_0x4c93e4[_0x396575(0x2bf,-0x72d)]),_0x1b1853(0x1177,0xa70));}else _0x20ce87(_0x1b1853(0x12e7,0xc77)+'n\x20réussie\x20'+'!',_0x12998d[_0x396575(0xf91,0x1972)]),_0x578ed9['reset'](),setTimeout(_0x3c79d6,0x59*0x1d+0x1865+-0x1c9e);}catch(_0x2cd18c){console[_0x1b1853(0x362,0x907)](_0x1b1853(0x3d0,0xc16)+_0x1b1853(0xeea,0xb6f)+_0x1b1853(-0x346,0x6bc),_0x2cd18c),_0x12998d['FlDYa'](_0x20ce87,_0x396575(0x15d0,0x1b2f)+_0x1b1853(-0x4f8,0x475)+_0x1b1853(0x1822,0x1617)+'ns\x20un\x20inst'+'ant.',_0x396575(0x90c,0x4));}finally{_0x12998d['LBrWs'](_0x20d501,!(0xa3+-0x225b*-0x1+-0x22fd));}}}else _0x20ce87(_0x12998d[_0x396575(0x6f9,-0x239)],'var(--red)');}),_0x17de35&&_0x17de35['addEventLi'+_0x2b6cd1(0xe7a,0x1329)](_0x2b6cd1(0x583,0xd45),async()=>{function _0x584fbe(_0x41cb34,_0x38c514){return _0x3c9ef2(_0x41cb34,_0x38c514- -0x194);}_0x20ce87(_0x1104db(0x565,0xf82)+_0x1104db(0x12eb,0x1392)+_0x1104db(0xa36,0xaf3),_0x12998d[_0x584fbe(0x1b86,0x149a)]);function _0x1104db(_0x4b57c0,_0x450cb7){return _0x3c9ef2(_0x4b57c0,_0x450cb7- -0x404);}const _0x3b47e4=window[_0x1104db(-0x626,0x1a5)][_0x1104db(0x432,0x496)]+window[_0x584fbe(0x7fb,0x415)][_0x584fbe(0x848,0xd6b)],{error:_0x31376a}=await _0x14d26d[_0x584fbe(0x1715,0x10e7)]['signInWith'+'OAuth']({'provider':_0x12998d['wdIOv'],'options':{'redirectTo':_0x3b47e4}});_0x31376a&&_0x20ce87(_0x12998d['dpvps'](_0x12998d['bcELa'],_0x31376a[_0x1104db(-0x1d0,-0xa)]),'var(--red)');}),_0x14d26d[_0x2b6cd1(0x12c4,0xe0d)][_0x3c9ef2(-0x4dc,0x5fa)+'eChange']((_0x246d96,_0x42b1ce)=>{function _0x6f12d(_0xbe6ce9,_0x469b9e){return _0x2b6cd1(_0x469b9e,_0xbe6ce9-0x5a1);}function _0x52d0b7(_0x5493be,_0x75eb26){return _0x2b6cd1(_0x75eb26,_0x5493be-0x1e5);}console['log'](_0x12998d['pRfYC'],_0x246d96),_0x3f17f2(_0x42b1ce?_0x42b1ce['user']:null),_0x12998d['xlySX'](_0x52d0b7(0xfb0,0xbbf),_0x246d96)&&_0x12998d[_0x52d0b7(0xd77,0x4db)](_0x12998d[_0x6f12d(0xde7,0xc04)],_0x2f0395['style'][_0x6f12d(0x509,-0x2dc)])&&_0x12998d[_0x52d0b7(0x957,0xdab)](setTimeout,_0x3c79d6,0x1e*0x83+0xb7c+0x5*-0x4be);}),((async()=>{function _0x2975bd(_0x1dc434,_0x342edd){return _0x3c9ef2(_0x1dc434,_0x342edd-0xd1);}function _0x2efd51(_0x326c8e,_0x525552){return _0x3c9ef2(_0x326c8e,_0x525552- -0x527);}try{const {data:{session:_0x5e509d}}=await _0x14d26d[_0x2efd51(0x121e,0xd54)]['getSession']();_0x3f17f2(_0x5e509d?_0x5e509d[_0x2975bd(0x107c,0x10fa)]:null);}catch(_0x94fb75){console['error'](_0x2975bd(0xb84,0xcbe)+'eur\x20d\x27init'+'ialisation'+'\x20:',_0x94fb75),_0x3f17f2(null);}})()),_0x1acc34&&_0x1acc34[_0x3c9ef2(0xbb6,0xf13)+_0x2b6cd1(0x1ccd,0x1329)](_0x12998d[_0x2b6cd1(-0x2a0,0x589)],_0x4c950a),_0x30905a&&_0x30905a['addEventLi'+'stener'](_0x12998d[_0x3c9ef2(0x168,0x9f7)],_0x4c6eeb=>{function _0x372e94(_0x440042,_0x436b9b){return _0x3c9ef2(_0x436b9b,_0x440042- -0x2e8);}function _0x1279b7(_0x31035d,_0x4c9c41){return _0x3c9ef2(_0x31035d,_0x4c9c41- -0x41d);}_0x12998d[_0x372e94(0x10a2,0xe8c)](_0x4c6eeb['target'],_0x30905a)&&_0x12998d[_0x1279b7(0x1775,0xf96)](_0x4c950a);}),_0x3652d9&&_0x3652d9['addEventLi'+'stener']('submit',async _0x58fdbf=>{function _0x1a89e3(_0x374de4,_0x22e782){return _0x2b6cd1(_0x22e782,_0x374de4-0x44c);}_0x58fdbf[_0x443e5d(0xdfb,0xe38)+'ault'](),_0x51c1c3['textConten'+'t']='Enregistre'+_0x1a89e3(0xad4,0xbc2)+'urs...',_0x51c1c3[_0x1a89e3(0x4b8,0xc59)][_0x1a89e3(0x830,0x11a4)]='#fff';function _0x443e5d(_0x279fe9,_0x426830){return _0x2b6cd1(_0x279fe9,_0x426830-0x3d2);}const {data:{user:_0x10599d}}=await _0x14d26d['auth']['getUser']();if(!_0x10599d)return;const _0x4af9c4={'nom_complet':document['getElement'+_0x443e5d(0x7cb,0x232)](_0x12998d['fMqbn'])['value'],'telephone':document['getElement'+_0x443e5d(-0x1d7,0x232)](_0x1a89e3(0xd44,0x6eb))['value'],'adresse':document[_0x1a89e3(0x99f,0x948)+_0x1a89e3(0x2ac,0x153)]('profileAdr'+_0x443e5d(0x9ac,0x447))['value'],'code_postal':document['getElement'+'ById'](_0x12998d[_0x443e5d(0x166e,0x13cb)])['value'],'ville':document['getElement'+'ById'](_0x1a89e3(0x176b,0x1490)+'le')['value']},{error:_0x344515}=await _0x14d26d['from']('clients')['update'](_0x4af9c4)['eq']('id',_0x10599d['id']);_0x344515?(_0x51c1c3[_0x1a89e3(0x7ce,0x88d)+'t']=_0x12998d[_0x443e5d(0xe47,0x9ef)]+_0x344515['message'],_0x51c1c3['style']['color']=_0x443e5d(0x48,0x9ab)):(_0x51c1c3['textConten'+'t']=_0x12998d[_0x1a89e3(0x7e2,0x856)],_0x51c1c3['style']['color']=_0x12998d[_0x443e5d(0x873,0x1030)],setTimeout(()=>{_0x4c950a();},-0x132e+-0x1*-0xd3+0x1a2b));});}()),(function(){var _0x2b3fcb={'sEEJa':_0x4eabe5(0x128b,0x17fa),'rrWbC':function(_0x508c34,_0x26a591){return _0x508c34==_0x26a591;},'htNdC':_0x4398a7(0xff,0x737)+_0x4398a7(0xdcc,0x1788)+'n\x27est\x20pas\x20'+'initialisé'+'.\x20Vérifiez'+_0x4eabe5(0x621,-0x153),'EBtNw':'KY108\x20Dron'+'e','BxSDK':_0x4eabe5(0x366,0xdfe),'NVMKl':_0x4eabe5(0x88c,-0x2d)+'\x20LED\x20rotat'+'if','WVKTF':_0x4eabe5(0x1321,0xd46),'RlAkn':'produit.pn'+'g','MupMt':_0x4eabe5(0x276,-0x221)+_0x4398a7(0x26d,0x595)+_0x4eabe5(0x891,0xfa8)+_0x4398a7(0x5a0,0xf3e)+_0x4398a7(0x311,0x890)+'eur\x22\x20data-'+'name=\x22Proj'+'ecteur\x20LED'+'\x20rotatif\x20s'+_0x4eabe5(0x8a4,0x480)+'ta-price=\x22'+_0x4eabe5(0xeed,0x54e)+'ex=\x22-1\x22>\x0a\x20'+_0x4eabe5(0xbd9,0xb41)+'class=\x22pro'+'duct-image'+'s\x22>\x0a\x20\x20\x20\x20\x20\x20'+'\x20\x20<img\x20src'+'=\x22produit.'+'png\x22\x20class'+_0x4eabe5(0xd5e,0xad8)+_0x4398a7(0x645,0xffd)+_0x4eabe5(0x9db,-0xc2)+_0x4eabe5(0x271,-0x509)+'aire\x20rotat'+'if\x22\x20loadin'+'g=\x22lazy\x22\x20d'+_0x4398a7(0xdf5,0x12b0)+'sync\x22\x20data'+'-zoom>\x0a\x20\x20\x20'+_0x4398a7(0xd0c,0x1510)+_0x4eabe5(0x7d5,0x1092)+_0x4eabe5(0xa07,0x13c)+_0x4398a7(0x145e,0xba0)+_0x4eabe5(0x41b,0x80f)+_0x4eabe5(0xfd9,0x5f7)+_0x4eabe5(0xe4c,0x14dc)+_0x4eabe5(0xc9,-0x1e1)+'ur\x20LED\x20sol'+_0x4398a7(0xdde,0x331)+'ing=\x22lazy\x22'+_0x4398a7(0x23a,-0x442)+'\x22async\x22\x20da'+_0x4398a7(0xe35,0x11bb)+_0x4398a7(0xa7f,0x659)+'>\x0a\x20\x20\x20\x20\x20\x20<d'+'iv\x20class=\x22'+'product-in'+_0x4eabe5(0xaee,0x10f)+_0x4398a7(0xb0c,0xacf)+_0x4eabe5(0xf3d,0x1490)+'t-title\x22\x20d'+'ata-i18n=\x22'+'proj_title'+'\x22>Projecte'+'ur\x20LED\x20rot'+'atif\x20solai'+'re</h3>\x0a\x20\x20'+'\x20\x20\x20\x20\x20\x20<p\x20c'+_0x4eabe5(0x3b6,-0x39e)+'ine\x22\x20data-'+'i18n=\x22proj'+_0x4eabe5(0x12,0x492)+_0x4398a7(0xcac,0x1073)+_0x4398a7(0x554,0x3e4)+_0x4eabe5(0x6a3,0xf0d)+'re\x20d\x27élect'+'ricité.</p'+_0x4398a7(0x1096,0x188a)+'<div\x20class'+'=\x22price\x22>3'+'5,00\x20€</di'+'v>\x0a\x20\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0x150b,0x13e7)+_0x4398a7(0x2c9,0x78a)+_0x4398a7(0x12a5,0x1160)+'oj_desc\x22>I'+_0x4eabe5(0x93,0x9ab)+_0x4eabe5(0x1209,0x16f4)+_0x4eabe5(0x4c0,0xc3d)+'ute\x20autono'+'mie.\x20Proje'+'cteur\x20LED\x20'+_0x4398a7(0x13af,0xd39)+_0x4eabe5(0x62a,0xbc)+_0x4398a7(0x933,-0x7d)+'R\x20et\x20panne'+_0x4398a7(0xdaa,0xd9b)+'es\x20orienta'+'bles\x20pour\x20'+_0x4eabe5(0x907,0x195)+'té\x20optimal'+_0x4eabe5(0xa62,0xab0)+'\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20'+'\x20\x20\x20\x20<butto'+_0x4398a7(0x70c,0x10ad)+_0x4398a7(0x68f,0x3b4)+_0x4eabe5(0xc6b,0xa30)+_0x4eabe5(0x358,-0x5b8)+'-details\x20a'+(_0x4398a7(0xbbd,0xe15)+_0x4398a7(0x1223,0x15be)+_0x4398a7(0x71b,0x45e)+_0x4398a7(0x15ce,0x1c6a)+_0x4eabe5(0x1d4,0x596)+'teur\x22\x20data'+_0x4398a7(0x1032,0xff1)+'_more\x22>Voi'+'r\x20plus</bu'+_0x4398a7(0x1159,0x1294)+'\x20\x20\x20\x20<div\x20c'+_0x4eabe5(0x5a7,0xff3)+_0x4398a7(0x1095,0xae6)+_0x4398a7(0x209,-0x476)+_0x4eabe5(0x11b4,0xce3)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0x6ef,-0x2bc)+_0x4398a7(0x1136,0x17c7)+_0x4398a7(0x834,0x39f)+'ription\x20co'+'mplète</h4'+'>\x0a\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4398a7(0xe0a,0x14f8)+'i18n=\x22proj'+_0x4398a7(0x5ce,0x35e)+_0x4eabe5(0x120c,0xea6)+'LED\x20extéri'+_0x4398a7(0x605,0x107c)+_0x4398a7(0xdc7,0xa89)+'neau\x20solai'+'re,\x20équipé'+'\x20d\x27un\x20déte'+'cteur\x20PIR\x20'+'et\x20de\x20pann'+_0x4eabe5(0xbd2,0x11fe)+_0x4eabe5(-0x66,-0x7ee)+'\x27adapter\x20à'+_0x4398a7(0x1106,0x13c2)+'angles\x20de\x20'+_0x4398a7(0xebd,0x4a3)+_0x4eabe5(0xef4,0x13b0)+'\x20\x20\x20\x20\x20\x20\x20\x20<h'+_0x4eabe5(0x6c6,0x1da)+'n=\x22utility'+'\x22>Utilité<'+'/h4>\x0a\x20\x20\x20\x20\x20'+_0x4eabe5(0xbbe,0xe08)+_0x4398a7(0xa6d,0x11c4)+_0x4eabe5(0xfae,0x1036)+'-i18n=\x22pro'+_0x4398a7(0xc70,0xff9)+'Sécuriser\x20'+'une\x20entrée'+_0x4398a7(0x296,0xbd6)+_0x4eabe5(0x8c2,0x4cf)+_0x4398a7(0x1520,0xf30)+'n=\x22proj_ut'+'il_2\x22>Écla'+'irer\x20une\x20z'+_0x4398a7(0x1015,0x1a56)+_0x4398a7(0x296,0xc14)+_0x4eabe5(0x8c2,0x5bc)+'i\x20data-i18'+'n=\x22proj_ut'+_0x4398a7(0x14d9,0xcaf)+'uader\x20les\x20'+_0x4eabe5(0x5e2,0x7c)+_0x4eabe5(0x154,0x2b2)+'\x20\x20\x20\x20\x20\x20\x20\x20<l'+_0x4eabe5(0x13de,0x136c)+_0x4eabe5(0x145b,0xa35)+_0x4eabe5(0xd2d,0x161b)+'tionne\x20san'+_0x4398a7(0x13f2,0x10a6)+'ité</li>\x0a\x20'+_0x4398a7(0x18a,0x26)+'/ul>\x0a\x20\x20\x20\x20\x20'+_0x4eabe5(0x425,0xcdb)+'ata-i18n=\x22'+'how_to_use'+_0x4398a7(0xd0b,0x64b)+'ion</h4>\x0a\x20'+_0x4eabe5(0x48,0x3dc)+_0x4eabe5(0x11c3,0x15e4)+_0x4398a7(0xab2,0xa0d)+_0x4eabe5(0x7a6,0xd03)+_0x4398a7(0x759,0xc9f)+'1\x22>Fixer\x20l'+'e\x20projecte'+_0x4eabe5(0x11df,0x70f)+_0x4398a7(0x368,0xa)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20<li\x20data-'+'i18n=\x22proj'+_0x4398a7(0xd5f,0xd4a)+'ienter\x20les'+'\x20panneaux\x20'+_0x4eabe5(0x144c,0xc27)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20<li\x20data-')+('i18n=\x22proj'+_0x4eabe5(0xa1c,0xfbb)+'gler\x20le\x20dé'+'tecteur\x20PI'+'R</li>\x0a\x20\x20\x20'+_0x4398a7(0x18a,-0x859)+_0x4398a7(0x4e0,0x43b)+'8n=\x22proj_u'+'se_4\x22>Lais'+'ser\x20charge'+_0x4398a7(0x82c,0xb29)+'au\x20solaire'+_0x4eabe5(0x154,0xaf5)+_0x4398a7(0xb61,0xbd1)+_0x4eabe5(0xf54,0xd3d)+_0x4398a7(0x104c,0x178c)+'\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20'+'\x20\x20\x20\x20{{STOC'+_0x4eabe5(0x7ca,0xc83)+_0x4398a7(0x127b,0x1aa0)+_0x4eabe5(-0x3d,-0xa10)+'/div>\x0a\x20\x20\x20\x20'+_0x4eabe5(0xf0a,0xc98)+'\x20\x20\x20'),'vmqRV':'95.00','kPwDn':'Pack-Sécu.'+'jpg','UATHZ':'\x0a\x20\x20\x20\x20<div\x20'+_0x4398a7(0x26d,-0x280)+_0x4398a7(0x9d3,0x1056)+_0x4eabe5(0x45e,0x79)+'it-pack-se'+'curite\x22\x20da'+'ta-name=\x22P'+_0x4398a7(0x1a7,-0x6cf)+'té\x20Premium'+_0x4eabe5(0xd75,0x1433)+'ce=\x22379\x22\x20t'+_0x4398a7(0x1068,0x11e8)+'1\x22>\x0a\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0x6f1,0x967)+_0x4398a7(0xea0,0x57a)+_0x4398a7(0xbdb,0x109d)+'\x20\x20\x20\x20\x20\x20\x20<im'+_0x4eabe5(0x1044,0x1a93)+'k-Sécu.jpg'+_0x4398a7(0x320,0xc59)+_0x4eabe5(0x2db,0x7c6)+'ge\x22\x20alt=\x22P'+_0x4eabe5(0x65,0x819)+'té\x20Premium'+_0x4398a7(0xf6f,0x154d)+'Tiiwee\x20+\x20C'+'améra\x20Tapo'+'\x20C245D\x20+\x204'+'\x20capteurs\x20'+'SONOFF\x22\x20lo'+_0x4eabe5(0x1060,0x1291)+'y\x22\x20decodin'+_0x4398a7(0x6c3,0xf3c)+'data-zoom>'+_0x4eabe5(0x659,0xb54)+_0x4eabe5(0x1547,0xd73)+_0x4398a7(0x833,0x297)+_0x4398a7(0xea0,0x6e7)+'info\x22>\x0a\x20\x20\x20'+_0x4398a7(0xce8,0x8a0)+'\x20class=\x22ba'+_0x4eabe5(0x808,0xfbc)+'i18n=\x22badg'+_0x4eabe5(0xce3,0xfbc)+_0x4398a7(0x157e,0x16d0)+'ÉCURITÉ</s'+_0x4398a7(0x15e,0x381)+'\x20\x20\x20<h3\x20cla'+'ss=\x22produc'+'t-title\x22\x20d'+'ata-i18n=\x22'+_0x4398a7(0x71a,-0x1da)+'title\x22>Pac'+_0x4398a7(0x12ac,0xe34)+'\x20Premium</'+'h3>\x0a\x20\x20\x20\x20\x20\x20'+'\x20\x20<p\x20class'+_0x4eabe5(0x378,0x831)+_0x4eabe5(0xf74,0x6b5)+'=\x22pack_sec'+_0x4398a7(0x1224,0x1cce)+'>Votre\x20for'+_0x4eabe5(0xa54,0x10a1)+_0x4398a7(0x129d,0x92d)+_0x4eabe5(0xfb,0xa8e)+'</p>\x0a\x20\x20\x20\x20\x20'+_0x4398a7(0xe42,0x7fe)+'ass=\x22price'+'\x22>379\x20€</d'+'iv>\x0a\x20\x20\x20\x20\x20\x20'+_0x4398a7(0x9a4,0xa9b)+'=\x22desc\x22\x20da'+'ta-i18n=\x22p'+'ack_secu_d'+_0x4398a7(0x128,0x40c)+'e\x20Tiiwee,\x20'+'caméra\x20Tap'+_0x4eabe5(0x134e,0x18dd)+_0x4398a7(0x1ed,0x2c5)+_0x4398a7(0x928,0x509)+_0x4eabe5(0xb77,0xe80)+'e\x20foyer\x20ou'+_0x4eabe5(0x6bc,0x4b6)+'merce\x20avec'+'\x20un\x20systèm'+_0x4398a7(0x12ad,0x1581)+'\x20intellige'+'nt\x20et\x20prêt'+'\x20à\x20l\x27emplo'+'i.\x20Install'+'ation\x20en\x201'+'0\x20minutes.'+'</p>\x0a\x20\x20\x20\x20\x20'+_0x4398a7(0xe67,0x79f)+'\x20\x20<button\x20'+_0x4eabe5(0x12f8,0xb17)+'on\x22\x20class='+_0x4eabe5(0x940,0x8bc)+'a-toggle-d'+_0x4398a7(0x116c,0xb41)+('a-expanded'+'=\x22false\x22\x20a'+'ria-contro'+'ls=\x22detail'+'s-pack-sec'+_0x4398a7(0x7bb,0xca6)+'8n=\x22see_mo'+_0x4398a7(0x1572,0x16da)+_0x4eabe5(0xd52,0x12b1)+'n>\x0a\x20\x20\x20\x20\x20\x20\x20'+'\x20<div\x20clas'+'s=\x22details'+_0x4eabe5(0xca9,0xbb1)+_0x4eabe5(0xbb4,0x902)+_0x4eabe5(0xa5c,0x556)+'\x20\x20\x20\x20\x20\x20<h4\x20'+_0x4398a7(0x8e8,0x11c8)+'\x22full_desc'+'\x22>Descript'+'ion\x20complè'+'te</h4>\x0a\x20\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20<p'+'\x20data-i18n'+'=\x22pack_sec'+'u_full_1\x22>'+'Le\x20Pack\x20Sé'+_0x4398a7(0x2de,-0x367)+'mium\x20réuni'+'t\x20tout\x20ce\x20'+'qu\x27il\x20faut'+'\x20pour\x20sécu'+'riser\x20une\x20'+'maison,\x20un'+'\x20apparteme'+'nt,\x20un\x20com'+_0x4398a7(0x888,-0x1b1)+'garage,\x20un'+_0x4398a7(0x88d,0x10cb)+_0x4eabe5(0x10d5,0x15e0)+_0x4398a7(0x10fc,0x199b)+_0x4eabe5(0xcf7,0x121c)+'chnique,\x20s'+'ans\x20câblag'+'e\x20complexe'+_0x4eabe5(-0x61,0x65f)+_0x4398a7(0xd8d,0x1358)+_0x4398a7(0x54d,-0x376)+_0x4eabe5(0x8a0,-0x205)+'ez,\x20vous\x20c'+_0x4398a7(0x1092,0xb49)+'c\x27est\x20prêt'+'\x20en\x2010\x20min'+'utes.</p>\x0a'+_0x4398a7(0xa6d,0x1361)+'<h4\x20data-i'+_0x4398a7(0x112b,0xb7e)+'secu_conte'+_0x4eabe5(0x9ff,0x1210)+'tenu\x20du\x20pa'+_0x4398a7(0x3f6,0xaee)+_0x4398a7(0x301,0xdcb)+_0x4398a7(0xc64,0xea4)+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0xaf7,0x2af)+'a-i18n=\x22pa'+'ck_secu_c1'+_0x4eabe5(0x5bc,0x1097)+'\x20Tiiwee\x20(s'+_0x4eabe5(0x8bf,0x1337)+'lécommande'+'s)</li>\x0a\x20\x20'+_0x4eabe5(0x92b,0xa2e)+_0x4eabe5(0x170,0x270)+'18n=\x22pack_'+'secu_c2\x22>1'+'\x20Caméra\x20IA'+'\x20TP-Link\x20T'+_0x4398a7(0x1272,0x1a2f)+_0x4398a7(0x1484,0x164c)+_0x4398a7(0x12b7,0x1400)+'étection)<'+'/li>\x0a\x20\x20\x20\x20\x20'+_0x4eabe5(0xcb7,0xae8)+_0x4398a7(0x10b6,0xd15)+_0x4eabe5(0x79,-0x9c5)+_0x4eabe5(0xfd5,0x133b)+'pteurs\x20d\x27o'+'uverture\x20S'+_0x4398a7(0x818,0xb1d)+'tes\x20/\x20fenê'+'tres\x20/\x20gar'+_0x4398a7(0xcb6,0x124c)+'on)</li>\x0a\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4398a7(0x13dc,0x97e)+_0x4398a7(0xd94,0xb65)+'_secu_c4\x22>'+'Notice\x20d\x27i'+_0x4eabe5(0xf90,0x17fe)+_0x4eabe5(0x127f,0x7c3))+('\x20\x20\x20\x20\x20\x20\x20\x20\x20<'+_0x4eabe5(0x39e,0x9c2)+'8n=\x22pack_s'+'ecu_c5\x22>As'+'sistance\x203'+_0x4eabe5(0x96,0xaa0)+_0x4398a7(0xf2c,0x13be)+_0x4398a7(0xe87,0xbf5)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20<'+'h4\x20data-i1'+_0x4398a7(0x1492,0xbf0)+_0x4398a7(0xf79,0xba7)+_0x4eabe5(0x17,0x539)+'/h4>\x0a\x20\x20\x20\x20\x20'+'\x20\x20\x20\x20\x20<ul>\x0a'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20<li\x20data'+_0x4eabe5(0xcf1,0x874)+'k_secu_f1\x22'+_0x4eabe5(0x116,0x82f)+'nstantanée'+_0x4398a7(0x386,-0x338)+_0x4eabe5(0x52f,0x794)+'>\x0a\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20\x20\x20<li\x20da'+_0x4eabe5(0x43f,-0x412)+_0x4eabe5(0x1210,0xf5c)+_0x4eabe5(0xe93,0x1299)+'on\x20intelli'+_0x4eabe5(0x8f6,0x554)+_0x4eabe5(0x154,0x5e7)+_0x4398a7(0xa04,0x12fd)+_0x4eabe5(0x13de,0x1397)+_0x4398a7(0xa7b,0x1020)+_0x4eabe5(0xb1e,0x538)+'ène\x20puissa'+_0x4eabe5(0x477,0x438)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0x129a,0xcff)+_0x4398a7(0xd94,0x9f8)+'_secu_f4\x22>'+'Vision\x20noc'+_0x4398a7(0x144,-0x352)+'li>\x0a\x20\x20\x20\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20<li\x20'+'data-i18n='+_0x4398a7(0x1617,0xc42)+'_f5\x22>Surve'+'illance\x20en'+_0x4398a7(0xaea,0x936)+'i>\x0a\x20\x20\x20\x20\x20\x20\x20'+_0x4398a7(0x1573,0x1ef8)+'ata-i18n=\x22'+'pack_secu_'+'f6\x22>Capteu'+'rs\x20haute\x20p'+_0x4398a7(0x68d,0x1060)+_0x4eabe5(0x584,0x5be)+'\x20\x20\x20\x20</ul>\x0a'+_0x4eabe5(0x92b,0x11f6)+'<h4\x20data-i'+'18n=\x22pack_'+'secu_secur'+'e_for\x22>Séc'+_0x4eabe5(0x714,-0x325)+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20<ul>\x0a\x20\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20<l'+_0x4398a7(0x1520,0xf6a)+'n=\x22pack_se'+'cu_s1\x22>🏠\x20M'+_0x4eabe5(0xda8,0xd02)+_0x4eabe5(0x6e1,0xeb5)+_0x4398a7(0xc39,0x105e)+'a-i18n=\x22pa'+'ck_secu_s2'+'\x22>🏢\x20Appart'+'ement</li>'+_0x4eabe5(0x6e1,0x1d1)+_0x4eabe5(0xaf7,0x146e)+'a-i18n=\x22pa'+'ck_secu_s3'+_0x4eabe5(0x3bc,0xdb)+'ce</li>\x0a\x20\x20'+_0x4398a7(0xa6d,0xd81)+_0x4eabe5(0x170,0x57c)+'18n=\x22pack_'+'secu_s4\x22>🚗'+'\x20Garage</l'+_0x4eabe5(0xdea,0x17a0)+_0x4398a7(0x1573,0x1a99)+'ata-i18n=\x22'+_0x4398a7(0x71a,0x398)+'s5\x22>🕳️\x20Cave'+_0x4eabe5(0x154,0x860)+_0x4eabe5(0x8c2,0x9c1)+_0x4eabe5(0x13de,0xa2a)+'n=\x22pack_se'+'cu_s6\x22>💼\x20B'+_0x4eabe5(-0x53,0x42f))+('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20</ul>\x0a\x20\x20\x20'+_0x4398a7(0x1113,0x959)+_0x4398a7(0x10b6,0x1766)+_0x4398a7(0x472,0xc1)+'se\x22>Instal'+_0x4398a7(0x1501,0xc0c)+_0x4398a7(0x1096,0x1340)+_0x4398a7(0x1112,0x128c)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20<'+'li\x20data-i1'+_0x4eabe5(0xae1,0x1032)+'ecu_use_1\x22'+_0x4398a7(0x13a7,0x1414)+_0x4eabe5(0xcd2,0x497)+_0x4eabe5(0x96f,0x45e)+'a\x20caméra\x20T'+_0x4eabe5(0xec1,0xd72)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0xfae,0xf8b)+_0x4398a7(0xe33,0x4c8)+_0x4eabe5(0x1182,0x119a)+'_2\x22>Coller'+_0x4eabe5(0x3fc,0x304)+_0x4398a7(0x15ac,0xd92)+_0x4eabe5(0x742,-0x374)+_0x4eabe5(0xeb6,0x520)+'tres\x20/\x20gar'+_0x4eabe5(0xb74,0xe2a)+'on.</li>\x0a\x20'+_0x4eabe5(0x92b,0x7e4)+_0x4eabe5(0x129a,0x9c2)+_0x4eabe5(0xc52,0xca3)+'_secu_use_'+_0x4eabe5(0x122f,0x13d0)+'er\x20les\x20app'+_0x4398a7(0xe5a,0x1848)+'\x27applicati'+'on\x20(Tapo\x20+'+'\x20SONOFF).<'+_0x4eabe5(0x151c,0x1bb3)+'\x20\x20\x20\x20\x20\x20\x20<li'+'\x20data-i18n'+_0x4eabe5(0x79,-0x7f9)+_0x4398a7(0x14dd,0xb03)+'onfigurer\x20'+'les\x20alerte'+_0x4eabe5(0xb9e,0xb16)+_0x4398a7(0x3f0,0xa77)+_0x4398a7(0xa6d,0x130d)+'\x20<li\x20data-'+_0x4398a7(0xd94,0x16bf)+'_secu_use_'+'5\x22>Tester\x20'+_0x4eabe5(0x1049,0x1692)+'détection.'+_0x4398a7(0xa8f,0xdfd)+'t\x20en\x2010\x20mi'+_0x4eabe5(0x12c0,0x15aa)+_0x4398a7(0x1096,0x17c8)+_0x4eabe5(0x73f,0x5e6)+_0x4eabe5(0xe57,0x123e)+_0x4398a7(0x808,0x12a3)+'n=\x22pack_se'+_0x4398a7(0x1131,0x162c)+'y_support\x22'+'>Garantie\x20'+_0x4eabe5(0x377,0x915)+'/h4>\x0a\x20\x20\x20\x20\x20'+'\x20\x20\x20\x20\x20<ul>\x0a'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20<li\x20data'+'-i18n=\x22pac'+_0x4eabe5(0x9c7,-0x9c)+_0x4eabe5(0x1160,0xc95)+'\x2024\x20mois</'+_0x4398a7(0x6c6,0x170)+_0x4398a7(0xab2,0x1103)+'data-i18n='+_0x4398a7(0x1617,0x175f)+'_ws2\x22>Supp'+_0x4398a7(0x6e8,0x6cc)+'\x2030\x20jours<'+_0x4398a7(0x165e,0x1fb9)+_0x4398a7(0xdf9,0x4a2)+'\x20data-i18n'+'=\x22pack_sec'+_0x4eabe5(0xd8a,0x1741)+'istance\x20in'+'stallation'+_0x4398a7(0x137e,0x103d)+_0x4398a7(0x296,0x23)+'\x20\x20\x20\x20\x20\x20</ul'+_0x4eabe5(0xf54,0x12aa)+'\x20\x20<h4\x20data'+'-i18n=\x22pac'+_0x4398a7(0x476,0xb61)+'\x22>Pourquoi'+_0x4eabe5(0x4a5,-0x37b)+'</h4>\x0a\x20\x20\x20\x20')+(_0x4eabe5(0x1481,0x18e1)+'ata-i18n=\x22'+_0x4eabe5(0x5d8,0x101c)+'why_text\x22>'+_0x4398a7(0xfb6,0x780)+'l\x20protège\x20'+'toute\x20votr'+_0x4398a7(0x7b0,0x15a)+'on\x20avec\x20un'+'e\x20caméra\x20I'+_0x4398a7(0x12d,0x21d)+_0x4eabe5(0x9bb,0x1f1)+'te,\x204\x20capt'+_0x4398a7(0x1344,0x1e01)+_0x4398a7(0x590,-0x48f)+'rêt\x20à\x20l\x27em'+'ploi.\x20Pack'+_0x4eabe5(0xaa6,0xd16)+_0x4398a7(0x11e2,0x161f)+_0x4eabe5(0x11fc,0xa43)+'iculiers\x20e'+_0x4398a7(0x135a,0x15f5)+'ommerces.<'+_0x4398a7(0x1493,0x1965)+_0x4398a7(0x15b0,0x1cc6)+_0x4398a7(0x5bf,0xf44)+'\x20\x20\x20\x20\x20\x20{{ST'+'OCK}}\x0a\x20\x20\x20\x20'+_0x4eabe5(0x548,-0x5a6)+_0x4eabe5(0x45c,0xf12)+'\x20</div>\x0a\x20\x20'+_0x4eabe5(0x146e,0xada)+_0x4eabe5(0x888,0x9c4)),'XdZhe':_0x4eabe5(0x4c,-0x170)+_0x4398a7(0xf5e,0x6b4)};const _0x549da5=window[_0x4eabe5(0xb0a,0xccc)+_0x4398a7(0x148b,0xe54)];if(!_0x549da5)return void console[_0x4eabe5(0x5db,0xd6)](_0x2b3fcb[_0x4eabe5(0x76a,-0x31b)]);function _0x4eabe5(_0x412486,_0x35d621){return _0x1c0568(_0x412486-0x252,_0x35d621);}const _0x15c410={'price_1URq5TRNu37iEZT9kBjY7X1G':{'name':_0x2b3fcb['EBtNw'],'price':_0x2b3fcb[_0x4eabe5(0x3af,0x552)],'image':'photo1.png','html':_0x4398a7(0x3b8,-0x623)+_0x4398a7(0x26d,0x554)+_0x4eabe5(0x891,0x42b)+_0x4398a7(0x5a0,-0x2f8)+'it-drone\x22\x20'+_0x4eabe5(0xafd,0xf7a)+_0x4398a7(0x139c,0xfae)+_0x4398a7(0x69f,0x78c)+_0x4eabe5(0x1308,0x185c)+'tabindex=\x22'+'-1\x22>\x0a\x20\x20\x20\x20\x20'+_0x4eabe5(0xa4e,0x14a2)+_0x4398a7(0x131f,0x1582)+'-images\x22>\x0a'+'\x20\x20\x20\x20\x20\x20\x20\x20<i'+_0x4398a7(0x34a,-0x75a)+_0x4eabe5(0xe85,0x14e0)+'class=\x22pro'+_0x4eabe5(0x1067,0x1858)+'\x22\x20alt=\x22Dro'+'ne\x20KY108\x20—'+_0x4eabe5(0x875,0x4e7)+'ipale\x22\x20loa'+_0x4eabe5(0x1184,0x1b2c)+_0x4398a7(0xddf,0x5c5)+_0x4398a7(0x10b0,0x1b35)+_0x4398a7(0x92f,0x4b)+_0x4eabe5(0x18c,0x304)+'mg\x20src=\x22ph'+_0x4eabe5(0x12b9,0xbf1)+_0x4eabe5(0x12b,-0x83c)+'duct-image'+_0x4eabe5(0x664,-0x54)+'ne\x20KY108\x20—'+'\x20vue\x20secon'+_0x4eabe5(0x246,0xec)+_0x4eabe5(0x1184,0xcfe)+_0x4398a7(0xddf,0x822)+'=\x22async\x22\x20d'+_0x4398a7(0x92f,-0x160)+_0x4eabe5(0xa35,0x58e)+_0x4eabe5(0x1dc,0x68)+_0x4398a7(0x4bf,-0x5a2)+'\x22product-i'+_0x4398a7(0x900,0x1349)+_0x4eabe5(0xa61,-0x39)+_0x4398a7(0xf58,0x1816)+_0x4eabe5(0x1254,0x1d3d)+_0x4398a7(0xf8a,0x75d)+'_new\x22>NOUV'+'EAU</span>'+_0x4eabe5(0x12b6,0x1753)+_0x4398a7(0x10e0,0x13cf)+_0x4eabe5(0x771,0x5ff)+'tle\x22\x20data-'+_0x4eabe5(0x3c2,0x2e8)+'e_title\x22>K'+'Y108\x20DRONE'+_0x4eabe5(0xc43,0xe02)+_0x4398a7(0xe43,0x1837)+'3>\x0a\x20\x20\x20\x20\x20\x20\x20'+'\x20<p\x20class='+'\x22tagline\x22\x20'+_0x4eabe5(0x7a6,0x11e)+_0x4eabe5(0x458,0x3cc)+_0x4398a7(0x799,0xac5)+'nez\x20le\x20cie'+_0x4398a7(0xd95,0x55d)+'s\x204K.\x20Préc'+_0x4398a7(0x9cf,0x25e)+'urgicale.<'+'/p>\x0a\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0x4f9,-0x59)+'ss=\x22price\x22'+'><span\x20cla'+_0x4398a7(0xeac,0x1755)+_0x4398a7(0xe6,0xb15)+'n></div>\x0a\x20'+'\x20\x20\x20\x20\x20\x20\x20<p\x20'+'class=\x22des'+_0x4398a7(0x103b,0xe66)+_0x4eabe5(0x787,0x10b9)+'desc\x22>Conç'+'u\x20pour\x20les'+_0x4398a7(0x1114,0xb6f)+_0x4398a7(0x400,0xeea)+_0x4398a7(0x83b,0x503)+'lotes\x20exig'+_0x4398a7(0x1603,0xf35)+'nez\x20le\x20con'+'trôle\x20des\x20'+'airs\x20et\x20ra'+'menez\x20des\x20'+'images\x20spe'+_0x4398a7(0x1376,0x110d)+'s\x20avec\x20une'+_0x4eabe5(0x1378,0x1899)+_0x4eabe5(0x1353,0x189b)+'</p>\x0a\x20\x20\x20\x20\x20'+'\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20'+(_0x4398a7(0x114d,0x978)+_0x4eabe5(0x12f8,0x11fe)+_0x4398a7(0xcd7,0x10ce)+_0x4398a7(0xa82,0xcec)+'a-toggle-d'+'etails\x20ari'+_0x4398a7(0x576,-0x3a6)+_0x4eabe5(0x1127,0x169a)+'ria-contro'+_0x4eabe5(0x129e,0x1651)+'s-drone\x22\x20d'+_0x4eabe5(0x11b2,0x136a)+_0x4398a7(0xa39,0xd03)+_0x4eabe5(0x65e,-0x369)+_0x4398a7(0x105a,0xccf)+'\x20\x20\x20\x20\x20\x20\x20<di'+_0x4398a7(0x3fa,0xfe)+_0x4eabe5(0xc9a,0xbad)+'=\x22details-'+_0x4eabe5(0x1314,0xd9f)+_0x4398a7(0xf99,0x12cd)+_0x4eabe5(0x6c6,0x113c)+_0x4eabe5(0x106e,0x10e4)+'sc\x22>Descri'+'ption\x20comp'+'lète</h4>\x0a'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4398a7(0x1178,0x12a3)+_0x4eabe5(0x787,-0x21b)+_0x4eabe5(0xb99,0x9ff)+_0x4398a7(0x69e,0xad9)+'st\x20pas\x20un\x20'+_0x4398a7(0x15b3,0x1005)+'ne\x20:\x20c\x27est'+_0x4eabe5(0x14f1,0x17fa)+'de\x20vision,'+_0x4398a7(0x3ad,0x3ff)+_0x4eabe5(0x146d,0x1263)+'îtrise,\x20un'+'\x20allié\x20aér'+_0x4398a7(0xac6,0x10d6)+_0x4398a7(0x1260,0x1584)+_0x4398a7(0x3d8,0xaae)+'en\x20expérie'+_0x4eabe5(0x988,0x10c6)+'ste.</p>\x0a\x20'+_0x4eabe5(0x48,-0x64f)+_0x4eabe5(0xf38,0xdf7)+'n=\x22drone_f'+'ull_2\x22>Grâ'+'ce\x20à\x20sa\x20do'+'uble\x20camér'+_0x4eabe5(-0x7d,0x29f)+'zoom\x2090x,\x20'+'son\x20évitem'+_0x4398a7(0x112d,0x1a8d)+'acles\x20omni'+_0x4398a7(0x242,0x602)+_0x4398a7(0xe08,0xc7e)+_0x4398a7(0xea2,0x7a5)+'ushless,\x20i'+_0x4398a7(0x932,0x57)+'re\x20une\x20sta'+_0x4398a7(0xc41,0x88e)+'une\x20puissa'+'nce\x20que\x20pe'+'u\x20de\x20drone'+'s\x20de\x20sa\x20ca'+'tégorie\x20pe'+'uvent\x20atte'+'indre.</p>'+_0x4398a7(0x823,0x12f0)+_0x4398a7(0xc77,0x121c)+'18n=\x22drone'+'_full_3\x22>P'+'liable,\x20co'+_0x4398a7(0x2f4,-0x718)+'elligent\x20:'+_0x4eabe5(0xe3e,0xab6)+'est\x20prêt\x20à'+_0x4398a7(0x156f,0x1578)+'re\x20partout'+'.</p>\x0a\x20\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20<h4\x20'+'data-i18n='+_0x4eabe5(0x4c7,0x908)+_0x4eabe5(0xe78,0xb03)+_0x4398a7(0x693,0x9c7)+_0x4eabe5(0x2fe,0x932)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4398a7(0x2b2,-0x6b)+_0x4398a7(0xce4,0x371)+'_detail_1\x22'+'>Double\x20ca'+_0x4398a7(0x449,0x417)+'ec\x20zoom\x2090'+_0x4eabe5(0xbc2,0x5f7)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20<'+_0x4398a7(0x4e0,-0x478)+_0x4eabe5(0x787,0xc38))+(_0x4398a7(0x40c,-0x4b3)+_0x4398a7(0x1e8,-0x857)+'d\x27obstacle'+_0x4eabe5(0x374,0x4a9)+'ctionnel</'+_0x4eabe5(0x584,0x596)+_0x4eabe5(0x970,0x1407)+_0x4eabe5(0x7a6,0x78)+'\x22drone_det'+_0x4398a7(0x84b,0x4e4)+'eur\x20brushl'+'ess\x20puissa'+'nt\x20et\x20dura'+'ble</li>\x0a\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0x129a,0xf1e)+'i18n=\x22dron'+_0x4eabe5(0x636,0x9cd)+'\x22>Télécomm'+_0x4398a7(0x162a,0xfb4)+'écran\x20FPV\x20'+'intégré</l'+'i>\x0a\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20\x20\x20\x20<li\x20d'+'ata-i18n=\x22'+_0x4eabe5(0x11da,0x1955)+_0x4eabe5(0x82f,0xe15)+_0x4398a7(0x482,-0x64f)+'\x20facile\x20à\x20'+'transporte'+'r</li>\x0a\x20\x20\x20'+_0x4eabe5(0x71f,0x78e)+_0x4eabe5(0xe1e,0x14e4)+_0x4eabe5(0x1302,0x91e)+'a-i18n=\x22ut'+'ility\x22>Uti'+_0x4eabe5(0x408,0x137)+_0x4eabe5(0x92b,0xa6a)+_0x4eabe5(0xc47,0x1455)+'\x20\x20\x20\x20\x20\x20\x20<li'+_0x4eabe5(0xf74,0xe11)+_0x4398a7(0x1303,0x13a6)+'il_1\x22>Film'+'er\x20des\x20pay'+'sages\x20en\x20h'+'aute\x20quali'+_0x4eabe5(0x1189,0x1435)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0x170,-0x65b)+'18n=\x22drone'+'_util_2\x22>C'+'réer\x20du\x20co'+_0x4398a7(0x548,0xf86)+_0x4eabe5(0xb18,0x2d6)+'\x20Instagram'+'</li>\x0a\x20\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20<l'+'i\x20data-i18'+'n=\x22drone_u'+_0x4398a7(0x972,0x1252)+'veiller\x20un'+'e\x20zone\x20dan'+_0x4eabe5(0x59a,-0x484)+_0x4eabe5(0xbcd,0x3ed)+_0x4398a7(0x353,0xcb7)+'/li>\x0a\x20\x20\x20\x20\x20'+_0x4398a7(0xdf9,0x11fb)+_0x4eabe5(0xf74,0x9f9)+'=\x22drone_ut'+'il_4\x22>Appr'+'endre\x20le\x20p'+'ilotage\x20de'+_0x4eabe5(0xd94,0xf1c)+_0x4398a7(0x1096,0xac0)+'\x20\x20\x20\x20<li\x20da'+_0x4eabe5(0x14b1,0x1a02)+'rone_util_'+'5\x22>Réalise'+'r\x20des\x20phot'+'os\x20aérienn'+'es\x20profess'+_0x4eabe5(0x94f,-0x2d)+_0x4398a7(0x165e,0x1d36)+'\x20\x20\x20\x20\x20</ul>'+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0x3c5,-0x3fc)+_0x4eabe5(0xdfc,0x1643)+'to_use\x22>Ut'+'ilisation<'+_0x4eabe5(0x407,0x79)+'\x20\x20\x20\x20\x20<ol>\x0a'+_0x4eabe5(0x92b,0x10c8)+'\x20\x20<li\x20data'+'-i18n=\x22dro'+'ne_use_1\x22>'+'Déplier\x20le'+_0x4eabe5(0x1fa,0x3cc)+'vérifier\x20l'+_0x4eabe5(0x171,0x775)+_0x4eabe5(0x49f,-0x5a0))+('\x20\x20\x20\x20\x20\x20\x20\x20\x20<'+_0x4eabe5(0x39e,0x805)+'8n=\x22drone_'+'use_2\x22>All'+'umer\x20la\x20té'+_0x4398a7(0x4c7,0x51e)+_0x4eabe5(0x49f,0x9bd)+_0x4eabe5(0x48,0x2a9)+'li\x20data-i1'+'8n=\x22drone_'+'use_3\x22>Con'+'necter\x20la\x20'+_0x4398a7(0x12b8,0x180b)+_0x4eabe5(0x154,0x9c2)+'\x20\x20\x20\x20\x20\x20\x20\x20<l'+'i\x20data-i18'+'n=\x22drone_u'+'se_4\x22>Déco'+_0x4398a7(0xb80,0x14c6)+_0x4eabe5(0x469,-0x385)+'.</li>\x0a\x20\x20\x20'+_0x4398a7(0x18a,-0x64)+_0x4eabe5(0x39e,0x8bf)+'8n=\x22drone_'+'use_5\x22>Pil'+_0x4eabe5(0x55a,-0x11e)+_0x4398a7(0x110e,0x176f)+_0x4398a7(0x31a,0x24c)+'/li>\x0a\x20\x20\x20\x20\x20'+_0x4eabe5(0xd03,0xe94)+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4398a7(0xc77,0x15b9)+'18n=\x22drone'+_0x4398a7(0x620,-0x2e6)+_0x4eabe5(0x44c,0xdb1)+'respecter\x20'+'les\x20règles'+'\x20de\x20vol\x20ap'+'plicables\x20'+'et\x20la\x20vie\x20'+_0x4eabe5(0xdc1,0x52b)+_0x4eabe5(0x60d,0xab2)+_0x4398a7(0x355,0xd9e)+'/p>\x0a\x20\x20\x20\x20\x20\x20'+'\x20\x20</div>\x0a\x20'+_0x4398a7(0x5bf,0xcda)+_0x4eabe5(0x76d,0xcd)+'OCK}}\x0a\x20\x20\x20\x20'+'\x20\x20\x20\x20{{BOUT'+_0x4398a7(0xb50,0x116a)+'\x20\x20\x20\x20<!--\x20V'+_0x4eabe5(0xcfe,0x7a6)+'E\x20TOUT\x20EN\x20'+'BAS\x20-->\x0a\x20\x20'+_0x4398a7(0x78f,-0x2ea)+'\x20class=\x22dr'+_0x4398a7(0x58a,-0x54f)+_0x4398a7(0x6b3,0x711)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4398a7(0xee7,0x51b)+_0x4398a7(0x1f4,0x18e)+'e_drone.mp'+_0x4eabe5(0xc24,0xf6b)+_0x4eabe5(0x12a4,0x12d3)+_0x4eabe5(0x72e,0xaac)+'ysinline\x20c'+_0x4eabe5(0x99b,0x12ef)+_0x4eabe5(0x135a,0xdc2)+'ia-label=\x22'+'Publicité\x20'+'du\x20drone\x20K'+_0x4eabe5(0x114,0x917)+'er=\x22photo1'+'.png\x22>\x0a\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20V'+_0x4eabe5(-0x76,-0x81b)+'ateur\x20ne\x20p'+'rend\x20pas\x20e'+_0x4eabe5(0xb6c,0x948)+'a\x20lecture\x20'+'vidéo.\x0a\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20\x20</v'+'ideo>\x0a\x20\x20\x20\x20'+'\x20\x20\x20\x20</div>'+'\x0a\x20\x20\x20\x20\x20\x20</d'+'iv>\x0a\x20\x20\x20\x20</'+'div>\x0a\x20\x20\x20\x20\x20'+'\x20')},'price_1URs5zRNu37iEZT9MkNDMhFW':{'name':_0x2b3fcb['NVMKl'],'price':_0x2b3fcb[_0x4eabe5(0x777,0xea9)],'image':_0x2b3fcb['RlAkn'],'html':_0x2b3fcb['MupMt']},'price_1URsA0RNu37iEZT9Yq7pXGpL':{'name':'Winter\x20Sur'+'vival\x20Pack','price':_0x4398a7(0x89a,-0x1ce),'image':'Winter-Sur'+_0x4eabe5(0x1101,0x760),'html':'\x0a\x20\x20\x20\x20<div\x20'+_0x4398a7(0x26d,-0x1a4)+'duct-card\x22'+'\x20id=\x22produ'+'it-pack-hi'+_0x4398a7(0x1172,0xa78)+'name=\x22Wint'+'er\x20Surviva'+_0x4398a7(0x6ae,-0x176)+_0x4eabe5(0xc1c,0x1561)+'mium\x22\x20data'+_0x4eabe5(0x68,-0x5ef)+'.99\x22\x20tabin'+_0x4398a7(0x130f,0x1ce7)+_0x4eabe5(0x64d,0x112c)+_0x4398a7(0x309,0x510)+_0x4eabe5(0xa9a,0x28d)+'es\x22>\x0a\x20\x20\x20\x20\x20'+'\x20\x20\x20<img\x20sr'+'c=\x22Winter-'+'Survival.p'+_0x4398a7(0xc04,0x9dd)+_0x4398a7(0x12c0,0x13f4)+'mage\x22\x20alt='+_0x4eabe5(0x2bc,0x836)+'rvival\x20Pac'+_0x4398a7(0x108e,0x19a6)+_0x4eabe5(0x4f1,0xb92)+'oading=\x22la'+'zy\x22\x20decodi'+'ng=\x22async\x22'+_0x4eabe5(0xf23,0x137f)+_0x4eabe5(0x9c4,0x1346)+_0x4eabe5(0x11e6,0xc40)+'\x20<div\x20clas'+'s=\x22product'+_0x4eabe5(0x14e9,0x1c27)+_0x4398a7(0xe3d,0x98a)+'n\x20class=\x22b'+'adge\x22\x20data'+_0x4398a7(0x5fb,0xc28)+_0x4eabe5(0x1473,0x113a)+'>PACK\x20HIVE'+_0x4eabe5(0x273,0x8bf)+'\x20\x20\x20\x20\x20\x20\x20<h3'+'\x20class=\x22pr'+_0x4eabe5(0xe17,0x167f)+'e\x22\x20data-i1'+'8n=\x22pack_t'+'itle\x22>Wint'+'er\x20Surviva'+_0x4398a7(0x6ae,-0x29a)+'dition\x20Pre'+_0x4eabe5(0x122b,0xd2a)+_0x4398a7(0x1ce,-0x3d5)+'\x20class=\x22ta'+'gline\x22\x20dat'+_0x4398a7(0x3aa,0x107)+'ck_tagline'+'\x22>L\x27autono'+'mie\x20totale'+'\x20face\x20aux\x20'+'éléments.<'+'/p>\x0a\x20\x20\x20\x20\x20\x20'+_0x4398a7(0x63b,-0x312)+_0x4eabe5(0x39f,0xbc9)+_0x4eabe5(0x1093,0x13cb)+_0x4eabe5(0x11e6,0xd4e)+_0x4398a7(0x9df,0xfe3)+'s=\x22desc\x22\x20d'+_0x4398a7(0x12f4,0x1af4)+'pack_desc\x22'+'>Ne\x20laisse'+'z\x20plus\x20l\x27h'+_0x4398a7(0x156,-0x786)+'r\x20vos\x20limi'+'tes.\x20Le\x20pa'+_0x4eabe5(0x949,0xdcf)+_0x4eabe5(0xff5,0xfa0)+_0x4398a7(0x10ab,0xb5d)+_0x4eabe5(0x3fa,0x6c8)+_0x4eabe5(0x3f4,-0x4de)+_0x4398a7(0x161d,0x1353)+'pé,\x20même\x20l'+'orsque\x20le\x20'+'réseau\x20lâc'+'he.</p>\x0a\x20\x20'+_0x4398a7(0x92a,0xb4d)+_0x4eabe5(0x77a,0x18a)+'on\x20type=\x22b'+'utton\x22\x20cla'+_0x4398a7(0x837,0x51b)+'data-toggl'+_0x4398a7(0x5cf,0x7ad)+'aria-expan'+'ded=\x22false'+_0x4eabe5(0xf09,0x854)+'trols=\x22det'+_0x4398a7(0x160a,0xd7e)+_0x4eabe5(0xf74,0x11d0)+(_0x4398a7(0x1ab,0x1a8)+_0x4eabe5(0x155b,0xf0c)+_0x4eabe5(0x91d,0x1073)+_0x4eabe5(0x12b6,0xeb2)+'div\x20class='+'\x22details\x22\x20'+_0x4398a7(0x874,0xd9f)+'s-pack\x22>\x0a\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20<'+_0x4eabe5(0x10d0,0x953)+_0x4eabe5(0x92d,0xae4)+_0x4eabe5(0xedc,0x19af)+_0x4eabe5(0x332,0x595)+_0x4398a7(0xec9,0xea9)+_0x4eabe5(0x86,0x53b)+_0x4398a7(0x15d7,0xafe)+'nts\x20(USB)<'+_0x4eabe5(0x407,-0x4a4)+'\x20\x20\x20\x20\x20<p\x20da'+'ta-i18n=\x22p'+'ack_item_1'+'_desc\x22>Gan'+'ts\x20d\x27hiver'+_0x4398a7(0x47a,0x176)+'formance,\x20'+'conçus\x20pou'+'r\x20offrir\x20u'+_0x4398a7(0x1339,0x116d)+'\x20immédiate'+'\x20et\x20contrô'+'lée.</p>\x0a\x20'+_0x4eabe5(0x48,0x1e)+'ul>\x0a\x20\x20\x20\x20\x20\x20'+_0x4398a7(0xab2,0x656)+_0x4398a7(0x8e8,0x7ec)+'\x22pack_item'+_0x4eabe5(0xecd,0x13e3)+'uffage\x20dou'+'ble\x20face\x20s'+_0x4eabe5(0xde,0x334)+_0x4eabe5(0x2c7,-0x1ec)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20<'+'li\x20data-i1'+'8n=\x22pack_i'+_0x4eabe5(0x12be,0x9e0)+_0x4eabe5(0x6c2,-0x23d)+'aux\x20de\x20tem'+_0x4eabe5(0x719,-0xca)+_0x4398a7(0x14c,0x230)+'li>\x0a\x20\x20\x20\x20\x20\x20'+_0x4398a7(0xab2,0x48f)+'data-i18n='+'\x22pack_item'+_0x4398a7(0x10cd,0x12ce)+'ign\x20tactil'+_0x4eabe5(0x2c7,-0x6b4)+_0x4398a7(0x18a,0x512)+_0x4eabe5(0x39e,-0x1ea)+'8n=\x22pack_i'+'tem_1_b4\x22>'+_0x4eabe5(0xd68,0x11b2)+'ment\x20via\x20i'+_0x4398a7(0xd24,0xf1c)+_0x4398a7(0x806,0xb22)+'ible\x20power'+_0x4eabe5(0xdb3,0x134d)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'</ul>\x0a\x20\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20<h4\x20'+'data-i18n='+'\x22pack_item'+_0x4eabe5(0xf03,0x62a)+'orches\x20LED'+_0x4398a7(0xbce,0xa5b)+'s\x20–\x20Rechar'+'geables\x20US'+'B\x20(x2)</h4'+'>\x0a\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20<p\x20data-'+_0x4398a7(0xd94,0x1419)+_0x4398a7(0x146e,0x1196)+_0x4eabe5(0x88e,0x2c9)+_0x4398a7(0x7d1,0x521)+'ltra\x20lumin'+'euse\x20pour\x20'+'coupures\x20d'+_0x4398a7(0xd9b,0x6c2)+'\x20déplaceme'+_0x4eabe5(0x14a1,0x1488)+'nes,\x20voitu'+'re.</p>\x0a\x20\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20<u'+_0x4eabe5(0xe1e,0xea3)+_0x4eabe5(0x1431,0x19a8)+_0x4398a7(0x12f4,0x193f)+_0x4eabe5(0xe96,0xf4d)+_0x4398a7(0x12c1,0x95a)+_0x4eabe5(0x60b,0xc10)+'ière</li>\x0a'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')+('\x20\x20<li\x20data'+_0x4eabe5(0xcf1,0x10ce)+'k_item_2_b'+'2\x22>Recharg'+_0x4398a7(0xf0e,0xf9d)+'USB</li>\x0a\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20<li\x20data-'+_0x4eabe5(0xc52,0xf44)+'_item_2_b3'+'\x22>Batterie'+_0x4eabe5(0x471,0x50c)+_0x4398a7(0x165e,0x183a)+'\x20\x20\x20\x20\x20\x20\x20<li'+'\x20data-i18n'+'=\x22pack_ite'+'m_2_b4\x22>Ré'+_0x4eabe5(0x1439,0x102d)+'ux\x20intempé'+'ries</li>\x0a'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4398a7(0x986,0xe15)+_0x4398a7(0x46e,0xd5f)+_0x4eabe5(0x7a6,0xba0)+_0x4eabe5(0x112d,0x19e9)+_0x4eabe5(0x480,0x59c)+_0x4398a7(0xa08,0xcb6)+'terne\x2012\x200'+_0x4398a7(0x13f7,0x1237)+'péciale\x20Ch'+'auffage\x20US'+_0x4398a7(0xa44,0xd5b)+_0x4398a7(0x15b9,0x1047)+_0x4eabe5(0x7a6,0x618)+'\x22pack_item'+'_3_desc\x22>P'+_0x4eabe5(0x1491,0x1909)+'aute\x20capac'+'ité\x20compat'+'ible\x20avec\x20'+_0x4eabe5(0x1212,0xeaa)+'ppareils\x20U'+_0x4eabe5(0x149a,0x1f11)+_0x4eabe5(0xd5c,0xc34)+_0x4eabe5(0x76e,0x532)+_0x4398a7(0x1096,0x1085)+'\x20\x20<ul>\x0a\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20<'+'li\x20data-i1'+'8n=\x22pack_i'+'tem_3_b1\x22>'+_0x4398a7(0xd5,-0x52f)+_0x4eabe5(0x1061,0x14ef)+'ie\x20longue\x20'+_0x4eabe5(0x12d1,0x9e7)+_0x4eabe5(0x6e1,0x9dd)+'\x20\x20\x20<li\x20dat'+_0x4eabe5(0x268,0x205)+'ck_item_3_'+'b2\x22>Sortie'+'\x205V\x202.4A</'+_0x4398a7(0x6c6,0x58e)+'\x20\x20\x20\x20\x20\x20<li\x20'+_0x4eabe5(0x7a6,0xa1f)+'\x22pack_item'+_0x4eabe5(0x383,-0x484)+_0x4eabe5(0x11ef,0x118a)+_0x4398a7(0x24b,0x1d)+_0x4eabe5(0xe01,0x10b8)+_0x4398a7(0xee,-0x198)+_0x4eabe5(0x71f,0xa)+'l>\x0a\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20\x20<h4\x20dat'+_0x4398a7(0x3aa,0xc75)+'ck_item_4\x22'+'>🛏️\x204.\x20Sac\x20'+'de\x20Couchag'+'e\x20Momie\x20Mu'+'lti-Saison'+'\x20(210\x20×\x2075'+_0x4eabe5(0x6e0,-0x404)+_0x4398a7(0xa6d,0x11bf)+_0x4eabe5(0x1036,0x159c)+_0x4eabe5(0x92d,0xace)+'tem_4_desc'+'\x22>Sac\x20de\x20c'+'ouchage\x20lé'+_0x4eabe5(0x91e,0xdc2)+_0x4eabe5(0xfe1,0x13a2)+'ortable,\x20i'+_0x4eabe5(0xdd4,0x143e)+_0x4398a7(0x452,0x3e1)+'\x20et\x20les\x20si'+_0x4398a7(0x5fe,0x330)+_0x4eabe5(0xf52,0x18ae)+'/p>\x0a\x20\x20\x20\x20\x20\x20'+'\x20\x20\x20\x20<ul>\x0a\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20<li\x20data-'+_0x4398a7(0xd94,0x16c4))+(_0x4eabe5(0x5c2,0x204)+'\x22>Capuche\x20'+_0x4398a7(0x1053,0x987)+'li>\x0a\x20\x20\x20\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20<li\x20'+'data-i18n='+'\x22pack_item'+'_4_b2\x22>Pol'+'yester\x20170'+_0x4eabe5(0x14a8,0x115f)+'/li>\x0a\x20\x20\x20\x20\x20'+_0x4eabe5(0xcb7,0xbb0)+'\x20data-i18n'+'=\x22pack_ite'+_0x4398a7(0x1097,0x10a6)+_0x4398a7(0x981,0x95a)+_0x4398a7(0xff1,0xeac)+_0x4398a7(0x28e,-0x135)+_0x4398a7(0x165e,0x1ce4)+_0x4eabe5(0xcb7,0x7e5)+'\x20data-i18n'+'=\x22pack_ite'+'m_4_b4\x22>Sa'+'c\x20de\x20range'+_0x4eabe5(0xff1,0xab6)+_0x4eabe5(0xc96,0xc73)+_0x4398a7(0x861,0x679)+'l>\x0a\x20\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0xa3c,0xadf)+_0x4398a7(0x92a,0x62b)+'\x20\x20\x20\x20\x20{{STO'+_0x4398a7(0xe38,0xad4)+_0x4398a7(0x156b,0x1d4b)+'N}}\x0a\x20\x20\x20\x20\x20\x20'+'</div>\x0a\x20\x20\x20'+'\x20</div>\x0a\x20\x20'+_0x4eabe5(0x14e0,0x1a54))},'price_1US30aRNu37iEZT9EGBkxLCy':{'name':_0x4398a7(0xe58,0x1528)+_0x4398a7(0x105f,0x11f1)+_0x4398a7(0x7b7,0x5ba),'price':_0x2b3fcb[_0x4398a7(0x15b2,0xb93)],'image':_0x4eabe5(-0x23,-0x65e)+_0x4398a7(0xd8b,0xae1),'html':'\x0a\x20\x20\x20\x20<div\x20'+'class=\x22pro'+'duct-card\x22'+_0x4398a7(0x5a0,0xd54)+_0x4eabe5(0xf60,0x1624)+'pe\x22\x20data-n'+_0x4398a7(0x233,-0x328)+'cope\x20camér'+'a\x20d\x27inspec'+'tion\x20avec\x20'+'écran\x22\x20dat'+'a-price=\x229'+_0x4398a7(0x11b5,0xfd8)+'x=\x22-1\x22>\x0a\x20\x20'+'\x20\x20\x20\x20<div\x20c'+_0x4398a7(0x145e,0xdb0)+'uct-images'+_0x4eabe5(0x1d3,-0x69d)+'\x20<img\x20src='+_0x4398a7(0xe41,0x8de)+_0x4eabe5(0x4cd,0x875)+_0x4eabe5(0x1de,0x194)+_0x4398a7(0x41d,0x6aa)+'ge\x22\x20alt=\x22E'+_0x4eabe5(0xa0d,0xf7c)+'améra\x20d\x27in'+_0x4398a7(0x1143,0xae1)+_0x4398a7(0x4d0,0x242)+'\x20loading=\x22'+'lazy\x22\x20deco'+_0x4398a7(0x6a8,0xa96)+'c\x22\x20data-zo'+_0x4eabe5(0x124b,0x19c8)+'</div>\x0a\x20\x20\x20'+_0x4398a7(0xe42,0x448)+_0x4398a7(0x120b,0x99c)+'ct-info\x22>\x0a'+'\x20\x20\x20\x20\x20\x20\x20\x20<s'+_0x4398a7(0x444,0x1e1)+'\x22badge\x22\x20da'+'ta-i18n=\x22b'+_0x4398a7(0x156c,0xaae)+'NOUVEAU</s'+_0x4eabe5(0x1c,0xaae)+'\x20\x20\x20<h3\x20cla'+_0x4eabe5(0xf3d,0x14c6)+'t-title\x22\x20d'+'ata-i18n=\x22'+'endo_title'+_0x4398a7(0x1602,0x1f10)+_0x4eabe5(0x11b5,0x1036)+_0x4eabe5(0x109f,0x17ff)+_0x4eabe5(0xe26,0x1775)+_0x4eabe5(0x150b,0xfdc)+_0x4eabe5(0x124a,0x1b5b)+'data-i18n='+_0x4398a7(0x1457,0x1a6c)+_0x4eabe5(0x11c6,0x743)+_0x4398a7(0xda6,0xc57)+'le.\x20Ne\x20rat'+'ez\x20plus\x20au'+'cun\x20détail'+'.</p>\x0a\x20\x20\x20\x20'+_0x4398a7(0x13d0,0x1ca1)+'lass=\x22pric'+'e\x22>95\x20€</d'+_0x4398a7(0x1689,0x13c7)+'\x20\x20<p\x20class'+'=\x22desc\x22\x20da'+'ta-i18n=\x22e'+'ndo_desc\x22>'+_0x4398a7(0x1ec,0xccc)+'dispensabl'+_0x4eabe5(0x8e3,0x316)+'essionnels'+'\x20et\x20bricol'+_0x4398a7(0x10b,0x445)+_0x4398a7(0x15e5,0x11a3)+_0x4eabe5(0x1203,0x13db)+_0x4eabe5(0x446,-0x428)+_0x4eabe5(0xbec,0xf35)+'m\x20et\x20camér'+_0x4eabe5(0x309,-0x694)+'anche\x20(IP6'+'8).\x20Explor'+'ez\x20l\x27inacc'+'essible\x20av'+_0x4398a7(0x706,0x56f)+_0x4eabe5(0x10cb,0x65a)+_0x4398a7(0xba4,0xd58)+_0x4eabe5(0x579,0xa21)+_0x4398a7(0x122a,0x10bf)+_0x4398a7(0x70c,-0x120)+_0x4398a7(0x68f,-0x103)+'s=\x22more\x22\x20d'+_0x4eabe5(0x358,0x38b)+_0x4eabe5(0x870,0xf6b)+'ria-expand'+'ed=\x22false\x22'+'\x20aria-cont'+('rols=\x22deta'+'ils-endosc'+'ope\x22\x20data-'+'i18n=\x22see_'+'more\x22>Voir'+_0x4398a7(0xfbf,0xa41)+'ton>\x0a\x20\x20\x20\x20\x20'+'\x20\x20\x20<div\x20cl'+'ass=\x22detai'+_0x4398a7(0xc0f,0x853)+_0x4eabe5(0x807,0x3e7)+_0x4398a7(0x58f,0xbd8)+'\x20\x20\x20\x20\x20\x20\x20\x20<h'+_0x4398a7(0x808,0xb34)+_0x4398a7(0x11b0,0x14c7)+'sc\x22>Descri'+_0x4398a7(0x62b,-0x3ae)+'lète</h4>\x0a'+_0x4eabe5(0x92b,0x9cb)+'<p\x20data-i1'+_0x4eabe5(0xa8b,0x3f0)+_0x4398a7(0x13f3,0x1aac)+_0x4398a7(0xb94,0x8ad)+'pensable\x20p'+'our\x20inspec'+'ter\x20les\x20zo'+'nes\x20diffic'+_0x4eabe5(0x4ce,0x9c)+'ès\x20:\x20condu'+'its,\x20moteu'+_0x4eabe5(0x11b8,0x1152)+_0x4eabe5(0xe5e,0x10bd)+_0x4eabe5(0xcce,0x91f)+'ons\x20techni'+'ques\x20ou\x20es'+'paces\x20étro'+_0x4eabe5(0x7b2,0x347)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20<'+'h4\x20data-i1'+'8n=\x22utilit'+'y\x22>Utilité'+_0x4eabe5(0x1bf,0xac9)+'\x20\x20\x20\x20\x20\x20<ul>'+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0xaf7,0x346)+_0x4eabe5(0x1526,0x15cd)+_0x4398a7(0x1629,0xd7b)+'>Inspectio'+'n\x20de\x20moteu'+'rs,\x20condui'+'ts\x20et\x20tuya'+'ux</li>\x0a\x20\x20'+_0x4eabe5(0x92b,0xbd2)+'<li\x20data-i'+'18n=\x22endo_'+_0x4eabe5(0x8e,0x961)+'avaux\x20dome'+'stiques\x20:\x20'+'plomberie,'+_0x4eabe5(0x660,0x64f)+'on,\x20câblag'+_0x4eabe5(0x2c7,-0x639)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20<'+_0x4398a7(0x4e0,0xc63)+_0x4398a7(0x1378,0x1654)+_0x4398a7(0xb60,0x1c6)+'gnostic\x20mé'+'canique\x20ra'+_0x4eabe5(0x1dd,0x150)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4eabe5(0xfae,0x1278)+_0x4eabe5(0x757,0xc6b)+'o_util_4\x22>'+_0x4eabe5(0x12b8,0x97f)+'isuel\x20dans'+_0x4eabe5(0xf2c,0x1a11)+_0x4398a7(0x970,0x126c)+'li>\x0a\x20\x20\x20\x20\x20\x20'+_0x4398a7(0x262,-0x634)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'<h4\x20data-i'+_0x4eabe5(0xce6,0x66f)+_0x4398a7(0x271,0x935)+'téristique'+_0x4398a7(0x118a,0x17d2)+_0x4398a7(0x11bc,0x171b)+_0x4eabe5(0xf54,0x19ef)+'\x20\x20\x20\x20<li\x20da'+'ta-i18n=\x22e'+_0x4eabe5(0x14cd,0xcbc)+'\x22>Résoluti'+'on\x20Full\x20HD'+_0x4398a7(0x1500,0x1378)+_0x4398a7(0x1096,0xf2f)+_0x4398a7(0x9c4,0x1ae)+'ta-i18n=\x22e'+'ndo_feat_2'+'\x22>Caméra\x202'+_0x4398a7(0x1639,0x201e)+'\x20éclairage')+(_0x4eabe5(0xd6e,0xa8b)+'ble</li>\x0a\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4398a7(0x13dc,0x13f0)+_0x4eabe5(0xd96,0x1357)+_0x4eabe5(0x536,-0x37a)+'cran\x20intég'+_0x4398a7(0x811,-0x19e)+_0x4398a7(0x7c1,0x1046)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4398a7(0x13dc,0x181a)+_0x4eabe5(0xd96,0xb06)+_0x4398a7(0x7f0,0x1ca)+_0x4398a7(0xb47,0x374)+'rigide\x20de\x20'+'10\x20mètres<'+_0x4398a7(0x165e,0xe84)+_0x4398a7(0xdf9,0xaba)+_0x4398a7(0x10b6,0x1b59)+'=\x22endo_fea'+_0x4398a7(0xf7,-0x5ed)+_0x4398a7(0xa0c,0x9dd)+_0x4eabe5(0x10e9,0x15ad)+'roof</li>\x0a'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4398a7(0x986,0xb42)+_0x4eabe5(0x14dd,0x1921)+_0x4eabe5(0x69e,-0xc0)+'\x20\x20\x20\x20\x20\x20\x20\x20{{'+_0x4398a7(0x587,-0x547)+_0x4398a7(0xfcd,0x96f)+_0x4398a7(0xbdf,0x15e1)+'\x20\x20\x20</div>\x0a'+'\x20\x20\x20\x20</div>'+_0x4eabe5(0xedb,0x485))},'price_1UV4VuRNu37iEZT9QXBQFhLp':{'name':_0x4398a7(0x1181,0x1c5d)+'ité\x20Premiu'+'m','price':_0x4398a7(0x6c1,0xa38),'image':_0x2b3fcb['kPwDn'],'html':_0x2b3fcb[_0x4eabe5(0x35d,0xd09)]}};function _0x4398a7(_0x56ba4f,_0x471f9f){return _0x1c0568(_0x56ba4f-0x394,_0x471f9f);}document[_0x4eabe5(0xc10,0x8f4)+'stener'](_0x2b3fcb['XdZhe'],()=>{function _0x542b5a(_0x3d258c,_0x42e6ed){return _0x4398a7(_0x42e6ed-0x296,_0x3d258c);}function _0x1234c0(_0x273011,_0x48a1a6){return _0x4398a7(_0x48a1a6- -0xb6,_0x273011);}var _0x32cdcf={'UuIrq':function(_0x3b9276,_0x2bb222){return _0x3b9276(_0x2bb222);},'SyZYz':_0x2b3fcb['sEEJa'],'Moiym':function(_0x3b4123,_0x49fbfb){function _0x4f2298(_0x380599,_0x26abb7){return _0xfb09(_0x26abb7- -0x391,_0x380599);}return _0x2b3fcb[_0x4f2298(-0x3b9,0x64a)](_0x3b4123,_0x49fbfb);},'ODePv':function(_0x1077f7,_0x2810dc){return _0x1077f7>_0x2810dc;},'Nfkxp':function(_0x24c312,_0x2ff1ba){return _0x24c312<=_0x2ff1ba;},'HaYYU':_0x1234c0(0xb88,0x9b4)+_0x542b5a(0x18e5,0x18ee)+'w','guTuQ':_0x542b5a(0x1435,0x10f3)+_0x1234c0(0x1197,0x6fd),'lHksa':_0x542b5a(0x4f3,0x395)+_0x1234c0(0xc8d,0x51d)+'\x20vérificat'+'ion\x20des\x20st'+'ocks:'};!(function(){function _0x5e84db(_0x57fc7e,_0x575866){return _0x1234c0(_0x575866,_0x57fc7e-0x142);}const _0x511f61=document['getElement'+'ById'](_0x22ce4c(0x183b,0x1682)+'id');if(!_0x511f61)return;let _0x342235='';function _0x22ce4c(_0x3ffee9,_0x4b38bc){return _0x1234c0(_0x3ffee9,_0x4b38bc-0x307);}for(const [_0x13baec,_0x3afa4e]of Object['entries'](_0x15c410)){const _0x6fb4e2='<button\x20ty'+'pe=\x22button'+_0x5e84db(0x3ac,-0x6b6)+'ayment-btn'+'\x22\x20data-lec'+'art-add\x20da'+_0x22ce4c(0x1874,0x179e)+'price-id=\x22'+_0x13baec+('\x22\x20data-pro'+'duct-name='+'\x22')+_0x3afa4e[_0x22ce4c(0x1614,0x170e)]+('\x22\x20data-pro'+_0x5e84db(0xbe4,0x168f)+'=\x22')+_0x3afa4e[_0x22ce4c(0x1daa,0x173b)]+('\x22\x20data-pro'+_0x22ce4c(0x1e21,0x13fa)+'=\x22')+_0x3afa4e['image']+('\x22>💳\x20Ajoute'+_0x22ce4c(0x1a2f,0x1741)+'r\x20—\x20')+_0x32cdcf[_0x22ce4c(-0x189,0x94e)](parseFloat,_0x3afa4e['price'])+('\x20€</button'+'>'),_0x1054e1=_0x5e84db(0x8bf,-0x23)+_0x5e84db(0x1ae,-0x4aa)+_0x5e84db(0x9d6,0x14c2)+'id=\x22'+_0x13baec+(_0x5e84db(0x150f,0x1018)+'cation\x20du\x20'+_0x22ce4c(0x1415,0xbd0)+'div>');_0x342235+=_0x3afa4e['html']['replace']('{{STOCK}}',_0x1054e1)[_0x22ce4c(0x562,0x87d)](_0x32cdcf['SyZYz'],_0x6fb4e2);}_0x511f61[_0x22ce4c(-0x482,0x608)]=_0x342235,window['LeCart']&&_0x32cdcf['Moiym']('function',typeof window[_0x5e84db(0xe23,0x10ad)]['init'])&&window[_0x22ce4c(0x18da,0xfe8)]['init']();}()),(async function(){function _0x36a0a7(_0x82ca5b,_0x548606){return _0x542b5a(_0x548606,_0x82ca5b- -0x5fb);}function _0x1d3e03(_0x2627d2,_0x1de1df){return _0x542b5a(_0x2627d2,_0x1de1df- -0x73);}var _0x41b041={'LtdfQ':function(_0x43f833,_0x403a1a){function _0x44e3bf(_0x469310,_0x58985b){return _0xfb09(_0x469310-0x35a,_0x58985b);}return _0x32cdcf[_0x44e3bf(0x4d0,-0x58d)](_0x43f833,_0x403a1a);},'tAUjL':_0x1d3e03(0xf3a,0xc8d)+'e\x20stock-in','BFrWG':function(_0x4c5a01,_0x34d8ad){function _0x30a31e(_0x4d8918,_0x4d6b75){return _0x1d3e03(_0x4d8918,_0x4d6b75-0xcc);}return _0x32cdcf[_0x30a31e(0x164b,0xc2d)](_0x4c5a01,_0x34d8ad);},'rMxqj':_0x32cdcf[_0x36a0a7(0xe7,0x9c7)],'RFtpi':_0x32cdcf[_0x36a0a7(0x764,0x11fa)]};try{const {data:_0xe0ce46,error:_0x4e9f08}=await _0x549da5[_0x36a0a7(0xe11,0xc26)](_0x1d3e03(0x14a9,0xeb8))['select'](_0x36a0a7(0x123c,0x1c8a)+_0x36a0a7(0xce1,0x13b8)+'ck');if(_0x4e9f08||!_0xe0ce46)return;_0xe0ce46[_0x36a0a7(0x1299,0x1391)](_0xb82eb9=>{function _0x22c175(_0x567056,_0x164b48){return _0x36a0a7(_0x567056-0xfc,_0x164b48);}const _0x154e2d=document['querySelec'+_0x22c175(0x8a,-0x9ce)]('.stock-bad'+_0x14f9f7(0x602,0xfd8)+'=\x22'+_0xb82eb9[_0x22c175(0x1338,0x1b32)+_0x22c175(0x8d2,0x4aa)]+'\x22]'),_0x36f737=document[_0x22c175(0x51a,0x9)+'tor'](_0x22c175(0x22d,0xd0f)+'a-stripe-p'+'rice-id=\x22'+_0xb82eb9['stripe_pri'+_0x22c175(0x8d2,-0x1c3)]+'\x22]');function _0x14f9f7(_0x3e7647,_0x3e8809){return _0x36a0a7(_0x3e8809-0x58f,_0x3e7647);}_0x154e2d&&(_0x41b041[_0x22c175(0x87f,0x1223)](_0xb82eb9[_0x22c175(0x13a2,0x1245)],0x1b7e+0x191c+0x3495*-0x1)?(_0x154e2d[_0x14f9f7(0x1c91,0x187c)]=_0x41b041['tAUjL'],_0x154e2d[_0x22c175(0x14e,0x45a)]=_0x14f9f7(0x1016,0x188e)+'\x20('+_0xb82eb9['stock']+(_0x14f9f7(0x90a,0x456)+'es)')):_0xb82eb9[_0x14f9f7(0x21c2,0x1835)]>-0x72b*-0x1+-0x22fc+0x1bd1&&_0x41b041[_0x14f9f7(0x1d03,0x1283)](_0xb82eb9[_0x14f9f7(0x1e3c,0x1835)],0xc36+0x20e6+-0x2a7*0x11)?(_0x154e2d['className']=_0x41b041['rMxqj'],_0x154e2d[_0x22c175(0x14e,0x452)]=_0x14f9f7(-0x177,0x44e)+'\x20'+_0xb82eb9['stock']+(_0x14f9f7(0x197d,0x13e8)+'!')):(_0x154e2d['className']=_0x14f9f7(0x550,0xc94)+'e\x20stock-ou'+'t',_0x154e2d['innerHTML']=_0x22c175(0x1170,0xed1)+_0x22c175(0x62a,0xcfb))),_0xb82eb9[_0x14f9f7(0x1a4c,0x1835)]<=-0x499*-0x4+-0x9b8+0x172*-0x6&&_0x36f737&&(_0x36f737[_0x14f9f7(0xfb6,0xc80)]=!(-0x8b+-0x5bc*0x2+-0x3*-0x401),_0x36f737['classList']['remove'](_0x22c175(0x7c2,-0x1cf)+'n'),_0x36f737['classList']['add']('btn-out-of'+'-stock'),_0x36f737['innerHTML']=_0x41b041['RFtpi'],_0x36f737['removeAttr'+'ibute'](_0x22c175(0x369,0x139)+_0x22c175(0x8fe,0x5c7)));});}catch(_0x34acca){console['error'](_0x32cdcf['lHksa'],_0x34acca);}}());});}())));
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof LeCart === 'undefined' || typeof LeCart.init !== 'function') {
+    console.warn('[LeCart] Bibliothèque non chargée.');
+    return;
+  }
+  try {
+    LeCart.init({
+      lecartApiKey: 'lecart_0-Bbby0TVjcRqMSvtHx0iZ-ELLmhAKUTFyJFYkIGwlY',
+      checkoutEndpoint: 'https://api.getlecart.com/create-checkout',
+      stripePublicKey: 'pk_live_51UNkYQRNu37iEZT9IHDIDELHXsO4A5R2ppIQKlBEpev5Q4XX6qRjrTpVHRzcVgaKdykQEm8kVDLKkBXcdPIu33UV008Oeu1wN7',
+      currency: 'EUR',
+      language: 'fr',
+      theme: 'dark',
+      collectShippingAddress: true,
+      collectPhoneNumber: true
+    });
+  } catch(e) {
+    console.error('[LeCart] Erreur :', e);
+  }
+});
+
+(function(){
+  "use strict";
+  function majCompteur() {
+    var badge = document.getElementById("panierCount");
+    if (!badge) return;
+    var count = 0;
+    try {
+      var cart = JSON.parse(localStorage.getItem("lecart_cart") || "[]");
+      if (Array.isArray(cart)) count = cart.length;
+      if (count === 0) {
+        var cart2 = JSON.parse(localStorage.getItem("lecart-cart") || "[]");
+        if (Array.isArray(cart2)) count = cart2.length;
+      }
+    } catch(e) { count = 0; }
+    if (typeof LeCart !== 'undefined' && typeof LeCart.getCart === 'function') {
+      try {
+        var c = LeCart.getCart();
+        if (Array.isArray(c)) count = c.length;
+      } catch(e) {}
+    }
+    if (count > 0) { badge.style.display = "inline-block"; badge.textContent = count; }
+    else { badge.style.display = "none"; }
+  }
+  document.addEventListener("DOMContentLoaded", majCompteur);
+  window.addEventListener("lecart:cart-updated", majCompteur);
+  window.addEventListener("lecart:updated", majCompteur);
+  window.addEventListener("lecart:item-added", majCompteur);
+  window.addEventListener("lecart:item-removed", majCompteur);
+  window.addEventListener("lecart:quantity-changed", majCompteur);
+  window.addEventListener("storage", function(e) { if (e.key && (e.key.includes("lecart") || e.key.includes("cart"))) majCompteur(); });
+  setInterval(majCompteur, 1500);
+  document.addEventListener("click", function(e){
+    var btn = e.target.closest("[data-lecart-add]");
+    if (btn) {
+      var badge = document.getElementById("panierCount");
+      if (badge) {
+        badge.classList.remove("bump");
+        void badge.offsetWidth;
+        badge.classList.add("bump");
+        setTimeout(function(){ badge.classList.remove("bump"); }, 500);
+      }
+      setTimeout(majCompteur, 300);
+      setTimeout(majCompteur, 800);
+    }
+  });
+})();
+
+(function(){
+  "use strict";
+  var FORCER_MAINTENANCE = false;
+  function getPage(){ return document.getElementById("maintenance-page"); }
+  function getContenu(){
+    return [
+      document.querySelector(".navbar"),
+      document.querySelector(".marquee-bar"),
+      document.querySelector(".audio-player"),
+      document.querySelector("main"),
+      document.querySelector("footer"),
+      document.querySelector(".music-widget"),
+      document.getElementById("chatbot-toggle"),
+      document.getElementById("chatbot-window"),
+      document.getElementById("top"),
+      document.getElementById("panierFlottant")
+    ].filter(Boolean);
+  }
+  function appliquer(actif){
+    var page = getPage(); var els = getContenu(); if (!page) return;
+    if (actif) {
+      els.forEach(function(el){ if (!el.dataset.maintDisplay) el.dataset.maintDisplay = el.style.display || "__DEFAULT__"; el.style.display = "none"; });
+      page.style.display = "flex";
+      document.title = "🔧 Maintenance — GUILLET IV";
+      document.body.style.overflow = "auto";
+    } else {
+      els.forEach(function(el){ var saved = el.dataset.maintDisplay; el.style.display = (saved && saved !== "__DEFAULT__") ? saved : ""; delete el.dataset.maintDisplay; });
+      page.style.display = "none";
+      document.title = "GUILLET IV — L'Ordre de l'Indépendance";
+      document.body.style.overflow = "";
+      if (typeof window.actualiserBoutonHaut === "function") setTimeout(window.actualiserBoutonHaut, 0);
+      var cw = document.getElementById("chatbot-window");
+      if (cw && !window.chatOuvert) cw.classList.remove("open");
+    }
+  }
+  document.addEventListener("DOMContentLoaded", function(){ appliquer(FORCER_MAINTENANCE); });
+  window.__setMaintenance = appliquer;
+})();
+
+(function () {
+  var els = document.querySelectorAll('#security-dashboard .reveal');
+  if (!els.length) return;
+  if (!('IntersectionObserver' in window)) {
+    els.forEach(function (e) { e.classList.add('is-visible'); });
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+  els.forEach(function (e) { io.observe(e); });
+})();
+
+window.TRANSLATIONS = {
+  en: {
+    // === NAV & HEADER ===
+    maintenance: "MAINTENANCE",
+    maintenance_motto: "The GUILLET IV site is currently under maintenance. We will be back very soon.",
+    maintenance_info: "⏳ Work in progress — Thank you for your patience",
+    contact_us: "📧 Contact us",
+    order_independence: "THE ORDER OF INDEPENDENCE",
+    search_product: "Search for a product",
+    clear_search: "Clear search",
+    matching_products: "Matching products",
+    toggle_mode: "Toggle light/dark mode",
+    nav_home: "🏠 Home",
+    nav_about: "📜 About",
+    nav_shop: "🛒 Shop",
+    nav_vinted: "👕 Vinted",
+    nav_beauty: "💅 Nails & Beauty",
+    nav_parrainage: "🤝 Referral",
+    nav_cyber: "🛡️ Cybersecurity",
+    nav_harassment: "🚨 Harassment",
+    nav_contact: "✉️ Contact",
+    nav_faq: "❓ FAQ",
+    nav_cgv: "📄 Terms",
+    nav_privacy: "📄 Privacy",
+    nav_legal: "⚖️ Legal & Security",
+    
+    // === MARQUEE ===
+    marquee_welcome: "✨ Welcome to GUILLET IV — The Order of Independence ✨",
+    marquee_delivery: "🚚 Fast and secure delivery",
+    marquee_payment: "🛡️ 100% secure payment",
+    marquee_motto: "👑 Create your path. Defend your autonomy. Build the future.",
+    marquee_products: "💎 Products chosen for autonomy and practical life",
+    marquee_warranty: "🛡️ 2-year warranty on all our products",
+    marquee_music: "🎵 Discover our exclusive music selection",
+
+    // === AUDIO ===
+    site_music: "🎵 Site music",
+    choose_music: "Choose a music",
+    track_genetiquement: "[FR] 🧬 Genetically Modifier",
+    track_polygone: "[FR] 🔷 Polygon",
+    track_quelques_notes: "[FR] 🎵 A few notes",
+    track_bilar_phoenix: "[FR] 🔥 Bilar – Phoenix",
+    track_cenza: "[FR] 🕶️ Cenza – Unknown",
+    track_confinement: "[FR] 🧪 Bilar – Confinement #2",
+    track_dark_blues: "[EN] 🌑 Dark Blues Vol",
+    track_iam: "[FR] 🌍 IAM – The end of their world",
+    track_issaba: "[FR] ⚡ Issaba – You know",
+    track_kery: "[FR] 📜 Kery James – Post-Scriptum",
+    track_exit: "[FR] 🧬 L'EXI-T – Venom Zirko / HYPERTHYMESIA",
+    track_sakage: "[FR] 🌒 Sakage – Premise",
+    track_sks_tsunami_2: "[FR] ⚡ SKS Crew – Tsunami 2",
+    track_sks_tsunami: "[FR] 🌊 SKS Crew – Tsunami",
+    track_sks: "[FR] 💥 SKS CREW",
+    track_mysa_ralliement: "[FR] 🚩 Mysa – The Rally",
+    track_rockin_luta: "[FR] ✊ Rockin'Squat – A Luta Continua",
+    track_rockin_eternel: "[FR] 📚 Rockin'Squat – Eternal Apprentice",
+    track_rcknsqt_verlaine: "[FR] 🖋️ RCKNSQT – VERLAINE",
+    track_mysa_autopsy: "[FR] 🩸 Mysa – Autopsy",
+    track_fourmiliere: "[FR] 🐜 The Anthill – Smile",
+    track_shurikn: "[FR] 🗡️ Shurikn – Samurai",
+    track_proser: "[FR] 🔥 Proser – The Rage (Monf x Poups)",
+    track_rohff: "[FR] ⚔️ Rohff – Fitna",
+    track_mysa_fou: "[FR] 🧠 Mysa – Like a Madman",
+    track_mysa_dystopie: "[FR] 🏙️ Mysa – Dystopia19",
+    track_mysa_mortel: "[FR] 💀 Mysa – Lethal",
+    track_mysa_piqure: "[FR] 💉 Mysa – Booster Shot",
+    track_mysa_revolu: "[FR] 🔁 Mysa – Bygone",
+    track_millesime: "[FR] 🏛️ Millésime K – Republic",
+    track_rockin_aimer: "[FR] ❤️ Rockin'Squat – Love Without Possessing",
+    track_rockin_ils: "[FR] 💔 Rockin'Squat – They Don't Want to Love",
+    track_rcknsqt_vocab: "[FR] 🔤 RCKNSQT – VOCAB",
+    track_miyagi_kosandra: "[RU] 🌌 Miyagi & Andy Panda – Kosandra",
+    track_miyagi_capitaine: "[RU] ⚓ Miyagi – Captain",
+    track_miyagi_tumani: "[RU] 🎭 Miyagi – Tumani / YO / KADI / Bismarck",
+
+    // === HERO / DOCTRINE ===
+    motto: "“Create your path. Defend your autonomy. Build the future.”",
+    baseline: "Company · Entrepreneurial independence movement · Vision",
+    doctrine_title: "⚔️ The GUILLET IV Doctrine",
+    doctrine_desc: "GUILLET IV brings together the power of business, the strength of an identity, and the vision of a movement. Our founding principle: do not wait for your place, but build it through action, discipline, and creation.",
+    authority: "🖤 Authority",
+    authority_desc: "Black embodies self-control, rigor, and solidity.",
+    willpower: "❤️ Willpower",
+    willpower_desc: "Red represents energy, courage, and determination.",
+    legitimacy: "👑 Legitimacy",
+    legitimacy_desc: "Gold symbolizes the value created, requirement, and recognition.",
+    vision: "🚀 Vision",
+    vision_desc: "Blue opens the way to innovation and the future.",
+    authenticity: "🌑 Authenticity",
+    authenticity_desc: "Raw truth, real identity, what you are without a mask or compromise.",
+    revelation: "✨ Revelation",
+    revelation_desc: "The light that reveals what was hidden. Awakening, understanding, clarity.",
+    truth: "⚡ Truth",
+    truth_desc: "The straight line, the right word, what does not lie and does not tremble.",
+    awareness: "🧠 Awareness",
+    awareness_desc: "Lucidity, height, the ability to see beyond appearances.",
+    power: "🜂 Power",
+    power_desc: "The ability to act, impose your direction, transform your environment.",
+    discipline: "🜁 Discipline",
+    discipline_desc: "Order, structure, consistency that forges success.",
+    creation: "🜄 Creation",
+    creation_desc: "The art of producing, innovating, building what does not yet exist.",
+    ascension: "🜃 Ascension",
+    ascension_desc: "The rise, evolution, surpassing oneself and limits.",
+
+    // === SHOP ===
+    shop_title: "🛒 GUILLET IV Shop",
+    shop_intro: "Products chosen for autonomy, security, outdoor, and practical life.",
+    no_products: "No product matches this search.",
+    see_more: "See more",
+    see_less: "See less",
+    full_desc: "Full description",
+    details: "Details",
+    utility: "Utility",
+    how_to_use: "How to use",
+    features: "Features",
+
+    // Drone
+    drone_title: "KY108 DRONE – THE EYE OF THE FUTURE IS IN YOUR HANDS",
+    drone_tagline: "Dominate the sky… or it will dominate you. Be eyes without needing to see.",
+    drone_desc: "A drone designed for creators, explorers, and ambitious pilots. Capture the world with surgical precision.",
+    drone_full_1: "The KY108 is not just a drone: it is a vision tool, an instrument of mastery, an aerial ally that transforms every flight into a futuristic experience.",
+    drone_full_2: "Thanks to its dual HD camera, 90x zoom, omnidirectional obstacle avoidance, and brushless motors, it offers you stability and power that few drones in its category can match.",
+    drone_full_3: "Foldable, compact, intelligent: the KY108 is ready to follow you anywhere.",
+    drone_detail_1: "Dual HD camera with 90x zoom",
+    drone_detail_2: "Omnidirectional obstacle avoidance",
+    drone_detail_3: "Powerful and durable brushless motor",
+    drone_detail_4: "Remote control with integrated FPV screen",
+    drone_detail_5: "Foldable drone, easy to transport",
+    drone_util_1: "Film landscapes in high quality",
+    drone_util_2: "Create content for TikTok and Instagram",
+    drone_util_3: "Monitor an area respecting privacy",
+    drone_util_4: "Learn drone piloting",
+    drone_util_5: "Take professional aerial photos",
+    drone_use_1: "Unfold the drone and check the propellers.",
+    drone_use_2: "Turn on the remote control.",
+    drone_use_3: "Connect the HD camera.",
+    drone_use_4: "Take off in assisted mode.",
+    drone_use_5: "Pilot via the integrated FPV screen.",
+    drone_use_note: "Remember to respect applicable flight rules and the privacy of people filmed.",
+    cart_89: "💳 Add to cart — €89",
+
+    // Projector
+    proj_title: "Rotating solar LED projector",
+    proj_desc: "Outdoor solar LED projector with PIR sensor and rotating panels.",
+    proj_full_1: "Outdoor LED projector powered by solar panel, equipped with a PIR sensor and rotating panels.",
+    proj_util_1: "Secure an entrance",
+    proj_util_2: "Light up a dark area",
+    proj_util_3: "Deter intrusions",
+    proj_util_4: "Works without electricity",
+    proj_use_1: "Fix the projector on a wall",
+    proj_use_2: "Orient the LED panels",
+    proj_use_3: "Adjust the PIR sensor",
+    proj_use_4: "Let the solar panel charge",
+    cart_35: "💳 Add to cart — €35",
+
+    // Winter Pack
+    badge_winter: "WINTER PACK",
+    pack_title: "Winter Survival Pack – Premium Edition",
+    pack_desc: "The ultimate pack to face winter, stay warm, lit, and autonomous.",
+    pack_item_1: "🧤 1. Smart Electric Heated Gloves (USB)",
+    pack_item_1_desc: "High-performance winter gloves, designed to provide immediate and controlled heat.",
+    pack_item_1_b1: "Double-sided heating on the palm",
+    pack_item_1_b2: "Three adjustable temperature levels",
+    pack_item_1_b3: "Touchscreen design",
+    pack_item_1_b4: "USB interface operation, powerbank compatible",
+    pack_item_2: "🔦 2. Powerful LED Flashlights – USB Rechargeable (x2)",
+    pack_item_2_desc: "Ultra-bright tactical lamp for power outages, night travel, car.",
+    pack_item_2_b1: "7 light modes",
+    pack_item_2_b2: "USB rechargeable",
+    pack_item_2_b3: "Built-in battery",
+    pack_item_2_b4: "Weather resistant",
+    pack_item_3: "🔋 3. 12,000 mAh Power Bank – USB Heating Special",
+    pack_item_3_desc: "High-capacity powerbank compatible with all USB devices and heated clothing.",
+    pack_item_3_b1: "12,000 mAh → long-lasting autonomy",
+    pack_item_3_b2: "5V 2.4A output",
+    pack_item_3_b3: "Compatible with iPhone / Samsung / iPad",
+    pack_item_4: "🛏️ 4. Multi-Season Mummy Sleeping Bag (210 × 75 cm)",
+    pack_item_4_desc: "Lightweight, compact, and comfortable sleeping bag, ideal for camping and emergency situations.",
+    pack_item_4_b1: "Integrated hood",
+    pack_item_4_b2: "Robust 170T polyester",
+    pack_item_4_b3: "Folds into a duvet / blanket",
+    pack_item_4_b4: "Storage bag included",
+    cart_9999: "💳 Add to cart — €99.99",
+
+    // Endoscope
+    badge_new: "NEW",
+    endo_title: "Inspection camera endoscope with screen",
+    endo_desc: "1080P inspection endoscope with 4.3-inch integrated screen, 10-meter semi-rigid cable, 2.0 MP camera, adjustable LED lighting, and IP68 waterproof design.",
+    endo_full_1: "The essential tool for inspecting hard-to-reach areas: ducts, engines, pipes, conduits, technical installations, or tight spaces.",
+    endo_util_1: "Inspection of engines, ducts, and pipes",
+    endo_util_2: "Home improvement: plumbing, ventilation, wiring",
+    endo_util_3: "Fast mechanical diagnosis",
+    endo_util_4: "Visual control in dark areas",
+    endo_feat_1: "Full HD 1080P resolution",
+    endo_feat_2: "2.0 MP camera with adjustable LED lighting",
+    endo_feat_3: "4.3-inch integrated screen",
+    endo_feat_4: "10-meter semi-rigid cable",
+    endo_feat_5: "IP68 waterproof certification",
+    cart_95: "💳 Add to cart — €95",
+
+    // Security Pack
+    badge_security: "🛡️ SECURITY PACK",
+    pack_secu_title: "Premium Security Pack",
+    pack_secu_tagline: "Complete protection. 10-minute installation. Turnkey.",
+    pack_secu_promo: "Limited promo",
+    pack_secu_desc: "Protect your entire home with an AI camera, a complete alarm, 4 sensors, and a ready-to-use system. Ideal for individuals and small businesses.",
+    pack_secu_full_1: "The Premium Security Pack brings together everything you need to secure a house, apartment, business, garage, cellar, or office — without technical skills or complex wiring. Everything is already configured: you install, you connect, it's ready in 10 minutes.",
+    pack_secu_contents: "📦 Pack contents (exact)",
+    pack_secu_c1: "1 Tiiwee Alarm (siren + remotes)",
+    pack_secu_c2: "1 TP-Link Tapo C245D AI Camera (night vision + detection)",
+    pack_secu_c3: "4 SONOFF Opening Sensors (doors / windows / garage / balcony)",
+    pack_secu_c4: "Installation guide",
+    pack_secu_c5: "30-day assistance",
+    pack_secu_f1: "Instant smartphone alerts",
+    pack_secu_f2: "Smart detection (AI)",
+    pack_secu_f3: "Powerful siren",
+    pack_secu_f4: "HD night vision",
+    pack_secu_f5: "Live monitoring",
+    pack_secu_f6: "High-precision sensors",
+    pack_secu_secure_for: "Secures",
+    pack_secu_s1: "🏠 House",
+    pack_secu_s2: "🏢 Apartment",
+    pack_secu_s3: "🏪 Business",
+    pack_secu_s4: "🚗 Garage",
+    pack_secu_s5: "🕳️ Cellar",
+    pack_secu_s6: "💼 Office",
+    pack_secu_use_1: "Plug in the Tiiwee alarm and the Tapo camera.",
+    pack_secu_use_2: "Stick the 4 SONOFF sensors on doors / windows / garage / balcony.",
+    pack_secu_use_3: "Connect the devices to the app (Tapo + SONOFF).",
+    pack_secu_use_4: "Configure smartphone alerts.",
+    pack_secu_use_5: "Test siren and detection. Ready in 10 minutes.",
+    pack_secu_warranty_support: "Warranty & Support",
+    pack_secu_ws1: "24-month warranty",
+    pack_secu_ws2: "30-day customer support",
+    pack_secu_ws3: "Installation assistance if needed",
+    pack_secu_why: "Why this pack?",
+    pack_secu_why_text: "Because it protects your entire home with an AI camera, a complete alarm, 4 sensors, and a ready-to-use system. Turnkey pack — ideal for individuals and small businesses.",
+    cart_pack_secu: "💳 Add to cart — €350",
+
+    // === INFO & REVIEWS ===
+    guarantees: "🛡️ Guarantees & Services",
+    warranty_24: "✔ Warranty: 24 months",
+    secure_payment: "✔ Secure payment",
+    fast_delivery: "✔ Fast delivery",
+    reviews_title: "⭐ Customer Reviews (Vinted)",
+    review_zohra: "thank you",
+    review_limitless_1: "Glad everything is perfect, GUILLET IV 🔥",
+    review_zlatoff: "Everything is ok thank you",
+    review_limitless_2: "Gratitude 🤲 thank you",
+
+    // === ABOUT ===
+    learn_more: "🏢 Learn more",
+    company_movement: "Company · Movement · Independence",
+    about_intro: "GUILLET IV is a company and an entrepreneurial independence movement. It defends the idea that everyone can build their own path through work, creation, and autonomy.",
+    about_service: "I sell on Vinted (profile: limitless95) with 5★ reviews, responsive customer service, and a desire to offer serious, well-presented products with a real shop experience.",
+    about_contact: "For any questions, contact me via the Contact page or directly on Vinted.",
+    contact_me: "✉️ Contact me",
+    view_my_vinted: "👕 View my Vinted",
+    back_home: "⬅ Back to home",
+    brand_king: "👑 GUILLET IV",
+    back_shop: "⬅ Back to shop",
+
+    // === SPONSORSHIP ===
+    parrainage_title: "🤝 Referral",
+    parrainage_sub: "Boursorama · Starlink · Vinted · Crédit Agricole · Octopus Energy",
+    parrainage_intro: "Open an account, subscribe to a service, or sign up on Vinted with my referral links. Information is pre-filled automatically, and you enjoy the benefits!",
+    parrainage_boursorama_title: "🏦 Boursorama Referral",
+    parrainage_boursorama_text: "Open your Boursorama account with my referral link: my information will be filled in automatically, you have nothing to re-enter. And you enjoy welcome bonuses!",
+    boursorama_b1: "Welcome bonus offered upon opening",
+    boursorama_b2: "Zero account maintenance fees",
+    boursorama_b3: "100% online registration, in a few minutes",
+    parrainage_btn_boursorama: "🏦 Open my Boursorama account",
+    parrainage_starlink_title: "🛰️ Starlink Referral",
+    parrainage_starlink_text: "Subscribe to Starlink with my referral link and enjoy a free month on your subscription. High-speed internet via satellite, everywhere, even in isolated areas.",
+    starlink_b1: "One free month on your subscription",
+    starlink_b2: "High-speed internet everywhere, even in isolated areas",
+    starlink_b3: "Simple and fast installation",
+    parrainage_btn_starlink: "🛰️ Subscribe to Starlink",
+    parrainage_vinted_title: "👕 Vinted Referral",
+    parrainage_vinted_text: "Sign up on Vinted with my invitation link and join the community. Buy, sell, and give a second life to your clothes while enjoying welcome benefits.",
+    vinted_b1: "Welcome benefit for your first order",
+    vinted_b2: "Sell your clothes in a few clicks",
+    vinted_b3: "Secure delivery and payment",
+    parrainage_btn_vinted: "👕 Join Vinted",
+    parrainage_credit_agricole_title: "🏛️ Crédit Agricole Referral",
+    parrainage_credit_agricole_text: "Do you want to open an account at Crédit Agricole? Use my single-use referral code and click on the link to discover your benefits.",
+    credit_agricole_b1: "Welcome benefits upon opening an account",
+    credit_agricole_b2: "A local bank, present everywhere in France",
+    credit_agricole_b3: "Single-use referral code EGYYLFH",
+    parrainage_btn_credit_agricole: "🏛️ Open my Crédit Agricole account",
+    parrainage_octopus_title: "🐙 Octopus Energy Referral",
+    parrainage_octopus_text: "Join Octopus Energy with my referral link and enjoy a benefit on your electricity bill. Greener, simpler, and cheaper energy.",
+    octopus_b1: "Welcome benefit on your electricity bill",
+    octopus_b2: "100% renewable energy and fair prices",
+    octopus_b3: "Responsive customer service and no commitment",
+    parrainage_btn_octopus: "🐙 Join Octopus Energy",
+    parrainage_step1_title: "Click on the link",
+    parrainage_step1_text: "You are redirected to the official registration page (Boursorama, Starlink, Vinted, Crédit Agricole or Octopus Energy) with my referral code already integrated.",
+    parrainage_step2_title: "Your info is pre-filled",
+    parrainage_step2_text: "My referral information is automatically filled in. You just need to complete yours.",
+    parrainage_step3_title: "Validate your registration",
+    parrainage_step3_text: "Finalize your account opening, subscription, or registration in a few minutes and enjoy the benefits.",
+    parrainage_step4_title: "Everyone wins",
+    parrainage_step4_text: "You receive your welcome benefit, and so do I. A true win-win.",
+    parrainage_note_title: "ℹ️ Good to know:",
+    parrainage_note_text: "Referral links are official Boursorama, Starlink, Vinted, Crédit Agricole, and Octopus Energy links. Opening a Boursorama account is free and without commitment. Bonuses and benefits are subject to the conditions of each service. The Crédit Agricole code EGYYLFH is single-use.",
+
+    // === VINTED PAGE ===
+    my_vinted: "👕 My Vinted",
+    vinted_intro: "Find my verified sales, my 5★ ratings, and my products available on Vinted.",
+    verified_reviews: "Verified Vinted Reviews",
+    vinted_desc: "I am limitless95 on Vinted. I offer serious, well-presented items with responsive customer service.",
+    view_vinted_profile: "👕 View my Vinted profile",
+
+    // === BEAUTY PAGE ===
+    beauty_title: "💅 Nails & Beauty — SHAYNAILS",
+    beauty_sub: "Elegance · Care · In-person in Guignen",
+    beauty_intro: "In-person services only in Guignen. Booking by phone or Instagram.",
+    beauty_prices_title: "💶 Price list",
+    beauty_presentiel_note: "⚠️ Services in-person only in Guignen — no online sales.",
+    beauty_gallery_title: "✨ Client achievements",
+    beauty_video_title: "🎬 In video",
+    video_fallback: "Your browser does not support video playback.",
+    beauty_book_title: "📅 Book a service",
+    beauty_book_text: "All services take place in-person in Guignen.<br>Booking by phone or Instagram.",
+    click_photo_zoom: "💡 Click on a photo to enlarge",
+
+    // === CYBERSECURITY PAGE ===
+    cyber_title: "🛡️ Cybersecurity Prevention",
+    cyber_subtitle: "Computer attacks in France",
+    cyber_intro: "Phishing, data theft, fraudulent access, and identity theft: understanding the risks helps to better protect your accounts, devices, and personal information.",
+    cyber_intro_2: "Prevention combines prudent habits, appropriate technical protections, and rapid reaction when an incident occurs.",
+    prevention_themes: "📋 Prevention themes",
+    cyber_step1: "🔑 Step 1 — Saved passwords",
+    cyber_step2: "🎣 Step 2 — Social engineering and phishing",
+    cyber_step3: "💻 Step 3 — Attacks against passwords",
+    cyber_step4: "🗝️ Step 4 — Photos of keys and physical security",
+    cyber_step5: "👤 Step 5 — Personal information",
+    cyber_step6: "⚖️ Step 6 — French law and hacking",
+    cyber_step7: "📨 Step 7 — Phishing, fraud and identity",
+    cyber_step8: "🗂️ Step 8 — Personal data and GDPR",
+    cyber_step9: "✅ Step 9 — Authorized security tests",
+    cyber_step10: "🚨 Step 10 — What to do in case of an incident?",
+    cyber_conclusion: "🏁 General conclusion",
+    cyber_s1_title: "🔑 Step 1 — Saved passwords: comfort, protection and vigilance",
+    cyber_s1_p1: "Saving your passwords in a text file, an unprotected note, or a shared document exposes your accounts if the file is stolen or the device is compromised.",
+    cyber_s2_title: "🎣 Step 2 — Social engineering and phishing: you can be the target",
+    cyber_s2_p1: "Phishing is a technique that consists of pretending to be a trusted person or organization in order to obtain information, a payment, or a risky action.",
+    cyber_s3_title: "💻 Step 3 — Attacks against passwords",
+    cyber_s3_p1: "Attempts to guess or reuse a password take several forms and do not all work the same way.",
+    cyber_s4_title: "🗝️ Step 4 — Photos of keys and physical security",
+    cyber_s4_p1: "Publishing a detailed photo of a house, garage, or vehicle key can reveal characteristics useful to a malicious person.",
+    cyber_s5_title: "👤 Step 5 — Personal information and privacy",
+    cyber_s5_p1: "Avoid passwords based on details that are easy to find or guess.",
+    cyber_s6_title: "⚖️ Step 6 — French law: fraudulent access, hacking and sanctions",
+    cyber_s6_p1: "In France, attacks on automated data processing systems (STAD) are mainly provided for by articles 323-1 et seq. of the Penal Code.",
+    cyber_s7_title: "📨 Step 7 — Phishing, fraud and identity theft",
+    cyber_s7_p1: "Phishing describes a method, not in itself the final qualification of an offense.",
+    cyber_s8_title: "🗂️ Step 8 — Personal data, GDPR and security obligations",
+    cyber_s8_p1: "Organizations that process personal data must in particular implement appropriate security measures.",
+    cyber_s9_title: "✅ Step 9 — Audit and security test: obtain clear authorization",
+    cyber_s9_p1: "An audit, a penetration test, or a vulnerability search must be carried out within an authorized framework.",
+    cyber_s10_title: "🚨 Step 10 — What to do if an account or device is compromised?",
+    cyber_s10_p1: "From a healthy device, change the password concerned and those that were reused.",
+    cyber_conclusion_title: "🏁 General conclusion",
+    cyber_conclusion_p1: "Cybercriminals can exploit technical flaws, but also trust, habits, and information shared online.",
+
+    // === LEGAL & SECURITY AUDIT ===
+    legal_notice: "⚖️ Legal Notice & Security",
+    legal_info: "1. Legal information",
+    legal_company: "Company name:",
+    legal_status: "Status:",
+    legal_address: "Address:",
+    legal_hosting: "2. Site hosting",
+    legal_ip: "3. Intellectual property",
+    legal_ip_p1: "All site content (texts, images, design, logo, structure) is the exclusive property of GUILLET IV.",
+    legal_ip_p2: "Any reproduction, distribution, or exploitation without authorization is strictly prohibited.",
+    legal_data_title: "4. Personal data",
+    legal_data_p1: "The data collected (name, email, address, phone) is used only for order processing and customer support.",
+    legal_data_p2: "No personal data is transmitted, sold, shared, or communicated to companies, platforms, third-party services, or state bodies, in France or elsewhere.",
+    legal_data_p3: "In accordance with the GDPR, you can request the deletion or modification of your data at any time via: lanceglorieuse@gmail.com.",
+    legal_cookies_title: "5. Cookies",
+    legal_cookies_p1: "The site may use technical cookies to improve the user experience (cart, display preferences).",
+    legal_cookies_p2: "No advertising cookies are used.",
+    legal_liability_title: "6. Liability",
+    legal_liability_p1: "GUILLET IV cannot be held liable for damages related to the use of the site or products, unless proof of direct fault.",
+    legal_disputes_title: "7. Disputes",
+    legal_disputes_p1: "In the event of a dispute, an amicable solution will be sought as a priority.",
+    legal_disputes_p2: "Failing that, the French courts will be competent.",
+    security_audit_title: "🛡️ Technical Security Audit (Nmap & curl)",
+    security_audit_subtitle: "🔐 Security of the Shop de Légende site",
+    security_audit_p1: "The security of visitors and customers is strictly controlled on Shop de Légende. The site applies advanced, rigorous, and non-bypassable protections to guarantee reliable navigation, secure payments, and total confidentiality.",
+    security_audit_p2: "In-depth technical analyses carried out with Nmap and curl confirm that the site presents no flaws, no dangerous elements, no data exposure, and that all detected mechanisms are normal and expected protections.",
+    security_audit_p3: "👉 No risk, no threat, no anomaly.",
+    security_audit_1_title: "🔒 Secure connection (HTTPS / TLS 1.3)",
+    security_audit_1_p1: "The site uses the strictest security standards:",
+    security_audit_1_l1: "full data encryption",
+    security_audit_1_l2: "protection against interception",
+    security_audit_1_l3: "automatic redirection to HTTPS",
+    security_audit_1_l4: "TLS 1.3 protocol, international banking standard",
+    security_audit_1_footer: "👉 Nmap confirms that port 443 is open, secure, and presents no vulnerability.",
+    security_audit_2_title: "🛡️ Advanced protection against attacks (CSP)",
+    security_audit_2_p1: "The site's Content Security Policy blocks:",
+    security_audit_2_l1: "malicious scripts",
+    security_audit_2_l2: "code injections",
+    security_audit_2_l3: "unauthorized resources",
+    security_audit_2_l4: "hacking attempts",
+    security_audit_2_footer: "👉 Nmap's http-headers scan confirms a complete, strict, and locked CSP. No dangerous behavior detected.",
+    security_audit_3_title: "🧱 Anti-fraud & Anti-clickjacking",
+    security_audit_3_footer: "👉 Active protection, non-bypassable, preventing any attempt at interface hijacking.",
+    security_audit_4_title: "🔐 Secure payments with Stripe",
+    security_audit_4_p1: "Payments are processed by Stripe, a certified banking solution:",
+    security_audit_4_l1: "PCI-DSS compliance",
+    security_audit_4_l2: "full encryption",
+    security_audit_4_l3: "no retention of banking data",
+    security_audit_4_l4: "cards never stored on the site",
+    security_audit_4_footer: "👉 Nmap confirms that Stripe endpoints are secure, valid, and without risk.",
+    security_audit_5_title: "🧭 Enhanced privacy",
+    security_audit_5_p1: "The site applies strict policies:",
+    security_audit_5_l1: "Referrer Policy: <code>strict-origin-when-cross-origin</code>",
+    security_audit_5_l2: "Permissions Policy: no camera, no microphone, no geolocation",
+    security_audit_5_l3: "X-Content-Type-Options: <code>nosniff</code>",
+    security_audit_5_l4: "Cross-Origin-Opener-Policy: <code>same-origin</code>",
+    security_audit_5_l5: "Cross-Origin-Embedder-Policy: <code>credentialless</code>",
+    security_audit_5_l6: "Cross-Origin-Resource-Policy: <code>same-origin</code>",
+    security_audit_5_footer: "👉 These protections are active, strict, and have no negative impact for visitors.",
+    security_audit_6_title: "🌍 Protection against external sites (CORS)",
+    security_audit_6_p1: "The site only allows its own domain:",
+    security_audit_6_footer: "👉 No leaks, no unauthorized external access.",
+    security_audit_7_title: "🧪 Secure hosting on Vercel",
+    security_audit_7_p1: "The site benefits from Vercel protections:",
+    security_audit_7_l1: "enhanced security",
+    security_audit_7_l2: "automatic updates",
+    security_audit_7_l3: "DDoS protection",
+    security_audit_7_l4: "reliable global infrastructure",
+    security_audit_7_l5: "active anti-bot system",
+    security_audit_7_footer: "👉 Nmap detects: X-Vercel-Challenge-Token, X-Vercel-Mitigated: challenge, Vercel Security Checkpoint. These mechanisms are normal, automatic, and never concern human visitors.",
+    security_audit_8_title: "🛠️ Continuous monitoring & maintenance",
+    security_audit_8_p1: "The site is subject to:",
+    security_audit_8_l1: "regular audits",
+    security_audit_8_l2: "technical updates",
+    security_audit_8_l3: "SSL checks",
+    security_audit_8_l4: "anti-attack tests",
+    security_audit_8_footer: "👉 Analyses confirm constant, active security, without flaws.",
+    security_audit_9_title: "📡 Technical verification (Nmap & curl)",
+    security_audit_9_p1: "External analyses show:",
+    security_audit_9_l1: "no flaws",
+    security_audit_9_l2: "no dangerous methods",
+    security_audit_9_l3: "no unnecessary ports",
+    security_audit_9_l4: "no information leaks",
+    security_audit_9_l5: "no exposed services",
+    security_audit_9_l6: "no abnormal behavior",
+    security_audit_9_l7: "no risk for visitors",
+    security_audit_9_nmap1_title: "✔️ Nmap — http-headers",
+    security_audit_9_nmap1_text: "Detected headers: complete CSP, active HSTS, X-Frame-Options, Permissions-Policy, Referrer-Policy, X-Content-Type-Options, strict CORS, Vercel protections.",
+    security_audit_9_nmap1_footer: "👉 All these elements are protections. No danger.",
+    security_audit_9_nmap2_title: "✔️ Nmap — http-methods",
+    security_audit_9_nmap2_text: "GET, HEAD, POST, OPTIONS",
+    security_audit_9_nmap2_footer: "👉 No dangerous method.",
+    security_audit_9_nmap3_title: "✔️ Nmap — http-title",
+    security_audit_9_nmap3_text: "Site doesn't have a title (text/plain)",
+    security_audit_9_nmap3_footer: "👉 Normal technical response. No impact for visitors.",
+    security_audit_9_nmap4_title: "✔️ Nmap — http-security-headers",
+    security_audit_9_nmap4_text: "Nmap confirms: HSTS, strict CSP, X-Frame-Options, X-Content-Type-Options, secure Cache-Control.",
+    security_audit_9_nmap4_footer: "👉 Security compliant with OWASP standards.",
+    security_audit_9_nmap5_title: "✔️ Nmap — http-server-header",
+    security_audit_9_nmap5_text: "Server: Vercel",
+    security_audit_9_nmap5_footer: "👉 Normal and secure.",
+    security_audit_9_nmap6_title: "✔️ Nmap — fingerprint",
+    security_audit_9_nmap6_text: "400 Bad Request · 404 Not Found · DEPLOYMENT_NOT_FOUND",
+    security_audit_9_nmap6_footer: "👉 Internal Vercel responses to unusual requests. No danger.",
+    security_audit_9_nmap7_title: "✔️ Nmap — http-enum",
+    security_audit_9_nmap7_text: "443/tcp open https",
+    security_audit_9_nmap7_footer: "👉 No sensitive resource, no hidden page, no exposed service.",
+    security_audit_9_curl_title: "✔️ Curl result",
+    security_audit_9_curl_text: "Curl displays only: protections, security headers, anti-bot mechanisms.",
+    security_audit_9_curl_footer: "👉 No anomaly, no flaw, no risk.",
+    security_conclusion_title: "🟢 Firm conclusion",
+    security_conclusion_p1: "Nmap and curl analyses prove that:",
+    security_conclusion_l1: "the site is secure",
+    security_conclusion_l2: "protections are active",
+    security_conclusion_l3: "no flaw exists",
+    security_conclusion_l4: "no dangerous element has been detected",
+    security_conclusion_l5: "nothing impacts visitors",
+    security_conclusion_l6: "the configuration is professional, strict, and compliant",
+    security_conclusion_final: "👉 Shop de Légende is a highly secure, reliable, and protected site.",
+    security_engagement_title: "A security commitment",
+    security_engagement_p1: "As a <strong>professional pentester</strong>, I master security flaws and attack mechanisms. This site was designed, developed, and audited with the same requirements as a banking environment.",
+    security_engagement_p2: "If you are a security researcher, developer, or curious user and you detect an anomaly, flaw, or suspicious behavior, <strong>contact me immediately</strong>:",
+    security_engagement_phone: "<strong>Phone:</strong> <a href=\"tel:0780204749\">07.80.20.47.49</a>",
+    security_engagement_email: "<strong>Email:</strong> <a href=\"mailto:lanceglorieuse@gmail.com\">lanceglorieuse@gmail.com</a>",
+    security_engagement_thanks: "Thank you in advance for your vigilance and your contribution to the security of this site. 🙏",
+
+    // === CGV ===
+    terms_sale: "📄 Terms of Sale – GUILLET IV",
+    cgv_object: "1. Purpose",
+    cgv_object_text1: "These Terms of Sale govern the sales of products offered on the GUILLET IV Shop.",
+    cgv_object_text2: "Any order implies full and complete acceptance of these Terms.",
+    cgv_products: "2. Products",
+    cgv_products_text1: "The products offered are described with the greatest precision.",
+    cgv_products_text2: "Photographs are non-contractual.",
+    cgv_products_text3: "Availability is indicated on each product sheet.",
+    cgv_price: "3. Price",
+    cgv_price_text1: "Prices are indicated in euros (€), all taxes included (TTC).",
+    cgv_price_text2: "The seller reserves the right to modify prices at any time, but products will be invoiced based on the rate in force at the time of order validation.",
+    cgv_order: "4. Order",
+    cgv_order_text1: "The customer selects the products they wish to purchase, validates their cart, and proceeds to payment.",
+    cgv_order_text2: "An order confirmation is sent by email.",
+    cgv_order_text3: "The seller reserves the right to refuse an order in the event of a payment problem or prior dispute.",
+    cgv_payment: "5. Payment",
+    cgv_payment_text1: "Payment is secure via <a href=\"https://stripe.com/fr\" target=\"_blank\" rel=\"noopener\">Stripe</a> or via the options offered by <a href=\"https://www.vinted.fr\" target=\"_blank\" rel=\"noopener\">Vinted</a>.",
+    cgv_payment_text2: "Banking data is never kept by GUILLET IV.",
+    cgv_delivery: "6. Delivery",
+    cgv_delivery_text1: "Products are shipped quickly according to their availability.",
+    cgv_delivery_text2: "Indicative times: 2 to 5 working days.",
+    cgv_delivery_text3: "Areas served: Metropolitan France.",
+    cgv_delivery_text4: "A tracking number can be provided when available.",
+    cgv_delivery_text5: "In case of delay or loss, the customer must contact the seller for assistance.",
+    cgv_retractation: "7. Right of withdrawal (14 days)",
+    cgv_retractation_text1: "In accordance with <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842/\" target=\"_blank\" rel=\"noopener\">article L221-18 of the Consumer Code</a>, the customer has 14 days to exercise their right of withdrawal, without justification.",
+    cgv_retractation_text2: "The product must be returned in its original condition.",
+    cgv_retractation_text3: "In accordance with <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226830/2016-08-10\" target=\"_blank\" rel=\"noopener\">article L221-23 of the Consumer Code</a>, direct return costs are the responsibility of the customer, except in the case of seller error.",
+    cgv_retractation_text4: "In accordance with <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226828/2024-11-16\" target=\"_blank\" rel=\"noopener\">article L221-24 of the Consumer Code</a>, the refund is made within a maximum of 14 days from notification of withdrawal, and at the latest after recovery of the product or proof of its shipment.",
+    cgv_return: "8. Return and refund",
+    cgv_return_text1: "Returns must be sent to the address provided by the seller.",
+    cgv_return_text2: "Refunds follow Vinted or Stripe rules depending on the purchase method.",
+    cgv_return_text3: "No refund will be made for a product damaged by the customer.",
+    cgv_legal_warranties: "9. Legal warranties",
+    cgv_legal_warranties_text: "The seller applies the mandatory legal warranties provided by the <a href=\"https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565\" target=\"_blank\" rel=\"noopener\">Consumer Code</a> and the <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441924/1976-01-01\" target=\"_blank\" rel=\"noopener\">Civil Code</a>.",
+    cgv_conformity: "10. Legal warranties",
+    cgv_conformity_text1: "<strong>Legal warranty of conformity (2 years):</strong> in accordance with <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044142579\" target=\"_blank\" rel=\"noopener\">articles L217-3 et seq. of the Consumer Code</a>, the customer benefits from a warranty covering conformity defects existing at the time of delivery of the good.",
+    cgv_conformity_text2: "<strong>Warranty of hidden defects:</strong> in accordance with <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441924/1976-01-01\" target=\"_blank\" rel=\"noopener\">article 1641 of the Civil Code</a>, the seller is required to guarantee hidden defects making the product unfit for its intended use or significantly reducing this use.",
+    cgv_conformity_text3: "<strong>Possible commercial warranty:</strong> if GUILLET IV offers a commercial warranty, its conditions, duration, scope, and implementation are specified on the product sheet or the document given with the product.",
+    cgv_conformity_exclude_title: "Legal warranties do not cover:",
+    cgv_conformity_exclude1: "normal wear and tear;",
+    cgv_conformity_exclude2: "damage caused by misuse;",
+    cgv_conformity_exclude3: "product modifications.",
+    cgv_data: "11. Personal data (GDPR)",
+    cgv_data_text1: "The data collected (name, email, address, phone) is used only for order processing and customer support, in accordance with the <a href=\"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679\" target=\"_blank\" rel=\"noopener\">GDPR</a>.",
+    cgv_data_text2: "No data is sold or shared.",
+    cgv_data_text3: "The customer can request access, rectification, portability, or deletion of their data via <a href=\"mailto:lanceglorieuse@gmail.com\">lanceglorieuse@gmail.com</a>.",
+    cgv_liability: "12. Liability",
+    cgv_liability_text1: "The seller is only liable for direct damages related to a defective product.",
+    cgv_liability_text2: "They cannot be held liable for indirect damages (data loss, financial loss, etc.).",
+    cgv_service: "13. Customer service",
+    cgv_service_text: "For any questions: <a href=\"mailto:lanceglorieuse@gmail.com\">lanceglorieuse@gmail.com</a> — Response within 48 hours.",
+    cgv_mediation: "14. Mediation",
+    cgv_mediation_text1: "In the event of a dispute, an amicable solution will be sought as a priority.",
+    cgv_mediation_text2: "If no agreement is found, the customer can contact a consumer mediator for free via <a href=\"https://www.economie.gouv.fr/mediation-conso\" target=\"_blank\" rel=\"noopener\">economie.gouv.fr/mediation-conso</a>.",
+    cgv_law: "15. Applicable law",
+    cgv_law_text1: "These Terms are governed by French law.",
+    cgv_law_text2: "In the event of a dispute, the French courts will be competent, in compliance with the rules of jurisdiction applicable to consumers.",
+
+    // === PRIVACY ===
+    privacy_title: "📄 Privacy Policy (GDPR)",
+    privacy_intro: "The protection of your personal data is a priority. This policy explains what data is collected, why, how it is protected, and how to exercise your rights.",
+    privacy_s1_title: "1. Data collected",
+    privacy_s1_intro: "We collect only the data necessary for the operation of the site and the processing of orders:",
+    privacy_s1_l1: "last name, first name",
+    privacy_s1_l2: "postal address",
+    privacy_s1_l3: "email",
+    privacy_s1_l4: "phone number",
+    privacy_s1_l5: "order information",
+    privacy_s1_l6: "IP address (security and fraud prevention)",
+    privacy_s1_note: "No sensitive data is collected.",
+    privacy_s2_title: "2. Purposes of processing",
+    privacy_s2_intro: "Your data is used to:",
+    privacy_s2_l1: "process and ship your orders",
+    privacy_s2_l2: "provide customer support",
+    privacy_s2_l3: "manage your customer account",
+    privacy_s2_l4: "secure the site and prevent fraud",
+    privacy_s2_l5: "comply with legal obligations (invoicing)",
+    privacy_s3_title: "3. Legal basis",
+    privacy_s3_intro: "Processing is based on:",
+    privacy_s3_l1: "performance of the contract (order)",
+    privacy_s3_l2: "legitimate interest (security, anti-fraud)",
+    privacy_s3_l3: "consent (non-essential cookies)",
+    privacy_s4_title: "4. Processors",
+    privacy_s4_intro: "To ensure the operation of the site, certain providers may process your data:",
+    privacy_s4_l1: "Vercel (site hosting)",
+    privacy_s4_l2: "Stripe / PayPal (secure payments)",
+    privacy_s4_l3: "Email service (order confirmation)",
+    privacy_s4_note: "These providers comply with the GDPR or have equivalent guarantees.",
+    privacy_s5_title: "5. Retention period",
+    privacy_s5_l1: "Data necessary for processing and invoicing orders: 10 years, in accordance with <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006316689/\" target=\"_blank\" rel=\"noopener\">article L123-22 of the Commercial Code</a>.",
+    privacy_s5_l2: "Inactive customer data: 3 years",
+    privacy_s5_l3: "Technical cookies: 13 months",
+    privacy_s6_title: "6. Your rights",
+    privacy_s6_intro: "In accordance with the GDPR, you have the following rights:",
+    privacy_s6_l1: "access to your data",
+    privacy_s6_l2: "rectification",
+    privacy_s6_l3: "deletion",
+    privacy_s6_l4: "objection",
+    privacy_s6_l5: "portability",
+    privacy_s6_contact: "To exercise your rights: lanceglorieuse@gmail.com",
+    privacy_s7_title: "7. Cookies",
+    privacy_s7_intro: "The site uses only:",
+    privacy_s7_l1: "technical cookies (cart, session, security)",
+    privacy_s7_note: "No advertising or marketing tracking cookies are used. An information banner may appear on your first visit.",
+    privacy_s8_title: "8. Security",
+    privacy_s8_intro: "We apply strict measures to protect your data:",
+    privacy_s8_l1: "HTTPS / TLS 1.3 encryption",
+    privacy_s8_l2: "anti-bot protections",
+    privacy_s8_l3: "advanced security headers (CSP, HSTS, X-Frame-Options, etc.)",
+    privacy_s8_l4: "secure Vercel infrastructure",
+    privacy_s8_l5: "PCI-DSS certified payments via Stripe",
+    privacy_s8_note: "No banking data is stored on the site.",
+    privacy_s9_title: "9. Transfers outside the EU",
+    privacy_s9_text: "Vercel hosting may involve processing outside the European Union. These transfers are framed by guarantees compliant with the GDPR.",
+    privacy_s10_title: "10. Contact",
+    privacy_s10_text: "For any questions regarding your personal data:",
+    privacy_s11_title: "11. Legal references and complaints",
+    privacy_s11_text1: "This policy is established in accordance with the <a href=\"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679\" target=\"_blank\" rel=\"noopener\">General Data Protection Regulation (GDPR)</a> and the <a href=\"https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031701594\" target=\"_blank\" rel=\"noopener\">Data Protection Act</a>.",
+    privacy_s11_text2: "Data necessary for invoicing is kept for 10 years, in accordance with <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006316689/\" target=\"_blank\" rel=\"noopener\">article L123-22 of the Commercial Code</a>.",
+    privacy_s11_text3: "You can file a complaint with the <a href=\"https://www.cnil.fr/fr/plaintes\" target=\"_blank\" rel=\"noopener\">CNIL</a>.",
+
+    // === FAQ ===
+    faq_title: "❓ Frequently Asked Questions",
+    faq_delivery: "📦 Delivery",
+    faq_ship_time: "What is the shipping time?",
+    faq_ship_time_text: "Items are shipped quickly, usually within 24 to 48 hours depending on their availability.",
+    faq_delivery_time: "What are the delivery times?",
+    faq_delivery_time_text: "Delivery takes an average of 2 to 5 working days after shipping, depending on the carrier and delivery area.",
+    faq_zones: "What areas are delivered?",
+    faq_zones_text: "Delivery is provided in Metropolitan France, via the options offered by Vinted or the available carriers.",
+    faq_tracking: "How to track my package?",
+    faq_tracking_text: "A tracking number is provided upon shipment when available. You can track your package directly via the carrier's website or via Vinted.",
+    faq_delay_lost: "What to do in case of delay or lost package?",
+    faq_delay_lost_text: "Contact GUILLET IV customer service. An investigation will be opened with the carrier.",
+    faq_payment: "🔒 Secure payment",
+    faq_payment_q: "How does payment work?",
+    faq_payment_text: "All transactions are secure and carried out via Vinted or Stripe.",
+    faq_bank_protection: "Is my banking data protected?",
+    faq_bank_protection_text: "Yes. Your banking data is never stored by GUILLET IV. Processing is entirely managed by secure payment platforms.",
+    faq_payment_methods: "What payment methods are accepted?",
+    faq_payment_methods_intro: "Depending on the platform:",
+    faq_payment_card: "Credit card",
+    faq_payment_apple_google: "Apple Pay / Google Pay (Stripe)",
+    faq_payment_vinted: "Integrated Vinted payment",
+    faq_refund: "🔁 Return & Refund",
+    faq_return_q: "Can I return an item?",
+    faq_return_text: "Yes. In accordance with <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842/\" target=\"_blank\" rel=\"noopener\">article L221-18 of the Consumer Code</a>, you have 14 days to request a return.",
+    faq_how_return: "How to make a return?",
+    faq_how_return_text: "Contact the seller to obtain the instructions and return address. The product must be returned in its original condition.",
+    faq_return_fees: "Are return costs at my expense?",
+    faq_return_fees_text: "In accordance with <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226830/2016-08-10\" target=\"_blank\" rel=\"noopener\">article L221-23 of the Consumer Code</a>, return costs are the responsibility of the customer, except in the case of seller error or defective product.",
+    faq_refund_q: "How does the refund work?",
+    faq_refund_text: "Refunds are processed according to Vinted rules or directly by the seller. In accordance with <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226828/2024-11-16\" target=\"_blank\" rel=\"noopener\">article L221-24 of the Consumer Code</a>, the refund occurs within a maximum of 14 days from notification of withdrawal, and at the latest after recovery of the product or proof of its shipment.",
+    faq_refund_refused_q: "In what cases can a refund be refused?",
+    faq_refund_refused_1: "Product damaged by the customer",
+    faq_refund_refused_2: "Incomplete product",
+    faq_refund_refused_3: "Product used or modified",
+    faq_warranty: "🛡️ Warranty",
+    faq_warranty_q: "What does the 24-month warranty cover?",
+    faq_warranty_text: "The commercial warranty covers manufacturing defects and failures not attributable to the user.",
+    faq_legal_warranty_q: "What are the legal warranties?",
+    faq_legal_warranty_intro: "All products automatically benefit from:",
+    faq_legal_warranty_1: "the <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044142579\" target=\"_blank\" rel=\"noopener\">2-year legal warranty of conformity</a>,",
+    faq_legal_warranty_2: "the <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441924/1976-01-01\" target=\"_blank\" rel=\"noopener\">warranty of hidden defects</a>.",
+    faq_not_covered_q: "What is not covered?",
+    faq_not_covered_1: "Normal wear and tear",
+    faq_not_covered_2: "Damage caused by misuse",
+    faq_not_covered_3: "Shocks, liquids, negligence",
+    faq_not_covered_4: "Unauthorized modifications or repairs",
+    faq_claim_warranty_q: "How to claim the warranty?",
+    faq_claim_warranty_intro: "Contact customer service with:",
+    faq_claim_warranty_1: "your order number,",
+    faq_claim_warranty_2: "a description of the problem,",
+    faq_claim_warranty_3: "photos or videos of the defect.",
+    faq_service: "📞 Customer service",
+    faq_contact_q: "How to contact GUILLET IV?",
+    faq_contact_text: "📧 Email: lanceglorieuse@gmail.com — Response within 48 hours.",
+
+    // === CONTACT ===
+    contact_title: "✉️ Contact us",
+    contact_intro: "A question? A project? Do not hesitate to write to us.",
+    phone: "Phone",
+    location: "Location",
+    france_ille: "France, Ille-et-Vilaine",
+    hours: "Hours",
+    your_name: "Your name",
+    your_email: "Your email address",
+    your_message: "Your message...",
+    send_message: "Send message",
+    message_prepared: "Your message has been prepared. You can now send it via your email application.",
+    footer_location: "📍 Ille-et-Vilaine · 🕒 9am – 8pm",
+    footer_payment: "🔒 Secure payment — 🚚 Fast delivery",
+    copyright: "© 2026 GUILLET IV — The Order of Independence",
+    follow_tiktok: "🎵 Follow us on TikTok",
+    back_top: "Back to top",
+    open_chat: "Open advice chat",
+    advice_chat: "🤖 GUILLET IV Advice",
+    ask_question: "Ask me a question...",
+
+    // === PREVENTION HARASSMENT ===
+    prevention_harassment: "🛡️ Harassment Prevention",
+    harassment_is_crime: "Harassment is a crime. It destroys lives.",
+    harassment_intro_2: "Whether physical, psychological, or virtual, French law severely punishes perpetrators.",
+    harassment_intro_3: "Here are the penalties incurred, alone or in an organized group.",
+    moral_harassment: "💻 Moral harassment",
+    school_harassment: "🎓 School harassment",
+    sexual_harassment: "🤬 Sexual harassment",
+    organized_group: "🚨 In an organized group",
+    where_help: "📞 Where to find help?",
+    moral_harassment_desc: "Repeated words or behaviors degrading living conditions, causing an alteration of physical or mental health.",
+    basic_penalty: "Basic penalty",
+    aggravating_simple: "Simple aggravating circumstance",
+    two_aggravating: "Two cumulative aggravating circumstances",
+    up_to_10_years: "Up to 10 years + €300,000",
+    organized_group_desc: "each participant can be prosecuted, even for a single message, if the collective nature of the harassment is established.",
+    school_harassment_desc: "Moral harassment committed by a student or staff member against a student of the same establishment.",
+    itt_over_8: "ITT > 8 days",
+    victim_suicide: "If the victim commits suicide or attempts suicide",
+    school_harassment_note: "The facts remain punishable even after the end of schooling.",
+    sexual_harassment_desc: "Repeated words or behaviors of a sexual or sexist nature, undermining dignity or creating an intimidating, hostile, or offensive situation.",
+    organized_group_law: "🚨 In an organized group: what the law says",
+    collective_responsibility: "⚖️ Collective responsibility",
+    collective_desc: "Online or group harassment is an aggravating circumstance. Even if you only sent one message, liked or shared harassing content, you can be prosecuted.",
+    online_moral_harassment: "Online moral harassment",
+    sexual_harassment_multiple: "Sexual harassment by several people",
+    multiple_aggravating: "Harassment with several aggravating circumstances",
+    law_punishes_each: "The law punishes each participant, not just the leader.",
+    dont_stay_alone: "⚠️ Do not stay alone. Speak up.",
+    call_3018: "📞 3018 — Free, anonymous number, 7 days a week (9am-11pm)",
+    report_17cyber: "🌐 17Cyber.gouv.fr — Online reporting",
+    report_17cyber_btn: "🚨 Report on 17Cyber",
+    call_3018_btn: "📞 Call 3018",
+    prevention_footer_note: "Information from the French Penal Code (Légifrance). Last update: 2026.",
+
+    // === CHATBOT ===
+    chat_hello: "👋 Hello and welcome to <strong>GUILLET IV</strong>!",
+    chat_prompt: "Ask me a question:",
+    chat_unknown: "I'm not sure I understand 🤔",
+    chat_menu_title: "Here are all the sections of the site:",
+    chat_parrainage_reply: "🤝 Open a Boursorama account, subscribe to Starlink, sign up on Vinted, at Crédit Agricole or Octopus Energy with my referral links: info is pre-filled automatically!",
+    chat_contact_reply: "📞 We are available from 9am to 8pm at <strong>07.80.20.47.49</strong>.",
+    chat_delivery_reply: "🚚 Delivery is <strong>fast and secure</strong>.",
+    chat_drone_reply: "🎥 The <strong>Drone KY108</strong> (€89).",
+    chat_proj_reply: "💡 The <strong>Solar LED Projector</strong> (€35).",
+    chat_endo_reply: "🔍 The <strong>Endoscope</strong> (€95).",
+    chat_beauty_reply: "💅 The <strong>Nails & Beauty</strong> section.",
+    chat_price_reply: "💰 Drone: €89 • Projector: €35 • Winter Pack: €99.99 • Endoscope: €95 • Premium Security Pack: €350",
+    chat_thanks_reply: "You're welcome! 🙏",
+    chat_btn_home: "🏠 Home",
+    chat_btn_shop: "🛒 Shop",
+    chat_btn_vinted: "👕 Vinted",
+    chat_btn_beauty: "💅 Nails & Beauty",
+    chat_btn_parrainage: "🤝 Referral",
+    chat_btn_about: "📜 About",
+    chat_btn_contact: "✉️ Contact",
+    chat_btn_faq: "❓ FAQ",
+    chat_btn_cyber: "🛡️ Cybersecurity",
+    chat_btn_harass: "🚨 Harassment",
+    chat_btn_see: "See",
+    chat_btn_see_section: "See section",
+    chat_btn_all_pages: "📋 See all pages",
+    chat_btn_prices: "💶 See prices",
+    chat_btn_contact_me: "📞 Contact you",
+    chat_btn_delivery: "🚚 Delivery",
+    chat_btn_menu: "📋 Page menu"
+  },
+
+  ru: {
+    // === NAV & HEADER ===
+    maintenance: "ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ",
+    maintenance_motto: "Сайт GUILLET IV в настоящее время находится на техническом обслуживании. Мы скоро вернемся.",
+    maintenance_info: "⏳ Идут работы — Спасибо за ваше терпение",
+    contact_us: "📧 Связаться с нами",
+    order_independence: "ОРДЕН НЕЗАВИСИМОСТИ",
+    search_product: "Искать товар",
+    clear_search: "Очистить поиск",
+    matching_products: "Подходящие товары",
+    toggle_mode: "Переключить светлый/темный режим",
+    nav_home: "🏠 Главная",
+    nav_about: "📜 О нас",
+    nav_shop: "🛒 Магазин",
+    nav_vinted: "👕 Vinted",
+    nav_beauty: "💅 Ногти и красота",
+    nav_parrainage: "🤝 Реферальная программа",
+    nav_cyber: "🛡️ Кибербезопасность",
+    nav_harassment: "🚨 Харассмент",
+    nav_contact: "✉️ Контакты",
+    nav_faq: "❓ FAQ",
+    nav_cgv: "📄 Условия",
+    nav_privacy: "📄 Конфиденциальность",
+    nav_legal: "⚖️ Право и безопасность",
+    
+    // === MARQUEE ===
+    marquee_welcome: "✨ Добро пожаловать в GUILLET IV — Орден Независимости ✨",
+    marquee_delivery: "🚚 Быстрая и безопасная доставка",
+    marquee_payment: "🛡️ 100% безопасная оплата",
+    marquee_motto: "👑 Создай свой путь. Защити свою автономию. Построй будущее.",
+    marquee_products: "💎 Товары, выбранные для автономии и практичной жизни",
+    marquee_warranty: "🛡️ 2-летняя гарантия на все наши товары",
+    marquee_music: "🎵 Откройте для себя нашу эксклюзивную музыкальную подборку",
+
+    // === AUDIO ===
+    site_music: "🎵 Музыка сайта",
+    choose_music: "Выбрать музыку",
+    track_genetiquement: "[FR] 🧬 Génétiquement Modifier",
+    track_polygone: "[FR] 🔷 Polygone",
+    track_quelques_notes: "[FR] 🎵 Quelques notes",
+    track_bilar_phoenix: "[FR] 🔥 Bilar – Phénix",
+    track_cenza: "[FR] 🕶️ Cenza – Inconnu",
+    track_confinement: "[FR] 🧪 Bilar – ConFinement n°2",
+    track_dark_blues: "[EN] 🌑 Dark Blues.Vol",
+    track_iam: "[FR] 🌍 IAM – La fin de leur monde",
+    track_issaba: "[FR] ⚡ Issaba – Tu connais",
+    track_kery: "[FR] 📜 Kery James – Post-Scriptum",
+    track_exit: "[FR] 🧬 L'EXI-T – Venom Zirko / HYPERTHYMÉSIE",
+    track_sakage: "[FR] 🌒 Sakage – Prémice",
+    track_sks_tsunami_2: "[FR] ⚡ SKS Crew – Tsunami 2",
+    track_sks_tsunami: "[FR] 🌊 SKS Crew – Tsunami",
+    track_sks: "[FR] 💥 SKS CREW",
+    track_mysa_ralliement: "[FR] 🚩 Mysa – Le Ralliement",
+    track_rockin_luta: "[FR] ✊ Rockin'Squat – A Luta Continua",
+    track_rockin_eternel: "[FR] 📚 Rockin'Squat – Eternel Apprenti",
+    track_rcknsqt_verlaine: "[FR] 🖋️ RCKNSQT – VERLAINE",
+    track_mysa_autopsy: "[FR] 🩸 Mysa – Autopsy",
+    track_fourmiliere: "[FR] 🐜 La fourmilière – Sourire",
+    track_shurikn: "[FR] 🗡️ Shurikn – Samouraï",
+    track_proser: "[FR] 🔥 Proser – La Rage (Monf x Poups)",
+    track_rohff: "[FR] ⚔️ Rohff – Fitna",
+    track_mysa_fou: "[FR] 🧠 Mysa – Comme Un Fou",
+    track_mysa_dystopie: "[FR] 🏙️ Mysa – Dystopie19",
+    track_mysa_mortel: "[FR] 💀 Mysa – Mortel",
+    track_mysa_piqure: "[FR] 💉 Mysa – Piqûre de Rappel",
+    track_mysa_revolu: "[FR] 🔁 Mysa – Révolu",
+    track_millesime: "[FR] 🏛️ Millésime K – République",
+    track_rockin_aimer: "[FR] ❤️ Rockin'Squat – Aimer Sans Posséder",
+    track_rockin_ils: "[FR] 💔 Rockin'Squat – Ils Ne Veulent Pas Aimer",
+    track_rcknsqt_vocab: "[FR] 🔤 RCKNSQT – VOCAB",
+    track_miyagi_kosandra: "[RU] 🌌 Miyagi & Andy Panda – Kosandra",
+    track_miyagi_capitaine: "[RU] ⚓ Miyagi – Capitaine",
+    track_miyagi_tumani: "[RU] 🎭 Miyagi – Tumani / YO / KADI / Bismarck",
+
+    // === HERO / DOCTRINE ===
+    motto: "«Создай свой путь. Защити свою автономию. Построй будущее.»",
+    baseline: "Компания · Движение предпринимательской независимости · Видение",
+    doctrine_title: "⚔️ Доктрина GUILLET IV",
+    doctrine_desc: "GUILLET IV объединяет силу бизнеса, силу идентичности и видение движения. Наш основополагающий принцип: не ждать своего места, а строить его через действие, дисциплину и созидание.",
+    authority: "🖤 Власть",
+    authority_desc: "Черный олицетворяет самоконтроль, строгость и прочность.",
+    willpower: "❤️ Воля",
+    willpower_desc: "Красный представляет энергию, мужество и решимость.",
+    legitimacy: "👑 Легитимность",
+    legitimacy_desc: "Золото символизирует созданную ценность, требовательность и признание.",
+    vision: "🚀 Видение",
+    vision_desc: "Синий открывает путь к инновациям и будущему.",
+    authenticity: "🌑 Аутентичность",
+    authenticity_desc: "Чистая правда, реальная идентичность, то, что вы есть без маски и компромиссов.",
+    revelation: "✨ Откровение",
+    revelation_desc: "Свет, который раскрывает скрытое. Пробуждение, понимание, ясность.",
+    truth: "⚡ Истина",
+    truth_desc: "Прямая линия, правильное слово, то, что не лжет и не дрожит.",
+    awareness: "🧠 Осознанность",
+    awareness_desc: "Ясность, высота, способность видеть за пределами внешности.",
+    power: "🜂 Сила",
+    power_desc: "Способность действовать, навязывать свое направление, преобразовывать окружающую среду.",
+    discipline: "🜁 Дисциплина",
+    discipline_desc: "Порядок, структура, последовательность, которые куют успех.",
+    creation: "🜄 Творение",
+    creation_desc: "Искусство производить, внедрять инновации, строить то, чего еще не существует.",
+    ascension: "🜃 Восхождение",
+    ascension_desc: "Восход, эволюция, преодоление себя и пределов.",
+
+    // === SHOP ===
+    shop_title: "🛒 Магазин GUILLET IV",
+    shop_intro: "Товары, выбранные для автономии, безопасности, активного отдыха и практичной жизни.",
+    no_products: "Ни один товар не соответствует этому запросу.",
+    see_more: "Читать далее",
+    see_less: "Скрыть",
+    full_desc: "Полное описание",
+    details: "Детали",
+    utility: "Полезность",
+    how_to_use: "Как использовать",
+    features: "Характеристики",
+
+    // Drone
+    drone_title: "ДРОН KY108 – ОКО БУДУЩЕГО В ВАШИХ РУКАХ",
+    drone_tagline: "Доминируй в небе... или оно будет доминировать над тобой. Будь глазами, не нуждаясь в зрении.",
+    drone_desc: "Дрон, созданный для творцов, исследователей и амбициозных пилотов. Запечатлей мир с хирургической точностью.",
+    drone_full_1: "KY108 — это не просто дрон: это инструмент видения, инструмент мастерства, воздушный союзник, который превращает каждый полет в футуристический опыт.",
+    drone_full_2: "Благодаря двойной HD-камере, 90-кратному зуму, всенаправленному обходу препятствий и бесколлекторным двигателям, он предлагает вам стабильность и мощность, которых могут достичь немногие дроны в его категории.",
+    drone_full_3: "Складной, компактный, умный: KY108 готов следовать за вами повсюду.",
+    drone_detail_1: "Двойная HD-камера с 90-кратным зумом",
+    drone_detail_2: "Всенаправленный обход препятствий",
+    drone_detail_3: "Мощный и долговечный бесколлекторный двигатель",
+    drone_detail_4: "Пульт дистанционного управления со встроенным FPV-экраном",
+    drone_detail_5: "Складной дрон, легко транспортируется",
+    drone_util_1: "Снимайте пейзажи в высоком качестве",
+    drone_util_2: "Создавайте контент для TikTok и Instagram",
+    drone_util_3: "Наблюдайте за территорией, уважая частную жизнь",
+    drone_util_4: "Научитесь пилотировать дрон",
+    drone_util_5: "Делайте профессиональные аэрофотоснимки",
+    drone_use_1: "Разложите дрон и проверьте пропеллеры.",
+    drone_use_2: "Включите пульт дистанционного управления.",
+    drone_use_3: "Подключите HD-камеру.",
+    drone_use_4: "Взлетайте в вспомогательном режиме.",
+    drone_use_5: "Пилотируйте через встроенный FPV-экран.",
+    drone_use_note: "Не забывайте соблюдать применимые правила полетов и частную жизнь снимаемых людей.",
+    cart_89: "💳 Добавить в корзину — 89 €",
+
+    // Projector
+    proj_title: "Поворотный солнечный светодиодный прожектор",
+    proj_desc: "Уличный солнечный светодиодный прожектор с PIR-датчиком и поворотными панелями.",
+    proj_full_1: "Уличный светодиодный прожектор, питающийся от солнечной панели, оснащенный PIR-датчиком и поворотными панелями.",
+    proj_util_1: "Обезопасить вход",
+    proj_util_2: "Осветить темную зону",
+    proj_util_3: "Отпугнуть вторжения",
+    proj_util_4: "Работает без электричества",
+    proj_use_1: "Закрепите прожектор на стене",
+    proj_use_2: "Сориентируйте светодиодные панели",
+    proj_use_3: "Отрегулируйте PIR-датчик",
+    proj_use_4: "Дайте солнечной панели зарядиться",
+    cart_35: "💳 Добавить в корзину — 35 €",
+
+    // Winter Pack
+    badge_winter: "ЗИМНИЙ НАБОР",
+    pack_title: "Winter Survival Pack – Премиум издание",
+    pack_desc: "Идеальный набор, чтобы пережить зиму, оставаться в тепле, со светом и автономным.",
+    pack_item_1: "🧤 1. Умные электрические перчатки с подогревом (USB)",
+    pack_item_1_desc: "Высокоэффективные зимние перчатки, созданные для обеспечения немедленного и контролируемого тепла.",
+    pack_item_1_b1: "Двусторонний нагрев на ладони",
+    pack_item_1_b2: "Три регулируемых уровня температуры",
+    pack_item_1_b3: "Сенсорный дизайн",
+    pack_item_1_b4: "Работа через USB-интерфейс, совместимость с повербанком",
+    pack_item_2: "🔦 2. Мощные светодиодные фонарики – аккумуляторные USB (x2)",
+    pack_item_2_desc: "Ультраяркая тактическая лампа для отключений электроэнергии, ночных поездок, автомобиля.",
+    pack_item_2_b1: "7 режимов освещения",
+    pack_item_2_b2: "Зарядка через USB",
+    pack_item_2_b3: "Встроенный аккумулятор",
+    pack_item_2_b4: "Устойчивость к погодным условиям",
+    pack_item_3: "🔋 3. Внешний аккумулятор 12 000 мАч – специально для USB-обогрева",
+    pack_item_3_desc: "Повербанк высокой емкости, совместимый со всеми USB-устройствами и одеждой с подогревом.",
+    pack_item_3_b1: "12 000 мАч → длительная автономность",
+    pack_item_3_b2: "Выход 5V 2.4A",
+    pack_item_3_b3: "Совместим с iPhone / Samsung / iPad",
+    pack_item_4: "🛏️ 4. Многосезонный спальный мешок-кокон (210 × 75 см)",
+    pack_item_4_desc: "Легкий, компактный и удобный спальный мешок, идеально подходит для кемпинга и чрезвычайных ситуаций.",
+    pack_item_4_b1: "Встроенный капюшон",
+    pack_item_4_b2: "Прочный полиэстер 170T",
+    pack_item_4_b3: "Складывается в пуховое одеяло / одеяло",
+    pack_item_4_b4: "Сумка для хранения в комплекте",
+    cart_9999: "💳 Добавить в корзину — 99,99 €",
+
+    // Endoscope
+    badge_new: "НОВИНКА",
+    endo_title: "Эндоскоп с камерой и экраном",
+    endo_desc: "Инспекционный эндоскоп 1080P со встроенным экраном 4,3 дюйма, полужестким кабелем 10 метров, камерой 2,0 МП, регулируемой светодиодной подсветкой и водонепроницаемым дизайном IP68.",
+    endo_full_1: "Незаменимый инструмент для осмотра труднодоступных мест: воздуховодов, двигателей, труб, кабелепроводов, технических установок или узких пространств.",
+    endo_util_1: "Осмотр двигателей, воздуховодов и труб",
+    endo_util_2: "Домашние работы: сантехника, вентиляция, электропроводка",
+    endo_util_3: "Быстрая механическая диагностика",
+    endo_util_4: "Визуальный контроль в темных зонах",
+    endo_feat_1: "Разрешение Full HD 1080P",
+    endo_feat_2: "Камера 2,0 МП с регулируемой светодиодной подсветкой",
+    endo_feat_3: "Встроенный экран 4,3 дюйма",
+    endo_feat_4: "Полужесткий кабель 10 метров",
+    endo_feat_5: "Водонепроницаемость IP68",
+    cart_95: "💳 Добавить в корзину — 95 €",
+
+    // Security Pack
+    badge_security: "🛡️ НАБОР БЕЗОПАСНОСТИ",
+    pack_secu_title: "Премиум набор безопасности",
+    pack_secu_tagline: "Полная защита. Установка за 10 минут. Под ключ.",
+    pack_secu_promo: "Ограниченная акция",
+    pack_secu_desc: "Защитите весь свой дом с помощью ИИ-камеры, полной сигнализации, 4 датчиков и готовой к использованию системы. Идеально для частных лиц и малого бизнеса.",
+    pack_secu_full_1: "Премиум набор безопасности объединяет все необходимое для защиты дома, квартиры, магазина, гаража, подвала или офиса — без технических навыков и сложной проводки. Все уже настроено: вы устанавливаете, подключаете, готово за 10 минут.",
+    pack_secu_contents: "📦 Состав набора (точный)",
+    pack_secu_c1: "1 сигнализация Tiiwee (сирена + пульты)",
+    pack_secu_c2: "1 ИИ-камера TP-Link Tapo C245D (ночное видение + обнаружение)",
+    pack_secu_c3: "4 датчика открытия SONOFF (двери / окна / гараж / балкон)",
+    pack_secu_c4: "Инструкция по установке",
+    pack_secu_c5: "Поддержка 30 дней",
+    pack_secu_f1: "Мгновенные оповещения на смартфон",
+    pack_secu_f2: "Умное обнаружение (ИИ)",
+    pack_secu_f3: "Мощная сирена",
+    pack_secu_f4: "HD ночное видение",
+    pack_secu_f5: "Прямая трансляция",
+    pack_secu_f6: "Высокоточные датчики",
+    pack_secu_secure_for: "Защищает",
+    pack_secu_s1: "🏠 Дом",
+    pack_secu_s2: "🏢 Квартира",
+    pack_secu_s3: "🏪 Магазин",
+    pack_secu_s4: "🚗 Гараж",
+    pack_secu_s5: "🕳️ Подвал",
+    pack_secu_s6: "💼 Офис",
+    pack_secu_use_1: "Подключите сигнализацию Tiiwee и камеру Tapo.",
+    pack_secu_use_2: "Прикрепите 4 датчика SONOFF на двери / окна / гараж / балкон.",
+    pack_secu_use_3: "Подключите устройства к приложению (Tapo + SONOFF).",
+    pack_secu_use_4: "Настройте оповещения на смартфон.",
+    pack_secu_use_5: "Проверьте сирену и обнаружение. Готово за 10 минут.",
+    pack_secu_warranty_support: "Гарантия и поддержка",
+    pack_secu_ws1: "Гарантия 24 месяца",
+    pack_secu_ws2: "Поддержка клиентов 30 дней",
+    pack_secu_ws3: "Помощь в установке при необходимости",
+    pack_secu_why: "Почему этот набор?",
+    pack_secu_why_text: "Потому что он защищает весь ваш дом с помощью ИИ-камеры, полной сигнализации, 4 датчиков и готовой к использованию системы. Набор под ключ — идеально для частных лиц и малого бизнеса.",
+    cart_pack_secu: "💳 Добавить в корзину — 350 €",
+
+    // === INFO & REVIEWS ===
+    guarantees: "🛡️ Гарантии и услуги",
+    warranty_24: "✔ Гарантия: 24 месяца",
+    secure_payment: "✔ Безопасная оплата",
+    fast_delivery: "✔ Быстрая доставка",
+    reviews_title: "⭐ Отзывы клиентов (Vinted)",
+    review_zohra: "спасибо",
+    review_limitless_1: "Рад, что все идеально, GUILLET IV 🔥",
+    review_zlatoff: "Все ок, спасибо",
+    review_limitless_2: "Благодарность 🤲 спасибо",
+
+    // === ABOUT ===
+    learn_more: "🏢 Узнать больше",
+    company_movement: "Компания · Движение · Независимость",
+    about_intro: "GUILLET IV — это компания и движение предпринимательской независимости. Он защищает идею о том, что каждый может построить свой собственный путь через работу, творчество и автономию.",
+    about_service: "Я продаю на Vinted (профиль: limitless95) с отзывами 5★, отзывчивым обслуживанием клиентов и желанием предлагать серьезные, хорошо представленные товары с реальным опытом магазина.",
+    about_contact: "По любым вопросам свяжитесь со мной через страницу Контакты или напрямую на Vinted.",
+    contact_me: "✉️ Связаться со мной",
+    view_my_vinted: "👕 Мой Vinted",
+    back_home: "⬅ На главную",
+    brand_king: "👑 GUILLET IV",
+    back_shop: "⬅ Назад в магазин",
+
+    // === SPONSORSHIP ===
+    parrainage_title: "🤝 Реферальная программа",
+    parrainage_sub: "Boursorama · Starlink · Vinted · Crédit Agricole · Octopus Energy",
+    parrainage_intro: "Откройте счет, подпишитесь на услугу или зарегистрируйтесь на Vinted по моим реферальным ссылкам. Информация заполняется автоматически, и вы пользуетесь преимуществами!",
+    parrainage_boursorama_title: "🏦 Реферальная программа Boursorama",
+    parrainage_boursorama_text: "Откройте свой счет Boursorama по моей реферальной ссылке: моя информация заполнится автоматически, вам ничего не нужно вводить повторно. И вы получаете приветственные бонусы!",
+    boursorama_b1: "Приветственный бонус при открытии",
+    boursorama_b2: "Ноль комиссий за обслуживание счета",
+    boursorama_b3: "100% онлайн-регистрация за несколько минут",
+    parrainage_btn_boursorama: "🏦 Открыть счет Boursorama",
+    parrainage_starlink_title: "🛰️ Реферальная программа Starlink",
+    parrainage_starlink_text: "Подпишитесь на Starlink по моей реферальной ссылке и получите бесплатный месяц подписки. Высокоскоростной интернет через спутник, везде, даже в изолированных районах.",
+    starlink_b1: "Один бесплатный месяц подписки",
+    starlink_b2: "Высокоскоростной интернет везде, даже в изолированных районах",
+    starlink_b3: "Простая и быстрая установка",
+    parrainage_btn_starlink: "🛰️ Подписаться на Starlink",
+    parrainage_vinted_title: "👕 Реферальная программа Vinted",
+    parrainage_vinted_text: "Зарегистрируйтесь на Vinted по моей ссылке-приглашению и присоединяйтесь к сообществу. Покупайте, продавайте и давайте вторую жизнь своей одежде, пользуясь приветственными преимуществами.",
+    vinted_b1: "Приветственное преимущество на первый заказ",
+    vinted_b2: "Продавайте одежду в несколько кликов",
+    vinted_b3: "Безопасная доставка и оплата",
+    parrainage_btn_vinted: "👕 Присоединиться к Vinted",
+    parrainage_credit_agricole_title: "🏛️ Реферальная программа Crédit Agricole",
+    parrainage_credit_agricole_text: "Хотите открыть счет в Crédit Agricole? Используйте мой одноразовый реферальный код и перейдите по ссылке, чтобы узнать о своих преимуществах.",
+    credit_agricole_b1: "Приветственные преимущества при открытии счета",
+    credit_agricole_b2: "Местный банк, присутствующий по всей Франции",
+    credit_agricole_b3: "Одноразовый реферальный код EGYYLFH",
+    parrainage_btn_credit_agricole: "🏛️ Открыть счет Crédit Agricole",
+    parrainage_octopus_title: "🐙 Реферальная программа Octopus Energy",
+    parrainage_octopus_text: "Присоединяйтесь к Octopus Energy по моей реферальной ссылке и получите преимущество на счет за электроэнергию. Более зеленая, простая и дешевая энергия.",
+    octopus_b1: "Приветственное преимущество на счет за электроэнергию",
+    octopus_b2: "100% возобновляемая энергия и справедливые цены",
+    octopus_b3: "Отзывчивая поддержка клиентов и без обязательств",
+    parrainage_btn_octopus: "🐙 Присоединиться к Octopus Energy",
+    parrainage_step1_title: "Нажмите на ссылку",
+    parrainage_step1_text: "Вы перенаправляетесь на официальную страницу регистрации (Boursorama, Starlink, Vinted, Crédit Agricole или Octopus Energy) с уже встроенным реферальным кодом.",
+    parrainage_step2_title: "Ваша информация предварительно заполнена",
+    parrainage_step2_text: "Моя реферальная информация заполняется автоматически. Вам нужно только заполнить свою.",
+    parrainage_step3_title: "Подтвердите регистрацию",
+    parrainage_step3_text: "Завершите открытие счета, подписку или регистрацию за несколько минут и воспользуйтесь преимуществами.",
+    parrainage_step4_title: "Все в выигрыше",
+    parrainage_step4_text: "Вы получаете приветственное преимущество, и я тоже. Настоящий беспроигрышный вариант.",
+    parrainage_note_title: "ℹ️ Полезно знать:",
+    parrainage_note_text: "Реферальные ссылки являются официальными ссылками Boursorama, Starlink, Vinted, Crédit Agricole и Octopus Energy. Открытие счета Boursorama бесплатно и без обязательств. Бонусы и преимущества зависят от условий каждого сервиса. Код Crédit Agricole EGYYLFH является одноразовым.",
+
+    // === VINTED PAGE ===
+    my_vinted: "👕 Мой Vinted",
+    vinted_intro: "Найдите мои проверенные продажи, мои рейтинги 5★ и мои товары, доступные на Vinted.",
+    verified_reviews: "Проверенные отзывы Vinted",
+    vinted_desc: "Я limitless95 на Vinted. Я предлагаю серьезные, хорошо представленные товары с отзывчивым обслуживанием клиентов.",
+    view_vinted_profile: "👕 Мой профиль Vinted",
+
+    // === BEAUTY PAGE ===
+    beauty_title: "💅 Ногти и красота — SHAYNAILS",
+    beauty_sub: "Элегантность · Уход · Лично в Гиньене",
+    beauty_intro: "Услуги только лично в Гиньене. Запись по телефону или в Instagram.",
+    beauty_prices_title: "💶 Прайс-лист",
+    beauty_presentiel_note: "⚠️ Услуги только лично в Гиньене — без онлайн-продаж.",
+    beauty_gallery_title: "✨ Достижения клиентов",
+    beauty_video_title: "🎬 В видео",
+    video_fallback: "Ваш браузер не поддерживает воспроизведение видео.",
+    beauty_book_title: "📅 Записаться на услугу",
+    beauty_book_text: "Все услуги проводятся лично в Гиньене.<br>Запись по телефону или в Instagram.",
+    click_photo_zoom: "💡 Нажмите на фото, чтобы увеличить",
+
+    // === CYBERSECURITY PAGE ===
+    cyber_title: "🛡️ Профилактика кибербезопасности",
+    cyber_subtitle: "Компьютерные атаки во Франции",
+    cyber_intro: "Фишинг, кража данных, мошеннический доступ и кража личных данных: понимание рисков помогает лучше защитить ваши учетные записи, устройства и личную информацию.",
+    cyber_intro_2: "Профилактика сочетает в себе благоразумные привычки, соответствующие технические средства защиты и быструю реакцию при возникновении инцидента.",
+    prevention_themes: "📋 Темы профилактики",
+    cyber_step1: "🔑 Шаг 1 — Сохраненные пароли",
+    cyber_step2: "🎣 Шаг 2 — Социальная инженерия и фишинг",
+    cyber_step3: "💻 Шаг 3 — Атаки на пароли",
+    cyber_step4: "🗝️ Шаг 4 — Фотографии ключей и физическая безопасность",
+    cyber_step5: "👤 Шаг 5 — Личная информация",
+    cyber_step6: "⚖️ Шаг 6 — Французское право и хакерство",
+    cyber_step7: "📨 Шаг 7 — Фишинг, мошенничество и идентичность",
+    cyber_step8: "🗂️ Шаг 8 — Персональные данные и GDPR",
+    cyber_step9: "✅ Шаг 9 — Авторизованные тесты безопасности",
+    cyber_step10: "🚨 Шаг 10 — Что делать в случае инцидента?",
+    cyber_conclusion: "🏁 Общее заключение",
+    cyber_s1_title: "🔑 Шаг 1 — Сохраненные пароли: комфорт, защита и бдительность",
+    cyber_s1_p1: "Сохранение паролей в текстовом файле, незащищенной заметке или общем документе подвергает ваши учетные записи риску, если файл украден или устройство скомпрометировано.",
+    cyber_s2_title: "🎣 Шаг 2 — Социальная инженерия и фишинг: вы можете стать целью",
+    cyber_s2_p1: "Фишинг — это метод, который заключается в выдаче себя за доверенное лицо или организацию для получения информации, платежа или рискованного действия.",
+    cyber_s3_title: "💻 Шаг 3 — Атаки на пароли",
+    cyber_s3_p1: "Попытки угадать или повторно использовать пароль принимают различные формы, и не все они работают одинаково.",
+    cyber_s4_title: "🗝️ Шаг 4 — Фотографии ключей и физическая безопасность",
+    cyber_s4_p1: "Публикация подробной фотографии ключа от дома, гаража или автомобиля может раскрыть характеристики, полезные злоумышленнику.",
+    cyber_s5_title: "👤 Шаг 5 — Личная информация и конфиденциальность",
+    cyber_s5_p1: "Избегайте паролей, основанных на деталях, которые легко найти или угадать.",
+    cyber_s6_title: "⚖️ Шаг 6 — Французское право: мошеннический доступ, хакерство и санкции",
+    cyber_s6_p1: "Во Франции посягательства на автоматизированные системы обработки данных (STAD) в основном предусмотрены статьями 323-1 и последующими Уголовного кодекса.",
+    cyber_s7_title: "📨 Шаг 7 — Фишинг, мошенничество и кража личных данных",
+    cyber_s7_p1: "Фишинг описывает метод, а не сам по себе окончательную квалификацию правонарушения.",
+    cyber_s8_title: "🗂️ Шаг 8 — Персональные данные, GDPR и обязательства по безопасности",
+    cyber_s8_p1: "Организации, обрабатывающие персональные данные, должны, в частности, внедрять соответствующие меры безопасности.",
+    cyber_s9_title: "✅ Шаг 9 — Аудит и тестирование безопасности: получение четкого разрешения",
+    cyber_s9_p1: "Аудит, тестирование на проникновение или поиск уязвимостей должны проводиться в авторизованных рамках.",
+    cyber_s10_title: "🚨 Шаг 10 — Что делать, если учетная запись или устройство скомпрометированы?",
+    cyber_s10_p1: "С чистого устройства смените соответствующий пароль и те, которые были повторно использованы.",
+    cyber_conclusion_title: "🏁 Общее заключение",
+    cyber_conclusion_p1: "Киберпреступники могут использовать технические уязвимости, а также доверие, привычки и информацию, которой делятся в Интернете.",
+
+    // === LEGAL & SECURITY AUDIT ===
+    legal_notice: "⚖️ Правовая информация и безопасность",
+    legal_info: "1. Правовая информация",
+    legal_company: "Название компании:",
+    legal_status: "Статус:",
+    legal_address: "Адрес:",
+    legal_hosting: "2. Хостинг сайта",
+    legal_ip: "3. Интеллектуальная собственность",
+    legal_ip_p1: "Весь контент сайта (тексты, изображения, дизайн, логотип, структура) является исключительной собственностью GUILLET IV.",
+    legal_ip_p2: "Любое воспроизведение, распространение или использование без разрешения строго запрещено.",
+    legal_data_title: "4. Персональные данные",
+    legal_data_p1: "Собранные данные (имя, электронная почта, адрес, телефон) используются только для обработки заказов и поддержки клиентов.",
+    legal_data_p2: "Никакие личные данные не передаются, не продаются, не передаются и не сообщаются компаниям, платформам, сторонним сервисам или государственным органам во Франции или где-либо еще.",
+    legal_data_p3: "В соответствии с GDPR вы можете в любое время запросить удаление или изменение своих данных по адресу: lanceglorieuse@gmail.com.",
+    legal_cookies_title: "5. Файлы cookie",
+    legal_cookies_p1: "Сайт может использовать технические файлы cookie для улучшения пользовательского опыта (корзина, настройки отображения).",
+    legal_cookies_p2: "Рекламные файлы cookie не используются.",
+    legal_liability_title: "6. Ответственность",
+    legal_liability_p1: "GUILLET IV не несет ответственности за ущерб, связанный с использованием сайта или продуктов, за исключением случаев доказанной прямой вины.",
+    legal_disputes_title: "7. Споры",
+    legal_disputes_p1: "В случае спора в первую очередь будет предпринята попытка мирного урегулирования.",
+    legal_disputes_p2: "В противном случае компетентными будут французские суды.",
+    security_audit_title: "🛡️ Аудит технической безопасности (Nmap & curl)",
+    security_audit_subtitle: "🔐 Безопасность сайта Shop de Légende",
+    security_audit_p1: "Безопасность посетителей и клиентов строго контролируется на Shop de Légende. Сайт применяет передовые, строгие и не поддающиеся обходу меры защиты для обеспечения надежной навигации, безопасных платежей и полной конфиденциальности.",
+    security_audit_p2: "Глубокий технический анализ, проведенный с помощью Nmap и curl, подтверждает, что сайт не имеет недостатков, опасных элементов, утечек данных, а все обнаруженные механизмы являются нормальными и ожидаемыми мерами защиты.",
+    security_audit_p3: "👉 Нет риска, нет угрозы, нет аномалий.",
+    security_audit_1_title: "🔒 Безопасное соединение (HTTPS / TLS 1.3)",
+    security_audit_1_p1: "Сайт использует самые строгие стандарты безопасности:",
+    security_audit_1_l1: "полное шифрование данных",
+    security_audit_1_l2: "защита от перехвата",
+    security_audit_1_l3: "автоматическое перенаправление на HTTPS",
+    security_audit_1_l4: "протокол TLS 1.3, международный банковский стандарт",
+    security_audit_1_footer: "👉 Nmap подтверждает, что порт 443 открыт, защищен и не имеет уязвимостей.",
+    security_audit_2_title: "🛡️ Расширенная защита от атак (CSP)",
+    security_audit_2_p1: "Политика безопасности контента сайта блокирует:",
+    security_audit_2_l1: "вредоносные скрипты",
+    security_audit_2_l2: "внедрение кода",
+    security_audit_2_l3: "несанкционированные ресурсы",
+    security_audit_2_l4: "попытки взлома",
+    security_audit_2_footer: "👉 Сканирование http-headers Nmap подтверждает полную, строгую и заблокированную CSP. Опасного поведения не обнаружено.",
+    security_audit_3_title: "🧱 Анти-мошенничество и анти-кликджекинг",
+    security_audit_3_footer: "👉 Активная защита, не поддающаяся обходу, предотвращающая любые попытки перехвата интерфейса.",
+    security_audit_4_title: "🔐 Безопасные платежи через Stripe",
+    security_audit_4_p1: "Платежи обрабатываются Stripe, сертифицированным банковским решением:",
+    security_audit_4_l1: "соответствие PCI-DSS",
+    security_audit_4_l2: "полное шифрование",
+    security_audit_4_l3: "отсутствие хранения банковских данных",
+    security_audit_4_l4: "карты никогда не хранятся на сайте",
+    security_audit_4_footer: "👉 Nmap подтверждает, что конечные точки Stripe безопасны, действительны и не представляют риска.",
+    security_audit_5_title: "🧭 Усиленная конфиденциальность",
+    security_audit_5_p1: "Сайт применяет строгие политики:",
+    security_audit_5_l1: "Referrer Policy: <code>strict-origin-when-cross-origin</code>",
+    security_audit_5_l2: "Permissions Policy: без камеры, без микрофона, без геолокации",
+    security_audit_5_l3: "X-Content-Type-Options: <code>nosniff</code>",
+    security_audit_5_l4: "Cross-Origin-Opener-Policy: <code>same-origin</code>",
+    security_audit_5_l5: "Cross-Origin-Embedder-Policy: <code>credentialless</code>",
+    security_audit_5_l6: "Cross-Origin-Resource-Policy: <code>same-origin</code>",
+    security_audit_5_footer: "👉 Эти меры защиты активны, строги и не оказывают негативного влияния на посетителей.",
+    security_audit_6_title: "🌍 Защита от внешних сайтов (CORS)",
+    security_audit_6_p1: "Сайт разрешает только свой собственный домен:",
+    security_audit_6_footer: "👉 Никаких утечек, никакого несанкционированного внешнего доступа.",
+    security_audit_7_title: "🧪 Безопасный хостинг на Vercel",
+    security_audit_7_p1: "Сайт пользуется защитой Vercel:",
+    security_audit_7_l1: "усиленная безопасность",
+    security_audit_7_l2: "автоматические обновления",
+    security_audit_7_l3: "защита от DDoS",
+    security_audit_7_l4: "надежная глобальная инфраструктура",
+    security_audit_7_l5: "активная анти-бот система",
+    security_audit_7_footer: "👉 Nmap обнаруживает: X-Vercel-Challenge-Token, X-Vercel-Mitigated: challenge, Vercel Security Checkpoint. Эти механизмы нормальны, автоматичны и никогда не касаются людей-посетителей.",
+    security_audit_8_title: "🛠️ Непрерывный мониторинг и обслуживание",
+    security_audit_8_p1: "Сайт подвергается:",
+    security_audit_8_l1: "регулярным аудитам",
+    security_audit_8_l2: "техническим обновлениям",
+    security_audit_8_l3: "проверкам SSL",
+    security_audit_8_l4: "тестам на атаки",
+    security_audit_8_footer: "👉 Анализы подтверждают постоянную, активную безопасность без недостатков.",
+    security_audit_9_title: "📡 Техническая проверка (Nmap & curl)",
+    security_audit_9_p1: "Внешние анализы показывают:",
+    security_audit_9_l1: "отсутствие недостатков",
+    security_audit_9_l2: "отсутствие опасных методов",
+    security_audit_9_l3: "отсутствие ненужных портов",
+    security_audit_9_l4: "отсутствие утечек информации",
+    security_audit_9_l5: "отсутствие открытых сервисов",
+    security_audit_9_l6: "отсутствие аномального поведения",
+    security_audit_9_l7: "отсутствие риска для посетителей",
+    security_audit_9_nmap1_title: "✔️ Nmap — http-headers",
+    security_audit_9_nmap1_text: "Обнаруженные заголовки: полная CSP, активный HSTS, X-Frame-Options, Permissions-Policy, Referrer-Policy, X-Content-Type-Options, строгий CORS, защиты Vercel.",
+    security_audit_9_nmap1_footer: "👉 Все эти элементы являются защитой. Опасности нет.",
+    security_audit_9_nmap2_title: "✔️ Nmap — http-methods",
+    security_audit_9_nmap2_text: "GET, HEAD, POST, OPTIONS",
+    security_audit_9_nmap2_footer: "👉 Опасных методов нет.",
+    security_audit_9_nmap3_title: "✔️ Nmap — http-title",
+    security_audit_9_nmap3_text: "Site doesn't have a title (text/plain)",
+    security_audit_9_nmap3_footer: "👉 Нормальный технический ответ. Без влияния на посетителей.",
+    security_audit_9_nmap4_title: "✔️ Nmap — http-security-headers",
+    security_audit_9_nmap4_text: "Nmap подтверждает: HSTS, строгий CSP, X-Frame-Options, X-Content-Type-Options, безопасный Cache-Control.",
+    security_audit_9_nmap4_footer: "👉 Безопасность соответствует стандартам OWASP.",
+    security_audit_9_nmap5_title: "✔️ Nmap — http-server-header",
+    security_audit_9_nmap5_text: "Server: Vercel",
+    security_audit_9_nmap5_footer: "👉 Нормально и безопасно.",
+    security_audit_9_nmap6_title: "✔️ Nmap — fingerprint",
+    security_audit_9_nmap6_text: "400 Bad Request · 404 Not Found · DEPLOYMENT_NOT_FOUND",
+    security_audit_9_nmap6_footer: "👉 Внутренние ответы Vercel на необычные запросы. Опасности нет.",
+    security_audit_9_nmap7_title: "✔️ Nmap — http-enum",
+    security_audit_9_nmap7_text: "443/tcp open https",
+    security_audit_9_nmap7_footer: "👉 Нет конфиденциальных ресурсов, нет скрытых страниц, нет открытых сервисов.",
+    security_audit_9_curl_title: "✔️ Результат curl",
+    security_audit_9_curl_text: "Curl отображает только: защиты, заголовки безопасности, анти-бот механизмы.",
+    security_audit_9_curl_footer: "👉 Никаких аномалий, никаких недостатков, никакого риска.",
+    security_conclusion_title: "🟢 Твердое заключение",
+    security_conclusion_p1: "Анализы Nmap и curl доказывают, что:",
+    security_conclusion_l1: "сайт безопасен",
+    security_conclusion_l2: "защиты активны",
+    security_conclusion_l3: "недостатков нет",
+    security_conclusion_l4: "опасных элементов не обнаружено",
+    security_conclusion_l5: "ничего не влияет на посетителей",
+    security_conclusion_l6: "конфигурация профессиональная, строгая и соответствующая требованиям",
+    security_conclusion_final: "👉 Shop de Légende — это высокобезопасный, надежный и защищенный сайт.",
+    security_engagement_title: "Обязательство по безопасности",
+    security_engagement_p1: "Как <strong>профессиональный пентестер</strong>, я владею информацией об уязвимостях безопасности и механизмах атак. Этот сайт был спроектирован, разработан и проверен с теми же требованиями, что и банковская среда.",
+    security_engagement_p2: "Если вы исследователь в области безопасности, разработчик или любопытный пользователь и обнаружили аномалию, уязвимость или подозрительное поведение, <strong>немедленно свяжитесь со мной</strong>:",
+    security_engagement_phone: "<strong>Телефон:</strong> <a href=\"tel:0780204749\">07.80.20.47.49</a>",
+    security_engagement_email: "<strong>Электронная почта:</strong> <a href=\"mailto:lanceglorieuse@gmail.com\">lanceglorieuse@gmail.com</a>",
+    security_engagement_thanks: "Заранее благодарю за вашу бдительность и вклад в безопасность этого сайта. 🙏",
+
+    // === CGV ===
+    terms_sale: "📄 Условия продажи – GUILLET IV",
+    cgv_object: "1. Цель",
+    cgv_object_text1: "Настоящие Условия продажи регулируют продажу продуктов, предлагаемых в магазине GUILLET IV.",
+    cgv_object_text2: "Любой заказ подразумевает полное и безоговорочное принятие настоящих Условий.",
+    cgv_products: "2. Продукты",
+    cgv_products_text1: "Предлагаемые продукты описаны с максимальной точностью.",
+    cgv_products_text2: "Фотографии не являются договорными.",
+    cgv_products_text3: "Наличие указано на каждой карточке товара.",
+    cgv_price: "3. Цена",
+    cgv_price_text1: "Цены указаны в евро (€), включая все налоги (TTC).",
+    cgv_price_text2: "Продавец оставляет за собой право изменять цены в любое время, но продукты будут выставлены к оплате по тарифу, действующему на момент подтверждения заказа.",
+    cgv_order: "4. Заказ",
+    cgv_order_text1: "Клиент выбирает продукты, которые хочет купить, подтверждает корзину и переходит к оплате.",
+    cgv_order_text2: "Подтверждение заказа отправляется по электронной почте.",
+    cgv_order_text3: "Продавец оставляет за собой право отказать в заказе в случае проблемы с оплатой или предыдущего спора.",
+    cgv_payment: "5. Оплата",
+    cgv_payment_text1: "Оплата безопасна через <a href=\"https://stripe.com/fr\" target=\"_blank\" rel=\"noopener\">Stripe</a> или через опции, предлагаемые <a href=\"https://www.vinted.fr\" target=\"_blank\" rel=\"noopener\">Vinted</a>.",
+    cgv_payment_text2: "Банковские данные никогда не хранятся GUILLET IV.",
+    cgv_delivery: "6. Доставка",
+    cgv_delivery_text1: "Продукты отправляются быстро в зависимости от их наличия.",
+    cgv_delivery_text2: "Ориентировочные сроки: 2-5 рабочих дней.",
+    cgv_delivery_text3: "Обслуживаемые районы: континентальная Франция.",
+    cgv_delivery_text4: "Номер отслеживания может быть предоставлен при наличии.",
+    cgv_delivery_text5: "В случае задержки или потери клиент должен связаться с продавцом для получения помощи.",
+    cgv_retractation: "7. Право на отказ (14 дней)",
+    cgv_retractation_text1: "В соответствии со <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842/\" target=\"_blank\" rel=\"noopener\">статьей L221-18 Потребительского кодекса</a>, клиент имеет 14 дней для осуществления своего права на отказ без объяснения причин.",
+    cgv_retractation_text2: "Продукт должен быть возвращен в исходном состоянии.",
+    cgv_retractation_text3: "В соответствии со <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226830/2016-08-10\" target=\"_blank\" rel=\"noopener\">статьей L221-23 Потребительского кодекса</a>, прямые расходы на возврат несет клиент, за исключением ошибки продавца.",
+    cgv_retractation_text4: "В соответствии со <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226828/2024-11-16\" target=\"_blank\" rel=\"noopener\">статьей L221-24 Потребительского кодекса</a>, возврат средств производится в течение максимум 14 дней с момента уведомления об отказе и не позднее, чем после получения продукта или доказательства его отправки.",
+    cgv_return: "8. Возврат и возврат средств",
+    cgv_return_text1: "Возвраты должны быть отправлены по адресу, указанному продавцом.",
+    cgv_return_text2: "Возврат средств осуществляется по правилам Vinted или Stripe в зависимости от способа покупки.",
+    cgv_return_text3: "Возврат средств не производится за продукт, поврежденный клиентом.",
+    cgv_legal_warranties: "9. Законные гарантии",
+    cgv_legal_warranties_text: "Продавец применяет обязательные законные гарантии, предусмотренные <a href=\"https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565\" target=\"_blank\" rel=\"noopener\">Потребительским кодексом</a> и <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441924/1976-01-01\" target=\"_blank\" rel=\"noopener\">Гражданским кодексом</a>.",
+    cgv_conformity: "10. Законные гарантии",
+    cgv_conformity_text1: "<strong>Законная гарантия соответствия (2 года):</strong> в соответствии со <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044142579\" target=\"_blank\" rel=\"noopener\">статьями L217-3 и последующими Потребительского кодекса</a>, клиент пользуется гарантией, покрывающей дефекты соответствия, существовавшие на момент доставки товара.",
+    cgv_conformity_text2: "<strong>Гарантия скрытых дефектов:</strong> в соответствии со <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441924/1976-01-01\" target=\"_blank\" rel=\"noopener\">статьей 1641 Гражданского кодекса</a>, продавец обязан гарантировать скрытые дефекты, делающие продукт непригодным для предполагаемого использования или значительно снижающие это использование.",
+    cgv_conformity_text3: "<strong>Возможная коммерческая гарантия:</strong> если GUILLET IV предлагает коммерческую гарантию, ее условия, продолжительность, объем и реализация указаны на карточке товара или в документе, прилагаемом к продукту.",
+    cgv_conformity_exclude_title: "Законные гарантии не покрывают:",
+    cgv_conformity_exclude1: "нормальный износ;",
+    cgv_conformity_exclude2: "ущерб, вызванный неправильным использованием;",
+    cgv_conformity_exclude3: "модификации продукта.",
+    cgv_data: "11. Персональные данные (GDPR)",
+    cgv_data_text1: "Собранные данные (имя, электронная почта, адрес, телефон) используются только для обработки заказов и поддержки клиентов в соответствии с <a href=\"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679\" target=\"_blank\" rel=\"noopener\">GDPR</a>.",
+    cgv_data_text2: "Данные не продаются и не передаются.",
+    cgv_data_text3: "Клиент может запросить доступ, исправление, переносимость или удаление своих данных по адресу <a href=\"mailto:lanceglorieuse@gmail.com\">lanceglorieuse@gmail.com</a>.",
+    cgv_liability: "12. Ответственность",
+    cgv_liability_text1: "Продавец несет ответственность только за прямой ущерб, связанный с дефектным продуктом.",
+    cgv_liability_text2: "Он не может нести ответственность за косвенный ущерб (потеря данных, финансовые потери и т.д.).",
+    cgv_service: "13. Обслуживание клиентов",
+    cgv_service_text: "По любым вопросам: <a href=\"mailto:lanceglorieuse@gmail.com\">lanceglorieuse@gmail.com</a> — Ответ в течение 48 часов.",
+    cgv_mediation: "14. Медиация",
+    cgv_mediation_text1: "В случае спора в первую очередь будет предпринята попытка мирного урегулирования.",
+    cgv_mediation_text2: "Если соглашение не будет достигнуто, клиент может бесплатно обратиться к потребительскому медиатору через <a href=\"https://www.economie.gouv.fr/mediation-conso\" target=\"_blank\" rel=\"noopener\">economie.gouv.fr/mediation-conso</a>.",
+    cgv_law: "15. Применимое право",
+    cgv_law_text1: "Настоящие Условия регулируются французским законодательством.",
+    cgv_law_text2: "В случае спора компетентными будут французские суды в соответствии с правилами подсудности, применимыми к потребителям.",
+
+    // === PRIVACY ===
+    privacy_title: "📄 Политика конфиденциальности (GDPR)",
+    privacy_intro: "Защита ваших персональных данных является приоритетом. В этой политике объясняется, какие данные собираются, почему, как они защищены и как вы можете осуществить свои права.",
+    privacy_s1_title: "1. Собираемые данные",
+    privacy_s1_intro: "Мы собираем только данные, необходимые для работы сайта и обработки заказов:",
+    privacy_s1_l1: "фамилия, имя",
+    privacy_s1_l2: "почтовый адрес",
+    privacy_s1_l3: "электронная почта",
+    privacy_s1_l4: "номер телефона",
+    privacy_s1_l5: "информация о заказе",
+    privacy_s1_l6: "IP-адрес (безопасность и предотвращение мошенничества)",
+    privacy_s1_note: "Конфиденциальные данные не собираются.",
+    privacy_s2_title: "2. Цели обработки",
+    privacy_s2_intro: "Ваши данные используются для:",
+    privacy_s2_l1: "обработки и отправки ваших заказов",
+    privacy_s2_l2: "обеспечения поддержки клиентов",
+    privacy_s2_l3: "управления вашей учетной записью клиента",
+    privacy_s2_l4: "защиты сайта и предотвращения мошенничества",
+    privacy_s2_l5: "соблюдения юридических обязательств (выставление счетов)",
+    privacy_s3_title: "3. Правовая основа",
+    privacy_s3_intro: "Обработка основана на:",
+    privacy_s3_l1: "исполнении договора (заказ)",
+    privacy_s3_l2: "законном интересе (безопасность, борьба с мошенничеством)",
+    privacy_s3_l3: "согласии (несущественные файлы cookie)",
+    privacy_s4_title: "4. Обработчики",
+    privacy_s4_intro: "Для обеспечения работы сайта некоторые провайдеры могут обрабатывать ваши данные:",
+    privacy_s4_l1: "Vercel (хостинг сайта)",
+    privacy_s4_l2: "Stripe / PayPal (безопасные платежи)",
+    privacy_s4_l3: "Служба электронной почты (подтверждение заказа)",
+    privacy_s4_note: "Эти провайдеры соблюдают GDPR или имеют эквивалентные гарантии.",
+    privacy_s5_title: "5. Срок хранения",
+    privacy_s5_l1: "Данные, необходимые для обработки и выставления счетов по заказам: 10 лет, в соответствии со <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006316689/\" target=\"_blank\" rel=\"noopener\">статьей L123-22 Коммерческого кодекса</a>.",
+    privacy_s5_l2: "Данные неактивных клиентов: 3 года",
+    privacy_s5_l3: "Технические файлы cookie: 13 месяцев",
+    privacy_s6_title: "6. Ваши права",
+    privacy_s6_intro: "В соответствии с GDPR вы имеете следующие права:",
+    privacy_s6_l1: "доступ к вашим данным",
+    privacy_s6_l2: "исправление",
+    privacy_s6_l3: "удаление",
+    privacy_s6_l4: "возражение",
+    privacy_s6_l5: "переносимость",
+    privacy_s6_contact: "Чтобы осуществить свои права: lanceglorieuse@gmail.com",
+    privacy_s7_title: "7. Файлы cookie",
+    privacy_s7_intro: "Сайт использует только:",
+    privacy_s7_l1: "технические файлы cookie (корзина, сессия, безопасность)",
+    privacy_s7_note: "Рекламные или маркетинговые файлы cookie для отслеживания не используются. При первом посещении может появиться информационный баннер.",
+    privacy_s8_title: "8. Безопасность",
+    privacy_s8_intro: "Мы применяем строгие меры для защиты ваших данных:",
+    privacy_s8_l1: "шифрование HTTPS / TLS 1.3",
+    privacy_s8_l2: "анти-бот защиты",
+    privacy_s8_l3: "расширенные заголовки безопасности (CSP, HSTS, X-Frame-Options и т.д.)",
+    privacy_s8_l4: "безопасная инфраструктура Vercel",
+    privacy_s8_l5: "платежи, сертифицированные PCI-DSS, через Stripe",
+    privacy_s8_note: "Банковские данные не хранятся на сайте.",
+    privacy_s9_title: "9. Передача за пределы ЕС",
+    privacy_s9_text: "Хостинг Vercel может включать обработку за пределами Европейского Союза. Эти передачи регулируются гарантиями, соответствующими GDPR.",
+    privacy_s10_title: "10. Контакт",
+    privacy_s10_text: "По любым вопросам, касающимся ваших персональных данных:",
+    privacy_s11_title: "11. Правовые ссылки и жалобы",
+    privacy_s11_text1: "Эта политика составлена в соответствии с <a href=\"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679\" target=\"_blank\" rel=\"noopener\">Общим регламентом по защите данных (GDPR)</a> и <a href=\"https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031701594\" target=\"_blank\" rel=\"noopener\">Законом о защите данных</a>.",
+    privacy_s11_text2: "Данные, необходимые для выставления счетов, хранятся в течение 10 лет в соответствии со <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006316689/\" target=\"_blank\" rel=\"noopener\">статьей L123-22 Коммерческого кодекса</a>.",
+    privacy_s11_text3: "Вы можете подать жалобу в <a href=\"https://www.cnil.fr/fr/plaintes\" target=\"_blank\" rel=\"noopener\">CNIL</a>.",
+
+    // === FAQ ===
+    faq_title: "❓ Часто задаваемые вопросы",
+    faq_delivery: "📦 Доставка",
+    faq_ship_time: "Какое время отправки?",
+    faq_ship_time_text: "Товары отправляются быстро, обычно в течение 24-48 часов в зависимости от их наличия.",
+    faq_delivery_time: "Каковы сроки доставки?",
+    faq_delivery_time_text: "Доставка занимает в среднем 2-5 рабочих дней после отправки, в зависимости от перевозчика и района доставки.",
+    faq_zones: "Какие районы обслуживаются?",
+    faq_zones_text: "Доставка осуществляется в континентальную Францию через опции, предлагаемые Vinted или доступными перевозчиками.",
+    faq_tracking: "Как отследить мою посылку?",
+    faq_tracking_text: "Номер отслеживания предоставляется при отправке, когда он доступен. Вы можете отслеживать свою посылку напрямую через сайт перевозчика или через Vinted.",
+    faq_delay_lost: "Что делать в случае задержки или потери посылки?",
+    faq_delay_lost_text: "Свяжитесь со службой поддержки клиентов GUILLET IV. С перевозчиком будет открыто расследование.",
+    faq_payment: "🔒 Безопасная оплата",
+    faq_payment_q: "Как происходит оплата?",
+    faq_payment_text: "Все транзакции безопасны и осуществляются через Vinted или Stripe.",
+    faq_bank_protection: "Защищены ли мои банковские данные?",
+    faq_bank_protection_text: "Да. Ваши банковские данные никогда не хранятся GUILLET IV. Обработка полностью управляется безопасными платежными платформами.",
+    faq_payment_methods: "Какие способы оплаты принимаются?",
+    faq_payment_methods_intro: "В зависимости от платформы:",
+    faq_payment_card: "Кредитная карта",
+    faq_payment_apple_google: "Apple Pay / Google Pay (Stripe)",
+    faq_payment_vinted: "Встроенная оплата Vinted",
+    faq_refund: "🔁 Возврат и возврат средств",
+    faq_return_q: "Могу ли я вернуть товар?",
+    faq_return_text: "Да. В соответствии со <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842/\" target=\"_blank\" rel=\"noopener\">статьей L221-18 Потребительского кодекса</a> у вас есть 14 дней, чтобы запросить возврат.",
+    faq_how_return: "Как сделать возврат?",
+    faq_how_return_text: "Свяжитесь с продавцом, чтобы получить инструкции и адрес возврата. Продукт должен быть возвращен в исходном состоянии.",
+    faq_return_fees: "Расходы на возврат за мой счет?",
+    faq_return_fees_text: "В соответствии со <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226830/2016-08-10\" target=\"_blank\" rel=\"noopener\">статьей L221-23 Потребительского кодекса</a> расходы на возврат несет клиент, за исключением ошибки продавца или дефектного продукта.",
+    faq_refund_q: "Как происходит возврат средств?",
+    faq_refund_text: "Возврат средств обрабатывается согласно правилам Vinted или напрямую продавцом. В соответствии со <a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226828/2024-11-16\" target=\"_blank\" rel=\"noopener\">статьей L221-24 Потребительского кодекса</a> возврат средств происходит в течение максимум 14 дней с момента уведомления об отказе и не позднее, чем после получения продукта или доказательства его отправки.",
+    faq_refund_refused_q: "В каких случаях может быть отказано в возврате средств?",
+    faq_refund_refused_1: "Продукт поврежден клиентом",
+    faq_refund_refused_2: "Неполный продукт",
+    faq_refund_refused_3: "Продукт использовался или был изменен",
+    faq_warranty: "🛡️ Гарантия",
+    faq_warranty_q: "Что покрывает 24-месячная гарантия?",
+    faq_warranty_text: "Коммерческая гарантия покрывает производственные дефекты и неисправности, не связанные с пользователем.",
+    faq_legal_warranty_q: "Каковы законные гарантии?",
+    faq_legal_warranty_intro: "Все продукты автоматически пользуются:",
+    faq_legal_warranty_1: "<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044142579\" target=\"_blank\" rel=\"noopener\">2-летней законной гарантией соответствия</a>,",
+    faq_legal_warranty_2: "<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441924/1976-01-01\" target=\"_blank\" rel=\"noopener\">гарантией скрытых дефектов</a>.",
+    faq_not_covered_q: "Что не покрывается?",
+    faq_not_covered_1: "Нормальный износ",
+    faq_not_covered_2: "Ущерб, вызванный неправильным использованием",
+    faq_not_covered_3: "Удары, жидкости, небрежность",
+    faq_not_covered_4: "Несанкционированные модификации или ремонт",
+    faq_claim_warranty_q: "Как заявить о гарантии?",
+    faq_claim_warranty_intro: "Свяжитесь со службой поддержки клиентов с:",
+    faq_claim_warranty_1: "вашим номером заказа,",
+    faq_claim_warranty_2: "описанием проблемы,",
+    faq_claim_warranty_3: "фотографиями или видео дефекта.",
+    faq_service: "📞 Обслуживание клиентов",
+    faq_contact_q: "Как связаться с GUILLET IV?",
+    faq_contact_text: "📧 Электронная почта: lanceglorieuse@gmail.com — Ответ в течение 48 часов.",
+
+    // === CONTACT ===
+    contact_title: "✉️ Свяжитесь с нами",
+    contact_intro: "Вопрос? Проект? Не стесняйтесь писать нам.",
+    phone: "Телефон",
+    location: "Местоположение",
+    france_ille: "Франция, Иль-э-Вилен",
+    hours: "Часы работы",
+    your_name: "Ваше имя",
+    your_email: "Ваш адрес электронной почты",
+    your_message: "Ваше сообщение...",
+    send_message: "Отправить сообщение",
+    message_prepared: "Ваше сообщение подготовлено. Теперь вы можете отправить его через приложение электронной почты.",
+    footer_location: "📍 Иль-э-Вилен · 🕒 9:00 – 20:00",
+    footer_payment: "🔒 Безопасная оплата — 🚚 Быстрая доставка",
+    copyright: "© 2026 GUILLET IV — Орден Независимости",
+    follow_tiktok: "🎵 Подписывайтесь на нас в TikTok",
+    back_top: "Наверх",
+    open_chat: "Открыть чат советов",
+    advice_chat: "🤖 Советы GUILLET IV",
+    ask_question: "Задайте мне вопрос...",
+
+    // === PREVENTION HARASSMENT ===
+    prevention_harassment: "🛡️ Профилактика харассмента",
+    harassment_is_crime: "Харассмент — это преступление. Это разрушает жизни.",
+    harassment_intro_2: "Будь то физический, психологический или виртуальный, французский закон сурово наказывает виновных.",
+    harassment_intro_3: "Вот наказания, предусмотренные в одиночку или в организованной группе.",
+    moral_harassment: "💻 Моральный харассмент",
+    school_harassment: "🎓 Школьный харассмент",
+    sexual_harassment: "🤬 Сексуальный харассмент",
+    organized_group: "🚨 В организованной группе",
+    where_help: "📞 Где найти помощь?",
+    moral_harassment_desc: "Повторяющиеся слова или поведение, унижающие условия жизни, вызывающие ухудшение физического или психического здоровья.",
+    basic_penalty: "Базовое наказание",
+    aggravating_simple: "Простое отягчающее обстоятельство",
+    two_aggravating: "Два совокупных отягчающих обстоятельства",
+    up_to_10_years: "До 10 лет + 300 000 €",
+    organized_group_desc: "каждый участник может быть привлечен к ответственности, даже за одно сообщение, если установлен коллективный характер харассмента.",
+    school_harassment_desc: "Моральный харассмент, совершенный учеником или сотрудником в отношении ученика того же учебного заведения.",
+    itt_over_8: "ITT > 8 дней",
+    victim_suicide: "Если жертва совершает самоубийство или пытается покончить с собой",
+    school_harassment_note: "Факты остаются наказуемыми даже после окончания учебы.",
+    sexual_harassment_desc: "Повторяющиеся слова или поведение сексуального или сексистского характера, унижающие достоинство или создающие запугивающую, враждебную или оскорбительную ситуацию.",
+    organized_group_law: "🚨 В организованной группе: что говорит закон",
+    collective_responsibility: "⚖️ Коллективная ответственность",
+    collective_desc: "Харассмент в Интернете или в группе является отягчающим обстоятельством. Даже если вы отправили только одно сообщение, поставили лайк или поделились контентом харассмента, вы можете быть привлечены к ответственности.",
+    online_moral_harassment: "Моральный харассмент в Интернете",
+    sexual_harassment_multiple: "Сексуальный харассмент несколькими людьми",
+    multiple_aggravating: "Харассмент с несколькими отягчающими обстоятельствами",
+    law_punishes_each: "Закон наказывает каждого участника, а не только лидера.",
+    dont_stay_alone: "⚠️ Не оставайтесь один. Говорите.",
+    call_3018: "📞 3018 — Бесплатный, анонимный номер, 7 дней в неделю (9:00-23:00)",
+    report_17cyber: "🌐 17Cyber.gouv.fr — Сообщение онлайн",
+    report_17cyber_btn: "🚨 Сообщить на 17Cyber",
+    call_3018_btn: "📞 Позвонить 3018",
+    prevention_footer_note: "Информация из французского Уголовного кодекса (Légifrance). Последнее обновление: 2026.",
+
+    // === CHATBOT ===
+    chat_hello: "👋 Здравствуйте и добро пожаловать в <strong>GUILLET IV</strong>!",
+    chat_prompt: "Задайте мне вопрос:",
+    chat_unknown: "Я не уверен, что понимаю 🤔",
+    chat_menu_title: "Вот все разделы сайта:",
+    chat_parrainage_reply: "🤝 Откройте счет Boursorama, подпишитесь на Starlink, зарегистрируйтесь на Vinted, в Crédit Agricole или Octopus Energy по моим реферальным ссылкам: информация заполняется автоматически!",
+    chat_contact_reply: "📞 Мы доступны с 9:00 до 20:00 по телефону <strong>07.80.20.47.49</strong>.",
+    chat_delivery_reply: "🚚 Доставка <strong>быстрая и безопасная</strong>.",
+    chat_drone_reply: "🎥 <strong>Дрон KY108</strong> (89€).",
+    chat_proj_reply: "💡 <strong>Солнечный светодиодный прожектор</strong> (35€).",
+    chat_endo_reply: "🔍 <strong>Эндоскоп</strong> (95€).",
+    chat_beauty_reply: "💅 Раздел <strong>Ногти и красота</strong>.",
+    chat_price_reply: "💰 Дрон: 89€ • Прожектор: 35€ • Зимний набор: 99,99€ • Эндоскоп: 95€ • Премиум набор безопасности: 350€",
+    chat_thanks_reply: "Пожалуйста! 🙏",
+    chat_btn_home: "🏠 Главная",
+    chat_btn_shop: "🛒 Магазин",
+    chat_btn_vinted: "👕 Vinted",
+    chat_btn_beauty: "💅 Ногти и красота",
+    chat_btn_parrainage: "🤝 Реферальная программа",
+    chat_btn_about: "📜 О нас",
+    chat_btn_contact: "✉️ Контакты",
+    chat_btn_faq: "❓ FAQ",
+    chat_btn_cyber: "🛡️ Кибербезопасность",
+    chat_btn_harass: "🚨 Харассмент",
+    chat_btn_see: "Посмотреть",
+    chat_btn_see_section: "Посмотреть раздел",
+    chat_btn_all_pages: "📋 Все страницы",
+    chat_btn_prices: "💶 Посмотреть цены",
+    chat_btn_contact_me: "📞 Связаться с вами",
+    chat_btn_delivery: "🚚 Доставка",
+    chat_btn_menu: "📋 Меню страниц"
+  },
+
+  zh: {
+    // === NAV & HEADER ===
+    maintenance: "维护中",
+    maintenance_motto: "GUILLET IV 网站目前正在维护中。我们将很快回来。",
+    maintenance_info: "⏳ 正在施工 — 感谢您的耐心",
+    contact_us: "📧 联系我们",
+    order_independence: "独立秩序",
+    search_product: "搜索产品",
+    clear_search: "清除搜索",
+    matching_products: "匹配的产品",
+    toggle_mode: "切换浅色/深色模式",
+    nav_home: "🏠 首页",
+    nav_about: "📜 关于",
+    nav_shop: "🛒 商店",
+    nav_vinted: "👕 Vinted",
+    nav_beauty: "💅 美甲与美容",
+    nav_parrainage: "🤝 推荐",
+    nav_cyber: "🛡️ 网络安全",
+    nav_harassment: "🚨 骚扰",
+    nav_contact: "✉️ 联系方式",
+    nav_faq: "❓ 常见问题",
+    nav_cgv: "📄 条款",
+    nav_privacy: "📄 隐私",
+    nav_legal: "⚖️ 法律与安全",
+    
+    // === MARQUEE ===
+    marquee_welcome: "✨ 欢迎来到 GUILLET IV — 独立秩序 ✨",
+    marquee_delivery: "🚚 快速安全的配送",
+    marquee_payment: "🛡️ 100% 安全支付",
+    marquee_motto: "👑 创造你的道路。捍卫你的自主权。建设未来。",
+    marquee_products: "💎 为自主和实用生活挑选的产品",
+    marquee_warranty: "🛡️ 我们所有产品均有 2 年保修",
+    marquee_music: "🎵 探索我们的独家音乐精选",
+
+    // === AUDIO ===
+    site_music: "🎵 网站音乐",
+    choose_music: "选择音乐",
+    track_genetiquement: "[FR] 🧬 Génétiquement Modifier",
+    track_polygone: "[FR] 🔷 Polygone",
+    track_quelques_notes: "[FR] 🎵 Quelques notes",
+    track_bilar_phoenix: "[FR] 🔥 Bilar – Phénix",
+    track_cenza: "[FR] 🕶️ Cenza – Inconnu",
+    track_confinement: "[FR] 🧪 Bilar – ConFinement n°2",
+    track_dark_blues: "[EN] 🌑 Dark Blues.Vol",
+    track_iam: "[FR] 🌍 IAM – La fin de leur monde",
+    track_issaba: "[FR] ⚡ Issaba – Tu connais",
+    track_kery: "[FR] 📜 Kery James – Post-Scriptum",
+    track_exit: "[FR] 🧬 L'EXI-T – Venom Zirko / HYPERTHYMÉSIE",
+    track_sakage: "[FR] 🌒 Sakage – Prémice",
+    track_sks_tsunami_2: "[FR] ⚡ SKS Crew – Tsunami 2",
+    track_sks_tsunami: "[FR] 🌊 SKS Crew – Tsunami",
+    track_sks: "[FR] 💥 SKS CREW",
+    track_mysa_ralliement: "[FR] 🚩 Mysa – Le Ralliement",
+    track_rockin_luta: "[FR] ✊ Rockin'Squat – A Luta Continua",
+    track_rockin_eternel: "[FR] 📚 Rockin'Squat – Eternel Apprenti",
+    track_rcknsqt_verlaine: "[FR] 🖋️ RCKNSQT – VERLAINE",
+    track_mysa_autopsy: "[FR] 🩸 Mysa – Autopsy",
+    track_fourmiliere: "[FR] 🐜 La fourmilière – Sourire",
+    track_shurikn: "[FR] 🗡️ Shurikn – Samouraï",
+    track_proser: "[FR] 🔥 Proser – La Rage (Monf x Poups)",
+    track_rohff: "[FR] ⚔️ Rohff – Fitna",
+    track_mysa_fou: "[FR] 🧠 Mysa – Comme Un Fou",
+    track_mysa_dystopie: "[FR] 🏙️ Mysa – Dystopie19",
+    track_mysa_mortel: "[FR] 💀 Mysa – Mortel",
+    track_mysa_piqure: "[FR] 💉 Mysa – Piqûre de Rappel",
+    track_mysa_revolu: "[FR] 🔁 Mysa – Révolu",
+    track_millesime: "[FR] 🏛️ Millésime K – République",
+    track_rockin_aimer: "[FR] ❤️ Rockin'Squat – Aimer Sans Posséder",
+    track_rockin_ils: "[FR] 💔 Rockin'Squat – Ils Ne Veulent Pas Aimer",
+    track_rcknsqt_vocab: "[FR] 🔤 RCKNSQT – VOCAB",
+    track_miyagi_kosandra: "[RU] 🌌 Miyagi & Andy Panda – Kosandra",
+    track_miyagi_capitaine: "[RU] ⚓ Miyagi – Capitaine",
+    track_miyagi_tumani: "[RU] 🎭 Miyagi – Tumani / YO / KADI / Bismarck",
+
+    // === HERO / DOCTRINE ===
+    motto: "“创造你的道路。捍卫你的自主权。建设未来。”",
+    baseline: "企业 · 创业独立运动 · 愿景",
+    doctrine_title: "⚔️ GUILLET IV 信条",
+    doctrine_desc: "GUILLET IV 汇聚了企业的力量、身份的力量和运动的愿景。我们的创始原则：不要等待你的位置，而是通过行动、纪律和创造来建立它。",
+    authority: "🖤 权威",
+    authority_desc: "黑色代表自我控制、严谨和坚实。",
+    willpower: "❤️ 意志",
+    willpower_desc: "红色代表能量、勇气和决心。",
+    legitimacy: "👑 合法性",
+    legitimacy_desc: "金色象征创造的价值、要求和认可。",
+    vision: "🚀 愿景",
+    vision_desc: "蓝色开启创新和未来之路。",
+    authenticity: "🌑 真实性",
+    authenticity_desc: "原始真相，真实身份，毫不掩饰或妥协的你。",
+    revelation: "✨ 启示",
+    revelation_desc: "揭示隐藏事物的光。觉醒、理解、清晰。",
+    truth: "⚡ 真理",
+    truth_desc: "直线，正确的话，不撒谎也不颤抖。",
+    awareness: "🧠 意识",
+    awareness_desc: "清醒，高度，看清外表之外的能力。",
+    power: "🜂 力量",
+    power_desc: "行动的能力，强加你的方向，改变你的环境。",
+    discipline: "🜁 纪律",
+    discipline_desc: "秩序、结构、铸就成功的恒心。",
+    creation: "🜄 创造",
+    creation_desc: "生产、创新、建造尚不存在的事物的艺术。",
+    ascension: "🜃 上升",
+    ascension_desc: "上升、进化、超越自我和极限。",
+
+    // === SHOP ===
+    shop_title: "🛒 GUILLET IV 商店",
+    shop_intro: "为自主、安全、户外和实用生活挑选的产品。",
+    no_products: "没有产品符合此搜索。",
+    see_more: "查看更多",
+    see_less: "收起",
+    full_desc: "完整描述",
+    details: "详情",
+    utility: "实用性",
+    how_to_use: "如何使用",
+    features: "功能",
+
+    // Drone
+    drone_title: "KY108 无人机 – 未来的眼睛掌握在你手中",
+    drone_tagline: "主宰天空……否则它将主宰你。成为不需要看见的眼睛。",
+    drone_desc: "专为创作者、探险家和雄心勃勃的飞行员设计的无人机。以手术般的精准度捕捉世界。",
+    drone_full_1: "KY108 不仅仅是一架无人机：它是一种视觉工具，一种掌控工具，一个将每次飞行都变成未来体验的空中盟友。",
+    drone_full_2: "凭借其双高清摄像头、90 倍变焦、全向避障和无刷电机，它为您提供同类产品中很少有无人机能匹敌的稳定性和动力。",
+    drone_full_3: "可折叠、紧凑、智能：KY108 随时准备跟随你到任何地方。",
+    drone_detail_1: "带 90 倍变焦的双高清摄像头",
+    drone_detail_2: "全向避障",
+    drone_detail_3: "强大耐用的无刷电机",
+    drone_detail_4: "带集成 FPV 屏幕的遥控器",
+    drone_detail_5: "可折叠无人机，易于运输",
+    drone_util_1: "高清拍摄风景",
+    drone_util_2: "为 TikTok 和 Instagram 创作内容",
+    drone_util_3: "在尊重隐私的情况下监控区域",
+    drone_util_4: "学习无人机驾驶",
+    drone_util_5: "拍摄专业航拍照片",
+    drone_use_1: "展开无人机并检查螺旋桨。",
+    drone_use_2: "打开遥控器。",
+    drone_use_3: "连接高清摄像头。",
+    drone_use_4: "在辅助模式下起飞。",
+    drone_use_5: "通过集成的 FPV 屏幕驾驶。",
+    drone_use_note: "请记住遵守适用的飞行规则和被拍摄者的隐私。",
+    cart_89: "💳 加入购物车 — 89 €",
+
+    // Projector
+    proj_title: "旋转太阳能 LED 投影仪",
+    proj_desc: "带 PIR 传感器和旋转面板的户外太阳能 LED 投影仪。",
+    proj_full_1: "由太阳能电池板供电的户外 LED 投影仪，配备 PIR 传感器和旋转面板。",
+    proj_util_1: "保护入口安全",
+    proj_util_2: "照亮黑暗区域",
+    proj_util_3: "阻止入侵",
+    proj_util_4: "无需电力即可工作",
+    proj_use_1: "将投影仪固定在墙上",
+    proj_use_2: "调整 LED 面板的方向",
+    proj_use_3: "调整 PIR 传感器",
+    proj_use_4: "让太阳能电池板充电",
+    cart_35: "💳 加入购物车 — 35 €",
+
+    // Winter Pack
+    badge_winter: "冬季套装",
+    pack_title: "冬季生存包 – 高级版",
+    pack_desc: "应对冬季、保持温暖、照明和自主的终极套装。",
+    pack_item_1: "🧤 1. 智能电加热手套 (USB)",
+    pack_item_1_desc: "高性能冬季手套，旨在提供即时和受控的热量。",
+    pack_item_1_b1: "手掌双面加热",
+    pack_item_1_b2: "三个可调温度等级",
+    pack_item_1_b3: "触摸屏设计",
+    pack_item_1_b4: "USB 接口操作，兼容充电宝",
+    pack_item_2: "🔦 2. 强力 LED 手电筒 – USB 可充电 (x2)",
+    pack_item_2_desc: "超亮战术灯，适用于停电、夜间旅行、汽车。",
+    pack_item_2_b1: "7 种灯光模式",
+    pack_item_2_b2: "USB 可充电",
+    pack_item_2_b3: "内置电池",
+    pack_item_2_b4: "耐候性",
+    pack_item_3: "🔋 3. 12,000 mAh 充电宝 – USB 加热专用",
+    pack_item_3_desc: "高容量充电宝，兼容所有 USB 设备和加热服装。",
+    pack_item_3_b1: "12,000 mAh → 持久续航",
+    pack_item_3_b2: "5V 2.4A 输出",
+    pack_item_3_b3: "兼容 iPhone / Samsung / iPad",
+    pack_item_4: "🛏️ 4. 多季木乃伊睡袋 (210 × 75 cm)",
+    pack_item_4_desc: "轻便、紧凑、舒适的睡袋，非常适合露营和紧急情况。",
+    pack_item_4_b1: "一体式风帽",
+    pack_item_4_b2: "坚固的 170T 涤纶",
+    pack_item_4_b3: "可折叠成被子 / 毯子",
+    pack_item_4_b4: "包含储物袋",
+    cart_9999: "💳 加入购物车 — 99,99 €",
+
+    // Endoscope
+    badge_new: "新品",
+    endo_title: "带屏幕的检测摄像头内窥镜",
+    endo_desc: "1080P 检测内窥镜，带 4.3 英寸集成屏幕、10 米半刚性电缆、200 万像素摄像头、可调 LED 照明和 IP68 防水设计。",
+    endo_full_1: "检查难以到达区域（管道、发动机、管道、导管、技术安装或狭窄空间）的必备工具。",
+    endo_util_1: "检查发动机、管道和管道",
+    endo_util_2: "家庭装修：管道、通风、布线",
+    endo_util_3: "快速机械诊断",
+    endo_util_4: "在黑暗区域进行视觉控制",
+    endo_feat_1: "全高清 1080P 分辨率",
+    endo_feat_2: "200 万像素摄像头，带可调 LED 照明",
+    endo_feat_3: "4.3 英寸集成屏幕",
+    endo_feat_4: "10 米半刚性电缆",
+    endo_feat_5: "IP68 防水认证",
+    cart_95: "💳 加入购物车 — 95 €",
+
+    // Security Pack
+    badge_security: "🛡️ 安全套装",
+    pack_secu_title: "高级安全套装",
+    pack_secu_tagline: "全面保护。10 分钟安装。交钥匙。",
+    pack_secu_promo: "限时促销",
+    pack_secu_desc: "使用 AI 摄像头、完整警报器、4 个传感器和即用型系统保护您的整个家庭。非常适合个人和小型企业。",
+    pack_secu_full_1: "高级安全套装汇集了保护房屋、公寓、企业、车库、地窖或办公室所需的一切——无需技术技能或复杂布线。一切均已配置好：您安装、连接，10 分钟即可完成。",
+    pack_secu_contents: "📦 套装内容（确切）",
+    pack_secu_c1: "1 个 Tiiwee 警报器（警笛 + 遥控器）",
+    pack_secu_c2: "1 个 TP-Link Tapo C245D AI 摄像头（夜视 + 检测）",
+    pack_secu_c3: "4 个 SONOFF 门窗传感器（门 / 窗 / 车库 / 阳台）",
+    pack_secu_c4: "安装指南",
+    pack_secu_c5: "30 天协助",
+    pack_secu_f1: "智能手机即时警报",
+    pack_secu_f2: "智能检测 (AI)",
+    pack_secu_f3: "强力警笛",
+    pack_secu_f4: "高清夜视",
+    pack_secu_f5: "实时监控",
+    pack_secu_f6: "高精度传感器",
+    pack_secu_secure_for: "保护",
+    pack_secu_s1: "🏠 房屋",
+    pack_secu_s2: "🏢 公寓",
+    pack_secu_s3: "🏪 企业",
+    pack_secu_s4: "🚗 车库",
+    pack_secu_s5: "🕳️ 地窖",
+    pack_secu_s6: "💼 办公室",
+    pack_secu_use_1: "插入 Tiiwee 警报器和 Tapo 摄像头。",
+    pack_secu_use_2: "将 4 个 SONOFF 传感器粘贴在门 / 窗 / 车库 / 阳台上。",
+    pack_secu_use_3: "将设备连接到应用程序（Tapo + SONOFF）。",
+    pack_secu_use_4: "配置智能手机警报。",
+    pack_secu_use_5: "测试警笛和检测。10 分钟即可完成。",
+    pack_secu_warranty_support: "保修与支持",
+    pack_secu_ws1: "24 个月保修",
+    pack_secu_ws2: "30 天客户支持",
+    pack_secu_ws3: "需要时提供安装协助",
+    pack_secu_why: "为什么选择此套装？",
+    pack_secu_why_text: "因为它通过 AI 摄像头、完整警报器、4 个传感器和即用型系统保护您的整个家庭。交钥匙套装 — 非常适合个人和小型企业。",
+    cart_pack_secu: "💳 加入购物车 — 350 €",
+
+    // === INFO & REVIEWS ===
+    guarantees: "🛡️ 保修与服务",
+    warranty_24: "✔ 保修：24 个月",
+    secure_payment: "✔ 安全支付",
+    fast_delivery: "✔ 快速配送",
+    reviews_title: "⭐ 客户评价 (Vinted)",
+    review_zohra: "谢谢",
+    review_limitless_1: "很高兴一切完美，GUILLET IV 🔥",
+    review_zlatoff: "一切都好，谢谢",
+    review_limitless_2: "感恩 🤲 谢谢",
+
+    // === ABOUT ===
+    learn_more: "🏢 了解更多",
+    company_movement: "企业 · 运动 · 独立",
+    about_intro: "GUILLET IV 是一家企业和创业独立运动。它捍卫每个人都能够通过工作、创造和自主来建立自己的道路的理念。",
+    about_service: "我在 Vinted 上销售（个人资料：limitless95），拥有 5 星评价、响应迅速的客户服务，并致力于提供严肃、展示良好的产品和真正的商店体验。",
+    about_contact: "如有任何问题，请通过“联系方式”页面或直接在 Vinted 上与我联系。",
+    contact_me: "✉️ 联系我",
+    view_my_vinted: "👕 查看我的 Vinted",
+    back_home: "⬅ 返回首页",
+    brand_king: "👑 GUILLET IV",
+    back_shop: "⬅ 返回商店",
+
+    // === SPONSORSHIP ===
+    parrainage_title: "🤝 推荐",
+    parrainage_sub: "Boursorama · Starlink · Vinted · Crédit Agricole · Octopus Energy",
+    parrainage_intro: "使用我的推荐链接开设账户、订阅服务或在 Vinted 上注册。信息会自动预填，您可以享受优惠！",
+    parrainage_boursorama_title: "🏦 Boursorama 推荐",
+    parrainage_boursorama_text: "使用我的推荐链接开设您的 Boursorama 账户：我的信息将自动填写，您无需重新输入。而且您可以享受欢迎奖金！",
+    boursorama_b1: "开户即赠欢迎奖金",
+    boursorama_b2: "零账户维护费",
+    boursorama_b3: "100% 在线注册，只需几分钟",
+    parrainage_btn_boursorama: "🏦 开设我的 Boursorama 账户",
+    parrainage_starlink_title: "🛰️ Starlink 推荐",
+    parrainage_starlink_text: "使用我的推荐链接订阅 Starlink，即可享受一个月的免费订阅。通过卫星提供高速互联网，无处不在，即使在偏远地区也是如此。",
+    starlink_b1: "一个月免费订阅",
+    starlink_b2: "在任何地方提供高速互联网，即使在偏远地区",
+    starlink_b3: "安装简单快捷",
+    parrainage_btn_starlink: "🛰️ 订阅 Starlink",
+    parrainage_vinted_title: "👕 Vinted 推荐",
+    parrainage_vinted_text: "使用我的邀请链接在 Vinted 上注册并加入社区。购买、出售并赋予您的衣服第二次生命，同时享受欢迎优惠。",
+    vinted_b1: "首次订单享受欢迎优惠",
+    vinted_b2: "只需点击几下即可出售您的衣服",
+    vinted_b3: "安全的配送和支付",
+    parrainage_btn_vinted: "👕 加入 Vinted",
+    parrainage_credit_agricole_title: "🏛️ Crédit Agricole 推荐",
+    parrainage_credit_agricole_text: "您想在 Crédit Agricole 开户吗？使用我的一次性推荐码并点击链接了解您的优惠。",
+    credit_agricole_b1: "开户即享欢迎优惠",
+    credit_agricole_b2: "遍布法国的本地银行",
+    credit_agricole_b3: "一次性推荐码 EGYYLFH",
+    parrainage_btn_credit_agricole: "🏛️ 开设我的 Crédit Agricole 账户",
+    parrainage_octopus_title: "🐙 Octopus Energy 推荐",
+    parrainage_octopus_text: "使用我的推荐链接加入 Octopus Energy，享受电费优惠。更绿色、更简单、更便宜的能源。",
+    octopus_b1: "电费享受欢迎优惠",
+    octopus_b2: "100% 可再生能源和公平的价格",
+    octopus_b3: "响应迅速的客户服务，无承诺",
+    parrainage_btn_octopus: "🐙 加入 Octopus Energy",
+    parrainage_step1_title: "点击链接",
+    parrainage_step1_text: "您将被重定向到官方注册页面（Boursorama、Starlink、Vinted、Crédit Agricole 或 Octopus Energy），并且已经集成了我的推荐码。",
+    parrainage_step2_title: "您的信息已预填",
+    parrainage_step2_text: "我的推荐信息会自动填写。您只需填写您的信息即可。",
+    parrainage_step3_title: "验证您的注册",
+    parrainage_step3_text: "在几分钟内完成您的开户、订阅或注册，并享受优惠。",
+    parrainage_step4_title: "双赢",
+    parrainage_step4_text: "您获得欢迎优惠，我也获得。真正的双赢。",
+    parrainage_note_title: "ℹ️ 了解详情：",
+    parrainage_note_text: "推荐链接是 Boursorama、Starlink、Vinted、Crédit Agricole 和 Octopus Energy 的官方链接。开设 Boursorama 账户免费且无承诺。奖金和优惠受每项服务的条件约束。Crédit Agricole 代码 EGYYLFH 是一次性的。",
+
+    // === VINTED PAGE ===
+    my_vinted: "👕 我的 Vinted",
+    vinted_intro: "查找我的已验证销售、5 星评价以及 Vinted 上的可用产品。",
+    verified_reviews: "已验证的 Vinted 评价",
+    vinted_desc: "我在 Vinted 上是 limitless95。我提供严肃、展示良好的商品，并提供响应迅速的客户服务。",
+    view_vinted_profile: "👕 查看我的 Vinted 个人资料",
+
+    // === BEAUTY PAGE ===
+    beauty_title: "💅 美甲与美容 — SHAYNAILS",
+    beauty_sub: "优雅 · 呵护 · 在 Guignen 线下",
+    beauty_intro: "仅在 Guignen 线下提供服务。通过电话或 Instagram 预约。",
+    beauty_prices_title: "💶 价目表",
+    beauty_presentiel_note: "⚠️ 仅在 Guignen 线下提供服务 — 不进行在线销售。",
+    beauty_gallery_title: "✨ 客户作品",
+    beauty_video_title: "🎬 视频",
+    video_fallback: "您的浏览器不支持视频播放。",
+    beauty_book_title: "📅 预约服务",
+    beauty_book_text: "所有服务均在 Guignen 线下进行。<br>通过电话或 Instagram 预约。",
+    click_photo_zoom: "💡 点击照片放大",
+
+    // === CYBERSECURITY PAGE ===
+    cyber_title: "🛡️ 网络安全防范",
+    cyber_subtitle: "法国的计算机攻击",
+    cyber_intro: "网络钓鱼、数据盗窃、欺诈访问和身份盗窃：了解风险有助于更好地保护您的账户、设备和个人信息。",
+    cyber_intro_2: "防范结合了谨慎的习惯、适当的技术保护以及在事件发生时快速反应。",
+    prevention_themes: "📋 防范主题",
+    cyber_step1: "🔑 第 1 步 — 保存的密码",
+    cyber_step2: "🎣 第 2 步 — 社会工程与网络钓鱼",
+    cyber_step3: "💻 第 3 步 — 针对密码的攻击",
+    cyber_step4: "🗝️ 第 4 步 — 钥匙照片与物理安全",
+    cyber_step5: "👤 第 5 步 — 个人信息",
+    cyber_step6: "⚖️ 第 6 步 — 法国法律与黑客行为",
+    cyber_step7: "📨 第 7 步 — 网络钓鱼、欺诈与身份",
+    cyber_step8: "🗂️ 第 8 步 — 个人数据与 GDPR",
+    cyber_step9: "✅ 第 9 步 — 授权的安全测试",
+    cyber_step10: "🚨 第 10 步 — 发生事件时该怎么办？",
+    cyber_conclusion: "🏁 总体结论",
+    cyber_s1_title: "🔑 第 1 步 — 保存的密码：舒适、保护与警惕",
+    cyber_s1_p1: "将密码保存在文本文件、未受保护的笔记或共享文档中，如果文件被盗或设备被入侵，就会暴露您的账户。",
+    cyber_s2_title: "🎣 第 2 步 — 社会工程与网络钓鱼：您可能是目标",
+    cyber_s2_p1: "网络钓鱼是一种技术，包括冒充受信任的人或组织，以获取信息、付款或冒险行动。",
+    cyber_s3_title: "💻 第 3 步 — 针对密码的攻击",
+    cyber_s3_p1: "猜测或重用密码的尝试有多种形式，并非所有形式都以相同方式起作用。",
+    cyber_s4_title: "🗝️ 第 4 步 — 钥匙照片与物理安全",
+    cyber_s4_p1: "发布房屋、车库或车辆钥匙的详细照片可能会泄露对恶意人员有用的特征。",
+    cyber_s5_title: "👤 第 5 步 — 个人信息与隐私",
+    cyber_s5_p1: "避免使用基于容易找到或猜测的细节的密码。",
+    cyber_s6_title: "⚖️ 第 6 步 — 法国法律：欺诈访问、黑客行为与制裁",
+    cyber_s6_p1: "在法国，对自动化数据处理系统 (STAD) 的攻击主要由《刑法》第 323-1 条及后续条款规定。",
+    cyber_s7_title: "📨 第 7 步 — 网络钓鱼、欺诈与身份盗窃",
+    cyber_s7_p1: "网络钓鱼描述了一种方法，本身并不构成犯罪的最终定性。",
+    cyber_s8_title: "🗂️ 第 8 步 — 个人数据、GDPR 与安全义务",
+    cyber_s8_p1: "处理个人数据的组织必须特别实施适当的安全措施。",
+    cyber_s9_title: "✅ 第 9 步 — 审计与安全测试：获得明确授权",
+    cyber_s9_p1: "审计、渗透测试或漏洞搜索必须在授权的框架内进行。",
+    cyber_s10_title: "🚨 第 10 步 — 如果账户或设备被入侵怎么办？",
+    cyber_s10_p1: "从健康的设备更改相关密码以及被重用的密码。",
+    cyber_conclusion_title: "🏁 总体结论",
+    cyber_conclusion_p1: "网络犯罪分子可以利用技术漏洞，也可以利用信任、习惯和在线共享的信息。",
+
+    // === LEGAL & SECURITY AUDIT ===
+    legal_notice: "⚖️ 法律声明与安全",
+    legal_info: "1. 法律信息",
+    legal_company: "公司名称：",
+    legal_status: "状态：",
+    legal_address: "地址：",
+    legal_hosting: "2. 网站托管",
+    legal_ip: "3. 知识产权",
+    legal_ip_p1: "网站的所有内容（文本、图像、设计、徽标、结构）均为 GUILLET IV 的专有财产。",
+    legal_ip_p2: "严禁未经授权复制、分发或利用。",
+    legal_data_title: "4. 个人数据",
+    legal_data_p1: "收集的数据（姓名、电子邮件、地址、电话）仅用于订单处理和客户支持。",
+    legal_data_p2: "在法国或其他地方，任何个人数据均不会传输、出售、共享或传达给公司、平台、第三方服务或国家机构。",
+    legal_data_p3: "根据 GDPR，您可以随时通过以下方式请求删除或修改您的数据：lanceglorieuse@gmail.com。",
+    legal_cookies_title: "5. Cookie",
+    legal_cookies_p1: "网站可能会使用技术性 Cookie 来改善用户体验（购物车、显示偏好）。",
+    legal_cookies_p2: "未使用广告 Cookie。",
+    legal_liability_title: "6. 责任",
+    legal_liability_p1: "除非有直接过错的证据，否则 GUILLET IV 不对与使用网站或产品相关的损害承担责任。",
+    legal_disputes_title: "7. 争议",
+    legal_disputes_p1: "如果发生争议，将优先寻求友好解决方案。",
+    legal_disputes_p2: "否则，法国法院将具有管辖权。",
+    security_audit_title: "🛡️ 技术安全审计 (Nmap & curl)",
+    security_audit_subtitle: "🔐 Shop de Légende 网站的安全性",
+    security_audit_p1: "Shop de Légende 严格监控访客和客户的安全。网站应用了先进、严格且不可绕过的保护措施，以保证可靠的导航、安全的支付和完全的机密性。",
+    security_audit_p2: "使用 Nmap 和 curl 进行的深入技术分析证实，网站没有缺陷、没有危险元素、没有数据暴露，并且检测到的所有机制都是正常和预期的保护措施。",
+    security_audit_p3: "👉 没有风险，没有威胁，没有异常。",
+    security_audit_1_title: "🔒 安全连接 (HTTPS / TLS 1.3)",
+    security_audit_1_p1: "网站使用最严格的安全标准：",
+    security_audit_1_l1: "完整数据加密",
+    security_audit_1_l2: "防拦截保护",
+    security_audit_1_l3: "自动重定向到 HTTPS",
+    security_audit_1_l4: "TLS 1.3 协议，国际银行标准",
+    security_audit_1_footer: "👉 Nmap 确认端口 443 已打开、安全且不存在漏洞。",
+    security_audit_2_title: "🛡️ 针对攻击的高级保护 (CSP)",
+    security_audit_2_p1: "网站的 Content Security Policy 阻止：",
+    security_audit_2_l1: "恶意脚本",
+    security_audit_2_l2: "代码注入",
+    security_audit_2_l3: "未经授权的资源",
+    security_audit_2_l4: "黑客尝试",
+    security_audit_2_footer: "👉 Nmap 的 http-headers 扫描确认了完整、严格且锁定的 CSP。未检测到危险行为。",
+    security_audit_3_title: "🧱 反欺诈与反点击劫持",
+    security_audit_3_footer: "👉 主动保护，不可绕过，防止任何界面劫持尝试。",
+    security_audit_4_title: "🔐 使用 Stripe 的安全支付",
+    security_audit_4_p1: "支付由认证银行解决方案 Stripe 处理：",
+    security_audit_4_l1: "PCI-DSS 合规",
+    security_audit_4_l2: "完整加密",
+    security_audit_4_l3: "不保留银行数据",
+    security_audit_4_l4: "卡从不存储在网站上",
+    security_audit_4_footer: "👉 Nmap 确认 Stripe 端点安全、有效且无风险。",
+    security_audit_5_title: "🧭 增强隐私",
+    security_audit_5_p1: "网站应用严格政策：",
+    security_audit_5_l1: "Referrer Policy: <code>strict-origin-when-cross-origin</code>",
+    security_audit_5_l2: "Permissions Policy: 无摄像头、无麦克风、无地理定位",
+    security_audit_5_l3: "X-Content-Type-Options: <code>nosniff</code>",
+    security_audit_5_l4: "Cross-Origin-Opener-Policy: <code>same-origin</code>",
+    security_audit_5_l5: "Cross-Origin-Embedder-Policy: <code>credentialless</code>",
+    security_audit_5_l6: "Cross-Origin-Resource-Policy: <code>same-origin</code>",
+    security_audit_5_footer: "👉 这些保护措施是积极的、严格的，并且对访客没有负面影响。",
+    security_audit_6_title: "🌍 防止外部网站访问 (CORS)",
+    security_audit_6_p1: "网站仅允许其自己的域名：",
+    security_audit_6_footer: "👉 无泄露，无未经授权的外部访问。",
+    security_audit_7_title: "🧪 Vercel 上的安全托管",
+    security_audit_7_p1: "网站受益于 Vercel 的保护：",
+    security_audit_7_l1: "增强的安全性",
+    security_audit_7_l2: "自动更新",
+    security_audit_7_l3: "DDoS 保护",
+    security_audit_7_l4: "可靠的全球基础设施",
+    security_audit_7_l5: "活跃的反机器人系统",
+    security_audit_7_footer: "👉 Nmap 检测到：X-Vercel-Challenge-Token、X-Vercel-Mitigated: challenge、Vercel Security Checkpoint。这些机制是正常的、自动的，并且从不涉及人类访客。",
+    security_audit_8_title: "🛠️ 持续监控与维护",
+    security_audit_8_p1: "网站受到以下约束：",
+    security_audit_8_l1: "定期审计",
+    security_audit_8_l2: "技术更新",
+    security_audit_8_l3: "SSL 检查",
+    security_audit_8_l4: "反攻击测试",
+    security_audit_8_footer: "👉 分析证实了持续、积极的安全，没有缺陷。",
+    security_audit_9_title: "📡 技术验证 (Nmap & curl)",
+    security_audit_9_p1: "外部分析显示：",
+    security_audit_9_l1: "没有缺陷",
+    security_audit_9_l2: "没有危险方法",
+    security_audit_9_l3: "没有不必要的端口",
+    security_audit_9_l4: "没有信息泄露",
+    security_audit_9_l5: "没有暴露的服务",
+    security_audit_9_l6: "没有异常行为",
+    security_audit_9_l7: "对访客没有风险",
+    security_audit_9_nmap1_title: "✔️ Nmap — http-headers",
+    security_audit_9_nmap1_text: "检测到的标头：完整的 CSP、活动的 HSTS、X-Frame-Options、Permissions-Policy、Referrer-Policy、X-Content-Type-Options、严格的 CORS、Vercel 保护。",
+    security_audit_9_nmap1_footer: "👉 所有这些元素都是保护措施。没有危险。",
+    security_audit_9_nmap2_title: "✔️ Nmap — http-methods",
+    security_audit_9_nmap2_text: "GET, HEAD, POST, OPTIONS",
+    security_audit_9_nmap2_footer: "👉 没有危险方法。",
+    security_audit_9_nmap3_title: "✔️ Nmap — http-title",
+    security_audit_9_nmap3_text: "Site doesn't have a title (text/plain)",
+    security_audit_9_nmap3_footer: "👉 正常的技术响应。对访客没有影响。",
+    security_audit_9_nmap4_title: "✔️ Nmap — http-security-headers",
+    security_audit_9_nmap4_text: "Nmap 确认：HSTS、严格的 CSP、X-Frame-Options、X-Content-Type-Options、安全的 Cache-Control。",
+    security_audit_9_nmap4_footer: "👉 符合 OWASP 标准的安全性。",
+    security_audit_9_nmap5_title: "✔️ Nmap — http-server-header",
+    security_audit_9_nmap5_text: "Server: Vercel",
+    security_audit_9_nmap5_footer: "👉 正常且安全。",
+    security_audit_9_nmap6_title: "✔️ Nmap — fingerprint",
+    security_audit_9_nmap6_text: "400 Bad Request · 404 Not Found · DEPLOYMENT_NOT_FOUND",
+    security_audit_9_nmap6_footer: "👉 Vercel 对异常请求的内部响应。没有危险。",
+    security_audit_9_nmap7_title: "✔️ Nmap — http-enum",
+    security_audit_9_nmap7_text: "443/tcp open https",
+    security_audit_9_nmap7_footer: "👉 没有敏感资源、没有隐藏页面、没有暴露的服务。",
+    security_audit_9_curl_title: "✔️ Curl 结果",
+    security_audit_9_curl_text: "Curl 仅显示：保护措施、安全标头、反机器人机制。",
+    security_audit_9_curl_footer: "👉 没有异常，没有缺陷，没有风险。",
+    security_conclusion_title: "🟢 坚定结论",
+    security_conclusion_p1: "Nmap 和 curl 分析证明：",
+    security_conclusion_l1: "网站是安全的",
+    security_conclusion_l2: "保护措施是积极的",
+    security_conclusion_l3: "不存在任何缺陷",
+    security_conclusion_l4: "未检测到任何危险元素",
+    security_conclusion_l5: "没有任何东西影响访客",
+    security_conclusion_l6: "配置是专业的、严格的且合规的",
+    security_conclusion_final: "👉 Shop de Légende 是一个高度安全、可靠且受保护的网站。",
+    security_engagement_title: "安全承诺",
+    security_engagement_p1: "作为一名<strong>专业渗透测试员</strong>，我掌握安全漏洞和攻击机制。该网站的设计、开发和审计要求与银行环境相同。",
+    security_engagement_p2: "如果您是安全研究人员、开发人员或好奇的用户，并且检测到异常、漏洞或可疑行为，请<strong>立即联系我</strong>：",
+    security_engagement_phone: "<strong>电话：</strong> <a href=\"tel:0780204749\">07.80.20.47.49</a>",
+    security_engagement_email: "<strong>电子邮件：</strong> <a href=\"mailto:lanceglorieuse@gmail.com\">lanceglorieuse@gmail.com</a>",
+    security_engagement_thanks: "提前感谢您的警惕和对本网站安全的贡献。🙏",
+
+    // === CGV ===
+    terms_sale: "📄 销售条款 – GUILLET IV",
+    cgv_object: "1. 目的",
+    cgv_object_text1: "本销售条款规范 GUILLET IV 商店提供的产品销售。",
+    cgv_object_text2: "任何订单均意味着完全接受本条款。",
+    cgv_products: "2. 产品",
+    cgv_products_text1: "所提供的产品描述尽可能精确。",
+    cgv_products_text2: "照片不具合同效力。",
+    cgv_products_text3: "每个产品页面上均标明了可用性。",
+    cgv_price: "3. 价格",
+    cgv_price_text1: "价格以欧元 (€) 表示，含所有税费 (TTC)。",
+    cgv_price_text2: "卖家保留随时修改价格的权利，但产品将按订单验证时生效的价格计费。",
+    cgv_order: "4. 订单",
+    cgv_order_text1: "客户选择他们希望购买的产品，验证购物车，然后进行付款。",
+    cgv_order_text2: "订单确认将通过电子邮件发送。",
+    cgv_order_text3: "如果出现付款问题或先前发生争议，卖家保留拒绝订单的权利。",
+    cgv_payment: "5. 付款",
+    cgv_payment_text1: "通过 <a href=\"https://stripe.com/fr\" target=\"_blank\" rel=\"noopener\">Stripe</a> 或 <a href=\"https://www.vinted.fr\" target=\"_blank\" rel=\"noopener\">Vinted</a> 提供的选项进行安全付款。",
+    cgv_payment_text2: "GUILLET IV 从不保留银行数据。",
+    cgv_delivery: "6. 配送",
+    cgv_delivery_text1: "产品根据其可用性快速发货。",
+    cgv_delivery_text2: "指示性时间：2 至 5 个工作日。",
+    cgv_delivery_text3: "服务区域：法国本土。",
+    cgv_delivery_text4: "在可用时可以提供追踪号码。",
+    cgv_delivery_text5: "如果发生延迟或丢失，客户必须联系卖家寻求帮助。",
+    cgv_retractation: "7. 撤销权（14 天）",
+    cgv_retractation_text1: "根据<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842/\" target=\"_blank\" rel=\"noopener\">《消费者法典》第 L221-18 条</a>，客户有 14 天的时间行使撤销权，无需说明理由。",
+    cgv_retractation_text2: "产品必须以其原始状态退回。",
+    cgv_retractation_text3: "根据<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226830/2016-08-10\" target=\"_blank\" rel=\"noopener\">《消费者法典》第 L221-23 条</a>，直接退货费用由客户承担，除非是卖家的错误。",
+    cgv_retractation_text4: "根据<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226828/2024-11-16\" target=\"_blank\" rel=\"noopener\">《消费者法典》第 L221-24 条</a>，退款将在通知撤销后最多 14 天内完成，最迟在收回产品或证明其已发货后完成。",
+    cgv_return: "8. 退货与退款",
+    cgv_return_text1: "退货必须发送至卖家提供的地址。",
+    cgv_return_text2: "退款遵循 Vinted 或 Stripe 规则，具体取决于购买方式。",
+    cgv_return_text3: "对于客户损坏的产品，不予退款。",
+    cgv_legal_warranties: "9. 法定保证",
+    cgv_legal_warranties_text: "卖家适用<a href=\"https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565\" target=\"_blank\" rel=\"noopener\">《消费者法典》</a>和<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441924/1976-01-01\" target=\"_blank\" rel=\"noopener\">《民法典》</a>规定的强制性法定保证。",
+    cgv_conformity: "10. 法定保证",
+    cgv_conformity_text1: "<strong>法定合规保证（2 年）：</strong>根据<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044142579\" target=\"_blank\" rel=\"noopener\">《消费者法典》第 L217-3 条及后续条款</a>，客户享有涵盖交货时存在的合规缺陷的保证。",
+    cgv_conformity_text2: "<strong>隐藏缺陷保证：</strong>根据<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441924/1976-01-01\" target=\"_blank\" rel=\"noopener\">《民法典》第 1641 条</a>，卖家必须保证使产品不适合其预期用途或大大降低这种用途的隐藏缺陷。",
+    cgv_conformity_text3: "<strong>可能的商业保证：</strong>如果 GUILLET IV 提供商业保证，其条件、期限、范围和实施将在产品页面或随产品提供的文件中说明。",
+    cgv_conformity_exclude_title: "法定保证不包括：",
+    cgv_conformity_exclude1: "正常磨损；",
+    cgv_conformity_exclude2: "因误用造成的损坏；",
+    cgv_conformity_exclude3: "产品修改。",
+    cgv_data: "11. 个人数据 (GDPR)",
+    cgv_data_text1: "收集的数据（姓名、电子邮件、地址、电话）仅用于订单处理和客户支持，符合<a href=\"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679\" target=\"_blank\" rel=\"noopener\">GDPR</a>。",
+    cgv_data_text2: "数据不出售或共享。",
+    cgv_data_text3: "客户可以通过 <a href=\"mailto:lanceglorieuse@gmail.com\">lanceglorieuse@gmail.com</a> 请求访问、更正、可携带性或删除其数据。",
+    cgv_liability: "12. 责任",
+    cgv_liability_text1: "卖家仅对与缺陷产品相关的直接损害负责。",
+    cgv_liability_text2: "他们不对间接损害（数据丢失、经济损失等）负责。",
+    cgv_service: "13. 客户服务",
+    cgv_service_text: "如有任何问题：<a href=\"mailto:lanceglorieuse@gmail.com\">lanceglorieuse@gmail.com</a> — 48 小时内回复。",
+    cgv_mediation: "14. 调解",
+    cgv_mediation_text1: "如果发生争议，将优先寻求友好解决方案。",
+    cgv_mediation_text2: "如果未达成协议，客户可以通过 <a href=\"https://www.economie.gouv.fr/mediation-conso\" target=\"_blank\" rel=\"noopener\">economie.gouv.fr/mediation-conso</a> 免费联系消费者调解员。",
+    cgv_law: "15. 适用法律",
+    cgv_law_text1: "本条款受法国法律管辖。",
+    cgv_law_text2: "如果发生争议，法国法院将具有管辖权，并遵守适用于消费者的管辖权规则。",
+
+    // === PRIVACY ===
+    privacy_title: "📄 隐私政策 (GDPR)",
+    privacy_intro: "保护您的个人数据是我们的首要任务。本政策说明了收集了哪些数据、为什么收集、如何保护以及如何行使您的权利。",
+    privacy_s1_title: "1. 收集的数据",
+    privacy_s1_intro: "我们仅收集网站运营和订单处理所必需的数据：",
+    privacy_s1_l1: "姓氏、名字",
+    privacy_s1_l2: "邮政地址",
+    privacy_s1_l3: "电子邮件",
+    privacy_s1_l4: "电话号码",
+    privacy_s1_l5: "订单信息",
+    privacy_s1_l6: "IP 地址（安全和欺诈预防）",
+    privacy_s1_note: "不收集敏感数据。",
+    privacy_s2_title: "2. 处理目的",
+    privacy_s2_intro: "您的数据用于：",
+    privacy_s2_l1: "处理和运送您的订单",
+    privacy_s2_l2: "提供客户支持",
+    privacy_s2_l3: "管理您的客户账户",
+    privacy_s2_l4: "保护网站安全并防止欺诈",
+    privacy_s2_l5: "遵守法律义务（开具发票）",
+    privacy_s3_title: "3. 法律依据",
+    privacy_s3_intro: "处理基于：",
+    privacy_s3_l1: "履行合同（订单）",
+    privacy_s3_l2: "合法利益（安全、反欺诈）",
+    privacy_s3_l3: "同意（非必要 Cookie）",
+    privacy_s4_title: "4. 处理者",
+    privacy_s4_intro: "为确保网站运营，某些提供商可能会处理您的数据：",
+    privacy_s4_l1: "Vercel（网站托管）",
+    privacy_s4_l2: "Stripe / PayPal（安全支付）",
+    privacy_s4_l3: "电子邮件服务（订单确认）",
+    privacy_s4_note: "这些提供商遵守 GDPR 或具有同等的保证。",
+    privacy_s5_title: "5. 保留期限",
+    privacy_s5_l1: "处理和开具订单发票所需的数据：10 年，根据<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006316689/\" target=\"_blank\" rel=\"noopener\">《商法典》第 L123-22 条</a>。",
+    privacy_s5_l2: "不活跃客户数据：3 年",
+    privacy_s5_l3: "技术性 Cookie：13 个月",
+    privacy_s6_title: "6. 您的权利",
+    privacy_s6_intro: "根据 GDPR，您拥有以下权利：",
+    privacy_s6_l1: "访问您的数据",
+    privacy_s6_l2: "更正",
+    privacy_s6_l3: "删除",
+    privacy_s6_l4: "反对",
+    privacy_s6_l5: "可携带性",
+    privacy_s6_contact: "行使您的权利：lanceglorieuse@gmail.com",
+    privacy_s7_title: "7. Cookie",
+    privacy_s7_intro: "网站仅使用：",
+    privacy_s7_l1: "技术性 Cookie（购物车、会话、安全）",
+    privacy_s7_note: "未使用广告或营销跟踪 Cookie。首次访问时可能会出现信息横幅。",
+    privacy_s8_title: "8. 安全",
+    privacy_s8_intro: "我们采取严格措施保护您的数据：",
+    privacy_s8_l1: "HTTPS / TLS 1.3 加密",
+    privacy_s8_l2: "反机器人保护",
+    privacy_s8_l3: "高级安全标头（CSP、HSTS、X-Frame-Options 等）",
+    privacy_s8_l4: "安全的 Vercel 基础设施",
+    privacy_s8_l5: "通过 Stripe 进行 PCI-DSS 认证的支付",
+    privacy_s8_note: "网站上不存储任何银行数据。",
+    privacy_s9_title: "9. 欧盟以外的传输",
+    privacy_s9_text: "Vercel 托管可能涉及欧盟以外的处理。这些传输受符合 GDPR 的保证框架约束。",
+    privacy_s10_title: "10. 联系方式",
+    privacy_s10_text: "有关您的个人数据的任何问题：",
+    privacy_s11_title: "11. 法律参考和投诉",
+    privacy_s11_text1: "本政策根据<a href=\"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679\" target=\"_blank\" rel=\"noopener\">《通用数据保护条例》(GDPR)</a>和<a href=\"https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031701594\" target=\"_blank\" rel=\"noopener\">《数据保护法》</a>制定。",
+    privacy_s11_text2: "开具发票所需的数据保留 10 年，根据<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006316689/\" target=\"_blank\" rel=\"noopener\">《商法典》第 L123-22 条</a>。",
+    privacy_s11_text3: "您可以向 <a href=\"https://www.cnil.fr/fr/plaintes\" target=\"_blank\" rel=\"noopener\">CNIL</a> 提出投诉。",
+
+    // === FAQ ===
+    faq_title: "❓ 常见问题",
+    faq_delivery: "📦 配送",
+    faq_ship_time: "发货时间是多久？",
+    faq_ship_time_text: "商品发货迅速，通常根据其可用性在 24 到 48 小时内发货。",
+    faq_delivery_time: "交货时间是多久？",
+    faq_delivery_time_text: "根据承运人和交货区域的不同，发货后平均需要 2 到 5 个工作日送达。",
+    faq_zones: "提供哪些区域的配送？",
+    faq_zones_text: "通过 Vinted 或可用承运人提供的选项，在法国本土提供配送服务。",
+    faq_tracking: "如何追踪我的包裹？",
+    faq_tracking_text: "发货时会提供追踪号码（如果有）。您可以直接通过承运人的网站或通过 Vinted 追踪您的包裹。",
+    faq_delay_lost: "如果发生延迟或包裹丢失怎么办？",
+    faq_delay_lost_text: "联系 GUILLET IV 客户服务。将与承运人展开调查。",
+    faq_payment: "🔒 安全支付",
+    faq_payment_q: "付款如何进行？",
+    faq_payment_text: "所有交易均通过 Vinted 或 Stripe 安全进行。",
+    faq_bank_protection: "我的银行数据受到保护吗？",
+    faq_bank_protection_text: "是的。GUILLET IV 从不存储您的银行数据。处理完全由安全的支付平台管理。",
+    faq_payment_methods: "接受哪些付款方式？",
+    faq_payment_methods_intro: "取决于平台：",
+    faq_payment_card: "信用卡",
+    faq_payment_apple_google: "Apple Pay / Google Pay (Stripe)",
+    faq_payment_vinted: "集成 Vinted 支付",
+    faq_refund: "🔁 退货与退款",
+    faq_return_q: "我可以退货吗？",
+    faq_return_text: "是的。根据<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842/\" target=\"_blank\" rel=\"noopener\">《消费者法典》第 L221-18 条</a>，您有 14 天的时间要求退货。",
+    faq_how_return: "如何退货？",
+    faq_how_return_text: "联系卖家以获取说明和退货地址。产品必须以其原始状态退回。",
+    faq_return_fees: "退货运费由我承担吗？",
+    faq_return_fees_text: "根据<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226830/2016-08-10\" target=\"_blank\" rel=\"noopener\">《消费者法典》第 L221-23 条</a>，退货运费由客户承担，除非是卖家错误或产品有缺陷。",
+    faq_refund_q: "退款如何进行？",
+    faq_refund_text: "退款根据 Vinted 规则或由卖家直接处理。根据<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226828/2024-11-16\" target=\"_blank\" rel=\"noopener\">《消费者法典》第 L221-24 条</a>，退款在通知撤销后最多 14 天内进行，最迟在收回产品或证明其已发货后进行。",
+    faq_refund_refused_q: "在什么情况下可以拒绝退款？",
+    faq_refund_refused_1: "客户损坏的产品",
+    faq_refund_refused_2: "不完整的产品",
+    faq_refund_refused_3: "使用过或修改过的产品",
+    faq_warranty: "🛡️ 保修",
+    faq_warranty_q: "24 个月保修涵盖哪些内容？",
+    faq_warranty_text: "商业保修涵盖非用户造成的制造缺陷和故障。",
+    faq_legal_warranty_q: "法定保证有哪些？",
+    faq_legal_warranty_intro: "所有产品自动享有：",
+    faq_legal_warranty_1: "<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044142579\" target=\"_blank\" rel=\"noopener\">2 年法定合规保证</a>，",
+    faq_legal_warranty_2: "<a href=\"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441924/1976-01-01\" target=\"_blank\" rel=\"noopener\">隐藏缺陷保证</a>。",
+    faq_not_covered_q: "哪些不在保修范围内？",
+    faq_not_covered_1: "正常磨损",
+    faq_not_covered_2: "因误用造成的损坏",
+    faq_not_covered_3: "撞击、液体、疏忽",
+    faq_not_covered_4: "未经授权的修改或维修",
+    faq_claim_warranty_q: "如何申请保修？",
+    faq_claim_warranty_intro: "联系客户服务并提供：",
+    faq_claim_warranty_1: "您的订单号，",
+    faq_claim_warranty_2: "问题描述，",
+    faq_claim_warranty_3: "缺陷的照片或视频。",
+    faq_service: "📞 客户服务",
+    faq_contact_q: "如何联系 GUILLET IV？",
+    faq_contact_text: "📧 电子邮件：lanceglorieuse@gmail.com — 48 小时内回复。",
+
+    // === CONTACT ===
+    contact_title: "✉️ 联系我们",
+    contact_intro: "有疑问？有项目？请随时给我们写信。",
+    phone: "电话",
+    location: "位置",
+    france_ille: "法国，伊勒-维莱讷省",
+    hours: "营业时间",
+    your_name: "您的名字",
+    your_email: "您的电子邮件地址",
+    your_message: "您的留言...",
+    send_message: "发送消息",
+    message_prepared: "您的消息已准备好。您现在可以通过电子邮件应用程序发送它。",
+    footer_location: "📍 伊勒-维莱讷省 · 🕒 上午 9 点 – 晚上 8 点",
+    footer_payment: "🔒 安全支付 — 🚚 快速配送",
+    copyright: "© 2026 GUILLET IV — 独立秩序",
+    follow_tiktok: "🎵 在 TikTok 上关注我们",
+    back_top: "返回顶部",
+    open_chat: "打开咨询聊天",
+    advice_chat: "🤖 GUILLET IV 咨询",
+    ask_question: "问我一个问题...",
+
+    // === PREVENTION HARASSMENT ===
+    prevention_harassment: "🛡️ 骚扰防范",
+    harassment_is_crime: "骚扰是一种犯罪。它摧毁生命。",
+    harassment_intro_2: "无论是身体上、心理上还是虚拟的，法国法律都会严厉惩罚肇事者。",
+    harassment_intro_3: "以下是单独或团伙作案所面临的刑罚。",
+    moral_harassment: "💻 精神骚扰",
+    school_harassment: "🎓 校园骚扰",
+    sexual_harassment: "🤬 性骚扰",
+    organized_group: "🚨 团伙作案",
+    where_help: "📞 去哪里寻求帮助？",
+    moral_harassment_desc: "反复贬低生活条件的言语或行为，导致身心健康受损。",
+    basic_penalty: "基本刑罚",
+    aggravating_simple: "简单加重情节",
+    two_aggravating: "两个累积加重情节",
+    up_to_10_years: "最高 10 年 + 300,000 €",
+    organized_group_desc: "如果确立了骚扰的集体性质，每个参与者都可能被起诉，即使只发了一条消息。",
+    school_harassment_desc: "学生或教职员工对同一学校的学生实施的精神骚扰。",
+    itt_over_8: "ITT > 8 天",
+    victim_suicide: "如果受害者自杀或企图自杀",
+    school_harassment_note: "即使在学业结束后，事实仍然应受惩罚。",
+    sexual_harassment_desc: "反复带有性意味或性别歧视的言语或行为，损害尊严或造成恐吓、敌意或冒犯性的环境。",
+    organized_group_law: "🚨 团伙作案：法律如何规定",
+    collective_responsibility: "⚖️ 集体责任",
+    collective_desc: "在线或团体骚扰是加重情节。即使您只发了一条消息、点赞或分享了骚扰内容，您也可能被起诉。",
+    online_moral_harassment: "在线精神骚扰",
+    sexual_harassment_multiple: "多人性骚扰",
+    multiple_aggravating: "具有多个加重情节的骚扰",
+    law_punishes_each: "法律惩罚每个参与者，而不仅仅是头目。",
+    dont_stay_alone: "⚠️ 不要独自承受。说出来。",
+    call_3018: "📞 3018 — 免费、匿名电话，每周 7 天（上午 9 点至晚上 11 点）",
+    report_17cyber: "🌐 17Cyber.gouv.fr — 在线报告",
+    report_17cyber_btn: "🚨 在 17Cyber 上报告",
+    call_3018_btn: "📞 拨打 3018",
+    prevention_footer_note: "信息来自法国刑法典 (Légifrance)。最后更新：2026 年。",
+
+    // === CHATBOT ===
+    chat_hello: "👋 您好，欢迎来到 <strong>GUILLET IV</strong>！",
+    chat_prompt: "问我一个问题：",
+    chat_unknown: "我不确定我明白了 🤔",
+    chat_menu_title: "以下是网站的所有部分：",
+    chat_parrainage_reply: "🤝 使用我的推荐链接开设 Boursorama 账户、订阅 Starlink、在 Vinted、Crédit Agricole 或 Octopus Energy 上注册：信息会自动预填！",
+    chat_contact_reply: "📞 我们的服务时间为上午 9 点至晚上 8 点，电话 <strong>07.80.20.47.49</strong>。",
+    chat_delivery_reply: "🚚 配送<strong>快速且安全</strong>。",
+    chat_drone_reply: "🎥 <strong>KY108 无人机</strong>（89€）。",
+    chat_proj_reply: "💡 <strong>太阳能 LED 投影仪</strong>（35€）。",
+    chat_endo_reply: "🔍 <strong>内窥镜</strong>（95€）。",
+    chat_beauty_reply: "💅 <strong>美甲与美容</strong>部分。",
+    chat_price_reply: "💰 无人机：89€ • 投影仪：35€ • 冬季套装：99.99€ • 内窥镜：95€ • 高级安全套装：350€",
+    chat_thanks_reply: "不客气！🙏",
+    chat_btn_home: "🏠 首页",
+    chat_btn_shop: "🛒 商店",
+    chat_btn_vinted: "👕 Vinted",
+    chat_btn_beauty: "💅 美甲与美容",
+    chat_btn_parrainage: "🤝 推荐",
+    chat_btn_about: "📜 关于",
+    chat_btn_contact: "✉️ 联系方式",
+    chat_btn_faq: "❓ 常见问题",
+    chat_btn_cyber: "🛡️ 网络安全",
+    chat_btn_harass: "🚨 骚扰",
+    chat_btn_see: "查看",
+    chat_btn_see_section: "查看部分",
+    chat_btn_all_pages: "📋 查看所有页面",
+    chat_btn_prices: "💶 查看价格",
+    chat_btn_contact_me: "📞 联系您",
+    chat_btn_delivery: "🚚 配送",
+    chat_btn_menu: "📋 页面菜单"
+  }
+};
+
+(function(){
+  "use strict";
+
+  var ORI_TEXT = new WeakMap(); var ORI_ATTR = new WeakMap(); var ORI_HTML = new WeakMap(); var CURRENT_LANG = "fr";
+  function getDict(lang){ return lang === "fr" ? null : (window.TRANSLATIONS[lang] || null); }
+  window.__getDict = function(){ return getDict(CURRENT_LANG); };
+
+  function trNode(node, dict){
+    if (!ORI_TEXT.has(node)) ORI_TEXT.set(node, node.nodeValue);
+    var original = ORI_TEXT.get(node); if (!original || !original.trim()) return;
+    if (CURRENT_LANG === "fr") { node.nodeValue = original; return; }
+    var p = node.parentElement;
+    if (p && p.dataset && p.dataset.i18n && dict && dict[p.dataset.i18n]) { node.nodeValue = dict[p.dataset.i18n]; return; }
+    var t = original.trim();
+    if (dict && Object.prototype.hasOwnProperty.call(dict, t)) {
+      var lead = original.match(/^\s*/)[0], trail = original.match(/\s*$/)[0];
+      node.nodeValue = lead + dict[t] + trail;
+    } else node.nodeValue = original;
+  }
+
+  function trTree(root, dict){
+    if (!root) return;
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode: function(node){
+        var p = node.parentElement; if (!p) return NodeFilter.FILTER_REJECT;
+        var tag = p.tagName; if (["SCRIPT","STYLE","NOSCRIPT","CODE","TEXTAREA"].indexOf(tag) !== -1) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var nodes = [], n; while ((n = walker.nextNode())) nodes.push(n);
+    nodes.forEach(function(node){ trNode(node, dict); });
+  }
+
+  function applyAll(){
+    var dict = getDict(CURRENT_LANG);
+    document.querySelectorAll("[data-i18n]").forEach(function(el){
+      var key = el.dataset.i18n;
+      if (!ORI_HTML.has(el)) ORI_HTML.set(el, el.innerHTML);
+      if (CURRENT_LANG === "fr") { el.innerHTML = ORI_HTML.get(el); }
+      else if (dict && dict[key]) { el.textContent = dict[key]; }
+      else { el.innerHTML = ORI_HTML.get(el); }
+    });
+    document.querySelectorAll("[data-i18n-placeholder]").forEach(function(el){
+      var key = el.dataset.i18nPlaceholder;
+      if (!ORI_ATTR.has(el)) ORI_ATTR.set(el, { ph: el.placeholder, aria: el.getAttribute("aria-label") });
+      var o = ORI_ATTR.get(el);
+      if (CURRENT_LANG === "fr") { el.placeholder = o.ph; }
+      else if (dict && dict[key]) { el.placeholder = dict[key]; }
+      else { el.placeholder = o.ph; }
+    });
+    document.querySelectorAll("[data-i18n-aria]").forEach(function(el){
+      var key = el.dataset.i18nAria;
+      if (!ORI_ATTR.has(el)) ORI_ATTR.set(el, { aria: el.getAttribute("aria-label") });
+      var o = ORI_ATTR.get(el);
+      if (CURRENT_LANG === "fr") { el.setAttribute("aria-label", o.aria); }
+      else if (dict && dict[key]) { el.setAttribute("aria-label", dict[key]); }
+      else { el.setAttribute("aria-label", o.aria); }
+    });
+    trTree(document.body, dict);
+  }
+  
+  window.reapplyLanguage = function(){ applyAll(); };
+  
+  window.applyLanguage = function(lang){
+    if (lang !== "fr" && !window.TRANSLATIONS[lang]) lang = "fr";
+    CURRENT_LANG = lang; document.documentElement.lang = lang;
+    if (typeof window.retranslateChat === "function") {
+      window.retranslateChat();
+    }
+    applyAll();
+    var sel = document.getElementById("langSelect"); if (sel) sel.value = lang;
+    try { localStorage.setItem("guillet_lang", lang); } catch(e){}
+  };
+  
+  window.changeLanguage = function(lang){ window.applyLanguage(lang); };
+
+  document.addEventListener("DOMContentLoaded", function(){
+    // 👉 CORRECTION ICI : On rebranche l'événement sur le menu déroulant
+    var sel = document.getElementById("langSelect");
+    if (sel) {
+      sel.addEventListener("change", function(e) {
+        window.changeLanguage(e.target.value);
+      });
+    }
+
+    var saved = "fr"; try { saved = localStorage.getItem("guillet_lang") || "fr"; } catch(e){}
+    if (!window.TRANSLATIONS[saved] && saved !== "fr") saved = "fr";
+    if (saved !== "fr") setTimeout(function(){ window.applyLanguage(saved); }, 150);
+  });
+})();
+
+(function(){
+  "use strict";
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    // ==========================================
+    // 1. NAVIGATION & UI GLOBALE
+    // ==========================================
+    window.navigateTo = function(p, a){
+      if (a === undefined) a = null;
+      document.querySelectorAll(".page-section").forEach(function(s){ s.classList.remove("active"); });
+      var t = document.getElementById("page-" + p); if (t) t.classList.add("active");
+      var newHash = "#" + p;
+      if (location.hash !== newHash) history.pushState(null, null, newHash);
+      document.querySelectorAll(".nav-link").forEach(function(l){ l.classList.remove("active-link"); if (l.getAttribute("href") === newHash) l.classList.add("active-link"); });
+      if (a) { setTimeout(function(){ var b = document.getElementById(a); if (b) b.scrollIntoView({ behavior: "smooth", block: "start" }); }, 100); }
+      else { window.scrollTo({ top: 0, behavior: "smooth" }); }
+      if (typeof window.reapplyLanguage === "function") setTimeout(window.reapplyLanguage, 120);
+    };
+
+    // Délégation d'événements pour la navigation et les interactions UI
+    document.body.addEventListener('click', (e) => {
+      const navLink = e.target.closest('[data-nav]');
+      if (navLink) {
+        e.preventDefault();
+        const target = navLink.getAttribute('data-nav');
+        const section = navLink.getAttribute('data-section');
+        window.navigateTo(target, section);
+      }
+      
+      const zoomImg = e.target.closest('[data-zoom]');
+      if (zoomImg) {
+        e.preventDefault();
+        window.ouvrirZoom(zoomImg.src);
+      }
+    });
+
+    // Gestion de l'accessibilité au clavier (Entrée sur les éléments role=button)
+    document.body.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        const navLink = e.target.closest('[data-nav]');
+        if (navLink) {
+          e.preventDefault();
+          window.navigateTo(navLink.getAttribute('data-nav'), navLink.getAttribute('data-section'));
+        }
+        const zoomImg = e.target.closest('[data-zoom]');
+        if (zoomImg) {
+          e.preventDefault();
+          window.ouvrirZoom(zoomImg.src);
+        }
+      }
+    });
+
+    const modeBtn = document.getElementById('themeToggleBtn');
+    if (modeBtn) {
+      modeBtn.addEventListener('click', () => {
+        document.body.classList.toggle("light-mode");
+        try { localStorage.setItem("guillet_mode", document.body.classList.contains("light-mode") ? "light" : "dark"); } catch(e){}
+      });
+    }
+
+    // ==========================================
+    // 2. RETOUR EN HAUT & SCROLL
+    // ==========================================
+    const topBtn = document.getElementById('top');
+    if (topBtn) {
+      topBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    }
+
+    window.actualiserBoutonHaut = function(){
+      var b = document.getElementById("top"); if (!b) return;
+      var w = window.scrollY > 200;
+      if (w) b.classList.add("visible");
+      else b.classList.remove("visible");
+    };
+    window.addEventListener("scroll", window.actualiserBoutonHaut, { passive: true });
+
+    // ==========================================
+    // 3. AUDIO & MUSIQUE
+    // ==========================================
+    var pl = document.getElementById("player"), ms = document.getElementById("musicSelect"), mms = document.getElementById("miniMusicSelect"), mpb = document.getElementById("miniPlayBtn"), vol = document.getElementById("volumeSlider");
+    var eq = document.getElementById("musicEq");
+    var v = (function(){ try { var v0 = parseFloat(localStorage.getItem("guillet_volume")); return (!isNaN(v0) && v0 >= 0 && v0 <= 1) ? v0 : 1; } catch(e){ return 1; } })();
+    
+    if (pl) pl.volume = v;
+    if (vol) vol.value = Math.round(v * 100);
+    if (ms && mms) { mms.innerHTML = ms.innerHTML; mms.value = ms.value; }
+
+    window.changerMusique = function(f){
+      try { localStorage.setItem("guillet_track", f); } catch(e){}
+      var p = !pl.paused && !pl.ended;
+      pl.src = "Musique/" + encodeURIComponent(f); pl.load();
+      if (ms) ms.value = f;
+      if (mms) mms.value = f;
+      pl.volume = v;
+      if (p) pl.play().catch(function(){});
+      updBtn();
+    };
+    
+    window.togglePlayMusique = function(){
+      if (pl.paused) pl.play().catch(function(){}); else pl.pause();
+      updBtn();
+    };
+
+    function updBtn(){
+      if (mpb) {
+        if (pl.paused) {
+          mpb.textContent = "▶";
+          mpb.classList.remove("playing");
+          if (eq) eq.classList.remove("visible");
+        } else {
+          mpb.textContent = "⏸";
+          mpb.classList.add("playing");
+          if (eq) eq.classList.add("visible");
+        }
+      }
+    }
+
+    if (mpb) mpb.addEventListener('click', window.togglePlayMusique);
+    if (ms) ms.addEventListener('change', (e) => window.changerMusique(e.target.value));
+    if (mms) mms.addEventListener('change', (e) => window.changerMusique(e.target.value));
+    
+    if (vol) vol.addEventListener("input", function(e){
+      v = e.target.value / 100; pl.volume = v;
+      try { localStorage.setItem("guillet_volume", String(v)); } catch(e2){}
+    });
+    if (pl) {
+      pl.addEventListener("volumechange", function(){ if (vol) vol.value = Math.round(pl.volume * 100); });
+      pl.addEventListener("play", updBtn);
+      pl.addEventListener("pause", updBtn);
+      pl.addEventListener("ended", updBtn);
+    }
+    updBtn();
+
+    // ==========================================
+    // 4. DETAILS PRODUITS (Voir plus)
+    // ==========================================
+    document.body.addEventListener('click', (e) => {
+      const btn = e.target.closest('[data-toggle-details]');
+      if (btn) {
+        const d = btn.nextElementSibling;
+        const o = btn.getAttribute("aria-expanded") !== "true";
+        d.style.display = o ? "block" : "none";
+        btn.setAttribute("aria-expanded", String(o));
+        var dict = window.__getDict ? window.__getDict() : null;
+        var key = o ? "see_less" : "see_more";
+        var fb = o ? "Voir moins" : "Voir plus";
+        btn.textContent = (dict && dict[key]) || fb;
+      }
+    });
+
+    // ==========================================
+    // 5. FORMULAIRE CONTACT
+    // ==========================================
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        var n = document.getElementById("nom"), em = document.getElementById("email"), m = document.getElementById("message");
+        if (!n || !em || !m) return;
+        var nv = n.value.trim(), ev = em.value.trim(), mv = m.value.trim();
+        var dict = window.__getDict ? window.__getDict() : null;
+        if (!nv || !ev || !mv) { alert((dict && dict["fill_all_fields"]) || "Veuillez remplir tous les champs."); return; }
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(ev)) { alert((dict && dict["invalid_email"]) || "Adresse email invalide."); return; }
+        var mailto = "mailto:lanceglorieuse@gmail.com?subject=" + encodeURIComponent("Message de " + nv) + "&body=" + encodeURIComponent("Email : " + ev + "\n\n" + mv);
+        var c = document.getElementById("confirmation");
+        if (c) { c.hidden = false; c.style.display = "block"; }
+        window.location.href = mailto;
+      });
+    }
+
+    // ==========================================
+    // 6. ZOOM IMAGES
+    // ==========================================
+    window.ouvrirZoom = function(s){
+      window.ancienFocus = document.activeElement;
+      document.getElementById("zoomImg").src = s;
+      document.getElementById("zoomModal").style.display = "flex";
+      document.querySelector(".zoom-close").focus();
+    };
+    window.fermerZoom = function(){
+      document.getElementById("zoomModal").style.display = "none";
+      if (window.ancienFocus) { window.ancienFocus.focus(); window.ancienFocus = null; }
+    };
+
+    const zoomModal = document.getElementById("zoomModal");
+    if (zoomModal) {
+      zoomModal.addEventListener('click', (e) => {
+        if (e.target === zoomModal || e.target.classList.contains('zoom-close')) {
+          window.fermerZoom();
+        }
+      });
+    }
+
+    // ==========================================
+    // 7. RECHERCHE
+    // ==========================================
+    const sf = document.getElementById("searchForm"), si = document.getElementById("searchInput"), sc = document.getElementById("clearSearch"), ss = document.getElementById("searchSuggestions"), sr = document.getElementById("searchResults"), sst = document.getElementById("searchStatus"), np = document.getElementById("noProducts");
+    
+    if (sf && si) {
+      var fmt = new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" });
+      function norm(t){ return String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("fr").replace(/[’']/g, " ").replace(/[^\p{L}\p{N}]+/gu, " ").trim(); }
+      
+      var cards = Array.from(document.querySelectorAll(".product-card")).map(function(c){
+        var n = c.dataset.name || "";
+        var d = c.querySelector(".desc") ? c.querySelector(".desc").textContent : "";
+        var det = c.querySelector(".details") ? c.querySelector(".details").textContent : "";
+        return { carte: c, nom: n, prix: Number(c.dataset.price), texte: norm(n + " " + d + " " + det) };
+      });
+      var res = [], timer;
+      
+      function hide(){ if (ss) { ss.hidden = true; si.setAttribute("aria-expanded", "false"); } }
+      function show(){ if (!si.value.trim()) { hide(); return; } if (ss) { ss.hidden = false; si.setAttribute("aria-expanded", "true"); } }
+      
+      function filter(showSuggestions){
+        if (showSuggestions === undefined) showSuggestions = true;
+        var r = norm(si.value), m = r.split(/\s+/).filter(Boolean);
+        res = cards.filter(function(p){ return m.every(function(mot){ return p.texte.includes(mot); }); });
+        cards.forEach(function(p){ p.carte.hidden = res.indexOf(p) === -1; });
+        if (sc) sc.hidden = si.value.length === 0;
+        if (np) np.hidden = m.length === 0 || res.length > 0;
+        if (sr) sr.replaceChildren();
+        if (!m.length) { if (sst) sst.textContent = ""; hide(); return; }
+        var dict = window.__getDict ? window.__getDict() : null;
+        if (sst) sst.textContent = res.length === 0 ? ((dict && dict["no_products_found"]) || "Aucun produit trouvé.") : res.length + " " + ((dict && dict["products_found"]) || "produit(s) trouvé(s).");
+        
+        if (!res.length) {
+          var li = document.createElement("li"); li.className = "search-empty";
+          li.textContent = (dict && dict["no_products_try"]) || "Aucun produit trouvé. Essaie un autre mot.";
+          if (sr) sr.appendChild(li);
+        } else {
+          res.forEach(function(p){
+            var li = document.createElement("li");
+            var a = document.createElement("a");
+            var n = document.createElement("span");
+            var pr = document.createElement("span");
+            a.className = "search-result"; a.href = "#" + p.carte.id;
+            n.textContent = p.nom; pr.textContent = fmt.format(p.prix); pr.className = "search-result-price";
+            a.append(n, pr); li.appendChild(a);
+            if (sr) sr.appendChild(li);
+            a.addEventListener("click", function(e){ 
+              e.preventDefault(); 
+              window.navigateTo("accueil");
+              si.value = p.nom; filter(false); hide();
+              cards.forEach(function(e){ e.carte.classList.remove("search-highlight"); });
+              p.carte.classList.add("search-highlight");
+              setTimeout(function(){ p.carte.focus({ preventScroll: true }); p.carte.scrollIntoView({ behavior: "smooth", block: "start" }); }, 100);
+              setTimeout(function(){ p.carte.classList.remove("search-highlight"); }, 2500);
+            });
+          });
+        }
+        if (showSuggestions) show();
+      }
+      
+      si.addEventListener("input", function(){ clearTimeout(timer); timer = setTimeout(function(){ filter(); }, 200); });
+      si.addEventListener("focus", function(){ if (si.value.trim()) filter(); });
+      si.addEventListener("keydown", function(e){
+        if (e.key === "ArrowDown") { var p = sr ? sr.querySelector("a") : null; if (p) { e.preventDefault(); show(); p.focus(); } }
+        if (e.key === "Escape") hide();
+      });
+      sf.addEventListener("submit", function(e){
+        e.preventDefault(); filter(false); hide();
+        if (!si.value.trim()) return;
+        if (res.length === 1) { 
+          window.navigateTo("accueil");
+          si.value = res[0].nom; filter(false); hide();
+          res[0].carte.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+        else { window.navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produits"); if (p) p.scrollIntoView({ behavior: "smooth", block: "start" }); }, 100); }
+      });
+      if (sc) sc.addEventListener("click", function(){ si.value = ""; filter(false); si.focus(); });
+      document.addEventListener("click", function(e){ if (sf && !sf.contains(e.target)) hide(); });
+    }
+
+    // ==========================================
+    // 8. CHATBOT
+    // ==========================================
+    const cw = document.getElementById("chatbot-window"), cm = document.getElementById("chat-messages"), ci = document.getElementById("chat-input"), cToggle = document.getElementById("chatbot-toggle"), cClose = document.querySelector(".chat-close"), cSend = document.getElementById("chat-send");
+    
+    window.toggleChatbot = function(){
+      window.chatOuvert = !window.chatOuvert;
+      if (window.chatOuvert) {
+        if (cw) cw.classList.add("open");
+        if (cm && cm.children.length === 0) initChat();
+        var badge = document.getElementById("chatbot-badge");
+        if (badge) badge.style.display = "none";
+        try { localStorage.setItem("guillet_chat_opened", "1"); } catch(e){}
+        setTimeout(function(){ if (ci) ci.focus(); }, 300);
+      } else {
+        if (cw) cw.classList.remove("open");
+      }
+    };
+
+    if (cToggle) cToggle.addEventListener('click', window.toggleChatbot);
+    if (cClose) cClose.addEventListener('click', window.toggleChatbot);
+    
+    if (ci) {
+      ci.addEventListener('keydown', (e) => { if (e.key === 'Enter') window.envoyerMessageChat(); });
+    }
+    if (cSend) {
+      cSend.addEventListener('click', () => window.envoyerMessageChat());
+    }
+
+    function addMsgText(text, ty){
+      if (!cm) return;
+      var m = document.createElement("div");
+      m.className = "chat-msg " + (ty || "user");
+      m.textContent = text;
+      cm.appendChild(m);
+      cm.scrollTop = cm.scrollHeight;
+    }
+
+    function addMsg(html, ty, o, key){
+      if (!cm) return;
+      var m = document.createElement("div");
+      m.className = "chat-msg " + (ty || "bot");
+      if (key) m.dataset.i18nKey = key;
+      m.innerHTML = html;
+      cm.appendChild(m);
+      if (o && o.length) {
+        var z = document.createElement("div"); z.className = "chat-options";
+        o.forEach(function(opt){
+          var b = document.createElement("button");
+          b.type = "button"; b.className = "chat-option"; b.textContent = opt.label;
+          if (opt.labelKey) b.dataset.i18nKey = opt.labelKey;
+          b.addEventListener('click', () => { addMsgText(opt.label, "user"); opt.action(); });
+          z.appendChild(b);
+        });
+        cm.appendChild(z);
+      }
+      cm.scrollTop = cm.scrollHeight;
+    }
+
+    function reply(t, o, key){
+      if (!cm) return;
+      var m = document.createElement("div"); m.className = "chat-msg bot";
+      m.innerHTML = '<span style="opacity:.6">…</span>';
+      cm.appendChild(m); cm.scrollTop = cm.scrollHeight;
+      setTimeout(function(){ m.remove(); addMsg(t, "bot", o, key); }, 500);
+    }
+
+    window.envoyerMessageChat = function(tF){
+      if (tF === undefined) tF = null;
+      var t = tF || (ci ? ci.value.trim() : ""); if (!t) return;
+      if (!tF) addMsgText(t, "user");
+      if (ci) ci.value = "";
+      var dict = window.__getDict ? window.__getDict() : null;
+      var m = match(t);
+      
+      if (m) {
+        var txtKey = m.reponseKey;
+        var txt = (dict && dict[txtKey]) ? dict[txtKey] : m.reponse;
+        var opts = m.options ? m.options.map(function(o){
+          return {
+            label: (dict && dict[o.labelKey]) ? dict[o.labelKey] : o.label,
+            labelKey: o.labelKey,
+            action: o.action
+          };
+        }) : null;
+        reply(txt, opts, txtKey);
+      } else {
+        var keyU = "chat_unknown";
+        var defaultMsg = (dict && dict[keyU]) ? dict[keyU] : "Je ne suis pas sûr de bien comprendre 🤔";
+        reply(defaultMsg, [
+          { labelKey: "chat_btn_all_pages", label: "📋 Voir toutes les pages", action: function(){ window.envoyerMessageChat("menu"); } },
+          { labelKey: "chat_btn_prices",    label: "💶 Voir les prix",         action: function(){ window.envoyerMessageChat("prix"); } },
+          { labelKey: "chat_btn_contact_me",label: "📞 Vous contacter",        action: function(){ window.envoyerMessageChat("contact"); } },
+          { labelKey: "chat_btn_delivery",  label: "🚚 Livraison",             action: function(){ window.envoyerMessageChat("livraison"); } }
+        ], keyU);
+      }
+    };
+
+    function initChat(){
+      var dict = window.__getDict ? window.__getDict() : null;
+      var helloKey = "chat_hello";
+      var hello = (dict && dict[helloKey]) ? dict[helloKey] : "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> !";
+      setTimeout(function(){ addMsg(hello, "bot", null, helloKey); }, 200);
+      setTimeout(function(){
+        var promptKey = "chat_prompt";
+        var prompt = (dict && dict[promptKey]) ? dict[promptKey] : "Posez-moi une question :";
+        reply(prompt, [
+          { labelKey: "chat_btn_menu",     label: "📋 Menu des pages", action: function(){ window.envoyerMessageChat("menu"); } },
+          { labelKey: "chat_btn_prices",   label: "💶 Les prix",        action: function(){ window.envoyerMessageChat("prix"); } },
+          { labelKey: "chat_btn_delivery", label: "🚚 Livraison",       action: function(){ window.envoyerMessageChat("livraison"); } }
+        ], promptKey);
+      }, 900);
+    }
+
+    var intents = [
+      { intention: "menu", motsCles: ["menu","sommaire","tout","liste","pages"], reponseKey: "chat_menu_title", reponse: "Voici toutes les sections du site :", options: [
+        { labelKey: "chat_btn_home", label: "🏠 Accueil", action: function(){ navigateTo("accueil"); toggleChatbot(); } },
+        { labelKey: "chat_btn_shop", label: "🛒 Boutique", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produits"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } },
+        { labelKey: "chat_btn_vinted", label: "👕 Vinted", action: function(){ navigateTo("vinted"); toggleChatbot(); } },
+        { labelKey: "chat_btn_beauty", label: "💅 Ongles & Beauté", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } },
+        { labelKey: "chat_btn_parrainage", label: "🤝 Parrainage", action: function(){ navigateTo("parrainage"); toggleChatbot(); } },
+        { labelKey: "chat_btn_about", label: "📜 À propos", action: function(){ navigateTo("apropos"); toggleChatbot(); } },
+        { labelKey: "chat_btn_contact", label: "✉️ Contact", action: function(){ navigateTo("contact"); toggleChatbot(); } },
+        { labelKey: "chat_btn_faq", label: "❓ FAQ", action: function(){ navigateTo("faq"); toggleChatbot(); } },
+        { labelKey: "chat_btn_cyber", label: "🛡️ Cybersécurité", action: function(){ navigateTo("prevention-cyber"); toggleChatbot(); } },
+        { labelKey: "chat_btn_harass", label: "🚨 Harcèlement", action: function(){ navigateTo("harcelement"); toggleChatbot(); } }
+      ] },
+      { intention: "parrainage", motsCles: ["parrainage","boursorama","starlink","vinted","credit","agricole","banque","compte","prime","parrain","internet","satellite","invitation","octopus","energie","électricité"], reponseKey: "chat_parrainage_reply", reponse: "🤝 Ouvre un compte Boursorama, souscris à Starlink, inscris-toi sur Vinted, au Crédit Agricole ou chez Octopus Energy avec mes liens de parrainage : les infos sont pré-remplies automatiquement !", options: [
+        { labelKey: "chat_btn_parrainage", label: "🤝 Voir la page Parrainage", action: function(){ navigateTo("parrainage"); toggleChatbot(); } }
+      ] },
+      { intention: "contact", motsCles: ["horaire","telephone","mail","contact","appeler","numero","joindre"], reponseKey: "chat_contact_reply", reponse: "📞 Nous sommes disponibles de 9h à 20h au <strong>07.80.20.47.49</strong>." },
+      { intention: "livraison", motsCles: ["livraison","envoi","delai","colis","recevoir","expedition"], reponseKey: "chat_delivery_reply", reponse: "🚚 La livraison est <strong>rapide et sécurisée</strong>." },
+      { intention: "drone", motsCles: ["drone","ky108","camera","filmer","video"], reponseKey: "chat_drone_reply", reponse: "🎥 Le <strong>Drone KY108</strong> (89€).", options: [
+        { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-drone"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } }
+      ] },
+      { intention: "projecteur", motsCles: ["projecteur","lampe","pir","solaire"], reponseKey: "chat_proj_reply", reponse: "💡 Le <strong>Projecteur LED solaire</strong> (35€).", options: [
+        { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-projecteur"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } }
+      ] },
+      { intention: "endoscope", motsCles: ["endoscope","inspect","moteur","tuyau"], reponseKey: "chat_endo_reply", reponse: "🔍 L'<strong>Endoscope</strong> (95€).", options: [
+        { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-endoscope"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } }
+      ] },
+      { intention: "beaute", motsCles: ["ongle","ongles","beaute","beauté","vernis","manucure","nail"], reponseKey: "chat_beauty_reply", reponse: "💅 La section <strong>Ongles & Beauté</strong>.", options: [
+        { labelKey: "chat_btn_see_section", label: "Voir la section", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } }
+      ] },
+      { intention: "prix", motsCles: ["prix","tarif","combien","cout"], reponseKey: "chat_price_reply", reponse: "💰 Drone: 89€ • Projecteur: 35€ • Pack Hiver: 99,99€ • Endoscope: 95€ • Pack Sécurité Premium: 350€" },
+      { intention: "merci", motsCles: ["merci","super","parfait","top"], reponseKey: "chat_thanks_reply", reponse: "Avec plaisir ! 🙏" }
+    ];
+
+    function match(t){
+      var tx = t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\w\s]/gi, "");
+      var mm = null, ms2 = 0;
+      intents.forEach(function(item){
+        var s = 0;
+        item.motsCles.forEach(function(mc){ if (tx.includes(mc)) s += 1; });
+        if (s > ms2) { ms2 = s; mm = item; }
+      });
+      return ms2 > 0 ? mm : null;
+    }
+
+    // ==========================================
+    // 9. INITIALISATION ET GESTION DES HASH
+    // ==========================================
+    var ih = window.location.hash.replace("#", "") || "accueil";
+    // Ajout de "harcelement" dans la liste des pages normales
+    var cp = ["accueil","apropos","vinted","ongles-beaute","parrainage","prevention-cyber","harcelement","mentions","cgv","confidentialite","faq","contact"];
+    var ca = ["mots-de-passe","phishing","force-brute","photos-cles","vie-personnelle","loi-hacking","phishing-droit","donnees-personnelles","test-autorise","incident","conclusion-cyber"];
+    var ha = ["prevention-moral","prevention-scolaire","prevention-sexuel","prevention-bande","prevention-aide"];
+    
+    if (ca.indexOf(ih) !== -1) activerPageCyberEtScroll(ih, false);
+    else if (ha.indexOf(ih) !== -1) { navigateTo("harcelement"); setTimeout(function(){ scrollToElementWithOffset(document.getElementById(ih), 80); }, 150); }
+    else navigateTo(cp.indexOf(ih) !== -1 ? ih : "accueil");
+
+    try {
+      var sm = localStorage.getItem("guillet_mode");
+      var pl2 = window.matchMedia("(prefers-color-scheme: light)").matches;
+      if (sm === "light" || (sm === null && pl2)) document.body.classList.add("light-mode");
+    } catch(e){}
+
+    document.querySelectorAll(".summary-cyber a").forEach(function(l){
+      l.addEventListener("click", function(e){
+        var h = l.getAttribute("href");
+        if (h && h.startsWith("#")) { var a = h.substring(1); if (ca.indexOf(a) !== -1) { e.preventDefault(); activerPageCyberEtScroll(a, true); } }
+      });
+    });
+    
+    // Liens du sommaire Harcèlement (défilement normal)
+    document.querySelectorAll(".prevention-summary a").forEach(function(l){
+      l.addEventListener("click", function(e){
+        var h = l.getAttribute("href");
+        if (h && h.startsWith("#")) { 
+          var a = h.substring(1); 
+          if (ha.indexOf(a) !== -1) { 
+            e.preventDefault(); 
+            scrollToElementWithOffset(document.getElementById(a), 80);
+            history.pushState(null, null, "#" + a);
+          } 
+        }
+      });
+    });
+
+    if (ms) {
+      var mt = "quelques-notes.mp3";
+      try { mt = localStorage.getItem("guillet_track") || mt; } catch(e){}
+      if (ms.querySelector('option[value="' + mt.replace(/"/g,'\\"') + '"]')) {
+        ms.value = mt;
+        pl.src = "Musique/" + encodeURIComponent(mt);
+        pl.load();
+      }
+    }
+
+    window.addEventListener("popstate", function(){
+      var h = window.location.hash.replace("#", "") || "accueil";
+      if (ca.indexOf(h) !== -1) activerPageCyberEtScroll(h, false);
+      else if (ha.indexOf(h) !== -1) { navigateTo("harcelement"); setTimeout(function(){ scrollToElementWithOffset(document.getElementById(h), 80); }, 150); }
+      else if (cp.indexOf(h) !== -1) navigateTo(h);
+      else navigateTo("accueil");
+    });
+
+    actualiserBoutonHaut();
+
+    document.addEventListener("keydown", function(e){
+      var m = document.getElementById("zoomModal");
+      if (m && m.style.display === "flex" && e.key === "Escape") fermerZoom();
+    });
+
+    var sl = document.querySelectorAll(".hero-slide"); var cs = 0;
+    if (sl.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      setInterval(function(){ cs = (cs + 1) % sl.length; sl.forEach(function(s, p){ s.classList.toggle("active", p === cs); }); }, 5000);
+    }
+
+    var chatBadge = document.getElementById("chatbot-badge");
+    if (chatBadge) {
+      try {
+        var chatOpened = localStorage.getItem("guillet_chat_opened");
+        chatBadge.style.display = chatOpened ? "none" : "block";
+      } catch(e) { chatBadge.style.display = "block"; }
+    }
+
+    // Fonctions utilitaires de défilement
+    window.scrollToElementWithOffset = function(e, o){
+      if (o === undefined) o = 80; if (!e) return;
+      window.scrollTo({ top: e.getBoundingClientRect().top + window.pageYOffset - o, behavior: "smooth" });
+    };
+
+    window.activerPageCyberEtScroll = function(a, p){
+      if (p === undefined) p = true;
+      document.querySelectorAll(".page-section").forEach(function(s){ s.classList.remove("active"); });
+      var c = document.getElementById("page-prevention-cyber"); if (c) c.classList.add("active");
+      try { if (p) history.pushState(null, null, "#" + a); else history.replaceState(null, null, "#" + a); } catch(e){}
+      document.querySelectorAll(".nav-link").forEach(function(l){ l.classList.remove("active-link"); if (l.getAttribute("href") === "#prevention-cyber") l.classList.add("active-link"); });
+      setTimeout(function(){ var e = document.getElementById(a); if (e) scrollToElementWithOffset(e, 80); }, 50);
+      if (typeof window.reapplyLanguage === "function") setTimeout(window.reapplyLanguage, 120);
+    };
+  });
+})();
+
+(function () {
+  "use strict";
+
+  // ==========================================
+  // 1. CONFIGURATION SUPABASE
+  // ==========================================
+  const SUPABASE_URL = "https://wrhokeajjmupnxpfurcc.supabase.co";
+  const SUPABASE_ANON_KEY = "sb_publishable_0mmEGRZ_GKmgKSMKE83S8A_huJaAdL9";
+
+  // Vérification que le SDK Supabase est bien chargé
+  if (typeof supabase === "undefined" || typeof supabase.createClient !== "function") {
+    console.error("[AUTH] Le SDK Supabase n'est pas chargé. Vérifie le CDN dans le <head>.");
+    return;
+  }
+
+  // ✅ CORRECTION : On crée une seule instance globale pour éviter le warning
+  if (!window.supabaseClient) {
+    window.supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  }
+  const supabaseClient = window.supabaseClient;
+
+  // ==========================================
+  // 2. RÉCUPÉRATION DES ÉLÉMENTS HTML
+  // ==========================================
+  const authModal      = document.getElementById("authModal");
+  const authBtn        = document.getElementById("authBtn");
+  const closeAuthModal = document.getElementById("closeAuthModal");
+  const authForm       = document.getElementById("authForm");
+  const authEmail      = document.getElementById("authEmail");
+  const authPassword   = document.getElementById("authPassword");
+  const authMessage    = document.getElementById("authMessage");
+  const googleAuthBtn  = document.getElementById("googleAuthBtn");
+  const authSubmitBtn  = document.getElementById("authSubmitBtn");
+  const authNewsletter = document.getElementById("authNewsletter");
+
+  // Éléments du profil
+  const profileModal       = document.getElementById("profileModal");
+  const closeProfileModal  = document.getElementById("closeProfileModal");
+  const profileForm        = document.getElementById("profileForm");
+  const profileMessage     = document.getElementById("profileMessage");
+
+  if (!authModal || !authBtn || !authForm) {
+    console.warn("[AUTH] Éléments HTML essentiels manquants (modal / bouton / formulaire).");
+    return;
+  }
+
+  // ==========================================
+  // 3. ÉTAT
+  // ==========================================
+  let currentUser = null;
+  let isLoading   = false;
+
+  // ==========================================
+  // 4. HELPERS (Messages et chargement)
+  // ==========================================
+  function showMessage(text, color) {
+    if (!authMessage) return;
+    authMessage.textContent = text || "";
+    authMessage.style.color = color || "#fff";
+  }
+
+  function setLoading(loading) {
+    isLoading = !!loading;
+    if (!authSubmitBtn) return;
+    authSubmitBtn.disabled      = loading;
+    authSubmitBtn.style.opacity = loading ? "0.6" : "1";
+    authSubmitBtn.style.cursor  = loading ? "wait" : "pointer";
+    authSubmitBtn.textContent   = loading ? "⏳ Chargement..." : "Se connecter / S'inscrire";
+  }
+
+  function openModal() {
+    if (!authModal) return;
+    authModal.style.display = "flex";
+    showMessage("");
+    if (currentUser && authEmail) authEmail.value = currentUser.email || "";
+  }
+
+  function closeModal() {
+    if (!authModal) return;
+    authModal.style.display = "none";
+    showMessage("");
+    if (authForm) authForm.reset();
+  }
+
+  function updateButton(user) {
+    if (!authBtn) return;
+    currentUser = user || null;
+
+    if (user) {
+      const label = user.email ? user.email.split("@")[0] : "Mon Compte";
+      authBtn.textContent = "👤 " + label;
+      authBtn.style.background = "var(--gold)";
+      authBtn.style.color      = "#000";
+      authBtn.style.border     = "none";
+      authBtn.setAttribute("data-logged-in", "true");
+    } else {
+      authBtn.textContent = "🔐 Connexion";
+      authBtn.style.background = "transparent";
+      authBtn.style.color      = "var(--gold)";
+      authBtn.style.border     = "1px solid var(--gold)";
+      authBtn.setAttribute("data-logged-in", "false");
+    }
+  }
+
+  // ==========================================
+  // 5. ÉVÉNEMENTS UI (Clics sur les boutons)
+  // ==========================================
+  authBtn.addEventListener("click", async () => {
+    if (authBtn.getAttribute("data-logged-in") === "true") {
+      // Si connecté : on demande s'il veut voir son profil ou se déconnecter
+      const choice = confirm("Voulez-vous ouvrir votre profil ?\n(Cliquez sur ANNULER pour vous déconnecter)");
+      if (choice) {
+        openProfileModal();
+      } else {
+        if (confirm("Voulez-vous vraiment vous déconnecter ?")) {
+          supabaseClient.auth.signOut();
+        }
+      }
+    } else {
+      openModal();
+    }
+  });
+
+  if (closeAuthModal) closeAuthModal.addEventListener("click", closeModal);
+
+  authModal.addEventListener("click", (e) => {
+    if (e.target === authModal) closeModal();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      if (authModal.style.display === "flex") closeModal();
+      if (profileModal && profileModal.style.display === "flex") closeProfileModalFn();
+    }
+  });
+
+  // ==========================================
+  // 6. CONNEXION / INSCRIPTION
+  // ==========================================
+  authForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    if (isLoading) return;
+
+    const email    = (authEmail.value || "").trim();
+    const password = authPassword.value || "";
+    const wantsNewsletter = authNewsletter?.checked || false;
+
+    if (!email || !password) {
+      showMessage("Veuillez remplir tous les champs.", "var(--red)");
+      return;
+    }
+    if (password.length < 6) {
+      showMessage("Le mot de passe doit contenir au moins 6 caractères.", "var(--red)");
+      return;
+    }
+
+    setLoading(true);
+    showMessage("Vérification en cours...", "#fff");
+
+    try {
+      const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
+
+      if (error) {
+        if (error.message.includes("Invalid login credentials")) {
+          // Tentative d'inscription
+          const { data: signUpData, error: signUpError } = await supabaseClient.auth.signUp({
+            email,
+            password,
+            options: {
+              data: {
+                newsletter: wantsNewsletter
+              }
+            }
+          });
+
+          if (signUpError) {
+            showMessage("Erreur : " + signUpError.message, "var(--red)");
+          } else {
+            // C'est le Trigger SQL qui gère l'enregistrement dans la table `clients`.
+            if (signUpData.session) {
+              showMessage("✅ Inscription réussie !", "var(--accent-safe)");
+              authForm.reset();
+              setTimeout(closeModal, 1500);
+            } else {
+              showMessage(
+                "✅ Inscription réussie ! Vérifie tes e-mails pour confirmer ton compte.",
+                "var(--accent-safe)"
+              );
+              authForm.reset();
+            }
+          }
+        } else if (error.message.includes("Email not confirmed")) {
+          showMessage(
+            "📧 Ton e-mail n'est pas encore confirmé. Vérifie ta boîte de réception.",
+            "var(--neon-gold)"
+          );
+        } else {
+          showMessage("Erreur : " + error.message, "var(--red)");
+        }
+      } else {
+        // Connexion réussie
+        showMessage("✅ Connexion réussie !", "var(--accent-safe)");
+        authForm.reset();
+        setTimeout(closeModal, 1500);
+      }
+    } catch (err) {
+      console.error("[AUTH] Erreur inattendue :", err);
+      showMessage("Erreur inattendue. Réessaie dans un instant.", "var(--red)");
+    } finally {
+      setLoading(false);
+    }
+  });
+
+  // ==========================================
+  // 7. CONNEXION GOOGLE
+  // ==========================================
+  if (googleAuthBtn) {
+    googleAuthBtn.addEventListener("click", async () => {
+      showMessage("Redirection vers Google...", "#fff");
+
+      const redirectUrl = window.location.origin + window.location.pathname;
+
+      const { error } = await supabaseClient.auth.signInWithOAuth({
+        provider: "google",
+        options: { redirectTo: redirectUrl }
+      });
+
+      if (error) {
+        showMessage("Erreur Google : " + error.message, "var(--red)");
+      }
+    });
+  }
+
+  // ==========================================
+  // 8. ÉCOUTE DES CHANGEMENTS D'AUTH
+  // ==========================================
+  supabaseClient.auth.onAuthStateChange((event, session) => {
+    console.log("[AUTH] Événement :", event);
+    const user = session ? session.user : null;
+    updateButton(user);
+
+    if (event === "SIGNED_IN" && authModal.style.display === "flex") {
+      setTimeout(closeModal, 800);
+    }
+  });
+
+  // ==========================================
+  // 9. INITIALISATION
+  // ==========================================
+  (async () => {
+    try {
+      const { data: { session } } = await supabaseClient.auth.getSession();
+      updateButton(session ? session.user : null);
+    } catch (err) {
+      console.error("[AUTH] Erreur d'initialisation :", err);
+      updateButton(null);
+    }
+  })();
+
+  // ==========================================
+  // 10. GESTION DU PROFIL CLIENT
+  // ==========================================
+  function openProfileModal() {
+    if (!profileModal) return;
+    profileModal.style.display = "flex";
+    if (profileMessage) profileMessage.textContent = "";
+    
+    loadProfileData();
+    loadOrders(); 
+  }
+
+  function closeProfileModalFn() {
+    if (!profileModal) return;
+    profileModal.style.display = "none";
+    if (profileForm) profileForm.reset();
+  }
+
+  async function loadProfileData() {
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    if (!user) return;
+
+    const { data, error } = await supabaseClient
+      .from('clients')
+      .select('*')
+      .eq('id', user.id)
+      .single();
+
+    if (data) {
+      document.getElementById("profileNom").value = data.nom_complet || "";
+      document.getElementById("profileTel").value = data.telephone || "";
+      document.getElementById("profileAdresse").value = data.adresse || "";
+      document.getElementById("profileCP").value = data.code_postal || "";
+      document.getElementById("profileVille").value = data.ville || "";
+    }
+  }
+
+  if (closeProfileModal) {
+    closeProfileModal.addEventListener("click", closeProfileModalFn);
+  }
+
+  if (profileModal) {
+    profileModal.addEventListener("click", (e) => {
+      if (e.target === profileModal) closeProfileModalFn();
+    });
+  }
+
+  if (profileForm) {
+    profileForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      profileMessage.textContent = "Enregistrement en cours...";
+      profileMessage.style.color = "#fff";
+
+      const { data: { user } } = await supabaseClient.auth.getUser();
+      if (!user) return;
+
+      const updates = {
+        nom_complet: document.getElementById("profileNom").value,
+        telephone: document.getElementById("profileTel").value,
+        adresse: document.getElementById("profileAdresse").value,
+        code_postal: document.getElementById("profileCP").value,
+        ville: document.getElementById("profileVille").value
+      };
+
+      const { error } = await supabaseClient
+        .from('clients')
+        .update(updates)
+        .eq('id', user.id);
+
+      if (error) {
+        profileMessage.textContent = "Erreur : " + error.message;
+        profileMessage.style.color = "var(--red)";
+      } else {
+        profileMessage.textContent = "✅ Profil mis à jour avec succès !";
+        profileMessage.style.color = "var(--accent-safe)";
+        setTimeout(() => { closeProfileModalFn(); }, 2000);
+      }
+    });
+  }
+
+  // ==========================================
+  // 11. AFFICHAGE DES COMMANDES
+  // ==========================================
+  async function loadOrders() {
+    const ordersList = document.getElementById("ordersList");
+    if (!ordersList) return;
+
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    if (!user) return;
+
+    const { data, error } = await supabaseClient
+      .from('commandes')
+      .select('*')
+      .eq('client_id', user.id)
+      .order('created_at', { ascending: false });
+
+    if (error) {
+      ordersList.innerHTML = `<p style="color:var(--red);">Erreur lors du chargement des commandes.</p>`;
+      return;
+    }
+
+    if (!data || data.length === 0) {
+      ordersList.innerHTML = `<p style="color:#aaa;">Vous n'avez pas encore passé de commande.</p>`;
+      return;
+    }
+
+    let html = "";
+    data.forEach(order => {
+      const date = new Date(order.created_at).toLocaleDateString('fr-FR');
+      
+      let produitsHtml = "";
+      if (order.details_produits && Array.isArray(order.details_produits)) {
+        order.details_produits.forEach(prod => {
+          produitsHtml += `<li>${prod.quantite || 1}x ${prod.nom || 'Produit'} - ${prod.prix_unitaire || 0} €</li>`;
+        });
+      } else {
+        produitsHtml = "<li>Produits (détails indisponibles)</li>";
+      }
+
+      // ✅ AJOUT DU NUMÉRO DE SUIVI ICI
+      let trackingHtml = '';
+      if (order.numero_suivi) {
+        trackingHtml = `<div style="margin-top: 8px; padding: 8px; background: rgba(255,215,0,0.1); border-radius: 4px; border-left: 3px solid var(--gold); font-size: 0.85rem;">
+          <span style="color:#fff; font-weight:bold;">📦 Suivi : </span>
+          ${order.lien_suivi ? `<a href="${order.lien_suivi}" target="_blank" rel="noopener" style="color:var(--gold); text-decoration:underline;">${order.numero_suivi}</a>` : `<span style="color:var(--gold);">${order.numero_suivi}</span>`}
+        </div>`;
+      }
+
+      html += `
+        <div style="background:#111; border:1px solid #333; padding:10px; border-radius:5px; margin-bottom:10px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+            <strong style="color:var(--gold);">Commande du ${date}</strong>
+            <span style="color:var(--accent-safe); font-weight:bold;">${order.montant_total} €</span>
+          </div>
+          <ul style="margin-left: 20px; margin-bottom: 5px; color: #ccc;">
+            ${produitsHtml}
+          </ul>
+          <div style="font-size:0.8rem; color:#888; margin-bottom:5px;">Statut : <strong style="color:#fff;">${order.statut || 'En attente'}</strong></div>
+          ${trackingHtml}
+        </div>
+      `;
+    });
+
+    ordersList.innerHTML = html;
+  }
+
+})();
+
+(function () {
+  // ✅ CORRECTION : On utilise la connexion globale créée par auth.js
+  const supabaseClient = window.supabaseClient;
+
+  if (!supabaseClient) {
+    console.error("[PRODUITS] Supabase n'est pas initialisé. Vérifiez auth.js.");
+    return;
+  }
+
+  // ============================================================
+  // 1. DONNÉES DES PRODUITS & TEXTES AMÉLIORÉS
+  // ============================================================
+  const produitsHTML = {
+    // --------------------------------------------------------
+    // DRONE
+    // --------------------------------------------------------
+    "price_1URq5TRNu37iEZT9kBjY7X1G": {
+      name: "KY108 Drone",
+      price: "89.00",
+      image: "photo1.png",
+      html: `
+    <div class="product-card" id="produit-drone" data-name="Drone Ky108" data-price="89" tabindex="-1">
+      <div class="product-images">
+        <img src="photo1.png" class="product-image" alt="Drone KY108 — vue principale" loading="lazy" decoding="async" data-zoom>
+        <img src="photo2.png" class="product-image" alt="Drone KY108 — vue secondaire" loading="lazy" decoding="async" data-zoom>
+      </div>
+      <div class="product-info">
+        <span class="badge" data-i18n="badge_new">NOUVEAU</span>
+        <h3 class="product-title" data-i18n="drone_title">KY108 DRONE – L'ŒIL DU FUTUR</h3>
+        <p class="tagline" data-i18n="drone_tagline">Dominez le ciel. Captures 4K. Précision chirurgicale.</p>
+        <div class="price"><span class="promo">89 €</span></div>
+        <p class="desc" data-i18n="drone_desc">Conçu pour les créateurs, explorateurs et pilotes exigeants. Prenez le contrôle des airs et ramenez des images spectaculaires avec une stabilité inégalée.</p>
+        
+        <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-drone" data-i18n="see_more">Voir plus</button>
+        <div class="details" id="details-drone">
+          <h4 data-i18n="full_desc">Description complète</h4>
+          <p data-i18n="drone_full_1">Le KY108 n'est pas un simple drone : c'est un outil de vision, un instrument de maîtrise, un allié aérien qui transforme chaque vol en expérience futuriste.</p>
+          <p data-i18n="drone_full_2">Grâce à sa double caméra HD, son zoom 90x, son évitement d'obstacles omnidirectionnel et ses moteurs brushless, il vous offre une stabilité et une puissance que peu de drones de sa catégorie peuvent atteindre.</p>
+          <p data-i18n="drone_full_3">Pliable, compact, intelligent : le KY108 est prêt à vous suivre partout.</p>
+          <h4 data-i18n="details">Détails</h4>
+          <ul>
+            <li data-i18n="drone_detail_1">Double caméra HD avec zoom 90x</li>
+            <li data-i18n="drone_detail_2">Évitement d'obstacles omnidirectionnel</li>
+            <li data-i18n="drone_detail_3">Moteur brushless puissant et durable</li>
+            <li data-i18n="drone_detail_4">Télécommande avec écran FPV intégré</li>
+            <li data-i18n="drone_detail_5">Drone pliable, facile à transporter</li>
+          </ul>
+          <h4 data-i18n="utility">Utilité</h4>
+          <ul>
+            <li data-i18n="drone_util_1">Filmer des paysages en haute qualité</li>
+            <li data-i18n="drone_util_2">Créer du contenu pour TikTok et Instagram</li>
+            <li data-i18n="drone_util_3">Surveiller une zone dans le respect de la vie privée</li>
+            <li data-i18n="drone_util_4">Apprendre le pilotage de drone</li>
+            <li data-i18n="drone_util_5">Réaliser des photos aériennes professionnelles</li>
+          </ul>
+          <h4 data-i18n="how_to_use">Utilisation</h4>
+          <ol>
+            <li data-i18n="drone_use_1">Déplier le drone et vérifier les hélices.</li>
+            <li data-i18n="drone_use_2">Allumer la télécommande.</li>
+            <li data-i18n="drone_use_3">Connecter la caméra HD.</li>
+            <li data-i18n="drone_use_4">Décoller en mode assisté.</li>
+            <li data-i18n="drone_use_5">Piloter via l'écran FPV intégré.</li>
+          </ol>
+          <p data-i18n="drone_use_note">Pensez à respecter les règles de vol applicables et la vie privée des personnes filmées.</p>
+        </div>
+        
+        {{STOCK}}
+        {{BOUTON}}
+
+        <!-- VIDÉO PLACÉE TOUT EN BAS -->
+        <div class="drone-video-wrapper">
+          <video src="publicite_drone.mp4" controls preload="none" playsinline class="video-full" aria-label="Publicité du drone KY108" poster="photo1.png">
+            Votre navigateur ne prend pas en charge la lecture vidéo.
+          </video>
+        </div>
+      </div>
+    </div>
+      `
+    },
+
+    // --------------------------------------------------------
+    // PROJECTEUR
+    // --------------------------------------------------------
+    "price_1URs5zRNu37iEZT9MkNDMhFW": {
+      name: "Projecteur LED rotatif",
+      price: "35.00",
+      image: "produit.png",
+      html: `
+    <div class="product-card" id="produit-projecteur" data-name="Projecteur LED rotatif solaire" data-price="35" tabindex="-1">
+      <div class="product-images">
+        <img src="produit.png" class="product-image" alt="Projecteur LED solaire rotatif" loading="lazy" decoding="async" data-zoom>
+        <img src="produit1.png" class="product-image" alt="Deuxième vue du projecteur LED solaire" loading="lazy" decoding="async" data-zoom>
+      </div>
+      <div class="product-info">
+        <h3 class="product-title" data-i18n="proj_title">Projecteur LED rotatif solaire</h3>
+        <p class="tagline" data-i18n="proj_tagline">Éclairez vos nuits. Zéro facture d'électricité.</p>
+        <div class="price">35,00 €</div>
+        <p class="desc" data-i18n="proj_desc">Illuminez votre extérieur en toute autonomie. Projecteur LED avec détecteur de mouvement PIR et panneaux solaires orientables pour une sécurité optimale.</p>
+        
+        <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-projecteur" data-i18n="see_more">Voir plus</button>
+        <div class="details" id="details-projecteur">
+          <h4 data-i18n="full_desc">Description complète</h4>
+          <p data-i18n="proj_full_1">Projecteur LED extérieur alimenté par panneau solaire, équipé d'un détecteur PIR et de panneaux rotatifs pour s'adapter à tous les angles de votre maison.</p>
+          <h4 data-i18n="utility">Utilité</h4>
+          <ul>
+            <li data-i18n="proj_util_1">Sécuriser une entrée</li>
+            <li data-i18n="proj_util_2">Éclairer une zone sombre</li>
+            <li data-i18n="proj_util_3">Dissuader les intrusions</li>
+            <li data-i18n="proj_util_4">Fonctionne sans électricité</li>
+          </ul>
+          <h4 data-i18n="how_to_use">Utilisation</h4>
+          <ul>
+            <li data-i18n="proj_use_1">Fixer le projecteur sur un mur</li>
+            <li data-i18n="proj_use_2">Orienter les panneaux LED</li>
+            <li data-i18n="proj_use_3">Régler le détecteur PIR</li>
+            <li data-i18n="proj_use_4">Laisser charger le panneau solaire</li>
+          </ul>
+        </div>
+        
+        {{STOCK}}
+        {{BOUTON}}
+      </div>
+    </div>
+      `
+    },
+
+    // --------------------------------------------------------
+    // PACK HIVER
+    // --------------------------------------------------------
+    "price_1URsA0RNu37iEZT9Yq7pXGpL": {
+      name: "Winter Survival Pack",
+      price: "99.99",
+      image: "Winter-Survival.png",
+      html: `
+    <div class="product-card" id="produit-pack-hiver" data-name="Winter Survival Pack – Édition Premium" data-price="99.99" tabindex="-1">
+      <div class="product-images">
+        <img src="Winter-Survival.png" class="product-image" alt="Winter Survival Pack Édition Premium" loading="lazy" decoding="async" data-zoom>
+      </div>
+      <div class="product-info">
+        <span class="badge" data-i18n="badge_winter">PACK HIVER</span>
+        <h3 class="product-title" data-i18n="pack_title">Winter Survival Pack – Édition Premium</h3>
+        <p class="tagline" data-i18n="pack_tagline">L'autonomie totale face aux éléments.</p>
+        <div class="price">99,99 €</div>
+        <p class="desc" data-i18n="pack_desc">Ne laissez plus l'hiver dicter vos limites. Le pack ultime pour rester au chaud, éclairé et parfaitement équipé, même lorsque le réseau lâche.</p>
+        
+        <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-pack" data-i18n="see_more">Voir plus</button>
+        <div class="details" id="details-pack">
+          <h4 data-i18n="pack_item_1">🧤 1. Gants Chauffants Électriques Intelligents (USB)</h4>
+          <p data-i18n="pack_item_1_desc">Gants d'hiver haute performance, conçus pour offrir une chaleur immédiate et contrôlée.</p>
+          <ul>
+            <li data-i18n="pack_item_1_b1">Chauffage double face sur la paume</li>
+            <li data-i18n="pack_item_1_b2">Trois niveaux de température réglables</li>
+            <li data-i18n="pack_item_1_b3">Design tactile</li>
+            <li data-i18n="pack_item_1_b4">Fonctionnement via interface USB, compatible powerbank</li>
+          </ul>
+          <h4 data-i18n="pack_item_2">🔦 2. Torches LED Puissantes – Rechargeables USB (x2)</h4>
+          <p data-i18n="pack_item_2_desc">Lampe tactique ultra lumineuse pour coupures de courant, déplacements nocturnes, voiture.</p>
+          <ul>
+            <li data-i18n="pack_item_2_b1">7 modes de lumière</li>
+            <li data-i18n="pack_item_2_b2">Rechargeable par USB</li>
+            <li data-i18n="pack_item_2_b3">Batterie intégrée</li>
+            <li data-i18n="pack_item_2_b4">Résistante aux intempéries</li>
+          </ul>
+          <h4 data-i18n="pack_item_3">🔋 3. Batterie Externe 12 000 mAh – Spéciale Chauffage USB</h4>
+          <p data-i18n="pack_item_3_desc">Powerbank haute capacité compatible avec tous les appareils USB et vêtements chauffants.</p>
+          <ul>
+            <li data-i18n="pack_item_3_b1">12 000 mAh → autonomie longue durée</li>
+            <li data-i18n="pack_item_3_b2">Sortie 5V 2.4A</li>
+            <li data-i18n="pack_item_3_b3">Compatible iPhone / Samsung / iPad</li>
+          </ul>
+          <h4 data-i18n="pack_item_4">🛏️ 4. Sac de Couchage Momie Multi-Saison (210 × 75 cm)</h4>
+          <p data-i18n="pack_item_4_desc">Sac de couchage léger, compact et confortable, idéal pour le camping et les situations d'urgence.</p>
+          <ul>
+            <li data-i18n="pack_item_4_b1">Capuche intégrée</li>
+            <li data-i18n="pack_item_4_b2">Polyester 170T robuste</li>
+            <li data-i18n="pack_item_4_b3">Pliable en couette / couverture</li>
+            <li data-i18n="pack_item_4_b4">Sac de rangement inclus</li>
+          </ul>
+        </div>
+        
+        {{STOCK}}
+        {{BOUTON}}
+      </div>
+    </div>
+      `
+    },
+
+    // --------------------------------------------------------
+    // ENDOSCOPE
+    // --------------------------------------------------------
+    "price_1US30aRNu37iEZT9EGBkxLCy": {
+      name: "Endoscope caméra d'inspection",
+      price: "95.00",
+      image: "photo-endoscope.png",
+      html: `
+    <div class="product-card" id="produit-endoscope" data-name="Endoscope caméra d'inspection avec écran" data-price="95" tabindex="-1">
+      <div class="product-images">
+        <img src="photo-endoscope.png" class="product-image" alt="Endoscope caméra d'inspection avec écran" loading="lazy" decoding="async" data-zoom>
+      </div>
+      <div class="product-info">
+        <span class="badge" data-i18n="badge_new">NOUVEAU</span>
+        <h3 class="product-title" data-i18n="endo_title">Endoscope d'Inspection HD</h3>
+        <p class="tagline" data-i18n="endo_tagline">Voyez l'invisible. Ne ratez plus aucun détail.</p>
+        <div class="price">95 €</div>
+        <p class="desc" data-i18n="endo_desc">L'outil indispensable des professionnels et bricoleurs. Écran intégré 4,3", câble semi-rigide de 10 m et caméra 1080P étanche (IP68). Explorez l'inaccessible avec une clarté absolue.</p>
+        
+        <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-endoscope" data-i18n="see_more">Voir plus</button>
+        <div class="details" id="details-endoscope">
+          <h4 data-i18n="full_desc">Description complète</h4>
+          <p data-i18n="endo_full_1">L'outil indispensable pour inspecter les zones difficiles d'accès : conduits, moteurs, tuyaux, gaines, installations techniques ou espaces étroits.</p>
+          <h4 data-i18n="utility">Utilité</h4>
+          <ul>
+            <li data-i18n="endo_util_1">Inspection de moteurs, conduits et tuyaux</li>
+            <li data-i18n="endo_util_2">Travaux domestiques : plomberie, ventilation, câblage</li>
+            <li data-i18n="endo_util_3">Diagnostic mécanique rapide</li>
+            <li data-i18n="endo_util_4">Contrôle visuel dans les zones sombres</li>
+          </ul>
+          <h4 data-i18n="features">Caractéristiques</h4>
+          <ul>
+            <li data-i18n="endo_feat_1">Résolution Full HD 1080P</li>
+            <li data-i18n="endo_feat_2">Caméra 2.0 MP avec éclairage LED réglable</li>
+            <li data-i18n="endo_feat_3">Écran intégré 4,3 pouces</li>
+            <li data-i18n="endo_feat_4">Câble semi-rigide de 10 mètres</li>
+            <li data-i18n="endo_feat_5">Certification IP68 waterproof</li>
+          </ul>
+        </div>
+        
+        {{STOCK}}
+        {{BOUTON}}
+      </div>
+    </div>
+      `
+    },
+
+    // --------------------------------------------------------
+    // PACK SECURITE
+    // --------------------------------------------------------
+    "price_1UV4VuRNu37iEZT9QXBQFhLp": {
+      name: "Pack Sécurité Premium",
+      price: "379.00",
+      image: "Pack-Sécu.jpg",
+      html: `
+    <div class="product-card" id="produit-pack-securite" data-name="Pack Sécurité Premium" data-price="379" tabindex="-1">
+      <div class="product-images">
+        <img src="Pack-Sécu.jpg" class="product-image" alt="Pack Sécurité Premium — Alarme Tiiwee + Caméra Tapo C245D + 4 capteurs SONOFF" loading="lazy" decoding="async" data-zoom>
+      </div>
+      <div class="product-info">
+        <span class="badge" data-i18n="badge_security">🛡️ PACK SÉCURITÉ</span>
+        <h3 class="product-title" data-i18n="pack_secu_title">Pack Sécurité Premium</h3>
+        <p class="tagline" data-i18n="pack_secu_tagline">Votre forteresse numérique et physique.</p>
+        <div class="price">379 €</div>
+        <p class="desc" data-i18n="pack_secu_desc">Alarme Tiiwee, caméra Tapo IA et 4 capteurs SONOFF. Protégez votre foyer ou votre commerce avec un système complet, intelligent et prêt à l'emploi. Installation en 10 minutes.</p>
+        
+        <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-pack-secu" data-i18n="see_more">Voir plus</button>
+        <div class="details" id="details-pack-secu">
+          <h4 data-i18n="full_desc">Description complète</h4>
+          <p data-i18n="pack_secu_full_1">Le Pack Sécurité Premium réunit tout ce qu'il faut pour sécuriser une maison, un appartement, un commerce, un garage, une cave ou un bureau — sans compétence technique, sans câblage complexe. Tout est déjà configuré : vous installez, vous connectez, c'est prêt en 10 minutes.</p>
+          <h4 data-i18n="pack_secu_contents">📦 Contenu du pack (exact)</h4>
+          <ul>
+            <li data-i18n="pack_secu_c1">1 Alarme Tiiwee (sirène + télécommandes)</li>
+            <li data-i18n="pack_secu_c2">1 Caméra IA TP-Link Tapo C245D (vision nocturne + détection)</li>
+            <li data-i18n="pack_secu_c3">4 Capteurs d'ouverture SONOFF (portes / fenêtres / garage / balcon)</li>
+            <li data-i18n="pack_secu_c4">Notice d'installation</li>
+            <li data-i18n="pack_secu_c5">Assistance 30 jours</li>
+          </ul>
+          <h4 data-i18n="features">Fonctionnalités</h4>
+          <ul>
+            <li data-i18n="pack_secu_f1">Alertes instantanées sur smartphone</li>
+            <li data-i18n="pack_secu_f2">Détection intelligente (IA)</li>
+            <li data-i18n="pack_secu_f3">Sirène puissante</li>
+            <li data-i18n="pack_secu_f4">Vision nocturne HD</li>
+            <li data-i18n="pack_secu_f5">Surveillance en direct</li>
+            <li data-i18n="pack_secu_f6">Capteurs haute précision</li>
+          </ul>
+          <h4 data-i18n="pack_secu_secure_for">Sécurise</h4>
+          <ul>
+            <li data-i18n="pack_secu_s1">🏠 Maison</li>
+            <li data-i18n="pack_secu_s2">🏢 Appartement</li>
+            <li data-i18n="pack_secu_s3">🏪 Commerce</li>
+            <li data-i18n="pack_secu_s4">🚗 Garage</li>
+            <li data-i18n="pack_secu_s5">🕳️ Cave</li>
+            <li data-i18n="pack_secu_s6">💼 Bureau</li>
+          </ul>
+          <h4 data-i18n="how_to_use">Installation</h4>
+          <ol>
+            <li data-i18n="pack_secu_use_1">Brancher l'alarme Tiiwee et la caméra Tapo.</li>
+            <li data-i18n="pack_secu_use_2">Coller les 4 capteurs SONOFF sur portes / fenêtres / garage / balcon.</li>
+            <li data-i18n="pack_secu_use_3">Connecter les appareils à l'application (Tapo + SONOFF).</li>
+            <li data-i18n="pack_secu_use_4">Configurer les alertes smartphone.</li>
+            <li data-i18n="pack_secu_use_5">Tester sirène et détection. C'est prêt en 10 minutes.</li>
+          </ol>
+          <h4 data-i18n="pack_secu_warranty_support">Garantie & Support</h4>
+          <ul>
+            <li data-i18n="pack_secu_ws1">Garantie 24 mois</li>
+            <li data-i18n="pack_secu_ws2">Support client 30 jours</li>
+            <li data-i18n="pack_secu_ws3">Assistance installation si besoin</li>
+          </ul>
+          <h4 data-i18n="pack_secu_why">Pourquoi ce pack ?</h4>
+          <p data-i18n="pack_secu_why_text">Parce qu'il protège toute votre habitation avec une caméra IA, une alarme complète, 4 capteurs et un système prêt à l'emploi. Pack clé en main — idéal pour particuliers et petits commerces.</p>
+        </div>
+        
+        {{STOCK}}
+        {{BOUTON}}
+      </div>
+    </div>
+      `
+    }
+  };
+
+  // ============================================================
+  // 2. AFFICHAGE INSTANTANÉ
+  // ============================================================
+  function renderProductsInstantly() {
+    const grid = document.getElementById("productsGrid");
+    if (!grid) return;
+
+    let finalHTML = "";
+    
+    for (const [priceId, data] of Object.entries(produitsHTML)) {
+      // Bouton par défaut (Panier)
+      const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${data.price}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
+      
+      // Badge de stock initial
+      const tempStock = `<div class="stock-badge" data-id="${priceId}">⏳ Vérification du stock...</div>`;
+      
+      // Remplacement des variables dans le HTML
+      finalHTML += data.html.replace("{{STOCK}}", tempStock).replace("{{BOUTON}}", defaultBtn);
+    }
+    
+    grid.innerHTML = finalHTML;
+    
+    // Initialisation du panier LeCart
+    if (window.LeCart && typeof window.LeCart.init === 'function') {
+      window.LeCart.init();
+    }
+  }
+
+  // ============================================================
+  // 3. MISE À JOUR DES STOCKS
+  // ============================================================
+  async function checkStocks() {
+    try {
+      const { data: dbProduits, error } = await supabaseClient
+        .from('produits')
+        .select('stripe_price_id, stock');
+
+      if (error || !dbProduits) return;
+
+      dbProduits.forEach(prod => {
+        const stockEl = document.querySelector(`.stock-badge[data-id="${prod.stripe_price_id}"]`);
+        const btnEl = document.querySelector(`button[data-stripe-price-id="${prod.stripe_price_id}"]`);
+
+        if (stockEl) {
+          if (prod.stock > 5) {
+            // Stock confortable
+            stockEl.className = "stock-badge stock-in";
+            stockEl.innerHTML = `🟢 En stock (${prod.stock} disponibles)`;
+          } else if (prod.stock > 0 && prod.stock <= 5) {
+            // Stock faible (Urgence)
+            stockEl.className = "stock-badge stock-low";
+            stockEl.innerHTML = `🟠 Plus que ${prod.stock} en stock !`;
+          } else {
+            // Rupture de stock
+            stockEl.className = "stock-badge stock-out";
+            stockEl.innerHTML = `🔴 Rupture de stock`;
+          }
+        }
+
+        // Désactivation du bouton si rupture de stock
+        if (prod.stock <= 0 && btnEl) {
+          btnEl.disabled = true;
+          btnEl.classList.remove("payment-btn"); // On retire le style doré
+          btnEl.classList.add("btn-out-of-stock"); // On ajoute le style rouge/transparent
+          btnEl.innerHTML = "❌ Produit épuisé";
+          btnEl.removeAttribute("data-lecart-add"); // On empêche l'ajout au panier
+        }
+      });
+    } catch (err) {
+      console.error("[PRODUITS] Erreur de vérification des stocks:", err);
+    }
+  }
+
+  // Lancement au chargement de la page
+  document.addEventListener("DOMContentLoaded", () => {
+    renderProductsInstantly();
+    checkStocks();
+  });
+
+})();
