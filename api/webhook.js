@@ -47,10 +47,12 @@ export default async function handler(req, res) {
     const customerEmail = session.customer_details?.email || session.customer_email;
     const montantTotal = (session.amount_total || 0) / 100;
 
-    // 🚨 CORRECTION ICI : On va chercher les produits (line_items) directement chez Stripe
+    // On va chercher les produits (line_items) directement chez Stripe
     let panier = [];
+    let lineItemsData = []; // On garde les données brutes pour récupérer les IDs de prix Stripe
     try {
       const lineItems = await stripe.checkout.sessions.listLineItems(session.id);
+      lineItemsData = lineItems.data;
       panier = lineItems.data.map(item => ({
         nom: item.description,
         prix_unitaire: (item.amount_total || 0) / 100,
@@ -70,8 +72,7 @@ export default async function handler(req, res) {
 
     if (clientError || !client) {
       console.warn("Client introuvable dans Supabase :", customerEmail);
-      // On répond 200 à Stripe pour qu'il ne réessaie pas en boucle, 
-      // mais on ne plante pas le serveur.
+      // On répond 200 à Stripe pour qu'il ne réessaie pas en boucle
       return res.status(200).json({ received: true, info: "Client non trouvé dans la base" });
     }
 
@@ -83,7 +84,7 @@ export default async function handler(req, res) {
           client_id: client.id,
           montant_total: montantTotal,
           statut: 'payé',
-          details_produits: panier, // ✅ On insère les vrais produits ici
+          details_produits: panier,
           adresse_livraison: session.shipping_details?.address?.line1 || session.customer_details?.address?.line1 || "Adresse non fournie"
         }
       ]);
@@ -91,6 +92,23 @@ export default async function handler(req, res) {
     if (insertError) {
       console.error("Erreur insertion commande :", insertError);
       return res.status(500).json({ error: "Erreur base de données" });
+    }
+
+    // ✅ NOUVEAU : Mettre à jour le stock pour chaque produit acheté
+    try {
+      for (const item of lineItemsData) {
+        if (item.price && item.price.id) {
+          // On appelle la fonction SQL "decrement_stock" que l'on a créée dans Supabase
+          await supabase.rpc('decrement_stock', { 
+            price_id: item.price.id, 
+            qty: item.quantity 
+          });
+        }
+      }
+      console.log(`✅ Stocks mis à jour avec succès.`);
+    } catch (stockError) {
+      // On log l'erreur mais on ne bloque pas la commande qui a déjà été enregistrée
+      console.error("Erreur lors de la mise à jour des stocks :", stockError);
     }
 
     console.log(`✅ Commande de ${montantTotal}€ enregistrée pour ${customerEmail}`);
