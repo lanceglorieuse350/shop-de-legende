@@ -1,5 +1,5 @@
 (function () {
-  const SUPABASE_URL = "https://wrhokeajjmupnxpfucc.supabase.co";
+  const SUPABASE_URL = "https://wrhokeajjmupnxpfurcc.supabase.co";
   const SUPABASE_ANON_KEY = "sb_publishable_0mmEGRZ_GKmgKSMKE83S8A_huJaAdL9";
   const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
