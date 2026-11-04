@@ -6,5 +6,30 @@
     "@supabase/supabase-js": "^2.39.0",
     "micro": "^10.0.1",
     "stripe": "^14.5.0"
-  }
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "javascript-obfuscator": "^5.10.0",
+    "terser": "^5.51.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  },
+  "description": "",
+  "main": "app-src.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanceglorieuse350/shop-de-legende.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lanceglorieuse350/shop-de-legende/issues"
+  },
+  "homepage": "https://github.com/lanceglorieuse350/shop-de-legende#readme"
 }

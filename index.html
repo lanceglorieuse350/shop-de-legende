@@ -39,16 +39,23 @@
      ============================================================ -->
 <style>
   /* =========================================
-     CORRECTION PAGE HARCÈLEMENT (Intégrée)
+     CORRECTION PAGE HARCÈLEMENT (Intégrée normalement)
      ========================================= */
   #page-harcelement {
     background: #090909 !important;
     font-family: 'Inter', sans-serif;
     color: #f0f0f0;
     padding: 2rem 1rem;
+    position: relative !important;
+    inset: auto !important;
+    z-index: 1 !important;
+    display: none;
+  }
+  
+  #page-harcelement.active {
+    display: block !important;
   }
 
-  /* Titre principal de la page */
   #page-harcelement h1 {
     color: #ffd700 !important;
     text-shadow: 0 0 20px rgba(255,215,0,0.4) !important;
@@ -58,7 +65,6 @@
     margin-bottom: 2rem;
   }
 
-  /* Intro Box */
   .prevention-intro-box {
     background: linear-gradient(135deg, rgba(225,6,0,0.15), rgba(0,0,0,0.5)) !important;
     border: 1px solid rgba(225,6,0,0.3) !important;
@@ -85,7 +91,6 @@
     letter-spacing: 0.05em;
   }
 
-  /* Sommaire (Grille de boutons) */
   .prevention-summary {
     background: rgba(20,20,20,0.6) !important;
     border: 1px solid rgba(255,215,0,0.15) !important;
@@ -129,7 +134,6 @@
     transform: translateX(5px);
   }
 
-  /* Blocs de sections */
   .prevention-section-block {
     margin-bottom: 4rem !important;
     animation: fadeIn 0.5s ease;
@@ -138,7 +142,6 @@
     margin-right: auto;
   }
   
-  /* Titres des sections en OR */
   .prevention-title-blue, 
   .prevention-title-white, 
   .prevention-title-red {
@@ -151,7 +154,6 @@
     text-shadow: 0 2px 10px rgba(0,0,0,0.5), 0 0 15px rgba(255,215,0,0.2);
   }
 
-  /* Cartes de contenu */
   .prevention-card-full {
     background: linear-gradient(135deg, rgba(30,30,30,0.8), rgba(10,10,10,0.9)) !important;
     border: 1px solid rgba(255,215,0,0.2) !important;
@@ -177,7 +179,6 @@
     margin-bottom: 1.5rem !important;
   }
 
-  /* Liste des peines */
   .prevention-list {
     list-style: none !important;
     padding: 0 !important;
@@ -204,7 +205,6 @@
     color: #eee !important;
   }
   
-  /* Badge de la peine */
   .prevention-list li .peine {
     background: linear-gradient(135deg, #e10600, #8a0000) !important;
     color: #fff !important;
@@ -218,7 +218,6 @@
     letter-spacing: 0.5px;
   }
 
-  /* Boîte d'alerte / Aide */
   .prevention-warning-box {
     background: linear-gradient(135deg, rgba(225,6,0,0.15), rgba(0,0,0,0.8)) !important;
     border: 2px solid #e10600 !important;
@@ -244,7 +243,6 @@
     letter-spacing: 1px;
   }
   
-  /* Boutons d'action */
   .prevention-actions {
     display: flex !important;
     justify-content: center !important;
@@ -313,7 +311,6 @@
     color: #ffd700 !important;
   }
 
-  /* Sommaire Cybersécurité */
   .summary-cyber {
     background: rgba(20,20,20,0.6) !important;
     border: 1px solid rgba(255,215,0,0.3) !important;
@@ -355,7 +352,6 @@
     transform: translateX(5px);
   }
 
-  /* Cartes Cybersécurité */
   .cyber-section {
     background: linear-gradient(135deg, rgba(30,30,30,0.8), rgba(10,10,10,0.9)) !important;
     border: 1px solid rgba(255,215,0,0.2) !important;
@@ -382,7 +378,6 @@
     margin-bottom: 1.5rem !important;
   }
 
-  /* Signature Cybersécurité */
   .signature {
     text-align: right;
     color: #ffd700 !important;
@@ -391,7 +386,6 @@
     font-weight: bold;
   }
 
-  /* Responsive pour mobile */
   @media (max-width: 600px) {
     .prevention-list li { flex-direction: column; align-items: flex-start; }
     .prevention-list li .peine { width: 100%; text-align: center; margin-top: 5px; }
@@ -510,7 +504,6 @@
     <a href="#ongles-beaute" data-nav="ongles-beaute" class="nav-link" data-i18n="nav_beauty">💅 Ongles & Beauté</a>
     <a href="#parrainage" data-nav="parrainage" class="nav-link" data-i18n="nav_parrainage">🤝 Parrainage</a>
     <a href="#prevention-cyber" data-nav="prevention-cyber" class="nav-link" data-i18n="nav_cyber">🛡️ Cybersécurité</a>
-    <!-- Lien Harcèlement modifié pour utiliser data-nav -->
     <a href="#harcelement" data-nav="harcelement" class="nav-link" data-i18n="nav_harassment">🚨 Harcèlement</a>
     <a href="#contact" data-nav="contact" class="nav-link" data-i18n="nav_contact">✉️ Contact</a>
     <a href="#faq" data-nav="faq" class="nav-link" data-i18n="nav_faq">❓ FAQ</a>
@@ -612,7 +605,7 @@
   <p class="intro" data-i18n="shop_intro">Des produits choisis pour l'autonomie, la sécurité, l'extérieur et la vie pratique.</p>
   <p id="noProducts" hidden data-i18n="no_products">Aucun produit ne correspond à cette recherche.</p>
 
-  <!-- Grille vide, remplie dynamiquement par js/produits.js -->
+  <!-- Grille vide, remplie dynamiquement par le script -->
   <div class="products-grid" id="productsGrid"></div>
 
   <section class="info">
@@ -856,7 +849,7 @@
 </div>
 
 <!-- =========================================
-     PAGE HARCÈLEMENT (Maintenant intégrée normalement)
+     PAGE HARCÈLEMENT (Intégrée normalement)
      ========================================= -->
 <div id="page-harcelement" class="page-section">
   <div class="prevention-content">
@@ -1964,17 +1957,10 @@
   </div>
 </div>
 
-<!-- CHARGEMENT DES SCRIPTS EXTERNES -->
-<script src="js/jslecart-init.js"></script>
-<script src="js/jscart-counter.js"></script>
-<script src="js/jsmaintenance.js"></script>
-<script src="js/jssecurity-dashboard.js"></script>
-<script src="js/translations.js"></script>
-<script src="js/jsi18n.js"></script>
-<script src="js/jscore.js"></script>
-<script src="js/auth.js"></script>
-<!-- NOUVEAU SCRIPT POUR LES PRODUITS DYNAMIQUES -->
-<script src="js/produits.js"></script>
+<!-- ============================================================ -->
+<!-- Script secondaire de l'application ( — )        -->
+<!-- ============================================================ -->
+<script src="app.js" defer></script>
 
 </body>
 </html>
