@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   try {
     LeCart.init({
       // ✅ Votre nouvelle clé API
-      lecartApiKey: 'lecart_0-Bbby0TVjcRqMSvtHx0iZ-ELLmhAKUTFyJFYkIGwlY',
+      lecartApiKey: 'lecart_QFARqlmd0rNhYWqJdJPcZ8YZpfRlEWKsNmhnXgVxkDg',
       checkoutEndpoint: 'https://api.getlecart.com/create-checkout',
       stripePublicKey: 'pk_live_51UNkYQRNu37iEZT9IHDIDELHXsO4A5R2ppIQKlBEpev5Q4XX6qRjrTpVHRzcVgaKdykQEm8kVDLKkBXcdPIu33UV008Oeu1wN7',
       currency: 'EUR',
