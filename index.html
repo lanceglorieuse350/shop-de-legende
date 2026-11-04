@@ -21,15 +21,16 @@
 <link rel="preload" as="image" href="background.jpg" fetchpriority="high">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="https://unpkg.com/lecart/dist/lecart.css" crossorigin="anonymous">
-<script src="https://unpkg.com/lecart/dist/lecart.min.js" crossorigin="anonymous" defer></script>
+<!-- ✅ LECART : Version figée + SRI (Bloque toute modification pirate) -->
+<link rel="stylesheet" href="https://unpkg.com/lecart@1.0.0/dist/lecart.css" integrity="sha384-jX1fMwNTDgokIr2sLOOHC3XkleqIqDuR38KnIV/VX1L/Kg3dxBweTnxiMGecfQLQ" crossorigin="anonymous">
+<script src="https://unpkg.com/lecart@1.0.0/dist/lecart.min.js" integrity="sha384-K0ojmSxf+bcrLxHcdUwl0aKqZ5VxF0w9GRK1dYRYRaui7tiHjj3dhXW9vKC7Ae1i" crossorigin="anonymous" defer></script>
 
 <!-- FICHIERS CSS EXTERNES -->
 <link rel="stylesheet" href="css/cssmain.css">
 <link rel="stylesheet" href="css/csssecurity-dashboard.css">
 
-<!-- SDK SUPABASE -->
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<!-- ✅ SDK SUPABASE : Version figée + SRI (Bloque toute modification pirate) -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.39.8/dist/umd/supabase.min.js" integrity="sha384-S21vdBTi9bjHygfLyIjf4A4QFtW9TvQyHFloa8yT8hIcYgaJT82CZextSZs3a5Wx" crossorigin="anonymous"></script>
 
 <!-- Script Analytics Vercel -->
 <script defer src="/_vercel/insights/script.js"></script>
@@ -1958,7 +1959,7 @@
 </div>
 
 <!-- ============================================================ -->
-<!-- Script secondaire de l'application ( — )        -->
+<!-- Script  -          -->
 <!-- ============================================================ -->
 <script src="app.js" defer></script>
 
