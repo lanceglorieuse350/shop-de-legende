@@ -1,3 +1,35 @@
+// =========================================================================
+// 🛠️ CORRECTION DU BUG LECART : Interception de la requête pour corriger l'erreur 400
+// =========================================================================
+(function() {
+  const originalFetch = window.fetch;
+  window.fetch = async function(...args) {
+    let [resource, config] = args;
+    
+    // On vérifie si la requête cible bien l'API de LeCart
+    if (typeof resource === 'string' && resource.includes('api.getlecart.com/create-checkout')) {
+      if (config && config.body) {
+        try {
+          let body = JSON.parse(config.body);
+          
+          // LeCart API exige success_url et cancel_url en snake_case
+          body.success_url = window.location.origin + '/#merci';
+          body.cancel_url = window.location.origin + '/#panier';
+          
+          // On réinjecte le body corrigé
+          config.body = JSON.stringify(body);
+          console.log('[LeCart Fix] Requête corrigée avec succès : ajout de success_url et cancel_url');
+        } catch(e) {
+          console.error('[LeCart Fix] Erreur lors de la correction du body', e);
+        }
+      }
+    }
+    
+    // On laisse la requête continuer
+    return originalFetch.apply(this, args);
+  };
+})();
+
 document.addEventListener('DOMContentLoaded', function() {
   if (typeof LeCart === 'undefined' || typeof LeCart.init !== 'function') {
     console.warn('[LeCart] Bibliothèque non chargée.');
@@ -14,11 +46,9 @@ document.addEventListener('DOMContentLoaded', function() {
       collectShippingAddress: true,
       collectPhoneNumber: true,
       
-      // ✅ CORRECTION 400 : On utilise snake_case (tiret du bas) exigé par l'API
+      // ✅ CORRECTION 400 : On garde les deux syntaxes par sécurité
       success_url: window.location.origin + '/#merci', 
       cancel_url: window.location.origin + '/#panier',
-      
-      // On garde aussi le camelCase au cas où le SDK en ait besoin pour s'initialiser
       successUrl: window.location.origin + '/#merci', 
       cancelUrl: window.location.origin + '/#panier'
     });
@@ -3504,211 +3534,4 @@ window.TRANSLATIONS = {
     </div>
       `
     },
-    "price_1US30aRNu37iEZT9EGBkxLCy": {
-      name: "Endoscope caméra d'inspection",
-      price: "95.00",
-      image: "photo-endoscope.png",
-      html: `
-    <div class="product-card" id="produit-endoscope" data-name="Endoscope caméra d'inspection avec écran" data-price="95" tabindex="-1">
-      <div class="product-images">
-        <img src="photo-endoscope.png" class="product-image" alt="Endoscope caméra d'inspection avec écran" loading="lazy" decoding="async" data-zoom>
-      </div>
-      <div class="product-info">
-        <span class="badge" data-i18n="badge_new">NOUVEAU</span>
-        <h3 class="product-title" data-i18n="endo_title">Endoscope d'Inspection HD</h3>
-        <p class="tagline" data-i18n="endo_tagline">Voyez l'invisible. Ne ratez plus aucun détail.</p>
-        <div class="price">95 €</div>
-        <p class="desc" data-i18n="endo_desc">L'outil indispensable des professionnels et bricoleurs. Écran intégré 4,3", câble semi-rigide de 10 m et caméra 1080P étanche (IP68). Explorez l'inaccessible avec une clarté absolue.</p>
-        
-        <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-endoscope" data-i18n="see_more">Voir plus</button>
-        <div class="details" id="details-endoscope">
-          <h4 data-i18n="full_desc">Description complète</h4>
-          <p data-i18n="endo_full_1">L'outil indispensable pour inspecter les zones difficiles d'accès : conduits, moteurs, tuyaux, gaines, installations techniques ou espaces étroits.</p>
-          <h4 data-i18n="utility">Utilité</h4>
-          <ul>
-            <li data-i18n="endo_util_1">Inspection de moteurs, conduits et tuyaux</li>
-            <li data-i18n="endo_util_2">Travaux domestiques : plomberie, ventilation, câblage</li>
-            <li data-i18n="endo_util_3">Diagnostic mécanique rapide</li>
-            <li data-i18n="endo_util_4">Contrôle visuel dans les zones sombres</li>
-          </ul>
-          <h4 data-i18n="features">Caractéristiques</h4>
-          <ul>
-            <li data-i18n="endo_feat_1">Résolution Full HD 1080P</li>
-            <li data-i18n="endo_feat_2">Caméra 2.0 MP avec éclairage LED réglable</li>
-            <li data-i18n="endo_feat_3">Écran intégré 4,3 pouces</li>
-            <li data-i18n="endo_feat_4">Câble semi-rigide de 10 mètres</li>
-            <li data-i18n="endo_feat_5">Certification IP68 waterproof</li>
-          </ul>
-        </div>
-        
-        {{STOCK}}
-        {{BOUTON}}
-      </div>
-    </div>
-      `
-    },
-    "price_1UV4VuRNu37iEZT9QXBQFhLp": {
-      name: "Pack Sécurité Premium",
-      price: "379.00",
-      image: "Pack-Sécu.jpg",
-      html: `
-    <div class="product-card" id="produit-pack-securite" data-name="Pack Sécurité Premium" data-price="379" tabindex="-1">
-      <div class="product-images">
-        <img src="Pack-Sécu.jpg" class="product-image" alt="Pack Sécurité Premium — Alarme Tiiwee + Caméra Tapo C245D + 4 capteurs SONOFF" loading="lazy" decoding="async" data-zoom>
-      </div>
-      <div class="product-info">
-        <span class="badge" data-i18n="badge_security">🛡️ PACK SÉCURITÉ</span>
-        <h3 class="product-title" data-i18n="pack_secu_title">Pack Sécurité Premium</h3>
-        <p class="tagline" data-i18n="pack_secu_tagline">Votre forteresse numérique et physique.</p>
-        <div class="price">379 €</div>
-        <p class="desc" data-i18n="pack_secu_desc">Alarme Tiiwee, caméra Tapo IA et 4 capteurs SONOFF. Protégez votre foyer ou votre commerce avec un système complet, intelligent et prêt à l'emploi. Installation en 10 minutes.</p>
-        
-        <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-pack-secu" data-i18n="see_more">Voir plus</button>
-        <div class="details" id="details-pack-secu">
-          <h4 data-i18n="full_desc">Description complète</h4>
-          <p data-i18n="pack_secu_full_1">Le Pack Sécurité Premium réunit tout ce qu'il faut pour sécuriser une maison, un appartement, un commerce, un garage, une cave ou un bureau — sans compétence technique, sans câblage complexe. Tout est déjà configuré : vous installez, vous connectez, c'est prêt en 10 minutes.</p>
-          <h4 data-i18n="pack_secu_contents">📦 Contenu du pack (exact)</h4>
-          <ul>
-            <li data-i18n="pack_secu_c1">1 Alarme Tiiwee (sirène + télécommandes)</li>
-            <li data-i18n="pack_secu_c2">1 Caméra IA TP-Link Tapo C245D (vision nocturne + détection)</li>
-            <li data-i18n="pack_secu_c3">4 Capteurs d'ouverture SONOFF (portes / fenêtres / garage / balcon)</li>
-            <li data-i18n="pack_secu_c4">Notice d'installation</li>
-            <li data-i18n="pack_secu_c5">Assistance 30 jours</li>
-          </ul>
-          <h4 data-i18n="features">Fonctionnalités</h4>
-          <ul>
-            <li data-i18n="pack_secu_f1">Alertes instantanées sur smartphone</li>
-            <li data-i18n="pack_secu_f2">Détection intelligente (IA)</li>
-            <li data-i18n="pack_secu_f3">Sirène puissante</li>
-            <li data-i18n="pack_secu_f4">Vision nocturne HD</li>
-            <li data-i18n="pack_secu_f5">Surveillance en direct</li>
-            <li data-i18n="pack_secu_f6">Capteurs haute précision</li>
-          </ul>
-          <h4 data-i18n="pack_secu_secure_for">Sécurise</h4>
-          <ul>
-            <li data-i18n="pack_secu_s1">🏠 Maison</li>
-            <li data-i18n="pack_secu_s2">🏢 Appartement</li>
-            <li data-i18n="pack_secu_s3">🏪 Commerce</li>
-            <li data-i18n="pack_secu_s4">🚗 Garage</li>
-            <li data-i18n="pack_secu_s5">🕳️ Cave</li>
-            <li data-i18n="pack_secu_s6">💼 Bureau</li>
-          </ul>
-          <h4 data-i18n="how_to_use">Installation</h4>
-          <ol>
-            <li data-i18n="pack_secu_use_1">Brancher l'alarme Tiiwee et la caméra Tapo.</li>
-            <li data-i18n="pack_secu_use_2">Coller les 4 capteurs SONOFF sur portes / fenêtres / garage / balcon.</li>
-            <li data-i18n="pack_secu_use_3">Connecter les appareils à l'application (Tapo + SONOFF).</li>
-            <li data-i18n="pack_secu_use_4">Configurer les alertes smartphone.</li>
-            <li data-i18n="pack_secu_use_5">Tester sirène et détection. C'est prêt en 10 minutes.</li>
-          </ol>
-          <h4 data-i18n="pack_secu_warranty_support">Garantie & Support</h4>
-          <ul>
-            <li data-i18n="pack_secu_ws1">Garantie 24 mois</li>
-            <li data-i18n="pack_secu_ws2">Support client 30 jours</li>
-            <li data-i18n="pack_secu_ws3">Assistance installation si besoin</li>
-          </ul>
-          <h4 data-i18n="pack_secu_why">Pourquoi ce pack ?</h4>
-          <p data-i18n="pack_secu_why_text">Parce qu'il protège toute votre habitation avec une caméra IA, une alarme complète, 4 capteurs et un système prêt à l'emploi. Pack clé en main — idéal pour particuliers et petits commerces.</p>
-        </div>
-        
-        {{STOCK}}
-        {{BOUTON}}
-      </div>
-    </div>
-      `
-    }
-  };
-
-  // ============================================================
-  // 2. AFFICHAGE INSTANTANÉ
-  // ============================================================
-  function renderProductsInstantly() {
-    const grid = document.getElementById("productsGrid");
-    if (!grid) return;
-
-    let finalHTML = "";
-    
-    for (const [priceId, data] of Object.entries(produitsHTML)) {
-      const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${data.price}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
-      
-      const tempStock = `<div class="stock-badge" data-id="${priceId}">⏳ Vérification du stock...</div>`;
-      
-      finalHTML += data.html.replace("{{STOCK}}", tempStock).replace("{{BOUTON}}", defaultBtn);
-    }
-    
-    grid.innerHTML = finalHTML;
-    
-    // ❌ SUPPRIMÉ : window.LeCart.init();  → déjà appelé au DOMContentLoaded
-  }
-
-  // ============================================================
-  // 3. MISE À JOUR DES STOCKS
-  // ✅ CORRECTION : Fallback propre si Supabase est absent
-  // ============================================================
-  async function checkStocks() {
-    if (!supabaseClient) {
-      document.querySelectorAll(".stock-badge").forEach(el => {
-        el.className = "stock-badge";
-        el.textContent = "📦 Disponibilité à confirmer";
-      });
-      return;
-    }
-
-    try {
-      const { data: dbProduits, error } = await supabaseClient
-        .from('produits')
-        .select('stripe_price_id, stock');
-
-      if (error || !dbProduits) return;
-
-      const seen = new Set();
-
-      dbProduits.forEach(prod => {
-        seen.add(prod.stripe_price_id);
-        const stockEl = document.querySelector(`.stock-badge[data-id="${prod.stripe_price_id}"]`);
-        const btnEl = document.querySelector(`button[data-stripe-price-id="${prod.stripe_price_id}"]`);
-
-        if (stockEl) {
-          if (prod.stock > 5) {
-            stockEl.className = "stock-badge stock-in";
-            stockEl.innerHTML = `🟢 En stock (${prod.stock} disponibles)`;
-          } else if (prod.stock > 0 && prod.stock <= 5) {
-            stockEl.className = "stock-badge stock-low";
-            stockEl.innerHTML = `🟠 Plus que ${prod.stock} en stock !`;
-          } else {
-            stockEl.className = "stock-badge stock-out";
-            stockEl.innerHTML = `🔴 Rupture de stock`;
-          }
-        }
-
-        if (prod.stock <= 0 && btnEl) {
-          btnEl.disabled = true;
-          btnEl.classList.remove("payment-btn");
-          btnEl.classList.add("btn-out-of-stock");
-          btnEl.innerHTML = "❌ Produit épuisé";
-          btnEl.removeAttribute("data-lecart-add");
-        }
-      });
-
-      // ✅ Fallback pour les produits absents de la DB
-      document.querySelectorAll(".stock-badge").forEach(el => {
-        if (!seen.has(el.dataset.id)) {
-          el.className = "stock-badge";
-          el.textContent = "📦 Disponibilité à confirmer";
-        }
-      });
-    } catch (err) {
-      console.error("[PRODUITS] Erreur de vérification des stocks:", err);
-      document.querySelectorAll(".stock-badge").forEach(el => {
-        el.className = "stock-badge";
-        el.textContent = "📦 Disponibilité à confirmer";
-      });
-    }
-  }
-
-  document.addEventListener("DOMContentLoaded", () => {
-    renderProductsInstantly();
-    checkStocks();
-  });
-
-})();
+    "
