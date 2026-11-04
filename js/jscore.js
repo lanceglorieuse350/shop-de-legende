@@ -23,27 +23,11 @@
       const navLink = e.target.closest('[data-nav]');
       if (navLink) {
         e.preventDefault();
-        
-        // 👉 CORRECTION ICI : On force la fermeture de la modale Harcèlement avant de naviguer
-        if (typeof window.fermerPrevention === "function") {
-          window.fermerPrevention();
-        }
-
         const target = navLink.getAttribute('data-nav');
         const section = navLink.getAttribute('data-section');
         window.navigateTo(target, section);
       }
       
-      if (e.target.closest('[data-close-prevention]')) {
-        e.preventDefault();
-        window.fermerPrevention();
-      }
-      
-      if (e.target.closest('[data-open-prevention]')) {
-        e.preventDefault();
-        window.ouvrirPrevention();
-      }
-
       const zoomImg = e.target.closest('[data-zoom]');
       if (zoomImg) {
         e.preventDefault();
@@ -57,12 +41,6 @@
         const navLink = e.target.closest('[data-nav]');
         if (navLink) {
           e.preventDefault();
-          
-          // 👉 CORRECTION ICI AUSSI : On ferme la modale au clavier
-          if (typeof window.fermerPrevention === "function") {
-            window.fermerPrevention();
-          }
-
           window.navigateTo(navLink.getAttribute('data-nav'), navLink.getAttribute('data-section'));
         }
         const zoomImg = e.target.closest('[data-zoom]');
@@ -82,44 +60,25 @@
     }
 
     // ==========================================
-    // 2. PREVENTION MODAL
-    // ==========================================
-    window.ouvrirPrevention = function(){
-      document.getElementById("prevention-page").classList.add("open");
-      document.body.style.overflow = "hidden";
-      if (typeof window.actualiserBoutonHaut === "function") window.actualiserBoutonHaut();
-      if (typeof window.reapplyLanguage === "function") setTimeout(window.reapplyLanguage, 120);
-    };
-    window.fermerPrevention = function(){
-      document.getElementById("prevention-page").classList.remove("open");
-      document.body.style.overflow = "";
-      if (typeof window.actualiserBoutonHaut === "function") window.actualiserBoutonHaut();
-    };
-
-    // ==========================================
-    // 3. RETOUR EN HAUT & SCROLL
+    // 2. RETOUR EN HAUT & SCROLL
     // ==========================================
     const topBtn = document.getElementById('top');
     if (topBtn) {
       topBtn.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
-        var m = document.getElementById("prevention-page");
-        if (m && m.classList.contains("open")) m.scrollTo({ top: 0, behavior: "smooth" });
       });
     }
 
     window.actualiserBoutonHaut = function(){
       var b = document.getElementById("top"); if (!b) return;
       var w = window.scrollY > 200;
-      var m = document.getElementById("prevention-page");
-      var ms = m && m.classList.contains("open") && m.scrollTop > 200;
-      if (w || ms) b.classList.add("visible");
+      if (w) b.classList.add("visible");
       else b.classList.remove("visible");
     };
     window.addEventListener("scroll", window.actualiserBoutonHaut, { passive: true });
 
     // ==========================================
-    // 4. AUDIO & MUSIQUE
+    // 3. AUDIO & MUSIQUE
     // ==========================================
     var pl = document.getElementById("player"), ms = document.getElementById("musicSelect"), mms = document.getElementById("miniMusicSelect"), mpb = document.getElementById("miniPlayBtn"), vol = document.getElementById("volumeSlider");
     var eq = document.getElementById("musicEq");
@@ -176,7 +135,7 @@
     updBtn();
 
     // ==========================================
-    // 5. DETAILS PRODUITS (Voir plus)
+    // 4. DETAILS PRODUITS (Voir plus)
     // ==========================================
     document.body.addEventListener('click', (e) => {
       const btn = e.target.closest('[data-toggle-details]');
@@ -193,7 +152,7 @@
     });
 
     // ==========================================
-    // 6. FORMULAIRE CONTACT
+    // 5. FORMULAIRE CONTACT
     // ==========================================
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
@@ -213,7 +172,7 @@
     }
 
     // ==========================================
-    // 7. ZOOM IMAGES
+    // 6. ZOOM IMAGES
     // ==========================================
     window.ouvrirZoom = function(s){
       window.ancienFocus = document.activeElement;
@@ -236,7 +195,7 @@
     }
 
     // ==========================================
-    // 8. RECHERCHE
+    // 7. RECHERCHE
     // ==========================================
     const sf = document.getElementById("searchForm"), si = document.getElementById("searchInput"), sc = document.getElementById("clearSearch"), ss = document.getElementById("searchSuggestions"), sr = document.getElementById("searchResults"), sst = document.getElementById("searchStatus"), np = document.getElementById("noProducts");
     
@@ -316,7 +275,7 @@
     }
 
     // ==========================================
-    // 9. CHATBOT (Sécurisé contre les failles XSS)
+    // 8. CHATBOT
     // ==========================================
     const cw = document.getElementById("chatbot-window"), cm = document.getElementById("chat-messages"), ci = document.getElementById("chat-input"), cToggle = document.getElementById("chatbot-toggle"), cClose = document.querySelector(".chat-close"), cSend = document.getElementById("chat-send");
     
@@ -344,12 +303,11 @@
       cSend.addEventListener('click', () => window.envoyerMessageChat());
     }
 
-    // FONCTION CLÉ XSS : addMsgText utilise strictement textContent pour les messages utilisateur
     function addMsgText(text, ty){
       if (!cm) return;
       var m = document.createElement("div");
       m.className = "chat-msg " + (ty || "user");
-      m.textContent = text; // SÉCURISÉ : Pas d'innerHTML ici
+      m.textContent = text;
       cm.appendChild(m);
       cm.scrollTop = cm.scrollHeight;
     }
@@ -359,7 +317,7 @@
       var m = document.createElement("div");
       m.className = "chat-msg " + (ty || "bot");
       if (key) m.dataset.i18nKey = key;
-      m.innerHTML = html; // Utilisé uniquement pour les réponses statiques du bot (non contrôlées par l'utilisateur)
+      m.innerHTML = html;
       cm.appendChild(m);
       if (o && o.length) {
         var z = document.createElement("div"); z.className = "chat-options";
@@ -430,35 +388,6 @@
       }, 900);
     }
 
-    window.retranslateChat = function(){
-      var dict = window.__getDict ? window.__getDict() : null;
-      var cm2 = document.getElementById("chat-messages");
-      if (!cm2) return;
-      cm2.querySelectorAll(".chat-msg.bot[data-i18n-key]").forEach(function(el){
-        var key = el.dataset.i18nKey;
-        if (dict && dict[key]) {
-          el.innerHTML = dict[key];
-        } else if (key === "chat_hello") {
-          el.innerHTML = "👋 Bonjour et bienvenue chez <strong>GUILLET IV</strong> !";
-        } else if (key === "chat_prompt") {
-          el.innerHTML = "Posez-moi une question :";
-        } else if (key === "chat_unknown") {
-          el.innerHTML = "Je ne suis pas sûr de bien comprendre 🤔";
-        }
-      });
-      cm2.querySelectorAll(".chat-option[data-i18n-key]").forEach(function(el){
-        var key = el.dataset.i18nKey;
-        if (dict && dict[key]) {
-          el.textContent = dict[key];
-        }
-      });
-      if (ci) {
-        var phKey = "ask_question";
-        if (dict && dict[phKey]) ci.placeholder = dict[phKey];
-        else ci.placeholder = "Posez-moi une question...";
-      }
-    };
-
     var intents = [
       { intention: "menu", motsCles: ["menu","sommaire","tout","liste","pages"], reponseKey: "chat_menu_title", reponse: "Voici toutes les sections du site :", options: [
         { labelKey: "chat_btn_home", label: "🏠 Accueil", action: function(){ navigateTo("accueil"); toggleChatbot(); } },
@@ -470,7 +399,7 @@
         { labelKey: "chat_btn_contact", label: "✉️ Contact", action: function(){ navigateTo("contact"); toggleChatbot(); } },
         { labelKey: "chat_btn_faq", label: "❓ FAQ", action: function(){ navigateTo("faq"); toggleChatbot(); } },
         { labelKey: "chat_btn_cyber", label: "🛡️ Cybersécurité", action: function(){ navigateTo("prevention-cyber"); toggleChatbot(); } },
-        { labelKey: "chat_btn_harass", label: "🚨 Harcèlement", action: function(){ ouvrirPrevention(); toggleChatbot(); } }
+        { labelKey: "chat_btn_harass", label: "🚨 Harcèlement", action: function(){ navigateTo("harcelement"); toggleChatbot(); } }
       ] },
       { intention: "parrainage", motsCles: ["parrainage","boursorama","starlink","vinted","credit","agricole","banque","compte","prime","parrain","internet","satellite","invitation","octopus","energie","électricité"], reponseKey: "chat_parrainage_reply", reponse: "🤝 Ouvre un compte Boursorama, souscris à Starlink, inscris-toi sur Vinted, au Crédit Agricole ou chez Octopus Energy avec mes liens de parrainage : les infos sont pré-remplies automatiquement !", options: [
         { labelKey: "chat_btn_parrainage", label: "🤝 Voir la page Parrainage", action: function(){ navigateTo("parrainage"); toggleChatbot(); } }
@@ -504,14 +433,17 @@
       return ms2 > 0 ? mm : null;
     }
 
-    // Initialisation au chargement
+    // ==========================================
+    // 9. INITIALISATION ET GESTION DES HASH
+    // ==========================================
     var ih = window.location.hash.replace("#", "") || "accueil";
-    var cp = ["accueil","apropos","vinted","ongles-beaute","parrainage","prevention-cyber","mentions","cgv","confidentialite","faq","contact"];
+    // Ajout de "harcelement" dans la liste des pages normales
+    var cp = ["accueil","apropos","vinted","ongles-beaute","parrainage","prevention-cyber","harcelement","mentions","cgv","confidentialite","faq","contact"];
     var ca = ["mots-de-passe","phishing","force-brute","photos-cles","vie-personnelle","loi-hacking","phishing-droit","donnees-personnelles","test-autorise","incident","conclusion-cyber"];
     var ha = ["prevention-moral","prevention-scolaire","prevention-sexuel","prevention-bande","prevention-aide"];
     
     if (ca.indexOf(ih) !== -1) activerPageCyberEtScroll(ih, false);
-    else if (ha.indexOf(ih) !== -1) { ouvrirPrevention(); setTimeout(function(){ scrollInPreventionModal(ih, 80); }, 150); }
+    else if (ha.indexOf(ih) !== -1) { navigateTo("harcelement"); setTimeout(function(){ scrollToElementWithOffset(document.getElementById(ih), 80); }, 150); }
     else navigateTo(cp.indexOf(ih) !== -1 ? ih : "accueil");
 
     try {
@@ -526,10 +458,19 @@
         if (h && h.startsWith("#")) { var a = h.substring(1); if (ca.indexOf(a) !== -1) { e.preventDefault(); activerPageCyberEtScroll(a, true); } }
       });
     });
+    
+    // Liens du sommaire Harcèlement (défilement normal)
     document.querySelectorAll(".prevention-summary a").forEach(function(l){
       l.addEventListener("click", function(e){
         var h = l.getAttribute("href");
-        if (h && h.startsWith("#")) { var a = h.substring(1); if (ha.indexOf(a) !== -1) { e.preventDefault(); scrollInPreventionModal(a, 80); } }
+        if (h && h.startsWith("#")) { 
+          var a = h.substring(1); 
+          if (ha.indexOf(a) !== -1) { 
+            e.preventDefault(); 
+            scrollToElementWithOffset(document.getElementById(a), 80);
+            history.pushState(null, null, "#" + a);
+          } 
+        }
       });
     });
 
@@ -546,17 +487,14 @@
     window.addEventListener("popstate", function(){
       var h = window.location.hash.replace("#", "") || "accueil";
       if (ca.indexOf(h) !== -1) activerPageCyberEtScroll(h, false);
-      else if (ha.indexOf(h) !== -1) { ouvrirPrevention(); setTimeout(function(){ scrollInPreventionModal(h, 80); }, 150); }
+      else if (ha.indexOf(h) !== -1) { navigateTo("harcelement"); setTimeout(function(){ scrollToElementWithOffset(document.getElementById(h), 80); }, 150); }
       else if (cp.indexOf(h) !== -1) navigateTo(h);
       else navigateTo("accueil");
     });
 
-    var me = document.getElementById("prevention-page");
-    if (me) me.addEventListener("scroll", actualiserBoutonHaut, { passive: true });
     actualiserBoutonHaut();
 
     document.addEventListener("keydown", function(e){
-      if (e.key === "Escape" && document.getElementById("prevention-page").classList.contains("open")) fermerPrevention();
       var m = document.getElementById("zoomModal");
       if (m && m.style.display === "flex" && e.key === "Escape") fermerZoom();
     });
@@ -580,19 +518,10 @@
       window.scrollTo({ top: e.getBoundingClientRect().top + window.pageYOffset - o, behavior: "smooth" });
     };
 
-    window.scrollInPreventionModal = function(a, o){
-      if (o === undefined) o = 80;
-      var m = document.getElementById("prevention-page"); var e = document.getElementById(a);
-      if (!m || !e) return;
-      m.scrollTo({ top: Math.max(0, m.scrollTop + (e.getBoundingClientRect().top - m.getBoundingClientRect().top) - o), behavior: "smooth" });
-    };
-
     window.activerPageCyberEtScroll = function(a, p){
       if (p === undefined) p = true;
       document.querySelectorAll(".page-section").forEach(function(s){ s.classList.remove("active"); });
       var c = document.getElementById("page-prevention-cyber"); if (c) c.classList.add("active");
-      var m = document.getElementById("prevention-page");
-      if (m && m.classList.contains("open")) { m.classList.remove("open"); document.body.style.overflow = ""; }
       try { if (p) history.pushState(null, null, "#" + a); else history.replaceState(null, null, "#" + a); } catch(e){}
       document.querySelectorAll(".nav-link").forEach(function(l){ l.classList.remove("active-link"); if (l.getAttribute("href") === "#prevention-cyber") l.classList.add("active-link"); });
       setTimeout(function(){ var e = document.getElementById(a); if (e) scrollToElementWithOffset(e, 80); }, 50);
