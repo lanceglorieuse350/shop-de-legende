@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
     console.warn('[LeCart] Bibliothèque non chargée.');
     return;
   }
+
+  const baseUrl = window.location.origin + window.location.pathname;
+
   try {
     LeCart.init({
       lecartApiKey: 'lecart_QFARqlmd0rNhYWqJdJPcZ8YZpfRlEWKsNmhnXgVxkDg',
@@ -13,20 +16,30 @@ document.addEventListener('DOMContentLoaded', function() {
       theme: 'dark',
       collectShippingAddress: true,
       collectPhoneNumber: true,
-      
-      // ✅ CORRECTION 400 : On utilise snake_case (tiret du bas) exigé par l'API
-      success_url: window.location.origin + '/#merci', 
-      cancel_url: window.location.origin + '/#panier',
-      
-      // On garde aussi le camelCase au cas où le SDK en ait besoin pour s'initialiser
-      successUrl: window.location.origin + '/#merci', 
-      cancelUrl: window.location.origin + '/#panier'
+      successUrl: baseUrl + '?checkout=success',
+      cancelUrl:  baseUrl + '?checkout=cancel'
     });
-  } catch(e) {
-    console.error('[LeCart] Erreur :', e);
+    console.log('[LeCart] ✅ Initialisé avec succès');
+  } catch (e) {
+    console.error('[LeCart] ❌ Erreur d\'initialisation :', e);
+    return;
+  }
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const checkoutStatus = urlParams.get('checkout');
+
+  if (checkoutStatus === 'success') {
+    setTimeout(function() {
+      alert('✅ Paiement réussi ! Merci pour votre commande.\n\nUn e-mail de confirmation vous sera envoyé.');
+      window.history.replaceState({}, '', window.location.pathname + '#accueil');
+    }, 500);
+  } else if (checkoutStatus === 'cancel') {
+    setTimeout(function() {
+      alert('❌ Paiement annulé.\n\nVotre panier est conservé si vous souhaitez réessayer.');
+      window.history.replaceState({}, '', window.location.pathname + '#accueil');
+    }, 500);
   }
 });
-
 (function(){
   "use strict";
   function majCompteur() {
