@@ -21,27 +21,17 @@
 <link rel="preload" as="image" href="background.jpg" fetchpriority="high">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- ✅ LECART : Version figée + SRI (Bloque toute modification pirate) -->
 <link rel="stylesheet" href="https://unpkg.com/lecart@1.0.0/dist/lecart.css" integrity="sha384-jX1fMwNTDgokIr2sLOOHC3XkleqIqDuR38KnIV/VX1L/Kg3dxBweTnxiMGecfQLQ" crossorigin="anonymous">
 <script src="https://unpkg.com/lecart@1.0.0/dist/lecart.min.js" integrity="sha384-K0ojmSxf+bcrLxHcdUwl0aKqZ5VxF0w9GRK1dYRYRaui7tiHjj3dhXW9vKC7Ae1i" crossorigin="anonymous" defer></script>
 
-<!-- FICHIERS CSS EXTERNES -->
 <link rel="stylesheet" href="css/cssmain.css">
 <link rel="stylesheet" href="css/csssecurity-dashboard.css">
 
-<!-- ✅ SDK SUPABASE : Version figée + SRI (Bloque toute modification pirate) -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.39.8/dist/umd/supabase.min.js" integrity="sha384-S21vdBTi9bjHygfLyIjf4A4QFtW9TvQyHFloa8yT8hIcYgaJT82CZextSZs3a5Wx" crossorigin="anonymous"></script>
 
-<!-- Script Analytics Vercel -->
 <script defer src="/_vercel/insights/script.js"></script>
 
-<!-- ============================================================
-     STYLE EXCLUSIF POUR LES PAGES HARCÈLEMENT & CYBERSÉCURITÉ
-     ============================================================ -->
 <style>
-  /* =========================================
-     CORRECTION PAGE HARCÈLEMENT (Intégrée normalement)
-     ========================================= */
   #page-harcelement {
     background: #090909 !important;
     font-family: 'Inter', sans-serif;
@@ -284,9 +274,6 @@
     box-shadow: 0 15px 35px rgba(225,6,0,0.5) !important;
   }
 
-  /* =========================================
-     AMÉLIORATION PAGE CYBERSÉCURITÉ
-     ========================================= */
   #page-prevention-cyber {
     background: #090909 !important;
     font-family: 'Inter', sans-serif;
@@ -397,7 +384,6 @@
 </head>
 <body>
 
-<!-- SECTION MAINTENANCE -->
 <div id="maintenance-page" aria-hidden="true">
   <div class="maintenance-wrapper">
     <div class="maintenance-emblem">IV</div>
@@ -490,10 +476,8 @@
         <option value="zh">🇨🇳 ZH</option>
       </select>
       
-      <!-- BOUTON CONNEXION -->
       <button type="button" id="authBtn" class="auth-btn" style="background:transparent;color:var(--gold);border:1px solid var(--gold); padding:0.5rem 0.8rem; border-radius:var(--radius-md); font-size:0.8rem; font-weight:700; cursor:pointer;">🔐 Connexion</button>
 
-      <!-- BOUTON LUMIERE -->
       <button type="button" id="themeToggleBtn" class="mode-btn" aria-label="Changer de mode clair ou sombre" data-i18n-aria="toggle_mode">🌙 / ☀️</button>
     </div>
   </div>
@@ -580,7 +564,6 @@
 
 <main>
 
-<!-- PAGE ACCUEIL -->
 <div id="page-accueil" class="page-section active">
   <section class="hero" id="accueil">
     <div class="hero-slider">
@@ -606,7 +589,6 @@
   <p class="intro" data-i18n="shop_intro">Des produits choisis pour l'autonomie, la sécurité, l'extérieur et la vie pratique.</p>
   <p id="noProducts" hidden data-i18n="no_products">Aucun produit ne correspond à cette recherche.</p>
 
-  <!-- Grille vide, remplie dynamiquement par le script -->
   <div class="products-grid" id="productsGrid"></div>
 
   <section class="info">
@@ -629,7 +611,6 @@
   </section>
 </div>
 
-<!-- PAGE À PROPOS -->
 <div id="page-apropos" class="page-section">
   <div class="page-container max-width-full">
     <section class="hero pt-0" id="apropos">
@@ -672,7 +653,6 @@
   </div>
 </div>
 
-<!-- PAGE PARRAINAGE -->
 <div id="page-parrainage" class="page-section">
   <section class="parrainage-hero" id="parrainage">
     <h1 data-i18n="parrainage_title">🤝 Parrainage</h1>
@@ -786,7 +766,6 @@
   </div>
 </div>
 
-<!-- PAGE VINTED -->
 <div id="page-vinted" class="page-section">
   <div class="page-container text-center">
     <h1 data-i18n="my_vinted">👕 Mon Vinted</h1>
@@ -802,7 +781,6 @@
   </div>
 </div>
 
-<!-- PAGE ONGLES & BEAUTÉ -->
 <div id="page-ongles-beaute" class="page-section">
   <section class="beauty-hero" id="ongles-beaute">
     <h1 data-i18n="beauty_title">💅 Ongles & Beauté — SHAYNAILS</h1>
@@ -849,9 +827,6 @@
   </div>
 </div>
 
-<!-- =========================================
-     PAGE HARCÈLEMENT (Intégrée normalement)
-     ========================================= -->
 <div id="page-harcelement" class="page-section">
   <div class="prevention-content">
     
@@ -952,7 +927,6 @@
   </div>
 </div>
 
-<!-- PAGE PRÉVENTION CYBERSÉCURITÉ -->
 <div id="page-prevention-cyber" class="page-section">
   <div class="page-container">
     <header class="page-header-cyber">
@@ -1028,7 +1002,6 @@
   </div>
 </div>
 
-<!-- PAGE MENTIONS LÉGALES & SÉCURITÉ -->
 <div id="page-mentions" class="page-section">
   <div class="page-container">
     <h1 data-i18n="legal_notice">⚖️ Mentions légales & Sécurité</h1>
@@ -1075,7 +1048,6 @@
       <p data-i18n="legal_liability_p1">GUILLET IV ne peut être tenu responsable des dommages liés à l'utilisation du site ou des produits, sauf preuve d'une faute directe.</p>
     </section>
 
-    <!-- ✅ NOUVELLE SOUS-SECTION ASSURANCE ICI -->
     <section>
       <h2>7. Assurance</h2>
       <p>L'entreprise <strong>GUILLET IV</strong> est couverte par une assurance professionnelle adaptée à la vente en ligne.</p>
@@ -1510,7 +1482,6 @@
   </div>
 </div>
 
-<!-- PAGE CGV -->
 <div id="page-cgv" class="page-section">
   <div class="page-container">
     <h1 data-i18n="terms_sale">📄 Conditions Générales de Vente – GUILLET IV</h1>
@@ -1595,7 +1566,6 @@
   </div>
 </div>
 
-<!-- PAGE POLITIQUE DE CONFIDENTIALITÉ (RGPD) -->
 <div id="page-confidentialite" class="page-section">
   <div class="page-container">
     <h1 data-i18n="privacy_title">📄 Politique de Confidentialité (RGPD)</h1>
@@ -1716,7 +1686,6 @@
   </div>
 </div>
 
-<!-- PAGE FAQ -->
 <div id="page-faq" class="page-section">
   <div class="page-container">
     <h1 data-i18n="faq_title">❓ Foire Aux Questions</h1>
@@ -1793,7 +1762,6 @@
   </div>
 </div>
 
-<!-- PAGE CONTACT -->
 <div id="page-contact" class="page-section">
   <div class="page-container">
     <h1 data-i18n="contact_title">✉️ Contactez-nous</h1>
@@ -1890,7 +1858,6 @@
   <span id="panierCount" aria-live="polite">0</span>
 </button>
 
-<!-- MODALE AUTHENTIFICATION -->
 <div id="authModal" role="dialog" aria-modal="true" aria-labelledby="authModalTitle" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.9); backdrop-filter:blur(5px); justify-content:center; align-items:center; padding:1rem;">
   <div style="background:linear-gradient(135deg, var(--card-bg), #0a0a0a); border:2px solid var(--gold); border-radius:var(--radius-lg); padding:2.5rem; width:100%; max-width:400px; position:relative;">
     <button type="button" id="closeAuthModal" aria-label="Fermer la fenêtre de connexion" style="position:absolute; top:1rem; right:1rem; background:transparent; border:none; color:#fff; font-size:1.5rem; cursor:pointer;">✕</button>
@@ -1901,7 +1868,6 @@
       <input type="email" id="authEmail" placeholder="Votre adresse e-mail" required autocomplete="email" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
       <input type="password" id="authPassword" placeholder="Votre mot de passe" required autocomplete="current-password" minlength="6" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
       
-      <!-- Case à cocher Newsletter -->
       <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
         <input type="checkbox" id="authNewsletter" style="width: auto; cursor: pointer; accent-color: var(--gold);">
         <label for="authNewsletter" style="font-size: 0.85rem; color: #ccc; cursor: pointer;">
@@ -1929,7 +1895,6 @@
   </div>
 </div>
 
-<!-- MODALE PROFIL CLIENT -->
 <div id="profileModal" role="dialog" aria-modal="true" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.9); backdrop-filter:blur(5px); justify-content:center; align-items:center; padding:1rem;">
   <div style="background:linear-gradient(135deg, var(--card-bg), #0a0a0a); border:2px solid var(--gold); border-radius:var(--radius-lg); padding:2.5rem; width:100%; max-width:500px; position:relative;">
     <button type="button" id="closeProfileModal" aria-label="Fermer la fenêtre de profil" style="position:absolute; top:1rem; right:1rem; background:transparent; border:none; color:#fff; font-size:1.5rem; cursor:pointer;">✕</button>
@@ -1949,7 +1914,6 @@
       <div id="profileMessage" style="text-align:center; color:var(--accent-safe); font-size:0.9rem; margin-top:0.5rem;"></div>
     </form>
 
-    <!-- Historique des commandes -->
     <hr style="border:none; border-top:1px solid var(--border-color); margin:2rem 0;">
     <h3 style="color:var(--gold); font-family:var(--font-display); margin-bottom:1rem;">📦 Mes commandes</h3>
     <div id="ordersList" style="max-height: 200px; overflow-y: auto; font-size: 0.9rem; color: #fff;">
@@ -1958,9 +1922,6 @@
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- Script  -          -->
-<!-- ============================================================ -->
 <script src="app.js" defer></script>
 
 </body>
