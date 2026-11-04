@@ -1,10 +1,9 @@
 (function () {
-  // ✅ CORRECTION : On utilise la connexion globale créée par auth.js
+  // ✅ On utilise la connexion globale créée par auth.js
   const supabaseClient = window.supabaseClient;
 
   if (!supabaseClient) {
-    console.error("[PRODUITS] Supabase n'est pas initialisé. Vérifiez auth.js.");
-    return;
+    console.warn("[PRODUITS] Supabase n'est pas initialisé. Les stocks ne seront pas vérifiés.");
   }
 
   // ============================================================
@@ -317,8 +316,12 @@
     let finalHTML = "";
     
     for (const [priceId, data] of Object.entries(produitsHTML)) {
+      
+      // ✅ CORRECTION 1 : On multiplie par 100 pour envoyer le prix en centimes à Stripe (8900 au lieu de 89.00)
+      const priceInCents = Math.round(parseFloat(data.price) * 100);
+
       // Bouton par défaut (Panier)
-      const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${data.price}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
+      const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${priceInCents}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
       
       // Badge de stock initial
       const tempStock = `<div class="stock-badge" data-id="${priceId}">⏳ Vérification du stock...</div>`;
@@ -329,16 +332,22 @@
     
     grid.innerHTML = finalHTML;
     
-    // Initialisation du panier LeCart
-    if (window.LeCart && typeof window.LeCart.init === 'function') {
-      window.LeCart.init();
-    }
+    // ❌ SUPPRIMÉ : window.LeCart.init(); (C'est jslecart-init.js qui gère ça maintenant)
   }
 
   // ============================================================
   // 3. MISE À JOUR DES STOCKS
   // ============================================================
   async function checkStocks() {
+    // Si Supabase n'est pas chargé, on affiche un stock par défaut
+    if (!supabaseClient) {
+      document.querySelectorAll(".stock-badge").forEach(el => {
+        el.className = "stock-badge";
+        el.textContent = "📦 Disponibilité à confirmer";
+      });
+      return;
+    }
+
     try {
       const { data: dbProduits, error } = await supabaseClient
         .from('produits')
@@ -346,35 +355,43 @@
 
       if (error || !dbProduits) return;
 
+      const seen = new Set();
+
       dbProduits.forEach(prod => {
+        seen.add(prod.stripe_price_id);
         const stockEl = document.querySelector(`.stock-badge[data-id="${prod.stripe_price_id}"]`);
         const btnEl = document.querySelector(`button[data-stripe-price-id="${prod.stripe_price_id}"]`);
 
         if (stockEl) {
           if (prod.stock > 5) {
-            // Stock confortable
             stockEl.className = "stock-badge stock-in";
             stockEl.innerHTML = `🟢 En stock (${prod.stock} disponibles)`;
           } else if (prod.stock > 0 && prod.stock <= 5) {
-            // Stock faible (Urgence)
             stockEl.className = "stock-badge stock-low";
             stockEl.innerHTML = `🟠 Plus que ${prod.stock} en stock !`;
           } else {
-            // Rupture de stock
             stockEl.className = "stock-badge stock-out";
             stockEl.innerHTML = `🔴 Rupture de stock`;
           }
         }
 
-        // Désactivation du bouton si rupture de stock
         if (prod.stock <= 0 && btnEl) {
           btnEl.disabled = true;
-          btnEl.classList.remove("payment-btn"); // On retire le style doré
-          btnEl.classList.add("btn-out-of-stock"); // On ajoute le style rouge/transparent
+          btnEl.classList.remove("payment-btn");
+          btnEl.classList.add("btn-out-of-stock");
           btnEl.innerHTML = "❌ Produit épuisé";
-          btnEl.removeAttribute("data-lecart-add"); // On empêche l'ajout au panier
+          btnEl.removeAttribute("data-lecart-add");
         }
       });
+
+      // Fallback pour les produits absents de la DB
+      document.querySelectorAll(".stock-badge").forEach(el => {
+        if (!seen.has(el.dataset.id)) {
+          el.className = "stock-badge";
+          el.textContent = "📦 Disponibilité à confirmer";
+        }
+      });
+
     } catch (err) {
       console.error("[PRODUITS] Erreur de vérification des stocks:", err);
     }
