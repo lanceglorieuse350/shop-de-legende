@@ -1757,6 +1757,14 @@
       <input type="email" id="authEmail" placeholder="Votre adresse e-mail" required autocomplete="email" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
       <input type="password" id="authPassword" placeholder="Votre mot de passe" required autocomplete="current-password" minlength="6" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
       
+      <!-- Case à cocher Newsletter -->
+      <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
+        <input type="checkbox" id="authNewsletter" style="width: auto; cursor: pointer; accent-color: var(--gold);">
+        <label for="authNewsletter" style="font-size: 0.85rem; color: #ccc; cursor: pointer;">
+          Je souhaite recevoir les offres exclusives et nouveautés
+        </label>
+      </div>
+
       <button type="submit" id="authSubmitBtn" style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-weight:bold; padding:1rem; border-radius:var(--radius-md); border:none; cursor:pointer; margin-top:0.5rem;">Se connecter / S'inscrire</button>
     </form>
 

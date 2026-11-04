@@ -27,6 +27,7 @@
   const authMessage    = document.getElementById("authMessage");
   const googleAuthBtn  = document.getElementById("googleAuthBtn");
   const authSubmitBtn  = document.getElementById("authSubmitBtn");
+  const authNewsletter = document.getElementById("authNewsletter"); // ✅ NOUVEAU
 
   // Éléments du profil
   const profileModal       = document.getElementById("profileModal");
@@ -138,6 +139,7 @@
 
     const email    = (authEmail.value || "").trim();
     const password = authPassword.value || "";
+    const wantsNewsletter = authNewsletter?.checked || false; // ✅ NOUVEAU
 
     if (!email || !password) {
       showMessage("Veuillez remplir tous les champs.", "var(--red)");
@@ -159,7 +161,12 @@
           // Tentative d'inscription
           const { data: signUpData, error: signUpError } = await supabaseClient.auth.signUp({
             email,
-            password
+            password,
+            options: {
+              data: {
+                newsletter: wantsNewsletter // ✅ NOUVEAU : On envoie la préférence au Trigger SQL
+              }
+            }
           });
 
           if (signUpError) {
