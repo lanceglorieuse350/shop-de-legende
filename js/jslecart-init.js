@@ -4,16 +4,17 @@ document.addEventListener('DOMContentLoaded', function() {
     return;
   }
 
-  // ✅ On construit l'URL de base sans le hash (#accueil) pour Stripe
+  // On construit l'URL de base sans le hash (#accueil) pour Stripe
   const baseUrl = window.location.origin + window.location.pathname;
 
   try {
     LeCart.init({
-      // ✅ Clé API LeCart
+      // ⚠️ VÉRIFIEZ BIEN CETTE CLÉ SUR VOTRE DASHBOARD LECART (app.getlecart.com)
       lecartApiKey: 'lecart_QFARqlmd0rNhYWqJdJPcZ8YZpfRlEWKsNmhnXgVxkDg',
+      
       checkoutEndpoint: 'https://api.getlecart.com/create-checkout',
       
-      // ✅ NOUVELLE CLÉ STRIPE PUBLIQUE INSÉRÉE ICI
+      // ✅ Votre nouvelle clé publique Stripe
       stripePublicKey: 'pk_live_51UNkYQRNu37iEZT9JFa1lJZFQ2eVox5wR6oSjl7A4MznYh5RypGYCqDTFVoaLrPEsV5r5XFRlLYmv85c6bzq8qCq00zNEhZHTn',
       
       currency: 'EUR',
@@ -22,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
       collectShippingAddress: true,
       collectPhoneNumber: true,
       
-      // ✅ URLs de redirection (Indispensable pour éviter l'erreur 400)
+      // Les URLs de redirection (doivent être absolues)
       successUrl: baseUrl + '?checkout=success',
       cancelUrl:  baseUrl + '?checkout=cancel'
     });
@@ -32,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     return;
   }
 
-  // ✅ GESTION DU RETOUR STRIPE (Affiche le message après le paiement)
+  // Gestion du retour après paiement
   const urlParams = new URLSearchParams(window.location.search);
   const checkoutStatus = urlParams.get('checkout');
 
