@@ -68,7 +68,7 @@ const OUTPUT = './app.js';   // fichier final à charger dans le HTML
 
     // ✅ PROTECTION DE LA CLÉ API ET DES MOTS-CLÉS LECART
     reservedStrings: [
-      'lecart_0-Bbby0TVjcRqMSvtHx0iZ-ELLmhAKUTFyJFYkIGwlY'
+      'lecart_QFARqlmd0rNhYWqJdJPcZ8YZpfRlEWKsNmhnXgVxkDg'
     ],
     reservedNames: [
       'LeCart', 'lecartApiKey', 'checkoutEndpoint', 'stripePublicKey'
