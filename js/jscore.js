@@ -4,6 +4,47 @@
   document.addEventListener('DOMContentLoaded', () => {
 
     // ==========================================
+    // 0. LECART — INITIALISATION PAIEMENT
+    // ==========================================
+    if (typeof LeCart !== 'undefined' && typeof LeCart.init === 'function') {
+      const baseUrl = window.location.origin + window.location.pathname;
+      try {
+        LeCart.init({
+          lecartApiKey: 'lecart_QFARqlmd0rNhYWqJdJPcZ8YZpfRlEWKsNmhnXgVxkDg',
+          checkoutEndpoint: 'https://api.getlecart.com/create-checkout',
+          stripePublicKey: 'pk_live_51UNkYQRNu37iEZT9JFa1lJZFQ2eVox5wR6oSjl7A4MznYh5RypGYCqDTFVoaLrPEsV5r5XFRlLYmv85c6bzq8qCq00zNEhZHTn',
+          currency: 'EUR',
+          language: 'fr',
+          theme: 'dark',
+          collectShippingAddress: true,
+          collectPhoneNumber: true,
+          successUrl: baseUrl + '?checkout=success',
+          cancelUrl: baseUrl + '?checkout=cancel'
+        });
+        console.log('[LeCart] ✅ Initialisé avec succès');
+      } catch(e) {
+        console.error("[LeCart] ❌ Erreur d'initialisation :", e);
+      }
+
+      // Retour après paiement
+      const urlParams = new URLSearchParams(window.location.search);
+      const checkoutStatus = urlParams.get('checkout');
+      if (checkoutStatus === 'success') {
+        setTimeout(function() {
+          alert('✅ Paiement réussi ! Merci pour votre commande.\n\nUn e-mail de confirmation vous sera envoyé.');
+          window.history.replaceState({}, '', window.location.pathname + '#accueil');
+        }, 500);
+      } else if (checkoutStatus === 'cancel') {
+        setTimeout(function() {
+          alert('❌ Paiement annulé.\n\nVotre panier est conservé si vous souhaitez réessayer.');
+          window.history.replaceState({}, '', window.location.pathname + '#accueil');
+        }, 500);
+      }
+    } else {
+      console.warn('[LeCart] Bibliothèque non chargée — vérifie le <script> CDN.');
+    }
+
+    // ==========================================
     // 1. NAVIGATION & UI GLOBALE
     // ==========================================
     window.navigateTo = function(p, a){
@@ -418,7 +459,8 @@
       { intention: "beaute", motsCles: ["ongle","ongles","beaute","beauté","vernis","manucure","nail"], reponseKey: "chat_beauty_reply", reponse: "💅 La section <strong>Ongles & Beauté</strong>.", options: [
         { labelKey: "chat_btn_see_section", label: "Voir la section", action: function(){ navigateTo("ongles-beaute"); toggleChatbot(); } }
       ] },
-      { intention: "prix", motsCles: ["prix","tarif","combien","cout"], reponseKey: "chat_price_reply", reponse: "💰 Drone: 89€ • Projecteur: 35€ • Pack Hiver: 99,99€ • Endoscope: 95€ • Pack Sécurité Premium: 350€" },
+      // ✅ CORRIGÉ : Pack Sécurité 350€ → 379€
+      { intention: "prix", motsCles: ["prix","tarif","combien","cout"], reponseKey: "chat_price_reply", reponse: "💰 Drone: 89€ • Projecteur: 35€ • Pack Hiver: 99,99€ • Endoscope: 95€ • Pack Sécurité Premium: 379€" },
       { intention: "merci", motsCles: ["merci","super","parfait","top"], reponseKey: "chat_thanks_reply", reponse: "Avec plaisir ! 🙏" }
     ];
 
@@ -437,7 +479,6 @@
     // 9. INITIALISATION ET GESTION DES HASH
     // ==========================================
     var ih = window.location.hash.replace("#", "") || "accueil";
-    // Ajout de "harcelement" dans la liste des pages normales
     var cp = ["accueil","apropos","vinted","ongles-beaute","parrainage","prevention-cyber","harcelement","mentions","cgv","confidentialite","faq","contact"];
     var ca = ["mots-de-passe","phishing","force-brute","photos-cles","vie-personnelle","loi-hacking","phishing-droit","donnees-personnelles","test-autorise","incident","conclusion-cyber"];
     var ha = ["prevention-moral","prevention-scolaire","prevention-sexuel","prevention-bande","prevention-aide"];
@@ -459,7 +500,6 @@
       });
     });
     
-    // Liens du sommaire Harcèlement (défilement normal)
     document.querySelectorAll(".prevention-summary a").forEach(function(l){
       l.addEventListener("click", function(e){
         var h = l.getAttribute("href");
