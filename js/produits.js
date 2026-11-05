@@ -6,6 +6,9 @@
   }
 
   const produitsHTML = {
+    // --------------------------------------------------------
+    // DRONE
+    // --------------------------------------------------------
     "price_1URq5TRNu37iEZT9kBjY7X1G": {
       name: "KY108 Drone",
       price: "89.00",
@@ -69,6 +72,9 @@
       `
     },
 
+    // --------------------------------------------------------
+    // PROJECTEUR
+    // --------------------------------------------------------
     "price_1URs5zRNu37iEZT9MkNDMhFW": {
       name: "Projecteur LED rotatif",
       price: "35.00",
@@ -112,6 +118,9 @@
       `
     },
 
+    // --------------------------------------------------------
+    // PACK HIVER
+    // --------------------------------------------------------
     "price_1URsA0RNu37iEZT9Yq7pXGpL": {
       name: "Winter Survival Pack",
       price: "99.99",
@@ -170,6 +179,9 @@
       `
     },
 
+    // --------------------------------------------------------
+    // ENDOSCOPE
+    // --------------------------------------------------------
     "price_1US30aRNu37iEZT9EGBkxLCy": {
       name: "Endoscope caméra d'inspection",
       price: "95.00",
@@ -214,6 +226,9 @@
       `
     },
 
+    // --------------------------------------------------------
+    // PACK SECURITE
+    // --------------------------------------------------------
     "price_1UV4VuRNu37iEZT9QXBQFhLp": {
       name: "Pack Sécurité Premium",
       price: "379.00",
@@ -294,7 +309,7 @@
     
     for (const [priceId, data] of Object.entries(produitsHTML)) {
       
-      // ✅ CORRECTION : On multiplie par 100 pour envoyer le prix en centimes à Stripe (8900 au lieu de 89.00)
+      // ✅ On convertit le prix en centimes pour Stripe
       const priceInCents = Math.round(parseFloat(data.price) * 100);
 
       const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${priceInCents}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
