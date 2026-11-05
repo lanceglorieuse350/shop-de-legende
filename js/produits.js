@@ -1,18 +1,11 @@
 (function () {
-  // ✅ On utilise la connexion globale créée par auth.js
   const supabaseClient = window.supabaseClient;
 
   if (!supabaseClient) {
     console.warn("[PRODUITS] Supabase n'est pas initialisé. Les stocks ne seront pas vérifiés.");
   }
 
-  // ============================================================
-  // 1. DONNÉES DES PRODUITS & TEXTES AMÉLIORÉS
-  // ============================================================
   const produitsHTML = {
-    // --------------------------------------------------------
-    // DRONE
-    // --------------------------------------------------------
     "price_1URq5TRNu37iEZT9kBjY7X1G": {
       name: "KY108 Drone",
       price: "89.00",
@@ -66,7 +59,6 @@
         {{STOCK}}
         {{BOUTON}}
 
-        <!-- VIDÉO PLACÉE TOUT EN BAS -->
         <div class="drone-video-wrapper">
           <video src="publicite_drone.mp4" controls preload="none" playsinline class="video-full" aria-label="Publicité du drone KY108" poster="photo1.png">
             Votre navigateur ne prend pas en charge la lecture vidéo.
@@ -77,9 +69,6 @@
       `
     },
 
-    // --------------------------------------------------------
-    // PROJECTEUR
-    // --------------------------------------------------------
     "price_1URs5zRNu37iEZT9MkNDMhFW": {
       name: "Projecteur LED rotatif",
       price: "35.00",
@@ -123,9 +112,6 @@
       `
     },
 
-    // --------------------------------------------------------
-    // PACK HIVER
-    // --------------------------------------------------------
     "price_1URsA0RNu37iEZT9Yq7pXGpL": {
       name: "Winter Survival Pack",
       price: "99.99",
@@ -184,9 +170,6 @@
       `
     },
 
-    // --------------------------------------------------------
-    // ENDOSCOPE
-    // --------------------------------------------------------
     "price_1US30aRNu37iEZT9EGBkxLCy": {
       name: "Endoscope caméra d'inspection",
       price: "95.00",
@@ -231,9 +214,6 @@
       `
     },
 
-    // --------------------------------------------------------
-    // PACK SECURITE
-    // --------------------------------------------------------
     "price_1UV4VuRNu37iEZT9QXBQFhLp": {
       name: "Pack Sécurité Premium",
       price: "379.00",
@@ -306,9 +286,6 @@
     }
   };
 
-  // ============================================================
-  // 2. AFFICHAGE INSTANTANÉ
-  // ============================================================
   function renderProductsInstantly() {
     const grid = document.getElementById("productsGrid");
     if (!grid) return;
@@ -317,29 +294,20 @@
     
     for (const [priceId, data] of Object.entries(produitsHTML)) {
       
-      // ✅ CORRECTION 1 : On multiplie par 100 pour envoyer le prix en centimes à Stripe (8900 au lieu de 89.00)
+      // ✅ CORRECTION : On multiplie par 100 pour envoyer le prix en centimes à Stripe (8900 au lieu de 89.00)
       const priceInCents = Math.round(parseFloat(data.price) * 100);
 
-      // Bouton par défaut (Panier)
       const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${priceInCents}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
       
-      // Badge de stock initial
       const tempStock = `<div class="stock-badge" data-id="${priceId}">⏳ Vérification du stock...</div>`;
       
-      // Remplacement des variables dans le HTML
       finalHTML += data.html.replace("{{STOCK}}", tempStock).replace("{{BOUTON}}", defaultBtn);
     }
     
     grid.innerHTML = finalHTML;
-    
-    // ❌ SUPPRIMÉ : window.LeCart.init(); (C'est jslecart-init.js qui gère ça maintenant)
   }
 
-  // ============================================================
-  // 3. MISE À JOUR DES STOCKS
-  // ============================================================
   async function checkStocks() {
-    // Si Supabase n'est pas chargé, on affiche un stock par défaut
     if (!supabaseClient) {
       document.querySelectorAll(".stock-badge").forEach(el => {
         el.className = "stock-badge";
@@ -384,7 +352,6 @@
         }
       });
 
-      // Fallback pour les produits absents de la DB
       document.querySelectorAll(".stock-badge").forEach(el => {
         if (!seen.has(el.dataset.id)) {
           el.className = "stock-badge";
@@ -397,7 +364,6 @@
     }
   }
 
-  // Lancement au chargement de la page
   document.addEventListener("DOMContentLoaded", () => {
     renderProductsInstantly();
     checkStocks();
