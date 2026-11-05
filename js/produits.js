@@ -309,8 +309,7 @@
     
     for (const [priceId, data] of Object.entries(produitsHTML)) {
       
-      // ✅ CORRECTION : On utilise directement le prix normal (ex: 379.00). 
-      // LeCart fera la conversion en centimes pour Stripe.
+      // ✅ On utilise le prix normal (ex: 379.00). LeCart gérera la conversion.
       const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${data.price}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
       
       const tempStock = `<div class="stock-badge" data-id="${priceId}">⏳ Vérification du stock...</div>`;
