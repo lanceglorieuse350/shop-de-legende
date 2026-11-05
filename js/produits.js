@@ -1,10 +1,15 @@
 (function () {
+  // ✅ CORRECTION : On utilise la connexion globale créée par auth.js
   const supabaseClient = window.supabaseClient;
 
   if (!supabaseClient) {
-    console.warn("[PRODUITS] Supabase n'est pas initialisé. Les stocks ne seront pas vérifiés.");
+    console.error("[PRODUITS] Supabase n'est pas initialisé. Vérifiez auth.js.");
+    return;
   }
 
+  // ============================================================
+  // 1. DONNÉES DES PRODUITS & TEXTES AMÉLIORÉS
+  // ============================================================
   const produitsHTML = {
     // --------------------------------------------------------
     // DRONE
@@ -62,6 +67,7 @@
         {{STOCK}}
         {{BOUTON}}
 
+        <!-- VIDÉO PLACÉE TOUT EN BAS -->
         <div class="drone-video-wrapper">
           <video src="publicite_drone.mp4" controls preload="none" playsinline class="video-full" aria-label="Publicité du drone KY108" poster="photo1.png">
             Votre navigateur ne prend pas en charge la lecture vidéo.
@@ -231,10 +237,10 @@
     // --------------------------------------------------------
     "price_1UV4VuRNu37iEZT9QXBQFhLp": {
       name: "Pack Sécurité Premium",
-      price: "350.00",
+      price: "379.00",
       image: "Pack-Sécu.jpg",
       html: `
-    <div class="product-card" id="produit-pack-securite" data-name="Pack Sécurité Premium" data-price="350" tabindex="-1">
+    <div class="product-card" id="produit-pack-securite" data-name="Pack Sécurité Premium" data-price="379" tabindex="-1">
       <div class="product-images">
         <img src="Pack-Sécu.jpg" class="product-image" alt="Pack Sécurité Premium — Alarme Tiiwee + Caméra Tapo C245D + 4 capteurs SONOFF" loading="lazy" decoding="async" data-zoom>
       </div>
@@ -242,7 +248,7 @@
         <span class="badge" data-i18n="badge_security">🛡️ PACK SÉCURITÉ</span>
         <h3 class="product-title" data-i18n="pack_secu_title">Pack Sécurité Premium</h3>
         <p class="tagline" data-i18n="pack_secu_tagline">Votre forteresse numérique et physique.</p>
-        <div class="price">350 €</div>
+        <div class="price">379 €</div>
         <p class="desc" data-i18n="pack_secu_desc">Alarme Tiiwee, caméra Tapo IA et 4 capteurs SONOFF. Protégez votre foyer ou votre commerce avec un système complet, intelligent et prêt à l'emploi. Installation en 10 minutes.</p>
         
         <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-pack-secu" data-i18n="see_more">Voir plus</button>
@@ -301,6 +307,9 @@
     }
   };
 
+  // ============================================================
+  // 2. AFFICHAGE INSTANTANÉ
+  // ============================================================
   function renderProductsInstantly() {
     const grid = document.getElementById("productsGrid");
     if (!grid) return;
@@ -308,27 +317,28 @@
     let finalHTML = "";
     
     for (const [priceId, data] of Object.entries(produitsHTML)) {
-      
-      // ✅ On utilise le prix normal (ex: 350.00). LeCart gérera la conversion.
+      // Bouton par défaut (Panier)
       const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${data.price}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
       
+      // Badge de stock initial
       const tempStock = `<div class="stock-badge" data-id="${priceId}">⏳ Vérification du stock...</div>`;
       
+      // Remplacement des variables dans le HTML
       finalHTML += data.html.replace("{{STOCK}}", tempStock).replace("{{BOUTON}}", defaultBtn);
     }
     
     grid.innerHTML = finalHTML;
+    
+    // Initialisation du panier LeCart
+    if (window.LeCart && typeof window.LeCart.init === 'function') {
+      window.LeCart.init();
+    }
   }
 
+  // ============================================================
+  // 3. MISE À JOUR DES STOCKS
+  // ============================================================
   async function checkStocks() {
-    if (!supabaseClient) {
-      document.querySelectorAll(".stock-badge").forEach(el => {
-        el.className = "stock-badge";
-        el.textContent = "📦 Disponibilité à confirmer";
-      });
-      return;
-    }
-
     try {
       const { data: dbProduits, error } = await supabaseClient
         .from('produits')
@@ -336,47 +346,41 @@
 
       if (error || !dbProduits) return;
 
-      const seen = new Set();
-
       dbProduits.forEach(prod => {
-        seen.add(prod.stripe_price_id);
         const stockEl = document.querySelector(`.stock-badge[data-id="${prod.stripe_price_id}"]`);
         const btnEl = document.querySelector(`button[data-stripe-price-id="${prod.stripe_price_id}"]`);
 
         if (stockEl) {
           if (prod.stock > 5) {
+            // Stock confortable
             stockEl.className = "stock-badge stock-in";
             stockEl.innerHTML = `🟢 En stock (${prod.stock} disponibles)`;
           } else if (prod.stock > 0 && prod.stock <= 5) {
+            // Stock faible (Urgence)
             stockEl.className = "stock-badge stock-low";
             stockEl.innerHTML = `🟠 Plus que ${prod.stock} en stock !`;
           } else {
+            // Rupture de stock
             stockEl.className = "stock-badge stock-out";
             stockEl.innerHTML = `🔴 Rupture de stock`;
           }
         }
 
+        // Désactivation du bouton si rupture de stock
         if (prod.stock <= 0 && btnEl) {
           btnEl.disabled = true;
-          btnEl.classList.remove("payment-btn");
-          btnEl.classList.add("btn-out-of-stock");
+          btnEl.classList.remove("payment-btn"); // On retire le style doré
+          btnEl.classList.add("btn-out-of-stock"); // On ajoute le style rouge/transparent
           btnEl.innerHTML = "❌ Produit épuisé";
-          btnEl.removeAttribute("data-lecart-add");
+          btnEl.removeAttribute("data-lecart-add"); // On empêche l'ajout au panier
         }
       });
-
-      document.querySelectorAll(".stock-badge").forEach(el => {
-        if (!seen.has(el.dataset.id)) {
-          el.className = "stock-badge";
-          el.textContent = "📦 Disponibilité à confirmer";
-        }
-      });
-
     } catch (err) {
       console.error("[PRODUITS] Erreur de vérification des stocks:", err);
     }
   }
 
+  // Lancement au chargement de la page
   document.addEventListener("DOMContentLoaded", () => {
     renderProductsInstantly();
     checkStocks();
