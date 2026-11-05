@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   try {
     LeCart.init({
-      // ✅ Votre nouvelle clé API
       lecartApiKey: 'lecart_QFARqlmd0rNhYWqJdJPcZ8YZpfRlEWKsNmhnXgVxkDg',
       checkoutEndpoint: 'https://api.getlecart.com/create-checkout',
       stripePublicKey: 'pk_live_51UNkYQRNu37iEZT9IHDIDELHXsO4A5R2ppIQKlBEpev5Q4XX6qRjrTpVHRzcVgaKdykQEm8kVDLKkBXcdPIu33UV008Oeu1wN7',
@@ -19,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
       collectShippingAddress: true,
       collectPhoneNumber: true,
       
-      // ✅ AJOUT DES URLS DE REDIRECTION (Indispensable pour éviter l'erreur 400)
+      // ✅ URLs de redirection (Indispensable pour éviter l'erreur 400)
       successUrl: baseUrl + '?checkout=success',
       cancelUrl:  baseUrl + '?checkout=cancel'
     });
@@ -36,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
   if (checkoutStatus === 'success') {
     setTimeout(function() {
       alert('✅ Paiement réussi ! Merci pour votre commande.\n\nUn e-mail de confirmation vous sera envoyé.');
-      // On nettoie l'URL pour éviter de relancer l'alerte si on recharge la page
       window.history.replaceState({}, '', window.location.pathname + '#accueil');
     }, 500);
   } else if (checkoutStatus === 'cancel') {
