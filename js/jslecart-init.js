@@ -4,17 +4,17 @@ document.addEventListener('DOMContentLoaded', function() {
     return;
   }
 
-  // On construit l'URL de base sans le hash (#accueil) pour Stripe
   const baseUrl = window.location.origin + window.location.pathname;
 
   try {
     LeCart.init({
-      // ⚠️ VÉRIFIEZ BIEN CETTE CLÉ SUR VOTRE DASHBOARD LECART (app.getlecart.com)
+      // ✅ Clé PUBLIQUE LeCart (celle de votre capture d'écran)
       lecartApiKey: 'lecart_QFARqlmd0rNhYWqJdJPcZ8YZpfRlEWKsNmhnXgVxkDg',
       
+      // ✅ API directe LeCart
       checkoutEndpoint: 'https://api.getlecart.com/create-checkout',
       
-      // ✅ Votre nouvelle clé publique Stripe
+      // ✅ Clé PUBLIQUE Stripe
       stripePublicKey: 'pk_live_51UNkYQRNu37iEZT9JFa1lJZFQ2eVox5wR6oSjl7A4MznYh5RypGYCqDTFVoaLrPEsV5r5XFRlLYmv85c6bzq8qCq00zNEhZHTn',
       
       currency: 'EUR',
@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
       collectShippingAddress: true,
       collectPhoneNumber: true,
       
-      // Les URLs de redirection (doivent être absolues)
       successUrl: baseUrl + '?checkout=success',
       cancelUrl:  baseUrl + '?checkout=cancel'
     });
