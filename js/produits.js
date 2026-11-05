@@ -231,10 +231,10 @@
     // --------------------------------------------------------
     "price_1UV4VuRNu37iEZT9QXBQFhLp": {
       name: "Pack Sécurité Premium",
-      price: "379.00",
+      price: "350.00",
       image: "Pack-Sécu.jpg",
       html: `
-    <div class="product-card" id="produit-pack-securite" data-name="Pack Sécurité Premium" data-price="379" tabindex="-1">
+    <div class="product-card" id="produit-pack-securite" data-name="Pack Sécurité Premium" data-price="350" tabindex="-1">
       <div class="product-images">
         <img src="Pack-Sécu.jpg" class="product-image" alt="Pack Sécurité Premium — Alarme Tiiwee + Caméra Tapo C245D + 4 capteurs SONOFF" loading="lazy" decoding="async" data-zoom>
       </div>
@@ -242,7 +242,7 @@
         <span class="badge" data-i18n="badge_security">🛡️ PACK SÉCURITÉ</span>
         <h3 class="product-title" data-i18n="pack_secu_title">Pack Sécurité Premium</h3>
         <p class="tagline" data-i18n="pack_secu_tagline">Votre forteresse numérique et physique.</p>
-        <div class="price">379 €</div>
+        <div class="price">350 €</div>
         <p class="desc" data-i18n="pack_secu_desc">Alarme Tiiwee, caméra Tapo IA et 4 capteurs SONOFF. Protégez votre foyer ou votre commerce avec un système complet, intelligent et prêt à l'emploi. Installation en 10 minutes.</p>
         
         <button type="button" class="more" data-toggle-details aria-expanded="false" aria-controls="details-pack-secu" data-i18n="see_more">Voir plus</button>
@@ -309,7 +309,7 @@
     
     for (const [priceId, data] of Object.entries(produitsHTML)) {
       
-      // ✅ On utilise le prix normal (ex: 379.00). LeCart gérera la conversion.
+      // ✅ On utilise le prix normal (ex: 350.00). LeCart gérera la conversion.
       const defaultBtn = `<button type="button" class="payment-btn" data-lecart-add data-stripe-price-id="${priceId}" data-product-name="${data.name}" data-product-price="${data.price}" data-product-image="${data.image}">💳 Ajouter au panier — ${parseFloat(data.price)} €</button>`;
       
       const tempStock = `<div class="stock-badge" data-id="${priceId}">⏳ Vérification du stock...</div>`;
