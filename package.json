@@ -1,5 +1,5 @@
 {
-  "name": "shop-de-legende",
+  "name": "guillet-iv",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,8 +11,6 @@
     "stripe": "^14.5.0"
   },
   "devDependencies": {
-    "esbuild": "0.28.2",
-    "terser": "^5.31.0",
-    "javascript-obfuscator": "^4.1.0"
+    "esbuild": "^0.24.0"
   }
 }

@@ -10,7 +10,7 @@ execSync(
 );
 
 const code = fs.readFileSync('app.js', 'utf8');
-const expectedKey = 'lecart_QFARqlmd0rNhYWqJdJPcZ8YZpfRlEWKsNmhnXgVxkDg';
+const expectedKey = 'lecart_-OZUZIxqFq8ZRfpbY1dSpoAz1SZRu2vwl9hjce7odpU';
 
 if (!code.includes(expectedKey)) {
   console.error('❌ ERREUR : la clé LeCart n\'est pas dans app.js');
