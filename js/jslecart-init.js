@@ -12,7 +12,16 @@ document.addEventListener('DOMContentLoaded', function() {
       language: 'fr',
       theme: 'dark',
       collectShippingAddress: true,
-      collectPhoneNumber: true
+      collectPhoneNumber: true,
+
+      // ✅ LIGNE AJOUTÉE : Transmet le token Supabase à LeCart
+      getAuthToken: async function() {
+        if (window.supabaseClient) {
+          const { data: { session } } = await window.supabaseClient.auth.getSession();
+          return session ? session.access_token : null;
+        }
+        return null;
+      }
     });
   } catch(e) {
     console.error('[LeCart] Erreur :', e);
