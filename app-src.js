@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 (function(){
   "use strict";
-  var FORCER_MAINTENANCE = false;
+  var FORCER_MAINTENANCE = true;
   function getPage(){ return document.getElementById("maintenance-page"); }
   function getContenu(){
     return [
