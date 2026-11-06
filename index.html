@@ -509,6 +509,7 @@
     <a href="#prevention-cyber" data-nav="prevention-cyber" class="nav-link" data-i18n="nav_cyber">🛡️ Cybersécurité</a>
     <a href="#harcelement" data-nav="harcelement" class="nav-link" data-i18n="nav_harassment">🚨 Harcèlement</a>
     <a href="#contact" data-nav="contact" class="nav-link" data-i18n="nav_contact">✉️ Contact</a>
+    <a href="#commande" data-nav="commande" class="nav-link compte-only" data-i18n="nav_order">📦 Ma commande</a>
     <a href="#faq" data-nav="faq" class="nav-link" data-i18n="nav_faq">❓ FAQ</a>
     <a href="#cgv" data-nav="cgv" class="nav-link" data-i18n="nav_cgv">📄 CGV</a>
     <a href="#confidentialite" data-nav="confidentialite" class="nav-link" data-i18n="nav_privacy">📄 Confidentialité</a>
@@ -1819,6 +1820,24 @@
   </div>
 </div>
 
+<!-- PAGE MA COMMANDE -->
+<div id="page-commande" class="page-section">
+  <div class="page-container">
+    <h1 data-i18n="order_title">📦 Ma commande</h1>
+    <p class="contact-intro" data-i18n="order_intro">Entrez l'e-mail du paiement et le numéro de commande affiché dans votre profil. Vous verrez le statut, le suivi, et pourrez signaler un retard, un colis abîmé ou demander un retour.</p>
+    <form class="contact-form" id="orderLookupForm">
+      <input type="email" id="orderEmail" data-i18n-placeholder="order_email_ph" placeholder="E-mail utilisé pour le paiement" required autocomplete="email" maxlength="120">
+      <input type="text" id="orderRef" data-i18n-placeholder="order_number_ph" placeholder="Numéro de commande" required autocomplete="off" maxlength="80" spellcheck="false">
+      <button type="submit" data-i18n="order_submit">Voir ma commande</button>
+    </form>
+    <p id="orderLookupMessage" role="status" hidden class="confirmation-msg"></p>
+    <div id="orderLookupResult" hidden></div>
+    <div class="text-center mt-3">
+      <a href="#" data-nav="accueil" class="return-btn return-btn-custom" data-i18n="back_home">⬅ Retour à l'accueil</a>
+    </div>
+  </div>
+</div>
+
 </main>
 
 <footer>
@@ -1833,6 +1852,7 @@
       <a href="#parrainage" data-nav="parrainage" data-i18n="footer_parrainage">🤝 Parrainage</a>
       <a href="#prevention-cyber" data-nav="prevention-cyber" data-i18n="footer_cyber">🛡️ Cybersécurité</a>
       <a href="#contact" data-nav="contact" data-i18n="footer_contact">✉️ Contact</a>
+      <a href="#commande" data-nav="commande" class="compte-only" data-i18n="footer_order">📦 Ma commande</a>
       <a href="#faq" data-nav="faq" data-i18n="footer_faq">❓ FAQ</a>
       <a href="#cgv" data-nav="cgv" data-i18n="footer_cgv">📄 CGV</a>
       <a href="#confidentialite" data-nav="confidentialite" data-i18n="footer_privacy">📄 Confidentialité</a>

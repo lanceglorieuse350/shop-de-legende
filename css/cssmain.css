@@ -149,6 +149,9 @@ body.light-mode .navbar{
   transition:all .25s ease;color:var(--gold) !important;text-decoration:none !important;
   text-shadow: 0 1px 3px rgba(0,0,0,0.8);
 }
+a.compte-only{display:none !important}
+body.compte-connecte .navbar-links a.compte-only{display:flex !important}
+body.compte-connecte .footer-links a.compte-only{display:inline !important}
 .navbar-links a:hover,
 .navbar-links a.active-link{
   color:#000 !important;background:var(--gold) !important;

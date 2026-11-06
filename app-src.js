@@ -818,6 +818,28 @@ window.TRANSLATIONS = {
     footer_parrainage: "🤝 Referral",
     footer_cyber: "🛡️ Cybersecurity",
     footer_contact: "✉️ Contact",
+    nav_order: "📦 My order",
+    footer_order: "📦 My order",
+    order_title: "📦 My order",
+    order_intro: "Enter the payment email and the order number shown in your profile. You will see the status, the tracking, and you can report a delay, a damaged parcel, or request a return.",
+    order_email_ph: "Email used for payment",
+    order_number_ph: "Order number",
+    order_number_label: "Number: ",
+    order_submit: "View my order",
+    order_searching: "Looking up the order...",
+    order_not_found: "No order matches this email and this number.",
+    order_no_tracking: "The tracking number will appear here once the parcel is shipped.",
+    order_help_delay: "Parcel delayed",
+    order_help_damaged: "Damaged parcel",
+    order_help_return: "Request a return",
+    order_mail_delay: "Delayed parcel",
+    order_mail_damaged: "Damaged parcel",
+    order_mail_return: "Return request",
+    order_mail_body: "Payment email:\\nOrder number: ",
+    order_chat: "📦 The order number is in your profile, under each order. The My order page shows the status and the tracking.",
+    status_paid: "Paid",
+    status_shipped: "Shipped",
+    status_delivered: "Delivered",
     footer_faq: "❓ FAQ",
     footer_cgv: "📄 Terms",
     footer_privacy: "📄 Privacy",
@@ -1673,6 +1695,28 @@ window.TRANSLATIONS = {
     footer_parrainage: "🤝 Рекомендация",
     footer_cyber: "🛡️ Кибербезопасность",
     footer_contact: "✉️ Контакты",
+    nav_order: "📦 Мой заказ",
+    footer_order: "📦 Мой заказ",
+    order_title: "📦 Мой заказ",
+    order_intro: "Введите почту оплаты и номер заказа из профиля. Вы увидите статус, отслеживание и сможете сообщить о задержке, повреждении или запросить возврат.",
+    order_email_ph: "Почта, использованная при оплате",
+    order_number_ph: "Номер заказа",
+    order_number_label: "Номер: ",
+    order_submit: "Показать заказ",
+    order_searching: "Ищем заказ...",
+    order_not_found: "Нет заказа с этой почтой и этим номером.",
+    order_no_tracking: "Номер отслеживания появится здесь после отправки.",
+    order_help_delay: "Посылка задерживается",
+    order_help_damaged: "Посылка повреждена",
+    order_help_return: "Запросить возврат",
+    order_mail_delay: "Задержка посылки",
+    order_mail_damaged: "Повреждённая посылка",
+    order_mail_return: "Запрос на возврат",
+    order_mail_body: "Почта оплаты:\\nНомер заказа: ",
+    order_chat: "📦 Номер заказа находится в профиле, под каждым заказом. Страница «Мой заказ» показывает статус и отслеживание.",
+    status_paid: "Оплачен",
+    status_shipped: "Отправлен",
+    status_delivered: "Доставлен",
     footer_faq: "❓ Вопросы",
     footer_cgv: "📄 Условия",
     footer_privacy: "📄 Конфиденциальность",
@@ -2528,6 +2572,28 @@ window.TRANSLATIONS = {
     footer_parrainage: "🤝 推荐",
     footer_cyber: "🛡️ 网络安全",
     footer_contact: "✉️ 联系",
+    nav_order: "📦 我的订单",
+    footer_order: "📦 我的订单",
+    order_title: "📦 我的订单",
+    order_intro: "输入付款邮箱和个人资料中的订单号。您可以查看状态和物流，并报告延误、包裹损坏或申请退货。",
+    order_email_ph: "付款时使用的邮箱",
+    order_number_ph: "订单号",
+    order_number_label: "编号：",
+    order_submit: "查看我的订单",
+    order_searching: "正在查找订单...",
+    order_not_found: "没有与此邮箱和编号匹配的订单。",
+    order_no_tracking: "包裹发出后，物流单号会显示在这里。",
+    order_help_delay: "包裹延误",
+    order_help_damaged: "包裹损坏",
+    order_help_return: "申请退货",
+    order_mail_delay: "包裹延误",
+    order_mail_damaged: "包裹损坏",
+    order_mail_return: "退货申请",
+    order_mail_body: "付款邮箱：\\n订单号：",
+    order_chat: "📦 订单号在您的资料中，每笔订单下方。我的订单页面会显示状态和物流。",
+    status_paid: "已付款",
+    status_shipped: "已发货",
+    status_delivered: "已送达",
     footer_faq: "❓ 常见问题",
     footer_cgv: "📄 条款",
     footer_privacy: "📄 隐私",
@@ -3382,6 +3448,28 @@ window.TRANSLATIONS = {
     footer_parrainage: "🤝 Recomendación",
     footer_cyber: "🛡️ Ciberseguridad",
     footer_contact: "✉️ Contacto",
+    nav_order: "📦 Mi pedido",
+    footer_order: "📦 Mi pedido",
+    order_title: "📦 Mi pedido",
+    order_intro: "Escriba el correo del pago y el número de pedido que aparece en su perfil. Verá el estado, el seguimiento y podrá avisar de un retraso, un paquete dañado o pedir una devolución.",
+    order_email_ph: "Correo usado para el pago",
+    order_number_ph: "Número de pedido",
+    order_number_label: "Número: ",
+    order_submit: "Ver mi pedido",
+    order_searching: "Buscando el pedido...",
+    order_not_found: "Ningún pedido corresponde a este correo y a este número.",
+    order_no_tracking: "El número de seguimiento aparecerá aquí cuando se envíe el paquete.",
+    order_help_delay: "Paquete retrasado",
+    order_help_damaged: "Paquete dañado",
+    order_help_return: "Pedir una devolución",
+    order_mail_delay: "Paquete retrasado",
+    order_mail_damaged: "Paquete dañado",
+    order_mail_return: "Solicitud de devolución",
+    order_mail_body: "Correo del pago:\\nNúmero de pedido: ",
+    order_chat: "📦 El número de pedido está en su perfil, debajo de cada pedido. La página Mi pedido muestra el estado y el seguimiento.",
+    status_paid: "Pagado",
+    status_shipped: "Enviado",
+    status_delivered: "Entregado",
     footer_faq: "❓ Preguntas",
     footer_cgv: "📄 Condiciones",
     footer_privacy: "📄 Privacidad",
@@ -4216,6 +4304,28 @@ window.TRANSLATIONS = {
     footer_parrainage: "🤝 紹介",
     footer_cyber: "🛡️ サイバーセキュリティ",
     footer_contact: "✉️ 連絡",
+    nav_order: "📦 注文確認",
+    footer_order: "📦 注文確認",
+    order_title: "📦 注文確認",
+    order_intro: "支払い時のメールと、プロフィールに表示される注文番号を入力してください。状態と追跡が表示され、遅延、破損、返品を知らせられます。",
+    order_email_ph: "支払いに使ったメール",
+    order_number_ph: "注文番号",
+    order_number_label: "番号：",
+    order_submit: "注文を見る",
+    order_searching: "注文を検索しています...",
+    order_not_found: "このメールと番号に一致する注文はありません。",
+    order_no_tracking: "発送後に追跡番号がここに表示されます。",
+    order_help_delay: "荷物の遅延",
+    order_help_damaged: "荷物の破損",
+    order_help_return: "返品を依頼",
+    order_mail_delay: "荷物の遅延",
+    order_mail_damaged: "荷物の破損",
+    order_mail_return: "返品の依頼",
+    order_mail_body: "支払いメール：\\n注文番号：",
+    order_chat: "📦 注文番号はプロフィールの各注文の下にあります。注文確認ページで状態と追跡を見られます。",
+    status_paid: "支払済み",
+    status_shipped: "発送済み",
+    status_delivered: "配達済み",
     footer_faq: "❓ よくある質問",
     footer_cgv: "📄 販売条件",
     footer_privacy: "📄 プライバシー",
@@ -4540,11 +4650,19 @@ window.TRANSLATIONS = {
     // ==========================================
     window.navigateTo = function(p, a){
       if (a === undefined) a = null;
+      if (p === "commande" && !document.body.classList.contains("compte-connecte")) {
+        window.__commandeDemandee = true;
+        p = "accueil";
+      }
       document.querySelectorAll(".page-section").forEach(function(s){ s.classList.remove("active"); });
       var t = document.getElementById("page-" + p); if (t) t.classList.add("active");
       var newHash = "#" + p;
       if (location.hash !== newHash) history.pushState(null, null, newHash);
       document.querySelectorAll(".nav-link").forEach(function(l){ l.classList.remove("active-link"); if (l.getAttribute("href") === newHash) l.classList.add("active-link"); });
+      if (p === "commande" && window.__compteEmail) {
+        var champEmail = document.getElementById("orderEmail");
+        if (champEmail && !champEmail.value) champEmail.value = window.__compteEmail;
+      }
       if (a) { setTimeout(function(){ var b = document.getElementById(a); if (b) b.scrollIntoView({ behavior: "smooth", block: "start" }); }, 100); }
       else { window.scrollTo({ top: 0, behavior: "smooth" }); }
       if (typeof window.reapplyLanguage === "function") setTimeout(window.reapplyLanguage, 120);
@@ -4915,7 +5033,9 @@ window.TRANSLATIONS = {
       if (m) {
         var txtKey = m.reponseKey;
         var txt = (dict && dict[txtKey]) ? dict[txtKey] : m.reponse;
-        var opts = m.options ? m.options.map(function(o){
+        var opts = m.options ? m.options.filter(function(o){
+          return o.labelKey !== "nav_order" || document.body.classList.contains("compte-connecte");
+        }).map(function(o){
           return {
             label: (dict && dict[o.labelKey]) ? dict[o.labelKey] : o.label,
             labelKey: o.labelKey,
@@ -4966,6 +5086,7 @@ window.TRANSLATIONS = {
         { labelKey: "chat_btn_parrainage", label: "🤝 Parrainage", action: function(){ navigateTo("parrainage"); toggleChatbot(); } },
         { labelKey: "chat_btn_about", label: "📜 À propos", action: function(){ navigateTo("apropos"); toggleChatbot(); } },
         { labelKey: "chat_btn_contact", label: "✉️ Contact", action: function(){ navigateTo("contact"); toggleChatbot(); } },
+        { labelKey: "nav_order", label: "📦 Ma commande", action: function(){ navigateTo("commande"); toggleChatbot(); } },
         { labelKey: "chat_btn_faq", label: "❓ FAQ", action: function(){ navigateTo("faq"); toggleChatbot(); } },
         { labelKey: "chat_btn_cyber", label: "🛡️ Cybersécurité", action: function(){ navigateTo("prevention-cyber"); toggleChatbot(); } },
         { labelKey: "chat_btn_harass", label: "🚨 Harcèlement", action: function(){ navigateTo("harcelement"); toggleChatbot(); } }
@@ -4973,7 +5094,10 @@ window.TRANSLATIONS = {
       { intention: "parrainage", motsCles: ["parrainage","boursorama","starlink","vinted","credit","agricole","banque","compte","prime","parrain","internet","satellite","invitation","octopus","energie","électricité","紹介","紹介コード"], reponseKey: "chat_parrainage_reply", reponse: "🤝 Ouvre un compte Boursorama, souscris à Starlink, inscris-toi sur Vinted, au Crédit Agricole ou chez Octopus Energy avec mes liens de parrainage : les infos sont pré-remplies automatiquement !", options: [
         { labelKey: "chat_btn_parrainage", label: "🤝 Voir la page Parrainage", action: function(){ navigateTo("parrainage"); toggleChatbot(); } }
       ] },
-      { intention: "contact", motsCles: ["horaire","telephone","mail","contact","appeler","numero","joindre","email","correo","contacto","телефон","联系","电话","連絡","電話","メール","問い合わせ"], reponseKey: "chat_contact_reply", reponse: "📞 Nous sommes disponibles de 9h à 20h au <strong>07.80.20.47.49</strong>." },
+      { intention: "commande", motsCles: ["commande","suivi","order","pedido","заказ","订单","注文","tracking"], reponseKey: "order_chat", reponse: "📦 Le numéro de commande est dans votre profil, sous chaque commande. La page Ma commande affiche le statut et le suivi.", options: [
+        { labelKey: "nav_order", label: "📦 Ma commande", action: function(){ navigateTo("commande"); toggleChatbot(); } }
+      ] },
+      { intention: "contact", motsCles: ["horaire","telephone","mail","contact","appeler","joindre","email","correo","contacto","телефон","联系","电话","連絡","電話","メール","問い合わせ"], reponseKey: "chat_contact_reply", reponse: "📞 Nous sommes disponibles de 9h à 20h au <strong>07.80.20.47.49</strong>." },
       { intention: "livraison", motsCles: ["livraison","envoi","delai","colis","recevoir","expedition","delivery","entrega","envio","доставка","配送","配達","送料"], reponseKey: "chat_delivery_reply", reponse: "🚚 La livraison est <strong>rapide et sécurisée</strong>." },
       { intention: "drone", motsCles: ["drone","ky108","camera","filmer","video","dron","дрон","无人机","ドローン"], reponseKey: "chat_drone_reply", reponse: "🎥 Le <strong>Drone KY108</strong> (89€).", options: [
         { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-drone"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } }
@@ -5006,7 +5130,7 @@ window.TRANSLATIONS = {
     // 9. INITIALISATION ET GESTION DES HASH
     // ==========================================
     var ih = window.location.hash.replace("#", "") || "accueil";
-    var cp = ["accueil","apropos","vinted","ongles-beaute","parrainage","prevention-cyber","harcelement","mentions","cgv","confidentialite","faq","contact"];
+    var cp = ["accueil","apropos","vinted","ongles-beaute","parrainage","prevention-cyber","harcelement","mentions","cgv","confidentialite","faq","contact","commande"];
     var ca = ["mots-de-passe","phishing","force-brute","photos-cles","vie-personnelle","loi-hacking","phishing-droit","donnees-personnelles","test-autorise","incident","conclusion-cyber"];
     var ha = ["prevention-moral","prevention-scolaire","prevention-sexuel","prevention-bande","prevention-aide"];
     
@@ -5211,6 +5335,10 @@ window.TRANSLATIONS = {
     if (!authBtn) return;
     currentUser = user || null;
 
+    document.body.classList.toggle("compte-connecte", !!user);
+    window.__compteConnecte = !!user;
+    window.__compteEmail = user && user.email ? user.email : "";
+
     if (user) {
       const label = user.email ? user.email.split("@")[0] : ui("my_account", "Mon Compte");
       authBtn.textContent = "👤 " + label;
@@ -5218,12 +5346,21 @@ window.TRANSLATIONS = {
       authBtn.style.color      = "#000";
       authBtn.style.border     = "none";
       authBtn.setAttribute("data-logged-in", "true");
+      if (window.__commandeDemandee && typeof window.navigateTo === "function") {
+        window.__commandeDemandee = false;
+        window.navigateTo("commande");
+      }
     } else {
       authBtn.textContent = ui("btn_login", "🔐 Connexion");
       authBtn.style.background = "transparent";
       authBtn.style.color      = "var(--gold)";
       authBtn.style.border     = "1px solid var(--gold)";
       authBtn.setAttribute("data-logged-in", "false");
+      window.__commandeDemandee = false;
+      var pageCommande = document.getElementById("page-commande");
+      if (pageCommande && pageCommande.classList.contains("active") && typeof window.navigateTo === "function") {
+        window.navigateTo("accueil");
+      }
     }
   }
 
@@ -5498,6 +5635,7 @@ window.TRANSLATIONS = {
           <ul style="margin-left: 20px; margin-bottom: 5px; color: #ccc;">
             ${produitsHtml}
           </ul>
+          <div style="font-size:0.8rem; color:#888; margin-bottom:5px;">${ui("order_number_label", "Numéro : ")}<strong style="color:#ffd700; user-select:all;">${order.id || ""}</strong></div>
           <div style="font-size:0.8rem; color:#888; margin-bottom:5px;">${ui("status_label", "Statut : ")}<strong style="color:#fff;">${order.statut || ui("status_pending", "En attente")}</strong></div>
           ${trackingHtml}
         </div>
@@ -5911,4 +6049,120 @@ window.TRANSLATIONS = {
     checkStocks();
   });
 
+})();
+
+(function () {
+  "use strict";
+
+  function tr(key, fallback) {
+    return (typeof window.__tr === "function") ? window.__tr(key, fallback) : fallback;
+  }
+
+  function statutLisible(statut) {
+    var brut = String(statut || "").toLowerCase();
+    if (brut === "payé" || brut === "paye" || brut === "paid") return tr("status_paid", "Payée");
+    if (brut === "expédié" || brut === "expedie" || brut === "shipped") return tr("status_shipped", "Expédiée");
+    if (brut === "livré" || brut === "livre" || brut === "delivered") return tr("status_delivered", "Livrée");
+    if (brut === "en attente" || brut === "pending") return tr("status_pending", "En attente");
+    return String(statut || "");
+  }
+
+  function lienMail(sujet, id) {
+    var corps = tr("order_mail_body", "E-mail du paiement :\nNuméro de commande : ") + id + "\n\n";
+    return "mailto:lanceglorieuse@gmail.com?subject=" + encodeURIComponent(sujet + " " + id) + "&body=" + encodeURIComponent(corps);
+  }
+
+  function afficherCommande(data) {
+    var zone = document.getElementById("orderLookupResult");
+    if (!zone) return;
+    zone.textContent = "";
+    var bloc = document.createElement("div");
+    bloc.className = "contact-info";
+    var date = data.date ? new Date(data.date).toLocaleDateString() : "";
+    var lignes = [
+      tr("order_number_label", "Numéro : ") + data.id,
+      tr("order_of", "Commande du ") + date,
+      tr("status_label", "Statut : ") + statutLisible(data.statut),
+      (Number(data.montant) || 0) + " €"
+    ];
+    lignes.forEach(function (texte) {
+      var p = document.createElement("p");
+      p.textContent = texte;
+      bloc.appendChild(p);
+    });
+    var liste = document.createElement("ul");
+    (data.produits || []).forEach(function (prod) {
+      var li = document.createElement("li");
+      li.textContent = (prod.quantite || 1) + " × " + (prod.nom || tr("product_word", "Produit"));
+      liste.appendChild(li);
+    });
+    bloc.appendChild(liste);
+    var suivi = document.createElement("p");
+    if (data.suivi) {
+      suivi.textContent = tr("tracking_label", "📦 Suivi : ") + data.suivi;
+      if (data.lien_suivi) {
+        var a = document.createElement("a");
+        a.href = data.lien_suivi;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = data.suivi;
+        suivi.textContent = tr("tracking_label", "📦 Suivi : ");
+        suivi.appendChild(a);
+      }
+    } else {
+      suivi.textContent = tr("order_no_tracking", "Le numéro de suivi apparaîtra ici dès l'expédition.");
+    }
+    bloc.appendChild(suivi);
+    var actions = document.createElement("div");
+    actions.className = "beauty-buttons";
+    [
+      ["order_help_delay", "Colis en retard", "order_mail_delay", "Colis en retard"],
+      ["order_help_damaged", "Colis abîmé", "order_mail_damaged", "Colis abîmé"],
+      ["order_help_return", "Demander un retour", "order_mail_return", "Demande de retour"]
+    ].forEach(function (item) {
+      var lien = document.createElement("a");
+      lien.className = "return-btn";
+      lien.href = lienMail(tr(item[2], item[3]), data.id);
+      lien.textContent = tr(item[0], item[1]);
+      actions.appendChild(lien);
+    });
+    bloc.appendChild(actions);
+    zone.appendChild(bloc);
+    zone.hidden = false;
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var form = document.getElementById("orderLookupForm");
+    var message = document.getElementById("orderLookupMessage");
+    var resultat = document.getElementById("orderLookupResult");
+    if (!form) return;
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var email = document.getElementById("orderEmail").value.trim();
+      var reference = document.getElementById("orderRef").value.trim();
+      if (message) {
+        message.hidden = false;
+        message.textContent = tr("order_searching", "Recherche de la commande...");
+      }
+      if (resultat) resultat.hidden = true;
+      fetch("/api/commande", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email, reference: reference })
+      }).then(function (reponse) {
+        return reponse.json().then(function (data) {
+          return { ok: reponse.ok, data: data };
+        });
+      }).then(function (resultatAppel) {
+        if (!resultatAppel.ok) {
+          if (message) message.textContent = tr("order_not_found", "Aucune commande ne correspond à cet e-mail et à ce numéro.");
+          return;
+        }
+        if (message) message.hidden = true;
+        afficherCommande(resultatAppel.data);
+      }).catch(function () {
+        if (message) message.textContent = tr("order_not_found", "Aucune commande ne correspond à cet e-mail et à ce numéro.");
+      });
+    });
+  });
 })();
