@@ -21,16 +21,16 @@
 <link rel="preload" as="image" href="background.jpg" fetchpriority="high">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- ✅ LECART : Version figée + SRI (Bloque toute modification pirate) -->
-<link rel="stylesheet" href="https://unpkg.com/lecart@1.0.0/dist/lecart.css" integrity="sha384-jX1fMwNTDgokIr2sLOOHC3XkleqIqDuR38KnIV/VX1L/Kg3dxBweTnxiMGecfQLQ" crossorigin="anonymous">
-<script src="https://unpkg.com/lecart@1.0.0/dist/lecart.min.js" integrity="sha384-K0ojmSxf+bcrLxHcdUwl0aKqZ5VxF0w9GRK1dYRYRaui7tiHjj3dhXW9vKC7Ae1i" crossorigin="anonymous" defer></script>
+<!-- ✅ LECART : Version figée sans SRI pour éviter les blocages -->
+<link rel="stylesheet" href="https://unpkg.com/lecart@1.0.0/dist/lecart.css">
+<script src="https://unpkg.com/lecart@1.0.0/dist/lecart.min.js" defer></script>
 
 <!-- FICHIERS CSS EXTERNES -->
 <link rel="stylesheet" href="css/cssmain.css">
 <link rel="stylesheet" href="css/csssecurity-dashboard.css">
 
-<!-- ✅ SDK SUPABASE : Version figée + SRI (Bloque toute modification pirate) -->
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.39.8/dist/umd/supabase.min.js" integrity="sha384-S21vdBTi9bjHygfLyIjf4A4QFtW9TvQyHFloa8yT8hIcYgaJT82CZextSZs3a5Wx" crossorigin="anonymous"></script>
+<!-- ✅ SDK SUPABASE : Version figée sans SRI -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.39.8/dist/umd/supabase.min.js"></script>
 
 <!-- Script Analytics Vercel -->
 <script defer src="/_vercel/insights/script.js"></script>
@@ -584,8 +584,8 @@
 <div id="page-accueil" class="page-section active">
   <section class="hero" id="accueil">
     <div class="hero-slider">
-      <img src="background.jpg" class="hero-slide active" alt="Image principale GUILLET IV" data-zoom role="button" tabindex="0">
-      <img src="899.jpg" class="hero-slide" alt="Image secondaire GUILLET IV" loading="lazy" decoding="async" data-zoom role="button" tabindex="0">
+      <img src="background.jpg" class="hero-slide active" alt="Image principale GUILLET IV" data-zoom role="button" tabindex="0" width="1920" height="1080">
+      <img src="899.jpg" class="hero-slide" alt="Image secondaire GUILLET IV" loading="lazy" decoding="async" data-zoom role="button" tabindex="0" width="1920" height="1080">
     </div>
     <p class="motto" data-i18n="motto">« Créer sa voie. Défendre son autonomie. Bâtir l'avenir. »</p>
     <p class="baseline" data-i18n="baseline">Entreprise · Mouvement d'indépendance entrepreneuriale · Vision</p>
@@ -810,23 +810,23 @@
     <p class="beauty-intro" data-i18n="beauty_intro">Prestations en présentiel uniquement à Guignen. Réservation par téléphone ou Instagram.</p>
   </section>
   <div class="max-w-700">
-    <img src="carte.png" alt="SHAYNAILS — présentation" loading="lazy" decoding="async" data-zoom class="beauty-presentation-img">
+    <img src="carte.png" alt="SHAYNAILS — présentation" loading="lazy" decoding="async" data-zoom class="beauty-presentation-img" width="800" height="600">
   </div>
   <section class="max-w-700">
     <h2 class="beauty-section-title" data-i18n="beauty_prices_title">💶 Carte des tarifs</h2>
     <div class="text-center">
-      <img src="tarifs.png" alt="Carte des tarifs SHAYNAILS" loading="lazy" decoding="async" data-zoom class="beauty-tarifs-img">
+      <img src="tarifs.png" alt="Carte des tarifs SHAYNAILS" loading="lazy" decoding="async" data-zoom class="beauty-tarifs-img" width="800" height="600">
     </div>
     <p class="beauty-note" data-i18n="beauty_presentiel_note">⚠️ Prestations uniquement en présentiel à Guignen — pas de vente en ligne.</p>
   </section>
   <section class="max-w-900">
     <h2 class="beauty-section-title" data-i18n="beauty_gallery_title">✨ Réalisations clientes</h2>
     <div class="beauty-clients-grid">
-      <img src="cliente.png" alt="Réalisation cliente 1" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
-      <img src="cliente2.png" alt="Réalisation cliente 2" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
-      <img src="cliente3.png" alt="Réalisation cliente 3" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
-      <img src="cliente6.png" alt="Réalisation cliente 4" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
-      <img src="cliente7.png" alt="Réalisation cliente 5" loading="lazy" decoding="async" data-zoom class="beauty-client-img">
+      <img src="cliente.png" alt="Réalisation cliente 1" loading="lazy" decoding="async" data-zoom class="beauty-client-img" width="400" height="400">
+      <img src="cliente2.png" alt="Réalisation cliente 2" loading="lazy" decoding="async" data-zoom class="beauty-client-img" width="400" height="400">
+      <img src="cliente3.png" alt="Réalisation cliente 3" loading="lazy" decoding="async" data-zoom class="beauty-client-img" width="400" height="400">
+      <img src="cliente6.png" alt="Réalisation cliente 4" loading="lazy" decoding="async" data-zoom class="beauty-client-img" width="400" height="400">
+      <img src="cliente7.png" alt="Réalisation cliente 5" loading="lazy" decoding="async" data-zoom class="beauty-client-img" width="400" height="400">
     </div>
   </section>
   <section class="max-w-480">
@@ -1805,8 +1805,8 @@
       <p>🕒 <span data-i18n="hours">Horaires</span> : <strong>9h – 20h</strong></p>
     </div>
     <form class="contact-form" id="contactForm">
-      <input type="text" id="nom" data-i18n-placeholder="your_name" placeholder="Votre nom" required>
-      <input type="email" id="email" data-i18n-placeholder="your_email" placeholder="Votre adresse e-mail" required>
+      <input type="text" id="nom" data-i18n-placeholder="your_name" placeholder="Votre nom" required autocomplete="name">
+      <input type="email" id="email" data-i18n-placeholder="your_email" placeholder="Votre adresse e-mail" required autocomplete="email">
       <textarea id="message" rows="5" data-i18n-placeholder="your_message" placeholder="Votre message..." required></textarea>
       <button type="submit" data-i18n="send_message">Envoyer le message</button>
     </form>
@@ -1937,12 +1937,12 @@
     <h2 style="text-align:center; color:var(--gold); font-family:var(--font-display); margin-bottom:1.5rem;">👤 Mon Profil</h2>
     
     <form id="profileForm" style="display:flex; flex-direction:column; gap:1rem;">
-      <input type="text" id="profileNom" placeholder="Nom complet" required style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
-      <input type="tel" id="profileTel" placeholder="Numéro de téléphone" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
-      <input type="text" id="profileAdresse" placeholder="Adresse (ex: 12 rue de la Paix)" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      <input type="text" id="profileNom" placeholder="Nom complet" required autocomplete="name" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      <input type="tel" id="profileTel" placeholder="Numéro de téléphone" autocomplete="tel" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+      <input type="text" id="profileAdresse" placeholder="Adresse (ex: 12 rue de la Paix)" autocomplete="street-address" style="width:100%; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
       <div style="display:flex; gap:1rem;">
-        <input type="text" id="profileCP" placeholder="Code Postal" style="flex:1; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
-        <input type="text" id="profileVille" placeholder="Ville" style="flex:2; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+        <input type="text" id="profileCP" placeholder="Code Postal" autocomplete="postal-code" style="flex:1; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
+        <input type="text" id="profileVille" placeholder="Ville" autocomplete="address-level2" style="flex:2; padding:1rem; background:#000; border:1px solid var(--border-color); border-radius:var(--radius-md); color:#fff;">
       </div>
       
       <button type="submit" id="profileSubmitBtn" style="background:linear-gradient(135deg, var(--gold), var(--gold-dark)); color:#000; font-weight:bold; padding:1rem; border-radius:var(--radius-md); border:none; cursor:pointer; margin-top:0.5rem;">Enregistrer mes informations</button>

@@ -52,6 +52,15 @@
       ]
     },
     {
+      "source": "/_next-live/(.*)",
+      "headers": [
+        {
+          "key": "Cross-Origin-Resource-Policy",
+          "value": "cross-origin"
+        }
+      ]
+    },
+    {
       "source": "/_vercel/insights/(.*)",
       "headers": [
         {
