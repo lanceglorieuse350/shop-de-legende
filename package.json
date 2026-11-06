@@ -2,6 +2,9 @@
   "name": "shop-de-legende",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "build": "node build.js"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.119.0",
     "micro": "^10.0.1",

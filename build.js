@@ -1,20 +1,31 @@
-// build.js — version simple et fiable (esbuild uniquement)
-const { execSync } = require('child_process');
+// Vérifie que la page servie (app-src.js) parle au bon serveur.
+// Le site charge app-src.js directement. Ce script ne crée pas app.js.
 const fs = require('fs');
+const path = require('path');
 
-console.log('🔨 Build avec esbuild…');
+const file = path.join(__dirname, 'app-src.js');
+const code = fs.readFileSync(file, 'utf8');
 
-execSync(
-  'npx esbuild app-src.js --bundle --minify --target=es2020 --outfile=app.js',
-  { stdio: 'inherit' }
-);
+const checks = [
+  ['clé LeCart du widget', 'lecart_-OZUZIxqFq8ZRfpbY1dSpoAz1SZRu2vwl9hjce7odpU'],
+  ['paiement via /api/checkout', "window.location.origin + '/api/checkout'"],
+  ['clé publique Stripe', 'pk_live_51UNkYQRNu37iEZT9'],
+  ['projet Supabase', 'https://wrhokeajjmupnxpfurcc.supabase.co'],
+  ['clé publishable Supabase', 'sb_publishable_0mmEGRZ_GKmgKSMKE83S8A_huJaAdL9']
+];
 
-const code = fs.readFileSync('app.js', 'utf8');
-const expectedKey = 'lecart_-OZUZIxqFq8ZRfpbY1dSpoAz1SZRu2vwl9hjce7odpU';
-
-if (!code.includes(expectedKey)) {
-  console.error('❌ ERREUR : la clé LeCart n\'est pas dans app.js');
-  process.exit(1);
+let failed = false;
+for (const [label, needle] of checks) {
+  if (!code.includes(needle)) {
+    console.error('ERREUR : ' + label + ' absent de app-src.js');
+    failed = true;
+  }
 }
 
-console.log('✅ app.js régénéré et contient la bonne clé LeCart');
+if (code.includes('https://api.getlecart.com/create-checkout')) {
+  console.error('ERREUR : app-src.js appelle encore LeCart en direct. Le paiement doit passer par /api/checkout.');
+  failed = true;
+}
+
+if (failed) process.exit(1);
+console.log('app-src.js est aligné avec /api/checkout, Stripe et Supabase.');
