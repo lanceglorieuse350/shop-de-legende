@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   try {
     LeCart.init({
-      lecartApiKey: 'lecart_MOX19svMWrKuq9jrqnb_ubW4SYDI_0-SVd6cjpblfgs',
+      lecartApiKey: 'lecart_public',
       checkoutEndpoint: window.location.origin + '/api/checkout',
       stripePublicKey: 'pk_live_51UNkYQRNu37iEZT9JFa1lJZFQ2eVox5wR6oSjl7A4MznYh5RypGYCqDTFVoaLrPEsV5r5XFRlLYmv85c6bzq8qCq00zNEhZHTn',
       currency: 'EUR',

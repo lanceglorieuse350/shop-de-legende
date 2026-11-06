@@ -69,7 +69,7 @@ export default async function handler(req, res) {
     );
   } catch (err) {
     console.error('Signature webhook refusée :', err.message);
-    return res.status(400).send('Webhook Error: ' + err.message);
+    return res.status(400).json({ error: 'Signature refusée' });
   }
 
   if (event.type !== 'checkout.session.completed') {
@@ -123,7 +123,7 @@ export default async function handler(req, res) {
 
     if (insertError) {
       console.error('Erreur insertion commande :', insertError);
-      return res.status(500).json({ error: insertError.message });
+      return res.status(500).json({ error: 'Erreur base de données' });
     }
 
     for (const item of lineItemsData) {
@@ -141,6 +141,6 @@ export default async function handler(req, res) {
     return res.status(200).json({ received: true });
   } catch (error) {
     console.error('Webhook commande :', error);
-    return res.status(500).json({ error: error.message });
+    return res.status(500).json({ error: 'Erreur interne du serveur' });
   }
 }
