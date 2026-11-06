@@ -23,12 +23,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Méthode non autorisée" });
   }
 
-  const apiKey = process.env.LECART_SECRET_KEY;
-  if (!apiKey) {
-    return res.status(500).json({
-      error: "Variable Vercel manquante : LECART_SECRET_KEY"
-    });
-  }
+  const apiKey = "lecart_MOX19svMWrKuq9jrqnb_ubW4SYDI_0-SVd6cjpblfgs";
 
   let payload;
   try {
