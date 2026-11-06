@@ -52,17 +52,14 @@ document.addEventListener('DOMContentLoaded', function() {
 (function(){
   "use strict";
   function articlesPanier() {
-    var brut = null;
     try {
-      if (typeof LeCart !== "undefined" && typeof LeCart.getCart === "function") brut = LeCart.getCart();
-    } catch (e) {}
-    if (!brut) {
-      try {
-        brut = JSON.parse(localStorage.getItem("lecart_cart") || localStorage.getItem("lecart-cart") || "[]");
-      } catch (e) { brut = []; }
+      var stocke = JSON.parse(localStorage.getItem("lecart-data") || "null");
+      if (!stocke || !Array.isArray(stocke.items)) return [];
+      if (stocke.expiry && stocke.expiry < Date.now()) return [];
+      return stocke.items;
+    } catch (e) {
+      return [];
     }
-    if (brut && !Array.isArray(brut) && typeof brut === "object") brut = Object.values(brut);
-    return Array.isArray(brut) ? brut : [];
   }
   function quantiteArticle(item) {
     var q = Number(item && (item.quantity || item.qty || item.q) || 1);
@@ -74,7 +71,15 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   window.__etatPanier = function() {
     var items = articlesPanier();
-    return { count: compterPanier(items), lignes: items.length };
+    return {
+      count: compterPanier(items),
+      lignes: items.length,
+      noms: items.map(function(item) {
+        var q = quantiteArticle(item);
+        var nom = String(item && item.name || "Produit").replace(/[<>]/g, "").slice(0, 80);
+        return q > 1 ? q + " × " + nom : nom;
+      })
+    };
   };
   function majCompteur() {
     var badge = document.getElementById("panierCount");
@@ -5112,6 +5117,7 @@ window.TRANSLATIONS = {
           if (etat.count > 0) {
             txtKey = "chat_cart_full";
             txt = ((dict && dict.chat_cart_full) ? dict.chat_cart_full : "Votre panier contient {n} article(s).").replace("{n}", String(etat.count));
+            if (etat.noms && etat.noms.length) txt += " " + etat.noms.join(", ");
           } else {
             txtKey = "chat_cart_empty";
             txt = (dict && dict.chat_cart_empty) ? dict.chat_cart_empty : "Votre panier est vide. Vous pouvez ajouter un produit depuis la boutique.";
