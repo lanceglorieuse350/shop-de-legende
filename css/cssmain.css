@@ -493,7 +493,10 @@ body.light-mode .music-widget select{background:#fff}
 #panierFlottant:hover img{transform:rotate(-12deg) scale(1.1)}
 #panierCount{display:none;background:#e10600;color:#fff;font-family:var(--font-ui);font-size:.8rem;font-weight:800;min-width:24px;height:24px;line-height:24px;border-radius:12px;padding:0 7px;text-align:center;box-shadow:0 0 12px rgba(225,6,0,0.8);border:1px solid rgba(255,255,255,0.4);margin-left:5px}
 #panierCount.bump{animation:cartBump .45s ease}
-#panierFlottant::after{content:"Voir le panier";position:absolute;top:calc(100% + 8px);right:0;background:rgba(0,0,0,.97);color:var(--gold-bright);border:1px solid var(--gold);border-radius:8px;padding:.5rem .9rem;font-family:var(--font-ui);font-size:.8rem;font-weight:700;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .25s ease,transform .25s ease;transform:translateY(-4px)}
+#panierToast{position:fixed;top:92px;right:14px;z-index:10000;background:#111;color:var(--gold);border:1px solid var(--gold);border-radius:8px;padding:.7rem 1rem;font-family:var(--font-ui);font-weight:700;opacity:0;pointer-events:none;transform:translateY(-6px);transition:opacity .2s ease,transform .2s ease}
+#panierToast.visible{opacity:1;transform:translateY(0)}
+#avisPaiement{position:fixed;left:50%;bottom:1.2rem;transform:translateX(-50%);z-index:10001;max-width:min(520px,calc(100% - 2rem));background:#111;color:#fff;border:1px solid var(--gold);border-radius:10px;padding:1rem 1.2rem;font-family:var(--font-ui);line-height:1.45;box-shadow:none}
+#panierFlottant::after{content:attr(data-tip);position:absolute;top:calc(100% + 8px);right:0;background:rgba(0,0,0,.97);color:var(--gold-bright);border:1px solid var(--gold);border-radius:8px;padding:.5rem .9rem;font-family:var(--font-ui);font-size:.8rem;font-weight:700;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .25s ease,transform .25s ease;transform:translateY(-4px)}
 #panierFlottant:hover::after{opacity:1;transform:translateY(0)}
 
 /* ============================================================

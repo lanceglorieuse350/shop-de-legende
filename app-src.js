@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   const baseUrl = window.location.origin + window.location.pathname;
+  var langueSite = "fr";
+  try { langueSite = localStorage.getItem("guillet_lang") || "fr"; } catch (e) {}
+  var languePanier = langueSite === "es" ? "es" : (langueSite === "fr" ? "fr" : "en");
 
   try {
     LeCart.init({
@@ -12,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
       checkoutEndpoint: window.location.origin + '/api/checkout',
       stripePublicKey: 'pk_live_51UNkYQRNu37iEZT9JFa1lJZFQ2eVox5wR6oSjl7A4MznYh5RypGYCqDTFVoaLrPEsV5r5XFRlLYmv85c6bzq8qCq00zNEhZHTn',
       currency: 'EUR',
-      language: 'fr',
+      language: languePanier,
       theme: 'dark',
       collectShippingAddress: true,
       collectPhoneNumber: true,
@@ -28,40 +31,75 @@ document.addEventListener('DOMContentLoaded', function() {
   const urlParams = new URLSearchParams(window.location.search);
   const checkoutStatus = urlParams.get('checkout');
 
-  if (checkoutStatus === 'success') {
+  if (checkoutStatus === 'success' || checkoutStatus === 'cancel') {
+    var cleAvis = checkoutStatus === 'success' ? 'pay_ok' : 'pay_cancel';
+    var texteAvis = checkoutStatus === 'success'
+      ? 'Paiement réussi. Le reçu, le numéro et le lien de suivi arrivent par e-mail. Aucun compte n\'est nécessaire.'
+      : 'Paiement annulé. Votre panier est conservé si vous souhaitez réessayer.';
     setTimeout(function() {
-      alert((window.__tr && window.__tr("pay_ok", '✅ Paiement réussi ! Merci pour votre commande.\n\nLe reçu, le numéro et le lien de suivi arrivent par e-mail. Aucun compte n\'est nécessaire.')) || '✅ Paiement réussi ! Merci pour votre commande.\n\nLe reçu, le numéro et le lien de suivi arrivent par e-mail. Aucun compte n\'est nécessaire.');
+      var avis = document.getElementById('avisPaiement');
+      if (!avis) {
+        avis = document.createElement('div');
+        avis.id = 'avisPaiement';
+        avis.setAttribute('role', 'status');
+        document.body.appendChild(avis);
+      }
+      avis.textContent = (window.__tr && window.__tr(cleAvis, texteAvis)) || texteAvis;
       window.history.replaceState({}, '', window.location.pathname + '#accueil');
-    }, 500);
-  } else if (checkoutStatus === 'cancel') {
-    setTimeout(function() {
-      alert((window.__tr && window.__tr("pay_cancel", '❌ Paiement annulé.\n\nVotre panier est conservé si vous souhaitez réessayer.')) || '❌ Paiement annulé.\n\nVotre panier est conservé si vous souhaitez réessayer.');
-      window.history.replaceState({}, '', window.location.pathname + '#accueil');
-    }, 500);
+    }, 400);
   }
 });
 (function(){
   "use strict";
+  function articlesPanier() {
+    var brut = null;
+    try {
+      if (typeof LeCart !== "undefined" && typeof LeCart.getCart === "function") brut = LeCart.getCart();
+    } catch (e) {}
+    if (!brut) {
+      try {
+        brut = JSON.parse(localStorage.getItem("lecart_cart") || localStorage.getItem("lecart-cart") || "[]");
+      } catch (e) { brut = []; }
+    }
+    if (brut && !Array.isArray(brut) && typeof brut === "object") brut = Object.values(brut);
+    return Array.isArray(brut) ? brut : [];
+  }
+  function quantiteArticle(item) {
+    var q = Number(item && (item.quantity || item.qty || item.q) || 1);
+    if (!Number.isFinite(q) || q < 1) q = 1;
+    return Math.min(99, Math.round(q));
+  }
+  function compterPanier(items) {
+    return items.reduce(function(total, item) { return total + quantiteArticle(item); }, 0);
+  }
+  window.__etatPanier = function() {
+    var items = articlesPanier();
+    return { count: compterPanier(items), lignes: items.length };
+  };
   function majCompteur() {
     var badge = document.getElementById("panierCount");
     if (!badge) return;
-    var count = 0;
-    try {
-      var cart = JSON.parse(localStorage.getItem("lecart_cart") || "[]");
-      if (Array.isArray(cart)) count = cart.length;
-      if (count === 0) {
-        var cart2 = JSON.parse(localStorage.getItem("lecart-cart") || "[]");
-        if (Array.isArray(cart2)) count = cart2.length;
-      }
-    } catch(e) { count = 0; }
-    if (typeof LeCart !== 'undefined' && typeof LeCart.getCart === 'function') {
-      try {
-        var c = LeCart.getCart();
-        if (Array.isArray(c)) count = c.length;
-      } catch(e) {}
+    var count = window.__etatPanier().count;
+    var bouton = document.getElementById("panierFlottant");
+    if (bouton) {
+      var tip = (typeof window.__tr === "function") ? window.__tr("cart_tip", "Voir le panier") : "Voir le panier";
+      bouton.setAttribute("data-tip", tip);
     }
     if (count > 0) { badge.style.display = "inline-block"; badge.textContent = count; }
     else { badge.style.display = "none"; }
+  }
+  function toastPanier() {
+    var toast = document.getElementById("panierToast");
+    if (!toast) {
+      toast = document.createElement("div");
+      toast.id = "panierToast";
+      toast.setAttribute("role", "status");
+      document.body.appendChild(toast);
+    }
+    toast.textContent = (typeof window.__tr === "function") ? window.__tr("cart_added", "Ajouté au panier") : "Ajouté au panier";
+    toast.classList.add("visible");
+    clearTimeout(toast._timer);
+    toast._timer = setTimeout(function() { toast.classList.remove("visible"); }, 1600);
   }
   document.addEventListener("DOMContentLoaded", majCompteur);
   window.addEventListener("lecart:cart-updated", majCompteur);
@@ -71,6 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener("lecart:quantity-changed", majCompteur);
   window.addEventListener("storage", function(e) { if (e.key && (e.key.includes("lecart") || e.key.includes("cart"))) majCompteur(); });
   setInterval(majCompteur, 1500);
+  window.__majCompteurPanier = majCompteur;
   document.addEventListener("click", function(e){
     var btn = e.target.closest("[data-lecart-add]");
     if (btn) {
@@ -83,6 +122,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       setTimeout(majCompteur, 300);
       setTimeout(majCompteur, 800);
+      toastPanier();
     }
   });
 })();
@@ -836,7 +876,7 @@ window.TRANSLATIONS = {
     order_mail_damaged: "Damaged parcel",
     order_mail_return: "Return request",
     order_mail_body: "Payment email:\\nOrder number: ",
-    order_chat: "📦 The order number is in your profile, under each order. The My order page shows the status and the tracking.",
+    order_chat: "📦 The order number and the tracking link arrive by email. If you have an account, they are also under each order in your profile.",
     status_paid: "Paid",
     status_shipped: "Shipped",
     status_delivered: "Delivered",
@@ -996,7 +1036,13 @@ window.TRANSLATIONS = {
     chat_menu_title: "Here are all the sections of the site:",
     chat_parrainage_reply: "🤝 Open a Boursorama account, subscribe to Starlink, sign up on Vinted, at Crédit Agricole or Octopus Energy with my referral links: info is pre-filled automatically!",
     chat_contact_reply: "📞 We are available from 9am to 8pm at <strong>07.80.20.47.49</strong>.",
-    chat_delivery_reply: "🚚 Delivery is <strong>fast and secure</strong>.",
+    chat_delivery_reply: "🚚 Delivery covers mainland France, usually within 2 to 5 business days after shipping.",
+    chat_pay_reply: "💳 Payment is by card on a secure Stripe page. No account is needed. The receipt arrives by email.",
+    chat_cart_empty: "🛒 Your cart is empty. You can add a product from the shop.",
+    chat_cart_full: "🛒 Your cart contains {n} item(s).",
+    chat_btn_open_cart: "Open the cart",
+    cart_added: "Added to cart",
+    cart_tip: "View cart",
     chat_drone_reply: "🎥 The <strong>Drone KY108</strong> (€89).",
     chat_proj_reply: "💡 The <strong>Solar LED Projector</strong> (€35).",
     chat_endo_reply: "🔍 The <strong>Endoscope</strong> (€95).",
@@ -1713,7 +1759,7 @@ window.TRANSLATIONS = {
     order_mail_damaged: "Повреждённая посылка",
     order_mail_return: "Запрос на возврат",
     order_mail_body: "Почта оплаты:\\nНомер заказа: ",
-    order_chat: "📦 Номер заказа находится в профиле, под каждым заказом. Страница «Мой заказ» показывает статус и отслеживание.",
+    order_chat: "📦 Номер заказа и ссылка для отслеживания приходят на почту. Если есть аккаунт, они также указаны в профиле под каждым заказом.",
     status_paid: "Оплачен",
     status_shipped: "Отправлен",
     status_delivered: "Доставлен",
@@ -1873,7 +1919,13 @@ window.TRANSLATIONS = {
     chat_menu_title: "Вот все разделы сайта:",
     chat_parrainage_reply: "🤝 Откройте счет Boursorama, подпишитесь на Starlink, зарегистрируйтесь на Vinted, в Crédit Agricole или Octopus Energy по моим реферальным ссылкам: информация заполняется автоматически!",
     chat_contact_reply: "📞 Мы доступны с 9:00 до 20:00 по телефону <strong>07.80.20.47.49</strong>.",
-    chat_delivery_reply: "🚚 Доставка <strong>быстрая и безопасная</strong>.",
+    chat_delivery_reply: "🚚 Доставка по материковой Франции, обычно за 2–5 рабочих дней после отправки.",
+    chat_pay_reply: "💳 Оплата картой на защищенной странице Stripe. Аккаунт не нужен. Чек приходит на почту.",
+    chat_cart_empty: "🛒 Корзина пуста. Товар можно добавить в магазине.",
+    chat_cart_full: "🛒 В корзине {n} шт.",
+    chat_btn_open_cart: "Открыть корзину",
+    cart_added: "Добавлено в корзину",
+    cart_tip: "Открыть корзину",
     chat_drone_reply: "🎥 <strong>Дрон KY108</strong> (89€).",
     chat_proj_reply: "💡 <strong>Солнечный светодиодный прожектор</strong> (35€).",
     chat_endo_reply: "🔍 <strong>Эндоскоп</strong> (95€).",
@@ -2590,7 +2642,7 @@ window.TRANSLATIONS = {
     order_mail_damaged: "包裹损坏",
     order_mail_return: "退货申请",
     order_mail_body: "付款邮箱：\\n订单号：",
-    order_chat: "📦 订单号在您的资料中，每笔订单下方。我的订单页面会显示状态和物流。",
+    order_chat: "📦 订单号和查询链接会发到邮箱。如果已有账户，也可在资料里每笔订单下方看到。",
     status_paid: "已付款",
     status_shipped: "已发货",
     status_delivered: "已送达",
@@ -2750,7 +2802,13 @@ window.TRANSLATIONS = {
     chat_menu_title: "以下是网站的所有部分：",
     chat_parrainage_reply: "🤝 使用我的推荐链接开设 Boursorama 账户、订阅 Starlink、在 Vinted、Crédit Agricole 或 Octopus Energy 上注册：信息会自动预填！",
     chat_contact_reply: "📞 我们的服务时间为上午 9 点至晚上 8 点，电话 <strong>07.80.20.47.49</strong>。",
-    chat_delivery_reply: "🚚 配送<strong>快速且安全</strong>。",
+    chat_delivery_reply: "🚚 配送范围是法国本土，发货后通常需要 2 到 5 个工作日。",
+    chat_pay_reply: "💳 在安全的 Stripe 页面用银行卡付款。无需账户。收据会发到邮箱。",
+    chat_cart_empty: "🛒 购物车是空的。可以在商店里添加商品。",
+    chat_cart_full: "🛒 购物车里有 {n} 件商品。",
+    chat_btn_open_cart: "打开购物车",
+    cart_added: "已加入购物车",
+    cart_tip: "查看购物车",
     chat_drone_reply: "🎥 <strong>KY108 无人机</strong>（89€）。",
     chat_proj_reply: "💡 <strong>太阳能 LED 投光灯</strong>（35€）。",
     chat_endo_reply: "🔍 <strong>内窥镜</strong>（95€）。",
@@ -3466,7 +3524,7 @@ window.TRANSLATIONS = {
     order_mail_damaged: "Paquete dañado",
     order_mail_return: "Solicitud de devolución",
     order_mail_body: "Correo del pago:\\nNúmero de pedido: ",
-    order_chat: "📦 El número de pedido está en su perfil, debajo de cada pedido. La página Mi pedido muestra el estado y el seguimiento.",
+    order_chat: "📦 El número y el enlace de seguimiento llegan por correo. Si tiene cuenta, también aparecen en el perfil, bajo cada pedido.",
     status_paid: "Pagado",
     status_shipped: "Enviado",
     status_delivered: "Entregado",
@@ -3626,7 +3684,13 @@ window.TRANSLATIONS = {
     chat_menu_title: "Estas son las secciones del sitio:",
     chat_parrainage_reply: "🤝 Abre una cuenta Boursorama, contrata Starlink o regístrate en Vinted, Crédit Agricole u Octopus Energy con mis enlaces: los datos se rellenan solos.",
     chat_contact_reply: "📞 Estamos disponibles de 9:00 a 20:00 en el <strong>07.80.20.47.49</strong>.",
-    chat_delivery_reply: "🚚 La entrega es <strong>rápida y segura</strong>.",
+    chat_delivery_reply: "🚚 La entrega cubre la Francia metropolitana, normalmente en 2 a 5 días laborables tras el envío.",
+    chat_pay_reply: "💳 El pago se hace con tarjeta en una página segura de Stripe. No hace falta una cuenta. El recibo llega por correo.",
+    chat_cart_empty: "🛒 Su cesta está vacía. Puede añadir un producto en la tienda.",
+    chat_cart_full: "🛒 Su cesta contiene {n} artículo(s).",
+    chat_btn_open_cart: "Abrir la cesta",
+    cart_added: "Añadido a la cesta",
+    cart_tip: "Ver la cesta",
     chat_drone_reply: "🎥 El <strong>dron KY108</strong> (89 €).",
     chat_proj_reply: "💡 El <strong>proyector LED solar</strong> (35 €).",
     chat_endo_reply: "🔍 El <strong>endoscopio</strong> (95 €).",
@@ -4322,7 +4386,7 @@ window.TRANSLATIONS = {
     order_mail_damaged: "荷物の破損",
     order_mail_return: "返品の依頼",
     order_mail_body: "支払いメール：\\n注文番号：",
-    order_chat: "📦 注文番号はプロフィールの各注文の下にあります。注文確認ページで状態と追跡を見られます。",
+    order_chat: "📦 注文番号と確認リンクはメールで届きます。アカウントがある場合は、プロフィールの各注文の下にも表示されます。",
     status_paid: "支払済み",
     status_shipped: "発送済み",
     status_delivered: "配達済み",
@@ -4480,7 +4544,13 @@ window.TRANSLATIONS = {
     chat_menu_title: "サイトのセクションはこちらです：",
     chat_parrainage_reply: "🤝 紹介リンクから Boursorama の口座を開き、Starlink に申し込み、Vinted、Crédit Agricole、Octopus Energy に登録できます。情報は自動で入力されます。",
     chat_contact_reply: "📞 9時から20時まで、<strong>07.80.20.47.49</strong> で対応しています。",
-    chat_delivery_reply: "🚚 配送は<strong>迅速で安全</strong>です。",
+    chat_delivery_reply: "🚚 配送はフランス本土で、発送後おおむね2〜5営業日です。",
+    chat_pay_reply: "💳 支払いは安全な Stripe のページでカード決済です。アカウントは不要です。領収書はメールで届きます。",
+    chat_cart_empty: "🛒 カートは空です。ショップから商品を追加できます。",
+    chat_cart_full: "🛒 カートには {n} 点入っています。",
+    chat_btn_open_cart: "カートを開く",
+    cart_added: "カートに追加しました",
+    cart_tip: "カートを見る",
     chat_drone_reply: "🎥 <strong>ドローン KY108</strong>（89€）。",
     chat_proj_reply: "💡 <strong>ソーラーLED投光器</strong>（35€）。",
     chat_endo_reply: "🔍 <strong>内視鏡</strong>（95€）。",
@@ -4620,6 +4690,7 @@ window.TRANSLATIONS = {
     applyAll();
     if (typeof window.refreshAuthLabels === "function") window.refreshAuthLabels();
     if (typeof window.refreshShopLabels === "function") window.refreshShopLabels();
+    if (typeof window.__majCompteurPanier === "function") window.__majCompteurPanier();
     var sel = document.getElementById("langSelect"); if (sel) sel.value = lang;
     try { localStorage.setItem("guillet_lang", lang); } catch(e){}
   };
@@ -5036,7 +5107,27 @@ window.TRANSLATIONS = {
       if (m) {
         var txtKey = m.reponseKey;
         var txt = (dict && dict[txtKey]) ? dict[txtKey] : m.reponse;
-        var opts = m.options ? m.options.filter(function(o){
+        if (m.intention === "panier") {
+          var etat = window.__etatPanier ? window.__etatPanier() : { count: 0 };
+          if (etat.count > 0) {
+            txtKey = "chat_cart_full";
+            txt = ((dict && dict.chat_cart_full) ? dict.chat_cart_full : "Votre panier contient {n} article(s).").replace("{n}", String(etat.count));
+          } else {
+            txtKey = "chat_cart_empty";
+            txt = (dict && dict.chat_cart_empty) ? dict.chat_cart_empty : "Votre panier est vide. Vous pouvez ajouter un produit depuis la boutique.";
+          }
+        }
+        var opts = m.intention === "panier"
+          ? [{
+              label: (dict && dict.chat_btn_open_cart) ? dict.chat_btn_open_cart : "Ouvrir le panier",
+              labelKey: "chat_btn_open_cart",
+              action: function(){ var b = document.getElementById("panierFlottant"); if (b) b.click(); }
+            }].concat(etat && etat.count === 0 ? [{
+              label: (dict && dict.chat_btn_shop) ? dict.chat_btn_shop : "🛒 Boutique",
+              labelKey: "chat_btn_shop",
+              action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produits"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); }
+            }] : [])
+          : (m.options ? m.options.filter(function(o){
           return o.labelKey !== "nav_order" || document.body.classList.contains("compte-connecte");
         }).map(function(o){
           return {
@@ -5044,7 +5135,7 @@ window.TRANSLATIONS = {
             labelKey: o.labelKey,
             action: o.action
           };
-        }) : null;
+        }) : null);
         reply(txt, opts, txtKey);
       } else {
         var keyU = "chat_unknown";
@@ -5073,9 +5164,10 @@ window.TRANSLATIONS = {
         var promptKey = "chat_prompt";
         var prompt = (dict && dict[promptKey]) ? dict[promptKey] : "Posez-moi une question :";
         reply(prompt, [
-          { labelKey: "chat_btn_menu",     label: "📋 Menu des pages", action: function(){ window.envoyerMessageChat("menu"); } },
           { labelKey: "chat_btn_prices",   label: "💶 Les prix",        action: function(){ window.envoyerMessageChat("prix"); } },
-          { labelKey: "chat_btn_delivery", label: "🚚 Livraison",       action: function(){ window.envoyerMessageChat("livraison"); } }
+          { labelKey: "chat_btn_delivery", label: "🚚 Livraison",       action: function(){ window.envoyerMessageChat("livraison"); } },
+          { labelKey: "chat_btn_open_cart", label: "🛒 Panier",         action: function(){ window.envoyerMessageChat("panier"); } },
+          { labelKey: "chat_btn_menu",     label: "📋 Menu des pages", action: function(){ window.envoyerMessageChat("menu"); } }
         ], promptKey);
       }, 900);
     }
@@ -5097,11 +5189,15 @@ window.TRANSLATIONS = {
       { intention: "parrainage", motsCles: ["parrainage","boursorama","starlink","vinted","credit","agricole","banque","compte","prime","parrain","internet","satellite","invitation","octopus","energie","électricité","紹介","紹介コード"], reponseKey: "chat_parrainage_reply", reponse: "🤝 Ouvre un compte Boursorama, souscris à Starlink, inscris-toi sur Vinted, au Crédit Agricole ou chez Octopus Energy avec mes liens de parrainage : les infos sont pré-remplies automatiquement !", options: [
         { labelKey: "chat_btn_parrainage", label: "🤝 Voir la page Parrainage", action: function(){ navigateTo("parrainage"); toggleChatbot(); } }
       ] },
-      { intention: "commande", motsCles: ["commande","suivi","order","pedido","заказ","订单","注文","tracking"], reponseKey: "order_chat", reponse: "📦 Le numéro de commande est dans votre profil, sous chaque commande. La page Ma commande affiche le statut et le suivi.", options: [
+      { intention: "panier", motsCles: ["panier","cart","cesta","корзина","购物车","カート","basket"], reponseKey: "chat_cart_empty", reponse: "Votre panier est vide.", options: [] },
+      { intention: "paiement", motsCles: ["payer","paiement","payment","pago","оплата","支付","支払い","stripe","checkout"], reponseKey: "chat_pay_reply", reponse: "Le paiement se fait par carte, sur une page Stripe sécurisée. Aucun compte n'est nécessaire. Le reçu arrive par e-mail.", options: [
+        { labelKey: "chat_btn_open_cart", label: "Ouvrir le panier", action: function(){ var b = document.getElementById("panierFlottant"); if (b) b.click(); } }
+      ] },
+      { intention: "commande", motsCles: ["commande","suivi","order","pedido","заказ","订单","注文","tracking"], reponseKey: "order_chat", reponse: "Le reçu, le numéro et le lien de suivi arrivent par e-mail. Aucun compte n'est nécessaire.", options: [
         { labelKey: "nav_order", label: "📦 Ma commande", action: function(){ navigateTo("commande"); toggleChatbot(); } }
       ] },
       { intention: "contact", motsCles: ["horaire","telephone","mail","contact","appeler","joindre","email","correo","contacto","телефон","联系","电话","連絡","電話","メール","問い合わせ"], reponseKey: "chat_contact_reply", reponse: "📞 Nous sommes disponibles de 9h à 20h au <strong>07.80.20.47.49</strong>." },
-      { intention: "livraison", motsCles: ["livraison","envoi","delai","colis","recevoir","expedition","delivery","entrega","envio","доставка","配送","配達","送料"], reponseKey: "chat_delivery_reply", reponse: "🚚 La livraison est <strong>rapide et sécurisée</strong>." },
+      { intention: "livraison", motsCles: ["livraison","envoi","delai","colis","recevoir","expedition","delivery","entrega","envio","доставка","配送","配達","送料"], reponseKey: "chat_delivery_reply", reponse: "La livraison se fait en France métropolitaine, en général sous 2 à 5 jours ouvrés après l'expédition." },
       { intention: "drone", motsCles: ["drone","ky108","camera","filmer","video","dron","дрон","无人机","ドローン"], reponseKey: "chat_drone_reply", reponse: "🎥 Le <strong>Drone KY108</strong> (89€).", options: [
         { labelKey: "chat_btn_see", label: "Voir", action: function(){ navigateTo("accueil"); setTimeout(function(){ var p = document.getElementById("produit-drone"); if (p) p.scrollIntoView({ behavior: "smooth" }); }, 100); toggleChatbot(); } }
       ] },
@@ -5119,11 +5215,20 @@ window.TRANSLATIONS = {
     ];
 
     function match(t){
-      var tx = t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\p{L}\p{N}\s]/gu, "");
+      function norm(s) {
+        return String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\p{L}\p{N}\s]/gu, " ").replace(/\s+/g, " ").trim();
+      }
+      var tx = norm(t);
       var mm = null, ms2 = 0;
       intents.forEach(function(item){
         var s = 0;
-        item.motsCles.forEach(function(mc){ if (tx.includes(mc)) s += 1; });
+        item.motsCles.forEach(function(mc){
+          var mot = norm(mc);
+          if (!mot) return;
+          if (mot.length < 5) {
+            if ((" " + tx + " ").indexOf(" " + mot + " ") !== -1) s += 1;
+          } else if (tx.indexOf(mot) !== -1) s += 1;
+        });
         if (s > ms2) { ms2 = s; mm = item; }
       });
       return ms2 > 0 ? mm : null;
