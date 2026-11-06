@@ -1959,10 +1959,14 @@
 </div>
 
 <!-- MESSAGE VISITEURS : change uniquement le texte de la balise p -->
-<div id="bulleMessage" style="position:fixed;left:1rem;top:46%;z-index:500;max-width:320px;background:#111;color:#fff;border:2px solid #ffd700;border-radius:18px;padding:1rem 1.1rem 1rem 1rem;box-shadow:0 10px 30px rgba(0,0,0,.7);font-family:Inter,sans-serif;">
+<div id="bulleMessage" style="position:fixed;left:1rem;top:46%;z-index:500;width:min(480px,calc(100vw - 2rem));background:#111;color:#fff;border:2px solid #ffd700;border-radius:18px;padding:1rem 1.1rem 1rem 1rem;box-shadow:0 10px 30px rgba(0,0,0,.7);font-family:Inter,sans-serif;">
   <button type="button" id="fermerBulle" aria-label="Fermer le message" style="position:absolute;top:.35rem;right:.45rem;background:transparent;border:none;color:#ffd700;font-size:1.2rem;cursor:pointer;line-height:1;">×</button>
   <strong style="display:block;color:#ffd700;font-family:Cinzel,serif;margin-bottom:.4rem;">GUILLET IV</strong>
-  <p id="texteBulle" style="margin:0;line-height:1.45;font-size:.95rem;max-height:220px;overflow-y:auto;white-space:pre-wrap;padding-right:.4rem;">bon bon 🔥 Après deux jours de recherche intensive, je peux vous dire que je ne souhaite ça à personne. 😅
+  <button type="button" id="ouvrirPhotoBulle" aria-label="Agrandir la photo" style="display:block;width:100%;margin:0 0 .35rem;padding:0;border:2px solid #ffd700;background:#fff;cursor:zoom-in;">
+    <img src="message-guillet-net.png" alt="Chaînes encodées" style="display:block;width:100%;height:auto;">
+  </button>
+  <span style="display:block;margin:0 0 .6rem;color:#ffd700;font-size:.8rem;font-weight:700;">Code encodé : \u003c \u003e \u0026</span>
+  <p id="texteBulle" style="margin:0;line-height:1.45;font-size:.95rem;max-height:180px;overflow-y:auto;white-space:pre-wrap;padding-right:.4rem;">bon bon 🔥 Après deux jours de recherche intensive, je peux vous dire que je ne souhaite ça à personne. 😅
 À la base, j'avais plusieurs fichiers JavaScript contenant notamment le panier, une partie du backend et différentes fonctionnalités du site. J'avais tout assemblé, minifié et obfusqué avant de l'intégrer dans une énorme structure  bulle if 
 Le problème ? J'ai perdu les fichiers sources d'origine...
 Je me suis donc retrouvé avec un seul fichier JavaScript géant, totalement minifié et obfusqué, sans aucune version exploitable des scripts initiaux.
@@ -1973,14 +1977,38 @@ Franchement, ça a été un cauchemar. Chaque ligne ressemblait à un puzzle et 
 Aujourd'hui, j'ai réussi à récupérer et comprendre l'essentiel du projet. Une expérience très enrichissante techniquement, mais clairement une aventure que je préfère ne pas revivre de sitôt. 😄
 Qui d'autre a déjà dû faire de la rétro-ingénierie sur son propre code après avoir perdu les sources ? 👇💻🚀</p>
 </div>
+<div id="zoomBulle" style="display:none;position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.94);overflow:auto;padding:4.2rem 1rem 2rem;">
+  <div style="position:fixed;top:1rem;right:1rem;display:flex;gap:.5rem;z-index:10001;">
+    <button type="button" id="zoomMoins" aria-label="Réduire" style="background:#111;color:#ffd700;border:2px solid #ffd700;font-size:1.2rem;width:44px;height:44px;cursor:pointer;">−</button>
+    <button type="button" id="zoomPlus" aria-label="Agrandir" style="background:#111;color:#ffd700;border:2px solid #ffd700;font-size:1.2rem;width:44px;height:44px;cursor:pointer;">+</button>
+    <button type="button" id="fermerZoomBulle" aria-label="Fermer le zoom" style="background:#111;color:#ffd700;border:2px solid #ffd700;font-size:1.4rem;width:44px;height:44px;cursor:pointer;">×</button>
+  </div>
+  <img id="photoZoomBulle" src="message-guillet-net.png" alt="Chaînes encodées agrandies" style="display:block;width:92vw;max-width:none;margin:0 auto;background:#fff;">
+</div>
 <script>
   (function () {
     var bulle = document.getElementById("bulleMessage");
     var texte = document.getElementById("texteBulle");
     var fermer = document.getElementById("fermerBulle");
+    var ouvrirPhoto = document.getElementById("ouvrirPhotoBulle");
+    var zoom = document.getElementById("zoomBulle");
+    var fermerZoom = document.getElementById("fermerZoomBulle");
+    var photo = document.getElementById("photoZoomBulle");
+    var plus = document.getElementById("zoomPlus");
+    var moins = document.getElementById("zoomMoins");
+    var niveau = 1;
+    function appliquerZoom() {
+      if (!photo) return;
+      var largeur = Math.max(320, window.innerWidth - 32);
+      photo.style.width = Math.round(largeur * niveau) + "px";
+    }
     if (!bulle || !texte) return;
     if (!texte.textContent.trim()) bulle.style.display = "none";
     if (fermer) fermer.addEventListener("click", function () { bulle.style.display = "none"; });
+    if (ouvrirPhoto && zoom) ouvrirPhoto.addEventListener("click", function () { niveau = 1; appliquerZoom(); zoom.style.display = "block"; });
+    if (fermerZoom && zoom) fermerZoom.addEventListener("click", function () { zoom.style.display = "none"; });
+    if (plus) plus.addEventListener("click", function () { niveau = Math.min(2.4, Math.round((niveau + 0.4) * 10) / 10); appliquerZoom(); });
+    if (moins) moins.addEventListener("click", function () { niveau = Math.max(1, Math.round((niveau - 0.4) * 10) / 10); appliquerZoom(); });
   })();
 </script>
 
