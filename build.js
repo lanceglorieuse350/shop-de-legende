@@ -7,7 +7,7 @@ const file = path.join(__dirname, 'app-src.js');
 const code = fs.readFileSync(file, 'utf8');
 
 const checks = [
-  ['clé LeCart du widget', 'lecart_-OZUZIxqFq8ZRfpbY1dSpoAz1SZRu2vwl9hjce7odpU'],
+  ['clé LeCart du widget', 'lecart_MOX19svMWrKuq9jrqnb_ubW4SYDI_0-SVd6cjpblfgs'],
   ['paiement via /api/checkout', "window.location.origin + '/api/checkout'"],
   ['clé publique Stripe', 'pk_live_51UNkYQRNu37iEZT9'],
   ['projet Supabase', 'https://wrhokeajjmupnxpfurcc.supabase.co'],
