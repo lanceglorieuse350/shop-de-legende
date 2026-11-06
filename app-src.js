@@ -2999,6 +2999,14 @@ window.TRANSLATIONS = {
   }
   const supabaseClient = window.supabaseClient;
 
+  async function oublierSessionExpiree(error) {
+    const message = (error && error.message) || "";
+    if (!/jwt expired|invalid jwt/i.test(message)) return false;
+    await supabaseClient.auth.signOut();
+    console.warn("[AUTH] Session expirée effacée. Recharge la page.");
+    return true;
+  }
+
   async function ensureClientRow(user) {
     if (!user || !user.id) return;
     const { data: existing, error: readError } = await supabaseClient
@@ -3008,6 +3016,7 @@ window.TRANSLATIONS = {
       .maybeSingle();
 
     if (readError) {
+      if (await oublierSessionExpiree(readError)) return;
       console.error('[AUTH] Lecture clients impossible :', readError.message);
       return;
     }
@@ -3695,9 +3704,18 @@ window.TRANSLATIONS = {
     }
 
     try {
-      const { data: dbProduits, error } = await supabaseClient
+      let { data: dbProduits, error } = await supabaseClient
         .from('produits')
         .select('stripe_price_id, stock');
+
+      if (error && /jwt expired|invalid jwt/i.test(error.message || "")) {
+        await supabaseClient.auth.signOut();
+        const retry = await supabaseClient
+          .from('produits')
+          .select('stripe_price_id, stock');
+        dbProduits = retry.data;
+        error = retry.error;
+      }
 
       if (error || !dbProduits) return;
 
