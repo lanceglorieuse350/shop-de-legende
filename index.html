@@ -976,8 +976,8 @@
         <li><a href="#incident" data-i18n="cyber_step10">🚨 Étape 10 — Que faire en cas d'incident ?</a></li>
         <li><a href="#conclusion-cyber" data-i18n="cyber_conclusion">🏁 Conclusion générale</a></li>
       </ul>
-    </nav>
-    <section class="cyber-section" id="mots-de-passe">
+    </nav> 
+    <section class="cyber-section" id="mots-de-passe"> 
       <h2 data-i18n="cyber_s1_title">🔑 Étape 1 — Les mots de passe enregistrés : confort, protection et vigilance</h2>
       <p data-i18n="cyber_s1_p1">Enregistrer ses mots de passe dans un fichier texte, une note non protégée ou un document partagé expose les comptes si le fichier est volé ou si l'appareil est compromis.</p>
     </section>
@@ -1957,6 +1957,32 @@
     </div>
   </div>
 </div>
+
+<!-- MESSAGE VISITEURS : change uniquement le texte de la balise p -->
+<div id="bulleMessage" style="position:fixed;left:1rem;top:46%;z-index:500;max-width:320px;background:#111;color:#fff;border:2px solid #ffd700;border-radius:18px;padding:1rem 1.1rem 1rem 1rem;box-shadow:0 10px 30px rgba(0,0,0,.7);font-family:Inter,sans-serif;">
+  <button type="button" id="fermerBulle" aria-label="Fermer le message" style="position:absolute;top:.35rem;right:.45rem;background:transparent;border:none;color:#ffd700;font-size:1.2rem;cursor:pointer;line-height:1;">×</button>
+  <strong style="display:block;color:#ffd700;font-family:Cinzel,serif;margin-bottom:.4rem;">GUILLET IV</strong>
+  <p id="texteBulle" style="margin:0;line-height:1.45;font-size:.95rem;max-height:220px;overflow-y:auto;white-space:pre-wrap;padding-right:.4rem;">bon bon 🔥 Après deux jours de recherche intensive, je peux vous dire que je ne souhaite ça à personne. 😅
+À la base, j'avais plusieurs fichiers JavaScript contenant notamment le panier, une partie du backend et différentes fonctionnalités du site. J'avais tout assemblé, minifié et obfusqué avant de l'intégrer dans une énorme structure  bulle if 
+Le problème ? J'ai perdu les fichiers sources d'origine...
+Je me suis donc retrouvé avec un seul fichier JavaScript géant, totalement minifié et obfusqué, sans aucune version exploitable des scripts initiaux.
+J'ai dû me lancer dans un véritable travail de rétro-ingénierie : déminifier le code, retrouver sa logique, comprendre les dépendances, identifier les différentes fonctions et reconstruire progressivement l'architecture d'origine.
+Franchement, ça a été un cauchemar. Chaque ligne ressemblait à un puzzle et chaque modification risquait de casser une autre partie du projet.
+✅ La bonne nouvelle, c'est qu'après des dizaines d'heures de travail, le panier fonctionne à nouveau et l'accès au lien de paiement est de nouveau opérationnel. Une énorme victoire après toute cette galère !
+📌 Morale de l'histoire : faites toujours des sauvegardes de vos fichiers sources, utilisez Git ou tout autre système de versioning et ne sous-estimez jamais l'importance d'une bonne organisation de projet. Le temps perdu à reconstruire un code obfusqué est bien plus important que celui nécessaire pour mettre en place de bonnes pratiques.
+Aujourd'hui, j'ai réussi à récupérer et comprendre l'essentiel du projet. Une expérience très enrichissante techniquement, mais clairement une aventure que je préfère ne pas revivre de sitôt. 😄
+Qui d'autre a déjà dû faire de la rétro-ingénierie sur son propre code après avoir perdu les sources ? 👇💻🚀</p>
+</div>
+<script>
+  (function () {
+    var bulle = document.getElementById("bulleMessage");
+    var texte = document.getElementById("texteBulle");
+    var fermer = document.getElementById("fermerBulle");
+    if (!bulle || !texte) return;
+    if (!texte.textContent.trim()) bulle.style.display = "none";
+    if (fermer) fermer.addEventListener("click", function () { bulle.style.display = "none"; });
+  })();
+</script>
 
 <!-- ============================================================ -->
 <!-- Script  -          -->
