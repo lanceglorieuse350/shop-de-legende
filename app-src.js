@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (checkoutStatus === 'success') {
     setTimeout(function() {
-      alert((window.__tr && window.__tr("pay_ok", '✅ Paiement réussi ! Merci pour votre commande.\n\nUn e-mail de confirmation vous sera envoyé.')) || '✅ Paiement réussi ! Merci pour votre commande.\n\nUn e-mail de confirmation vous sera envoyé.');
+      alert((window.__tr && window.__tr("pay_ok", '✅ Paiement réussi ! Merci pour votre commande.\n\nLe reçu, le numéro et le lien de suivi arrivent par e-mail. Aucun compte n\'est nécessaire.')) || '✅ Paiement réussi ! Merci pour votre commande.\n\nLe reçu, le numéro et le lien de suivi arrivent par e-mail. Aucun compte n\'est nécessaire.');
       window.history.replaceState({}, '', window.location.pathname + '#accueil');
     }, 500);
   } else if (checkoutStatus === 'cancel') {
@@ -856,7 +856,7 @@ window.TRANSLATIONS = {
     btn_saved: "✅ Profile updated",
     btn_error: "Error: ",
     btn_cart: "Cart",
-    pay_ok: "✅ Payment successful! Thank you for your order.\n\nA confirmation email will be sent.",
+    pay_ok: "✅ Payment successful! Thank you for your order.\n\nThe receipt, order number and tracking link are on their way by email. No account is needed.",
     pay_cancel: "❌ Payment cancelled.\n\nYour cart is kept if you want to try again.",
     btn_send: "Send",
     btn_close_chat: "Close chat",
@@ -1733,7 +1733,7 @@ window.TRANSLATIONS = {
     btn_saved: "✅ Профиль обновлён",
     btn_error: "Ошибка: ",
     btn_cart: "Корзина",
-    pay_ok: "✅ Оплата прошла! Спасибо за заказ.\n\nПисьмо с подтверждением будет отправлено.",
+    pay_ok: "✅ Оплата прошла! Спасибо за заказ.\n\nЧек, номер и ссылка для отслеживания придут на почту. Аккаунт не нужен.",
     pay_cancel: "❌ Оплата отменена.\n\nКорзина сохранена, если вы хотите попробовать снова.",
     btn_send: "Отправить",
     btn_close_chat: "Закрыть чат",
@@ -2610,7 +2610,7 @@ window.TRANSLATIONS = {
     btn_saved: "✅ 资料已更新",
     btn_error: "错误：",
     btn_cart: "购物车",
-    pay_ok: "✅ 支付成功！感谢您的订单。\n\n确认邮件将会发送给您。",
+    pay_ok: "✅ 支付成功！感谢您的订单。\n\n收据、订单号和查询链接将发送到邮箱。无需注册账户。",
     pay_cancel: "❌ 支付已取消。\n\n如果您想重试，购物车会保留。",
     btn_send: "发送",
     btn_close_chat: "关闭聊天",
@@ -3486,7 +3486,7 @@ window.TRANSLATIONS = {
     btn_saved: "✅ Perfil actualizado",
     btn_error: "Error: ",
     btn_cart: "Cesta",
-    pay_ok: "✅ ¡Pago realizado! Gracias por su pedido.\n\nSe enviará un correo de confirmación.",
+    pay_ok: "✅ ¡Pago realizado! Gracias por su pedido.\n\nEl recibo, el número y el enlace de seguimiento llegan por correo. No hace falta una cuenta.",
     pay_cancel: "❌ Pago cancelado.\n\nSu cesta se conserva si desea intentarlo de nuevo.",
     btn_send: "Enviar",
     btn_close_chat: "Cerrar el chat",
@@ -4342,7 +4342,7 @@ window.TRANSLATIONS = {
     btn_saved: "✅ プロフィールを更新しました",
     btn_error: "エラー：",
     btn_cart: "カート",
-    pay_ok: "✅ 支払いが完了しました。ご注文ありがとうございます。\n\n確認メールをお送りします。",
+    pay_ok: "✅ 支払いが完了しました。ご注文ありがとうございます。\n\n領収書、注文番号、確認リンクをメールでお送りします。アカウントは不要です。",
     pay_cancel: "❌ 支払いがキャンセルされました。\n\n再試行できるよう、カートは保持されています。",
     btn_send: "送信",
     btn_close_chat: "チャットを閉じる",
@@ -4650,14 +4650,17 @@ window.TRANSLATIONS = {
     // ==========================================
     window.navigateTo = function(p, a){
       if (a === undefined) a = null;
-      if (p === "commande" && !document.body.classList.contains("compte-connecte")) {
+      if (p === "commande" && !document.body.classList.contains("compte-connecte") && !window.__suiviInvite) {
         window.__commandeDemandee = true;
         p = "accueil";
       }
       document.querySelectorAll(".page-section").forEach(function(s){ s.classList.remove("active"); });
       var t = document.getElementById("page-" + p); if (t) t.classList.add("active");
       var newHash = "#" + p;
-      if (location.hash !== newHash) history.pushState(null, null, newHash);
+      var garderSuivi = p === "commande" && window.__suiviInvite;
+      var prochaine = location.pathname + (garderSuivi ? location.search : "") + newHash;
+      if (location.pathname + location.search + location.hash !== prochaine) history.pushState(null, null, prochaine);
+      if (p !== "commande") window.__suiviInvite = null;
       document.querySelectorAll(".nav-link").forEach(function(l){ l.classList.remove("active-link"); if (l.getAttribute("href") === newHash) l.classList.add("active-link"); });
       if (p === "commande" && window.__compteEmail) {
         var champEmail = document.getElementById("orderEmail");
@@ -5358,7 +5361,7 @@ window.TRANSLATIONS = {
       authBtn.setAttribute("data-logged-in", "false");
       window.__commandeDemandee = false;
       var pageCommande = document.getElementById("page-commande");
-      if (pageCommande && pageCommande.classList.contains("active") && typeof window.navigateTo === "function") {
+      if (pageCommande && pageCommande.classList.contains("active") && !window.__suiviInvite && typeof window.navigateTo === "function") {
         window.navigateTo("accueil");
       }
     }
@@ -6054,6 +6057,26 @@ window.TRANSLATIONS = {
 (function () {
   "use strict";
 
+  function lireSuiviInvite() {
+    try {
+      var params = new URLSearchParams(window.location.search);
+      var brut = String(params.get("suivi") || "").trim().toLowerCase();
+      var email = String(params.get("e") || "").trim().toLowerCase();
+      var compact = brut.replace(/-/g, "");
+      if (!/^[0-9a-f]{32}$/.test(compact)) return null;
+      if (email.length < 6 || email.length > 120 || /[%_*]/.test(email)) return null;
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return null;
+      return {
+        id: compact.replace(/^(.{8})(.{4})(.{4})(.{4})(.{12})$/, "$1-$2-$3-$4-$5"),
+        email: email
+      };
+    } catch (e) {
+      return null;
+    }
+  }
+
+  window.__suiviInvite = lireSuiviInvite();
+
   function tr(key, fallback) {
     return (typeof window.__tr === "function") ? window.__tr(key, fallback) : fallback;
   }
@@ -6164,5 +6187,12 @@ window.TRANSLATIONS = {
         if (message) message.textContent = tr("order_not_found", "Aucune commande ne correspond à cet e-mail et à ce numéro.");
       });
     });
+    if (window.__suiviInvite) {
+      var champEmail = document.getElementById("orderEmail");
+      var champRef = document.getElementById("orderRef");
+      if (champEmail) champEmail.value = window.__suiviInvite.email;
+      if (champRef) champRef.value = window.__suiviInvite.id;
+      form.requestSubmit();
+    }
   });
 })();
