@@ -57,7 +57,7 @@ p{margin:0 0 1.1rem}
 @keyframes badgeBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 @keyframes chatOpen{from{opacity:0;transform:scale(.85) translateY(12px)}to{opacity:1;transform:scale(1) translateY(0)}}
 @keyframes cartBump{0%{transform:scale(1)}35%{transform:scale(1.5)}70%{transform:scale(.9)}100%{transform:scale(1)}}
-@keyframes mapPulse{0%{transform:scale(.6);opacity:.8}70%{transform:scale(1.8);opacity:0}100%{transform:scale(1.8);opacity:0}}
+@keyframes mapPulse{0%{transform:scale(.85);opacity:.9}70%{transform:scale(2.15);opacity:0}100%{transform:scale(2.15);opacity:0}}
 @keyframes pulse-stock{0%{opacity:1}50%{opacity:.4}100%{opacity:1}}
 
 .page-section{display:none;animation:fadeIn 0.3s ease}
@@ -523,11 +523,11 @@ body.light-mode #chat-input::placeholder{color:#555}
 #maintenance-page .maintenance-info{font-family:'Inter',sans-serif;font-size:1.08rem;color:var(--text-muted);margin:0 0 2.2rem;line-height:1.7}
 .maintenance-stats-box{background:rgba(255,255,255,0.04);border:1px solid rgba(255,215,0,0.3);border-radius:12px;padding:1.7rem;max-width:100%;margin:0 auto 2.2rem;box-shadow:0 6px 22px rgba(0,0,0,0.6);width:100%}
 .maintenance-stats-box h3{font-family:'Inter',sans-serif;font-size:.95rem;color:var(--gold-bright);text-transform:uppercase;letter-spacing:0.12em;margin:0 0 1.2rem;display:flex;align-items:center;justify-content:center;gap:0.6rem;font-weight:800}
-.world-map-container{margin:0 auto 1.7rem;padding:.5rem;background:rgba(0,0,0,0.3);border:2px solid rgba(255,215,0,0.6);border-radius:12px;box-shadow:inset 0 0 20px rgba(0,0,0,0.8), 0 4px 20px rgba(0,0,0,0.7);overflow:hidden;position:relative}
-.world-map-img{width:100%;height:auto;display:block;filter: invert(0.88) hue-rotate(180deg) brightness(1.1) contrast(1.1);border-radius:8px}
-.visitor-dot .dot-core{fill:#e10600;stroke:#fff;stroke-width:2;filter:drop-shadow(0 0 8px rgba(225,6,0,1))}
-.visitor-dot .dot-pulse{fill:#e10600;opacity:.65;transform-origin:center;transform-box:fill-box;animation:mapPulse 2s ease-out infinite}
-.visitor-dot .dot-label{fill:#ffd700;font-family:'Inter',sans-serif;font-size:16px;font-weight:900;text-anchor:middle;paint-order:stroke;stroke:#000;stroke-width:4px;stroke-linejoin:round;letter-spacing:.05em}
+.world-map-container{margin:0 auto 1.7rem;padding:.45rem;background:#061018;border:2px solid #ffd700;border-radius:14px;box-shadow:0 0 0 4px rgba(255,215,0,.18);overflow:hidden;position:relative}
+.world-map-img{width:100%;height:auto;display:block;filter:invert(.9) hue-rotate(175deg) saturate(1.45) brightness(1.2) contrast(1.2);border-radius:10px}
+.visitor-dot .dot-core{fill:#ff1a1a;stroke:#fff;stroke-width:2.5;filter:drop-shadow(0 0 6px #ff2a2a)}
+.visitor-dot .dot-pulse{fill:#ff2a2a;opacity:.85;transform-origin:center;transform-box:fill-box;animation:mapPulse 1.8s ease-out infinite}
+.visitor-dot .dot-label{fill:#ffe97a;font-family:'Inter',sans-serif;font-size:18px;font-weight:800;text-anchor:middle;paint-order:stroke;stroke:#000;stroke-width:5px;stroke-linejoin:round;letter-spacing:.04em}
 .visitor-dot:nth-child(2) .dot-pulse{animation-delay:.2s}
 .visitor-dot:nth-child(3) .dot-pulse{animation-delay:.4s}
 .visitor-dot:nth-child(4) .dot-pulse{animation-delay:.6s}
