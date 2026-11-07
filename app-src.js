@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 (function(){
   "use strict";
-  var FORCER_MAINTENANCE = false;
+  var FORCER_MAINTENANCE = true;
   function getPage(){ return document.getElementById("maintenance-page"); }
   function getContenu(){
     return [
@@ -1037,7 +1037,7 @@ window.TRANSLATIONS = {
     prevention_footer_note: "Information from the French Penal Code (Légifrance). Last update: 2026.",
 
     chat_hello: "👋 Hello and welcome to <strong>GUILLET IV</strong>!",
-    chat_prompt: "Ask me a question:",
+    chat_prompt: "Choose a subject, or type your question:",
     chat_unknown: "I'm not sure I understand 🤔",
     chat_menu_title: "Here are all the sections of the site:",
     chat_parrainage_reply: "🤝 Open a Boursorama account, subscribe to Starlink, sign up on Vinted, at Crédit Agricole or Octopus Energy with my referral links: info is pre-filled automatically!",
@@ -1920,7 +1920,7 @@ window.TRANSLATIONS = {
     prevention_footer_note: "Информация из французского Уголовного кодекса (Légifrance). Последнее обновление: 2026.",
 
     chat_hello: "👋 Здравствуйте и добро пожаловать в <strong>GUILLET IV</strong>!",
-    chat_prompt: "Задайте мне вопрос:",
+    chat_prompt: "Выберите тему или напишите вопрос:",
     chat_unknown: "Я не уверен, что понимаю 🤔",
     chat_menu_title: "Вот все разделы сайта:",
     chat_parrainage_reply: "🤝 Откройте счет Boursorama, подпишитесь на Starlink, зарегистрируйтесь на Vinted, в Crédit Agricole или Octopus Energy по моим реферальным ссылкам: информация заполняется автоматически!",
@@ -2803,7 +2803,7 @@ window.TRANSLATIONS = {
     prevention_footer_note: "信息来自法国刑法典 (Légifrance)。最后更新：2026 年。",
 
     chat_hello: "👋 您好，欢迎来到 <strong>GUILLET IV</strong>！",
-    chat_prompt: "问我一个问题：",
+    chat_prompt: "请选择一个主题，或直接输入问题：",
     chat_unknown: "我不确定我明白了 🤔",
     chat_menu_title: "以下是网站的所有部分：",
     chat_parrainage_reply: "🤝 使用我的推荐链接开设 Boursorama 账户、订阅 Starlink、在 Vinted、Crédit Agricole 或 Octopus Energy 上注册：信息会自动预填！",
@@ -3685,7 +3685,7 @@ window.TRANSLATIONS = {
     prevention_footer_note: "Información del Código penal francés (Légifrance). Última actualización: 2026.",
 
     chat_hello: "👋 Hola y bienvenido a <strong>GUILLET IV</strong>.",
-    chat_prompt: "Hágame una pregunta:",
+    chat_prompt: "Elija un tema o escriba su pregunta:",
     chat_unknown: "No estoy seguro de entender 🤔",
     chat_menu_title: "Estas son las secciones del sitio:",
     chat_parrainage_reply: "🤝 Abre una cuenta Boursorama, contrata Starlink o regístrate en Vinted, Crédit Agricole u Octopus Energy con mis enlaces: los datos se rellenan solos.",
@@ -4545,7 +4545,7 @@ window.TRANSLATIONS = {
     call_3018_btn: "📞 3018 に電話",
     prevention_footer_note: "フランス刑法典（Légifrance）に基づく情報。最終更新：2026年。",
     chat_hello: "👋 こんにちは。<strong>GUILLET IV</strong> へようこそ！",
-    chat_prompt: "質問をどうぞ：",
+    chat_prompt: "テーマを選ぶか、質問を入力してください：",
     chat_unknown: "うまく理解できませんでした 🤔",
     chat_menu_title: "サイトのセクションはこちらです：",
     chat_parrainage_reply: "🤝 紹介リンクから Boursorama の口座を開き、Starlink に申し込み、Vinted、Crédit Agricole、Octopus Energy に登録できます。情報は自動で入力されます。",
@@ -5169,7 +5169,7 @@ window.TRANSLATIONS = {
       setTimeout(function(){ addMsg(hello, "bot", null, helloKey); }, 200);
       setTimeout(function(){
         var promptKey = "chat_prompt";
-        var prompt = (dict && dict[promptKey]) ? dict[promptKey] : "Posez-moi une question :";
+        var prompt = (dict && dict[promptKey]) ? dict[promptKey] : "Choisissez un sujet, ou écrivez votre question :";
         reply(prompt, [
           { labelKey: "chat_btn_prices",   label: "💶 Les prix",        action: function(){ window.envoyerMessageChat("prix"); } },
           { labelKey: "chat_btn_delivery", label: "🚚 Livraison",       action: function(){ window.envoyerMessageChat("livraison"); } },
