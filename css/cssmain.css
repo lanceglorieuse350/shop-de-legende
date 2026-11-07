@@ -491,6 +491,7 @@ body.light-mode .music-widget select{background:#fff}
 #panierFlottant:hover{transform:translateY(-2px) scale(1.05);box-shadow:0 10px 30px rgba(255,215,0,0.75)}
 #panierFlottant img{height:24px;width:auto;display:block;transition:transform .35s ease}
 #panierFlottant:hover img{transform:rotate(-12deg) scale(1.1)}
+.lecart-badge{display:none !important}
 #panierCount{display:none;background:#e10600;color:#fff;font-family:var(--font-ui);font-size:.8rem;font-weight:800;min-width:24px;height:24px;line-height:24px;border-radius:12px;padding:0 7px;text-align:center;box-shadow:0 0 12px rgba(225,6,0,0.8);border:1px solid rgba(255,255,255,0.4);margin-left:5px}
 #panierCount.bump{animation:cartBump .45s ease}
 #panierToast{position:fixed;top:92px;right:14px;z-index:10000;background:#111;color:var(--gold);border:1px solid var(--gold);border-radius:8px;padding:.7rem 1rem;font-family:var(--font-ui);font-weight:700;opacity:0;pointer-events:none;transform:translateY(-6px);transition:opacity .2s ease,transform .2s ease}

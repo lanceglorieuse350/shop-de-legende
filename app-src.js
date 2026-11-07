@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
       currency: 'EUR',
       language: languePanier,
       theme: 'dark',
+      showCartBadge: false,
       collectShippingAddress: true,
       collectPhoneNumber: true,
       successUrl: baseUrl + '?checkout=success',
