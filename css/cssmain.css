@@ -539,6 +539,7 @@ body.light-mode #chat-input::placeholder{color:#555}
 .visitor-dot:nth-child(10) .dot-pulse{animation-delay:1.8s}
 .visitor-dot:nth-child(11) .dot-pulse{animation-delay:2s}
 .visitor-dot:nth-child(12) .dot-pulse{animation-delay:2.2s}
+.visitor-dot:nth-child(13) .dot-pulse{animation-delay:2.4s}
 @media(prefers-reduced-motion:reduce){.visitor-dot .dot-pulse{animation:none;opacity:.3}}
 .stats-table{width:100%;border-collapse:collapse;font-family:'Inter',sans-serif;font-size:.95rem}
 .stats-table th{text-align:left;color:var(--text-dim);font-weight:700;font-size:.8rem;padding:.6rem 0;border-bottom:1px solid rgba(255,255,255,0.15);text-transform:uppercase;letter-spacing:.05em}
